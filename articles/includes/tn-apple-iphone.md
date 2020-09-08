@@ -1,0 +1,1 @@
+<span data-ttu-id="48d0e-101">Apple iPhone</span><span class="sxs-lookup"><span data-stu-id="48d0e-101">Apple iPhone</span></span>
