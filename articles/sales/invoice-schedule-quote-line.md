@@ -1,5 +1,5 @@
 ---
-title: faktureringsscheman på projektbaserade offertrader
+title: Faktureringsscheman på projektbaserade offertrader
 description: I det här ämnet finns information om hur du skapar faktureringsscheman och milstolpar för offertrader.
 author: rumant
 manager: Annbe
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908655"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085473"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Faktureringsscheman på projektbaserade offertrader
 
@@ -32,7 +32,7 @@ När faktureringsmetoden för en projektbaserad offertrad är Tid och material g
 3. Öppna offertraden för tid och material som du behöver skapa ett datumbaserat faktureringsschema för. 
 4. Under fliken **Faktureringsschema** väljer du värden i fälten **Faktureringsstart** och **Faktureringsfrekvens**. 
 5. I underrutnätet väljer du **Generera faktureringsschema**.
-6. Programmet genererar faktureringsschemat med fälten **Fakturans kördatum**, **Transaktionens sista datum** och **Körstatus** på följande sätt:
+6. Programmet genererar faktureringsschemat med fälten **Fakturans kördatum** , **Transaktionens sista datum** och **Körstatus** på följande sätt:
 
     - **Fakturans kördatum** är inställt på det datum som dikteras utifrån faktureringsfrekvensen.
     - **Transaktionens sista datum** har angetts till dagen före **fakturans kördatum**.

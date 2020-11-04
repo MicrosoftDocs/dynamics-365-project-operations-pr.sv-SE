@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898238"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085647"
 ---
 # <a name="pricing-dimensions-overview"></a>Översikt över prissättningsdimensioner
 
@@ -36,8 +35,8 @@ Dimensionerna som används i personal för att ställa in priser och kostnader f
 
 Därför finns det två typer av dimensionsvärden för prissättning tillgängliga:
 
-- **Alternativuppsättningar**: dimensioner som är fasta uppräkningar för en uppsättning värden.
-- **Entitetsbaserade värden**: dimensioner som kan vara en varierad uppsättning värden.
+- **Alternativuppsättningar** : dimensioner som är fasta uppräkningar för en uppsättning värden.
+- **Entitetsbaserade värden** : dimensioner som kan vara en varierad uppsättning värden.
 
 ## <a name="pricing-dimensions"></a>Prissättningsdimensioner
 
@@ -48,7 +47,7 @@ Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare a
 ## <a name="pricing-human-resource-time"></a>Prissättning av mänsklig resurs
 Hur en organisation prissätter mänsklig resurs är ofta ett viktigt strategiskt övervägande som påverkar organisationens lönsamhet direkt. Arbeta med ekonomiteamen och övningsrubriker när organisationen är klar att identifiera hur fakturering och kostnader för personaltid ska konfigureras.
 
-Andra faktorer för prissättningen är om återanvända fält eller entiteter som inte för närvarande är prissättningsdimensioner men som används som prissättningsdimensioner för organisationen. Fält som **transaktionskategori** (**msdyn_transactioncategory**) och **bokningsbar resurs** (**bookableresource**) är exempel på sökande dimensioner. 
+Andra faktorer för prissättningen är om återanvända fält eller entiteter som inte för närvarande är prissättningsdimensioner men som används som prissättningsdimensioner för organisationen. Fält som **transaktionskategori** ( **msdyn_transactioncategory** ) och **bokningsbar resurs** ( **bookableresource** ) är exempel på sökande dimensioner. 
 
 Fundera över om prissättningsdimensionen ska vara en tabell eller en alternativuppsättning. Om du förväntar dig ändringar av värden i en dimension som blir större än 10 eller 12 och du behöver ytterligare attribut för dessa värden kan du skapa en entitet i stället för en alternativuppsättning. Om du underhåller en alternativuppsättning, t.ex. lägga till eller ta bort värden, krävs en administratör eller utvecklare för att kunna lägga till nya rader i en tabell kan utföras av de flesta användare.
 

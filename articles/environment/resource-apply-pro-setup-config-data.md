@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085413"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurera och använda konfigurationsdata i Common Data Service för Project Operations
 
@@ -27,7 +27,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 ![Konfigurationsmigrering](./media/1ConfigurationMigration.png)
 
-4. På sidan 2 i guiden CMT väljer du **Office 365** som **Distributionstyp**.
+4. På sidan 2 i guiden CMT väljer du **Microsoft 365** som **Distributionstyp**.
 5. Markera kryssrutorna **Visa en lista över tillgängliga organisationer** och **Visa avancerat**.
 6. Välj region för klientorganisationen, ange autentiseringsuppgifter och välj **Logga in**.
 
@@ -83,7 +83,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 ![Ny bokningsbar resurs](./media/9NewBookableResource.png)
 
-4. Under fliken **Schemaläggning**, i fältet **Företag**, väljer du företaget **USPM** och sedan **Spara**. 
+4. Under fliken **Schemaläggning** , i fältet **Företag** , väljer du företaget **USPM** och sedan **Spara**. 
 
 ![Fliken Schemaläggning](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
  
 12. Uppdatera följande fält:
 
- - **Standardföretag**: USPM
- - **Standardorganisationsenhet**: Contoso Robotics Global
- - **Faktureringsfrekvens**: sjunde och sista dagen
- - **Arbetstidsmall**: ändra till den mall du skapade.
+ - **Standardföretag** : USPM
+ - **Standardorganisationsenhet** : Contoso Robotics Global
+ - **Faktureringsfrekvens** : sjunde och sista dagen
+ - **Arbetstidsmall** : ändra till den mall du skapade.
 
 13. Välj **Spara**. 
 

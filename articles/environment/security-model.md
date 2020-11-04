@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085425"
 ---
 # <a name="security-model"></a>Säkerhetsmodell
 
@@ -36,10 +36,11 @@ Klientdesfunktioner i Projet Operations innehåller följande roller:
 
 
 Microsoft Project for the Web innehåller följande roller:
-| Roll                          | Beskrivning                                                                                                          | Omfång |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projektanvändare | Samarbetande användare av Project som kan skapa sina egna projekt och visa projekt som delas med dem.| Användare|
-| Projektsystem | Roll som används för programsammanhang. Kunderna bör inte använda den här systemrollen. | Global|
+
+| Roll           | Beskrivning                                                                                                        | Omfång  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projektanvändare   | Samarbetande användare av Project som kan skapa sina egna projekt och visa projekt som delas med dem. | Användare   |
+| Projektsystem | Roll som används för programsammanhang. Kunderna bör inte använda den här systemrollen.                                    | Global |
 
 ## <a name="security-enforcement"></a>Säkerhet
 Åtgärder som utförs på projektnivå utförs i den inloggade användarens kontext. Det innebär att om du ska kunna skapa, öppna eller ta bort ett projekt måste användaren ha åtkomst tillgänglig i CDS. Åtkomst i CDS kan beviljas via alla tänkbara mekanismer som ingår i plattformen. En användare med större omfång kan till exempel komma åt projektet eller om en uttrycklig åtgärd för projektdelning har utförts som ger användaren åtkomst.
@@ -56,6 +57,8 @@ Med grupper kan projektets behörigheter och stödjande samarbetsartefakter arbe
 Project Operations innebär inte att en grupp skapas genom en implicit åtgärd och utförs endast med hjälp av en uttrycklig åtgärd av att trycka på grupper.
 
 Sökning efter gruppmedlem i dialogrutan **Grupp hantering** är begränsad till dem som har angetts som en del av miljöns säkerhetsgrupp. Läs mer: [Styra användarnas åtkomst till miljöer: säkerhetsgrupper och licenser](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Gruppläge](./media/groupsmode.png)
 
 1. Projektet skapas och ägs av användaren som skapar.
 2. Projektägaren uppdateras till teamet.

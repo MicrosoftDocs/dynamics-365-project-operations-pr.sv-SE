@@ -3,17 +3,17 @@ title: Registrera dig för prenumerationer på förhandsversioner av Project Ope
 description: I det här ämnet finns information om hur du prenumererar på och distribuerar Project Operations för resursbaserade/icke lagerbaserade scenarier.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085426"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrera dig för prenumerationer på förhandsversioner av Project Operations för resursbaserade/icke lagerbaserade scenarier
 
@@ -29,48 +29,53 @@ I det här ämnet beskrivs hur du prenumererar på förhandsversioner/partnererb
 
 ## <a name="subscribe"></a>Prenumerera
 
-När din [begäran av förhandsversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) godkänns får du två erbjudanden från Microsoft via e-post. Med de här erbjudandena kan du distribuera förhandsversionen av Project Operations:
+När din [begäran av förhandsversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) godkänns får du tre erbjudanden från Microsoft via e-post. Med de här erbjudandena kan du distribuera förhandsversionen av Project Operations:
 
-- Dynamics 365 Project Operations – utvärdering av förhandsversion
-- Utvärdering av förhandsversion av Dynamics 365 for Finance and Operations.
+- Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion
+- Office 365 Project Operations – utvärdering av förhandsversion
+- Dynamics 365 Finance – utvärdering av förhandsversion
 
 > [!IMPORTANT]
 > Endast en person, klientadministratören, i en organisation behöver utföra den här uppgiften. Om du inte är prenumerant på den här versionen väntar du tills din organisation har registrerats och du har fått dina användarautentiseringsuppgifter.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – utvärdering av förhandsversion
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion 
 
-1. Hämta det första erbjudandet, **Utvärdering av Dynamics 365 Project Operations**, med URL tillhandahållen i ditt välkomstmeddelande.
+Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med användarkontot för arbete i klientorganisationen där du vill använda förhandsversionen av Project Operations.
 
-![Första erbjudandet](./media/1FirstOffer.png)
+1. Lös in den första erbjudandekoden, **Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion** genom att klistra in den i webbläsarens URL.
 
-2. Kontrollera att du är inloggad som den användare som tillhör organisationen som ska prenumerera på tjänsten.
-3. Fortsätt att hämta erbjudandet. 
-4. Välj **Ja, lägg till det i mitt konto**.
+![Hämta erbjudande](./media/16RedeemFirstOfferNew.png)
 
-![Hämta erbjudande](./media/2RedeemFirstOffer.png)
+2. Bekräfta order.
 
-![Bekräfta erbjudandet](./media/3ConfirmFirstOffer.png)
+![Bekräfta order](./media/17ConfirmOrderNew.png)
 
-![Erbjudande hämtat](./media/4OfferSuccessfulyRedeemed.png)
+Du ser en bekräftelse på att erbjudandet har lösts in.
+
+![Bekräftelse](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – utvärdering av förhandsversion
+
+Upprepa samma steg som med den första erbjudandekoden. Se till att du lägger till den andra erbjudandekoden med samma användarkonto som användes tillsammans med koden för den första erbjudandet.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Utvärdering av förhandsversion av Dynamics 365 Finance
 
-Upprepa samma steg med det andra erbjudandet från välkomstmeddelandet.
+Upprepa samma steg med det senaste erbjudandet från välkomstmeddelandet.
 
 ## <a name="assign-licenses"></a>Tilldela licenser
 
 > [!IMPORTANT]
-> Du måste ha administratörsbehörighet till organisationens Office 365-portal för att kunna utföra följande steg.
+> Du måste ha administratörsbehörighet till organisationens Microsoft 365-portal för att kunna utföra följande steg.
 
 1. Gå till [Microsoft 365 administratörscenter](https://portal.office.com/) för att tilldela licenser till dina användare.
 
-![Administrationsportalen för Office](./media/5OfficeAdminPortal.png)
+![Startsida för administratörscenter](./media/14AdminPortal.png)
 
 2. På sidan **Aktiva användare** väljer du de användare som du vill tilldela en licens till.
 
-![Tilldela licenser](./media/6AssignLicenses.png)
+![Tilldela licenser](./media/15AssignLicenses.png)
 
-3. Kontrollera att licensen för Project Operations har valts och välj **Spara ändringar**. 
+3. Kontrollera att licensen för **förhandsversionen av Dynamics 365 Project Operations (CRM)** och **Office 365 Project Operations – förhandsversion** har valts och välj **Spara ändringar**.
 
 > [!NOTE]
 > Erbjudandet gällande utvärderingsversionen av Finance behöver inte tilldelas en användare.
@@ -85,9 +90,9 @@ Slutför uppgiften genom att följa stegen i ämnet [Lägga till en Azure-prenum
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Distribuera demomiljön av Finance med Project Operations för resursbaserade/icke lagerbaserade scenarier
 
-Följ anvisningarna i ämnet [Etablera en ny miljö](resource-provision-new-environment.md) för att slutföra distributionen. Använd distributionstypen [Demomiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) för förhandsgranskning.
+Följ anvisningarna i ämnet [Etablera en ny miljö](resource-provision-new-environment.md) för att slutföra distributionen. Använd distributionstypen [Demomiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) för förhandsgranskning. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Installationsinställning av CDS och konfigurationsdata
 
 Installationsinställlning av CDS och konfigurationsdata enligt beskrivningen i ämnet [Konfigurera och tillämpa konfigurationsdata i Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Slutför endast det här steget efter att demonstrationsmiljön av Finance har distribuerats och demonstrationsdata i FO är klara.

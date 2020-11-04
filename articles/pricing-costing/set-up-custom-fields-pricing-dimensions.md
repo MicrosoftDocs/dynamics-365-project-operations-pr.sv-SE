@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3a2a3b48df02853e519a45dc1d37052c8ba2529d
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085535"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner
 
@@ -37,14 +36,14 @@ I det här ämnet finns information om hur du ställer in anpassade prissättnin
 - **msdyn_OrganizationalUnit** (organisationsenhet)
 
 > [!IMPORTANT]
-> Ta inte bort de här raderna. Om du inte behöver dem kan du emellertid välja att inte använda dem i en specifik kontext genom att ange **Gäller för kostnad**, **Gäller för försäljning** och **Gäller för inköp** till **Nej**. Genom att ange dessa attributvärden till **Nej** fås inte samma effekt som en prissättningsdimension.
+> Ta inte bort de här raderna. Om du inte behöver dem kan du emellertid välja att inte använda dem i en specifik kontext genom att ange **Gäller för kostnad** , **Gäller för försäljning** och **Gäller för inköp** till **Nej**. Genom att ange dessa attributvärden till **Nej** fås inte samma effekt som en prissättningsdimension.
 
 För att ett fält ska bli en prissättningsdimension måste det vara:
 
 - Skapat som ett fält i entiteterna **Rollpris** och **Pålägg för rollpris**. Mer information om hur du gör detta finns i [lägga till anpassade fält i prisinställningar och transaktionella entiteter](add-custom-fields-price-setup-transactional-entities.md).
 - Skapad som en rad i tabellen **prisdimension**. Du kan till exempel lägga till prisdimensionsrader som de visas i följande bild. 
 
-Resursens arbetstider (**msdyn_resourceworkhours**) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
+Resursens arbetstider ( **msdyn_resourceworkhours** ) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
 
 > [!IMPORTANT]
 > Alla ändringar av dimensionsdata för prissättning i den här tabellen, befintlig eller ny, sprids till affärslogik för prissättnings först efter att cacheminnet har uppdaterats. Det kan ta upp till 10 minuter att uppdatera cacheminnet. Tillåt den här tidsperioden för att se de ändringar i prisstandardlogik som måste uppkomma från ändringar i data för prissättningsdimension.
@@ -59,8 +58,8 @@ Värdet ska vara exakt samma som schemanamnet för fältet som läggs till i tab
 ### <a name="type-of-dimension"></a>Typ av dimension
 Det finns två typer av prissättningsdimensioner:
   
-  - **Beloppsbaserade dimensioner**: dimensionsvärdena från inmatningskontexten matchas mot dimensionsvärdena på raden **rollpris** och priset/kostnaden är standardvärdet i tabellen **rollpris**.
-  - **Påläggsbaserade dimensioner**: Detta är dimensioner där kommer att anta trestegsprocess för att ta fram pris/kostnad
+  - **Beloppsbaserade dimensioner** : dimensionsvärdena från inmatningskontexten matchas mot dimensionsvärdena på raden **rollpris** och priset/kostnaden är standardvärdet i tabellen **rollpris**.
+  - **Påläggsbaserade dimensioner** : Detta är dimensioner där kommer att anta trestegsprocess för att ta fram pris/kostnad
  
     1. De icke påläggsbaserade dimensionsvärdena från inmatningskontexten matchas till rollprisraden för att uppnå grundpriset.
     2. Dimensionsvärdena från inmatningskontexten matchas till **Pålägg för rollpris** för att uppnå pålägg i procent.
@@ -78,16 +77,16 @@ Det finns två typer av prissättningsdimensioner:
 Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbundet och 2 timmar övertid i tidsposten använder baspriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gäller för kostnad 
-Om värdet är angivet till **ja**anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när kostnads- och påläggspriserna hämtas.
+Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när kostnads- och påläggspriserna hämtas.
 
 ### <a name="applicable-to-sales"></a>Gäller för försäljning
-Om värdet är angivet till **ja**anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när fakturerings- och påläggspriserna hämtas.
+Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när fakturerings- och påläggspriserna hämtas.
 
 ### <a name="applicable-to-purchase"></a>Gäller för inköp
-Om värdet är angivet till **ja**anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när inköpspriset hämtas. Scenarier med underleverantörskap stöds inte och därför används inte det här fältet. 
+Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när inköpspriset hämtas. Scenarier med underleverantörskap stöds inte och därför används inte det här fältet. 
 
 ### <a name="priority"></a>Prioritet
 Genom att ange dimensionsprioriteten kan producera ett pris även om det inte går att hitta en exakt matchning mellan värdena för indata och värdena för tabellerna **Rollpris** eller **Pålägg för rollpris**. I det här scenariot använder null-värden för omatchade dimensionsvärden genom vägning av dimensionerna i prioritetsordning.
 
-- **Kostnadsprioritet**: värdet för dimensionens kostnadsprioritet anger vikten av dimensionen när den matchas mot inställningarna av självkostnader. Värdet för **kostnadsprioritet** måste vara unikt mellan de dimensioner som **gäller för kostnaden**.
-- **Försäljningsprioritet**: värdet för dimensionens försäljningsprioritet anger vikten av dimensionen när den matchas mot inställningarna av försäljningspris eller faktureringskostnader. Värdet för **försäljningsprioritet** måste vara unikt mellan de dimensioner som **gäller för försäljning**.
+- **Kostnadsprioritet** : värdet för dimensionens kostnadsprioritet anger vikten av dimensionen när den matchas mot inställningarna av självkostnader. Värdet för **kostnadsprioritet** måste vara unikt mellan de dimensioner som **gäller för kostnaden**.
+- **Försäljningsprioritet** : värdet för dimensionens försäljningsprioritet anger vikten av dimensionen när den matchas mot inställningarna av försäljningspris eller faktureringskostnader. Värdet för **försäljningsprioritet** måste vara unikt mellan de dimensioner som **gäller för försäljning**.

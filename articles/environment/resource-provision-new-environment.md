@@ -3,17 +3,17 @@ title: Etablera en ny miljö
 description: I det här ämnet finns information om hur du etablerar en ny Project Operations-miljö.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085427"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
@@ -26,20 +26,20 @@ I den här ämne finns information om hur du etablerar en ny Dynamics 365 Projec
 Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för Project Operations för ditt LCS-projekt.
 
 1. Gå till [LCS](https://lcs.dynamics.com/v2) och välj ikonen **Hantering av förhandsgranskningsfunktion**.
-2. I listan **Förhandsgranskningsfunktion** väljer du **Project Operations** och sedan **Förhandsgranskningsfunktion aktiverad** för att aktivera Project Operations.
+2. I listan **Förhandsgranskningsfunktion** väljer du **Project Operations-funktion** och sedan **Förhandsgranskningsfunktion aktiverad** för att aktivera Project Operations.
 
 > [!NOTE]
 > Det här steget utförs endast en gång per LCS-projekt.
 
 ## <a name="provision-a-project-operations-environment"></a>Etablera en Project Operations-miljö
 
-1. Öppna en ny Dynamics 365 Finance [demomiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
+1. Öppna en ny Dynamics 365 Finance [demomiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
 2. Gå igenom guiden **Miljöetablering**. 
 
 > [!IMPORTANT]
 > Kontrollera att den valda programversionen är 10.0.13 eller senare.
 
-3. Om du vill etablera Project Operations väljer du, under **Avancerade inställningar**, **Common Data Service**. 
+3. Om du vill etablera Project Operations väljer du, under **Avancerade inställningar** , **Common Data Service**. 
 4. Aktivera **Common Data Service-inställningen** genom att välja **Ja** och sedan ange information i de obligatoriska fälten:
 
   - Namn
@@ -76,7 +76,7 @@ Project Operations kräver en Finance-miljö med programversion **10.0.13 (10.0.
 
 Du kan behöva tillämpa kvalitetsuppdateringar av Finance-miljön för att få den här versionen.
 
-1. I LCS, på sidan **Miljöinformation**, i avsnittet **Tillgängliga uppdateringar**, väljer du **Visa uppdatering**.
+1. I LCS, på sidan **Miljöinformation** , i avsnittet **Tillgängliga uppdateringar** , väljer du **Visa uppdatering**.
 
 ![Visa uppdateringar](./media/5ViewUpdates.png)
 
@@ -120,7 +120,7 @@ Miljöunderhållet tar lite tid. När det är klart kommer miljön att återgå 
 
 ![Tillämpa lösningar](./media/13ApplySolutions.png)
 
-5. Välj båda lösningarna, **Dynamics 365 Finance and Operations Dual Write Entity Map** och **Dynamics 365 Project Operations Dual Write Entity Maps**, och välj sedan **Tillämpa**.
+5. Välj båda lösningarna, **Dynamics 365 Finance and Operations Dual Write Entity Map** och **Dynamics 365 Project Operations Dual Write Entity Maps** , och välj sedan **Tillämpa**.
 
 ![Bekräfta lösningar](./media/14ConfirmSolutions.png)
 
@@ -165,18 +165,19 @@ Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den �
 | **Integrationsentitet för projekttransaktionsrelationer (msdyn\_transactionconnections)** | Inga | Inga | N\A | Inga | N\A |
 | **Milstolpar för kontraktrad för Project Operations-integration (msdyn\_contractlinesscheduleofvalues)** | Inga | Inga | N\A | Inga | N\A |
 | **Entitet för Project Operations-integration för utgiftsuppskattningar (msdyn\_estimateslines)** | Inga | Inga | N\A | Inga | N\A |
-| **Entitet för Project Operations-integration för tidsuppskattningar (msdyn\_resourceassignments)** | Inga | Inga | N\A | Inga | N\A |
+| **Entitet för export av projektutgiftkategorier i Project Operations-integration (msdyn\_expensecategories)** | Inga | Inga | N\A | Inga | N\A |
 | **Entitet för export av projektutgifter i Project Operations-integration (msdyn\_expenses)** | Ja | Inga | N\A | Inga | N\A |
 | **Entitet för Project Operations-integration för tidsuppskattningar (msdyn\_resourceassignments)** | Ja | Inga | N\A | Inga | N\A |
 
+
 4. Om du vill uppdatera entiteten väljer du kartnamnet och väljer sedan **Uppdatera entiteter**. 
-5. Fortsätt köra kartan efter att uppdateringen har slutförts.
+
 
 ![Uppdatera karta](./media/20RefreshMapping.png)
 
-Innan du aktiverar nästa karta ska du kontrollera att kartan i tabellen är i tillståndet **Körs**. Det kan ta en stund att köra kartor med ett större antal förutsättningar.
+5. Kör kartan efter att uppdateringen har slutförts. Innan du aktiverar nästa karta ska du kontrollera att kartan i tabellen är i tillståndet **Körs**. Det kan ta en stund att köra kartor med ett större antal förutsättningar.
 
-Om du vill köra en karta med förutsättningar ska du aktivera **Visa relaterade entitetskartor**. Om tabellen anger att **Förutsättning initial synkronisering** är **Nej**, verifierar du att flaggan **Initial synkronisering** är **Av** i alla förutsättningskartor innan du kör den.
+Om du vill köra en karta med förutsättningar ska du aktivera **Visa relaterade entitetskartor**. Om tabellen anger att **Förutsättning initial synkronisering** är **Nej** , verifierar du att flaggan **Initial synkronisering** är **Av** i alla förutsättningskartor innan du kör den.
 
 ![Kör karta](./media/21RunMap.png)
 

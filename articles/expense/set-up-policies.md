@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fbab7fd94fa429876216ee82b716da8d847fb01a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896663"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085610"
 ---
 # <a name="define-expense-policies"></a>Definiera utgiftspolicyer
 
@@ -37,12 +36,12 @@ definierar policy.
         
 Du kan definiera tre typer av policyer:         
         
-- **Varning**: kan medarbetaren skicka en utgiftsrapport eller reserekvisition men kostnaden markeras för alla godkännare och         
+- **Varning** : kan medarbetaren skicka en utgiftsrapport eller reserekvisition men kostnaden markeras för alla godkännare och         
   för senare rapportering.        
 
-- **Fel**: kräver att medarbetaren ändrar utgifterna för att följa principen innan du skickar utgiftsrapporten eller reserekvisitionen.        
+- **Fel** : kräver att medarbetaren ändrar utgifterna för att följa principen innan du skickar utgiftsrapporten eller reserekvisitionen.        
  
- - **Motivering**: kräver att arbetaren eller chefen anger en motivering för att policybeloppet överskrids innan utgiftsrapporten skickas eller reserekvisitionen skickas.        
+ - **Motivering** : kräver att arbetaren eller chefen anger en motivering för att policybeloppet överskrids innan utgiftsrapporten skickas eller reserekvisitionen skickas.        
 
 ## <a name="policy-tips"></a>Policytips
 Här följer några förslag som kan hjälpa dig när du skapar nya policyer för utgiftshantering: 

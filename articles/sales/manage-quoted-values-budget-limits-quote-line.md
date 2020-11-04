@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085407"
 ---
 # <a name="project-based-quote-lines"></a>Projektbaserade offertrader
 
@@ -36,9 +36,9 @@ Följande tabell innehåller information om fälten under fliken **Allmänt** i 
 | Namn | Namnet på en offertrad som kan hjälpa dig att identifiera den diskreta komponenten i offerten som uppskattas. | Kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Faktureringsmetod | I en offert som skapats från en affärsmöjlighet kopieras värdet från motsvarande fält på affärsmöjlighetsraden. Det här fältet innehåller de två huvudmodellerna för kontrakt som stöds av Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid och material.| Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Project | Använd det här valfria fältet för att identifiera det projekt som ska användas för att leverera arbetet i det här åtagandet. När ett projekt är mappat till en offertrad bidrar det till att lägga till debiterbara uppgifter och till att i en projektbaserad uppskattning använda offertraden som offertradsinformation. När ett projekt inte är mappat till en projektrelaterad offertrad ska du skapa uppskattningen manuellt genom att skapa varje offertradsinformation. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
-| Inkludera tid | En **Ja**/**Nej**-flagga anger om tidstransaktioner eller arbetskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att tidstransaktionerna eller arbetskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att tidstransaktionerna eller arbetskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
-| Ta med utgift | En **Ja**/**Nej**-flagga anger om utgiftskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att utgiftskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att utgiftskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
-| Inkludera avgift | En **Ja**/**Nej**-flagga anger om avgifter för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att avgifterna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att avgifterna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Inkludera tid | En **Ja**/**Nej** -flagga anger om tidstransaktioner eller arbetskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej** -värde anger att tidstransaktionerna eller arbetskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja** -värde anger att tidstransaktionerna eller arbetskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Ta med utgift | En **Ja**/**Nej** -flagga anger om utgiftskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej** -värde anger att utgiftskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja** -värde anger att utgiftskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Inkludera avgift | En **Ja**/**Nej** -flagga anger om avgifter för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej** -värde anger att avgifterna inte inkluderas i uppskattningen i offertraden. Ett **Ja** -värde anger att avgifterna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Offererad belopp | Det här är det belopp som är offererat till kunden för allt arbete som baseras på den projektbaserade offertraden. I en offert som skapats från en affärsmöjlighet kopieras värdet från fältet **Kundbudget** på affärsmöjlighetsraden. När en projektbaserad offertrad innehåller radinformation är det här fältet låst för redigering och sammanfattas utifrån beloppet i offertradsinformationen. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Beräknad skatt | Det här är ett redigerbart fält för användaren att lägga till det uppskattade momsbeloppet på offertraden. När en projektbaserad offertrad innehåller radinformation är det här fältet låst för redigering och sammanfattas utifrån momsbeloppet i offertradsinformationen. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Offererat belopp efter skatt | Fältet är offertradsbeloppet efter skatt och skrivskyddat. Beloppet i det här fältet beräknas som *Offererat belopp + moms*. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
@@ -47,11 +47,11 @@ Följande tabell innehåller information om fälten under fliken **Allmänt** i 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Valideringsregler för fält under fliken Allmänt i projektbaserade offertrader
 
-**Regel 1**: en viss transaktionsklass i det valda projektet kan bara tas med på en projektbaserad offertrad av en offert.
+**Regel 1** : en viss transaktionsklass i det valda projektet kan bara tas med på en projektbaserad offertrad av en offert.
 
-**Regel 2**: om en affärsmöjlighet har flera offerter kan det finnas offertrader från olika offerter som alla refererar till samma projekt och inkluderar samma transaktionsklass.
+**Regel 2** : om en affärsmöjlighet har flera offerter kan det finnas offertrader från olika offerter som alla refererar till samma projekt och inkluderar samma transaktionsklass.
 
-**Regel 3**: om offerterna inte tillhör samma affärsmöjlighet får de inte ha samma projekt- och transaktionsklass.
+**Regel 3** : om offerterna inte tillhör samma affärsmöjlighet får de inte ha samma projekt- och transaktionsklass.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

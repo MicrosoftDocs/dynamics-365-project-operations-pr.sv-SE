@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085568"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Skapa beräkningar på en offertrad
 
@@ -84,7 +83,7 @@ Om du har lagt till ett anpassat fält på offertradinformationen och vill att f
 2. Välj **Sök** och sök efter det plugin-program som du vill uppdatera.
 3. Markera plugin-programmet och välj sedan **Välj** på huvudsidan.
 4. Markera steget för det plugin-program som ska uppdateras, högerklicka och välj sedan **uppdatera**.
-5. I dialogrutan **Uppdatera befintliga steg** i fältet **filtrera attribut** väljer du ellips-knappen (**...**):
+5. I dialogrutan **Uppdatera befintliga steg** i fältet **filtrera attribut** väljer du ellips-knappen ( **...** ):
 6. I dialogrutan **Välj attribut** markerar du kryssrutor för anpassade attribut.
 7. Välj **OK** för att stänga dialogrutan och välj sedan **Uppdatera steg**.
 8. Upprepa steg 1 till och med 7 för det andra plugin-programmet.

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d53bae2f64e7b427f762161ff08917598217bb5a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898373"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085572"
 ---
 # <a name="currency"></a>Valuta
 
@@ -32,7 +31,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 Med valutor bestäms priserna för produkter i produktkatalogen och kostnaden för transaktioner, till exempel försäljningsorder. Om dina kunder är utspridda över flera områden, lägga då till deras valutor för att hantera dina transaktioner. Lägg till de valutor som är de mest lämpliga för dina nuvarande och framtida affärsbehov.  
 
 > [!NOTE]
-> Om miljön är en Common Data Service-miljö kan du vara i Power Platform administratörscenter och välja sidan **valutor** (**Miljöer** > [välj miljö] > **Inställningar** > **Företag** > **Valutor**), sidan är tom. Detta beror på att inställning av en valuta inte stöds i Common Data Service-miljöer.
+> Om miljön är en Common Data Service-miljö kan du vara i Power Platform administratörscenter och välja sidan **valutor** ( **Miljöer** > [välj miljö] > **Inställningar** > **Företag** > **Valutor** ), sidan är tom. Detta beror på att inställning av en valuta inte stöds i Common Data Service-miljöer.
 
 ## <a name="add-a-currency"></a>Lägga till en valuta  
 Innan du börjar med den här proceduren bör du kontrollera att säkerhetsrollen inkluderar systemadministratörsbehörighet. 
@@ -46,7 +45,7 @@ Innan du börjar med den här proceduren bör du kontrollera att säkerhetsrolle
 
    |          Fält          |                                                                                                                                                                                                                                                                                                                                                                            Beskrivning                                                                                                                                                                                                                                                                                                                                                                            |
    |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Valutatyp**    | - **System** - Välj det här alternativet om du vill använda valutorna som är tillgängliga i modellstyrda appar i Dynamics 365. Välj **Slå upp** om du vill söka efter en valuta. När du väljer en valutakod läggs **valutanamnet** och **valutasymbolen** automatiskt till för den valda valutan.<br />- **Anpassa** - Välj det här alternativet om du vill lägga till en valuta som inte är tillgänglig i modellstyrda appar i Dynamics 365. I detta fall måste du manuellt ange värdena för **valutakod**, **valutadecimaler**, **valutanamn**, **valutasymbol** och **valutakonvertering**. |
+   |    **Valutatyp**    | - **System** - Välj det här alternativet om du vill använda valutorna som är tillgängliga i modellstyrda appar i Dynamics 365. Välj **Slå upp** om du vill söka efter en valuta. När du väljer en valutakod läggs **valutanamnet** och **valutasymbolen** automatiskt till för den valda valutan.<br />- **Anpassa** - Välj det här alternativet om du vill lägga till en valuta som inte är tillgänglig i modellstyrda appar i Dynamics 365. I detta fall måste du manuellt ange värdena för **valutakod** , **valutadecimaler** , **valutanamn** , **valutasymbol** och **valutakonvertering**. |
    |    **Valutakod**    |                                                                                                                                                                                                                                                                                                                                            Kortform för valutan. Till exempel **USD** för amerikanska dollar.                                                                                                                                                                                                                                                                                                                                            |
    | **Valutadecimaler**  |                                                                                                                                                                                  Skriv antalet decimaler som ska visas för valutan.  Du kan lägga till ett värde mellan 0 och 4. **Obs!**  Om du har angett ett precisionsvärde dialogrutan för **systeminställningar** kommer värdet att visas här.                                                                                                                                                                                  |
    |    **Valutanamn**    |                                                                                                                                                                                                                                         Om du har valt en valutakod i listan över tillgängliga valutor i modellstyrda appar i Dynamics 365 kommer valutanamnet för den valda koden att visas här. Om du har valt **Anpassad** som valutatyp, ange namnet på valutan.                                                                                                                                                                                                                                          |

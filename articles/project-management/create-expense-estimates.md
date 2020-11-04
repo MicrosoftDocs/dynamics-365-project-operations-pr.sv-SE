@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908648"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085462"
 ---
 # <a name="expense-estimates"></a>Utgiftsberäkningar
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
@@ -32,9 +32,9 @@ Följ stegen nedan om du vill visa, lägga till eller ta bort en projektutgift.
 
 Följande attribut anges för varje utgiftsradartikel:
 
-- **Kategori**: de vanliga grupperingarna som används för att beskriva alla utgifter som uppstått i ett projekt.
-- **Startdatum**: det datum då utgiften bedöms bli påförd.
-- **Antal**: uppskattat antal utgiftsartiklar för en specifik kategori.
-- **Självkostnad per enhet**: det enhetspris som används för att beräkna kostnaden för utgiften.
-- **Försäljningspris per enhet**: det enhetspris som används för att beräkna försäljningspriset för utgiften.
+- **Kategori** : de vanliga grupperingarna som används för att beskriva alla utgifter som uppstått i ett projekt.
+- **Startdatum** : det datum då utgiften bedöms bli påförd.
+- **Antal** : uppskattat antal utgiftsartiklar för en specifik kategori.
+- **Självkostnad per enhet** : det enhetspris som används för att beräkna kostnaden för utgiften.
+- **Försäljningspris per enhet** : det enhetspris som används för att beräkna försäljningspriset för utgiften.
 

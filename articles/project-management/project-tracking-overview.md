@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085391"
 ---
 # <a name="project-tracking-overview"></a>Översikt över projektspårning
 
@@ -25,10 +25,10 @@ Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa
 
 I vyn **Spåra insats** spåras förloppet för uppgifterna i schemat genom att jämföra de faktiska arbetsinsatstimmarna som ägnats åt en uppgift med uppgiftens planerade arbetsinsatstimmar. I Dynamics 365 Project Operations används följande formler för att beräkna spårningsmått:
 
-- **Förloppsprocent**: Den faktiska insatsen hittills ÷ Uppskattning vid slutfört (EAC) 
-- **Uppskattning för att slutföra (ETC)**: planerad insats – den faktiska insatsen hittills 
-- **EAC**: resterande insats + den faktiska insatsen hittills 
-- **Planerad insatsavvikelse**: planerat arbete – EAC
+- **Förloppsprocent** : Den faktiska insatsen hittills ÷ Uppskattning vid slutfört (EAC) 
+- **Uppskattning för att slutföra (ETC)** : planerad insats – den faktiska insatsen hittills 
+- **EAC** : resterande insats + den faktiska insatsen hittills 
+- **Planerad insatsavvikelse** : planerat arbete – EAC
 
 Project Operations visar en projektion av insatsavvikelsen för uppgiften. Om EAC är större än den planerade ansträngningen projiceras uppgiften för att ta längre tid än vad som ursprungligen planerades och ligger efter i planeringen. Om EAC är mindre än den planerade ansträngningen projiceras uppgiften för att ta mindre tid än vad som ursprungligen planerades och ligger före i planeringen.
 
@@ -60,10 +60,10 @@ I vyn **kostnadsspårning** jämförs den faktiska kostnaden som spenderades fö
 > [!NOTE]
 > Vyn visar endast arbetskostnader och inkluderar inga kostnader från utgiftsuppskattningarna. I Project Operations används följande formler för att beräkna spårningsmått:
 
-- **Procent av förbrukad kostnad**: faktisk kostnad spenderad hittills ÷ uppskattad kostnad vid slutförande
-- **Kostnad för att slutföra (CTC)**: planerad kostnad – den faktiska kostnaden hittills
-- **EAC**: Återstående kostnad + Faktisk kostnad hittills
-- **Planerad kostnadsavvikelse**: planerad kostnad – EAC
+- **Procent av förbrukad kostnad** : faktisk kostnad spenderad hittills ÷ uppskattad kostnad vid slutförande
+- **Kostnad för att slutföra (CTC)** : planerad kostnad – den faktiska kostnaden hittills
+- **EAC** : Återstående kostnad + Faktisk kostnad hittills
+- **Planerad kostnadsavvikelse** : planerad kostnad – EAC
 
 En projektion av kostnadsavvikelsen visas på uppgiften. Om EAC är större än den planerade kostnaden projiceras aktiviteten för att kosta mer än vad som ursprungligen planerades. Därför prognostiseras den över budget. Om EAC är mindre än den planerade kostnaden projiceras aktiviteten för att kosta mindre än vad som ursprungligen planerades. Därför prognostiseras den under budget.
 

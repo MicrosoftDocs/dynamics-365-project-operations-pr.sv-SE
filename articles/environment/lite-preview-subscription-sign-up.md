@@ -3,17 +3,17 @@ title: Registrera dig för en förhandsversionsprenumeration
 description: I det här ämnet finns information om hur du prenumererar på och distribuerar Project Operations enkel distribution – avtal till proforma-fakturering.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085403"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Registrera dig för en förhandsversionsprenumeration för enkel distribution – avtal till proforma-fakturering
 
@@ -26,84 +26,42 @@ I det här ämnet beskrivs hur du prenumererar partnererbjudandet för förhands
 
 - Du får ett e-postmeddelande med en inbjudan att delta i förhandsversionen. Du kan begära en förhandsversion på [webbplatsen för Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Den användare som distribuerar förhandsversionen måste ha behörighet som global administratör av Azure-klient.
-- Den användare som distribuerar förhandsversionen kommer att behöva ett telefonnummer och ett giltigt kreditkort. Under registreringen får du inga avgifter för kortet i sex månader. Efter sex månader måste du avbryta prenumerationen. 
 - Granska alla villkor.
 
 ## <a name="subscribe"></a>Prenumerera
 
 När du får ett godkännande av en [begäran av förhandsversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) får du två erbjudanden från Microsoft via e-post. Med de här erbjudandena kan du distribuera förhandsversionen av Project Operations:
 
-- Utvärdering av förhandsversionen av Dynamics 365 Customer Service – engångskod
-- Dynamics 365 Project Operations – utvärdering av förhandsversion
+- Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion
+- Office 365 Project Operations – utvärdering av förhandsversion
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Betalprenumeration på Dynamics 365 Customer Service
+> [!IMPORTANT]
+> Endast en person, klientadministratören, i en organisation behöver utföra den här uppgiften. Om du inte är prenumerant på den här versionen väntar du tills din organisation har registrerats och du har fått dina användarautentiseringsuppgifter.
 
-1. Använd ett InPrivate-/inkognitofönster i webbläsaren, använd den första erbjudandekoden för Dynamics 365 Customer Service. Du behöver följande om du vill registrera dig för Customer Service:
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion 
 
-- Ett telefonnummer
-- Ett kreditkort. När du registrerar dig får du inga avgifter för kortet i sex månader. Efter sex månader måste du avbryta prenumerationen.
-- Granska alla villkor.
+Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med användarkontot för arbete i klientorganisationen där du vill använda förhandsversionen av Project Operations.
 
-2. Tillhandahåll kontaktuppgifter.
+1. Lös in den första erbjudandekoden, **Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion** genom att klistra in den i webbläsarens URL.
 
-![Kontaktinformation](./media/1ContactInformation.png)
+![Hämta erbjudande](./media/16RedeemFirstOfferNew.png)
 
-3. Ange uppgifter om ny klientorganisation.
+2. Bekräfta order.
+![Bekräfta order](./media/17ConfirmOrderNew.png)
 
-![Skapa användar-ID](./media/2CreateUserID.png)
+Du ser en bekräftelse på att erbjudandet har lösts in.
 
-4. Verifiera din identitet, spara ditt nya användar-ID och välj sedan **Konfigurera**.
+![Bekräftelse](./media/18OrderConfirmationNew.png)
 
-![Spara information](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – utvärdering av förhandsversion
 
-5. Slutför registreringen av kreditkortet och granska alla villkor. 
-
-![Slutför kreditkort](./media/4CompleteCreditCard.png)
-
-![Utcheckning med kreditkort](./media/5CreditCardCheckout.png)
-
-![Spara order](./media/6SaveOrder.png)
-
-![Kreditkortsbekräftelse](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Avbryt erbjudandet gällande Dynamics 365 Customer Service Enterprise
-
-Erbjudandet gällande Dynamics 365 Customer Service Enterprise är gratis i sex månader. Erbjudandet ska förnyas till fullpris efter sex månader. Följ instruktionerna nedan om du vill avbryta innan förnyelsedatumet. 
-
-> [!NOTE]
-> När du har slutfört de här stegen kommer du inte längre att kunna använda miljön i den allmänt tillgängliga förhandsversionen av Project Operations.
-
-1. Gå till [Administratörsportal](https://admin.microsoft.com/) och under **Fakturering** väljer du **Dina produkter**.
-
-![Administratörsportalen, sidan Dina produkter](./media/8AdminPortal.png)
-
-2. Välj **Erbjudande gällande Dynamics 365 Customer Service Enterprise**.
-
-![Avbryta prenumerationen](./media/9CancelSubscription.png)
-
-3. Välj **Inställningar** > **Åtgärder** > **Avbryt prenumeration**.
-4. I formuläret **Avbryt prenumeration** anger du information i de obligatoriska fälten.
-5. Välj **Avbryt** > **Prenumeration.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – utvärdering av förhandsversion
-
-1. Hämta det andra erbjudandet, Utvärdering av Dynamics 365 Project Operations med URL tillhandahållen i ditt välkomstmeddelande.
-
-![Hämta erbjudande 2](./media/10RedeemOffer2.png)
-
-2. Kontrollera att du är inloggad som en användare som tillhör samma organisation som prenumererade genom den första erbjudandekoden och fortsätt sedan med att hämta erbjudandet. 
-3. Välj **Ja, lägg till det i mitt konto**.
-
-![Lägg till i konto](./media/11AddToAccount.png)
-
-![Skärmen Prova nu](./media/12TryNow.png)
-
-![Orderinformation](./media/13Confirmation.png)
+Upprepa samma steg som med den första erbjudandekoden. Se till att du lägger till den andra erbjudandekoden med samma användarkonto som användes tillsammans med koden för den första erbjudandet.
 
 ## <a name="assign-licenses"></a>Tilldela licenser
 
 > [!IMPORTANT]
-> Du måste ha administratörsbehörighet till organisationens Office 365-portal för att kunna utföra följande steg.
+> Du måste ha administratörsbehörighet till organisationens Microsoft 365-portal för att kunna utföra följande steg.
+
 
 1. Gå till [Microsoft 365 administratörscenter](https://portal.office.com/) för att tilldela licenser till dina användare.
 
@@ -113,11 +71,22 @@ Erbjudandet gällande Dynamics 365 Customer Service Enterprise är gratis i sex 
 
 ![Tilldela licenser](./media/15AssignLicenses.png)
 
-3. Kontrollera att licensen för **Customer Service Enterprise** och **Project Operations** har valts och välj **Spara ändringar**.
+3. Kontrollera att licenserna för **förhandsversion av Dynamics 365 Project Operations (CRM)** och **Office 365 Project Operations – förhandsversion** har valts. 
+4. Välj **Spara ändringar**.
 
 ## <a name="create-a-new-cds-environment"></a>Skapa en ny CDS-miljö
 
-Tillhandahåll en ny distributionsmiljö för Project Operations CDS-distribution genom att följa anvisningarna i ämnet [CDS-distributionsmodell](lite-deployment.md).
+1. Tillhandahåll en ny distributionsmiljö för Project Operations CDS-distribution genom att följa anvisningarna i ämnet [CDS-distributionsmodell](lite-deployment.md). När du väljer miljötyp ska du se till att använda **Utvärdering (prenumerationsbaserad)**.
+![Ny miljö](./media/19CreateEnvironment.png)
+
+2. Välj inställningen **Aktivera Dynamics 365-appar** och låt **Distribuera dessa appar automatiskt** vara tomt.  
+3. Välj **Spara** för att skapa miljön.
+
+![Lägg till databas](./media/20CreateEnvironment1.png)
+
+4. När miljön har skapats installerar du lösningen **Microsoft Dynamics 365 Project Operations**. 
+
+![Installera lösning](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installera en CDS-konfiguration och konfigurera demodata
 

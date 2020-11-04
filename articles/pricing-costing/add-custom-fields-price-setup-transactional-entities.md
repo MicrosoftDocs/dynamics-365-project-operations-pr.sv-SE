@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085580"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Lägg till anpassade fält som krävs i prisinställningar och transaktionella entiteter
 
@@ -43,31 +42,31 @@ När en dimension för anpassad prissättning är alternativbaserad lägger du t
 2. I lösningsutforskaren på den vänstra navigeringsrutan väljer du **Entiteter > Rollpris**.
 3. Utöka entiteten **Rollpris** och välj **Fält**.
 4. Klicka på **Ny** om du vill skapa ett nytt fält med namnet **Resursens arbetsplats** och välj **Alternativuppsättning** och fälttyp. 
-5. Välj **Använd en befintlig alternativuppsättning**, välj alternativuppsättningen **Resursens arbetsplats** och klicka på **Spara**.
+5. Välj **Använd en befintlig alternativuppsättning** , välj alternativuppsättningen **Resursens arbetsplats** och klicka på **Spara**.
 6. Upprepa steg 1-5 om du vill lägga till det här fältet i entiteten **Pålägg för rollpris**. 
 7. Upprepa steg 1-5 för alternativuppsättning **Arbetstid för resurs**.
 
 > [!IMPORTANT]
 > När du lägger till ett fält till fler än en entitet använder du samma fältnamn i alla entiteter. 
 
-I försäljnings- och beräkningsfaserna för ett projekt används beräkningar av den arbetsinsats som krävs för att slutföra arbetet **Lokal** och **På plats** i **Vanliga timmar** och **Övertid** används för att beräknat värdet på offert/projekt. Fälten **Resursens arbetsplats** och **Arbetstid för resurs** läggs till i uppskattnings entiteterna **Information om offertrad**, **Information om kontraktrad**, **projektteammedlem** och **Beräkningsrad**.
+I försäljnings- och beräkningsfaserna för ett projekt används beräkningar av den arbetsinsats som krävs för att slutföra arbetet **Lokal** och **På plats** i **Vanliga timmar** och **Övertid** används för att beräknat värdet på offert/projekt. Fälten **Resursens arbetsplats** och **Arbetstid för resurs** läggs till i uppskattnings entiteterna **Information om offertrad** , **Information om kontraktrad** , **projektteammedlem** och **Beräkningsrad**.
 
 1. I Project Operations, väljer **inställningar** > **lösningar** och dubbelklickar på **\<your organization name> prissättningsdimensioner**. 
 2. I lösningsutforskaren på den vänstra navigeringsrutan väljer du **Entiteter > Information om offertrad**.
 3. Expandera entiteten för **Information om offertrad** och välj **fält**.
 4. Klicka på **Ny** om du vill skapa ett nytt fält med namnet **Resursens arbetsplats** och väljer fälttypen **Alternativuppsättning**. 
 5. Välj **Använd en befintlig alternativuppsättning** och **Resursens arbetsplats** och klicka på **Spara**.
-6. Upprepa steg 1-5 för att lägga till det här fältet i entiteterna **Information om projektkontraktrad**, **Projektteammedlem** och **Beräkningsrad**.
+6. Upprepa steg 1-5 för att lägga till det här fältet i entiteterna **Information om projektkontraktrad** , **Projektteammedlem** och **Beräkningsrad**.
 7. Upprepa steg 1-6 för alternativuppsättning **Arbetstid för resurs**. 
 
-För leverans och fakturering måste färdigt arbete prissättas korrekt för att välja om det har utförts **Lokalt** eller **På plats** och om det har slutförts på **vanliga timmar** eller **övertid** på projektets faktiska värden. Fälten **Resursens arbetsplats** och **Resursens arbetstider** bör läggas till entiteterna **Tidspost**, **Faktisk**, **Information om fakturarad** och **Journalrad**.
+För leverans och fakturering måste färdigt arbete prissättas korrekt för att välja om det har utförts **Lokalt** eller **På plats** och om det har slutförts på **vanliga timmar** eller **övertid** på projektets faktiska värden. Fälten **Resursens arbetsplats** och **Resursens arbetstider** bör läggas till entiteterna **Tidspost** , **Faktisk** , **Information om fakturarad** och **Journalrad**.
 
 1. Välj **inställningar** > **lösningar** och dubbelklickar på **\<your organization name> prissättningsdimensioner**.
 2. I lösningsutforskaren på den vänstra navigeringsrutan väljer du **Entiteter > Tidspost**.
 3. Expandera entiteten för **Information om offertrad** och välj **fält**.
 4. Klicka på **Ny** om du vill skapa ett nytt fält med namnet **Resursens arbetsplats** och välj **Alternativuppsättning** och fälttyp. 
-5. Välj **Använd en befintlig alternativuppsättning**, välj alternativuppsättningen **Resursens arbetsplats** och klicka på **Spara**.
-6. Upprepa steg 1-5 om du vill lägga till entiteterna **Faktisk**, **Information om fakturarad** och **Journalrad**.
+5. Välj **Använd en befintlig alternativuppsättning** , välj alternativuppsättningen **Resursens arbetsplats** och klicka på **Spara**.
+6. Upprepa steg 1-5 om du vill lägga till entiteterna **Faktisk** , **Information om fakturarad** och **Journalrad**.
 7. Upprepa steg 1-6 för alternativuppsättning **Arbetstid för resurs**. 
 
 Detta slutför de schemaändringar som krävs för alternativuppsättningsbaserade anpassade dimensioner.
@@ -95,11 +94,11 @@ I faserna försäljning och beräkning för projektet beräknas arbetsinsatsen f
 - **Projektteammedlem**
 - **Beräkningsrad**
 
-5. Upprepa steg 1 - 5 för att skapa 1 till N-relationer från **Standardrubrik** till **Information om offertrad**, **Information om projektkontraktrad**, **Projektteammedlem**, och **Beräkningsrad**.
+5. Upprepa steg 1 - 5 för att skapa 1 till N-relationer från **Standardrubrik** till **Information om offertrad** , **Information om projektkontraktrad** , **Projektteammedlem** , och **Beräkningsrad**.
 
-  I leverans- och faktureringsfaserna måste arbetet som slutförts av varje standardrubrik vara korrekt prissatt på projektets faktiska värden. Detta innebär att det måste vara 1 till N-relationer från entiteterna **Standardrubrik** till **Tidspost**, **Faktisk**, **Information om fakturarad** och **Journalrad**.
+  I leverans- och faktureringsfaserna måste arbetet som slutförts av varje standardrubrik vara korrekt prissatt på projektets faktiska värden. Detta innebär att det måste vara 1 till N-relationer från entiteterna **Standardrubrik** till **Tidspost** , **Faktisk** , **Information om fakturarad** och **Journalrad**.
 
-6. Upprepa steg 1 - 6 för att skapa 1 till N-relationer från entiteterna **Standardrubrik** till **Tidspost**, **Faktisk**, **Information om fakturarad** och **Journalrad**.
+6. Upprepa steg 1 - 6 för att skapa 1 till N-relationer från entiteterna **Standardrubrik** till **Tidspost** , **Faktisk** , **Information om fakturarad** och **Journalrad**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Ange standardvärdet för dimensionsvärde med hjälp av mappningsfunktionerna i plattformen
 När det gäller tid kan det vara bra att se till att systemet är standardrubriken på tidspost från den bokningsbara resursen som registrerar tidsposten. Gör på följande sätt om du vill lägga till fältmappningar i 1 till N-relationen från **Bokningsbara resurser** till **Tidspost**.

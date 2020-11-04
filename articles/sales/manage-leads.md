@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898643"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085398"
 ---
 # <a name="manage-leads"></a>Hantera leads
 
@@ -23,7 +23,7 @@ Projektbaserade leads kan hanteras och kvalificeras i Project Operations. I proc
 
 ## <a name="project-sales-leads"></a>Projektbaserade försäljningsleads
 
-I avsnittet **Försäljning**, i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Listan med leads som visas är arbetsbaserade och andra typer av leads som kan skapas om du även har Dynamics 365 Sales eller Dynamics 365 Field Service-program.
+I avsnittet **Försäljning** , i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Listan med leads som visas är arbetsbaserade och andra typer av leads som kan skapas om du även har Dynamics 365 Sales eller Dynamics 365 Field Service-program.
 
 Du kan skapa en filtrerad vy om du endast vill visa projektbaserade leads genom att skapa ett filter för värdet **Typ**. Du kan till exempel välja att endast visa arbetsbaserade leads.
 
@@ -53,7 +53,7 @@ Leads som har värdet **Typ** inställt på **Arbetsbaserat** kallas projektbase
 
 - Ett konto som använder fältet **Företag** från leaden.
 - En kontaktpost som är kopplad till kontot utifrån värdena i fälten **Förnamn** och **Efternamn** i leaden.
-- En projektbaserad affärsmöjlighet som har fältet **Typ** inställt på &quot;**Wwork-based**.
+- En projektbaserad affärsmöjlighet som har fältet **Typ** inställt på **Arbetsbaserad**.
 
 Mer detaljerad information om kvalificering av leads finns i [Kvalificera eller konvertera leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

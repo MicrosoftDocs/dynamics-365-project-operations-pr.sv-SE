@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906349"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085453"
 ---
 # <a name="create-resource-assignments"></a>Skapa resurstilldelningar
 
@@ -37,7 +37,7 @@ När du skapar en generisk teammedlem via uppgiftstilldelning skapar du en plats
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Tilldela en namngiven resurs från listan över alla bokningsbara resurser
 
-Du kan använda sökrutan i **resursväljaren** för att söka efter alla aktiva bokningsbara resurser och tilldela dem till en lövnodsuppgift. Resurser som är tilldelade detta sätt läggs till i teamet utan att behöva boka. Detta påminner om att lägga till en teammedlem och välja **Ingen** som allokeringsmetod. Resursen visas på flikarna **Team**, **Resurstilldelning** och **Avstämning** som resurser med endast tilldelningar och ett bokningsunderskott. Schemalägg dem om du vill använda deras tillgänglighet.
+Du kan använda sökrutan i **resursväljaren** för att söka efter alla aktiva bokningsbara resurser och tilldela dem till en lövnodsuppgift. Resurser som är tilldelade detta sätt läggs till i teamet utan att behöva boka. Detta påminner om att lägga till en teammedlem och välja **Ingen** som allokeringsmetod. Resursen visas på flikarna **Team** , **Resurstilldelning** och **Avstämning** som resurser med endast tilldelningar och ett bokningsunderskott. Schemalägg dem om du vill använda deras tillgänglighet.
 
 1. Navigera till cellen **Tilldelad till** från uppgiftsrutnätet, tavlan eller tidslinjen.
 2. Börja med att skriva ett namn i sökrutan. Sökresultaten för namnet visas i resursväljaren under **resursväljaren** under **andra resurser**.

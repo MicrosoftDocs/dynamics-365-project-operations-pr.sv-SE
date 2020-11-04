@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085444"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Beräkna en projektbaserad offertrad
 
@@ -30,7 +30,7 @@ Om du vill uppskatta en projektrelaterad offertrad väljer du fliken **Offertrad
 
 Om du vill skapa en uppskattning på en projektrelaterad offertrad väljer du fliken **Offertradsinformation**. Radartikeln som du skapar på den här fliken sammanfattar det offererade värdet för den här offertraden. 
 
-Om du vill skapa offertradsinformation väljer du **+ Ny offertradsinformation** i underrutnätet **Offertradsinformation**. Ett skjutreglage för snabbskapande öppnas. Följande fält i formuläret **Offertrad**:
+Om du vill skapa offertradsinformation väljer du **+ Ny offertradsinformation** i underrutnätet **Offertradsinformation**. Ett skjutreglage för snabbskapande öppnas. Följande fält i formuläret **Offertrad** :
 
 | **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |

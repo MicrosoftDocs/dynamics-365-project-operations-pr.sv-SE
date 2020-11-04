@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949097"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085405"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Använd demoinställning och konfigurationsdata för Project Operations lite-distributionen – avtal till proforma-fakturering
 
@@ -25,7 +25,7 @@ _**Lite-distribution – avtal till proforma-fakturering_
 
 ![Konfigurationsmigrering](./media/1ConfigurationMigration.png)
 
-4. På sidan 2 i guiden CMT väljer du **Office 365** som **Distributionstyp**.
+4. På sidan 2 i guiden CMT väljer du **Microsoft 365** som **Distributionstyp**.
 5. Markera kryssrutorna **Visa en lista över tillgängliga organisationer** och **Visa avancerat**.
 6. Välj region för klientorganisationen, ange autentiseringsuppgifter och välj sedan **Logga in**.
 

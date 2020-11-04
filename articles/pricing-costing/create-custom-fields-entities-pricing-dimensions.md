@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085578"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Skapa anpassade fält och entiteter som prissättningsdimensioner
 
@@ -37,7 +36,7 @@ Slutför följande steg varje gång du vill skapa en anpassad alternativuppsätt
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Skapa en anpassad lösning för prissättningsdimensioner
 1. Klicka på **inställningar** > **lösningar** och klicka sedan på **Ny** för att skapa en ny lösning. 
-2. Ge lösningen ett namn, **\<your organization name> prissättningsdimensioner**, ange den information som krävs och klicka sedan på **Spara**.
+2. Ge lösningen ett namn, **\<your organization name> prissättningsdimensioner** , ange den information som krävs och klicka sedan på **Spara**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Skapa anpassade fält och alternativuppsättningar i dimensionslösningen för prissättning
 
@@ -63,7 +62,7 @@ Du kan skapa två alternativbaserade dimensioner. Använd **Resursens arbetsplat
 
 Du kan skapa data för entitetsbaserade dimensioner manuellt, eller genom att använda Microsoft Excel import- eller servicesamtal. Följ stegen nedan om du vill skapa två standardrubriker **Systemtekniker** och **Senior systemtekniker** från den entitetbaserade dimensionen **Standardrubrik**. Om de data du vill skapa är små, som i följande exempel, kan du använda ett standardformulär.
 
-1. Välj **Avancerad sökning**, markera enhetens **standardrubrik** och välj sedan **resultat**. Alla rader i entiteten **standardrubrik** visas.
+1. Välj **Avancerad sökning** , markera enhetens **standardrubrik** och välj sedan **resultat**. Alla rader i entiteten **standardrubrik** visas.
 2. Välj **Ny** och i fältet **Namn** ange "Systemtekniker" och välj sedan **Spara**.
 3. Stäng formuläret. 
 4. Skapa en ny standardrubrik för "senior systemteknikern" genom att upprepa steg 1-3.
@@ -91,5 +90,5 @@ Du måste lägga till följande entiteter i din prissättningslösning. Följ st
 > [!NOTE]
 > Se till att du tar med alla formulär och vyer för varje vald entitet.
 
-4. Klicka på **Nej**om du uppmanas att ta med alla beroende entiteter för de valda entiteterna ovan.
+4. Klicka på **Nej** om du uppmanas att ta med alla beroende entiteter för de valda entiteterna ovan.
 

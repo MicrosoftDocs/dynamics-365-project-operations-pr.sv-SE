@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966872"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085463"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Hantera projektprislistor i projektofferter (försäljning)
 
@@ -65,5 +65,5 @@ Följ stegen nedan om du vill skapa en kundspecifik projektprislista.
 
 När du har skapat organisations- och kundspecifika standardprislistor skapas dina projektofferter automatiskt med de här associationerna till projektprislistor. I vissa fall kan du emellertid behöva skapa en anpassad prissättning för en specifik projektoffert. 
 
-1. I **Projektoffert**, under fliken **Projektprislistat**, verifierar du i underrutnätet att ingen specifik prislistpost har valts.
+1. I **Projektoffert** , under fliken **Projektprislistat** , verifierar du i underrutnätet att ingen specifik prislistpost har valts.
 2. Välj **Skapa anpassad prissättning**. Då skapas en kopia av alla standardprislistor som är associerade med offerten och dessa kopior associeras till offerten. De befintliga kopplingarna till standardprislistor tas bort. Säljaren kan sedan göra ändringar i priser för kopiorna. De ändrade priserna gäller endast för den här projektofferten.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085411"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Lägga till en Azure-prenumeration i LCS-projekt
 
@@ -23,11 +23,11 @@ Miljöer i molnet måste distribueras med hjälp av en befintlig Azure-prenumera
 
 ## <a name="grant-admin-consent"></a>Bevilja administratörsmedgivande
 
-1. I ditt LCS-projekt, i avsnittet **Miljöer**, väljer du **Microsoft Azure-inställningar**.
+1. I ditt LCS-projekt, i avsnittet **Miljöer** , väljer du **Microsoft Azure-inställningar**.
 
 ![Inställningar för Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. På sidan **Projektinsätllningar**, under fliken **Azure-anslutningsprogram**, väljer du **Auktorisera**. Detta gör att miljöer kan distribueras till det här projektet.
+2. På sidan **Projektinsätllningar** , under fliken **Azure-anslutningsprogram** , väljer du **Auktorisera**. Detta gör att miljöer kan distribueras till det här projektet.
 
 ![Azure-anslutningsprogram](./media/2AzureConnectors.png)
 
@@ -57,7 +57,7 @@ Auktoriseringen har slutförts.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Lägga till ett anslutningsprogram för prenumeration i ett LCS-projekt
 
-1. I ditt LCS-projekt, på sidan **Microsoft Azure-inställningar**, väljer du **Lägg till** för att lägga till ett nytt anslutningsprogram.
+1. I ditt LCS-projekt, på sidan **Microsoft Azure-inställningar** , väljer du **Lägg till** för att lägga till ett nytt anslutningsprogram.
 2. Ange ditt ID för Azure-prenumerationen. Du hittar ditt ID för Azure-prenumerationen i [Azure-portalen](https://ms.portal.azure.com/) under **Inställningar** längst ned till vänster på skärmen.
 3. I fältet **Konfigurera för att använda Azure Resource Manager** väljer du **Ja**.
 4. Kontrollera att AAD-klientorganisationens domän för Azure-prenumerationen stämmer överens med den domänägande Azure-prenumerationen som du använder och välj **Nästa**.

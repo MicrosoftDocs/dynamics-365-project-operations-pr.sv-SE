@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908647"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085431"
 ---
 # <a name="project-team-members"></a>Projektets teammedlemmar
 
@@ -47,16 +47,16 @@ I följande tabell visas nyckelattribut för en medlem i projektteamet.
 
 Från rutnätet med projektmedlemmar kan du utföra följande åtgärder:
 
-- **Boka**: för organisationer som använder hybridbokningsmetoden gör bokningsåtgärden det möjligt för användare att boka en namngiven resurs baserat på de krav som genererats från den generiska teammedlemmen
-- **Generera krav**: den här åtgärden genererar kravet.
-- **Ange mönster**: gör det möjligt för projektledarna att justera resurskravens profiler på en detaljerad nivå. Projektledarna kan justera efter projektets specifika behov i de fall då standarddistributionen inte passar.
-- **Skicka förfrågan**: för organisationer som använder metoden för central bokning.
-- **Redigera**: attribut för team medlem kan redigeras, t.ex. organisationsenhets-, roll- och befattningsnamn.
-- **Underhåll bokningar**: när du behöver uppdatera en resursbokning kan du låta projektledaren justera:
+- **Boka** : för organisationer som använder hybridbokningsmetoden gör bokningsåtgärden det möjligt för användare att boka en namngiven resurs baserat på de krav som genererats från den generiska teammedlemmen
+- **Generera krav** : den här åtgärden genererar kravet.
+- **Ange mönster** : gör det möjligt för projektledarna att justera resurskravens profiler på en detaljerad nivå. Projektledarna kan justera efter projektets specifika behov i de fall då standarddistributionen inte passar.
+- **Skicka förfrågan** : för organisationer som använder metoden för central bokning.
+- **Redigera** : attribut för team medlem kan redigeras, t.ex. organisationsenhets-, roll- och befattningsnamn.
+- **Underhåll bokningar** : när du behöver uppdatera en resursbokning kan du låta projektledaren justera:
 
     - Början
     - Sluta
     - Total insatsallokering
 
-- **Ny**: förutom att lägga till resurser direkt från schemat kan projektledarna lägga till nya namngivna eller generiska teammedlemmar från rutnätet med teammedlemmar.
-- **Ta bort**: genom att välja en eller flera teammedlemmar kan projektledarna ta bort resurser som inte längre ska ingå i projektet. Om du tar bort en teammedlem tas även alla associerade resurstilldelningar bort och alla befintliga bokningar avbryts.
+- **Ny** : förutom att lägga till resurser direkt från schemat kan projektledarna lägga till nya namngivna eller generiska teammedlemmar från rutnätet med teammedlemmar.
+- **Ta bort** : genom att välja en eller flera teammedlemmar kan projektledarna ta bort resurser som inte längre ska ingå i projektet. Om du tar bort en teammedlem tas även alla associerade resurstilldelningar bort och alla befintliga bokningar avbryts.

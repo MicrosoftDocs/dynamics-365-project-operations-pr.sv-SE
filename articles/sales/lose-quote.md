@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928613"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085417"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiera projektbaserade offerter
 
@@ -21,7 +21,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Du kan enkelt skapa en ny projektoffert genom att kopiera en befintlig. 
 
-- Om du vill kopiera en projektoffert går du till listan **Projektofferter** eller sidan **Projektoffert**, väljer den projektoffert du vill kopiera och väljer sedan **Kopiera**.
+- Om du vill kopiera en projektoffert går du till listan **Projektofferter** eller sidan **Projektoffert** , väljer den projektoffert du vill kopiera och väljer sedan **Kopiera**.
 
 Då öppnas en dialogsida där du kan ange parametrarna för kopian. Följande tabell visar de fält som ingår i dialogsidan. Beroende på vilka värden du väljer kan kopieringsprocessen ändras.
 
