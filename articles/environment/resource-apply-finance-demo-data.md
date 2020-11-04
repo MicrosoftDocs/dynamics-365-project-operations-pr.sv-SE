@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949105"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096644"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Använda Project Operations-demodata i en Finance Cloud-värdbaserad miljö
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
->[Viktigt] Det här ämnet gäller endast Microsoft Dynamics 365 Finance-versionen 10.0.13 och kan endast utföras i en molnbaserad miljö. Slutför stegen i det här ämnet **INNAN** du tillämpar kvalitetsuppdateringar av miljön.
+> [!IMPORTANT]
+> Det här ämnet gäller endast Microsoft Dynamics 365 Finance-versionen 10.0.13 och kan endast utföras i en molnbaserad miljö. Slutför stegen i det här ämnet **INNAN** du tillämpar kvalitetsuppdateringar av miljön.
 
 1. I ditt LCS-projekt öppnar du sidan **Miljöinformation**. Observera att den innehåller den information som behövs för att ansluta till miljön med hjälp av RDP (Remote Desktop Protocol).
 
