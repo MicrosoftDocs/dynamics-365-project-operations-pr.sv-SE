@@ -1,40 +1,50 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Kom i gång
+- name: Kom igång
   items:
-    - name: Fastställa din distributionstyp
+    - name: Fastställ din distributionstyp
       href: environment/determine-deployment-type.md
+    - name: Uppdateringar av Project Operations
+      href: whats-new/project-operations-updates.md
 - name: Project Operations för resursscenarier/icke lagerbaserade scenarier
   items:
-    - name: Kom i gång
+    - name: Kom igång
       items:
-        - name: Registrera dig för en förhandsversionsprenumeration (resurs/ej lagerbaserad)
+        - name: Project Operations för resursscenarier/icke lagerbaserade scenarier – distributionsöversikt
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: Registrera dig för prenumeration på förhandsversion
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Navigera Project Operations
+          href: environment/navigate-project-operations.md
         - name: Konfigurera krav
           items:
             - name: Skapa ett nytt LCS-projekt
               href: environment/create-lcs-project.md
-            - name: Lägga till en Azure-prenumeration i LCS-projekt
+            - name: Lägga till en Azure-prenumeration i ett LCS-projekt
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Använda demodata
           items:
-            - name: Använda Project Operations-demodata i en Finance Cloud-värdbaserad miljö
+            - name: Använda demodata i en Finance molnvärdbaserad miljö
               href: environment/resource-apply-finance-demo-data.md
-            - name: Använda konfigurationsdata i Common Data Service för Project Operations
+            - name: Tillämpa konfigurationsdata i Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuera miljöer
           items:
             - name: Etablera en ny miljö
               href: environment/resource-provision-new-environment.md
-            - name: Säkerhetsmodul
+            - name: Säkerhetsmodell
               href: environment/security-model.md
             - name: Konfigurera Project Operations-integrering efter juridisk person
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Försäljningsprocess
+    - name: Nyheter
       items:
-        - name: Försäljningsöversikt
+        - name: November 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: Projektförsäljningsprocess
+      items:
+        - name: Översikt över projektförsäljningsprocess
           href: sales/sales-overview.md
-        - name: Inställning
+        - name: Konfiguration
           items:
             - name: Produkter
               href: sales/sales-products.md
@@ -42,104 +52,116 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
-        - name: Hantera leads
+        - name: Hantera projektleads
           href: sales/manage-leads.md
-        - name: Hantera affärsmöjligheter
+        - name: Hantera projektaffärsmöjligheter
           items:
-            - name: Hantera projektbaserade affärsmöjligheter
+            - name: Hantera projektaffärsmöjligheter – Översikt
               href: sales/manage-project-based-opportunities.md
-            - name: Rubrik för affärsmöjlighet
+            - name: Inställningar för projektbaserad affärsmöjlighet
               href: sales/opportunity-header.md
-            - name: Projektbaserade rader
+            - name: Projektbaserade affärsmöjlighetsrader
               href: sales/project-based-lines.md
-            - name: Kopiera projektbaserade affärsmöjligheter
-              href: sales/copy-project-based-opportunity.md
             - name: Skapa projektofferter från affärsmöjligheter
               href: sales/link-quotes-opportunities.md
-            - name: Stänga en affärsmöjlighet
+            - name: Kopiera projektbaserade affärsmöjligheter
+              href: sales/copy-project-based-opportunity.md
+            - name: Stäng en projektaffärsmöjlighet
               href: sales/close-opportunity.md
-        - name: Hantera offerter
+        - name: Hantera projektofferter
           items:
-            - name: Nyckelbegrepp
+            - name: Hantera projektofferter – Översikt
+              href: pro/sales/manage-quotes-sales.md
+            - name: Begrepp i projektofferter
               href: sales/quotes-key-concepts.md
-            - name: Översiktsinformation för en projektoffert
+            - name: Inställningar för projektofferter
               href: sales/quote-values-budget-limits-contract.md
-            - name: Hantera flera kunder i en offert
+            - name: Hantera flera kunder i en projektoffert
               href: sales/manage-multiple-customers-quote.md
-            - name: Produktbaserade offertrader
-              item:
-                - name: Produktbaserade offertrader för kostnadsredovisning
-                  href: sales/costing-product-based-quote-lines.md
-                - name: Hantera komplexa enheter för produktbaserade offertrader
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Hantera projektprislistor i en offert
+              href: sales/managing-project-price-lists.md
             - name: Projektbaserade offertrader
               items:
-                - name: Hantera projektprislistor
-                  href: sales/managing-project-price-lists.md
+                - name: Projektbaserade offertrader – Översikt
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Hantera flera kunder på projektbaserade offertrader
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Konfigurera debiterbara komponenter på en projektoffertrad
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Skapa beräkningar på en offertrad
                   href: sales/create-estimate-quote-line.md
-                - name: Importera beräkningar för ett projekt till en projektbaserad offertrad
+                - name: Importera beräkningar från ett projekt till en projektbaserad offertrad
                   href: sales/import-estimate-quote-line.md
-                - name: 'Hantera offererade värden, kundbudgetar och undre gränser'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Faktureringsscheman på projektbaserade offertrader
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiera projektbaserade offerter
+            - name: Kopiera projektofferter
               href: sales/lose-quote.md
-            - name: Stänga en offert
+            - name: Stäng projektofferter
               href: sales/win-quote.md
-        - name: Hantera kontrakt
+        - name: Hantera projektkontrakt
           items:
-            - name: Nyckelbegrepp – Projektkontrakt
+            - name: Hantera projektkontrakt – Översikt
+              href: pro/sales/manage-contracts-sales.md
+            - name: Begrepp för projektkontrakt
               href: sales/contracts-key-concepts.md
             - name: Inställningar för projektkontrakt
               href: sales/project-contract-settings.md
+            - name: Hantera projektprislistor i projektkontrakt
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Hantera flera kunder i projektkontrakt
+              href: sales/contracts-manage-project-price-lists.md
             - name: Projektbaserade kontraktrader
               items:
+                - name: Projektbaserade kontraktrader – Översikt
+                  href: sales/manage-contract-values-project-based.md
+                - name: Hantera flera kunder på projektbaserade kontraktrader
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad
                   href: sales/configure-chargeable-contract-line.md
-                - name: Importera en beräkning till en projektbaserad kontraktrad
+                - name: Beräkna en projektbaserad kontraktrad
+                  href: sales/create-estimate-contract-line.md
+                - name: Importera beräkningar från ett projekt till en projektbaserad kontraktrad
                   href: sales/import-estimate-project-contract-line.md
-                - name: Skapa ett faktureringsschema för en projektbaserad kontraktrad
+                - name: Skapa faktureringsscheman för projektbaserade kontraktrader
                   href: sales/invoice-schedules-contract-line.md
             - name: Bekräfta ett projektkontrakt
               href: pro/sales/confirm-contract-sales.md
+            - name: Kopiera ett projektkontrakt
+              href: pro/sales/copy-project-contracts-sales.md
     - name: Prissättning och kostnadsredovisning
       items:
-        - name: Konfigurera prislistor
-          href: pricing-costing/price-list-setup.md
-        - name: Produktprislistor
-          href: pricing-costing/product-price-list.md
-        - name: Projektprislistor
+        - name: Konfigurera prislista
           items:
-            - name: Konfiguration av prislista för försäljning
-              items:
-                - name: Konfigurera prislista för försäljning
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Konfigurera fakturataxa för arbete
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: Konfigurera kostnadstaxa för arbete
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: Konfigurera kostnads- och försäljningstaxa för utgifter
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Standardprislistor
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Lösa självkostnader för beräkningar och utfall
-                  href: pricing-costing/cost-price-resolution.md
+            - name: Konfigurera prislistor
+              href: pricing-costing/price-list-setup.md
+            - name: Produktprislistor
+              href: pricing-costing/product-price-list.md
+            - name: Konfigurera fakturataxa för arbete
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: Konfigurera kostnadstaxa för arbete
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: Konfigurera kostnads- och försäljningstaxa för utgifter
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Standardvärden och åsidosättningar
           items:
-            - name: Lösa försäljningspriser för beräkningar och utfall
+            - name: Standardprislistor
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Åsidosätt projektförsäljningsprislistor
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Lös självkostnader för beräkningar och utfall
+              href: pricing-costing/cost-price-resolution.md
+            - name: Lös försäljningspriser för beräkningar och utfall
               href: pricing-costing/sales-price-resolution.md
             - name: Kopiera prislistor
               href: pricing-costing/copy-price-lists.md
         - name: Prissättningsdimensioner
           items:
-            - name: Översikt över prissättningsdimensioner
+            - name: Prissättningsdimensioner – Översikt
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Använda ett befintligt fält som prissättningsdimension
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Använd befintliga fält som prissättningsdimensioner
+              items:
+                - name: Project Operations-fält som prissättningsdimensioner
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: Anpassade fält som prissättningsdimensioner
               items:
                 - name: Skapa anpassade fält och entiteter som prissättningsdimensioner
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: Projektstadier
           href: project-management/project-stages.md
-        - name: Navigera i användargränssnittet
+        - name: Navigera användargränssnittet
           href: project-management/navigate-ui.md
         - name: Förstå projektstatus
           href: project-management/understand-project-status.md
@@ -204,9 +226,9 @@
           href: resource-management/resource-management-key-concepts.md
         - name: Bokningar kontra tilldelningar
           href: resource-management/booking-vs-assignment.md
-        - name: Översikt över resurshanteringslägen
+        - name: Resurshanteringslägen – Översikt
           href: resource-management/resource-management-mode-overview.md
-        - name: Översikt över schemaläggningsassistenten
+        - name: Schemaläggningsassistenten – Översikt
           href: resource-management/schedule-assistant-overview.md
         - name: Centraliserad resursbokning
           items:
@@ -222,7 +244,7 @@
               href: resource-management/review-proposed-resources.md
         - name: Decentraliserad resursbokning (hybrid)
           items:
-            - name: Lägga till teammedlemmar från rutnätet Teammedlem
+            - name: Lägg till teammedlemmar från rutnätet Teammedlem
               href: resource-management/add-team-members-grid.md
             - name: Uppfylla generiska resurskrav
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -238,17 +260,21 @@
           href: resource-management/skills-proficiency-models.md
         - name: Resursavstämning
           items:
-            - name: Översikt över resursavstämning
+            - name: Resursavstämning – Översikt
               href: resource-management/resource-reconciliation-overview.md
             - name: Hantera tidszoner
               href: resource-management/manage-multiple-time-zones.md
+        - name: Resursutnyttjande
+          items:
+            - name: Resursutnyttjande – Översikt
+              href: resource-management/resource-utilization-overview.md
     - name: Tid
       items:
-        - name: Översikt över tid
+        - name: Tid – Översikt
           href: time/time-entry-overview.md
         - name: Skapa tidsposter
           items:
-            - name: Funktioner i användargränssnitt för tidsposter
+            - name: Användargränssnitt för tidsposter
               href: time/ui-behavior-time.md
         - name: Anteckningar från utvecklare
           items:
@@ -304,11 +330,15 @@
               href: expense/expense-using-mobile.md
     - name: Godkännanden
       items:
-        - name: Översikt över godkännanden
+        - name: Godkännanden – Översikt
           href: approvals/approvals-overview.md
-    - name: Värden
+        - name: Anteckningar från utvecklare
+          items:
+            - name: Utvecklingsanteckningar för godkännanden
+              href: approvals/dev-notes-approvals.md
+    - name: Utfall
       items:
-        - name: Översikt över värden
+        - name: Utfall – Översikt
           href: actuals/actuals-overview.md
         - name: Korrigeringsjournaler
           items:
@@ -316,39 +346,53 @@
               href: actuals/create-confirm-correction-journals.md
     - name: Proforma-fakturering
       items:
-        - name: Hantera faktureringen som släpat efter
+        - name: Hantera eftersläpad projektfakturering
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: Skapa en manuell proforma-faktura
+        - name: Hantera undre status och valideringar
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Skapa en proforma projektfaktura manuellt
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Bekräfta en proforma-faktura
+        - name: Hantera en proforma projektfaktura
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Bekräfta en proforma projektfaktura
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Korrigerade fakturor
-          href: proforma-invoicing/corrective-invoices.md
-        - name: Konfigurera automatiskt fakturaskapande
+        - name: Konfigurera automatisering av projektfaktura
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektredovisning
       items:
+        - name: Standardvärden för ekonomisk dimension
+          href: project-accounting/financial-dimension-defaults.md
         - name: Konfigurera projektkategorier
           href: project-accounting/configure-project-categories.md
         - name: Konfigurera redovisning för interna projekt
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Konfigurera redovisning för fakturerbara projekt
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Integrationsjournal i Project Operations
+          href: project-accounting/project-operations-integration-journal.md
 - name: Lite-distribution – avtal till proforma-fakturering
   items:
-    - name: Kom i gång
+    - name: Kom igång
       items:
-        - name: Registrera dig för en förhandsversionsprenumeration (Lite)
+        - name: Lite-distribution – Översikt
+          href: pro/project-operations-overview-lite.md
+        - name: Registrera dig för förhandsversionsprenumeration
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Distribuera Project Operations Lite-distribution – avtal till proforma-fakturering
+        - name: Distribuera Project Operations – Lite
           href: environment/lite-deployment.md
-        - name: Använda demoinställning och konfigurationsdata
+        - name: Använda demoinställning och konfigurationsdata – Lite
           href: environment/lite-apply-demo-setup-config-data.md
-        - name: Säkerhetsmodul
+        - name: Säkerhetsmodell
           href: environment/security-model.md
-    - name: Försäljningsprocess
+    - name: Nyheter
       items:
-        - name: Inställning
+        - name: Nyheter i november 2020 – Lite-distribution – avtal till proforma-fakturering
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: Projektförsäljningsprocess
+      items:
+        - name: Översikt över projektförsäljningsprocess
+          href: sales/sales-overview.md
+        - name: Konfiguration
           items:
             - name: Produkter
               href: sales/sales-products.md
@@ -356,119 +400,149 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
-        - name: Hantera leads
+        - name: Hantera projektleads
           href: pro/sales/managing-leads-sales.md
-        - name: Hantera affärsmöjligheter
+        - name: Hantera projektaffärsmöjligheter
           items:
-            - name: Hantera projektbaserade affärsmöjligheter
+            - name: Projektaffärsmöjligheter – Översikt
               href: sales/manage-project-based-opportunities.md
-            - name: Rubrik för affärsmöjlighet
+            - name: Inställningar för projektaffärsmöjlighet
               href: pro/sales/opportunity-header-sales.md
-            - name: Projektbaserade rader
+            - name: Hantera produktbaserade affärsmöjlighetsrader
+              href: pro/sales/product-based-lines-sales.md
+            - name: Hantera projektbaserade affärsmöjlighetsrader
               href: pro/sales/project-based-lines-sales.md
+            - name: Skapa offerter från projektaffärsmöjligheter
+              href: sales/link-quotes-opportunities.md
             - name: Kopiera projektbaserade affärsmöjligheter
               href: sales/copy-project-based-opportunity.md
-            - name: Skapa projektofferter från affärsmöjligheter
-              href: sales/link-quotes-opportunities.md
-            - name: Produktbaserade affärsmöjlighetsrader
-              href: pro/sales/product-based-lines-sales.md
-            - name: Stänga en affärsmöjlighet
+            - name: Stäng en projektaffärsmöjlighet
               href: sales/close-opportunity.md
-        - name: Hantera offerter
+        - name: Hantera projektbaserade offerter
           items:
-            - name: Viktiga begrepp i projektofferter
+            - name: Projektbaserade offerter – Översikt
+              href: pro/sales/manage-quotes-sales.md
+            - name: Begrepp i projektoffert
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Översiktsinformation för en projektoffert (försäljning)
+            - name: Inställningar för projektoffert
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Hantera flera kunder i projektofferter
+            - name: Flera kunder i projektofferter
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Projektprislistor i projektofferter
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Produktbaserade offertrader
               items:
+                - name: Produktbaserade offertrader – Översikt
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: Produktbaserade offertrader för kostnadsredovisning
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 'Hantera komplexa enheter som per användare, per månad för produktbaserade offertrader'
+                - name: Hantera komplexa enheter för produktbaserade offertrader
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: Projektbaserade offertrader
               items:
-                - name: Hantera projektprislistor i projektofferter
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: Hantera flera kunder på projektbaserade offertrader
+                - name: Projektbaserade offertrader – Översikt
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Hantera flera kunder
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Mappa projekt och uppgifter till en projektbaserad offertrad
+                - name: Mappa projekt och uppgifter
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Konfigurera debiterbara komponenter
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Beräkna en projektbaserad offertrad
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Projektbaserade offertrader (försäljning)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Importera beräkningar för ett projekt till en projektbaserad offertrad
+                - name: Importera beräkning från projekt
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Faktureringsscheman på projektbaserade offertrader
+                - name: Hantera fakturatidsplaner
                   href: sales/invoice-schedule-quote-line.md
-                - name: Konfigurera debiterbara komponenter på en offertrad
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Kopiera projektbaserade offerter
-          href: sales/lose-quote.md
-        - name: Stänga en offert
-          href: pro/sales/win-quote-sales.md
-    - name: Hantera kontrakt
-      items:
-        - name: Nyckelbegrepp för projektkontrakt
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: Fält och information för projektkontrakt
-          href: pro/sales/project-contract-settings-sales.md
-        - name: Produktbaserade kontraktrader
+            - name: Kopiera projektbaserade offerter
+              href: sales/lose-quote.md
+            - name: Stäng projektbaserade offerter
+              href: pro/sales/win-quote-sales.md
+        - name: Hantera projektbaserade kontrakt
           items:
-            - name: Översikt över produktbaserade kontraktrader
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: Produktbaserade kontraktrader för kostnadsredovisning
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Projektbaserade kontraktrader
-          items:
-            - name: Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: Importera en beräkning till en projektbaserad kontraktrad
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: Skapa faktureringsscheman för en projektbaserad kontraktrad
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: Kopiera projektkontrakt
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: Bekräfta ett projektkontrakt
-          href: pro/sales/confirm-contract-sales.md
-        - name: Förskott och arvodesbaserade kontrakt
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: Projektbaserade kontrakt – Översikt
+              href: pro/sales/manage-contracts-sales.md
+            - name: Begrepp för projektkontrakt
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: Inställningar för projektkontrakt
+              href: pro/sales/project-contract-settings-sales.md
+            - name: Flera kunder i projektkontrakt
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: Projektprislistor för projektkontrakt
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Produktbaserade kontraktrader
+              items:
+                - name: Produktbaserade kontraktrader – Översikt
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: Produktbaserade kontraktrader för kostnadsredovisning
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: Hantera komplexa enheter för produktbaserade kontraktrader
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: Projektbaserade kontraktrader
+              items:
+                - name: Projektbaserade kontraktrader – Översikt
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Hantera flera kontraktkunder
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: Mappa projekt och uppgifter till en projektkontraktrad
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Konfigurera debiteringsbara komponenter på en projektkontraktrad
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Beräkna en projektbaserad kontraktrad
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: Importera beräkningar från ett projekt till en projektkontraktrad
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Hantera fakturatidsplaner för projektkontraktrad
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: Kopiera projektkontrakt
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: Bekräfta ett projektkontrakt
+              href: pro/sales/confirm-contract-sales.md
+            - name: Förskott och arvode
+              items:
+                - name: Förskott och arvodesbaserade kontrakt – Lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Konfigurera en tidsplan för arvoden – Lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Skapa ett ad hoc-förskott på ett kontrakt – Lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissättning och kostnadsredovisning
       items:
-        - name: Konfigurera prislistor
-          href: pricing-costing/price-list-setup.md
-        - name: Projektprislistor
+        - name: Konfigurera prislista
           items:
-            - name: Konfiguration av prislista för försäljning
-              items:
-                - name: Konfigurera prislista för försäljning
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Konfigurera fakturataxa för arbete
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: Konfigurera kostnadstaxa för arbete
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: Konfigurera kostnads- och försäljningstaxa för katalogprodukter
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: Konfigurera kostnads- och försäljningstaxa för utgifter
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Standardprislistor
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Lösa självkostnader för beräkningar och utfall
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Konfigurera prislistor
+              href: pricing-costing/price-list-setup.md
+            - name: Konfigurera prislista för försäljning
+              href: pricing-costing/sales-price-list-setup.md
+            - name: Konfigurera fakturataxa för arbete – Lite
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: Konfigurera kostnadstaxa för arbete – Lite
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: Konfigurera kostnads- och försäljningstaxa för katalogprodukter – Lite
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: Konfigurera kostnads- och försäljningstaxa för utgifter
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Standardvärden och åsidosättningar
           items:
-            - name: Lösa försäljningspriser för beräkningar och utfall
+            - name: Standardprislistor
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Åsidosätt projektförsäljningsprislistor
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Lös självkostnader för beräkningar och utfall – Lite
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Lös försäljningspriser för beräkningar och utfall – Lite
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopiera prislistor
               href: pricing-costing/copy-price-lists.md
         - name: Prissättningsdimensioner
           items:
-            - name: Använda ett befintligt fält som prissättningsdimension
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Anpassade fält som prissättningsdimension
+            - name: Prissättningsdimensioner – Översikt
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Använd befintliga fält som prissättningsdimensioner
+              items:
+                - name: Använda ett befintligt fält som prissättningsdimension
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Anpassade fält som prissättningsdimensioner
               items:
                 - name: Skapa anpassade fält och entiteter som prissättningsdimensioner
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -528,9 +602,9 @@
           href: resource-management/resource-management-key-concepts.md
         - name: Bokningar kontra tilldelningar
           href: resource-management/booking-vs-assignment.md
-        - name: Översikt över resurshanteringslägen
+        - name: Resurshanteringslägen – Översikt
           href: resource-management/resource-management-mode-overview.md
-        - name: Översikt över schemaläggningsassistenten
+        - name: Schemaläggningsassistenten – Översikt
           href: resource-management/schedule-assistant-overview.md
         - name: Centraliserad resursbokning
           items:
@@ -546,7 +620,7 @@
               href: resource-management/review-proposed-resources.md
         - name: Decentraliserad resursbokning (hybrid)
           items:
-            - name: Lägga till teammedlemmar från rutnätet Teammedlem
+            - name: Lägg till teammedlemmar från rutnätet Teammedlem
               href: resource-management/add-team-members-grid.md
             - name: Uppfylla generiska resurskrav
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -556,23 +630,27 @@
               href: resource-management/define-skills-proficiencies.md
             - name: Definiera resurskalendrar
               href: resource-management/define-resource-calendars.md
-        - name: Metoder för bokning av allokeringar
+        - name: Metoder för att boka allokeringar
           href: resource-management/booking-allocation-methods.md
         - name: Färdigheter och kompetensmodeller
           href: resource-management/skills-proficiency-models.md
         - name: Resursavstämning
           items:
-            - name: Översikt över resursavstämning
+            - name: Resursavstämning – Översikt
               href: resource-management/resource-reconciliation-overview.md
             - name: Hantera tidszoner
               href: resource-management/manage-multiple-time-zones.md
+        - name: Resursutnyttjande
+          items:
+            - name: Resursutnyttjande – Översikt
+              href: resource-management/resource-utilization-overview.md
     - name: Tid
       items:
-        - name: Översikt över tid
+        - name: Tid – Översikt
           href: time/time-entry-overview.md
         - name: Skapa tidsposter
           items:
-            - name: Funktioner i användargränssnitt för tidsposter
+            - name: Användargränssnitt för tidsposter
               href: time/ui-behavior-time.md
         - name: Anteckningar från utvecklare
           items:
@@ -582,35 +660,51 @@
       items:
         - name: Översikt över utgifter
           href: expense/expense-overview.md
-        - name: Post för utgift (Lite)
+        - name: Utgiftspost – Lite
           href: expense/basic-expense.md
     - name: Godkännanden
       items:
-        - name: Översikt över godkännanden
+        - name: Godkännanden – Översikt
           href: approvals/approvals-overview.md
-    - name: Värden
+        - name: Anteckningar från utvecklare
+          items:
+            - name: Utvecklingsanteckningar för godkännanden
+              href: approvals/dev-notes-approvals.md
+    - name: Utfall
       items:
-        - name: Översikt över värden
+        - name: Utfall – Översikt
           href: actuals/actuals-overview.md
         - name: Korrigeringsjournaler
           items:
             - name: Skapa och bekräfta korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
-        - name: Proforma-fakturering
-          items:
-            - name: Hantera faktureringen som släpat efter
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: Skapa en manuell proforma-faktura
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: Fakturera arvode eller förskott
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Korrigerade fakturor
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Konfigurera automatiserat fakturaskapande
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Proforma-fakturering
+      items:
+        - name: Hantera eftersläpad projektfakturering
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: Hantera undre status och valideringar
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Skapa en proforma projektfaktura manuellt
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: Hantera en proforma projektfaktura
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: Fakturera arvode eller förskott
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: Bekräfta en proforma projektfaktura
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: Skapa korrigeringsprojektfakturor
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: Konfigurera automatisering av projektfaktura
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations för lagerbaserade/produktionsbaserade scenarier
   items:
-    - name: Översikt över projektledning och redovisning
+    - name: Nyheter
+      items:
+        - name: Nyheter i november 2020 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Project Operations för lagerbaserade/produktionsbaserade scenarier – Distributionsöversikt
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
+    - name: Projektledning och redovisning – Översikt
       href: prod-pma/overview-project-management-accounting.md
     - name: Koncernintern fakturering
       href: prod-pma/intercompany-invoicing.md
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Översikt över Project Service Automation
+    - name: Project Service Automation
       href: psa/overview.md
     - name: Nyheter
       items:
-        - name: Uppdatera tidsplan för Project Service 3.x
+        - name: Uppdatering av tidsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 25, V3'
+          href: psa/whats-new-ur-25.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 23, V3'
@@ -766,80 +862,92 @@
           href: psa/whats-new-ur-13.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 12, V3'
           href: psa/whats-new-ur-12.md
-        - name: 'Nyheter eller ändringar i Project Service Automation V3.x, våg 1 2020'
+        - name: 'Nyheter och ändringar i Project Service Automation V3.x, våg 1 2020'
           href: psa/whats-new-v3-2020-wave1.md
-        - name: Nyheter eller ändringar i Project Service Automation V3
+        - name: Nyheter och ändringar i Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: Implementera Project Service Automation 3.x
+    - name: Planera din implementering (appversion 3.x)
       items:
-        - name: Översikt över implementering
+        - name: Installation av exempeldata
           href: psa/install-sample-data-3-x.md
-    - name: Uppgradera
+        - name: Guide för projektplanering och spårning
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 'Guide för grundläggande offerter, prissättning och fakturering.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 'Guide för avancerade offerter, prissättning och fakturering'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: Guide för resurshantering
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: Guide för rapportering
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Uppgradering av Project Service Automation (appversion 3.x)
       items:
-        - name: Project Service Automation-uppgradering (3.x)
+        - name: Project Service Automation-uppgradering
           href: psa/upgrade-psa-home-page.md
         - name: Uppgraderingöverväganden – version 2.x eller 1.x till version 3.x
           href: psa/upgrade-v3.md
         - name: Utveckling (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: Entitetsändringar
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: Tid och utgift
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: Resurshantering
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Inaktuella webbresurser i Project Service Automation v3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: Projektplanering
-      items:
-        - name: Översikt över projektplanering
-          href: psa/project-planning.md
-        - name: Projektscheman
-          href: psa/project-creating.md
-        - name: Projektkostnader och intäkter
-          href: psa/project-estimating.md
-        - name: Försäljningsberäkningar och projekt
-          href: psa/project-leveraging.md
-        - name: Projektstatus och kostnadsförbrukning
-          href: psa/project-tracking.md
-        - name: Projektmallar
-          href: psa/project-templates.md
-        - name: Projektstadier
-          href: psa/project-stages.md
-        - name: Projektinställningar
-          href: psa/project-settings.md
-    - name: Prissättnings- och kostnadsdimensioner
-      items:
-        - name: Översikt över prissättnings- och kostnadsdimensioner
-          href: psa/pricing-costing-dimensions.md
-        - name: Skapa en lösning för anpassade prissättningsdimensioner
-          href: psa/custompricingdimensionssolution.md
-        - name: Skapa anpassade fält och entiteter
-          href: psa/create-custom-fields-entities.md
-        - name: Lägga till anpassade fält i prisinställningar och transaktionella entiteter
-          href: psa/field-references.md
-        - name: Konfigurera anpassade fält som prissättningsdimensioner
-          href: psa/set-up-pricing-dimensions.md
-        - name: Uppdatera attribut för plugin-program för att inkludera nya prissättningsdimensioner
-          href: psa/update-plug-in-attributes.md
-        - name: Återanvänd element som prissättnings dimensioner
           items:
-            - name: Använda ett befintligt fält i Project Service som en prissättningsdimension
-              href: psa/use-existing-field.md
-            - name: Använda bokningsbar resurs som prissättningsdimension
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: Använd transaktionskategori som prissättningsdimension
-              href: psa/transaction-category-pricing-dimension.md
-        - name: Bokningsbar resurs med flera roller i ett projekt
-          href: psa/bookable-resource-multiple-roles.md
-        - name: Inaktivera en prissättningsdimension
-          href: psa/turn-off-pricing-dimension.md
-    - name: 'Offerter, prissättning och fakturering'
+            - name: Utveckling (appversion 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: Entitetsändringar
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: Tid och utgift
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: Resurshantering
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Inaktuella webbresurser i Project Service Automation v3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 'Översikt över offerter, prissättning och fakturering'
-          href: psa/quote-bill-price.md
-        - name: Offererar
+        - name: Projektplanering
           items:
+            - name: Startsida för projektplanering
+              href: psa/project-planning.md
+            - name: Projekttidsplaner
+              href: psa/project-creating.md
+            - name: Projektkostnader och intäkter
+              href: psa/project-estimating.md
+            - name: Försäljningsberäkningar och projekt
+              href: psa/project-leveraging.md
+            - name: Projektstatus och kostnadsförbrukning
+              href: psa/project-tracking.md
+            - name: Projektmallar
+              href: psa/project-templates.md
+            - name: Projektstadier
+              href: psa/project-stages.md
+            - name: Projektinställningar
+              href: psa/project-settings.md
+        - name: Prissättnings- och kostnadsdimensioner
+          items:
+            - name: Startsida för prissättnings- och kostnadsdimensioner
+              href: psa/pricing-costing-dimensions.md
+            - name: Skapa en lösning för anpassade prissättningsdimensioner
+              href: psa/custompricingdimensionssolution.md
+            - name: Skapa anpassade fält och entiteter
+              href: psa/create-custom-fields-entities.md
+            - name: Lägga till anpassade fält i prisinställningar och transaktionella entiteter
+              href: psa/field-references.md
+            - name: Konfigurera anpassade fält som prissättningsdimensioner
+              href: psa/set-up-pricing-dimensions.md
+            - name: Uppdatera attribut för plugin-program för att inkludera nya prissättningsdimensioner
+              href: psa/update-plug-in-attributes.md
+            - name: Använda ett befintligt fält i en prissättningsdimension
+              items:
+                - name: Använda ett befintligt fält i Project Service som en prissättningsdimension
+                  href: psa/use-existing-field.md
+                - name: Använda bokningsbar resurs som prissättningsdimension
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: Använd transaktionskategori som prissättningsdimension
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: Bokningsbar resurs med flera roller i ett projekt
+              href: psa/bookable-resource-multiple-roles.md
+            - name: Inaktivera en prissättningsdimension
+              href: psa/turn-off-pricing-dimension.md
+        - name: 'Offerter, prissättning och fakturering'
+          items:
+            - name: 'Startsida för offerter, prissättning och fakturering'
+              href: psa/quote-bill-price.md
             - name: Försäljningsprocesser
               href: psa/basic-sales-process.md
             - name: Enhetsgrupper och enheter
@@ -850,27 +958,21 @@
               href: psa/basic-quote-lines.md
             - name: Produktbaserade offertrader
               href: psa/product-based-quote-lines.md
-            - name: Analysera projektofferter
-              href: psa/basic-analyzing-quotes.md
-        - name: Prissättning
-          items:
             - name: Prissättning av projekt
               href: psa/basic-pricing.md
             - name: Prissättning för produktkatalog
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: Affärstransaktioner
               href: psa/basic-business-transactions.md
             - name: Beräkningar
               href: psa/estimates.md
-        - name: Fakturering
-          items:
             - name: Analysera projektofferter
               href: psa/basic-analyzing-quotes.md
             - name: Återkalla tidigare godkända tids- eller utgiftsposter
               href: psa/recall-approved.md
             - name: Annullera godkännande av tidigare godkända tids- eller utgiftsposter
               href: psa/cancel-approval.md
-            - name: Värden
+            - name: Utfall
               href: psa/actuals.md
             - name: Masskorrigeringar av värden som skapats av godkända tid- och utgiftsposter
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: Scenarier med flera valutor
               href: psa/advanced-currency.md
-    - name: Resurser till projekt
-      items:
-        - name: Översikt över resurser till projekt
-          href: psa/resource-management.md
-        - name: Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov
-          href: psa/assign-generic-bookable-resource.md
-        - name: Boka namngivna bokningsbara resurser för ett projektteam och tilldela dem uppgifter
-          href: psa/assign-named-bookable-resource.md
-        - name: Tilldela en resurs en uppgift
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: Boka namngivna resurser från resurskrav
-          href: psa/book-named-resource.md
-        - name: Resursbokningar och sambandet med uppgiftstilldelningar
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: Skicka en resursbegäran
-          href: psa/submit-resource-request.md
-        - name: Acceptera eller avvisa en föreslagen resurs
-          href: psa/accept-reject-proposed-resource.md
-        - name: Visa debiterbart utnyttjande för resurser
-          href: psa/FAQ-utilization-view.md
+        - name: Resurser till projekt
+          items:
+            - name: Startsida för resurser till projekt
+              href: psa/resource-management.md
+            - name: Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov
+              href: psa/assign-generic-bookable-resource.md
+            - name: Boka namngivna bokningsbara resurser för ett projektteam och tilldela dem uppgift
+              href: psa/assign-named-bookable-resource.md
+            - name: Tilldela en resurs en uppgift
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: Boka namngivna resurser från resurskrav
+              href: psa/book-named-resource.md
+            - name: Resursbokningar och sambandet med uppgiftstilldelningar
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: Skicka en resursbegäran
+              href: psa/submit-resource-request.md
+            - name: Acceptera eller avvisa en föreslagen resurs
+              href: psa/accept-reject-proposed-resource.md
+            - name: Visa debiterbart utnyttjande för resurser
+              href: psa/FAQ-utilization-view.md
         - name: Stäm av bokningar och tilldelningar
           href: psa/reconcile-booking-assignment.md
-    - name: Resurshantering
-      items:
-        - name: Startsida för resurshantering
-          href: psa/resource-management-home-page.md
-        - name: Hantera resurser
-          href: psa/manage-resources.md
-        - name: Nyckelbegrepp
-          href: psa/reports-key-concepts.md
-        - name: Uppfylla resursförfrågningar
-          href: psa/resource-management-fulfill-requests.md
-        - name: Föreslå resurser
-          href: psa/resource-management-propose-resources.md
-        - name: Bokning av resurser
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: Metoder för bokning av allokeringar
-          href: psa/FAQ-allocation-methods.md
-        - name: Preliminärboka krav
-          href: psa/resource-management-softbook-requirements.md
-        - name: Preliminärboka en resurs
-          href: psa/FAQ-soft-book.md
-        - name: Skapa en projektbokning från schemaläggningstavlan
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: Färdigheter och kompetensmodeller
-          href: psa/resource-management-skills-proficiency.md
-        - name: Vanliga frågor och svar om resurshantering
-          href: psa/resource-management-faq.md
-    - name: Rapportering
-      items:
-        - name: Översikt över rapportering
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: Instrumentpaneler
-          href: psa/reports-dashboards.md
-        - name: Arbeta med datamodellen för Project Service Automation
-          href: psa/reports-working-project-service-data-model.md
-    - name: Tidspost
-      items:
-        - name: Skapa tidsposter
-          href: psa/time-entries.md
-        - name: Tidspostkalender
-          href: psa/time-entry-calendar.md
-        - name: Anpassa tidsposter för en vecka
-          href: psa/time-entry-extensibility-v3.md
-    - name: Vanliga frågor och svar och felsökning
+        - name: Resurshantering
+          items:
+            - name: Startsida för resurshantering
+              href: psa/resource-management-home-page.md
+            - name: Hantera resurser
+              href: psa/manage-resources.md
+            - name: Nyckelbegrepp
+              href: psa/reports-key-concepts.md
+            - name: Uppfyll resursförfrågningar
+              href: psa/resource-management-fulfill-requests.md
+            - name: Föreslå resurser
+              href: psa/resource-management-propose-resources.md
+            - name: Boka resurser
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: Metoder för att boka allokeringar
+              href: psa/FAQ-allocation-methods.md
+            - name: Krav för preliminärbokning
+              href: psa/resource-management-softbook-requirements.md
+            - name: Preliminärboka en resurs
+              href: psa/FAQ-soft-book.md
+            - name: Skapa en projektbokning från schemaläggningstavlan
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: Färdigheter och kompetensmodeller
+              href: psa/resource-management-skills-proficiency.md
+            - name: Vanliga frågor och svar om resurshantering
+              href: psa/resource-management-faq.md
+        - name: Rapportering
+          items:
+            - name: Startsida för rapportering
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: Instrumentpaneler
+              href: psa/reports-dashboards.md
+            - name: Datamodell för Project Service Automation
+              href: psa/reports-working-project-service-data-model.md
+        - name: Tidsposter
+          items:
+            - name: Skapa tidsposter
+              href: psa/time-entries.md
+            - name: Tidspostkalender
+              href: psa/time-entry-calendar.md
+            - name: Anpassa tidsposter för en vecka
+              href: psa/time-entry-extensibility-v3.md
+    - name: Vanliga frågor och svar och felsökning (3.x)
       items:
         - name: Varför återställs priset till standardvärdet noll för faktiska utgiftskostnader?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -971,74 +1073,76 @@
         - name: White papers
           href: psa/white-papers.md
         - name: Administratörsguide
-          href: psa/admin-guide.md
-        - name: Installera och anpassa
-          href: psa/install-customize.md
-        - name: Använd demodata
-          href: psa/use-demo-data.md
-        - name: Konfigurera Project Service Automation
           items:
-            - name: Konfigurera programmet Project Service Automation
-              href: psa/configure.md
-            - name: Konfigurera tidsenheter
-              href: psa/set-up-time-units.md
-            - name: Konfigurera valutor och växelkurser
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: Skapa organisationsenheter
-              href: psa/create-organizational-units.md
-            - name: Konfigurera faktureringsfrekvenser
-              href: psa/set-up-invoice-frequencies.md
-            - name: Konfigurera transaktionskategorier
-              href: psa/configure-transaction-categories.md
-            - name: Konfigurera utgiftskategorier
-              href: psa/configure-expense-categories.md
-            - name: Skapa artiklar i produktkatalogen
-              href: psa/create-product-catalog-items.md
-            - name: Skapa en prislista
-              href: psa/create-price-list.md
-        - name: Resurser
-          items:
+            - name: Administratörsguide (Project Service)
+              href: psa/admin-guide.md
+            - name: Installera och anpassa
+              href: psa/install-customize.md
+            - name: Använd demodata
+              href: psa/use-demo-data.md
+            - name: Konfigurera appen Project Service
+              items:
+                - name: Konfigurera Project Service
+                  href: psa/configure.md
+                - name: Konfigurera tidsenheter
+                  href: psa/set-up-time-units.md
+                - name: Konfigurera valutor och växelkurser
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: Skapa organisationsenheter
+                  href: psa/create-organizational-units.md
+                - name: Konfigurera faktureringsfrekvenser
+                  href: psa/set-up-invoice-frequencies.md
+                - name: Konfigurera transaktionskategorier
+                  href: psa/configure-transaction-categories.md
+                - name: Konfigurera utgiftskategorier
+                  href: psa/configure-expense-categories.md
+                - name: Skapa artiklar i produktkatalog
+                  href: psa/create-product-catalog-items.md
+                - name: Skapa en prislista
+                  href: psa/create-price-list.md
             - name: Konfigurera resurser
-              href: psa/set-up-resources.md
-            - name: Lägg till resurser
-              href: psa/add-resources.md
-            - name: Lägga till resursfärdigheter
-              href: psa/add-resource-skills.md
-            - name: Konfigurera kompetensmodeller
-              href: psa/set-up-proficiency-models.md
-            - name: Lägga till resursroller
-              href: psa/add-resource-roles.md
-            - name: Konfigurera resursroller
-              href: psa/configure-resource-roles.md
-            - name: Associera färdigheter med resurser
-              href: psa/associate-skills-with-resources.md
-            - name: Associera färdigheter med resursroller
-              href: psa/associate-skills-with-resource-roles.md
-            - name: Skapa en ny mall för arbetstid
-              href: psa/create-work-hours-template.md
-            - name: Tillämpa en kalender på en resurs
-              href: psa/apply-calendar-resource.md
-            - name: Konfigurera ytterligare inställningar
-              href: psa/configure-additional-parameters-settings.md
-            - name: Aktivera Project Finder Mobile
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: Resurshantering
+              items:
+                - name: Konfigurera resurser (Project Service)
+                  href: psa/set-up-resources.md
+                - name: Lägga till resurser
+                  href: psa/add-resources.md
+                - name: Lägga till resursfärdigheter
+                  href: psa/add-resource-skills.md
+                - name: Konfigurera färdighetsmodeller
+                  href: psa/set-up-proficiency-models.md
+                - name: Lägga till resursroller
+                  href: psa/add-resource-roles.md
+                - name: Konfigurera resursroller
+                  href: psa/configure-resource-roles.md
+                - name: Associera färdigheter med resurser
+                  href: psa/associate-skills-with-resources.md
+                - name: Associera färdigheter med resursroller
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: Skapa en ny mall för arbetstid
+                  href: psa/create-work-hours-template.md
+                - name: Tillämpa en kalender på en resurs
+                  href: psa/apply-calendar-resource.md
+                - name: Konfigurera ytterligare inställningar
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Aktivera Project Finder Mobile
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: Guide för resursansvarig
           items:
-            - name: Guide för resurshantering
+            - name: Guide för resursansvarig (Project Service)
               href: psa/resource-manager-guide.md
             - name: Hantera resursförfrågningar
               href: psa/manage-resource-requests.md
             - name: Schemalägga resurser för ett projekt
               href: psa/schedule-resources-project.md
-            - name: Visa resurstillgänglighet
+            - name: Visa resurstillgänglighetstid
               href: psa/view-resource-availability.md
             - name: Visa resursutnyttjande
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: Projektledning
+        - name: Guide för projektansvarig
           items:
-            - name: Guide för projektansvarig
+            - name: Guide för projektansvarig (Project Service)
               href: psa/project-manager-guide.md
             - name: Tillhandahålla beräkningar för arbete
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: Använda tillägg för att planera arbete i Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: Kontohantering
+        - name: Guide för kontoansvarig
           items:
-            - name: Guide för kontoansvarig
+            - name: Guide för kontoansvarig (Project Service)
               href: psa/account-manager-guide.md
             - name: Skapa ett kundkonto
               href: psa/create-customer-account.md
@@ -1086,9 +1190,9 @@
               href: psa/create-project-quote.md
             - name: Skapa ett projektkontrakt
               href: psa/create-project-contract.md
-        - name: Tid och utgift
+        - name: 'Tid, utgift och samarbete'
           items:
-            - name: 'Tid, utgift och samarbete'
+            - name: 'Guide för tid, utgift och samarbete (Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: Hämta apparna
               href: psa/get-apps.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: Schemalägga ledighet
               href: psa/schedule-time-off.md
-            - name: 'Samarbeta med Grupper i Office 365] (collaborate-project-team-members-office-365-groups.md'
+            - name: Samarbeta med Grupper i Office 365
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Söka efter projekt med Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
             - name: Guide för projektresursnavet
               href: psa/project-resource-hub-users-guide.md
-        - name: Anteckningar från utvecklare
+        - name: Anteckningar för utvecklare (appversion 2.x)
           items:
             - name: Lägga till anpassade formulär för entiteter
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
