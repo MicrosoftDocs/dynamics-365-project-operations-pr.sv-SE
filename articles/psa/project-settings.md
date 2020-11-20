@@ -3,7 +3,7 @@ title: Projektinställningar
 description: I det här ämnet finns information om inställningar för projekthantering.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085703"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123130"
 ---
 # <a name="project-settings"></a>Projektinställningar
 
@@ -36,12 +36,12 @@ Använd följande inställningar för att komma åt funktionerna för projektpla
 För att skapa ett projektschema skapar du en projektkalendermall som definierar antalet arbetstimmar per dag och alla öppettider för företaget. Om du vill skapa en projektkalendermall associerar du en arbetsmall med fältet **kalendermallen** för projektet. Skapa en arbetsmall genom att följa stegen nedan.
 
 1. I PSA, i vänster navigationsfönster, klicka på **Resurser**. 
-2. På listsidan **Resurser** , öppna en användarpost och välj sedan **Visa arbetstimmar**.
+2. På listsidan **Resurser**, öppna en användarpost och välj sedan **Visa arbetstimmar**.
 
   > [!NOTE]
   > Kontrollera att popup-fönster tillåts på webbsidan. På så sätt kan du se resursens arbetstider.
   
-3. På sidan **månatlig visning** , klicka på **konfigurera**. En lista med tre alternativ visas: 
+3. På sidan **månatlig visning**, klicka på **konfigurera**. En lista med tre alternativ visas: 
 
   - Nytt veckoschema
   - Arbetsschema för en dag

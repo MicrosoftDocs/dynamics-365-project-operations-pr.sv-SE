@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085418"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121555"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Lägga till teammedlemmar från rutnätet med teammedlemmar
 
@@ -21,9 +21,9 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Dynamics 365 Project Operations innehåller en instrumentpanel för resurshantering som ger en grafisk översikt över resursbehov och utnyttjande i hela organisationen. Du kan använda diagrammen på den här instrumentpanelen för att visualisera följande information:
 
-- **Resursbehov** : diagrammet **Aktiv resursbegäran** innehåller resurser som har skickats in. Resurserna aggregeras antingen efter roll eller projekt.
-- **Ej skickat resursbehov** : diagrammet **Otilldelat resursbehov** visar alla resurskrav som inte har skickats. Detta diagram hjälper resursansvariga att visa behov som inte är fast och kan skickas via en resursförfrågan.
-- **Fakturerbar användning för den senaste veckan** : diagrammet **Användning efter roll** visar procentandelen av organisationens faktiska fakturerbara användning efter roll mot målet för fakturerbar användning efter roll.
+- **Resursbehov**: diagrammet **Aktiv resursbegäran** innehåller resurser som har skickats in. Resurserna aggregeras antingen efter roll eller projekt.
+- **Ej skickat resursbehov**: diagrammet **Otilldelat resursbehov** visar alla resurskrav som inte har skickats. Detta diagram hjälper resursansvariga att visa behov som inte är fast och kan skickas via en resursförfrågan.
+- **Fakturerbar användning för den senaste veckan**: diagrammet **Användning efter roll** visar procentandelen av organisationens faktiska fakturerbara användning efter roll mot målet för fakturerbar användning efter roll.
 
     > [!NOTE]
     > Om du vill göra diagrammet **Användning efter roll** tillgänglig skapar du ett jobb som kör arbetsflödet **UpdateRoleUtilization**. Detta återkommande jobb körs var sjunde dag för att beräkna fakturerbart utnyttjande för de föregående sju dagarna. Resultatet aggregeras efter roll.
@@ -36,9 +36,9 @@ Projektledarna kan använda instrumentpanelen för resursansvariga för att hant
 
 Om du vill lägga till en teammedlem direkt i ett projekt går du till formuläret **Projekt** under fliken **Team** och väljer **Ny**. Dialogrutan **Snabbregistrering: Projektteammedlem**. I den här dialogrutan kan du utföra de här uppgifterna:
 
-- **Boka en namngiven resurs** : i fältet **Bokningsbar resurs** anger du namnet på resursen. Välj sedan rollen, ange period och välj en allokeringsmetod. Den namngivna resursen som du har valt läggs till i projektet med hjälp av den valda allokeringsregeln och resurskalendern.
-- **Lägg till en generisk resurs** : Lämna fältet **Bokningsbar resurs** tomt och välj sedan rollen, ange perioden och välj önskad allokeringsmetod. En allmän resurs läggs till i teamet som platshållare. Platshållaren innehåller det efterfrågansmönster som används för att boka namngivna resurser i teamet. Kravet ställs i enlighet med projektkalendern.
-- **Lägg till en namngiven resurs i teamet utan förbrukningsresurskapacitet** : Välj en resurs i fältet **Bokningsbar resurs**. Välj period och välj sedan **Ingen** som allokeringsmetod. Resursen läggs till i teamet, men resursens kapacitet förbrukas inte via en bokning.
+- **Boka en namngiven resurs**: i fältet **Bokningsbar resurs** anger du namnet på resursen. Välj sedan rollen, ange period och välj en allokeringsmetod. Den namngivna resursen som du har valt läggs till i projektet med hjälp av den valda allokeringsregeln och resurskalendern.
+- **Lägg till en generisk resurs**: Lämna fältet **Bokningsbar resurs** tomt och välj sedan rollen, ange perioden och välj önskad allokeringsmetod. En allmän resurs läggs till i teamet som platshållare. Platshållaren innehåller det efterfrågansmönster som används för att boka namngivna resurser i teamet. Kravet ställs i enlighet med projektkalendern.
+- **Lägg till en namngiven resurs i teamet utan förbrukningsresurskapacitet**: Välj en resurs i fältet **Bokningsbar resurs**. Välj period och välj sedan **Ingen** som allokeringsmetod. Resursen läggs till i teamet, men resursens kapacitet förbrukas inte via en bokning.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Boka en teammedlem som uppfyller resurskraven för en generisk resurs
 
@@ -48,11 +48,11 @@ Slutför stegen nedan för att ange vilka kunskaper som krävs på en generisk r
 
 1. På formuläret **Projekt** under fliken **Team** väljer du **Ny** för att boka en generisk resurs.
 2. I vyn **Alla teammedlemmar** i kolumnen **Resurskrav** väljer du länk om du vill lägga till obligatoriska kunskaper för den generiska resursen.
-3. På formuläret **Resurskrav** som visas i rutnätet **Färdigheter** välj sedan ellipsen ( **...** ) och sedan **Lägg till ny kravegenskap** för att lägga till nödvändiga färdigheter för din utvecklare.
+3. På formuläret **Resurskrav** som visas i rutnätet **Färdigheter** välj sedan ellipsen (**...**) och sedan **Lägg till ny kravegenskap** för att lägga till nödvändiga färdigheter för din utvecklare.
 4. I dialogrutan **Snabbregistrering: Kravegenskap** som visas väljer du önskad färdighet i fältet **Egenskap**.
 5. I fältet **Värderingsvärde** väljer du sedan önskad kompetensnivå för den färdigheten. 
 6. I fältet **Resurskrav** anger du behovet av källresurser från organisationsenheter eller till och med namngivna resurser. När du är klar väljer du **Spara**.
-7. På formuläret **Resurskrav** , välj **Boka** för att uppfylla resursbehovet. Du kan också markera den allmänna resursen i rutnätet **alla teammedlemmar** och väljer sedan **boka**.
+7. På formuläret **Resurskrav**, välj **Boka** för att uppfylla resursbehovet. Du kan också markera den allmänna resursen i rutnätet **alla teammedlemmar** och väljer sedan **boka**.
 
     > [!NOTE]
     > I det här exemplet finns 40 obligatoriska timmar men inga egentliga timmar eftersom allmänna resurser inte har några bokningar. Det finns inte heller några tilldelade timmar eftersom den allmänna resursen lades till direkt i teamet i stället för att läggas till genom uppgiftstilldelning.
@@ -61,9 +61,9 @@ Slutför stegen nedan för att ange vilka kunskaper som krävs på en generisk r
 
    Här följer några av de vanligaste filtren:
 
-    - **Egenskaper tillsammans med en värdering** : filtrera efter kunskaper, certifieringar och andra resurser, samt bedömningar av kompetenser.
-    - **Roller** : filtrera efter de standardroller som tilldelas bokningsbara resurser.
-    - **Organisationsenheter** : filtrera bokningsbara resurser efter de organisationsenheter de är tilldelade till.
+    - **Egenskaper tillsammans med en värdering**: filtrera efter kunskaper, certifieringar och andra resurser, samt bedömningar av kompetenser.
+    - **Roller**: filtrera efter de standardroller som tilldelas bokningsbara resurser.
+    - **Organisationsenheter**: filtrera bokningsbara resurser efter de organisationsenheter de är tilldelade till.
 
 8. Om du inte är nöjd med resultatet av den första kravsökningen kan du ändra filtervillkoren. Expandera rutan **filtervy** till vänster och välj sedan **Sök** efter ytterligare resurser. Om du vill ändra hur resultatet sorteras väljer du **sortera**.
 9. Välj resurser enligt den begäran som anges på kravet, som anges längst upp på rutnätet. Du kan radera urvalet av celler i rutnätet och låta den öppna resurskapaciteten vara öppen. Det går bara att markera en resurs åt gången som bokad.
@@ -78,7 +78,7 @@ Slutför stegen nedan för att ange vilka kunskaper som krävs på en generisk r
 Du kan skapa uppgifter i Project Operations och sedan tilldela dem allmänna resurser. Resursbehovet kan då representeras av platshållare samtidigt som du uppskattar ditt schema och finansiell numrering. Du kan sedan generera resurskrav för de allmänna resurserna och uppfylla dem.
 
 1. På formuläret **Projekt** under fliken **Schema** väljer du **Lägg till** för att skapa en uppgift.
-2. I fältet **Resurser** , välj symbolen **Resursväljare**. Resursväljaren visas och visar befintliga teammedlemmar för projektet.
+2. I fältet **Resurser**, välj symbolen **Resursväljare**. Resursväljaren visas och visar befintliga teammedlemmar för projektet.
 3. Ange namnet på den nya generiska resursen och välj sedan **skapa**.
 4. I dialogrutan **Snabbregistrering: Projektteammedlem** som visas väljer du roll för generisk resurs i fältet **roll**. 
 5. I fältet **Resursenhet** väljer du organisationsenhet för den generiska resursen. Välj sedan **Spara**. Den generiska teammedlemmen har nu tilldelats till aktiviteten.
@@ -89,7 +89,7 @@ Du kan skapa uppgifter i Project Operations och sedan tilldela dem allmänna res
 
    När du har tilldelat generisk resurs till uppgiften kan du skapa ett resurskrav för den generiska resursen.
 
-7. På fliken **Team** , välj den generiska resursen och välj sedan **generera krav**. När kravet skapas får den generiska teammedlemmen obligatoriska timmar och en länk för resurskravet.
+7. På fliken **Team**, välj den generiska resursen och välj sedan **generera krav**. När kravet skapas får den generiska teammedlemmen obligatoriska timmar och en länk för resurskravet.
 
   När du har bokat en namngiven resurs tas den allmänna resursen bort från teamet och ersätts av den namngivna resursen. På fliken **Schema** tas den generiska resurstilldelningar och ersätts av den namngivna resursen på fliken schema.
 
@@ -130,10 +130,10 @@ Du kan ändra vilken status som helst för alla standard- eller anpassade boknin
 
 Följande statusar ingår i Project Operations:
 
-- **Annullerad** : avbryter en resursbokning och frigör resursens kapacitet.
-- **Fasta bokningar** : förbrukar en resurs kapacitet. En bokning har vanligtvis denna status när du öppnar **Underhåll bokningar** från rutnätet **Alla teammedlemmar** på formuläret **Projekt**.
-- **Preliminär bokning** : lägger till en resurs i ett team, men förbrukar inte resursens kapacitet. Den här statusen indikerar att resursen har reserverats för potentiellt arbete men fortfarande har kapacitet för andra jobb. I vyn över övergripande resurstillgänglighet får preliminära bokningar annan status än fasta bokningar.
-- **Föreslagen** : representerar resursansvariges eller projektledarens förslag för en resurs. Förslag förbrukar inte resursens kapacitet och resursen läggs inte till i projektteamet. Om du vill göra en fast bokning för resursen i teamet måste projektledaren godkänna förslaget.
+- **Annullerad**: avbryter en resursbokning och frigör resursens kapacitet.
+- **Fasta bokningar**: förbrukar en resurs kapacitet. En bokning har vanligtvis denna status när du öppnar **Underhåll bokningar** från rutnätet **Alla teammedlemmar** på formuläret **Projekt**.
+- **Preliminär bokning**: lägger till en resurs i ett team, men förbrukar inte resursens kapacitet. Den här statusen indikerar att resursen har reserverats för potentiellt arbete men fortfarande har kapacitet för andra jobb. I vyn över övergripande resurstillgänglighet får preliminära bokningar annan status än fasta bokningar.
+- **Föreslagen**: representerar resursansvariges eller projektledarens förslag för en resurs. Förslag förbrukar inte resursens kapacitet och resursen läggs inte till i projektteamet. Om du vill göra en fast bokning för resursen i teamet måste projektledaren godkänna förslaget.
 
 ### <a name="submit-resource-requests"></a>Skicka resursbegäranden
 
@@ -190,13 +190,13 @@ Fliken visar även en total nettosumma för projektet tillsammans med en total k
 
 För varje resurs beräknar fliken en skillnad mellan en teammedlems bokningar och sammanslagningen av teammedlemmens aktivitetstilldelningar. Vi rekommenderar att skillnaden är 0 (noll). Det bör alltså inte finnas någon skillnad mellan bokningar och tilldelningar. Skillnader är färgade och tonade för att framhäva två villkor:
 
-- **Underskott för bokning** : uppstår om en resurs har fler tilldelningar än bokningar. Eftersom denna kapacitet inte har reserverats kan en projektledare korrigera problemet genom att utöka resursens bokningar så att underskottet täcks.
-- **Överflödiga bokningar** : inträffar när en resurs har bokats i projektet men inte tilldelats aktiviteter. Det här tillståndet kan vara acceptabelt i de fall då resursen togs i projektet före tilldelning av uppgifter. I andra fall är inte resursen planerad att tilldelas till uppgifter. I så fall bör projektledaren överväga att annullera resursbokningarna så att kapaciteten kan användas för ett annat projekt.
+- **Underskott för bokning**: uppstår om en resurs har fler tilldelningar än bokningar. Eftersom denna kapacitet inte har reserverats kan en projektledare korrigera problemet genom att utöka resursens bokningar så att underskottet täcks.
+- **Överflödiga bokningar**: inträffar när en resurs har bokats i projektet men inte tilldelats aktiviteter. Det här tillståndet kan vara acceptabelt i de fall då resursen togs i projektet före tilldelning av uppgifter. I andra fall är inte resursen planerad att tilldelas till uppgifter. I så fall bör projektledaren överväga att annullera resursbokningarna så att kapaciteten kan användas för ett annat projekt.
 
 I vissa fall kan du se en nettoskillnad på noll för en resurs när du visar tid på en högre nivå än dagnivå, t.ex. månadsnivå. Med andra ord, bokningar = tilldelningar. Om du visar tid på veckonivån kan du se att det finns tilldelningar på noll timmar och bokningar på 40 timmar under den första veckan men tilldelningar på 40 timmar och bokningar på noll timmar i den andra veckan i månaden. Generellt synkroniseras bokningarna och tilldelningarna, men de skiljer sig från en vecka till nästa.
 
 När du visar högre tidsnivåer visar har celler i fliken **avstämning** har en indikator som meddelar att det finns olikheter på lägre nivåer. Dubbelklicka i en cell för att zooma in för att visa skillnaden. Du kan sedan högerklicka för att zooma ut. Genom att välja en resurs och sedan välja **Nästa skillnad** i verktygsfältet i rutnätet för att gå vidare till nästa skillnad mellan bokningar och tilldelningar för resursen. Välj **Föregående skillnad** om du vill gå tillbaka. Du kan också inaktivera skillnadsindikator och navigeringsbeteende under **inställningar**.
 
-I situationer där du har uppgiftstilldelningar för en resurs men inga bokningar, på formuläret **Projekt** under fliken **Avstämning** , välj underskott för bokningen och sedan **Utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Dialogrutan visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
+I situationer där du har uppgiftstilldelningar för en resurs men inga bokningar, på formuläret **Projekt** under fliken **Avstämning**, välj underskott för bokningen och sedan **Utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Dialogrutan visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utanför sin kapacitet.

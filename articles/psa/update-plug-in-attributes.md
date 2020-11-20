@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085623"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121870"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Uppdatera plugin-attribut för att inkludera nya prissättningsdimensioner
 
@@ -50,7 +50,7 @@ Nedan förklaras hur du registrerar plugin-programmen.
 
  ![Skärmbild av det plugin-program som ska uppdateras](media/PRT-2.png)
  
-5. I uppdateringsfönstret, klicka på ellipsen ( **...** ) i filtreringsattributen.
+5. I uppdateringsfönstret, klicka på ellipsen (**...**) i filtreringsattributen.
 
  ![Skärmbild av Uppdatera befintlig stegkonfigurationsinformation](media/PRT-3.png)
  

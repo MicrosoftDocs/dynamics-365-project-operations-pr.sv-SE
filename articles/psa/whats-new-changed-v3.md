@@ -2,7 +2,7 @@
 title: Nyheter eller ändringar i Project Service Automation version 3
 description: I det här ämnet finns information om vad som är nytt och ändrat i Project Service Automation version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085502"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120025"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheter eller ändringar i Project Service Automation version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Beräkningar har delats upp i två flikar **Resurstilldelning** och **Beräkning
 
 ![Resurstilldelningar visar insatser och resurstilldelningar för uppgifter](media/resource-assignments-tab-02.png)
 
-På fliken **Beräkningar** visas kostnads- och försäljningsbeloppen för resurstilldelningar. Beloppen är skrivskyddade. Kostnads- och försäljningsprissättning styrs nu från tilldelningar av teammedlemmar i schemat. Det innebär att om du har en uppgift utan tilldelning visas uppgiften under den icke tilldelade bucket. Detta innebär också att utan **roll** , som är en standarddimension för prissättning, visas ingen uppskattad kostnad eller försäljning om du har en kund eller ett kontrakt/offert som är associerad med projektet. 
+På fliken **Beräkningar** visas kostnads- och försäljningsbeloppen för resurstilldelningar. Beloppen är skrivskyddade. Kostnads- och försäljningsprissättning styrs nu från tilldelningar av teammedlemmar i schemat. Det innebär att om du har en uppgift utan tilldelning visas uppgiften under den icke tilldelade bucket. Detta innebär också att utan **roll**, som är en standarddimension för prissättning, visas ingen uppskattad kostnad eller försäljning om du har en kund eller ett kontrakt/offert som är associerad med projektet. 
 
 ![Fliken Beräkningar visar kostnads- och försäljningsbelopp](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Utgiftsberäkningar kan anges i rutnätet på fliken **Utgiftsberäkningar**.
 ![Fliken utgiftsberäkningar visar rutnät för utgiftsberäkningar](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resurshantering
-I Project Service Automation version 3 med det nya enhetliga gränssnittet för klient och förändringar i relationen mellan bokningar och tilldelningar, bemanna ett projekt med generiska eller verkliga resurser, har ändrats dramatiskt från version 2 och version 1. Begreppen för bokningsbara resurser, både **verkliga** och **generiska** , förblir emellertid samma, och även teammedlemmar, krav, tilldelningar och bokningar.   
+I Project Service Automation version 3 med det nya enhetliga gränssnittet för klient och förändringar i relationen mellan bokningar och tilldelningar, bemanna ett projekt med generiska eller verkliga resurser, har ändrats dramatiskt från version 2 och version 1. Begreppen för bokningsbara resurser, både **verkliga** och **generiska**, förblir emellertid samma, och även teammedlemmar, krav, tilldelningar och bokningar.   
 
 ![Använda resursväljare](media/resource-management-05.png)
 
@@ -192,7 +192,7 @@ Common Data Service-plattformen stöder inte en användare som personifierar en 
 Med anpassning kan du lägga till **Bokningsbar resurs** för att skapa och redigera upplevelser, vilket gör att en användare kan agera som ombud genom att ändra fältet **Bokningsbar resurs** till en annan användare som tids- och utgiftsposterna behöver för att registreras. Följande steg omfattar delegering av tidsposter. Samma information gäller delegering av utgiftsposter. 
  
 1.  Kontrollera att den delegerade användaren har global säkerhetsåtkomst för projekt och projektuppgifter. 
-1.  Eftersom **Bokningsbar resurs** , som är ett fält i entiteten **Tidspost** inte visas på sidan **snabbregistrering** måste du lägga till det.
+1.  Eftersom **Bokningsbar resurs**, som är ett fält i entiteten **Tidspost** inte visas på sidan **snabbregistrering** måste du lägga till det.
 
     -eller-
 

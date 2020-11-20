@@ -3,7 +3,7 @@ title: Projektscheman
 description: I det här ämnet finns information om hur du skapar ett schema.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085575"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123265"
 ---
 # <a name="project-schedules"></a>Projektscheman 
 
@@ -83,12 +83,12 @@ Knapparna **Flytta upp** och **Flytta ned** ändrar du en uppgifts position inom
 
 Rutnätet **Schema** är fullt åtkomligt och kan användas med skärmläsare som Berättare, JAWS eller NVDA. Du kan flytta i rutnäts området med hjälp av piltangenterna (som i Microsoft Excel), men du kan använda tabbtangenten för att gå igenom de interaktiva gränssnittselementen, och du kan använda nedpil, retur eller blanksteg för att välja och aktivera listrutemenyerna. Kolumnrubrikerna är också interaktiva. Du kan dölja och visa kolumner, använda tabb-tangenten och piltangenterna för att förflytta dig mellan kolumnrubrikerna och använda åtgärdsknapparna i verktygsfältet. Du kan också använda följande kortkommandon:
 
-- **Uppdatera** : ALT+SHIFT+F5
-- **Lägg till** : ALT + SHIFT + infoga
-- **Ta bort** : ALT+SHIFT+Ta bort
-- **Flytta upp/ned** : ALT+SHIFT+upp- eller nedpil
-- **Dra in/dra ut** : ALT_SHIFT + vänster- eller högerpil
-- **Visa/Dölj hierarkier** : ALT + SKIFT + plus/minus tangenter
+- **Uppdatera**: ALT+SHIFT+F5
+- **Lägg till**: ALT + SHIFT + infoga
+- **Ta bort**: ALT+SHIFT+Ta bort
+- **Flytta upp/ned**: ALT+SHIFT+upp- eller nedpil
+- **Dra in/dra ut**: ALT_SHIFT + vänster- eller högerpil
+- **Visa/Dölj hierarkier**: ALT + SKIFT + plus/minus tangenter
 
 ## <a name="task-attributes"></a>Uppgiftsattribut
 
@@ -98,19 +98,19 @@ En uppgifts namn beskriver det arbete som måste utföras. I PSA beskriver de at
  
 ### <a name="schedule-attributes"></a>Schemalägg attribut
 
-Attributen **Insats** , **Startdatum** , **Slutdatum** och **Varaktighet** definierar schemat för uppgiften.
+Attributen **Insats**, **Startdatum**, **Slutdatum** och **Varaktighet** definierar schemat för uppgiften.
 
 Ytterligare schemaattribut är:
 
-- **Insatstimmar** : Ange en uppskattning av de timmar som krävs för att slutföra uppgiften. 
-- **Varaktighet** : Ange antalet arbetsdagar som krävs för att slutföra uppgiften.
-- **Schema-ID** : detta automatiskt genererade ID används för att beställa uppgifter i hierarkin. Beroenden mellan uppgifterna hanterar den faktiska ordning som uppgifterna arbetas i.
+- **Insatstimmar**: Ange en uppskattning av de timmar som krävs för att slutföra uppgiften. 
+- **Varaktighet**: Ange antalet arbetsdagar som krävs för att slutföra uppgiften.
+- **Schema-ID**: detta automatiskt genererade ID används för att beställa uppgifter i hierarkin. Beroenden mellan uppgifterna hanterar den faktiska ordning som uppgifterna arbetas i.
  
 ### <a name="staffing-attributes"></a>Bemanningsattribut
 
-Du når attribut för personal via fältet **resurser** i schemat. Du kan antingen söka efter en befintlig resurs eller klicka på **skapa** och i fönstret **snabbregistrering** , lägg till en projektteammedlem som en ny resurs.
+Du når attribut för personal via fältet **resurser** i schemat. Du kan antingen söka efter en befintlig resurs eller klicka på **skapa** och i fönstret **snabbregistrering**, lägg till en projektteammedlem som en ny resurs.
 
-Fälten **roll** , **resursenhet** och **befattningsnamn** används för att beskriva personalkraven för uppgiften. Dessa personalattribut och uppgiftsschema används för att hitta tillgängliga resurser för att utföra den här uppgiften.
+Fälten **roll**, **resursenhet** och **befattningsnamn** används för att beskriva personalkraven för uppgiften. Dessa personalattribut och uppgiftsschema används för att hitta tillgängliga resurser för att utföra den här uppgiften.
 
 **Role** - ange vilken typ av resurs som krävs för att utföra uppgiften.
 

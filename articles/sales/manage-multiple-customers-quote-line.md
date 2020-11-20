@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085416"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118585"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Hantera flera kunder på projektbaserade offertrader
 
@@ -33,11 +33,11 @@ I följande tabell visas fälten på kundposten för offertraden i en projektrel
 
 | Fält | Plats | Beskrivning och vägledning | Inverkan nedströms |
 | --- | --- | --- | --- |
-| **Konto** | Ett redigerbart rutnät under fliken **Offertradskunder** , huvudformuläret och formuläret för snabbskapande för en offertradskund. | Lista alla aktiva konton. Det här fältet låses efter att posten skapas. Om du behöver uppdatera fältet tar du bort och återskapar posten. Om du har registrerat verkliga värden kan du inte ta bort posten. | När du plockar ett konto från huvudkontolistan med konton som ska läggas till läggs även offertradskunder till som en offertkund. Offertradskunder kopieras till projektets kontraktradkunder när en offert har vunnits. |
-| **Delningsprocent för fakturering** | Ett redigerbart rutnät under fliken **Offertradskunder** , huvudformuläret och formuläret för snabbskapande för en offertradskund. | Motsvarar procentandelen av varje fakturerad försäljningstransaktion som kommer att tillskrivas kunden i den här offertraden. | Kopierad till projektets kontraktradkunder. |
-| **Undre gräns** | Ett redigerbart rutnät under fliken **Offertradskunder** , huvudformuläret och formuläret för snabbskapande för en offertradskund. | Anger om det finns en förhandlad gräns eller ett tak för det totala belopp som ska faktureras kunden för den här offertraden. | Kopieras till projektets kontraktsradkunder när en offert har vunnits. |
-| **Ägande företag** | Ett redigerbart rutnät under fliken **Offertradskunder** , huvudformuläret och formuläret för snabbskapande för en offertradskund. | Den juridiska person som den här kunden har konfigurerats i modulen **Projekthantering och redovisning**. Fältet är skrivskyddat och är inställt på det ägande företaget i själva offerten. Listan över kunder som ska läggas till i fältet **Konto** är redan filtrerad mot listan från det ägande företaget i modulen **Projektledning och redovisning** i Project Operations. | Det ägande företaget är lika med begreppet juridisk person. Alla kostnader och intäkter som härrör från detta projekt redovisas i det ägande företagets huvudbok. |
-| **Avrundas** | Ett redigerbart rutnät under fliken **Offertradskunder** , huvudformuläret och formuläret för snabbskapande för en offertradskund. | Anger om kunden är en kund med standardavrundning för denna projektbaserade offertrad. | Kopieras till projektets kontraktkunder när en offert har vunnits. |
+| **Konto** | Ett redigerbart rutnät under fliken **Offertradskunder**, huvudformuläret och formuläret för snabbskapande för en offertradskund. | Lista alla aktiva konton. Det här fältet låses efter att posten skapas. Om du behöver uppdatera fältet tar du bort och återskapar posten. Om du har registrerat verkliga värden kan du inte ta bort posten. | När du plockar ett konto från huvudkontolistan med konton som ska läggas till läggs även offertradskunder till som en offertkund. Offertradskunder kopieras till projektets kontraktradkunder när en offert har vunnits. |
+| **Delningsprocent för fakturering** | Ett redigerbart rutnät under fliken **Offertradskunder**, huvudformuläret och formuläret för snabbskapande för en offertradskund. | Motsvarar procentandelen av varje fakturerad försäljningstransaktion som kommer att tillskrivas kunden i den här offertraden. | Kopierad till projektets kontraktradkunder. |
+| **Undre gräns** | Ett redigerbart rutnät under fliken **Offertradskunder**, huvudformuläret och formuläret för snabbskapande för en offertradskund. | Anger om det finns en förhandlad gräns eller ett tak för det totala belopp som ska faktureras kunden för den här offertraden. | Kopieras till projektets kontraktsradkunder när en offert har vunnits. |
+| **Ägande företag** | Ett redigerbart rutnät under fliken **Offertradskunder**, huvudformuläret och formuläret för snabbskapande för en offertradskund. | Den juridiska person som den här kunden har konfigurerats i modulen **Projekthantering och redovisning**. Fältet är skrivskyddat och är inställt på det ägande företaget i själva offerten. Listan över kunder som ska läggas till i fältet **Konto** är redan filtrerad mot listan från det ägande företaget i modulen **Projektledning och redovisning** i Project Operations. | Det ägande företaget är lika med begreppet juridisk person. Alla kostnader och intäkter som härrör från detta projekt redovisas i det ägande företagets huvudbok. |
+| **Avrundas** | Ett redigerbart rutnät under fliken **Offertradskunder**, huvudformuläret och formuläret för snabbskapande för en offertradskund. | Anger om kunden är en kund med standardavrundning för denna projektbaserade offertrad. | Kopieras till projektets kontraktkunder när en offert har vunnits. |
 
 ## <a name="edit-billing-split-percentages"></a>Redigera delningsprocent för fakturering
 

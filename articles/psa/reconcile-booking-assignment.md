@@ -3,7 +3,7 @@ title: Stäm av bokningar och tilldelningar
 description: I det här ämnet finns information om faktiska värden.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085586"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120475"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Stäm av bokningar och tilldelningar
 
@@ -35,7 +35,7 @@ På grund av den lösa kopplingen av projektbokningar och aktivitetstilldelninga
 
 För varje namngiven teammedlem visar fliken **avstämning** bokningar och tilldelningar ned till den enskilda uppgiftstilldelningen. Den visar antalet timmar i celler som kan representera perioder från månader ned till dagar.
 
-I fältet **Tidsskala** kan du välja **Månad** , **Vecka** eller **Dag**. **Vecka** är markerat som standard. Du kan emellertid ändra standardvärdet genom att klicka på knappen **inställningar**. När fliken **avstämning** öppnas visas aktuellt datum, men du kan använda kalenderkontrollen för att flytta framåt eller bakåt i tiden. När ett projekt har ett startdatum som är i framtiden visas datumet då det öppnas på fliken. Kalenderkontrollen har även alternativ som du kan använda för att gå till projektets start- och slutdatum.
+I fältet **Tidsskala** kan du välja **Månad**, **Vecka** eller **Dag**. **Vecka** är markerat som standard. Du kan emellertid ändra standardvärdet genom att klicka på knappen **inställningar**. När fliken **avstämning** öppnas visas aktuellt datum, men du kan använda kalenderkontrollen för att flytta framåt eller bakåt i tiden. När ett projekt har ett startdatum som är i framtiden visas datumet då det öppnas på fliken. Kalenderkontrollen har även alternativ som du kan använda för att gå till projektets start- och slutdatum.
 
 Du kan använda utöka-kontrollerna på varje resurs för att visa information om resursens bokningar. Du kan även expandera varje resurs tilldelningar till nivån för den enskilda uppgiften.
 

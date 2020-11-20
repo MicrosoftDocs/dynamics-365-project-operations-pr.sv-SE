@@ -3,7 +3,7 @@ title: Arbeta med datamodellen Project Service Automation
 description: I det här ämnet finns information om hur du arbetar med datamodellen.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085725"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120295"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeta med datamodellen Project Service Automation
 
@@ -33,13 +33,13 @@ Dynamics 365 Project Service Automation utökar andra app-entiteter och presente
 
 ## <a name="reporting-on-opportunities"></a>Rapportera affärsmöjligheter
 
-Project Service Automation utvidgar entiteten **affärsmöjlighet** för Dynamics 365 Sales genom att lägga till fält som aktiverar projektbaserade scenarier. De här fälten identifieras med ett schemanamn som föregås av **msdyn\_**. Ett nytt fält som är viktigt för rapportering av PSA-affärsmöjligheter är **ordertyp**. Ett värde för **arbetsbaserat** på det här fältet anger att affärsmöjligheten är en PSA-möjlighet. Andra fält som har lagts till i entiteten omfattar **Avtalande organisation** som hämtar den organisation som innehar affärsmöjligheten och **kontoansvarig** , som hämtar namnet på den kontoansvarige som är ansvarig för affärsmöjligheten.
+Project Service Automation utvidgar entiteten **affärsmöjlighet** för Dynamics 365 Sales genom att lägga till fält som aktiverar projektbaserade scenarier. De här fälten identifieras med ett schemanamn som föregås av **msdyn\_**. Ett nytt fält som är viktigt för rapportering av PSA-affärsmöjligheter är **ordertyp**. Ett värde för **arbetsbaserat** på det här fältet anger att affärsmöjligheten är en PSA-möjlighet. Andra fält som har lagts till i entiteten omfattar **Avtalande organisation** som hämtar den organisation som innehar affärsmöjligheten och **kontoansvarig**, som hämtar namnet på den kontoansvarige som är ansvarig för affärsmöjligheten.
 
 Entiteten för **affärsmöjlighet** innehåller även fält som är relaterade till Project Service. **Faktureringsmetod** anger om affärsmöjlighetsraden ska faktureras utifrån tid och material eller med fastpris och **projekt** hämtar namnet på det projekt som ska säkerhetskopiera affärsmöjligheten. Andra fält som du kan skapa en rapport över hämta kostnader och kundens budgetbelopp för radartikeln.
 
 ## <a name="reporting-on-quotes"></a>Rapportering om offerter
 
-PSA utökar entiteten för Sales **offert** genom att lägga till projektrelaterade fält. **Ordertypen** skiljer på PSA-offerter från icke-PSA-offerter. Ett värde för **arbetsbaserat** på det här fältet anger att offerten är en PSA-offert. Andra fält som kan vara relevanta för rapportering på PSA-offerter inkluderar beloppsfält, t.ex. **debiterbara kostnader** , **icke debiterbara kostnader** , **bruttomarginal** , **uppskattningar** och **budget**. Andra användbara fält anger om offerten är lönsam, om den ska vara avslutad i schemat och om den uppfyller kundens budgetförväntningar.
+PSA utökar entiteten för Sales **offert** genom att lägga till projektrelaterade fält. **Ordertypen** skiljer på PSA-offerter från icke-PSA-offerter. Ett värde för **arbetsbaserat** på det här fältet anger att offerten är en PSA-offert. Andra fält som kan vara relevanta för rapportering på PSA-offerter inkluderar beloppsfält, t.ex. **debiterbara kostnader**, **icke debiterbara kostnader**, **bruttomarginal**, **uppskattningar** och **budget**. Andra användbara fält anger om offerten är lönsam, om den ska vara avslutad i schemat och om den uppfyller kundens budgetförväntningar.
 
 PSA utvidgar även entiteten försäljning **offertrad**. Ett fält som PSA lägger till är **faktureringsmetod** som anger hur offertraden ska faktureras (tid och material eller fast pris). Andra fält som har lagts till i entiteten har skapat ett närliggande projekt som ska säkerhetskopiera offertraden, fakturering, kostnad och budget.
 
@@ -50,7 +50,7 @@ PSA lägger också till nya entiteter som är relaterade till datamodellen Dynam
 - **Milstolpe för offertrad** – den här entiteten innehåller faktureringsmilstolpar för offertrader med fast pris.
 - **Analyssammanfattning av offertrad** – entiteten innehåller ekonomisk information för offertraden. Informationen kan användas för rapportering av offererad försäljning och beräknade kostnadsbelopp efter olika dimensioner.
 
-Andra entiteter som PSA lägger till i offerter är **Prislista för projekt för offertrad** , **Resurskategori för offertrad** och **Transaktionskategori för offertrad**.
+Andra entiteter som PSA lägger till i offerter är **Prislista för projekt för offertrad**, **Resurskategori för offertrad** och **Transaktionskategori för offertrad**.
 
 ![Diagram som visar citat, en offertrad och projektrelationer](media/PS-Reporting-image2.png "Diagram som visar citat, en offertrad och projektrelationer")
 
@@ -66,7 +66,7 @@ PSA lägger också till nya entiteter som är utformade för projektkontrakt. H�
 - **Faktureringsschema för kontraktrad** – den här entiteten innehåller det faktureringsschema som skapas utifrån den fakturafrekvens som tilldelats kontraktraden.
 - **Milstolpe för kontraktet** – entiteten innehåller faktureringsmilstolpar för kontraktrader som har en faktureringsperiod med fast pris.
 
-Andra entiteter som PSA lägger till i kontrakt är **Prislista för projektkontraktrad** , **Resurskategori för projektkontraktrad** och **Transaktionskategori för projektkontraktrad**.
+Andra entiteter som PSA lägger till i kontrakt är **Prislista för projektkontraktrad**, **Resurskategori för projektkontraktrad** och **Transaktionskategori för projektkontraktrad**.
 
 ![Diagram som visar order, orderrad och projektrelationer](media/PS-Reporting-image3.png "Diagram som visar order, orderrad och projektrelationer")
 

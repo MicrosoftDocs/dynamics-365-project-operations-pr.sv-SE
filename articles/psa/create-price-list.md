@@ -3,7 +3,7 @@ title: Skapa en prislista
 description: Skapa en prislista i Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085576"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122050"
 ---
 # <a name="create-a-price-list-project-service"></a>Skapa en prislista (Project Service)
 
@@ -39,7 +39,7 @@ Prislistor är beroende av roller och utgiftskategorier, så innan du skapar en 
   
 2.  Klicka på **Nytt**.  
   
-3.  I **Kontext** väljer du om prislistan gäller **Kostnad** , **Köp** eller **Försäljning**.  
+3.  I **Kontext** väljer du om prislistan gäller **Kostnad**, **Köp** eller **Försäljning**.  
   
 4.  Ange ett namn på prislistan i **Namn**.  
   
@@ -47,7 +47,7 @@ Prislistor är beroende av roller och utgiftskategorier, så innan du skapar en 
   
 6.  I **Tidsenhet** anger du tidsperioden som priset gäller, till exempel dag eller timme.  
   
-7.  Fyll i **Startdatum** , **Slutdatum** och **Beskrivning** efter behov.  
+7.  Fyll i **Startdatum**, **Slutdatum** och **Beskrivning** efter behov.  
   
 8.  Klicka på **Spara** för att skapa posten så att du kan fortsätta redigera den.  
   

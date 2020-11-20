@@ -3,7 +3,7 @@ title: Skapa ett projektkontrakt
 description: Skapa ett projektavtal i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7a626da271a4c4e1751870323b56ce54743bb891
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94dd55559f9eaa71758caba7974b0e3b779c40a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085554"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121960"
 ---
 # <a name="create-a-project-contract-project-service"></a>Skapa ett projektkontrakt (Project Service)
 
@@ -33,7 +33,7 @@ Nu när du har vunnit offerten för projektet, är det dags att skapa ett kontra
   
 1. På skärmen **Projektkontrakt** från föregående steg, ändra all information som behövs i området **Sammanfattning**.  
   
-2. Om du vill lägga till en produkt i kontraktet klickar du på **Ny** under **Produktbaserade rader** i området **Kontraktrader**. Markera ett objekt under **Produktnamn** , och ange kvantitet, försäljningspris och kontrakterat belopp.  
+2. Om du vill lägga till en produkt i kontraktet klickar du på **Ny** under **Produktbaserade rader** i området **Kontraktrader**. Markera ett objekt under **Produktnamn**, och ange kvantitet, försäljningspris och kontrakterat belopp.  
   
 3. Om du vill lägga till en projektbaserad rad i kontraktet klickar du på **+** under **Projektbaserade rader** i området **Kontraktrader**. Ange namn, budgetbelopp och projekt, om tillgängligt. Om du behöver skapa ett projekt med en uppdelad arbetsstruktur för att göra en uppskattning, se [Skapa ett projekt](../psa/create-project.md).  
   

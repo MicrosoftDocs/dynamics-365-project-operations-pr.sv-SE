@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085706"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121330"
 ---
 # <a name="quotes---key-concepts"></a>Offerter - Viktiga begrepp
 
@@ -30,20 +30,20 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 I Dynamics 365 Project Operations finns två typer av offerter, projekt och försäljning. De två typerna av offerter skiljer sig på följande sätt:
 
-- **Rutnät för radobjekt** : I en försäljningsoffert finns det bara ett rutnät för radartiklar. En projektoffert har två rutnät för radobjekt. Ett rutnät är för projektrader och det andra är för produktrader.
-- **Aktivering och revidering** : försäljningsofferter stöder aktivering och revidering. De här processerna stöds inte i en projektoffert.
-- **Bifogade order** : Du kan koppla flera order till en försäljningsoffert. Du kan bara bifoga ett projektkontrakt till en projektoffert.
-- **Vinna en offert** : när du vinner en försäljningsoffert kan den relaterade affärsmöjligheten vara öppen. När en projektoffert har vunnits stängs den relaterade affärsmöjligheten.
-- **Fält och koncept** : En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert. Fälten inkluderar **Kontrakteringsenhet** , **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
-- **Typ** : Försäljning och projektofferter identifieras även av ett alternativbaserat fält **Typ**. För en försäljningsoffert har det här fältet värdet **artikelbaserat**. För projektofferter används värdet **arbetsbaserad**.
+- **Rutnät för radobjekt**: I en försäljningsoffert finns det bara ett rutnät för radartiklar. En projektoffert har två rutnät för radobjekt. Ett rutnät är för projektrader och det andra är för produktrader.
+- **Aktivering och revidering**: försäljningsofferter stöder aktivering och revidering. De här processerna stöds inte i en projektoffert.
+- **Bifogade order**: Du kan koppla flera order till en försäljningsoffert. Du kan bara bifoga ett projektkontrakt till en projektoffert.
+- **Vinna en offert**: när du vinner en försäljningsoffert kan den relaterade affärsmöjligheten vara öppen. När en projektoffert har vunnits stängs den relaterade affärsmöjligheten.
+- **Fält och koncept**: En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert. Fälten inkluderar **Kontrakteringsenhet**, **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
+- **Typ**: Försäljning och projektofferter identifieras även av ett alternativbaserat fält **Typ**. För en försäljningsoffert har det här fältet värdet **artikelbaserat**. För projektofferter används värdet **arbetsbaserad**.
 
 Det här ämnet fokuserar på detaljerna i projektofferter.
 
 En projektoffert i Project Operations kan ha flera radobjekt eller offertrader. En projektoffert har faktiskt två rutnät för radobjekt. Ett rutnät är för projektbaserade rader som möjliggör detaljerad uppskattningar. Det andra rutnätet är för produktbaserade rader som använder ett enkelt enhetspris och en mängd baserad metod.
 
-- **Projektbaserade** : Offererat värde bestäms när du har beräknat hur mycket arbete som krävs. Du kan beräkna arbetet på en hög nivå, direkt som raddetaljer under varje offertrad, eller utifrån uppskattningar av basuppskattningar, med hjälp av ett projekt och en projektplan. Projektbaserade offertrader finns endast i projektbaserade offerter som skapas med hjälp av Project Operations. Den här typen av offertrad är en anpassad form av de inskrivna offertrader som är tillgängliga i Microsoft Dynamics 365 Sales.
+- **Projektbaserade**: Offererat värde bestäms när du har beräknat hur mycket arbete som krävs. Du kan beräkna arbetet på en hög nivå, direkt som raddetaljer under varje offertrad, eller utifrån uppskattningar av basuppskattningar, med hjälp av ett projekt och en projektplan. Projektbaserade offertrader finns endast i projektbaserade offerter som skapas med hjälp av Project Operations. Den här typen av offertrad är en anpassad form av de inskrivna offertrader som är tillgängliga i Microsoft Dynamics 365 Sales.
 
-- **Produktbaserad** : Det offererade värdet bestäms utifrån antalet sålda enheter och enhetsförsäljningspris. Produkten på en produktbaserad rad kan komma från en produktkatalog i Sales, eller så kan den vara en produkt som du definierar. Den här typen av offertrad är också tillgänglig på projektbaserade offerter som skapas med hjälp av Project Operations.
+- **Produktbaserad**: Det offererade värdet bestäms utifrån antalet sålda enheter och enhetsförsäljningspris. Produkten på en produktbaserad rad kan komma från en produktkatalog i Sales, eller så kan den vara en produkt som du definierar. Den här typen av offertrad är också tillgänglig på projektbaserade offerter som skapas med hjälp av Project Operations.
 
 Beloppet i en offert är total summan mellan de produktbaserade raderna och de projektbaserade raderna.
 
@@ -75,12 +75,12 @@ Project Operations stöder alla tre typerna av fakturascheman för offertrader m
 
 Professionella tjänsteorganisationer brukar citera och fakturera sina kunder genom klassificering av kostnader. Kostnader representeras kostnaderna av följande transaktionsklassificeringar:
 
-- **Tid** : denna klassificering visar kostnaden för arbete eller personalens tid i ett projekt.
-- **Utgift** : denna klassificering representerar alla andra typer av utgifter i ett projekt. Eftersom utgifter kan klassificeras brett skapar de flesta organisationer underkategorier, t.ex. resa, hyrbil, hotell och kontorsmateriel.
-- **Avgift** : denna klassificering representerar diverse omkostnader, sanktioner och andra artiklar som debiteras kunden. 
-- **Moms** : den här klassificeringen visar momsbelopp som användare lägger till medan de registrerar utgifter.
-- **Materialtransaktion** : den här klassificeringen visar faktiska värden från produktraderna på en bekräftad projektfaktura.
-- **Milstolpe** : denna klassificering används av faktureringslogiken för fast pris.
+- **Tid**: denna klassificering visar kostnaden för arbete eller personalens tid i ett projekt.
+- **Utgift**: denna klassificering representerar alla andra typer av utgifter i ett projekt. Eftersom utgifter kan klassificeras brett skapar de flesta organisationer underkategorier, t.ex. resa, hyrbil, hotell och kontorsmateriel.
+- **Avgift**: denna klassificering representerar diverse omkostnader, sanktioner och andra artiklar som debiteras kunden. 
+- **Moms**: den här klassificeringen visar momsbelopp som användare lägger till medan de registrerar utgifter.
+- **Materialtransaktion**: den här klassificeringen visar faktiska värden från produktraderna på en bekräftad projektfaktura.
+- **Milstolpe**: denna klassificering används av faktureringslogiken för fast pris.
 
 En eller flera av dessa transaktionsklassificeringar kan associeras med varje offertrad. När en offert har vunnits överförs mappningen mellan transaktionsklassificering och offertrad till kontraktraden.
   
@@ -90,16 +90,16 @@ En offert kan till exempel innehålla följande två offertrader:
 - Relaterade resekostnader som använder en fast pris faktureringsmetod. Exempelvis faktureras alla resekostnader för exempelprojektet **Dynamics AX Implementering** som ett fast monetärt värde.
 
 > [!NOTE]
-> Kombinationen av projekt och transaktionsklassificeringar för **tid** , **utgifter** och **avgifter** som är associerad med en offertrad eller kontraktrad måste vara unika. Om samma kombination av projekt och transaktionsklass är associerad med fler än en kontraktrad eller offertrad fungerar inte Project Operations korrekt.
+> Kombinationen av projekt och transaktionsklassificeringar för **tid**, **utgifter** och **avgifter** som är associerad med en offertrad eller kontraktrad måste vara unika. Om samma kombination av projekt och transaktionsklass är associerad med fler än en kontraktrad eller offertrad fungerar inte Project Operations korrekt.
 
 ## <a name="billing-types"></a>Faktureringstyper
 
 Fältet **faktureringstyp** definierar begreppet debiterbart. Det är ett alternativuppsättning som har följande möjliga värden:
 
-- **Debiterbar** : kostnaden som periodiseras av denna roll/kategori är en direkt kostnad som driver projektkörning och kunden betalar för det här arbetet. Betalningen kan administreras som en avtalad tid och material eller med fast pris. Den anställde som tillbringar denna tid får emellertid motsvarande kredit för hans eller hennes fakturerbara utnyttjande.
-- **Icke-debiterbar** : kostnaden som periodiseras av denna roll/kategori beaktas som en direkt kostnad som driver projektkörning även om kunden inte erkänner detta och kommer inte att betala för det här arbetet. Den medarbetare som tillbringar denna tid krediteras inte med fakturerbart utnyttjande för den.
-- **Kostnadsfritt** : kostnaden som periodiseras av denna roll/kategori är en direkt kostnad som driver projektkörning och kunden erkänner detta. Den medarbetare som tillbringar denna tid krediteras med fakturerbart utnyttjande för den. Kostnaden debiteras emellertid inte kunden.
-- **Inte tillgängligt** : de kostnader som uppstår för interna projekt som inte kräver någon intäktsspårning spåras med hjälp av det här alternativet.
+- **Debiterbar**: kostnaden som periodiseras av denna roll/kategori är en direkt kostnad som driver projektkörning och kunden betalar för det här arbetet. Betalningen kan administreras som en avtalad tid och material eller med fast pris. Den anställde som tillbringar denna tid får emellertid motsvarande kredit för hans eller hennes fakturerbara utnyttjande.
+- **Icke-debiterbar**: kostnaden som periodiseras av denna roll/kategori beaktas som en direkt kostnad som driver projektkörning även om kunden inte erkänner detta och kommer inte att betala för det här arbetet. Den medarbetare som tillbringar denna tid krediteras inte med fakturerbart utnyttjande för den.
+- **Kostnadsfritt**: kostnaden som periodiseras av denna roll/kategori är en direkt kostnad som driver projektkörning och kunden erkänner detta. Den medarbetare som tillbringar denna tid krediteras med fakturerbart utnyttjande för den. Kostnaden debiteras emellertid inte kunden.
+- **Inte tillgängligt**: de kostnader som uppstår för interna projekt som inte kräver någon intäktsspårning spåras med hjälp av det här alternativet.
 
 ## <a name="invoice-schedule"></a>Fakturaschema
 
@@ -115,11 +115,11 @@ Dessa tre attributvärden används för att generera en preliminär uppsättning
 
 Fakturafrekvens är en entitet som lagrar attributvärden som hjälper till att uttrycka hur ofta fakturan skapas. Följande attribut uttrycker eller definierar entiteten för fakturafrekvens:
 
-- **Period** : perioder för varje månad, varannan vecka och varje vecka stöds. 
-- **Körs per period** : för perioderna varje vecka och varannan vecka, kan du endast definiera en körning per period. För månadsperioder kan du definiera mellan en och fyra sekvenser per period. 
-- **Dagar av körning** : de dagar då faktureringen ska köras. Du kan konfigurera detta attribut på två olika sätt:
-  - **Vardagar** : du kan till exempel ange att faktureringen ska köras varje måndag eller vartannat måndag. Kunder som måste konfigurera fakturering för att köras på en arbetsdag kan föredra den här typen av konfiguration. 
-  - **Kalenderdagar** : du kan till exempel ange att faktureringen ska köras den sjunde och tjugonde dagen i varje månad. Vissa organisationer kanske föredrar den här typen av konfiguration eftersom den hjälper till att säkerställa att faktureringen körs enligt ett fast schema varje månad.
+- **Period**: perioder för varje månad, varannan vecka och varje vecka stöds. 
+- **Körs per period**: för perioderna varje vecka och varannan vecka, kan du endast definiera en körning per period. För månadsperioder kan du definiera mellan en och fyra sekvenser per period. 
+- **Dagar av körning**: de dagar då faktureringen ska köras. Du kan konfigurera detta attribut på två olika sätt:
+  - **Vardagar**: du kan till exempel ange att faktureringen ska köras varje måndag eller vartannat måndag. Kunder som måste konfigurera fakturering för att köras på en arbetsdag kan föredra den här typen av konfiguration. 
+  - **Kalenderdagar**: du kan till exempel ange att faktureringen ska köras den sjunde och tjugonde dagen i varje månad. Vissa organisationer kanske föredrar den här typen av konfiguration eftersom den hjälper till att säkerställa att faktureringen körs enligt ett fast schema varje månad.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fakturaschema för en offertrad med fast pris
 

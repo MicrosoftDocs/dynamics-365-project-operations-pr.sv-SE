@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119575"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Lösa försäljningspriser för uppskattningar och faktiska värden
 
@@ -27,12 +27,12 @@ I Project Operations används uppskattningsrader för tid för att ange informat
 
 När en prislista för försäljning har lösts slutför systemet följande steg för att standardisera fakturataxan.
 
-1. Systemet använder fälten **Roll** , **Resursföretag** och **Resursenhet** på uppskattningsraden för tid så att den stämmer överens med rollprisraderna i den lösta prislistan. Matchningen förutsätter att du använder de medföljande prissättningsdimensionerna för fakturataxa. Om du har konfigurerat prissättning utifrån något annat fält i stället för, eller utöver, **Roll** , **Resursföretaget** och **Resursenhet** används den kombinationen för att hämta en matchande rollprisrad.
-2. Om systemet hittar en rollprisrad som har en fakturataxa för kombinationen av fälten **Roll** , **Resursföretag** och **Resursenhet** , är den fakturataxan standard.
-3. Om systemet inte kan matcha värdena för fälten **Roll** , **Resursföretag** och **Resursenhet** hämtar det rollprisrader med en matchande roll, men null-värden för **Resursenheten**. När en matchande rollprispost hittas används fakturataxan från den posten som standard. Matchningen förutsätter en färdig konfiguration för den relativa prioriteten hos **Roll** mot **Resursenhet** som en försäljningsprissättningsdimension.
+1. Systemet använder fälten **Roll**, **Resursföretag** och **Resursenhet** på uppskattningsraden för tid så att den stämmer överens med rollprisraderna i den lösta prislistan. Matchningen förutsätter att du använder de medföljande prissättningsdimensionerna för fakturataxa. Om du har konfigurerat prissättning utifrån något annat fält i stället för, eller utöver, **Roll**, **Resursföretaget** och **Resursenhet** används den kombinationen för att hämta en matchande rollprisrad.
+2. Om systemet hittar en rollprisrad som har en fakturataxa för kombinationen av fälten **Roll**, **Resursföretag** och **Resursenhet**, är den fakturataxan standard.
+3. Om systemet inte kan matcha värdena för fälten **Roll**, **Resursföretag** och **Resursenhet** hämtar det rollprisrader med en matchande roll, men null-värden för **Resursenheten**. När en matchande rollprispost hittas används fakturataxan från den posten som standard. Matchningen förutsätter en färdig konfiguration för den relativa prioriteten hos **Roll** mot **Resursenhet** som en försäljningsprissättningsdimension.
 
 > [!NOTE]
-> Om du konfigurerade en annan prioritering av **Roll** , **Resursföretag** och **Resursenhet** , eller om du har andra dimensioner med högre prioritet, ändras det här beteendet i enlighet med detta. Systemet hämtar rollprisposter med värden som matchar alla dimensionsvärden för prissättning i prioritetsordning med rader som har null-värden för de dimensionerna sist.
+> Om du konfigurerade en annan prioritering av **Roll**, **Resursföretag** och **Resursenhet**, eller om du har andra dimensioner med högre prioritet, ändras det här beteendet i enlighet med detta. Systemet hämtar rollprisposter med värden som matchar alla dimensionsvärden för prissättning i prioritetsordning med rader som har null-värden för de dimensionerna sist.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Lösa försäljningstaxor på rader för faktiska värden och uppskattningar för utgift
 

@@ -2,7 +2,7 @@
 title: Uppgradera startsidan
 description: I det här ämnet visas var du hittar viktig information om de nya och ändrade funktioner i Dynamics 365 Project Service Automation och hur du uppgraderar till den senaste versionen.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085621"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121780"
 ---
 # <a name="upgrade-home-page"></a>Uppgradera startsidan
 
@@ -61,4 +61,4 @@ Från och med 17 maj 2019 kommer alla nya instanser att ha samma värde som stan
 Från och med den 1 mars 2020 kan kunder med Dynamics PSA inte längre skapa nya miljöer med äldre versioner av PSA, till exempel PSA version 2.x eller äldre. Alla nya miljöer kommer att behöva version 3.x av PSA.
 
 > [!NOTE]
-> För att få bästa möjliga resultat när du använder äldre versioner av Field Service och PSA-program går du till sidan **systeminställningar** och för fältet **Använd endast det nya enhetliga gränssnittet (rekommenderas)** , välj **Nej** eftersom de här versionerna inte har utformats för korrekt inläsning i UCI. När du har inaktiverat UCI kan du öppna och köra de här versionerna av Field Service och PSA med hjälp av den gamla webbklienten. 
+> För att få bästa möjliga resultat när du använder äldre versioner av Field Service och PSA-program går du till sidan **systeminställningar** och för fältet **Använd endast det nya enhetliga gränssnittet (rekommenderas)**, välj **Nej** eftersom de här versionerna inte har utformats för korrekt inläsning i UCI. När du har inaktiverat UCI kan du öppna och köra de här versionerna av Field Service och PSA med hjälp av den gamla webbklienten. 

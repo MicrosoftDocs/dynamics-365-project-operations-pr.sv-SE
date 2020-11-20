@@ -3,7 +3,7 @@ title: Preliminärboka en resurs
 description: I det här ämnet finns information om hur du kan schemalägga eller preliminärboka projektteammedlemmar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085665"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122230"
 ---
 # <a name="soft-book-a-resource"></a>Preliminärboka en resurs
 
@@ -35,7 +35,7 @@ Följ stegen nedan om du vill preliminärboka en resurs från schemaläggningsta
 1. Använd schemaläggningstavlan på panelen för **bokningskrav** på fliken **projekt**.
 2. Hitta det projekt som du vill preliminärboka en resurs på. Om det finns ett stort antal projekt i listan väljer du kolumnrubriken **projekt** och använder sedan filtret för att söka efter ett eller flera projekt.
 3. Välj projektet och dra och släpp det sedan på resursens tidsrutnät.
-5. I panelen **Skapa resursbokning** , justera start- och slutdatum och ange **bokningsstatus** till **preliminär** och ange sedan timmarna. 
+5. I panelen **Skapa resursbokning**, justera start- och slutdatum och ange **bokningsstatus** till **preliminär** och ange sedan timmarna. 
 6. Klicka på **Boka**. Resursen visar nu fliken **Team** som en resurs för projektet. I vyn **Namngiven teammedlem** ser du preliminärbokade timmar i kolumnen **Preliminärbokade timmar**.
 
 > [!NOTE]
@@ -47,7 +47,7 @@ Du kan lägga till teammedlemmar direkt på fliken **Team** och ändra sedan der
 
 Om du vill använda den här metoden måste du göra följande.
 
-1. På sidan **Projekt** på fliken **Team** , klicka på **Ny**.
+1. På sidan **Projekt** på fliken **Team**, klicka på **Ny**.
 2. Markera den bokningsbara resursrollen samt Från- och Till-datum.
 3. Välj en fördelningsmetod annan än **Ingen**.
 4. Välj **Spara**. Resursen visas i rutnätet och arbetstiderna anges i kolumnen för som **fastbokade arbetstimmar**.
@@ -63,5 +63,5 @@ När du är redo att ändra en preliminärbokad teammedlemsresurs till en fastbo
 
 1. Expandera resursen på schemaläggningstavlan om du vill visa dess bokningar. Bokningen anges som **Preliminär**.
 2. Högerklicka på bokningen och under **Ändra Status** - markera **Fastboka** \> **Fast**. Bokningsstatusen är nu **Fast**.
-3. När du har stängt schemaläggningstavlan och återgått till projektet samt öppnat fliken **Team** , ser du att timmarna för resursen har flyttats från kolumnen **Preliminärbokade timmar** till kolumnen **Fastbokade timmar** i fliken **Team** när du visar vyn **Namngivna teammedlemmar**. Om resursen har tilldelats uppgifter visar de inte längre ett bokningsunderskott i fliken **Avstämning** eftersom deras bokningar nu är fasta.
+3. När du har stängt schemaläggningstavlan och återgått till projektet samt öppnat fliken **Team**, ser du att timmarna för resursen har flyttats från kolumnen **Preliminärbokade timmar** till kolumnen **Fastbokade timmar** i fliken **Team** när du visar vyn **Namngivna teammedlemmar**. Om resursen har tilldelats uppgifter visar de inte längre ett bokningsunderskott i fliken **Avstämning** eftersom deras bokningar nu är fasta.
 

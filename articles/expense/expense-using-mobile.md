@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085542"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120925"
 ---
 # <a name="expense-using-mobile"></a>Utgift med mobilen
 
@@ -197,7 +197,7 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
 18. Om företagspolicyn kräver gäster för utgiften markerar du **Gäster** och följer sedan stegen nedan:
 
-    1. Välj **Gäst** , **Tidigare gäster** eller **Medarbetare**.
+    1. Välj **Gäst**, **Tidigare gäster** eller **Medarbetare**.
     2. Följ ett av de här stegen:
 
         - Om du valde **Gäst** följer du stegen nedan:

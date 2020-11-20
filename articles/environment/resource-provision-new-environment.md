@@ -3,17 +3,17 @@ title: Etablera en ny miljö
 description: I det här ämnet finns information om hur du etablerar en ny Project Operations-miljö.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085427"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121195"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
@@ -39,7 +39,7 @@ Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för P
 > [!IMPORTANT]
 > Kontrollera att den valda programversionen är 10.0.13 eller senare.
 
-3. Om du vill etablera Project Operations väljer du, under **Avancerade inställningar** , **Common Data Service**. 
+3. Om du vill etablera Project Operations väljer du, under **Avancerade inställningar**, **Common Data Service**. 
 4. Aktivera **Common Data Service-inställningen** genom att välja **Ja** och sedan ange information i de obligatoriska fälten:
 
   - Namn
@@ -76,7 +76,7 @@ Project Operations kräver en Finance-miljö med programversion **10.0.13 (10.0.
 
 Du kan behöva tillämpa kvalitetsuppdateringar av Finance-miljön för att få den här versionen.
 
-1. I LCS, på sidan **Miljöinformation** , i avsnittet **Tillgängliga uppdateringar** , väljer du **Visa uppdatering**.
+1. I LCS, på sidan **Miljöinformation**, i avsnittet **Tillgängliga uppdateringar**, väljer du **Visa uppdatering**.
 
 ![Visa uppdateringar](./media/5ViewUpdates.png)
 
@@ -120,7 +120,7 @@ Miljöunderhållet tar lite tid. När det är klart kommer miljön att återgå 
 
 ![Tillämpa lösningar](./media/13ApplySolutions.png)
 
-5. Välj båda lösningarna, **Dynamics 365 Finance and Operations Dual Write Entity Map** och **Dynamics 365 Project Operations Dual Write Entity Maps** , och välj sedan **Tillämpa**.
+5. Välj båda lösningarna, **Dynamics 365 Finance and Operations Dual Write Entity Map** och **Dynamics 365 Project Operations Dual Write Entity Maps**, och välj sedan **Tillämpa**.
 
 ![Bekräfta lösningar](./media/14ConfirmSolutions.png)
 
@@ -177,7 +177,7 @@ Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den �
 
 5. Kör kartan efter att uppdateringen har slutförts. Innan du aktiverar nästa karta ska du kontrollera att kartan i tabellen är i tillståndet **Körs**. Det kan ta en stund att köra kartor med ett större antal förutsättningar.
 
-Om du vill köra en karta med förutsättningar ska du aktivera **Visa relaterade entitetskartor**. Om tabellen anger att **Förutsättning initial synkronisering** är **Nej** , verifierar du att flaggan **Initial synkronisering** är **Av** i alla förutsättningskartor innan du kör den.
+Om du vill köra en karta med förutsättningar ska du aktivera **Visa relaterade entitetskartor**. Om tabellen anger att **Förutsättning initial synkronisering** är **Nej**, verifierar du att flaggan **Initial synkronisering** är **Av** i alla förutsättningskartor innan du kör den.
 
 ![Kör karta](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Om du vill köra en karta med förutsättningar ska du aktivera **Visa relaterad
 
 ![Alla kartor körs](./media/22AllMapsRunning.png)
 
-Project Operations-miljön har nu etablerats och konfigurerats.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Använda konfigurationsdata i CDS för Project Operations (valfritt)
+
+Om du har använt demonstrationsdata i Finance-miljön läser du [Konfigurera och tillämpa konfigurationsdata i Common Data Service för Project Operations](resource-apply-pro-setup-config-data.md) för att tillämpa demonstrations data på CDS-miljön.
+
+
+Project Operations-miljön har nu etablerats och konfigurerats. 

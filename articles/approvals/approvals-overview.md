@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085400"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123850"
 ---
 # <a name="approvals-overview"></a>Översikt över godkännanden
 
@@ -27,7 +27,7 @@ När du skapar och skickar en tid- eller utgiftspost skapas en godkännandepost.
 ## <a name="approve-an-entry"></a>Godkänna en post
 Med formuläret **Godkännanden** kan du växla mellan olika vyer så att du kan visa olika typer av godkännanden.
   
-1. Gå till formuläret **Godkännanden** och välj **Utgifter** , **Tid** eller **Återkallanden**.
+1. Gå till formuläret **Godkännanden** och välj **Utgifter**, **Tid** eller **Återkallanden**.
 2. Granska varje godkännande och markera de du vill godkänna.
 3. Välj **Godkänn** om du vill godkänna de markerade posterna.
 Posterna kommer att bearbetas och verkliga värden och bokningar skapas.
