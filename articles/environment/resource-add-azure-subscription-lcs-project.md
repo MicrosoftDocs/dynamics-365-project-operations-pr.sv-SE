@@ -1,21 +1,21 @@
 ---
-title: Lägga till en Azure-prenumeration i LCS-projekt
+title: Lägg till en Azure-prenumeration i ett LCS-projekt
 description: I det här ämnet finns information om hur du ansluter din Azure-prenumeration till ett LCS-projekt.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085411"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175823"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Lägga till en Azure-prenumeration i LCS-projekt
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Lägg till en Azure-prenumeration i ett LCS-projekt
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
@@ -23,11 +23,11 @@ Miljöer i molnet måste distribueras med hjälp av en befintlig Azure-prenumera
 
 ## <a name="grant-admin-consent"></a>Bevilja administratörsmedgivande
 
-1. I ditt LCS-projekt, i avsnittet **Miljöer** , väljer du **Microsoft Azure-inställningar**.
+1. I ditt LCS-projekt, i avsnittet **Miljöer**, väljer du **Microsoft Azure-inställningar**.
 
 ![Inställningar för Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. På sidan **Projektinsätllningar** , under fliken **Azure-anslutningsprogram** , väljer du **Auktorisera**. Detta gör att miljöer kan distribueras till det här projektet.
+2. På sidan **Projektinsätllningar**, under fliken **Azure-anslutningsprogram**, väljer du **Auktorisera**. Detta gör att miljöer kan distribueras till det här projektet.
 
 ![Azure-anslutningsprogram](./media/2AzureConnectors.png)
 
@@ -57,7 +57,7 @@ Auktoriseringen har slutförts.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Lägga till ett anslutningsprogram för prenumeration i ett LCS-projekt
 
-1. I ditt LCS-projekt, på sidan **Microsoft Azure-inställningar** , väljer du **Lägg till** för att lägga till ett nytt anslutningsprogram.
+1. I ditt LCS-projekt, på sidan **Microsoft Azure-inställningar**, väljer du **Lägg till** för att lägga till ett nytt anslutningsprogram.
 2. Ange ditt ID för Azure-prenumerationen. Du hittar ditt ID för Azure-prenumerationen i [Azure-portalen](https://ms.portal.azure.com/) under **Inställningar** längst ned till vänster på skärmen.
 3. I fältet **Konfigurera för att använda Azure Resource Manager** väljer du **Ja**.
 4. Kontrollera att AAD-klientorganisationens domän för Azure-prenumerationen stämmer överens med den domänägande Azure-prenumerationen som du använder och välj **Nästa**.

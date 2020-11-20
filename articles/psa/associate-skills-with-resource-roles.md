@@ -3,7 +3,7 @@ title: Koppla kvalifikationer till resursroller
 description: Associera färdigheter med resursroller i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085657"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130285"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Associera färdigheter med resursroller (Project Service)
 
@@ -37,7 +37,7 @@ När du lägger till resursroller har du förmodligen redan associerat vissa fä
   
 3.  I området **Färdigheter** klicka på **+** för att lägga till en färdighet.  
   
-4.  I fönstret Rollkompetenskrav klickar du på fältet **Färdighet** , klickar på knappen **Sök** och väljer en färdighet.  
+4.  I fönstret Rollkompetenskrav klickar du på fältet **Färdighet**, klickar på knappen **Sök** och väljer en färdighet.  
   
 5.  Välj en kompetens för färdigheten och klicka sedan på **Spara**.  
   

@@ -3,7 +3,7 @@ title: Låta någon annan ange din tidspost eller utgifter
 description: Hur du tillåter någon annan att ange din tidsangivelse eller utgift i Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085513"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130412"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Tillåt någon annan att ange din tidsangivelse eller utgift (Project Service)
 
@@ -37,13 +37,13 @@ Skapa ett ombud för att låta någon annan skapa tids- eller utgiftsposter för
   
 2.  Klicka på **Nytt** i kommandofältet.  
   
-3. **Namn** : Ange ett namn för posten.  
+3. **Namn**: Ange ett namn för posten.  
   
-4. **Typ** : Välj om ombudet kan ange poster för tid eller utgift för din räkning.  
+4. **Typ**: Välj om ombudet kan ange poster för tid eller utgift för din räkning.  
   
-5. **Ombud** : Välj namnet på den person som du vill utse till ombud.  
+5. **Ombud**: Välj namnet på den person som du vill utse till ombud.  
   
-6. **Start- och slutdatum** : Välj de datum då delegering börjar och slutar.  
+6. **Start- och slutdatum**: Välj de datum då delegering börjar och slutar.  
   
 7.  Klicka på **Spara och stäng** när du är klar.  
   
@@ -67,7 +67,7 @@ Skapa ett ombud för att låta någon annan skapa tids- eller utgiftsposter för
   
 4.  Kalendern visas. Om du vill se kalendern för föregående eller nästa vecka klickar du på **Föregående** eller **Nästa**. Klicka på **Idag** för att komma tillbaka till den aktuella veckan.  
   
-5.  Om du vill ange din tid klickar du antingen på **Ny** , eller också dubbelklickar du i kalendern under den dag som du vill registrera tid för.  
+5.  Om du vill ange din tid klickar du antingen på **Ny**, eller också dubbelklickar du i kalendern under den dag som du vill registrera tid för.  
   
 6.  Fyll i fälten i formuläret **Tidspost** och klicka på **Spara**.  
   

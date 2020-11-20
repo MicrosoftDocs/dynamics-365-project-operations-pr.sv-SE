@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085453"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131770"
 ---
 # <a name="create-resource-assignments"></a>Skapa resurstilldelningar
 
@@ -37,7 +37,7 @@ När du skapar en generisk teammedlem via uppgiftstilldelning skapar du en plats
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Tilldela en namngiven resurs från listan över alla bokningsbara resurser
 
-Du kan använda sökrutan i **resursväljaren** för att söka efter alla aktiva bokningsbara resurser och tilldela dem till en lövnodsuppgift. Resurser som är tilldelade detta sätt läggs till i teamet utan att behöva boka. Detta påminner om att lägga till en teammedlem och välja **Ingen** som allokeringsmetod. Resursen visas på flikarna **Team** , **Resurstilldelning** och **Avstämning** som resurser med endast tilldelningar och ett bokningsunderskott. Schemalägg dem om du vill använda deras tillgänglighet.
+Du kan använda sökrutan i **resursväljaren** för att söka efter alla aktiva bokningsbara resurser och tilldela dem till en lövnodsuppgift. Resurser som är tilldelade detta sätt läggs till i teamet utan att behöva boka. Detta påminner om att lägga till en teammedlem och välja **Ingen** som allokeringsmetod. Resursen visas på flikarna **Team**, **Resurstilldelning** och **Avstämning** som resurser med endast tilldelningar och ett bokningsunderskott. Schemalägg dem om du vill använda deras tillgänglighet.
 
 1. Navigera till cellen **Tilldelad till** från uppgiftsrutnätet, tavlan eller tidslinjen.
 2. Börja med att skriva ett namn i sökrutan. Sökresultaten för namnet visas i resursväljaren under **resursväljaren** under **andra resurser**.

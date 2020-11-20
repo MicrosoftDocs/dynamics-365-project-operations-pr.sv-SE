@@ -1,21 +1,21 @@
 ---
-title: Konfigurera de debiterbara komponenterna på en offertrad
+title: Konfigurera debiterbara komponenter på en offertrad- lite
 description: I det här ämnet finns information om hur du konfigurerar debiterbara och icke debiterbara komponenter på en projektbaserad offertrad.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085661"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177128"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurera de debiterbara komponenterna på en offertrad
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurera debiterbara komponenter på en offertrad- lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -46,19 +46,19 @@ En projektuppgift kan vara debiterbar eller ej debiterbar i kontexten för en sp
 
 Om en projektbaserad offertrad innehåller **Tid** och uppgiften **T1** associeras uppgiften till offertraden som debiterbar. Om det finns en andra offertrad som inkluderar **Utgifter** kan du associera uppgiften **T1** på offertraden som icke debiterbar. Resultatet blir att all tid som registreras på uppgiften är debiterbar och att alla utgifter som registreras på uppgiften är icke debiterbara.
 
-Faktureringstypen för en uppgift kan konfigureras under fliken **Debiterbara uppgifter** på en projektbaserad offertrad genom att uppdatera fältet **Faktureringstyp** i underrutnätet **Offertradsuppgifter**. Du kan också uppdatera faktureringstypen för en projektuppgift i fältet **Faktureringstyp** i underrutnätet för faktureringsinställningar för en uppgift som visar de offertrader som är associerade med en uppgift.
+Faktureringstypen för en uppgift kan konfigureras på **Debiterbara uppgifter** på en projektbaserad offertrad genom uppdatering fält **Faktureringstyp** i underrutnätet **offertradens uppgifter**. Alternativt kan du uppdatera faktureringstypen för en projektuppgift i **faktureringstyp** fält på undernätet för uppgiftsfakturering för ett projekt som visar offertraderna som är associerade med en uppgift.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Uppdatera en roll så att den är debiterbar eller ej debiterbar
 
 En roll kan vara debiterbar eller inte debiterbar i kontexten för en specifik projektbaserad offertrad.
 
-Faktureringstypen för en roll kan konfigureras under fliken **Debiterbara roller** på en offertrad genom att uppdatera fältet **Faktureringstyp** i underrutnätet **Debiterbara roller**.
+Faktureringstypen för roller uppgift kan konfigureras på **Debiterbara roller** på en projektbaserad offertrad genom uppdatering fält **Faktureringstyp** i underrutnätet **Debiterbara roller**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Uppdatera en transaktionskategori så att den är debiterbar eller inte debiterbar
 
 En transaktionskategori kan vara debiterbar eller inte debiterbar på en specifik offertrad.
 
-Faktureringstypen för en transaktion kan konfigureras under fliken **Debiterbara kategorier** på en offertrad genom att uppdatera fältet **Faktureringstyp** i underrutnätet **Debiterbara kategorier**.
+En transaktion faktureringstyp kan konfigureras på **Debiterbara kategorier** på en projektbaserad offertrad genom uppdatering fält **Faktureringstyp** på underrutnätet **Debiterbara kategorier**.
 
 ### <a name="resolve-chargeability"></a>Åtgärda debiterbarhet
 En uppskattning eller ett faktiskt värde som skapats för tid anses endast vara debiterbart om **Tid** finns på offertraden och om **Uppgift** och **Roll** har konfigurerats som debiterbara på offertraden.

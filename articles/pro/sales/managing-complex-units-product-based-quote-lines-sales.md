@@ -1,21 +1,21 @@
 ---
-title: Hantera komplexa enheter som per användare, per månad för produktbaserade offertrader
+title: Hantera komplexa enheter som per användare, per månad för produktbaserade offertrader - lite
 description: I det här ämnet finns information om hur du hanterar komplexa enheter för produktbaserade offertrader.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085472"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175598"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Hantera komplexa enheter som per användare, per månad för produktbaserade offertrader
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Hantera komplexa enheter som per användare, per månad för produktbaserade offertrader - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -29,8 +29,8 @@ Project Operations verifierar att endast numeriska egenskaper eller produktegens
 
 Dynamics 365 Sales kan till exempel ha följande egenskaper:
 
-- **Antal användare** : antalet användare
-- **Antal månader** : antalet prenumerationsmånader
+- **Antal användare**: antalet användare
+- **Antal månader**: antalet prenumerationsmånader
 - **Produkt-SKU**
 
 Du kan flagga egenskaperna **Antal användare** och **Antal för månader** som kvantitetsfaktorer genom att egenskaperna för produktraden redigeras.

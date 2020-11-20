@@ -3,7 +3,7 @@ title: Skapa projektmall
 description: Skapa en projektmall i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085553"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133210"
 ---
 # <a name="create-a-project-template-project-service"></a>Skapa en projektmall (Project Service)
 
@@ -34,11 +34,11 @@ Med projektmallar sparar du tid om ditt företag regelbundet bjuder på liknande
 ## <a name="components-of-project-template"></a>Komponenter i en projektmall
  En projektmall består av tre komponenter:  
   
-- **Uppdelad arbetsstruktur** : En uppdelad arbetsstruktur i en projektmall har samma uppsättning element som i projektet. Du kan skapa en uppgiftshierarki, koppla roller till en aktivitet, definiera attribut i scheman, ange beroenden och visa alla data i Gantt. Den uppdelade arbetsstrukturen projektmallar har också stöd för uppgiftslägen för varje uppgift. Det är ingen skillnad mellan en projektmall och ett projekt när ett arbetsschema skapas.  
+- **Uppdelad arbetsstruktur**: En uppdelad arbetsstruktur i en projektmall har samma uppsättning element som i projektet. Du kan skapa en uppgiftshierarki, koppla roller till en aktivitet, definiera attribut i scheman, ange beroenden och visa alla data i Gantt. Den uppdelade arbetsstrukturen projektmallar har också stöd för uppgiftslägen för varje uppgift. Det är ingen skillnad mellan en projektmall och ett projekt när ett arbetsschema skapas.  
   
-- **Projektberäkningar** : Projektberäkningar i mallar fungerar på samma sätt som de gör i projekt, förutom att prislistorna som ska användas som standard för utgifts- och försäljningspriser alltid utgör standardkostnad och -försäljningsprislistor angivna i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-parametrarna. Övriga funktioner är desamma som i ett projekt.  
+- **Projektberäkningar**: Projektberäkningar i mallar fungerar på samma sätt som de gör i projekt, förutom att prislistorna som ska användas som standard för utgifts- och försäljningspriser alltid utgör standardkostnad och -försäljningsprislistor angivna i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-parametrarna. Övriga funktioner är desamma som i ett projekt.  
   
-- **Projektteambildning** : När ett projektteam bildas för en projektmall går det inte att boka en namngiven resurs i en mall. Du kan använda **Generera projektteam** i den uppdelade arbetsstrukturen för att generera en uppsättning allmänna resurser. Du kan även ange de kunskaper som krävs och kompetenser för allmänna resurser. Du kan inte ersätta en allmän resurs med en bokningsbar resurs i projektmallar.  
+- **Projektteambildning**: När ett projektteam bildas för en projektmall går det inte att boka en namngiven resurs i en mall. Du kan använda **Generera projektteam** i den uppdelade arbetsstrukturen för att generera en uppsättning allmänna resurser. Du kan även ange de kunskaper som krävs och kompetenser för allmänna resurser. Du kan inte ersätta en allmän resurs med en bokningsbar resurs i projektmallar.  
   
 ## <a name="create-a-project-from-a-template"></a>Skapa ett projekt från en mall  
  Du kan skapa ett projekt från en mall på följande sätt:  
@@ -52,11 +52,11 @@ Med projektmallar sparar du tid om ditt företag regelbundet bjuder på liknande
 ## <a name="copying-components-of-a-template-to-a-project"></a>Kopiera komponenter av en mall till ett projekt  
  När du kopierar komponenter i en mall till ett projekt finns det några saker du bör känna till.  
   
- **Kopiera en uppdelad arbetsstruktur** : När du kopierar den uppdelade arbetsstrukturen från en projektmall, om projektet har en annan projektkalender än mallen, används arbetstimmarna från projektets kalender i schemat över aktiviteter. Detta ändrar schemat till den säkerhetskopierade projektkalendern. På samma sätt tar den första uppgiften i den uppdelade arbetsstrukturen projektets startdatum, så att resten av hierarkischemat för uppgiften uppdateras baserat på varaktighet och beroenden som anges i mallen för uppdelad arbetsstruktur.  
+ **Kopiera en uppdelad arbetsstruktur**: När du kopierar den uppdelade arbetsstrukturen från en projektmall, om projektet har en annan projektkalender än mallen, används arbetstimmarna från projektets kalender i schemat över aktiviteter. Detta ändrar schemat till den säkerhetskopierade projektkalendern. På samma sätt tar den första uppgiften i den uppdelade arbetsstrukturen projektets startdatum, så att resten av hierarkischemat för uppgiften uppdateras baserat på varaktighet och beroenden som anges i mallen för uppdelad arbetsstruktur.  
   
- **Kopiera projektberäkningar** : När du kopierar över projektets beräkningsrader uppdateras prislistorna baserat på projektets ägande enhet för självkostnadslistan och kunden för försäljningslistan. Enhetskostnaden och försäljningspriserna fastställs utifrån dessa prislistor på projekt som är kopplade till en försäljningsenhet.  
+ **Kopiera projektberäkningar**: När du kopierar över projektets beräkningsrader uppdateras prislistorna baserat på projektets ägande enhet för självkostnadslistan och kunden för försäljningslistan. Enhetskostnaden och försäljningspriserna fastställs utifrån dessa prislistor på projekt som är kopplade till en försäljningsenhet.  
   
- **Kopiera ett projektteam** : När du kopierar ett projektteam från mallen till ett projekt kopieras de allmänna resurserna över tillsammans med de angivna färdigheterna och kompetenserna i mallen. Allmänna resurstilldelningar hanteras också i projektmallen.  
+ **Kopiera ett projektteam**: När du kopierar ett projektteam från mallen till ett projekt kopieras de allmänna resurserna över tillsammans med de angivna färdigheterna och kompetenserna i mallen. Allmänna resurstilldelningar hanteras också i projektmallen.  
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)

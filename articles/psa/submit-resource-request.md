@@ -2,7 +2,7 @@
 title: Skicka en resursbegäran
 description: I den här ämnet finns information om hur du skickar en förfrågan för en projektresurs.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085633"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131311"
 ---
 # <a name="submitting-a-resource-request"></a>Skicka en resursbegäran
 
@@ -31,7 +31,7 @@ ms.locfileid: "4085633"
 
 Du kan skicka in ett genererat resursbehov som en resursförfrågan. Förfrågan skickas sedan till en resursansvarig för att uppfylla.
 
-1. I Project Service Automation (PSA), på sidan **Projekt** , klicka på fliken **Team** för att visa en lista över bokningsbara resurser. 
+1. I Project Service Automation (PSA), på sidan **Projekt**, klicka på fliken **Team** för att visa en lista över bokningsbara resurser. 
 2. Markera den allmänna resurs som har ett resurskrav i listan och klicka på **skicka förfrågan**.
 
 ![Skicka en resursbegäran](media/RM-how-to-18.png)

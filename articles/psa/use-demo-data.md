@@ -3,7 +3,7 @@ title: Experimentera med demodata
 description: Hämta och experimentera med demodata för Project Service Automation.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d0bc6d171f2f3080b7b1c34222de49e93415a139
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085619"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130531"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Experimentera med demodata (Project Service)
 

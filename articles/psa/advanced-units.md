@@ -3,7 +3,7 @@ title: Enhetsgrupper och enheter
 description: I det här ämnet finns information om enhetsgrupper och enheter.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085556"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130600"
 ---
 # <a name="unit-groups-and-units"></a>Enhetsgrupper och enheter
 
@@ -33,10 +33,10 @@ Enhetsgrupper och enheter är grundläggande entiteter i Microsoft Dynamics 365.
 
 Här är några exempel på enheter och enhetsgrupper:
  
-- **Enhetsgrupp** : avstånd 
-    - **Enheter** : mil, kilometer och så vidare.
-- **Enhetsgrupp** : Tid
-    - **Enheter** : timme, dag, vecka och så vidare. 
+- **Enhetsgrupp**: avstånd 
+    - **Enheter**: mil, kilometer och så vidare.
+- **Enhetsgrupp**: Tid
+    - **Enheter**: timme, dag, vecka och så vidare. 
 
 När du skapar flera enheter i en enhetsgrupp måste du också skapa en konverteringsfaktor mellan dem genom att ange den första enheten som du anger som standardenhet eller primär enhet för enhetsgruppen. 
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation använder enheter och enhetsgrupper för
 
 För utgifter har varje utgiftskategori en standardenhetsgrupp och enhet. Dessa värden anges som standardvärden för prislistetransaktioner för utgiftskategorier. 
 
-Du har till exempel en utgiftskategori som heter **Körsträcka**. Den har en enhetsgrupp med namnet **avstånd** och en standardenhet med namnet **mil**. Om du anger enhetsgruppen **avstånd** så att den har två enheter ( **Mil** och **Kilometer** ) kan du ange två priser för kategorin **körsträcka** på en prislista: pris per mil och pris per kilometer.
+Du har till exempel en utgiftskategori som heter **Körsträcka**. Den har en enhetsgrupp med namnet **avstånd** och en standardenhet med namnet **mil**. Om du anger enhetsgruppen **avstånd** så att den har två enheter (**Mil** och **Kilometer**) kan du ange två priser för kategorin **körsträcka** på en prislista: pris per mil och pris per kilometer.
 
 | Utgiftskategori  | Enhetsgrupp  | Enhet      | Prismodell  | Pris per enhet  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Beräkningsrader för fältet **tid på offert** kan uttryckas i valfri tidsenhe
 Följande exempel visar hur PSA använder enhetsgrupperna, enheterna och konverteringsfaktorerna.
 - Enheter
 
-   - **Enhetsgrupp** : Tid 
-   - **Enheter** : timme 
+   - **Enhetsgrupp**: Tid 
+   - **Enheter**: timme 
     
     - **Dag** - konverteringsfaktor: 8 timmar       
     - **Vecka** - konverteringsfaktor: 40 timmar  
         
 - Inställning av prislista för projekt A:
 
-    - **Namn** : UK förs. pris 2016 
-    - **Standardtidsenhet** : dag 
-    - **Valuta** : GBP
+    - **Namn**: UK förs. pris 2016 
+    - **Standardtidsenhet**: dag 
+    - **Valuta**: GBP
 
 | Roll      | Enhetsgrupp | Enhet | Organisationsenhet | Pris   |
 |-----------|------------|------|---------------------|---------|

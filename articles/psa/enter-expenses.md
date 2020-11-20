@@ -3,7 +3,7 @@ title: Ange utgifter
 description: Ange utgifter i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085744"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132940"
 ---
 # <a name="enter-expenses-project-service"></a>Ange utgifter (Project Service)
 
@@ -39,7 +39,7 @@ Ange dina utgifter minst varje vecka, eller med den frekvens som begärts av din
   
 3. Om du vill ange en utgift, antingen klickar du på **Ny** eller dubbelklickar i kalendern under den dag som du vill registrera tid för.  
   
-4. Fyll i fälten i formuläret **Ny utgift** , och klicka sedan på **Spara**.  
+4. Fyll i fälten i formuläret **Ny utgift**, och klicka sedan på **Spara**.  
   
 5. Fortsätt att ange dina utgifter för veckan. När du är klar och allt ser korrekt ut klickar du på **Skicka**. En chef ska granska och godkänna dina utgifter.  
   
@@ -49,7 +49,7 @@ Ange dina utgifter minst varje vecka, eller med den frekvens som begärts av din
   
    Om du använder mobilappen:  
   
-8. Från menyn, gå till **Utgifter**.     Du kan växla till vyn för **dag** , **vecka** eller **månad** , eller gå till föregående eller nästa tidsperiod.  
+8. Från menyn, gå till **Utgifter**.     Du kan växla till vyn för **dag**, **vecka** eller **månad**, eller gå till föregående eller nästa tidsperiod.  
   
 9. Tryck på **…** och tryck på **Ny**.  
   

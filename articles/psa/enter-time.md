@@ -3,7 +3,7 @@ title: Ange tid
 description: Ange tid i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085743"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132895"
 ---
 # <a name="enter-time-project-service"></a>Ange tid (Project Service)
 
@@ -37,7 +37,7 @@ Ange dina timmar minst varje vecka, eller med den frekvens som begärts av dina 
   
 2. Om du vill se din kalender för föregående eller nästa vecka klickar du på **Föregående** eller **Nästa**. Klicka på **Idag** för att komma tillbaka till den aktuella veckan.  
   
-3. Om du vill ange din tid klickar du antingen på **Ny** , eller också dubbelklickar du i kalendern under den dag som du vill registrera tid för.  
+3. Om du vill ange din tid klickar du antingen på **Ny**, eller också dubbelklickar du i kalendern under den dag som du vill registrera tid för.  
   
 4. Fyll i fälten i formuläret **Tidspost** och klicka på **Spara**.  
   
@@ -51,7 +51,7 @@ Ange dina timmar minst varje vecka, eller med den frekvens som begärts av dina 
   
    Om du använder mobilappen:  
   
-9. Från menyn, gå till **Tidsposter**.     Du kan växla till vyn för **dag** , **vecka** eller **månad** , eller navigera till föregående eller nästa tidsperiod.  
+9. Från menyn, gå till **Tidsposter**.     Du kan växla till vyn för **dag**, **vecka** eller **månad**, eller navigera till föregående eller nästa tidsperiod.  
   
 10. Tryck på **…** och tryck på **Ny**.  
   

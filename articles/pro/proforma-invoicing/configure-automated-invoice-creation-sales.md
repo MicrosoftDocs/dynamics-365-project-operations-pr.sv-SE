@@ -1,22 +1,22 @@
 ---
-title: Konfigurera automatiskt skapande av proforma-faktura
+title: Konfigurera automatiskt fakturaskapande - lite
 description: I det här ämnet finns information om hur du konfigurerar automatiskt skapande av proforma-fakturor.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085449"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176588"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfigurera automatiskt skapande av proforma-faktura
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurera automatiskt fakturaskapande - lite
+ 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 Du kan konfigurera automatiskt fakturaskapande i Dynamics 365 Project Operations. Systemet skapar ett utkast till en proforma-faktura utifrån faktureringsschemat för varje projektkontrakt och kontraktrad. Faktureringsscheman konfigureras på kontraktradsnivå. Varje rad i ett kontrakt kan ha en särskild faktureringsplan, eller så kan samma faktureringsschema tas med på alla rader i kontraktet.
@@ -48,16 +48,16 @@ Faktureringsscheman som har definierats på var och en av dessa två radartiklar
 
 I det här exemplet när automatisk fakturering körs för:
 
-- **4 oktober eller något tidigare datum** : Ingen faktura genereras för det här kontraktet eftersom tabellen **Faktureringsschema** för var och en av dessa kontraktrader inte svarar till söndag den 4 oktober som ett datum för fakturakörning.
-- **Måndagen den 5 oktober** : en faktura skapas för:
+- **4 oktober eller något tidigare datum**: Ingen faktura genereras för det här kontraktet eftersom tabellen **Faktureringsschema** för var och en av dessa kontraktrader inte svarar till söndag den 4 oktober som ett datum för fakturakörning.
+- **Måndagen den 5 oktober**: en faktura skapas för:
 
     - Prototyparbete som innehåller milstolpen om den är markerad som **Klar för fakturering**.
     - Implementeringsarbete som omfattar alla tidstransaktioner som skapats före transaktionens avskärningsdatum söndagen den 4 oktober och som är markerat som **Klar för fakturering**.
     - Utgift som omfattar alla utgifttransaktioner som skapats före transaktionens avskärningsdatum söndagen den 4 oktober och som är markerat som **Klar för fakturering**.
   
-- **Den 6 oktober eller något datum för den 19 oktober** : Ingen faktura genereras för det här kontraktet eftersom tabellen **Faktureringsschema** för var och en av dessa kontraktrader inte svarar till den 6 oktober eller något datum före den 19 oktober som ett datum för fakturakörning.
-- **Mådagen den 19 oktober** : En faktura genereras för implementeringsarbete som omfattar alla tidstransaktioner som skapats före transaktionens avskärningsdatum söndagen den 18 oktober och som är markerat som **Klar för fakturering**.
-- **Måndagen den 2 november** : en faktura skapas för:
+- **Den 6 oktober eller något datum för den 19 oktober**: Ingen faktura genereras för det här kontraktet eftersom tabellen **Faktureringsschema** för var och en av dessa kontraktrader inte svarar till den 6 oktober eller något datum före den 19 oktober som ett datum för fakturakörning.
+- **Mådagen den 19 oktober**: En faktura genereras för implementeringsarbete som omfattar alla tidstransaktioner som skapats före transaktionens avskärningsdatum söndagen den 18 oktober och som är markerat som **Klar för fakturering**.
+- **Måndagen den 2 november**: en faktura skapas för:
 
     - Implementeringsarbete som omfattar alla tidstransaktioner som skapats före transaktionens avskärningsdatum söndagen den 1 november och som är markerat som **Klar för fakturering**.
     - Utgift som omfattar alla utgifttransaktioner som skapats före transaktionens avskärningsdatum söndagen den 1 november och som är markerat som **Klar för fakturering**.
@@ -70,7 +70,7 @@ Slutför stegen nedan om du vill konfigurera en automatisk fakturakörning.
 
 1. I **Project Operations** går du till **Inställningar** > **Konfigurera återkommande faktura**.
 2. Skapa ett batch-jobb och ge det namnet **Project Operations skapa fakturor**. Namnet på batch-jobbet måste innehålla orden "skapa fakturor".
-3. I fältet **Jobbtyp** , välj **Ingen**. Som standard är fälten **Frekvens dagligen** och **Är aktiv** angivna som **Ja**.
+3. I fältet **Jobbtyp**, välj **Ingen**. Som standard är fälten **Frekvens dagligen** och **Är aktiv** angivna som **Ja**.
 4. Välj **Kör arbetsflöde**. I dialogrutan **Sök efter post** visas tre arbetsflöden:
 
 - ProcessRunCaller
@@ -81,11 +81,11 @@ Slutför stegen nedan om du vill konfigurera en automatisk fakturakörning.
 6. Klicka på **OK** i nästa dialogrutan. Arbetsflödet **Vila** följs av **Process**. 
 
 > [!NOTE]
-> Du kan också välja **ProcessRunner** i steg 5. När du sedan väljer **OK** , följs arbetsflödet **Process** av arbetsflödet **Vila**.
+> Du kan också välja **ProcessRunner** i steg 5. När du sedan väljer **OK**, följs arbetsflödet **Process** av arbetsflödet **Vila**.
 
 Arbetsflödena **ProcessRunCaller** och **ProcessRunner** skapar fakturor. **ProcessRunCaller** anropar **ProcessRunner**. **ProcessRunner** är det arbetsflöde som verkligen skapade fakturorna. Arbetsflödet går igenom alla kontraktrader som fakturorna måste skapas för och fakturor för dessa rader skapas. För att fastställa vilka kontraktsrader som fakturor ska skapas tittar jobbet på körningsdatum för faktura för kontraktsraderna. Om kontraktsrader som tillhör ett kontrakt har samma datum för fakturakörning kombineras transaktionerna till en faktura med två fakturarader. Om det inte finns några transaktioner att skapa fakturor för hoppar jobbet över skapandet av fakturan.
 
-När **ProcessRunner** har körts klart anropas **ProcessRunCaller** , anger sluttiden och är stängd. **ProcessRunCaller** startar sedan en timer som körs i 24 timmar från den angivna sluttiden. **ProcessRunCaller** stängs i slutet av timern.
+När **ProcessRunner** har körts klart anropas **ProcessRunCaller**, anger sluttiden och är stängd. **ProcessRunCaller** startar sedan en timer som körs i 24 timmar från den angivna sluttiden. **ProcessRunCaller** stängs i slutet av timern.
 
 Batchprocessjobbet för att skapa fakturor är ett återkommande jobb. Om batchprocessen körs flera gånger skapas flera instanser av jobbet och det uppstår fel. Därför bör du endast starta batchprocessen en gång och du bör sedan starta om den endast om den slutar att fungera.
 

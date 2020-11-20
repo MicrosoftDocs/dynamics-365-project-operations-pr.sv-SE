@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085454"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131995"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurera redovisning för fakturerbara projekt
 
@@ -21,8 +21,8 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Dynamics 365 Project Operations har stöd för olika redovisningsalternativ för fakturerbara projekt som omfattar transaktioner gällande tid och material samt fast pris.
 
-- **Tids- och materialtransaktioner** : dessa transaktioner faktureras allt eftersom arbetet fortskrider utifrån förbrukningen av timmar, utgifter, artiklar eller avgifter i projektet. Dessa transaktionskostnader kan matchas med omsättningen för varje transaktion och projektet faktureras allt eftersom arbetet fortskrider. Projektintäkter kan även påföras när transaktionen utförs. Under faktureringen registreras intäkter och i tillämpliga fall återförs upplupna intäkter.
-- **Fastpristransaktioner** : dessa transaktioner faktureras enligt en faktureringsplan som baseras på projektkontraktet. Intäkter för fastpristransaktioner kan registreras vid fakturering eller beräkning och bokföras med jämna mellanrum, enligt metoderna **Slutfört kontrakt** eller **Slutförd procent**.
+- **Tids- och materialtransaktioner**: dessa transaktioner faktureras allt eftersom arbetet fortskrider utifrån förbrukningen av timmar, utgifter, artiklar eller avgifter i projektet. Dessa transaktionskostnader kan matchas med omsättningen för varje transaktion och projektet faktureras allt eftersom arbetet fortskrider. Projektintäkter kan även påföras när transaktionen utförs. Under faktureringen registreras intäkter och i tillämpliga fall återförs upplupna intäkter.
+- **Fastpristransaktioner**: dessa transaktioner faktureras enligt en faktureringsplan som baseras på projektkontraktet. Intäkter för fastpristransaktioner kan registreras vid fakturering eller beräkning och bokföras med jämna mellanrum, enligt metoderna **Slutfört kontrakt** eller **Slutförd procent**.
 
 Ett projekt betraktas som fakturerbart när det är associerat med en eller flera kontraktrader. En kontraktrad för ett projekt definierar för sig vilken faktureringsmetod och vilka transaktionstyper som är tillåtna.
 
@@ -45,47 +45,47 @@ Följ stegen nedan om du vill skapa en ny projektkostnads- och intäktsprofil.
 3. I fältet **Namn** anger du namnet och en kortfattad beskrivning av profilen.
 4. I fältet **Faktureringsmetod** väljer du **Tid och material** eller **Fast pris**.
 5. Expandera snabbfliken **Transaktionsregister**. Fälten på den här fliken definierar de redovisningsprinciper som används när projekttransaktioner bokförs med hjälp av Project Operations integreringsjournal och sedan faktureras med hjälp av fakturaförslag för projektet.
-6. Välj lämplig information i följande fält i snabbfliken **Transaktionsregister** :
+6. Välj lämplig information i följande fält i snabbfliken **Transaktionsregister**:
 
-    - **Bokför kostnader – timme** :
+    - **Bokför kostnader – timme**:
 
-       - *Inget transaktionsregister* : kostnaden för tidstransaktioner kommer inte att bokföras i transaktionsregistret när Project Operations integreringsjournal bokförs. Revisorn kan emellertid bokföra kostnader med hjälp av funktionen Bokför kostnader senare.
-       - **Saldo** : kostnaden för tidstransaktioner debiteras till kontotypen Transaktionsregister, *PIA – kostnadsvärde* och krediteras till *lönefördelningskontot* i transaktionsregistrets bokföringsinställningar. Funktionen Bokför kostnader används för att flytta kostnaden från ett saldokonto till ett resultatkonto periodiskt.
-       - **Vinst och förlust** : när du bokför journalen för Project Operations debiteras tidstransaktionens kostnad kontotypen *Kostnad* i transaktionsregistret och krediteras det *lönefördelningskonto* som har definierats under fliken **Kostnad** på sidan för **bokföringsinställningar för transaktionsregister** ( **Projektledning och bokföring** \> **Inställningar** \> **Bokföring** \> **Inställningar för bokföring i transaktionsregister** ). Det här är den vanligaste inställningen för tids- och materialtransaktioner.
-        - *Aldrig transaktionsregister* : kostnaden för tidstransaktioner kommer inte att bokföras i transaktionsregistret.
+       - *Inget transaktionsregister*: kostnaden för tidstransaktioner kommer inte att bokföras i transaktionsregistret när Project Operations integreringsjournal bokförs. Revisorn kan emellertid bokföra kostnader med hjälp av funktionen Bokför kostnader senare.
+       - **Saldo**: kostnaden för tidstransaktioner debiteras till kontotypen Transaktionsregister, *PIA – kostnadsvärde* och krediteras till *lönefördelningskontot* i transaktionsregistrets bokföringsinställningar. Funktionen Bokför kostnader används för att flytta kostnaden från ett saldokonto till ett resultatkonto periodiskt.
+       - **Vinst och förlust**: när du bokför journalen för Project Operations debiteras tidstransaktionens kostnad kontotypen *Kostnad* i transaktionsregistret och krediteras det *lönefördelningskonto* som har definierats under fliken **Kostnad** på sidan för **bokföringsinställningar för transaktionsregister** (**Projektledning och bokföring** \> **Inställningar** \> **Bokföring** \> **Inställningar för bokföring i transaktionsregister**). Det här är den vanligaste inställningen för tids- och materialtransaktioner.
+        - *Aldrig transaktionsregister*: kostnaden för tidstransaktioner kommer inte att bokföras i transaktionsregistret.
 
-    - **Bokföra kostnader – utgifter** :
+    - **Bokföra kostnader – utgifter**:
 
-         - **Saldo** : när du bokför integreringsjournalen för Project Operations debiteras kostnaden för utgiftstransaktioner kontotypen *PIA – kostnadsvärde* i transaktionsregistret enligt definitionen under fliken **Kostnad** på sidan **Bokföringsinställningar för transaktionsregister** och krediteras motkontot på journalraden. Standardmotkonton för utgift definieras i **Projekthanterings och bokföring** > **Inställningar** \> **Bokföring** \> **Standardmotkonto för utgifter**. Funktionen **Bokför kostnader** används för att flytta kostnaden från saldokontot till resultatkontot periodiskt.
-        - **Resultat** : när du bokför integreringsjournalen för Project Operations debiteras kostnaden för utgiftstransaktioner kontotypen *Kostnad* i transaktionsregistret enligt definitionen under fliken **Kostnad** på sidan **Bokföringsinställningar för transaktionsregister** och krediteras motkontot på journalraden. Standardmotkonton för utgift definieras i **Projekthantering och bokföring** \> **Inställningar** \> **Bokföring** \> **Standardmotkonto för utgifter**.
+         - **Saldo**: när du bokför integreringsjournalen för Project Operations debiteras kostnaden för utgiftstransaktioner kontotypen *PIA – kostnadsvärde* i transaktionsregistret enligt definitionen under fliken **Kostnad** på sidan **Bokföringsinställningar för transaktionsregister** och krediteras motkontot på journalraden. Standardmotkonton för utgift definieras i **Projekthanterings och bokföring** > **Inställningar** \> **Bokföring** \> **Standardmotkonto för utgifter**. Funktionen **Bokför kostnader** används för att flytta kostnaden från saldokontot till resultatkontot periodiskt.
+        - **Resultat**: när du bokför integreringsjournalen för Project Operations debiteras kostnaden för utgiftstransaktioner kontotypen *Kostnad* i transaktionsregistret enligt definitionen under fliken **Kostnad** på sidan **Bokföringsinställningar för transaktionsregister** och krediteras motkontot på journalraden. Standardmotkonton för utgift definieras i **Projekthantering och bokföring** \> **Inställningar** \> **Bokföring** \> **Standardmotkonto för utgifter**.
        
-    - **Kontofakturering** :
+    - **Kontofakturering**:
 
-        - **Saldo** : när du bokför projektfakturaförslaget krediteras en kontotransaktion (faktureringsmilstolpe) till kontotypen *PIA fakturerad – konto* i transaktionsregistret enligt vad som definierats under fliken **Intäkt** på sidan **Bokföringsinställningar för transaktionsregister** och debiteras på kundens saldokonto.
-         - **Resultat** : när du bokför projektfakturaförslaget krediteras en kontotransaktion (faktureringsmilstolpe) till kontotypen *Fakturerad intäkt – konto* i transaktionsregistret enligt vad som definierats under fliken **Intäkt** på sidan **Bokföringsinställningar för transaktionsregister** och debiteras på kundens saldokonto. Kundens saldokonton anges i **Kundreskontra** \> **Inställningar** \> **Kundbokföringsprofiler**.
+        - **Saldo**: när du bokför projektfakturaförslaget krediteras en kontotransaktion (faktureringsmilstolpe) till kontotypen *PIA fakturerad – konto* i transaktionsregistret enligt vad som definierats under fliken **Intäkt** på sidan **Bokföringsinställningar för transaktionsregister** och debiteras på kundens saldokonto.
+         - **Resultat**: när du bokför projektfakturaförslaget krediteras en kontotransaktion (faktureringsmilstolpe) till kontotypen *Fakturerad intäkt – konto* i transaktionsregistret enligt vad som definierats under fliken **Intäkt** på sidan **Bokföringsinställningar för transaktionsregister** och debiteras på kundens saldokonto. Kundens saldokonton anges i **Kundreskontra** \> **Inställningar** \> **Kundbokföringsprofiler**.
 
-   När du definierar bokföringsprofilerna för tids- och materialfaktureringsmetoderna kan du välja att periodisera intäkter per transaktionstyp (timme, utgift och avgift). Om alternativet **Periodisera intäkt** står på **Ja** , registreras ofakturerade försäljningstransaktioner i integreringsjournalen för Project Operations i huvudboken. Försäljningsvärdet debiteras kontot **PIA – försäljningsvärde** och krediteras kontot **Upplupna intäkter – försäljningsvärde** som har ställts in på sidan **Bokföringsinställningar för transaktionsregister** under fliken **Intäkt**. 
+   När du definierar bokföringsprofilerna för tids- och materialfaktureringsmetoderna kan du välja att periodisera intäkter per transaktionstyp (timme, utgift och avgift). Om alternativet **Periodisera intäkt** står på **Ja**, registreras ofakturerade försäljningstransaktioner i integreringsjournalen för Project Operations i huvudboken. Försäljningsvärdet debiteras kontot **PIA – försäljningsvärde** och krediteras kontot **Upplupna intäkter – försäljningsvärde** som har ställts in på sidan **Bokföringsinställningar för transaktionsregister** under fliken **Intäkt**. 
   
   > [!NOTE]
   > Alternativet **Periodisera intäkter** är endast tillgängligt när kostnaden för respektive transaktionstyp **Kostnad** bokförs på resultatkontot.
     
 7. Expandera snabbfliken **Uppskattning**. Fälten under den här fliken definierar beräkningsinställningarna för uppskattningar av intäkt från fast pris. Fälten under den här fliken gäller endast för projektkostnads- och intäktsprofiler med faktureringsmetoden **Fast pris**.
-8. Välj lämplig information i följande fält i snabbfliken **Uppskattning** :
+8. Välj lämplig information i följande fält i snabbfliken **Uppskattning**:
 
-    - **Princip som används för beräkning vid projektslutförande** :
+    - **Princip som används för beräkning vid projektslutförande**:
 
-        - **Slutfört kontrakt** : kostnadsmatchning och intäktsredovisning inträffar inte förrän projektet är slut. Kostnaderna återspeglar PIA i saldot tills projektet är slutfört.
-        - **Slutförd procent** : upplupna intäkter beräknas och bokförs i transaktionsregistret varje period utifrån projektets slutförandeprocentsats. Det finns flera tillgängliga metoder för att beräkna slutförandeprocent. Metoderna kan vara automatiska efter konfiguration eller manuella.
-        - **Ingen PIA** : den här inställningen används för fastprisprojekt med en kort tidsperiod och där fakturan och kostnaderna inträffar i samma period. I det här fallet ställs värdet för fältet **Kontofakturering** under snabbfliken **Transaktionsregister** automatiskt in på **Resultat** för att säkerställa att intäkter registreras vid fakturering. Processen för intäktsuppskattning används inte för den här projektkostnads- och intäktsprofilen.
+        - **Slutfört kontrakt**: kostnadsmatchning och intäktsredovisning inträffar inte förrän projektet är slut. Kostnaderna återspeglar PIA i saldot tills projektet är slutfört.
+        - **Slutförd procent**: upplupna intäkter beräknas och bokförs i transaktionsregistret varje period utifrån projektets slutförandeprocentsats. Det finns flera tillgängliga metoder för att beräkna slutförandeprocent. Metoderna kan vara automatiska efter konfiguration eller manuella.
+        - **Ingen PIA**: den här inställningen används för fastprisprojekt med en kort tidsperiod och där fakturan och kostnaderna inträffar i samma period. I det här fallet ställs värdet för fältet **Kontofakturering** under snabbfliken **Transaktionsregister** automatiskt in på **Resultat** för att säkerställa att intäkter registreras vid fakturering. Processen för intäktsuppskattning används inte för den här projektkostnads- och intäktsprofilen.
 
-    - **Matchningsprincip** : det här fältet avgör hur det beräknade försäljningsvärdet (upplupna intäkter) ska bokföras i transaktionsregistret.
+    - **Matchningsprincip**: det här fältet avgör hur det beräknade försäljningsvärdet (upplupna intäkter) ska bokföras i transaktionsregistret.
 
         - Med hjälp av principen **Försäljningsvärde** beräknas försäljningsvärdet genom att matcha kostnader och intäkter och sedan bokföra dem som ett enda belopp.
         - Med hjälp av principen **Produktions och vinst** delas försäljningsvärdet i de realiserade kostnaderna och den beräknade vinsten. Dessa bokförs separat.
 
-    - **Kostnadsmallar** : tillåta att projekttransaktioner grupperas efter transaktionstyp och projektkategori och definiera regler för beräkning av slutförd procentandel för dessa grupper.
-    - **Periodkoder** : definiera hur ofta intäktsuppskattningar beräknas för en viss projektkostnads- och intäktsprofil.
-    - **Kategorier för uppskattning** : används för bokföring av försäljningsvärde (upplupna intäkter) i projekttransaktioner. Börja med att konfigurera den dedikerade projektkategorin för transaktionstypen **Avgift** och ange sedan flaggan **Uppskattning** för projektkategorin. Därefter, beroende på vald matchningsprincip, väljer du denna projektkategori i värdet **Försäljning** eller fältet **Vinst** i projektkostnads- och intäktsprofilen.
+    - **Kostnadsmallar**: tillåta att projekttransaktioner grupperas efter transaktionstyp och projektkategori och definiera regler för beräkning av slutförd procentandel för dessa grupper.
+    - **Periodkoder**: definiera hur ofta intäktsuppskattningar beräknas för en viss projektkostnads- och intäktsprofil.
+    - **Kategorier för uppskattning**: används för bokföring av försäljningsvärde (upplupna intäkter) i projekttransaktioner. Börja med att konfigurera den dedikerade projektkategorin för transaktionstypen **Avgift** och ange sedan flaggan **Uppskattning** för projektkategorin. Därefter, beroende på vald matchningsprincip, väljer du denna projektkategori i värdet **Försäljning** eller fältet **Vinst** i projektkostnads- och intäktsprofilen.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Exempel på konfigurationer för projektkostnads- och intäktsprofiler
 

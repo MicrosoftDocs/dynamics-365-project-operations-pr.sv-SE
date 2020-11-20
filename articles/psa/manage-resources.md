@@ -3,7 +3,7 @@ title: Hantera resurser
 description: I det här ämnet finns information om hur du hanterar resurser.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085741"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132355"
 ---
 # <a name="manage-resources"></a>Hantera resurser
 
@@ -64,7 +64,7 @@ Följ stegen nedan för att ange vilka kunskaper som krävs på en generisk resu
 
     ![Kravlänk](media/Resource-Management-image10.png)
 
-3. På sidan **Resurskrav** som visas i rutnätet **Färdigheter** välj sedan ellipsen ( **...** ) och sedan **Lägg till ny kravegenskap** för att lägga till nödvändiga färdigheter för din utvecklare.
+3. På sidan **Resurskrav** som visas i rutnätet **Färdigheter** välj sedan ellipsen (**...**) och sedan **Lägg till ny kravegenskap** för att lägga till nödvändiga färdigheter för din utvecklare.
 
     ![Kommandot Lägg till ny kravegenskap](media/Resource-Management-image11.png)
 
@@ -72,7 +72,7 @@ Följ stegen nedan för att ange vilka kunskaper som krävs på en generisk resu
 
     ![Snabbregistrering: dialogrutan kravegenskap](media/Resource-Management-image12.png)
 
-5. På sidan **Resurskrav** , välj **Boka** för att uppfylla resursbehovet.
+5. På sidan **Resurskrav**, välj **Boka** för att uppfylla resursbehovet.
 
     ![Knappen Boka på sidan Resurskrav](media/Resource-Management-image13.png)
 
@@ -124,7 +124,7 @@ Du kan skapa uppgifter i PSA och sedan tilldela dem allmänna resurser. På det 
 
     ![Ny uppgift skapad](media/Resource-Management-image21.png)
 
-2. I fältet **Resurser** , välj symbolen **Resursväljare**. Resursväljaren visas och visar befintliga teammedlemmar för projektet.
+2. I fältet **Resurser**, välj symbolen **Resursväljare**. Resursväljaren visas och visar befintliga teammedlemmar för projektet.
 
     ![Resursväljare](media/Resource-Management-image22.png)
 
@@ -150,7 +150,7 @@ Du kan skapa uppgifter i PSA och sedan tilldela dem allmänna resurser. På det 
 
     När du har tilldelat generisk resurs till uppgiften kan du skapa ett resurskrav för den generiska resursen.
 
-5. På fliken **Team** , välj den generiska resursen och välj sedan **generera krav**.
+5. På fliken **Team**, välj den generiska resursen och välj sedan **generera krav**.
 
     ![Kommandot Generera krav](media/Resource-Management-image28.png)
 
@@ -337,7 +337,7 @@ När du visar högre tidsnivåer visar har celler i fliken **avstämning** har e
 
 ![Skillnadsindikator](media/Resource-Management-image57.png)
 
-I situationer där du har aktivitetstilldelningar för en resurs men inga bokningar, på sidan **Projekt** på fliken **Avstämning** , välj underskott för bokningen och sedan **utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Den visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
+I situationer där du har aktivitetstilldelningar för en resurs men inga bokningar, på sidan **Projekt** på fliken **Avstämning**, välj underskott för bokningen och sedan **utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Den visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
 
 ![Dialogrutan utöka bokning](media/Resource-Management-image58.png)
 

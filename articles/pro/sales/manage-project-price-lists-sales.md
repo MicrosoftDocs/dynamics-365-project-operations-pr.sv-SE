@@ -1,21 +1,21 @@
 ---
-title: Hantera projektprislistor i projektofferter
+title: Hantera projektprislistor i projektofferter - lite
 description: I det här ämnet finns information om hur du arbetar med projektprislistor i offerter. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085463"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176003"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Hantera projektprislistor i projektofferter (försäljning)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Hantera projektprislistor i projektofferter - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -65,5 +65,5 @@ Följ stegen nedan om du vill skapa en kundspecifik projektprislista.
 
 När du har skapat organisations- och kundspecifika standardprislistor skapas dina projektofferter automatiskt med de här associationerna till projektprislistor. I vissa fall kan du emellertid behöva skapa en anpassad prissättning för en specifik projektoffert. 
 
-1. I **Projektoffert** , under fliken **Projektprislistat** , verifierar du i underrutnätet att ingen specifik prislistpost har valts.
+1. I **Projektoffert**, under fliken **Projektprislistat**, verifierar du i underrutnätet att ingen specifik prislistpost har valts.
 2. Välj **Skapa anpassad prissättning**. Då skapas en kopia av alla standardprislistor som är associerade med offerten och dessa kopior associeras till offerten. De befintliga kopplingarna till standardprislistor tas bort. Säljaren kan sedan göra ändringar i priser för kopiorna. De ändrade priserna gäller endast för den här projektofferten.

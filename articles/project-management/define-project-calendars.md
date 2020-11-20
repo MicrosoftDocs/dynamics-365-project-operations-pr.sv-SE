@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 774399f2c02d8434c9c042c3a9f995792893bfce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 442a901af8754fa0335bbf43f4ac8c73b11f9499
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085714"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131680"
 ---
 # <a name="define-project-calendars"></a>Definiera projektkalendrar
 
@@ -31,12 +31,12 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 För att skapa ett projektschema skapar du en projektkalendermall som definierar antalet arbetstimmar per dag och alla öppettider för företaget. Om du vill skapa en projektkalendermall associerar du en arbetsmall med fältet **kalendermallen** för projektet. Skapa en arbetsmall genom att följa stegen nedan.
 
 1. I vänster navigeringsfönster, välj **Resurser**. 
-2. På listsidan **Resurser** , öppna en användarpost och välj sedan **Visa arbetstimmar**.
+2. På listsidan **Resurser**, öppna en användarpost och välj sedan **Visa arbetstimmar**.
 
   > [!NOTE]
   > Kontrollera att popup-fönster tillåts på webbsidan. På så sätt kan du se resursens arbetstider.
   
-3. På sidan **månatlig visning** , klicka på **konfigurera**. En lista med tre alternativ visas: 
+3. På sidan **månatlig visning**, klicka på **konfigurera**. En lista med tre alternativ visas: 
 
   - Nytt veckoschema
   - Arbetsschema för en dag

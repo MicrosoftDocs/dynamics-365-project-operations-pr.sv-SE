@@ -1,12 +1,12 @@
 ---
-title: Projektprislistor
+title: Hantera projektprislistor i en offert
 description: I det här ämne finns information om entiteten för projektets prislista.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085766"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177218"
 ---
-# <a name="project-price-lists"></a>Projektprislistor
+# <a name="manage-project-price-lists-on-a-quote"></a>Hantera projektprislistor i en offert
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations utökar entiteten för prislista i Dynamics 365 
 
 En prislista innehåller information som ges av fyra olika entiteter:
 
-- **Prislista** : den här entiteten lagrar information om sammanhang, valuta, giltighetsdatum och tidsenhet för prissättningstid. Sammanhang visar om prislistan uttrycker kostnadstariffer eller försäljningspriser. 
-- **Valuta** : med den här entiteten lagras prisvalutan i prislistan. 
-- **Datum** : den här entiteten används när systemet försöker ange ett standardpris i en transaktion. En prissättning väljer den prislista som har giltighetsdatum som omfattar datumet för transaktionen. Om mer än en prislista är giltig för transaktionsdatumet är kopplat till den relaterade offerten, kontraktet eller organisationsenheten blir inget pris standard. 
-- **Tid** : den här entiteten lagrar den tidsenhet som priserna uttrycks för, t.ex. dag eller timkostnad. 
+- **Prislista**: den här entiteten lagrar information om sammanhang, valuta, giltighetsdatum och tidsenhet för prissättningstid. Sammanhang visar om prislistan uttrycker kostnadstariffer eller försäljningspriser. 
+- **Valuta**: med den här entiteten lagras prisvalutan i prislistan. 
+- **Datum**: den här entiteten används när systemet försöker ange ett standardpris i en transaktion. En prissättning väljer den prislista som har giltighetsdatum som omfattar datumet för transaktionen. Om mer än en prislista är giltig för transaktionsdatumet är kopplat till den relaterade offerten, kontraktet eller organisationsenheten blir inget pris standard. 
+- **Tid**: den här entiteten lagrar den tidsenhet som priserna uttrycks för, t.ex. dag eller timkostnad. 
 
 Entiteten för prislista har tre relaterade tabeller som lagrar priser:
 
-  - **Rollpris** : i den här tabellen lagras en tariff för en kombination av värden för roll och organisationsenheter och används för att konfigurera rollbaserade priser för personal.
-  - **Pris för transaktionskategori** : i den här tabellen lagras priser per transaktionskategori och används för att ställa in priser för utgiftskategorier.
-  - **Prislisteobjekt** : i den här tabellen lagras priserna för katalogprodukter.
+  - **Rollpris**: i den här tabellen lagras en tariff för en kombination av värden för roll och organisationsenheter och används för att konfigurera rollbaserade priser för personal.
+  - **Pris för transaktionskategori**: i den här tabellen lagras priser per transaktionskategori och används för att ställa in priser för utgiftskategorier.
+  - **Prislisteobjekt**: i den här tabellen lagras priserna för katalogprodukter.
  
 Prislista är en prislista. En prislista är en kombination av entiteten prislista och relaterade rader i tabellerna rollpris, transaktionskategoripris och prislisteobjekt.
 
@@ -59,9 +59,9 @@ Enhetsgruppen **Tid** skapas när du installerar Project Operations. Den har en 
 
 Resekostnader och andra utgifter som ingår i projektkonsulter faktureras till kunden. Prissättning av utgiftskategorier slutförs med hjälp av prislistor. Flyg, hotell och hyrbil är exempel på utgiftskategorier. Varje rad i en prislista för utgifter anger prissättningen för en specifik utgiftskategori. Följande tre metoder används för att pris- och utgiftskategorier:
 
-- **Vid kostnad** : kostnaden faktureras till kunden och inget pålägg används.
-- **Påläggsprocent** : procentsatsen för den faktiska kostnaden faktureras till kunden. 
-- **Pris per enhet** : ett faktureringspris anges för varje enhet i utgiftskategorin. Det belopp som faktureras för kunden beräknas utifrån antalet utgiftsenheter som konsulterna rapporterar. Körsträcka använder prismodellen pris per enhet. Exempelvis kan utgiftskategorin körsträcka konfigureras för 30 USD per dag eller 2 USD per mil. När en konsult rapporterar körsträcka i ett projekt beräknas faktureringsbeloppet utifrån det antal mil som konsulten rapporterat.
+- **Vid kostnad**: kostnaden faktureras till kunden och inget pålägg används.
+- **Påläggsprocent**: procentsatsen för den faktiska kostnaden faktureras till kunden. 
+- **Pris per enhet**: ett faktureringspris anges för varje enhet i utgiftskategorin. Det belopp som faktureras för kunden beräknas utifrån antalet utgiftsenheter som konsulterna rapporterar. Körsträcka använder prismodellen pris per enhet. Exempelvis kan utgiftskategorin körsträcka konfigureras för 30 USD per dag eller 2 USD per mil. När en konsult rapporterar körsträcka i ett projekt beräknas faktureringsbeloppet utifrån det antal mil som konsulten rapporterat.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prissättning för projektförsäljning och åsidosättningar
 

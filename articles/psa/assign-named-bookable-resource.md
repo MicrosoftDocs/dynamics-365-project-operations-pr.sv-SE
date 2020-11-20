@@ -3,7 +3,7 @@ title: Boka namngivna bokningsbara resurser till ett projektgrupp och tilldela d
 description: I det här ämnet finns information om hur man bokar namngivna resurser till projektteam och tilldelar dem till uppgifter.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085659"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130195"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Boka namngivna bokningsbara resurser till ett projektgrupp och tilldela dem uppgifter 
 
@@ -32,7 +32,7 @@ ms.locfileid: "4085659"
 Du kan lägga till en namngiven resurs i projektteamet genom att boka dem direkt på teamet. Följ stegen nedan.
 
 1. I Project Service Automation, gå till **projekt** och välj de öppna projekt du bokar för.
-2. På sidan **Projekt** på fliken **Team** , klicka på **Ny**. 
+2. På sidan **Projekt** på fliken **Team**, klicka på **Ny**. 
 
 ![Lägga till en teammedlem från fliken team](media/RM-how-to-1.png)
 

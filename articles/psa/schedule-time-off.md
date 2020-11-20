@@ -3,7 +3,7 @@ title: Schemalägg ledighet
 description: Schemalägga ledig tid i Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132220"
 ---
 # <a name="schedule-time-off-project-service"></a>Schemalägga ledighet (Project Service)
 
@@ -37,11 +37,11 @@ Planera din semester eller tjänstledighet på ungefär på samma sätt som du a
   
 2.  Om du vill se din kalender för föregående eller nästa vecka klickar du på **Föregående** eller **Nästa**. Klicka på **Idag** för att komma tillbaka till den aktuella veckan.  
   
-3.  Om du vill ange din tid klickar du antingen på **Ny** , eller också dubbelklickar du i kalendern under den dag som du vill registrera tid för.  
+3.  Om du vill ange din tid klickar du antingen på **Ny**, eller också dubbelklickar du i kalendern under den dag som du vill registrera tid för.  
   
 4.  Fyll i fälten i formuläret **Tidspost**.  
   
-5.  I **Typ** , välj **Ledighet** eller **Frånvaro**.  
+5.  I **Typ**, välj **Ledighet** eller **Frånvaro**.  
   
 6.  Klicka på **Spara**.  
   

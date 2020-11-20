@@ -1,21 +1,21 @@
 ---
-title: Konfigurera debiteringsbara komponenter i en projektrelaterad kontraktrad
+title: Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad - lite
 description: I det här ämnet finns information om hur du lägger till debiterbara komponenter i kontraktrader i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085447"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177173"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfigurera debiteringsbara komponenter i en projektrelaterad kontraktrad
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -36,9 +36,9 @@ Debiterbara komponenter kan definieras för uppgifter, roller och transaktionska
 
 Debiterbarhet anges för uppgifter för en projektkontraktrad och gäller alla transaktionsklasser som finns på raden. Om fältet **Inkludera uppgifter** på en kontraktrad är tomt eller har värdet **Hela projektet** är fliken **Debiterbara uppgifter** inte tillgängliga.
 
-Debiteringsbarhet som definieras på roller för en projektkontraktsrad gäller endast för transaktionsklassen **Tid**. Om fältet **Inkludera tid** på en kontraktrad är angiven till **Nej** , är fliken **Debiterbara roller** inte tillgänglig.
+Debiteringsbarhet som definieras på roller för en projektkontraktsrad gäller endast för transaktionsklassen **Tid**. Om fältet **Inkludera tid** på en kontraktrad är angiven till **Nej**, är fliken **Debiterbara roller** inte tillgänglig.
 
-Debiteringsbarhet som definieras på transaktionskategorier för en projektkontraktsrad gäller endast för transaktionsklassen **Utgift**. Om fältet **Inkludera utgifter** på en kontraktrad är angiven till **Nej** , är fliken **Debiterbara kategorier** inte tillgänglig.
+Debiteringsbarhet som definieras på transaktionskategorier för en projektkontraktsrad gäller endast för transaktionsklassen **Utgift**. Om fältet **Inkludera utgifter** på en kontraktrad är angiven till **Nej**, är fliken **Debiterbara kategorier** inte tillgänglig.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Uppdatera en projektuppgift som debiterbar eller ej debiterbar
 
@@ -46,19 +46,19 @@ En projektuppgift kan vara debiterbar eller ej debiterbar på en specifik kontra
 
 Om en projektbaserad kontraktrad innehåller **Tid** och en viss uppgift associerad **T1** till den som debiterbar. Om det finns en andra kontraktrad som inkluderar **Utgift** kan du associera T1-uppgiften på kontraktraden som icke debiterbar. Resultatet blir att all tid som har registrerats på uppgiften är debiterbar och att alla utgifter är icke debiterbara.
 
-Faktureringstypen för en uppgift kan konfigureras under fliken **Debiterbara uppgifter** på kontraktraden genom att uppdatera fältet **Faktureringstyp** i underrutnätet för uppgifter på kontraktraden. Du kan också uppdatera fältet **Faktureringstyp** i underrutnätet för faktureringsinställningar för ett projekt som visar de kontraktrader som är associerade med en uppgift.
+Faktureringstypen för en uppgift kan konfigureras på **Debiterbara uppgifter** på kontraktraden genom att uppdatera fält **Faktureringstyp** i underrutnätet uppgifter i kontraktsraden. Du kan också uppdatera fältet **faktureringstyp** i underrutnätet i inställningarna för uppgiftsfakturering i ett projekt som visar de kontraktrader som är associerade med en aktivitet.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Uppdatera en roll som debiterbar eller ej debiterbar
 
 En roll kan vara debiterbar eller inte debiterbar på en specifik kontraktrad.
 
-En rolls faktureringstyp kan konfigureras under fliken **Debiterbara roller** på en kontraktrad. Det gör du genom att uppdatera fältet **Faktureringstyp** i underrutnätet **Debiterbara roller**.
+En rolls faktureringstyp kan konfigureras under fliken **Debiterbara roller** på en kontraktrad. Det gör du genom att uppdatera fältet **faktureringstyp** i under rutnätet **debiterbara roller**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Uppdatera en transaktionskategori som debiterbar eller inte debiterbar
 
 En transaktionskategori kan vara debiterbar eller inte debiterbar på en specifik kontraktrad.
 
-En transaktions faktureringstyp kan konfigureras under fliken **Debiterbara kategorier** på en projektbaserad kontraktrad. Det gör du genom att uppdatera fältet **Faktureringstyp** i underrutnätet **Debiterbara kategorier**.
+En transaktions faktureringstyp kan konfigureras under fliken **Debiterbara kategorier** på en projektbaserad kontraktrad. Det gör du genom att uppdatera fältet **faktureringstyp** i under rutnätet **debiterbara kategorier**.
 
 ### <a name="resolve-chargeability"></a>Åtgärda debiterbarhet
 

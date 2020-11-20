@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085432"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130735"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mappa projekt och uppgifter till en projektbaserad offertrad
 
@@ -57,13 +57,13 @@ Sidan **Projekt** ger den optimala upplevelsen vid associering av uppgifter till
 Du kan associera projektuppgifter till offertrader från fliken **Debiterbara uppgifter** på sidan **Offertrad**.
 
 >[!NOTE]
->Det bästa stället att associera projektuppgifter med offertrader finns under fliken **Uppgiftsfakturering** på sidan **Projekt**. Om du associerar uppgifter från fliken **Debiterbara uppgifter** på sidan **Offertrad** , måste du manuellt associera varje projekt.
+>Det bästa stället att associera projektuppgifter med offertrader finns under fliken **Uppgiftsfakturering** på sidan **Projekt**. Om du associerar uppgifter från fliken **Debiterbara uppgifter** på sidan **Offertrad**, måste du manuellt associera varje projekt.
 
 1. Under fliken **Allmänt** på en projektbaserad offertrad verifierar du att ett projekt har valts i fältet **Projekt**.
 2. I fältet **Inkluderade uppgifter** väljer du **Endast valda uppgifter**.
 3. Spara den projektbaserade offertraden. När formuläret uppdateras visa fliken **Debiterbara uppgifter**.
 4. Under fliken **Debiterbara uppgifter** väljer du **Lägg till en offertradsuppgift**.
-5. På sidan **Offertradsuppgift** , i fältet **Uppgifter** , väljer du uppgiften och i fältet **Faktureringstyp** väljer du **Spara**. 
+5. På sidan **Offertradsuppgift**, i fältet **Uppgifter**, väljer du uppgiften och i fältet **Faktureringstyp** väljer du **Spara**. 
 6. Stäng sidan. Den valda uppgiften är nu kopplad till offertraden.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Avassociera uppgifter från projektbaserade offertrader
@@ -72,7 +72,7 @@ Du kan associera projektuppgifter till offertrader från fliken **Debiterbara up
 
 Den här metoden ger den optimala upplevelsen vid avassociering av uppgifter från offertrader. Du kan välja flera uppgifter och avassociera alla, plus underordnade uppgifter, från den valda offertraden.
 
-1. Under fliken **Allmänt** på en projektbaserad offertrad, i fältet **Projekt** , väljer du projektlänken.
+1. Under fliken **Allmänt** på en projektbaserad offertrad, i fältet **Projekt**, väljer du projektlänken.
 2. På sidan **Projekt** väljer du fliken **Uppgiftsfakturering**.
 3. I det andra rutnätet, som gäller för uppgiftsspecifika faktureringsinställningar, väljer du en eller flera uppgifter och väljer sedan **Avassociera offertrader**.
 4. Välj en offertrad på den dialogruta som visas.

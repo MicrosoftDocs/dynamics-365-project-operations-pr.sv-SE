@@ -1,21 +1,21 @@
 ---
-title: Skapa en manuell proforma-faktura
+title: Skapa en manuell proforma-faktura - lite
 description: I det här ämnet finns information om hur du manuellt skapar en proforma-faktura i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5e93206737507bf6698a9746815c790d3dfc904
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4085769"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176408"
 ---
-# <a name="creating-a-manual-proforma-invoice"></a>Skapa en manuell proforma-faktura
+# <a name="create-a-manual-proforma-invoice---lite"></a>Skapa en manuell proforma-faktura - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -31,6 +31,6 @@ Alla projektfakturor som skapas finns på sidan **Faktura** i avsnittet **Faktur
 
 ## <a name="project-contract-details-page"></a>Informationssidan Projektkontrakt
 
-En proforma-faktura kan även skapas från informationssidan **Projektkontrakt** , som skapar fakturan för det specifika projektkontraktet. Systemet verifierar att projektkontraktet har en backlogg **Redo att fakturera** före dagens datum. Från de här kontrakten skapas utkast av proforma-fakturor utifrån antalet kunder på varje kontraktrad.
+En proforma-faktura kan även skapas från informationssidan **Projektkontrakt**, som skapar fakturan för det specifika projektkontraktet. Systemet verifierar att projektkontraktet har en backlogg **Redo att fakturera** före dagens datum. Från de här kontrakten skapas utkast av proforma-fakturor utifrån antalet kunder på varje kontraktrad.
 
 När du har skapat en proforma-faktura öppnas sidan **Faktura**. Om flera fakturor har skapats för projektkontraktet öppnas listsidan **Fakturor** där alla skapade fakturor visas.

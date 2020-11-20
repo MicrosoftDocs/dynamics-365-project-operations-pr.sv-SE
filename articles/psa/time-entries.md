@@ -3,7 +3,7 @@ title: Skapa tidsposter
 description: I det här ämnet finns information om hur du skapar tidsposter.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085631"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131314"
 ---
 # <a name="create-time-entries"></a>Skapa tidsposter
 
@@ -41,7 +41,7 @@ Följ dessa steg för att skapa en tidspost.
 4. I fältet **projektuppgift** letar du upp uppgiften för den här tidsposten.
 
     > [!NOTE]
-    > Om du skapar en tid för en uppgift som inte är tilldelad en användare kan du välja fältet **projektuppgift** , välj knappen **Sök** , välj **Ändra vy** och välj sedan **Alla aktiva projektuppgifter** för att ange alla uppgifter.
+    > Om du skapar en tid för en uppgift som inte är tilldelad en användare kan du välja fältet **projektuppgift**, välj knappen **Sök**, välj **Ändra vy** och välj sedan **Alla aktiva projektuppgifter** för att ange alla uppgifter.
 
 5. Ange en beskrivning, om det behövs en beskrivning, och välj sedan **Spara och stäng**.
 
@@ -58,7 +58,7 @@ När du har skapat några tidsposter kan du kopiera dem för att skapa ytterliga
 
 1. På sidan **Tidspost** klicka på **Kopiera vecka**.
 2. I fältgruppen **från period** i fälten **Startdatum** och **Slutdatum** definierar du datumintervallet för att kopiera tidsposter från.
-3. I fältgruppen **Till period** i fältet **Startdatum** , ange datumet att skapa tidsposter för.
+3. I fältgruppen **Till period** i fältet **Startdatum**, ange datumet att skapa tidsposter för.
 4. Välj **kopiera** om du vill skapa en kopia av de tidsposter som motsvarar den veckodag som anges i fältgruppen **till period**. Exempelvis kopieras tidsposten för måndagen i den senaste veckan till måndagen i veckan som anges i fältgruppen **till period**.
 
 ## <a name="import-data-for-time-entries"></a>Importera data för tidsposter
