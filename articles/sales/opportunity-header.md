@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085415"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181249"
 ---
-# <a name="opportunity-headersummary"></a>Rubrik/sammanfattning av affärsmöjlighet
+# <a name="opportunity-settings"></a>Inställningar för affärsmöjlighet
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
@@ -26,7 +26,7 @@ Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations är utökn
 
 Följande tabell innehåller de fält i en projektbaserad affärsmöjlighet som antingen är unika för Project Operations eller som har viktiga ändringar i beteendet jämfört med affärsmöjligheter i Sales.
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Type | Fliken Allmänt (dold) | Den här alternativuppsättningen har följande alternativ:</br>- Arbetsbaserad (endast tillgängligt med Project Operations)</br>- Artikelbaserad (endast tillgänglig när Project Operations och Sales är installerat)</br>- Serviceunderhåll-baserad (tillgängligt när Field Service är installerat) | När du använder Project Operations anges värdet i det här fältet automatiskt som **Arbetsbaserad** som klassificerar affärsmöjligheten som projektbaserad. En affärsmöjlighet bör vara projektbaserad för att aktivera alla projektspecifika tillägg och funktioner i den efterföljande försäljningsprocessen för affären. |
 | Ägande företag | Fliken Allmänt | Det här är det företag eller den juridiska person som ska leverera projektet till kunden. | Fältinformationen kopieras till motsvarande fält i projektofferten som skapas från den här affärsmöjligheten. |

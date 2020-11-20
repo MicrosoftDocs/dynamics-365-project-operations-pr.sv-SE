@@ -1,21 +1,21 @@
 ---
-title: Förskott och arvodesbaserade kontrakt
+title: Förskott och arvodesbaserade kontrakt – Lite
 description: I det här ämnet finns information om arvodesbaserade kontrakteringsmodeller och förskott i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088123"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180889"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Förskott och arvodesbaserade kontrakt 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Förskott och arvodesbaserade kontrakt – Lite
 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
@@ -33,7 +33,7 @@ Utöver ett periodiskt arvodesbaserat schema kan Project Operations registrera e
 
 Arvodet i Project Operations är inte tillgängligt för användning förrän det faktureras till kunden. Detta indikeras av följande fält i underrutnätet för förskott och arvoden.
 
-| Fält | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Beskrivning | Inverkan nedströms |
 | --- | --- | --- |
 | Disponibelt belopp | Det belopp som är tillgängligt för användning på en arvodes- eller förskottspost. | Innan förskottet eller arvodet faktureras är det inte tillgängligt att använda, vilket innebär att det tillgängliga beloppet blir noll. |
 | Använt belopp | Det belopp som redan använts av arvodet eller förskottet. | Ett förskott eller arvode kan avstämmas delvis på en faktura med faktiska kostnader som gör att någon del markeras som redan använd eller förbrukad. Resten av förskottet eller arvodet är tillgängligt att stämma av på en framtida faktura med faktiska kostnader. |

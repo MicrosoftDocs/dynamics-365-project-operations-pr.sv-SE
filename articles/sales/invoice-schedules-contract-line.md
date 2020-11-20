@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4085772"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180799"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Skapa ett faktureringsschema för en projektbaserad kontraktrad 
 
@@ -26,14 +26,14 @@ Du kan skapa ett faktureringsschema för en projektbaserad kontraktrad. Fakturer
 När en projektbaserad kontraktrad har faktureringsmetoden Tid och material kan du generera ett datumbaserat faktureringsschema. Följ stegen nedan om du vill generera ett datumbaserat faktureringsschema automatiskt.
 
 1. Gå till **Inställningar** > **Faktureringsfrekvenser** och konfigurera en faktureringsfrekvens.
-2. Gå till projektkontraktsposten och till fliken **Sammanfattning** , där du väljer ett datum i fältet **Begärt leveransdatum**.
+2. Gå till projektkontraktsposten och till fliken **Sammanfattning**, där du väljer ett datum i fältet **Begärt leveransdatum**.
 3. Öppna kontraktraden **Tid och material** som du skapar ett datumbaserat faktureringsschema för. 
 4. Under fliken **Faktureringsschema** väljer du faktureringsstartdatum och faktureringsfrekvens.
-5. I underrutnätet väljer du **Generera faktureringsschema**. Faktureringsschemat genereras med fälten **Fakturans kördatum** , **Transaktionens sista datum** och **Körstatus** på följande sätt:
+5. I underrutnätet väljer du **Generera faktureringsschema**. Faktureringsschemat genereras med fälten **Fakturans kördatum**, **Transaktionens sista datum** och **Körstatus** på följande sätt:
 
-    - **Fakturans kördatum** : Detta datum dikteras utifrån faktureringsfrekvensen.
-    - **Transaktionens sista datum** : Dagen före fakturans kördatum.
-    - **Körstatus** : Automatiskt inställd på **Ej körd**. När jobbet för automatiskt skapande av faktura körs för ett visst fakturadatum uppdateras detta fält till **Körning klar** eller **Körning misslyckades**.
+    - **Fakturans kördatum**: Detta datum dikteras utifrån faktureringsfrekvensen.
+    - **Transaktionens sista datum**: Dagen före fakturans kördatum.
+    - **Körstatus**: Automatiskt inställd på **Ej körd**. När jobbet för automatiskt skapande av faktura körs för ett visst fakturadatum uppdateras detta fält till **Körning klar** eller **Körning misslyckades**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Skapa ett faktureringsschema för fast pris för en kontraktrad
 
@@ -45,13 +45,13 @@ När kontraktraden har faktureringsmetoden Fast kan du skapa ett milstolpebasera
 Utför följande steg för att generera ett milstolpebaserat faktureringsschema för en fast uppsättning milstolpar som är jämnt fördelade över kalenderperioden.
 
 1. Gå till **Inställningar** > **Faktureringsfrekvenser** och konfigurera en faktureringsfrekvens.
-2. Gå till projektkontraktsposten och till fliken **Sammanfattning** , där du väljer ett datum i fältet **Begärt leveransdatum**.
+2. Gå till projektkontraktsposten och till fliken **Sammanfattning**, där du väljer ett datum i fältet **Begärt leveransdatum**.
 3. Öppna kontrakttraden **Fast pris** som du skapar ett milstolpeschema för. Under fliken **Faktureringsmilstolpar** väljer du faktureringsstartdatum och faktureringsfrekvens. 
-4. I underrutnätet väljer du **Generera periodiska milstolpar**. Faktureringsschemat skapas med fälten **Milstolpenamn** , **Milstolpedatum** och **Milstolpebelopp** enligt följande:
+4. I underrutnätet väljer du **Generera periodiska milstolpar**. Faktureringsschemat skapas med fälten **Milstolpenamn**, **Milstolpedatum** och **Milstolpebelopp** enligt följande:
 
-    - **Milstolpenamn** : Detta datum dikteras utifrån faktureringsfrekvensen.
-    - **Milstolpedatum** : Detta datum dikteras utifrån faktureringsfrekvensen.
-    - **Milstolpebelopp** : Detta belopp beräknas genom att dela kontraktbeloppet på kontraktraden med antalet milstolpar som styrs av frekvensen, faktureringsstarten och önskade leveransdatum.
+    - **Milstolpenamn**: Detta datum dikteras utifrån faktureringsfrekvensen.
+    - **Milstolpedatum**: Detta datum dikteras utifrån faktureringsfrekvensen.
+    - **Milstolpebelopp**: Detta belopp beräknas genom att dela kontraktbeloppet på kontraktraden med antalet milstolpar som styrs av frekvensen, faktureringsstarten och önskade leveransdatum.
 
     Om kontraktraden har ett värde i fältet **Uppskattat momsbelopp** fördelas även detta fält jämnt till varje milstolpe när periodiska milstolpar genereras.
 
@@ -61,10 +61,10 @@ Faktureringsmilstolpar ska vara lika med det kontrakterade värdet på kontraktr
 
 Du kan generera milstolpar med fast pris manuellt när de inte delas periodiskt. Följ stegen nedan om du vill skapa en milstolpe manuellt.
 
-1. Öppna kontraktraden för fast pris som du skapar en milstolpe för och gå till fliken **Faktureringsschema** , där du i underrutnätet väljer **+ Skapa ny milstolpe för kontraktrad**. 
+1. Öppna kontraktraden för fast pris som du skapar en milstolpe för och gå till fliken **Faktureringsschema**, där du i underrutnätet väljer **+ Skapa ny milstolpe för kontraktrad**. 
 2. På sidan **Skapa milstolpe** anger du den nödvändiga informationen baserat på följande tabell.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Milstolpens namn | Snabbregistrering | Textfält för milstolpens namn. | Detta förs över till milstolpen i projektets kontraktrad och till fakturan. |
 | Projektuppgift | Snabbregistrering | Om milstolpen är knuten till en projektuppgift använder du den här referensen för att lägga till anpassad logik och ange milstolpens status utifrån uppgiftens status. | Programmet har inte någon inverkan nedströms för den här referensen till en uppgift. |

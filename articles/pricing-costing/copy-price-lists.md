@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085579"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181519"
 ---
 # <a name="copy-price-lists"></a>Kopiera prislistor
 
@@ -26,7 +26,7 @@ Följ stegen nedan om du vill göra en kopia av prislistan.
 1. Öppna den prislista som du vill göra en kopia av och välj **Kopiera**.
 2. Ange all nödvändig information för att kopiera prislistan. I följande tabell visas överväganden som du bör tänka på när du matar in information.
 
-| Fält | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Beskrivning | Inverkan nedströms |
 | --- | --- | --- |
 | Namn | Namnet på källprislistan med tillägget **-kopia**. | Prislistan innehåller det här värdet på alla listsidor och listrutealternativ. |
 | Sammanhang | Ange det sammanhang du vill använda för målprislistan. | En prislista med sammanhanget inställt på **Kostnad** används för att slå upp priset för kostnadsuppskattningar och faktiska kostnadsvärden. En prislista med sammanhanget inställt på **Försäljning** används för att slå upp priset för försäljningsuppskattningar och faktiska försäljningsvärden. Endast prislistor som har sammanhanget inställt på **Försäljning** kan kopplas till en projektprislista för en kund, en offert eller ett kontrakt. |
@@ -40,6 +40,6 @@ Följ stegen nedan om du vill göra en kopia av prislistan.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Uppdatera en prislista genom att lägga till ett pålägg på priserna
 
-1. Under flikarna **Roll** , **Kategori** och **prislistepost** för prislistan kan du välja **Uppdatera priser** för att tillämpa ett pålägg på alla priser i underrutnätet. 
+1. På fliken **Roll**, **Kategori** och **Prislistepost** i prislista kan du välja **Uppdatera priser** för att tillämpa en markering för alla priser i underrutnätet. 
 2. I dialogrutan som öppnas anger du ett pålägg. Du kan även ange en negativ påläggsprocent för att sänka priset med en viss procentsats. 
-3. Välj **OK** i dialogrutan och kontrollera att priserna i underrutnätet återspeglar de ändringar du har gjort.
+3. Välj **OK** på dialogsidan och kontrollera sedan att priserna i under rutnätet återspeglar de ändringar du har gjort.

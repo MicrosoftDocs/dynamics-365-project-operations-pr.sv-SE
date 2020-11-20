@@ -1,21 +1,21 @@
 ---
-title: Översiktsinformation för en projektoffert (Sales)
+title: Översiktsinformation för en projektoffert - lite
 description: I det här ämnet finns information om den information och de inställningar som gäller för projektofferter. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085471"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180979"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Översiktsinformation för en projektoffert (Sales)
+# <a name="summary-information-on-a-project-quote---lite"></a>Översiktsinformation för en projektoffert - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -23,7 +23,7 @@ Den här artikeln innehåller information om hur du använder en projektoffert. 
 
 I följande tabell visas summeringsinformationsfälten i en projektoffert som är unik för Dynamics 365 Project Operations eller som har viktiga ändringar i beteendet från Dynamics 365 Sales-offerter.
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Type | Fliken Sammanfattning (dold) | Detta fälthash med alternativuppsättningen har följande alternativ:</br>- Arbetsbaserad (endast tillgängligt när Project Operations är installerat)</br>- Artikelbaserad (endast tillgänglig när Project Operations och Sales är installerat)</br>- Serviceunderhåll-baserad (tillgängligt när Dynamics 365 Field Service är installerat) | När du använder Project Operations-programmet anges värdet i det här fältet automatiskt som **Arbetsbaserad**. Detta klassificerar offerten som en projektbaserad offert. En offert ska vara projektbaserad för att alla projektspecifika tillägg och funktioner ska kunna aktiveras. |
 | Potentiell kund | Fliken sammanfattning  | Referens till kundens företag eller kontopost. När en offert skapas från en affärsmöjlighet kopieras fältet från motsvarande fält på affärsmöjlighetsraden. | Valutan i projektofferten används som standard utifrån kundens valuta. Detta kan dock inte ändras innan offerten sparas. |
@@ -36,7 +36,7 @@ I följande tabell visas summeringsinformationsfälten i en projektoffert som ä
 
 Nedan finns flikarna och KPI:erna som är tillgängliga i en projektoffert som är unik för Project Operations eller som har viktiga förändringar i beteendet hos Sales-offerter:
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** |
+| **Fält** | **Plats** | **Beskrivning** |
 | --- | --- | --- |
 | Lönsamhetsanalys | Flik i offerten | Fliken visar följande mått:</br>- Total debiterbar kostnad</br></br>- Total icke debiterbar kostnad</br>- Totalintäkt</br>- Totalintäkt (bas)</br>- Bruttomarginal</br>- Justerad bruttomarginal|
 | Jämförelse med kundförväntningar | Flik i offerten | Fliken visar följande mått:</br>- Beräknat färdigställande</br>- Begärt färdigställande</br>- Kundbudget</br>- Offertvärde |

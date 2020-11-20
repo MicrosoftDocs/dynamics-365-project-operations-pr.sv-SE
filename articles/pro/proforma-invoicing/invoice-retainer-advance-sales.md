@@ -1,21 +1,21 @@
 ---
-title: Fakturera arvode eller förskott
+title: Fakturera arvode eller förskott - lite
 description: I det här ämnet finns information om hur du fakturerar ett arvode eller förskott i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088126"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180574"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturera arvode eller förskott
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturera arvode eller förskott - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -43,7 +43,7 @@ På alla fakturor som genereras för ett projektkontrakt som har fakturerade arv
 
 Detta kan du se i rutnätet **Tillämpade arvoden och förskott** på sidan **Faktura**. I följande tabell finns information om fälten i rutnätet **Tillämpade arvoden och förskott** på sidan **Projektfaktura**.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Beskrivning | Rutnätet **Tillämpade förskott och arvoden** på sidan **Projektfaktura** |Det här skrivskyddade fältet innehåller en beskrivning av arvodet eller förskottet som används på fakturan. Det här värdet kan inte ändras på fakturan. Det här värdet kan uppdateras i underrutnätet på sidan **Projektkontrakt**. | Fältet kan visas för kunden på den utskrivna fakturan för att ange vilket arvode eller förskott som ska tillämpas på fakturan. |
 | Levererades den | Rutnätet **Tillämpade förskott och arvoden** på sidan **Projektfaktura**  | Det här skrivskyddade fältet innehåller fakturadatumet för arvodet eller förskottet som används på fakturan. Det här värdet kan inte ändras på fakturan. Det här värdet kan uppdateras i underrutnätet på sidan **Projektkontrakt**. | Fältet kan visas för kunden på den utskrivna fakturan för att ange det datum då arvodet eller förskottet först fakturerades kunden. |

@@ -1,21 +1,21 @@
 ---
-title: Projektbaserade affärsmöjlighetsrader (Pro)
+title: Projektbaserade affärsmöjlighetsrader - lite
 description: I det här ämnet finns information om projektbaserade affärsmöjlighetsrader. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085465"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181043"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Projektbaserade affärsmöjlighetsrader (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Projektbaserade affärsmöjlighetsrader - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -25,7 +25,7 @@ Projektbaserade affärsmöjlighetsrader är de radartiklar som ska levereras til
 
 Nedan visas fälten i en projektbaserad affärsmöjlighetsrad:
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Produkttyp | Fliken Allmänt (dold) | Du kan välja något av följande alternativ:</br>- Projektbaserad tjänst (endast tillgänglig när Dynamics 365 Project Operations är installerat)</br>- Produkt (endast tillgänglig när Project Operations och Dynamics 365 Sales är installerat) | Värdet i det här fältet anges till **Projektbaserad tjänst** när du skapar en projektbaserad affärsmöjlighetsrad från rutnätet med projektbaserade rader för affärsmöjligheten. <br> Om du ändrar eller åsidosätter det här värdet aktiveras inte projektfunktionerna på de projektbaserade radartiklarna. |
 | Affärsmöjlighet | Fliken Allmänt | Fältet är skrivskyddat och refererar till den överordnade affärsmöjlighetsposten som den här radartikeln tillhör. | Det här fältet har ingen inverkan nedströms. |

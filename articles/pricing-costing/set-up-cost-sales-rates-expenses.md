@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085459"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180304"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurera kostnads- och försäljningstaxa för utgifter
 
@@ -24,17 +24,17 @@ Du kan konfigurera kostnads- och försäljningspriser för transaktionskategorie
 Följ stegen nedan om du vill ange kostnadstaxa och försäljningstaxa för transaktionskategorier. 
 
 1. Skapa en prislista utifrån prislistans huvud. 
-2. I **Kategoripriser** , i underrutnätsmenyn, väljer du **+ Nytt kategoripris**. 
+2. I **kategoripriser** i underrutnätet väljer du **+ Nytt kategoripris**. 
 3. På sidan **Snabbskapa** anger du transaktionskategori och enhet som du skapar det nya priset för.
 
 I följande tabell visas fälten i fliken **Allmänt** och sidan **Snabbskapa** för en kategoriprisrad som du bör ha i åtanke när du skapar kategoripriser i en försäljnings- eller kostnadsprislista.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Transaktionskategori | Fliken **Allmänt** och sidorna **Snabbskapa** | Välj den transaktionskategori som du vill skapa en försäljnings- eller självkostnad för. | Transaktionskategorin för inkommande uppskattade eller faktiska värden för utgifter matchas mot den här raden så att kostnads- eller försäljningstaxan för transaktionskategorin blir standard. |
 | Enhetsschema | Fliken **Allmänt** och sidorna **Snabbskapa** | Enheten schemalägger standardvärden från transaktionskategorins enhetsschema. | Det här fältet har ingen inverkan nedströms. |
 | Enhet | Fliken **Allmänt** och sidorna **Snabbskapa** | Välj den enhet som taxorna ska ställas in för. | Enheten för inkommande uppskattade eller den faktiska värden matchas mot enheten på denna rad så att taxan i utgiftsuppskattningen eller det faktiska värdet blir standard. |
-| Prismodell | Fliken **Allmänt** och sidorna **Snabbskapa** | Möjliga värden för fältet **Prissättningsmetod** är **Pris per enhet** , **Till kostnad** och **Pålägg över kostnad**. | Under prisinställning väljer du **Pris per enhet** för att låsa fältet **Procentsats** på kategoriprisraden. Om **Till kostnad** har valts låses fälten **Pris** och **Procentsats** på försäljningsprislistan. Om du väljer **Pålägg över kostnad** låser du fältet **Pris** i försäljningsprislistan. På en rad för inkommande faktiskt värde leder prissättningsmetoderna **Till kostnad** eller **Pålägg över kostnad** till att motsvarande rad för ofakturerad försäljning tilldelas ett pris som är lika med priset i det faktiska kostnadsvärdet eller beräknas som ett pålägg över priset. |
+| Prismodell | Fliken **Allmänt** och sidorna **Snabbskapa** | Möjliga värden för fältet **Prissättningsmetod** är **Pris per enhet**, **Till kostnad** och **Pålägg över kostnad**. | Under prisinställning väljer du **Pris per enhet** för att låsa fältet **Procentsats** på kategoriprisraden. Om **Till kostnad** har valts låses fälten **Pris** och **Procentsats** på försäljningsprislistan. Om du väljer **Pålägg över kostnad** låser du fältet **Pris** i försäljningsprislistan. På en rad för inkommande faktiskt värde leder prissättningsmetoderna **Till kostnad** eller **Pålägg över kostnad** till att motsvarande rad för ofakturerad försäljning tilldelas ett pris som är lika med priset i det faktiska kostnadsvärdet eller beräknas som ett pålägg över priset. |
 | Pris | Fliken **Allmänt** och sidorna **Snabbskapa** | Konfigurera ett styckpris för kombinationen av transaktionskategori och enhet. Taxan för körsträcka är till exempel 10 USD per mile och 8 USD per kilometer. | Taxan för körsträcka är den taxa som använder styckpriset eller kostnaden på raden för inkommande uppskattade eller faktiska värden för en transaktionsklass för utgifter.|
 | Procent | Fliken **Allmänt** och sidorna **Snabbskapa** | Konfigurera en procentsats över kostnaden för kombinationen av transaktionskategori och enhet. Till exempel ska flygtaxa ha ett pålägg på 10 procent över kostnaden för flygutgiften. | Denna procentsats över kostnaden gäller endast för en försäljningsprislista när prissättningsmetoden som valts är **Pålägg över kostnad**. |
 | Valuta | Fliken **Allmänt** och sidorna **Snabbskapa** | Som standard hämtas värdet från valutan i huvudet i prislistan. För prissättningen av transaktionskategorierna kan valutan inte åsidosättas. | Valutan använder styckpriset på raden för inkommande faktiska värden för transaktionsklassen för kostnad och försäljning. |

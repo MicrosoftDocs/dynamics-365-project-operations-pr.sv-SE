@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085564"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180737"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Konfigurera fakturataxa för fakturering av arbete 
+# <a name="set-up-labor-bill-rates"></a>Konfigurera fakturataxa för arbete
 
 **Gäller:** Project Operations för resursbaserade/icke lagerbaserade scenarier
 
 Varje prislista har en uppsättning rollpriser, eller arbetstaxor, som gäller för det samband och datum som anges på prislistans huvud. Fakturataxa för tid i Dynamics 365 Project Operations kan endast konfigureras i en valuta, vilket är valutan i prislistans huvud.
 
 1. Om du vill konfigurera fakturataxor för arbete i en försäljningsprislista, skapar du en prislista baserad på prislistans huvud. 
-2. Under fliken **Rollpriser** , in underrutnätet, väljer du **+ Nytt rollpris**. 
+2. Under fliken **Rollpriser**, in underrutnätet, väljer du **+ Nytt rollpris**. 
 3. I fönstret **Snabbskapa** anger du kombinationen av roll och organisationsenhet som du vill konfigurera fakturataxan för.
 
    I följande tabell visas fälten i fliken **Allmänt** och rutan **Snabbskapa** för en rollprisrad som du måste ha i åtanke när du skapar rollpriser i en försäljningsprislista:
 
-    | Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+    | Fält | Plats | Beskrivning | Inverkan nedströms |
     | --- | --- | --- | --- |
     | Roll | Fliken **Allmänt** och rutan **Snabbskapa** | Välj den roll du ställer in fakturataxan för. | Rollen för inkommande uppskattade eller faktiska värden matchas mot den här raden så att fakturataxan för rollen blir standard. |
     | Resursföretag | Fliken **Allmänt** och rutan **Snabbskapa** | Välj det företag eller den juridiska person som rollen kommer från. Exempel: En utvecklare från Fabrikam Indien eller en utvecklare från Fabrikam USA. | Resursföretaget för inkommande uppskattade eller faktiska värden matchas mot den här raden så att fakturataxan för rollen blir standard. |

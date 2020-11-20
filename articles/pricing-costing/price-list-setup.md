@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088129"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180214"
 ---
 # <a name="set-up-price-lists"></a>Konfigurera prislistor
 
@@ -23,15 +23,15 @@ Prislistor i Dynamics 365 Project Operations representerar en katalog av priser.
 
 Följande tillägg är specifika för Project Operations och tillämpas på prislistor från Dynamics 365 Sales.
 
-- **Sammanhang** : Det här fältet värdena som stöds för **Kostnad** och **Försäljning**. Värdet **Inköp** stöds inte. Ställ in sammanhanget till **Kostnad** om du vill göra en kostnadsprislista eller ställ in sammanhanget till **Försäljning** för att göra en försäljningsprislista. Kostnadsprislistor löser priset för kostnadstypen för poster med uppskattade och faktiska värden. Försäljningsprislistor löser priset på poster med uppskattade och faktiska värden av ej fakturerade och fakturerade försäljningstyper.
-- **Tidsenhet** : Det här är standardenheten för tid för vilken priset har konfigurerats i den aktuella tabellen **Rollpris** för prislistan.
-- **Entitet i prislista** : Det här dolda fältet är av Project Operations för att differentiera prislistor som är offert- eller kontraktspecifika och som är standard och globalt tillämpliga.
+- **Sammanhang**: Det här fältet värdena som stöds för **Kostnad** och **Försäljning**. Värdet **Inköp** stöds inte. Ställ in sammanhanget till **Kostnad** om du vill göra en kostnadsprislista eller ställ in sammanhanget till **Försäljning** för att göra en försäljningsprislista. Kostnadsprislistor löser priset för kostnadstypen för poster med uppskattade och faktiska värden. Försäljningsprislistor löser priset på poster med uppskattade och faktiska värden av ej fakturerade och fakturerade försäljningstyper.
+- **Tidsenhet**: Det här är standardenheten för tid för vilken priset har konfigurerats i den aktuella tabellen **Rollpris** för prislistan.
+- **Entitet i prislista**: Det här dolda fältet är av Project Operations för att differentiera prislistor som är offert- eller kontraktspecifika och som är standard och globalt tillämpliga.
 
 ## <a name="price-list-header"></a>Rubrik på prislista
 
 Följande tabell innehåller fält under fliken **Allmänt** i en prislista som är unika för Projekt Operations eller som skiljer sig betydligt från prislistor i Sales.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Namn | Fliken **Allmänt** och formulären **Snabbskapa** | Prislistans identitet. | Prislistan visas med det här värdet på alla listsidor och listrutealternativ.|
 | Sammanhang | Fliken **Allmänt** och formulären **Snabbskapa** | Fältet kan anges till **Kostnad** eller **Försäljning**. | En prislista som är inställd på **Kostnad** används för att slå upp priset för kostnadsuppskattningar och faktiska kostnadsvärden. En prislista som är inställd på **Försäljning** används för att slå upp priset för försäljningsuppskattningar och faktiska försäljningsvärden. Endast prislistor som har sammanhanget inställt på **Försäljning** kan kopplas till projektprislistor för kunder, projektofferter och projektkontrakt. |

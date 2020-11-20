@@ -3,10 +3,10 @@ title: Granska föreslagna resurser
 description: I det här ämnet finns information om hur du föreslår projektresurser.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085507"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401195"
 ---
 # <a name="review-proposed-resources"></a>Granska föreslagna resurser
 
@@ -47,35 +47,6 @@ När resursansvariga behandlar resursbegäranden kan de använda någon av följ
 - Föreslå färre resurser än vad som krävs. I det här scenariot är den föreslagna resurskapaciteten mindre än de timmar som begärdes av den begärande. När den som beställt accepterar de föreslagna resurserna skapas därför ett ouppfyllt resursbehov som fångar upp det återstående behovet.
 - Boka flera resurser för att uppfylla behovet om ingen enskild resurs är tillgänglig för att slutföra arbetet.
 - Boka färre resurser än vad som krävs. I det här scenariot är bokade timmar färre än de timmar som krävs. Systemet hjälper dig att föreslå resurser i stället för bokningar, så att den som gör en förfrågan kan verifiera och hålla ordning på återstående efterfrågan.
-
-## <a name="billable-utilization"></a>Fakturerbar användning
-
-Resurser kan ha fakturerbar användning. Den här målanvändningen definieras som ett attribut för en resurs standardroll eller anges i posten för den enskilda bokningsbara resursen. Användningsberäkningar baseras på de faktiska timmarna som resurserna har rapporterat med hjälp av godkända tidtransaktioner.
-
-Följande formler används för att beräkna användningen:
-
-- Fakturerbar användning = debiterbara faktiska timmar ÷ resurskapacitet för tillgång
-- Användning av ej fakturerbar tid = faktisk tid med faktureringstyp-ID = inte debiterbar, komplementär eller ej disponibelt ÷ resurskapacitet
-- Intern = faktisk tid utan försäljningskontrakt ÷ resurskapacitet
-- Resurskapacitet = resursens arbetstider – frånvarande – lediga dagar
-
-Du hittar vyn **Resursutnyttjande** i fönstret **Resurser**.
-
-Varje cell i rutnätet representerar resursens fakturerbara användningsprocent i en period, t.ex. dag, vecka eller månad. Följande formler används för att färglägga cellerna:
-
-- **Grön:** fakturerbart resursutnyttjande \>= resursutnyttjande för målet
-- **Gul:** mål för resursutnyttjande – 20 \<= fakturerbart resursutnyttjande \< mål för resursutnyttjande.
-- **Röd:** fakturerbart resursutnyttjande \< mål för resursutnyttjande – 20
-
-Eftersom vyn **Resursutnyttjande** baseras på schemaläggningstavlan kan du filtrera resultaten med hjälp av filtreringsfunktionerna i schemaläggningstavlan.
-
-Rutnätet kräver att du anger ett utnyttjandemål för antingen rollen eller den enskilda resursen. För att göra detta går du till **Resurser** \> **Resursroller**.
-
-Dessutom måste en standardroll tilldelas varje bokningsbar resurs. Gå till **Resurser** \> **Resurser**. På fliken **Project Service** kontrollera att en resursroll är definierad och att fältet **är standard** anges till **ja**. Du kan lägga till ytterligare roller där **är standard = nej**. Rollen där **är standard = ja** används för att utvärdera resursutnyttjande för resursen mot målet för rollen.
-
-På fliken **Project Service** kan du också ange ett enskilt målutnyttjande för resursen. Utnyttjandeberäkningen använder då målutnyttjande för att utvärdera resursens mål i stället för resursens standardroll.
-
-Utnyttjande visas endast för en resurs om resursen har godkänt, debiterbar tid under den period som visas i rutnätet.
 
 ## <a name="resource-availability"></a>Resurstillgänglighet
 

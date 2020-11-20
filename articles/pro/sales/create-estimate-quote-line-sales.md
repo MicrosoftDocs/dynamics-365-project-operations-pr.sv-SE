@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085444"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180394"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Beräkna en projektbaserad offertrad
 
@@ -30,9 +30,9 @@ Om du vill uppskatta en projektrelaterad offertrad väljer du fliken **Offertrad
 
 Om du vill skapa en uppskattning på en projektrelaterad offertrad väljer du fliken **Offertradsinformation**. Radartikeln som du skapar på den här fliken sammanfattar det offererade värdet för den här offertraden. 
 
-Om du vill skapa offertradsinformation väljer du **+ Ny offertradsinformation** i underrutnätet **Offertradsinformation**. Ett skjutreglage för snabbskapande öppnas. Följande fält i formuläret **Offertrad** :
+Om du vill skapa en offertradsinformation markerar du **+ ny offertradinformation** i under **rutnätet med information om offertrader**. Ett skjutreglage för snabbskapande öppnas. Följande fält i formuläret **Offertrad**:
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Beskrivning | Snabbregistrering | En beskrivning av den specifika uppskattningen. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
 | Transaktionsklass | Snabbregistrering | I den här listrutan visas de transaktionsklasser som finns under fliken **Allmänt** i den projektbaserade offertraden.  | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
@@ -54,7 +54,7 @@ Om du har ändrat priser i den projektprislista som är bifogad till offerten, e
 
 ## <a name="access-quote-line-details-for-cost"></a>Visa offertradsinformation för kostnad
 
-Under fliken **Offertradsinformation** väljer du en rad i rutnätet om du vill aktivera vissa åtgärder i verktygsfältet i underrutnätet. Den första åtgärden i underrutnätets verktygsfält när offertradsinformation har valts är **Öppna kostnadsinformation**. Välj **Öppna kostnadsinformation** om du vill se den relaterade kostnadstaxan och beloppet för den här offertraden.
+På fliken **offertradinformation** markerar du en rad i rutnätet om du vill aktivera vissa åtgärder i verktygsfältet i underrutnätet. Den första åtgärden för underrutnätets verktygsfält när en offertradinformation har valts är **öppen kostnadsdetalj**. Välj **Öppna kostnadsinformation** om du vill se den relaterade kostnadstaxan och beloppet för den här offertraden.
 
 > [!NOTE]
 > Om du ändrar resursenhet, antal, datum, roll eller kategori i offertradsinformationen för kostnad, ändras motsvarande värden i offertradsinformationen för försäljning.

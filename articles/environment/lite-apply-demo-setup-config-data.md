@@ -1,23 +1,30 @@
 ---
-title: Använda demoinställning och konfigurationsdata
+title: Använda demoinställning och konfigurationsdata – Lite
 description: I det här ämnet finns information om hur du tillämpar demoinställning konfigurationsdata i Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085405"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401285"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Använd demoinställning och konfigurationsdata för Project Operations lite-distributionen – avtal till proforma-fakturering
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Använda demoinställning och konfigurationsdata Project Operations - Lite 
 
 _**Lite-distribution – avtal till proforma-fakturering_
+
+## <a name="prerequisites"></a>Förutsättningar
+
+Innan du påbörjar konfigurationen måste du ha installerat en Common Data Service (CDS)-miljö för Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Anvisningar
 
 1. Hämta [Huvuddatapaketet](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigera till mappen *ProjOpsDemoDataSetupAndMaster - Integrerad CMT* och kör den körbara filen *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Lite-distribution – avtal till proforma-fakturering_
 10. Importen körs i ungefär två–tio minuter beroende på nätverkets hastighet. När den är klar stänger du guiden för CMT. 
 11. Kontrollera om organisationen har data i följande 20 entiteter:
 
-- Valuta
-- Organisationsenhet
-- Kontaktperson
-- Momsgrupp
-- Kundgrupp
-- Enhet
-- Enhetsgrupp
-- Prislista
-- Prislista för projektparameter
-- Fakturafrekvens
-- Information om faktureringsfrekvens
-- Bokningsbar resurskategori
-- Transaktionskategori
-- Utgiftskategori
-- Pris för roll
-- Pris för transaktionskategori
-- Egenskap
-- Bokningsbar resurs
-- Association för bokningsbar resurskategori
-- Egenskap för bokningsbar resurs
+-   Valuta
+-   Konto
+-   Organisationsenhet
+-   Kontaktperson
+-   Momsgrupp
+-   Kundgrupp
+-   Enhet
+-   Enhetsgrupp
+-   Prislista
+-   Prislista för projektparameter 
+-   Fakturafrekvens
+-   Bokningsbar resurskategori
+-   Transaktionskategori
+-   Utgiftskategori
+-   Pris för roll
+-   Pris för transaktionskategori
+-   Egenskap
+-   Bokningsbar resurs
+-   Association för bokningsbar resurskategori
+-   Egenskap för bokningsbar resurs
 
 ![Slutför import](./media/6CompleteImport.png)

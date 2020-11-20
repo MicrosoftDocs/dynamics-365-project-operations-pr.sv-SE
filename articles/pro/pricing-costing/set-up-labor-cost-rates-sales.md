@@ -1,33 +1,33 @@
 ---
-title: Konfigurera kostnadstaxa för arbete
+title: Konfigurera kostnadstaxa för arbete – Lite
 description: I det här ämnet finns information om hur du konfigurerar kostnadstaxa för arbete i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085451"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180753"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Konfigurera kostnadstaxa för arbete 
+# <a name="set-up-labor-cost-rates---lite"></a>Konfigurera kostnadstaxa för arbete – Lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 Varje prislista har en uppsättning arbetstaxor (rollpriser) som överensstämmer med innehåll och giltighetsdatum i prislistan.
 
-1. Skapa en prislista och, under fliken **Rollpris** , i underrutnätet, välj **Ny roll**.
+1. Skapa en prislista och fliken **Rollpris** i underrutnätet, välj **Ny roll**.
 2. På sidan **Snabbskapa** väljer du roll och organisationsenhet.
 3. Ange eventuell annan information som krävs.
 
 Följande tabell innehåller några av de fält som är viktiga när det gäller skapande av arbetstaxa i en kostnadsprislista.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Roll | Fliken **Allmänt** och sidorna **Snabbskapa** | Välj den roll som kostnadstaxan gäller för. | Rollen för inkommande uppskattade eller faktiska värden matchas mot den här raden så att kostnaden för rollen blir standard. |
 | Resursenhet | Fliken **Allmänt** och sidorna **Snabbskapa** | Välj organisationsenhet eller avdelning av det företag där rollen ska användas. Det kan till exempel vara en utvecklare från Robotics-avdelningen av Fabrikam Indien eller en utvecklare från programvaruavdelningen av Fabrikam USA. | Resursenheten för inkommande uppskattade eller faktiska värden matchas mot den här raden så att kostnaden för rollen blir standard. |

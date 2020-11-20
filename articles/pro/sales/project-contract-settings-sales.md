@@ -1,21 +1,21 @@
 ---
-title: Fält och information för projektkontrakt
+title: Inställningar för projektkontrakt - lite
 description: I det här ämnet finns information om de fält som påverkar kontraktrader och information om kontraktet som summeras mot alla radposterna.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088125"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180948"
 ---
-# <a name="project-contract-fields-and-information"></a>Fält och information för projektkontrakt 
+# <a name="project-contract-settings---lite"></a>Inställningar för projektkontrakt - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -23,7 +23,7 @@ I det här ämne finns information om fält som gäller hela projektkontraktet, 
 
 I följande tabell visas fälten i ett projektkontrakt som är unika för Dynamics 365 Project Operations eller som har viktiga ändringar i beteendet från försäljningsorder i Dynamics 365 Sales.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Type | Fliken **Sammanfattning** (dold) | Det här är en alternativuppsättning med följande alternativ:</br>- **Arbetsbaserad** (endast tillgängligt när Project Operations är installerat)</br>- **Artikelbaserad** (endast tillgänglig när Project Operations och Sales är installerat)</br>- **Serviceunderhåll-baserad** (tillgängligt när Dynamics 365 Field Service är installerat) | I Project Operations är värdet i det här fältet som standard **arbetsbaserat** och klassificerar kontraktet som ett projektbaserat kontrakt. Ett kontrakt ska vara projektbaserat för att alla projektspecifika tillägg och funktioner ska kunna aktiveras. |
 | Potentiell kund | Fliken **Sammanfattning** | Referensen till kundens företag eller kontopost. När ett kontrakt skapas från en offert kopieras fältet från motsvarande fält på offertposten. | Valutan i projektkontraktet används som standard utifrån kundens valuta. Detta kan ändras innan kontraktet sparas. |
@@ -36,7 +36,7 @@ I följande tabell visas fälten i ett projektkontrakt som är unika för Dynami
 
 Följande nyckelvärden är tillgängliga under fliken **Kontraktprestanda** i ett projektkontrakt.
 
-| Fält | Plats | Relevans, syfte och vägledning |
+| Fält | Plats | Beskrivning |
 | --- | --- | --- |
 | Kontraktsvärde | Övergripande kontrakt | Det totala värdet för projektkontraktet. |
 | Fakturerat belopp | Övergripande kontrakt | Summan av beloppen på alla fakturor för det här kontraktet. |

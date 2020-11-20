@@ -1,29 +1,23 @@
 ---
-title: Översikt över försäljning
+title: Översikt över försäljningsprocessen
 description: I det här ämnet finns information om de grundläggande försäljningsprocesserna.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085739"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177623"
 ---
-# <a name="sales-processes-overview"></a>Översikt över försäljning
+# <a name="sales-process-overview"></a>Översikt över försäljningsprocessen
+
+_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 De försäljningsprocesser som används i en projektbaserad organisation skiljer sig från de försäljningsprocesser som används i en produktbaserad organisation. Detta beror på att försäljningscykler för projektbaserade organisationer är längre och kräver anpassad uppskattningsteknik för att analysera och skapa offerter för varje avtal. Dynamics 365 Project Operations använder en del av följande funktioner som används i försäljningsprocessen:
 
@@ -56,7 +50,7 @@ Företaget kan till exempel ha följande sex steg i försäljningsprocessen:
  
 Din organisation kan använda olika entiteter för att representera samma avtal som de utvecklas. Tidigt i försäljningsprocessen representeras en affär av entiteten för affärsmöjlighet. När tiden passerar och mer information uppstår kan du använda beräkningar på hög nivå för att skapa en eller flera offerter. Om en av dessa offerter ses över av interna och kundens intressenter, representerar den offertentiteten affären. När kunden har accepterat offerten representerar ett projektkontrakt eller ett SOW affären. För att stödja detta beteende är BPF strukturerade så att varje stadium i processen länkas till en annan databastabell.
 
-Stadiet **Kvalificera** i försäljningsprocessen kan backas upp av en entitet för affärsmöjlighet. Faserna **Beräkna** och **Intern granskning** kan backas upp av offertentiteten. Faserna **kontrakt** , **leverans** och **stäng** kan backas upp entiteten projektkontrakt.
+Stadiet **Kvalificera** i försäljningsprocessen kan backas upp av en entitet för affärsmöjlighet. Faserna **Beräkna** och **Intern granskning** kan backas upp av offertentiteten. Faserna **kontrakt**, **leverans** och **stäng** kan backas upp entiteten projektkontrakt.
 
 När du går igenom faserna uppmanas du att skapa rätt entitetsposter för att få hjälp och guida dig genom processen. Faserna kan vara villkorliga. Om du t.ex. endast behöver en intern granskning av en offert om en anpassad prislista används i offerten, kan du konfigurera villkoret i rätt stadium av affärsprocessen. Fasen **intern granskning** visas sedan endast för offerter med en anpassad prislista. För alla andra avtal och offerter följs fasen **beräkna** fasen av fasen **kontrakt**.
 

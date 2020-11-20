@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088130"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181163"
 ---
 # <a name="project-contract-settings"></a>Inställningar för projektkontrakt
 
@@ -23,7 +23,7 @@ I det här ämne finns information om fält som gäller hela projektkontraktet, 
 
 I följande tabell visas fälten i ett projektkontrakt som är unika för Dynamics 365 Project Operations eller som har viktiga ändringar i beteendet från försäljningsorder i Dynamics 365 Sales.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Type | Fliken **Sammanfattning** (dold) | Det här är en alternativuppsättning med följande alternativ:</br>- **Arbetsbaserad** (endast tillgängligt när Project Operations är installerat)</br>- **Artikelbaserad** (endast tillgänglig när Project Operations och Sales är installerat)</br>- **Serviceunderhåll-baserad** (tillgängligt när Dynamics 365 Field Service är installerat) | I Project Operations är värdet i det här fältet som standard **arbetsbaserat** och klassificerar kontraktet som ett projektbaserat kontrakt. Ett kontrakt ska vara projektbaserat för att alla projektspecifika tillägg och funktioner ska kunna aktiveras. |
 | Ägande företag | Fliken **Sammanfattning** | Den juridiska person som ska redovisa de kostnader och intäkter som påförs från de projekt som är associerade med projektkontraktet. När ett kontrakt skapas från en offert kopieras fältet från motsvarande fält på offertposten. | Det ägande företaget är lika med begreppet juridisk person i modulen **Projektledning och redovisning** i Project Operations. Alla kostnader och intäkter som härrör från detta projekt redovisas i det ägande företagets huvudbok. |
@@ -37,7 +37,7 @@ I följande tabell visas fälten i ett projektkontrakt som är unika för Dynami
 
 Följande nyckelvärden är tillgängliga under fliken **Kontraktprestanda** i ett projektkontrakt.
 
-| Fält | Plats | Relevans, syfte och vägledning |
+| Fält | Plats | Beskrivning |
 | --- | --- | --- |
 | Kontraktsvärde | Övergripande kontrakt | Det totala värdet för projektkontraktet. |
 | Fakturerat belopp | Övergripande kontrakt | Summan av beloppen på alla fakturor för det här kontraktet. |

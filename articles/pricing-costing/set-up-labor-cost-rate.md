@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085437"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180619"
 ---
 # <a name="set-up-labor-cost-rates"></a>Konfigurera kostnadstaxa för arbete
 
@@ -22,13 +22,13 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 Varje prislista har en uppsättning arbetstaxor (rollpriser) som överensstämmer med innehåll och giltighetsdatum i prislistan.
 
-1. Skapa en prislista och, under fliken **Rollpris** , i underrutnätet, välj **Ny roll**.
+1. Skapa en prislista och fliken **Rollpris** i underrutnätet, välj **Ny roll**.
 2. På sidan **Snabbskapa** väljer du roll och organisationsenhet.
 3. Ange eventuell annan information som krävs.
 
 Följande tabell innehåller några av de fält som är viktiga när det gäller skapande av arbetstaxa i en kostnadsprislista.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Roll | Fliken **Allmänt** och sidorna **Snabbskapa** | Välj den roll som kostnadstaxan gäller för. | Rollen för inkommande uppskattade eller faktiska värden matchas mot den här raden så att kostnaden för rollen blir standard. |
 | Resursföretag | Fliken **Allmänt** och sidorna **Snabbskapa** | Välj den juridiska person som rollen är tilldelad till. Exempel: En utvecklare från Fabrikam Indien eller en utvecklare från Fabrikam USA. | Resursföretaget för inkommande uppskattade eller faktiska värden matchas mot den här raden så att kostnadstaxan för rollen blir standard. |

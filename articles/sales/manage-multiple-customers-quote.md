@@ -1,25 +1,25 @@
 ---
-title: Hantera flera kunder i projektofferter
+title: Hantera flera kunder i en projektoffert
 description: I det här ämnet finns information om hur du arbetar med offerter som omfattar flera kunder som ska finansiera projektet.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085394"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182014"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Hantera flera kunder i projektofferter
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Hantera flera kunder i en projektoffert
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Projektofferter har stöd för scenariot där ett förslag omfattar flera kunder som ska finansiera affären. Under fliken **Sammanfattning** i offerten finns fältet **Potentiell kund** , som identifierar affärens primära kund. Andra kunder för affären kan konfigureras under fliken **Kunder** i projektofferten.
+Projektofferter har stöd för scenariot där ett förslag omfattar flera kunder som ska finansiera affären. Under fliken **Sammanfattning** i offerten finns fältet **Potentiell kund**, som identifierar affärens primära kund. Andra kunder för affären kan konfigureras under fliken **Kunder** i projektofferten.
 
 Alla offertkunder under fliken **Kunder** i projektofferten anges som offertradskunder på alla **nya** projektbaserade offertrader som skapas för offerten. Eventuella befintliga projektbaserade offertrader ärver inte nya offertkundposter som skapats efter dem.
 
@@ -35,7 +35,7 @@ Den primära kunden får inte uppdateras från kundlistan i offerten. Du kan eme
 
 Du kan skapa, uppdatera eller ta bort en offertkund från fliken **Offertkunder** på sidan **Offert**. Fälten som visas i följande tabell är på offertkundposten i en projektoffert.
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Konto | Redigerbart rutnät under fliken **Offertkunder** och formulären **Huvudsakligt** och **Snabbskapa** för en offertkund. | Lista alla aktiva konton. Det här fältet låses efter att posten skapas. Om du vill uppdatera tar du bort posten och skapar den på nytt. Om du har registrerat verkliga värden, eller om offertkundposten är en primär kund, får du ta bort posten. | Offertkunder kopieras som offertradskunder när en offertrad skapas. Offertkunder kopieras också till projektkontraktkunder när en offert har vunnits. |
 | Delningsprocent för fakturering | Redigerbart rutnät under fliken **Offertkunder** och formulären **Huvudsakligt** och **Snabbskapa** för en offertkund. | Motsvarar procentandelen av varje fakturerad försäljningstransaktion som kommer att tillskrivas denna offertkund. | Kopierat till nya offertrader som skapats och till kunder av projektkontraktet. |
@@ -50,4 +50,4 @@ Du kan skapa, uppdatera eller ta bort en offertkund från fliken **Offertkunder*
 
 Du kan redigera procentandelarna för faktureringsdelning med hjälp av redigeringsfunktionen i rutnätet. När delningsprocenten för fakturering inte är 100 % uppstår ett fel. När du har uppdaterat delningsprocenten för fakturering uppdaterar du sidan för att ta bort felet.
 
-Du kan också prova att välja **Jämnt fördelat** på offertkundens underrutnät. Med den här åtgärden tilldelas faktureringsdelningar till alla offertkunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundande kunden. En av offertkunderna är alltid märkt som den avrundande kunden. detta innebär att offertkundposten har flaggan **Avrundning** inställd på **Ja**. Det är vanligtvis den primära kunden i offerten, men det kan ändras.
+Du kan också prova att välja **Fördela jämnt** i underrutnätet för offertkunder. Med den här åtgärden tilldelas faktureringsdelningar till alla offertkunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundande kunden. En av offertkunderna är alltid märkt som den avrundande kunden. detta innebär att offertkundposten har flaggan **Avrundning** inställd på **Ja**. Det är vanligtvis den primära kunden i offerten, men det kan ändras.

@@ -1,32 +1,32 @@
 ---
-title: Kopiera projektkontrakt
+title: Kopiera projektkontrakt - lite
 description: I det här ämnet finns information om kopiering av projektkontrakt i Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085445"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181429"
 ---
-# <a name="copying-project-contracts"></a>Kopiera projektkontrakt
+# <a name="copy-project-contracts---lite"></a>Kopiera projektkontrakt - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 Du kan enkelt skapa nya projektkontrakt genom att skapa kopior av befintliga kontrakt på ett av två sätt: 
 
-  - På listsidan **Projektkontrakt** , välj ett projektkontrakt och välj sedan **Kopiera**.
+  - På listsidan **Projektkontrakt**, välj ett projektkontrakt och välj sedan **Kopiera**.
   - På informationssidan **Projektkontrakt** väljer du **Kopiera**.
 
 En dialogsida öppnas där du kan välja parametrarna för det kopierade kontraktet. Följande fält finns i dialogrutan. Beroende på vilka värden du väljer i dialogrutan kan kopieringsprocessen ändras.
 
-| **Fält** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- |
 | Område | Ange ämnet för målkontraktet. När dialogrutan öppnas ställer systemet in fältet på namnet för källkontraktet med tillägget **-kopia**. | Det här fältet har ingen inverkan nedströms. |
 | Kund | Referens till kundens företag eller kontopost. När dialogen öppnas ställer systemet in detta fält på kontot i källkontraktet. | Det här fältet är den primära kunden i kontraktet. |
@@ -37,7 +37,7 @@ En dialogsida öppnas där du kan välja parametrarna för det kopierade kontrak
 
 När du väljer **OK** i dialogrutan skapas en kopia av kontraktet utifrån de parametrar som valts. Det nya kontraktet öppnas.
 
-Följande information kopieras inte från **Källkontrakt** till **Målkontrakt** :
+Följande information kopieras inte från **Källkontrakt** till **Målkontrakt**:
 
   - Faktureringsscheman
   - Kontrakt och kontraktradkunder

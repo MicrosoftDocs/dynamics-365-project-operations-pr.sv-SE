@@ -3,17 +3,17 @@ title: Fastställa din distributionstyp
 description: I det här ämnet finns information som gör det lättare för dig att fastställa korrekt distributionstyp av Project Operations för ditt företag.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085544"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401240"
 ---
 # <a name="determine-your-deployment-type"></a>Fastställa din distributionstyp
 
@@ -25,11 +25,11 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Befintliga kunder av Dynamics som använder Dynamics 365 Project Service Automation
-Project Operations inkluderar de funktioner som levererades med Project Service Automation. En uppgraderingssökväg publiceras för de här kunderna i framtiden.
+Project Operations inkluderar de funktioner som levererades med Project Service Automation. En uppgraderingssökväg kommer att ges ut för dessa kunder i 2021 utgivningscykel 1.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Befintliga kunder av Dynamics 365 Finance som använder projekthantering och redovisning 
 
-Befintliga kunder av Finance som använder projektlednings- och redovisningsfunktionerna kan fortsätta använda dessa funktioner. Se [Project Operations för lagerbaserade/produktionsorderbaserade scenarier](#pma).
+Befintliga kunder av finans Finance som använder funktionerna för projektledning och redovisning kan fortsätta att använda dem som de är. Se [Project Operations för lagerbaserade/produktionsorderbaserade scenarier](#pma).
 
 
 ## <a name="deployment-types"></a>Distributionstyper
@@ -47,12 +47,13 @@ Project Operations har stöd för lagerbaserade/produktionsorderbaserade scenari
 
 Den enkla distributionen omfattar följande funktioner:
 
+- Försäljningsprocess för projekt som utökar Dynamics 365 Sales-appupplevelser
 - Planera projekt med hjälp av Microsoft Project för webben
 - Flerdimensionell prissättning
 - Enhetlig resurshantering
 - Tidsspårning
-- Grundläggande utgifter
-- Fakturaförslag
+- Grundläggande utgift
+- Proforma och kundorienterade fakturering 
 
 #### <a name="deployment-steps"></a>Instruktioner för distribution
 Bestäm den bästa distributionsmodellen för Project Operations med hjälp av [distributionsenkäten](https://aka.ms/provisionprojectoperations).
@@ -62,16 +63,17 @@ Om du vill använda distributionen läser du [Registrera dig för förhandsversi
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations för resursscenarier/icke lagerbaserade scenarier
 Project Operations för resursbaserade/icke lagerbaserade scenarier omfattar följande funktioner:
-  
+ 
+- Försäljningsprocess för projekt som utökar Dynamics 365 Sales-app
 - Planera projekt med hjälp av Microsoft Project för webben
 - Flerdimensionell prissättning
 - Enhetlig resurshantering
 - Tidsspårning
-- Grundläggande utgifter
+- Grundläggande utgift
 - Fullständig utgift
 - OCR på kvitto
-- Fullständig fakturering
-- Intäktsredovisning
+- Proforma och kundorienterade fakturering 
+- Intäktsredovisning för projekt
 
 #### <a name="deployment-steps"></a>Instruktioner för distribution
 Bestäm den bästa distributionsmodellen för Project Operations med hjälp av [distributionsenkäten](https://aka.ms/provisionprojectoperations).

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085417"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181834"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiera projektbaserade offerter
 
@@ -21,11 +21,11 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Du kan enkelt skapa en ny projektoffert genom att kopiera en befintlig. 
 
-- Om du vill kopiera en projektoffert går du till listan **Projektofferter** eller sidan **Projektoffert** , väljer den projektoffert du vill kopiera och väljer sedan **Kopiera**.
+- Om du vill kopiera en projektoffert går du till listan **Projektofferter** eller sidan **Projektoffert**, väljer den projektoffert du vill kopiera och väljer sedan **Kopiera**.
 
 Då öppnas en dialogsida där du kan ange parametrarna för kopian. Följande tabell visar de fält som ingår i dialogsidan. Beroende på vilka värden du väljer kan kopieringsprocessen ändras.
 
-| **Fält** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- |
 | Område | Ange relevant ämne, eller namn, för målofferten. När dialogrutan öppnas anges den i systemet som ämnet för källofferten med tillägget **-kopia**. | |
 | Potentiell kund | Referens till kundens företag eller kontopost. När dialogen öppnas ställs den in för kontot i källofferten. | Det här fältet är den primära kunden i offerten. |

@@ -1,21 +1,21 @@
 ---
-title: Hantera leads (Pro)
+title: Hantera leads - lite
 description: I det här ämnet finns information om hantering av projektbaserade leads (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085469"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180529"
 ---
-# <a name="manage-leads-pro"></a>Hantera leads (Pro)
+# <a name="manage-leads---lite"></a>Hantera leads - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -23,7 +23,7 @@ Projektbaserade leads kan hanteras och kvalificeras i Project Operations. I proc
 
 ## <a name="list-of-project-sales-leads"></a>Lista över projektbaserade försäljningsleads
 
-I avsnittet **Försäljning** , i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Listan med leads som visas är arbetsbaserade och andra typer av leads som kan skapas om du även har Dynamics 365 Sales eller Dynamics 365 Field Service-program.
+I avsnittet **Försäljning**, i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Listan med leads som visas är arbetsbaserade och andra typer av leads som kan skapas om du även har Dynamics 365 Sales eller Dynamics 365 Field Service-program.
 
 Du kan skapa en filtrerad vy om du endast vill visa projektbaserade leads genom att skapa ett filter för värdet **Typ**. Du kan till exempel välja att endast visa arbetsbaserade leads.
 
@@ -38,7 +38,7 @@ Om du vill att en kvalificerad lead automatiskt ska skapa en affärsmöjlighet s
 
 Följande tabell innehåller viktig fältinformation för en lead och effekterna nedströms för dessa fält.
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Område | Fliken Allmänt | Det här textfältet och bör innehålla en kort beskrivning av affären. | Leadämnet blir standardvärdet för affärsmöjlighetens ämne och namnet på offert- och projektkontraktet. |
 | Type | Fliken Allmänt | Den här alternativuppsättningen har följande alternativ:</br>- Arbetsbaserad (endast tillgängligt när Project Operations är installerat)</br>- Artikelbaserad (endast tillgänglig när Project Operations och Sales är installerat)</br>- Serviceunderhåll-baserad (tillgängligt när Field Service är installerat) | När värdet i det här fältet är inställt på **Arbetsbaserat** i leaden är leaden kvalificerad för att skapa en projektbaserad affärsmöjlighet. Det krävs en projektbaserad affärsmöjlighet för att aktivera alla projektspecifika tillägg och funktioner i den efterföljande försäljningsprocessen för affären. |

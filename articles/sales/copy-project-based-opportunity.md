@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085479"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181708"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopiera projektbaserade affärsmöjligheter
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 
 Det går enkelt att kopiera projektmöjligheter för att skapa nya projektmöjligheter. 
@@ -25,7 +25,7 @@ Det går enkelt att kopiera projektmöjligheter för att skapa nya projektmöjli
 1. Gå till sidan **Projektmöjligheter** och välj en affärsmöjlighet i listan. Du kan också öppna en informationssida för en specifik affärsmöjlighet. 
 2. Från någon av sidorna väljer du **Kopiera**. En dialogruta öppnas som innehåller följande fältinformation. Beroende på vilka värden du väljer i dialogrutan kan kopieringsprocessen ändras.
 
-    | **Fält** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+    | **Fält** | **Beskrivning** | **Inverkan nedströms** |
     | --- | --- | --- |
     | Område | Ange relevant ämne för målmöjligheten. När dialogrutan öppnas anges den i systemet som ämnet för källmöjligheten med tillägget **-kopia**. | Det här fältet har ingen inverkan nedströms. |
     | Konto | Referens till kundens företag eller kontopost. När dialogen öppnas ställs den in för kontot i källmöjligheten. | Det här fältet är den primära kunden i affärsmöjligheten. |

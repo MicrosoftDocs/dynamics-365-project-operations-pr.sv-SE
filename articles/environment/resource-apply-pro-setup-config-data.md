@@ -1,23 +1,33 @@
 ---
-title: Konfigurera och använda konfigurationsdata i Common Data Service för Project Operations
+title: Ställ in och använd konfigurationsdata i Common Data Service
 description: I det här ämnet finns information om hur du konfigurerar och tillämpar konfigurationsdata i Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085413"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401150"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurera och använda konfigurationsdata i Common Data Service för Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Ställ in och använd konfigurationsdata i Common Data Service 
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+
+## <a name="prerequisites"></a>Förutsättningar
+
+Innan du börjar konfigurera data i Common Data Service (CDS) måste följande krav uppfyllas:
+
+1.  Konfigurera en CDS-miljö och en Dynamics 365 Finance-miljö för Project Operations.
+2.  Information om juridisk person från Dynamics 365 Finance delas med CDS-miljön. Detta innebär att entiteten **företag** i CDS-skivor har följande företagsposter:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Installationsinställning och konfigurationsdata
 
@@ -83,7 +93,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 ![Ny bokningsbar resurs](./media/9NewBookableResource.png)
 
-4. Under fliken **Schemaläggning** , i fältet **Företag** , väljer du företaget **USPM** och sedan **Spara**. 
+4. Under fliken **Schemaläggning**, i fältet **Företag**, väljer du företaget **USPM** och sedan **Spara**. 
 
 ![Fliken Schemaläggning](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
  
 12. Uppdatera följande fält:
 
- - **Standardföretag** : USPM
- - **Standardorganisationsenhet** : Contoso Robotics Global
- - **Faktureringsfrekvens** : sjunde och sista dagen
- - **Arbetstidsmall** : ändra till den mall du skapade.
+ - **Standardföretag**: USPM
+ - **Standardorganisationsenhet**: Contoso Robotics Global
+ - **Faktureringsfrekvens**: sjunde och sista dagen
+ - **Arbetstidsmall**: ändra till den mall du skapade.
 
 13. Välj **Spara**. 
 

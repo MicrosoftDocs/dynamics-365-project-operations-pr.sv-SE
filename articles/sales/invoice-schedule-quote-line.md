@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085473"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180844"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Faktureringsscheman på projektbaserade offertrader
 
@@ -32,7 +32,7 @@ När faktureringsmetoden för en projektbaserad offertrad är Tid och material g
 3. Öppna offertraden för tid och material som du behöver skapa ett datumbaserat faktureringsschema för. 
 4. Under fliken **Faktureringsschema** väljer du värden i fälten **Faktureringsstart** och **Faktureringsfrekvens**. 
 5. I underrutnätet väljer du **Generera faktureringsschema**.
-6. Programmet genererar faktureringsschemat med fälten **Fakturans kördatum** , **Transaktionens sista datum** och **Körstatus** på följande sätt:
+6. Programmet genererar faktureringsschemat med fälten **Fakturans kördatum**, **Transaktionens sista datum** och **Körstatus** på följande sätt:
 
     - **Fakturans kördatum** är inställt på det datum som dikteras utifrån faktureringsfrekvensen.
     - **Transaktionens sista datum** har angetts till dagen före **fakturans kördatum**.
@@ -58,9 +58,9 @@ När den projektbaserade offertraden har faktureringsmetoden **Fast** skapas ett
 
 Milstolpar med fast pris kan också skapas manuellt när de inte delas periodiskt. Skapa en milstolpe manuellt:
 
-Öppna offertraden Fast pris där du behöver skapa en milstolpe. Under fliken **Faktureringsschema** i underrutnätet väljer du **+ Skapa ny milstolpe för offertrad** och ange den information som krävs utifrån följande tabell.
+Öppna offertraden Fast pris där du behöver skapa en milstolpe. På fliken **Faktureringsschema** i underrutnätet, välj **+ Skapa ny milstolpe för offertrad** och ange den information som krävs utifrån följande tabell.
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Milstolpens namn | Snabbregistrering | Namnet på milstolpen. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan |
 | Projektuppgift | Snabbregistrering | Om milstolpen är knuten till en projektuppgift kan du använda den här referensen för att lägga till anpassad logik och ange milstolpens status utifrån uppgiftens status. | Programmet har inte någon inverkan nedströms för den här referensen till en uppgift. |

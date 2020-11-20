@@ -1,21 +1,21 @@
 ---
-title: Rubrik för affärsmöjlighet
-description: I det här ämnet finns information om den övergripande informationen om projektbaserade affärer och de projektbaserade affärsmöjlighetsraderna.
+title: Inställningar för affärsmöjlighet - lite
+description: I det här ämne finns information om projektbaserade avtal och projektbaserade affärsmöjlighetsrader.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085468"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181068"
 ---
-# <a name="opportunity-header"></a>Rubrik för affärsmöjlighet
+# <a name="opportunity-header---lite"></a>Huvud för affärsmöjlighet - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -25,7 +25,7 @@ Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations är utökn
 
 Följande tabell innehåller de fält i en projektbaserad affärsmöjlighet som antingen är unika för Project Operations eller som har viktiga ändringar i beteendet jämfört med affärsmöjligheter i Sales.
 
-| **Fält** | **Plats** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
+| **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
 | Type | Fliken Allmänt (dold) | Den här alternativuppsättningen har följande alternativ:</br>- Arbetsbaserad (endast tillgängligt med Project Operations)</br>- Artikelbaserad (endast tillgänglig när Project Operations och Sales är installerat)</br>- Serviceunderhåll-baserad (tillgängligt när Field Service är installerat) | När du använder Project Operations anges värdet i det här fältet automatiskt som **Arbetsbaserad** som klassificerar affärsmöjligheten som projektbaserad. En affärsmöjlighet bör vara projektbaserad för att aktivera alla projektspecifika tillägg och funktioner i den efterföljande försäljningsprocessen för affären. |
 | Kontaktperson | Fliken Allmänt | Referens till kundens primära kontakt för denna affär. | |

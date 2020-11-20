@@ -1,21 +1,21 @@
 ---
-title: Importera uppskattningar för ett projekt till en projektbaserad offertrad
+title: Importera beräkningar för ett projekt till en projektbaserad offertrad - lite
 description: I det här ämnet finns information om hur du importerar uppskattningar från ett projekt till en offertrad.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085442"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177758"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importera uppskattningar för ett projekt till en projektbaserad offertrad
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importera beräkningar för ett projekt till en projektbaserad offertrad - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -30,7 +30,7 @@ Om ett projekt skapas under stadiet före försäljning kan du välja att import
   - **Roll** 
   - **Projektuppgift**
 
-Utifrån ditt val kopieras uppskattningen från projektet för alla transaktionsklasser som ingår i offertraden. Om du vill kontrollera vilka transaktionsklasser som är inkluderade väljer du fliken **Allmänt** på den projektbaserade offertraden och kontrollerar värdena för **Inkludera tid** , **Inkludera utgifter** och **Inkludera avgifter**.  Om du vill kontrollera vilka uppgifter som ingår väljer du fliken **Debiterbara uppgifter** på offertraden.
+Utifrån ditt val kopieras uppskattningen från projektet för alla transaktionsklasser som ingår i offertraden. Om du vill kontrollera vilka transaktionsklasser som är inkluderade väljer du fliken **Allmänt** på den projektbaserade offertraden och kontrollerar värdena för **Inkludera tid**, **Inkludera utgifter** och **Inkludera avgifter**.  Om du vill kontrollera vilka uppgifter som ingår väljer du fliken **Debiterbara uppgifter** på offertraden.
 
 Beroende på associerade uppgifter och inkluderade transaktionsklasser importeras uppskattningar för kombinationerna av uppgifter och transaktionsklasser till offertraden.
 
