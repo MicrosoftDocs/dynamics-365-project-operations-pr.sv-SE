@@ -3,7 +3,7 @@ title: Anpassa veckovis tidspost
 description: I det här ämnet finns information om hur du implementerar anpassade affärsregler som stöder organisationens praxis.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085627"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127945"
 ---
 # <a name="customize-weekly-time-entry"></a>Anpassa veckovis tidspost 
 
@@ -51,12 +51,12 @@ Avsnittet **dimensioner** tillåter inte infogad redigering. Det här avsnittet 
 I området varaktighet visas veckodagarna som kolumnrubriker. I det här avsnittet kan du redigera på en rad. När en tidspostrad har skapats med lämpliga dimensioner kan användare snabbt ange, i rad, hur mycket tid som har lagts ned på de dimensionerna.
 
 ## <a name="create-a-new-time-entry"></a>Skapa en ny tidspost
-Om du vill skapa en ny tidspost i rutnätet för tidspost välj **Ny**. Dialogrutan **Snabbregistrering för tidspost** visas. I den här dialogrutan kan användare välja datumet för tidsposten och sedan ange data för **Projekt** , **Projektuppgift** , **Roll** och **Varaktighet** dimensioner i s in minuter, timmar eller dagar genom att skriva **h** , **m** , or **d** , tillsammans med siffran. Användare kan även ange en beskrivning och kommentarer som kan delas ut externt för en tidspost. När användarna sparar sina ändringar visas de värden som angetts mot dimensionerna i området **dimensioner**. Varaktighetsinformationen som anges i fältet **varaktighet** visas det datum då tidsposten skapades.
+Om du vill skapa en ny tidspost i rutnätet för tidspost välj **Ny**. Dialogrutan **Snabbregistrering för tidspost** visas. I den här dialogrutan kan användare välja datumet för tidsposten och sedan ange data för **Projekt**, **Projektuppgift**, **Roll** och **Varaktighet** dimensioner i s in minuter, timmar eller dagar genom att skriva **h**, **m**, or **d**, tillsammans med siffran. Användare kan även ange en beskrivning och kommentarer som kan delas ut externt för en tidspost. När användarna sparar sina ändringar visas de värden som angetts mot dimensionerna i området **dimensioner**. Varaktighetsinformationen som anges i fältet **varaktighet** visas det datum då tidsposten skapades.
 
 Uppslagsfält säkerhetskopieras med systemvyer. När en användare har angett ett projekt anges fältet **projektuppgift** till vyn **kopiera** som standard. Om du vill skapa tidsposter för uppgifter som inte är tilldelade till användaren klickar du på **ändra vy** i dialogrutan uppslag och markerar vyn **Alla aktiva projektuppgifter**.
 
 ## <a name="edit-a-time-entry"></a>Redigera en tidspost
-Information från vissa fält på sidan för tidspost, t.ex. **Beskrivning** och **Externa kommentarer** , visas inte i rutnätet för veckovis tidspost. En liten triangulär indikator visas istället i varaktighetsceller med dessa ytterligare detaljer. Markera cellen och välj sedan **redigera information** om du vill visa data i rutan **snabbredigering**. Om du vill redigera eller uppdatera informationen för en viss tidspost som inte är en del av rutnätet för veckovis tidspost måste användarna öppna fönstret **snabbredigering**.
+Information från vissa fält på sidan för tidspost, t.ex. **Beskrivning** och **Externa kommentarer**, visas inte i rutnätet för veckovis tidspost. En liten triangulär indikator visas istället i varaktighetsceller med dessa ytterligare detaljer. Markera cellen och välj sedan **redigera information** om du vill visa data i rutan **snabbredigering**. Om du vill redigera eller uppdatera informationen för en viss tidspost som inte är en del av rutnätet för veckovis tidspost måste användarna öppna fönstret **snabbredigering**.
 
 ## <a name="copy-a-time-entry-row"></a>Kopiera en tidspostrad
 När tidsposten har skapats första gången kan användare välja **kopiera rad** för att kopiera hela raden till en ny rad. När en rad kopieras på det här sättet kopieras även dimensioner och varaktighet. Användare kan också välja **redigera rad** för att uppdatera dimensionsvärden och varaktigheter i området **varaktighet**.
@@ -77,7 +77,7 @@ Nya tidsposter tilldelas automatiskt statusen **utkast**. När en tidspost skick
 När en tidspost avvisas av en godkännare kan godkännaren lägga till kommentarer som gör det lättare för resursen att förstå orsaken till avslaget. Om du vill visa avslagskommentarerna för en tidspost markerar du **öppna post**. Kommentarerna för avvisningen visas på tidslinjen. Pa tidslinjen kan resursen svara på de avslagskommentarerna innan han eller hon skickar posten på nytt.
 
 ## <a name="copy-week"></a>Kopiera vecka
-När du har skapat några tidsposter kan användare välja **Kopiera vecka** för att skapa ytterligare många tidsposter samtidigt. Dialogrutan **Kopiera** visas. I avsnittet **från period** i fälten **Startdatum** och **Slutdatum** definierar du datumintervallet för att kopiera tidsposter från. I avsnittet **Till period** i fältet **Startdatum** , ange datumet att skapa tidsposter för. Markera sedan **Kopiera**. För det angivna datumet i "till"-perioden skapas en kopia av tidsposterna för den motsvarande veckodagen i "från"-perioden. Exempelvis kopieras tidsposten för måndagen från den senaste veckan till måndagen i veckan som anges som "till"-period.
+När du har skapat några tidsposter kan användare välja **Kopiera vecka** för att skapa ytterligare många tidsposter samtidigt. Dialogrutan **Kopiera** visas. I avsnittet **från period** i fälten **Startdatum** och **Slutdatum** definierar du datumintervallet för att kopiera tidsposter från. I avsnittet **Till period** i fältet **Startdatum**, ange datumet att skapa tidsposter för. Markera sedan **Kopiera**. För det angivna datumet i "till"-perioden skapas en kopia av tidsposterna för den motsvarande veckodagen i "från"-perioden. Exempelvis kopieras tidsposten för måndagen från den senaste veckan till måndagen i veckan som anges som "till"-period.
 
 ## <a name="import"></a>Importera
 Samma grundläggande process används för att importera från bokningar, tilldelningar och utbyten. Användare kan ange det datumintervall som bokningarna ska importeras från. De måste sedan uttryckligen välja de bokningar som ska kopieras till tidsposter utkast. I den tidigare versionen visades föreslagna tidsposter i rutnätet och kalendern och förlorade när sessionen uppdaterades.
@@ -98,7 +98,7 @@ Du måste lägga till det anpassade fältet i dialogrutan Skapa tidspost för sn
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurera rutnätet så att det anpassade fältet visas.
 Du lägger till ett anpassat fält i rutnätet med en tidspost i veckan på två sätt. Det första alternativet är att anpassa **Mina veckovisa tidsposter** och lägga till ett anpassat fält i den. Du kan välja placering och storlek för det anpassade fältet i rutnätet genom att redigera egenskaperna i vyn.
 
-Det andra alternativet är att skapa en ny vy för en egen tidspost och ange den som standardvy. Den här vyn ska innehålla fälten **Beskrivning** och **Externa kommentarer** förutom de kolumner som du vill ha i rutnätet. Du kan välja placering, storlek och standardorienteringsorder för rutnätet genom att redigera egenskaperna i vyn. Konfigurera sedan den anpassade kontrollen för vyn så att den är en kontroll för **rutnät för tidspost**. Lägg till den här kontrollen i vyn och välj den för webben, telefon och surfplatta. Konfigurera sedan parametrarna för rutnät för veckotids tidspost. Ange fältet **Startdatum** till **msdyn_date** , ange värdet för **varaktighet** till **msdyn_duration** och ange fältet **Status** till **msdyn_entrystatus**. För standardvyn är fältet **Skrivskyddad statuslista** inställt på **192350002,192350003,192350004** , fältet **Uppgiftsflöde för radredigering** är inställt på **msdyn_timeentryrowedit** och fältet **Uppgiftsflöde för cellredigering** inställt på **msdyn_timeentryedit**. Du kan anpassa de här fälten om du vill lägga till eller ta bort skrivskyddad status eller om du vill använda olika uppgiftsbaserade miljöer (TBX) för redigering av rader eller celler. De här fälten bör bindas till ett statiskt värde.
+Det andra alternativet är att skapa en ny vy för en egen tidspost och ange den som standardvy. Den här vyn ska innehålla fälten **Beskrivning** och **Externa kommentarer** förutom de kolumner som du vill ha i rutnätet. Du kan välja placering, storlek och standardorienteringsorder för rutnätet genom att redigera egenskaperna i vyn. Konfigurera sedan den anpassade kontrollen för vyn så att den är en kontroll för **rutnät för tidspost**. Lägg till den här kontrollen i vyn och välj den för webben, telefon och surfplatta. Konfigurera sedan parametrarna för rutnät för veckotids tidspost. Ange fältet **Startdatum** till **msdyn_date**, ange värdet för **varaktighet** till **msdyn_duration** och ange fältet **Status** till **msdyn_entrystatus**. För standardvyn är fältet **Skrivskyddad statuslista** inställt på **192350002,192350003,192350004**, fältet **Uppgiftsflöde för radredigering** är inställt på **msdyn_timeentryrowedit** och fältet **Uppgiftsflöde för cellredigering** inställt på **msdyn_timeentryedit**. Du kan anpassa de här fälten om du vill lägga till eller ta bort skrivskyddad status eller om du vill använda olika uppgiftsbaserade miljöer (TBX) för redigering av rader eller celler. De här fälten bör bindas till ett statiskt värde.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Lägg till det anpassade fältet i lämpligt flöde för uppgiftsredigering
 TBX-sidorna som används för redigering finns under **processer**. Standardsidorna är **Project Service - Redigera tidspostrad** och **Project Service - Redigera tidspost**. Du kan antingen redigera de här standardsidorna eller skapa nya anpassade TBX-sidor.
@@ -108,12 +108,12 @@ TBX-sidorna som används för redigering finns under **processer**. Standardsido
 
 Du måste fastställa lämpligt uppgiftsflöde för det anpassade fältet. Om du har lagt till fältet i rutnätet bör du i så fall gå till redigera uppgiftsflödet för rader som används för fält som gäller för hela raden med tidsposter. Om det anpassade fältet har ett unikt värde varje dag, t.ex. ett anpassat fält för **Sluttid** ska det gå vidare i cellen för redigera uppgiftsflöde.
 
-Om du vill lägga till det anpassade fältet i ett uppgiftsflöde drar du elementet **fält** till rätt plats på sidan och anger sedan egenskaperna. Ange egenskapen **Källa** till **Tidspost** och ange egenskapen för **datafältet** till det anpassade fältet. Egenskapen **Fält** anger visningsnamn på sidan TBX. Välj **Verkställ**  för att spara ändringarna på fältet. Välj **Uppdatera**  för att spara ändringarna på sidan.
+Om du vill lägga till det anpassade fältet i ett uppgiftsflöde drar du elementet **fält** till rätt plats på sidan och anger sedan egenskaperna. Ange egenskapen **Källa** till **Tidspost** och ange egenskapen för **datafältet** till det anpassade fältet. Egenskapen **Fält** anger visningsnamn på sidan TBX. Välj **Verkställ** för att spara ändringarna på fältet. Välj **Uppdatera** för att spara ändringarna på sidan.
 
-Om du vill använda en ny anpassad TBX-sida i stället skapar du en ny process. Ange kategorin som **affärsprocessflöde** , ange posten till **tidspost** och ange affärsprocesstypen till **Kör process som uppgiftsflöde**. Under **egenskaper** ska egenskapen **sidnamn** anges som visningsnamn för sidan. Lägg till alla relevanta fält på sidan TBX. Spara och aktivera processen och uppdatera sedan egenskapen anpassad kontroll för det aktuella åtgärdsflödet till värdet för processens **namn**.
+Om du vill använda en ny anpassad TBX-sida i stället skapar du en ny process. Ange kategorin som **affärsprocessflöde**, ange posten till **tidspost** och ange affärsprocesstypen till **Kör process som uppgiftsflöde**. Under **egenskaper** ska egenskapen **sidnamn** anges som visningsnamn för sidan. Lägg till alla relevanta fält på sidan TBX. Spara och aktivera processen och uppdatera sedan egenskapen anpassad kontroll för det aktuella åtgärdsflödet till värdet för processens **namn**.
 
 ### <a name="add-new-option-set-values"></a>Lägg till nya värden för alternativuppsättning
-Om du vill lägga till värden för alternativuppsättning i ett fält som inte finns i en ruta öppnar du redigeringssidan för fältet **Typ** och väljer sedan **redigera** bredvid alternativuppsättning. Lägg sedan till ett nytt alternativ som har en egen etikett och färg. Om du vill lägga till en ny tidspoststatus heter det färdiga fältet **Poststatus** , inte **Status**.
+Om du vill lägga till värden för alternativuppsättning i ett fält som inte finns i en ruta öppnar du redigeringssidan för fältet **Typ** och väljer sedan **redigera** bredvid alternativuppsättning. Lägg sedan till ett nytt alternativ som har en egen etikett och färg. Om du vill lägga till en ny tidspoststatus heter det färdiga fältet **Poststatus**, inte **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Ange en ny tidspoststatus som skrivskyddad
 Om du vill ange en ny tidspoststatus som skrivskyddad lägger du till det nya värdet (inte etiketten) till egenskapen **Skrivskyddad statuslista**. Den redigerbara delen av rutnätet för tidsposter låses för rader med den nya statusen.

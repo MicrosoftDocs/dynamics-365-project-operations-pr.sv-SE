@@ -3,7 +3,7 @@ title: Lägg till resursroller
 description: Tilldela en roll till Project Service-resurser
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085736"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129610"
 ---
 # <a name="add-resource-roles-project-service"></a>Lägga till resursroller (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4085736"
 
 Ange mål för utnyttjandegraden för varje roll. Dessa inställningar bestämmer resurstillgänglighet och utnyttjande när du bemannar projekt och analyserar verkliga värden.  
   
-1.  Gå till den resursroll som du vill konfigurera utnyttjandet för ( **Project Service > Resursroll** ).  
+1.  Gå till den resursroll som du vill konfigurera utnyttjandet för (**Project Service > Resursroll**).  
   
 2.  Klicka på nedpilen bredvid resursrollen längst upp på skärmen.  
   
@@ -39,7 +39,7 @@ Ange mål för utnyttjandegraden för varje roll. Dessa inställningar bestämme
   
 4.  Klicka på **Lägg till ny rollanvändning**.  
   
-5.  I området **Allmänt** , fyll i fälten efter behov.  
+5.  I området **Allmänt**, fyll i fälten efter behov.  
   
 6.  Klicka på **Spara** eller **Spara och stäng**.  
   

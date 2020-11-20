@@ -3,7 +3,7 @@ title: Konfigurera resursroller
 description: Konfigurera resursroller i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085538"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129160"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfigurera resursroller (Project Service)
 
@@ -47,7 +47,7 @@ Roller spelar en viktig roll i projektplaneringen, vid bestämning av resursbeho
   
 5.  I området **Färdigheter** klicka på **+** för att lägga till en färdighet.  
   
-6.  I fönstret **Rollkompetenskrav** klickar du i fältet **Färdighet** , klickar på knappen **Sök** och väljer en färdighet.  
+6.  I fönstret **Rollkompetenskrav** klickar du i fältet **Färdighet**, klickar på knappen **Sök** och väljer en färdighet.  
   
 7.  Välj en kompetens för färdigheten och klicka sedan på **Spara**.  
   

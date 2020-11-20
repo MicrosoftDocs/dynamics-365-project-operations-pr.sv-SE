@@ -3,7 +3,7 @@ title: Boka namngivna resurser från resursbehov
 description: I det här ämnet finns information om hur du bokar namngivna resurser för ett generiskt resursbehov.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085745"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125920"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Boka namngivna resurser från resursbehov
 
@@ -31,7 +31,7 @@ ms.locfileid: "4085745"
 
 Du kan boka en namngiven resurs och ersätta den generiska resurs som har ett resurskrav.
 
-1. I Project Service Automation (PSA), på sidan **Projekt** , klicka på fliken **Team**.
+1. I Project Service Automation (PSA), på sidan **Projekt**, klicka på fliken **Team**.
 2. Markera den generiska resurs som har ett resurskrav i listan och klicka på **boka**. Du kan också öppna resurskravet och klicka på **boka**.
 
 

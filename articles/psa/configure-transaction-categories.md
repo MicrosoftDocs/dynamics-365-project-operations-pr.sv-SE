@@ -3,7 +3,7 @@ title: Konfigurera transaktionskategorier
 description: Ställa in transaktionskategorier i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d6261d375c91ec4ee0e1f0417fd611652817b38
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 851ad1984b099df81915fc8374eed09157526329
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085573"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129250"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Konfigurera transaktionskategorier (Project Service)
 
@@ -35,7 +35,7 @@ Ställ in transaktionskategorier för att definiera en supermängd av utgiftskat
   
 2.  Klicka på **Nytt**.  
   
-3.  I området **Allmänt** , fyll i fälten efter behov.  
+3.  I området **Allmänt**, fyll i fälten efter behov.  
   
 4.  Klicka på **Spara** längst ned till höger på skärmen.  
   

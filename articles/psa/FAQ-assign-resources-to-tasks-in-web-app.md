@@ -3,7 +3,7 @@ title: Hur tilldelar jag en bokningsbar resurs till en uppgift i webbappen
 description: En översikt över olika sätt att tilldela bokningsbara resurser.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085728"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125200"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hur tilldelar jag en bokningsbar resurs till en aktivitet i webbappen (programmet Project Service v2.x)
 
@@ -40,7 +40,7 @@ Observera att om du vill tilldela en aktivitet en bokningsbar resurs så måste 
 Med den här metoden kan du lägga till en resurs i projektteamet och sedan tilldela uppgifter till resursen i projektschemat. Så här gör du detta:
 1.  Lägg till en ny teammedlem genom att välja **Nytt** i rutnätet för teammedlem.
 2.  Markera namnet på den bokningsbara resursen och ange en roll i fönstret Snabbregistrering av teammedlem.
-3.  Välj **Från** - och **Till** -datum.
+3.  Välj **Från**- och **Till**-datum.
 
     > [!div class="mx-imgBorder"] 
     > ![Skärmbild av lägga till teammedlem](media/FAQ-Resources-to-Tasks2-1.png "Skärmbild av lägga till teammedlem")

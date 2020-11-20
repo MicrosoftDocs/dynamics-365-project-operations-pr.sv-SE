@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085477"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128725"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurera debiterbara komponenter i en projektbaserad kontraktrad
 
@@ -35,13 +35,13 @@ Debiteringsbarhet som definieras på transaktionskategorier för en projektkontr
 
 En roll kan vara debiterbar eller inte debiterbar på en specifik projektbaserad kontraktrad.
 
-Under fliken **Debiterbara roller** på en projektbaserad kontraktrad, i underrutnätet **Debiterbara kategorier** , i fältet **Faktureringstyp** , uppdaterar du faktureringstypen för en roll.
+Fliken **Debiterbara roller** för en projektbaserad offertrad i underrutnätet **Debiterbara kategorier** i fältet **Faktureringstyp** uppdatera faktureringstypen för en roll.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Uppdatera en transaktionskategori så att den är debiterbar eller inte debiterbar
 
 En transaktionskategori kan vara debiterbar eller inte debiterbar på en specifik projektbaserad kontraktrad.
 
-Under fliken **Debiterbara kategorier** på en projektbaserad kontraktrad, i underrutnätet **Debiterbara kategorier** , i fältet **Faktureringstyp** , uppdaterar du faktureringstypen för en transaktion.
+Fliken **Debiterbara kategorier** för en projektbaserad offertrad i underrutnätet **Debiterbara kategorier** i fältet **Faktureringstyp** uppdatera faktureringstypen för en transaktion.
 
 ### <a name="resolve-chargeability"></a>Åtgärda debiterbarhet
 

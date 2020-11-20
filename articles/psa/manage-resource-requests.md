@@ -3,7 +3,7 @@ title: Hantera resursförfrågningar
 description: Hantera resursbegäran i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085539"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129025"
 ---
 # <a name="manage-resource-requests-project-service"></a>Hantera resursförfrågningar (Project Service)
 
@@ -37,7 +37,7 @@ Kontoansvariga och projektledare begär regelbundet resurser för sina projekt. 
   
     Gör något av följande för att optimera din sökning:  
   
-   -   Välj en vy eller sorteringsordning från överst på skärmen. Du kan också välja om du vill visa tillgänglighet för **dag** , **vecka** eller **månad** , och använda pilarna för att visa föregående eller nästa tidsperioden. Använd sökrutan för att hitta en viss resurs.  
+   -   Välj en vy eller sorteringsordning från överst på skärmen. Du kan också välja om du vill visa tillgänglighet för **dag**, **vecka** eller **månad**, och använda pilarna för att visa föregående eller nästa tidsperioden. Använd sökrutan för att hitta en viss resurs.  
   
    -   Klicka på **Alternativ** för att ändra det som visas. Till exempel kan du visa en förklaring som visar färgschemat för olika typer av bokningar, eller du kan välja att visa endast en viss typ av bokning (till exempel fast bokning eller preliminär bokning).  
   

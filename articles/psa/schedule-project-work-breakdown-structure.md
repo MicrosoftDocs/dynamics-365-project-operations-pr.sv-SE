@@ -3,7 +3,7 @@ title: Schemalägg ett projekt med en uppdelad arbetsstruktur
 description: Schemalägga ett projekt med uppdelad arbetsstruktur i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085722"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127900"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Schemalägg ett projekt med en uppdelad arbetsstruktur (Project Service)
 
@@ -86,14 +86,14 @@ Du ska använda följande typer av uppgifter när du skapar en mall för uppdela
   
 ### <a name="schedule-attributes"></a>Schemalägg attribut
 
- - Tilldela värden till **Insatstimmar** , **Antal resurser** , **Startdatum** , **Slutdatum** och **Tid** för att fastställa schemat för uppgiften. 
+ - Tilldela värden till **Insatstimmar**, **Antal resurser**, **Startdatum**, **Slutdatum** och **Tid** för att fastställa schemat för uppgiften. 
  - **Insats** är en uppskattning av antalet timmar som det tar för att slutföra uppgiften.
  - **Antalet resurser** är en uppskattning som projektledaren placerar i uppgiften för att få bästa möjliga schema. 
  - **Tid** (i dagar) anger antalet dagar det tar att slutföra uppgiften.  
   
 ### <a name="staffing-attributes"></a>Bemanningsattribut
 
- - **Roll** , **Organisationsenhet för resurs** , **Antal resurser** och **Resurser** beskriver bemanningsbehovet för uppgiften. 
+ - **Roll**, **Organisationsenhet för resurs**, **Antal resurser** och **Resurser** beskriver bemanningsbehovet för uppgiften. 
  - **Roll** beskriver typen av resurs som behövs för att utföra uppgiften. 
  - **Organisationsenhet för resursen** anger den organisationsenhet från vilken resurser ska bemannas för uppgiften. Detta påverkar också utgift- och försäljningsuppskattningen för uppgiften, eftersom det redovisas vid bestämning av enhetsförsäljningspriset för resursen. 
  - **Resurser** innehåller en allmän eller namngiven resurs när någon hittas.  

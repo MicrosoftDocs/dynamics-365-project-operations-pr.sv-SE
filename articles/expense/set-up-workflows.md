@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085567"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127720"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Ställ in arbetsflöden för utgiftshantering
 
@@ -30,9 +30,9 @@ Du kan konfigurera en arbetsflödesprocess för att granska och godkänna rese- 
 
 Ett arbetsflöde representerar en affärsprocess och definierar hur ett dokument flödar i systemet. I arbetsflödet anges också vem som måste slutföra en uppgift eller godkänna ett dokument. Det finns flera fördelar med att använda arbetsflödessystemet i organisationen:
 
-- **Konsekventa processer** : du kan definiera godkännande processen för specifika dokument, t.ex. inköpsrekvisitioner och utgiftsrapporter. Genom att använda arbetsflödessystemet ser du till att dokumenten bearbetas och godkänns på ett konsekvent och effektivt sätt.
-- **Processens synlighet** : du kan spåra status, historik och prestandamått för en specifik arbetsflödesinstans. På det här sättet kan du fastställa om ändringar ska göras i arbetsflödet för att öka effektiviteten.
-- **Centraliserad arbetslista** : användare kan visa en centraliserad arbetslista för att visa uppgifter och godkännanden som har tilldelats dem. 
+- **Konsekventa processer**: du kan definiera godkännande processen för specifika dokument, t.ex. inköpsrekvisitioner och utgiftsrapporter. Genom att använda arbetsflödessystemet ser du till att dokumenten bearbetas och godkänns på ett konsekvent och effektivt sätt.
+- **Processens synlighet**: du kan spåra status, historik och prestandamått för en specifik arbetsflödesinstans. På det här sättet kan du fastställa om ändringar ska göras i arbetsflödet för att öka effektiviteten.
+- **Centraliserad arbetslista**: användare kan visa en centraliserad arbetslista för att visa uppgifter och godkännanden som har tilldelats dem. 
 
 ## <a name="workflow-types"></a>Arbetsflödestyper
 

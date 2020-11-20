@@ -2,7 +2,7 @@
 title: Hur anpassar jag affärsprocessflödet för projektstadier?
 description: En översikt om hur jag anpassar affärsprocessflödet för projektstadier.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085726"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125066"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hur anpassar jag affärsprocessflödet för projektstadier?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Det finns en känd begränsning i tidigare versioner av Project Service-programmet, nämligen att namnen på stadier i affärsprocessflödet för projektstadier måste matcha förväntade engelska namn exakt ( **Quote** , **Plan** , **Close** ). I annat fall fungerar affärslogiken, som är beroende av de engelska stadiernas namn, inte som förväntat. Därför visas inga välbekanta åtgärder som till exempel **Växla process** eller **Redigera process** som finns i projektformuläret, och du uppmuntras inte till att anpassa affärsprocessflödet. 
+Det finns en känd begränsning i tidigare versioner av Project Service-programmet, nämligen att namnen på stadier i affärsprocessflödet för projektstadier måste matcha förväntade engelska namn exakt (**Quote**, **Plan**, **Close**). I annat fall fungerar affärslogiken, som är beroende av de engelska stadiernas namn, inte som förväntat. Därför visas inga välbekanta åtgärder som till exempel **Växla process** eller **Redigera process** som finns i projektformuläret, och du uppmuntras inte till att anpassa affärsprocessflödet. 
 
 Den här begränsningen har åtgärdats i version 2.4.5.48 eller senare. Denna artikel innehåller rekommenderade lösningar om du vill anpassa det förvalda affärsprocessflödet för tidigare versioner.  
 
@@ -48,7 +48,7 @@ I Project Service-programversion 1.x på plattformen 8.2 gäller följande: När
 
 I appen Project Service, version 2.4.4.30 eller tidigare på plattform 9.0 genomfördes en omfattande strukturell förändring i affärsprocessflödet som krävde en omskrivning av affärslogiken för affärsprocessflöde. Som ett resultat av detta får du ett felmeddelande om namnen i processtadiet inte matchar de förväntade engelska namnen. 
 
-Om du vill anpassa affärsprocessflödet för projektstadier för projektentiteten kan du därför endast lägga till helt nya stadier i det förvalda affärsprocessflödet för projektentiteten, medan stadierna **Quote** , **Plan** och **Close** förblir som de är. Denna begränsning säkerställer att du inte får några felmeddelanden från den affärslogik som förväntar sig engelska stadienamn i affärsprocessflödet.
+Om du vill anpassa affärsprocessflödet för projektstadier för projektentiteten kan du därför endast lägga till helt nya stadier i det förvalda affärsprocessflödet för projektentiteten, medan stadierna **Quote**, **Plan** och **Close** förblir som de är. Denna begränsning säkerställer att du inte får några felmeddelanden från den affärslogik som förväntar sig engelska stadienamn i affärsprocessflödet.
 
 I en version 2.4.5.48 eller senare har den affärslogik som beskrivs i den här artikeln tagits bort från det förvalda affärsprocessflödet för projektentiteten. Om du uppgraderar till den versionen eller senare kan du anpassa eller ersätta det förvalda affärsprocessflödet med ett eget. 
 
@@ -56,12 +56,12 @@ I en version 2.4.5.48 eller senare har den affärslogik som beskrivs i den här 
 
 Om uppgradering inte utgör ett alternativ kan du anpassa affärsprocessflödet för projektstadier för projektentiteten på ett av följande två sätt:
 
-1. Lägg till fler stadier i standardkonfigurationen samtidigt som du behåller de engelska stadienamnen **Quote** , **Plan** och **Close**.
+1. Lägg till fler stadier i standardkonfigurationen samtidigt som du behåller de engelska stadienamnen **Quote**, **Plan** och **Close**.
 
 
 ![Skärmbild på hur du lägger till stadier i standardkonfiguration](media/FAQ-Customize-BPF-1.png)
  
-2. Skapa ett eget affärsprocessflöde och gör det till primärt affärsprocessflöde för projektentiteten projekt, vilket gör att du kan få alla stadienamn du vill. Om du emellertid vill använda samma standardprojektstadier ( **Quote** , **Plan** och **Close** ) måste du göra vissa anpassningar som baseras på dina anpassade stadienamn. Den mer komplexa logiken finns i nedstängningen av projektet, något som du fortfarande kan utlösa genom att helt enkelt inaktivera projektposten.
+2. Skapa ett eget affärsprocessflöde och gör det till primärt affärsprocessflöde för projektentiteten projekt, vilket gör att du kan få alla stadienamn du vill. Om du emellertid vill använda samma standardprojektstadier (**Quote**, **Plan** och **Close**) måste du göra vissa anpassningar som baseras på dina anpassade stadienamn. Den mer komplexa logiken finns i nedstängningen av projektet, något som du fortfarande kan utlösa genom att helt enkelt inaktivera projektposten.
 
 ![BPF-anpassning](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ För att skapa ditt eget affärsprocessflöde för projektentiteten, gör följa
 
   ![Skapa process](media/FAQ-Customize-BPF-3.png)
 
-2. Använd processdesignern för att skapa de stadienamn du vill. Om du vill ha samma funktioner som standardstadierna för **Quote** , **Plan** och **Stäng** måste du skapa detta utifrån stadienamnen på dina anpassade affärsprocessflöden.
+2. Använd processdesignern för att skapa de stadienamn du vill. Om du vill ha samma funktioner som standardstadierna för **Quote**, **Plan** och **Stäng** måste du skapa detta utifrån stadienamnen på dina anpassade affärsprocessflöden.
 
    ![Skärmbild av den processdesigner som används för att anpassa BPF](media/FAQ-Customize-BPF-4.png) 
 

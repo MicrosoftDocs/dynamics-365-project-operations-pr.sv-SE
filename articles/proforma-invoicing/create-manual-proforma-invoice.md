@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4085770"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128080"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Skapa en manuell proforma-faktura
 
@@ -48,7 +48,7 @@ På listsidan **projektkontrakt** kan du skapa projektfakturor separat för varj
 
 Följ det här steget om du vill skapa en faktura för ett specifikt projektkontrakt.
 
-- På listsidan **projektkontrakt** , öppna ett projektkontrakt och välj sedan **skapa faktura**.
+- På listsidan **projektkontrakt**, öppna ett projektkontrakt och välj sedan **skapa faktura**.
 
     En faktura skapas för alla transaktioner för det valda projektkontraktet som har statusvärdet **klart att fakturera**. Dessa transaktioner inkluderar tid, utgifter, milstolpar och produktbaserade kontraktrader.
 
@@ -70,7 +70,7 @@ Följ stegen nedan om du vill konfigurera en automatisk fakturakörning.
 
 1. Gå till **Inställningar** \> **Batchjobb**.
 2. Skapa ett batch-jobb och ge det namnet **Project Operations skapa fakturor**. Namnet på batch-jobbet måste innehålla termen "skapa fakturor".
-3. I fältet **Jobbtyp** , välj **Ingen**. Som standard är alternativen **Frekvens dagligen** och **Är aktiv** angivna som **Ja**.
+3. I fältet **Jobbtyp**, välj **Ingen**. Som standard är alternativen **Frekvens dagligen** och **Är aktiv** angivna som **Ja**.
 4. Välj **Kör arbetsflöde**. I dialogrutan **Sök efter post** visas tre arbetsflöden:
 
     - ProcessRunCaller
@@ -80,11 +80,11 @@ Följ stegen nedan om du vill konfigurera en automatisk fakturakörning.
 5. Välj **ProcessRunCaller** och välj **Lägg till**.
 6. Klicka på **OK** i nästa dialogrutan. Arbetsflödet **Vila** följs av **Process**.
 
-    Du kan också välja **ProcessRunner** i steg 5. När du sedan väljer **OK** , följs arbetsflödet **Process** av arbetsflödet **Vila**.
+    Du kan också välja **ProcessRunner** i steg 5. När du sedan väljer **OK**, följs arbetsflödet **Process** av arbetsflödet **Vila**.
 
 Arbetsflödena **ProcessRunCaller** och **ProcessRunner** skapar fakturor. **ProcessRunCaller** anropar **ProcessRunner**. **ProcessRunner** är det arbetsflöde som verkligen skapade fakturorna. Det går igenom alla kontraktrader som fakturorna måste skapas för och fakturor för dessa rader skapas. För att fastställa vilka kontraktsrader som fakturor ska skapas tittar jobbet på körningsdatum för faktura för kontraktsraderna. Om kontraktsrader som tillhör ett kontrakt har samma datum för fakturakörning kombineras transaktionerna till en faktura med två fakturarader. Om det inte finns några transaktioner för att skapa fakturor hoppar jobbet över skapandet av fakturan.
 
-När **ProcessRunner** har körts klart anropas **ProcessRunCaller** , anger sluttiden och är stängd. **ProcessRunCaller** startar sedan en timer som körs i 24 timmar från den angivna sluttiden. **ProcessRunCaller** stängs i slutet av timern.
+När **ProcessRunner** har körts klart anropas **ProcessRunCaller**, anger sluttiden och är stängd. **ProcessRunCaller** startar sedan en timer som körs i 24 timmar från den angivna sluttiden. **ProcessRunCaller** stängs i slutet av timern.
 
 Batchprocessjobbet för att skapa fakturor är ett återkommande jobb. Om batchprocessen körs flera gånger skapas flera instanser av jobbet och det uppstår fel. Därför bör du endast starta batchprocessen en gång och du bör starta om den endast om den slutar att fungera.
 

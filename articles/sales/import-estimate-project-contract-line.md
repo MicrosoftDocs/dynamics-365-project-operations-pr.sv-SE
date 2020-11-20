@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4085775"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126415"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importera en uppskattning till en projektbaserad kontraktrad
 
@@ -22,8 +22,8 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 I Dynamics 365 Project Operations kan du importera uppskattningar från ett projekt till en projektbaserad kontraktrad.
 
 1. Kontrollera att fältet **Projekt** på den projektbaserade kontraktraden är ifyllt.
-2. Under fliken **Kontraktradsinformation** i underrutnätet väljer du **Importera från projektuppskattning**. En dialogruta med sammanfattningsalternativ öppnas. De tillgängliga alternativen för sammanfattning är **Transaktionsklass** , **Kategori** , **Roll** och **Projektuppgift**. Utifrån valen för sammanfattning val kopieras uppskattningen från projektet för alla transaktionsklasser som ingår i kontraktraden. 
-3. Om du vill kontrollera vilka transaktionsklasser som är inkluderade går du till fliken **Allmänt** på kontraktraden och kontrollerar värdena i fälten **Inkludera tid** , **Inkludera utgifter** och **Inkludera avgifter**.
+2. Under fliken **Kontraktradsinformation** i underrutnätet väljer du **Importera från projektuppskattning**. En dialogruta med sammanfattningsalternativ öppnas. De tillgängliga alternativen för sammanfattning är **Transaktionsklass**, **Kategori**, **Roll** och **Projektuppgift**. Utifrån valen för sammanfattning val kopieras uppskattningen från projektet för alla transaktionsklasser som ingår i kontraktraden. 
+3. Om du vill kontrollera vilka transaktionsklasser som är inkluderade går du till fliken **Allmänt** på kontraktraden och kontrollerar värdena i fälten **Inkludera tid**, **Inkludera utgifter** och **Inkludera avgifter**.
 
 När du importerar uppskattningar kommer programmet att använda prissättningen utifrån de projektprislistor som är kopplade till kontraktet och den faktureringstyp som angetts på kontraktraden. Om en roll eller kategori konfigureras på kontraktraden som icke debiterbar, sätts den importerade uppskattningsraden för rollen eller kategorin som icke debiterbar och kommer inte att motsvara kontraktvärdet på kontraktraden.
 
@@ -52,7 +52,7 @@ När användaren väljer att sammanfatta efter **Transaktionsklass** och **Kateg
 | Uppgift A | Flyg | 10/1/2020 | 4 | 400 | 1600 |
 | &nbsp;  | Hotell | 10/1/2020 | 6 | 200 | 1200 |
 
-När användaren väljer att sammanfatta efter **Transaktionsklass** , **Kategori** och **Lövnodsuppgift** kommer följande att importeras. Observera att resultatet är samma som det som fanns i projektet:
+När användaren väljer att sammanfatta efter **Transaktionsklass**, **Kategori** och **Lövnodsuppgift** kommer följande att importeras. Observera att resultatet är samma som det som fanns i projektet:
 
 | Aktivitet | Kategori | Datum | Antal | Enhetspris | Belopp |
 | --- | --- | --- | --- | --- | --- |

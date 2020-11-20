@@ -3,7 +3,7 @@ title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 
 description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Project Service Automation, uppdateringsversion 21, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085491"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126730"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation uppdateringsversion 21, V3
 
@@ -54,7 +54,7 @@ Följande problem har åtgärdats:
 
 Följande problem har åtgärdats:
 
-- Formulärets rutnät **Projekt** (vyn **Resurstilldelning** , **Uppgift** , **Avstämning** , **Utgiftsuppskattningar** ) är fortfarande redigerbara även när ett projekt inte är aktivt.
+- Formulärets rutnät **Projekt** (vyn **Resurstilldelning**, **Uppgift**, **Avstämning**, **Utgiftsuppskattningar**) är fortfarande redigerbara även när ett projekt inte är aktivt.
 - Dubbletter av kunder kan inte kopplas till kunder som är länkade till bekräftade projekt kontrakt.
 - När en resurs som inte har en giltig kalender läggs till returnerar systemet inte ett användarvänligt felmeddelande.
 - Knappen **Lägg till uppgift** i rutnätet aktiveras när projektet länkas till ett **Microsoft Project-tillägg**.
@@ -71,7 +71,7 @@ Följande problem har åtgärdats:
 - **Totalt försäljningspris** är noll (0) för **kategori** även om **roll** har ett totalt försäljningspris som inte är noll.
 - Kunder kan inte ändra värdet i fältet **fakturastatus** till **klar för fakturering** när en annan anpassad process uppdaterar ett extra fält.
 - Med knappen **Uppdatera fakturarader** kan du skapa flera duplicerade rader om alternativet markeras flera gånger.
-- Knappen **Uppdatera priser** fungerar inte i underrutnätet **Rollpriser** i formuläret **Snabbgranskning**.
+- Knappen **Uppdatera priser** fungerar inte i underrutnätet **Rollpriser** i formuläret **Snabbvy**.
 - Logiken **Stängning av prislista för försäljning** hanterar tidszoner felaktigt, vilket resulterar i ett felaktigt urval av prislistor.
 - Ett projekts **Total faktisk kostnad** kan avgränsas med ett decimal belopp efter att en enskild tid har godkänts.
 - Logiken **Prismatchning** ger inte ett användarvänligt felmeddelande om **Hämta RolePrice** inte har värden i fälten **primär enhet** och **pris i primär enhet**.

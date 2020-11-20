@@ -3,7 +3,7 @@ title: Använd tillägget Project Service för att planera ditt arbete i Microso
 description: I den här ämnet finns information om hur du lägger till, konfigurerar och använder Microsoft Project-tillägget för Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085670"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129700"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Använd Project Service Automation-tillägget för att planera ditt arbete i Microsoft Project
 
@@ -141,7 +141,7 @@ Projektet kommer att importeras till [!INCLUDE[pn_project_service_auto](../inclu
 
 3. I dialogrutan **Aktivera öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** väljer du **Ja** eller **Nej**.  
 
-   - När du klickar på **Ja** kommer du att kunna klicka på knappen **Öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** -knappen i Project Service Automation och starta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] och läsa in projektfilen från SharePoint-dokumentbiblioteket.  
+   - När du klickar på **Ja** kommer du att kunna klicka på knappen **Öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**-knappen i Project Service Automation och starta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] och läsa in projektfilen från SharePoint-dokumentbiblioteket.  
 
    - När du klickar på **Nej** kommer länken för knappen **Öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** inte att fungera.  
 
@@ -155,7 +155,7 @@ Projektet kommer att importeras till [!INCLUDE[pn_project_service_auto](../inclu
 
 3. I dialogrutan **Aktivera öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** väljer du **Ja** eller **Nej**.  
 
-   - När du klickar på **Ja** kommer du att kunna klicka på knappen **Öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** -knappen i Project Service Automation och starta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] och läsa in projektfilen från SharePoint-dokumentbiblioteket.  
+   - När du klickar på **Ja** kommer du att kunna klicka på knappen **Öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**-knappen i Project Service Automation och starta [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] och läsa in projektfilen från SharePoint-dokumentbiblioteket.  
 
    - När du klickar på **Nej** kommer länken för knappen **Öppna i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** inte att fungera.  
 

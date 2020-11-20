@@ -3,7 +3,7 @@ title: Offerter och offertrader
 description: I det här ämnet finns information om offerter och offertrader.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085655"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129475"
 ---
 # <a name="quotes-and-quote-lines"></a>Offerter och offertrader
 
@@ -35,7 +35,7 @@ I Dynamics 365 Project Service Automation finns två typer av offerter: projekto
 - En försäljningsoffert stöder aktivering och revidering. En projektoffert stöder inte dessa processer.
 - Du kan koppla flera order till en försäljningsoffert. Du kan bara bifoga ett projektkontrakt till en projektoffert.
 - Du kan vinna en försäljningsoffert och behålla den relaterade affärsmöjligheten öppen. När en projektoffert har vunnits stängs den relaterade affärsmöjligheten.
-- En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert har fält. Fälten inkluderar **Kontrakteringsenhet** , **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
+- En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert har fält. Fälten inkluderar **Kontrakteringsenhet**, **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
 - Försäljningsofferter och projektofferter identifieras även av ett alternativbaserat fält med namnet **typ**. För en försäljningsoffert har det här fältet värdet **artikelbaserat**. För projektofferter används värdet **arbetsbaserad**.
 
 Det här ämnet fokuserar på detaljerna i projektofferter.
@@ -76,7 +76,7 @@ PSA stöder alla tre typerna av fakturascheman för offertrader med fast pris.
 Professionella tjänsteorganisationer brukar citera och fakturera sina kunder genom klassificering av kostnader. I PSA representeras kostnaderna av följande transaktionsklassificeringar:
 
 - **Tid** – denna klassificering visar kostnaden för arbete eller personalens tid i ett projekt.
-- **Utgift** : – denna klassificering representerar alla andra typer av utgifter i ett projekt. Eftersom utgifter kan klassificeras brett skapar de flesta organisationer underkategorier, t.ex. resa, hyrbil, hotell och kontorsmateriel.
+- **Utgift**: – denna klassificering representerar alla andra typer av utgifter i ett projekt. Eftersom utgifter kan klassificeras brett skapar de flesta organisationer underkategorier, t.ex. resa, hyrbil, hotell och kontorsmateriel.
 - **Avgift** – denna klassificering representerar diverse omkostnader, sanktioner och andra artiklar som debiteras kunden. 
 - **Moms** – den här klassificeringen visar momsbelopp som användare lägger till medan de registrerar utgifter.
 - **Materialtransaktion** – den här klassificeringen visar faktiska värden från produktraderna på en bekräftad projektfaktura.
@@ -91,7 +91,7 @@ En offert kan till exempel innehålla följande två offertrader:
 - Relaterade resekostnader som använder en fast pris faktureringsmetod. Exempelvis faktureras alla resekostnader för exempelprojektet **Dynamics AX Implementering** som ett fast monetärt värde.
 
 > [!NOTE]
-> Kombinationen av projekt och transaktionsklassificeringar för **tid** , **utgifter** och **avgifter** som är associerad med en offertrad eller kontraktrad måste vara unika. Om samma kombination av projekt och transaktionsklass är associerad med fler än en kontraktrad eller offertrad fungerar inte PSA korrekt.
+> Kombinationen av projekt och transaktionsklassificeringar för **tid**, **utgifter** och **avgifter** som är associerad med en offertrad eller kontraktrad måste vara unika. Om samma kombination av projekt och transaktionsklass är associerad med fler än en kontraktrad eller offertrad fungerar inte PSA korrekt.
 
 ## <a name="billing-types"></a>Faktureringstyper
 

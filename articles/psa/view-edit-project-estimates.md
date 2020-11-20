@@ -3,7 +3,7 @@ title: Visa och redigera projektuppskattningar
 description: Visa och redigera projektuppskattningar i Project Service Automation
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085616"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125875"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Visa och redigera projektuppskattningar (Project Service)
 
@@ -37,7 +37,7 @@ Med [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-
   
 3.  Välj nedpilen bredvid projektnamnet i fältet överst på skärmen och klicka på **Projektberäkningar**.  
   
-4.  I **Tidsfas efter** väljer du **Insats** , **Kostnad** eller **Försäljning** för att ändra vilka projektuppskattningar som ska visas.  
+4.  I **Tidsfas efter** väljer du **Insats**, **Kostnad** eller **Försäljning** för att ändra vilka projektuppskattningar som ska visas.  
   
 5.  För att lägga till eller ta bort utgifter, klicka på **Visa rutnätsvy**. Om du vill skapa en ny utgift, klicka på **Ny utgift**. Om du vill ta bort en utgift, markerar du den i listan och klickar sedan på **Ta bort utgift**. När du har lagt till eller tagit bort utgifter klickar du på **Spara**.  
   

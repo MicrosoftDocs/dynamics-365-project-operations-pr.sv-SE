@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085475"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124525"
 ---
 # <a name="time-entry-ui-behavior"></a>UI-funktioner för tidspost
 
@@ -40,7 +40,7 @@ I området varaktighet visas veckodagarna som kolumnrubriker. I det här avsnitt
 
 1. I rutnätet för tidsposter väljer du **Ny**. 
 2. I dialogrutan **Snabbskapa tidspost** väljer du datum för tidsposten.
-3. Ange data för dimensionerna **Projekt** , **Projektuppgift** , **Roll** och **Varaktighet**. Informationen ska läggas till i minuter, timmar eller dagar genom att skriva **h** , **m** eller **d** , tillsammans med siffran. 
+3. Ange data för dimensionerna **Projekt**, **Projektuppgift**, **Roll** och **Varaktighet**. Informationen ska läggas till i minuter, timmar eller dagar genom att skriva **h**, **m** eller **d**, tillsammans med siffran. 
 4. Ange en beskrivning av posten och eventuella kommentarer som kan delas ut externt gällande en tidspost. 
 
 När du sparar posten visas angivna värden i avsnittet **Dimensioner**. Informationen som anges i fältet **Varaktighet** visas det datum som tidsposten skapades för.
@@ -48,7 +48,7 @@ När du sparar posten visas angivna värden i avsnittet **Dimensioner**. Informa
 Uppslagsfält säkerhetskopieras med systemvyer. När en användare har angett ett projekt anges fältet **projektuppgift** till vyn **kopiera** som standard. Om du vill skapa tidsposter för uppgifter som inte är tilldelade till användaren klickar du på **ändra vy** i dialogrutan uppslag och markerar vyn **Alla aktiva projektuppgifter**.
 
 ## <a name="edit-a-time-entry"></a>Redigera en tidspost 
-Information från vissa fält på sidan för tidspost, t.ex. **Beskrivning** och **Externa kommentarer** , visas inte i rutnätet för veckovis tidspost. En liten triangulär indikator visas istället i cellerna **Varaktighet** med dessa ytterligare detaljer. 
+Information från vissa fält på sidan för tidspost, t.ex. **Beskrivning** och **Externa kommentarer**, visas inte i rutnätet för veckovis tidspost. En liten triangulär indikator visas istället i cellerna **Varaktighet** med dessa ytterligare detaljer. 
 
 1. Om du vill redigera en tidspost väljer du cellen du vill uppdatera i tidsposten.
 2. Välj **Redigera information** om du vill uppdatera data i fönstret **Tidspost MainForm**. 
@@ -67,10 +67,10 @@ Du kan återkalla tidsposter som du har skickat in. Du kan återkalla en enskild
 
 ## <a name="time-entry-status"></a>Tidspostens status
 
-- **Utkast** : Nya tidsposter tilldelas automatiskt statusen **Utkast**. Det går bara att ta bort tidsposter som har statusen **utkast**.
-- **Skickad** : När en tidspost skickas uppdateras statusen till **Skickad**. 
-- **Godkänd** : När en skickad tidspost godkänns uppdateras statusen till **Godkänd**. 
-- **Returnerad** : Om en tidspost avvisas uppdateras statusen till **Returnerad** och posten blir tillgänglig för korrigering och omsändning. 
+- **Utkast**: Nya tidsposter tilldelas automatiskt statusen **Utkast**. Det går bara att ta bort tidsposter som har statusen **utkast**.
+- **Skickad**: När en tidspost skickas uppdateras statusen till **Skickad**. 
+- **Godkänd**: När en skickad tidspost godkänns uppdateras statusen till **Godkänd**. 
+- **Returnerad**: Om en tidspost avvisas uppdateras statusen till **Returnerad** och posten blir tillgänglig för korrigering och omsändning. 
 
 ## <a name="view-rejection-comments"></a>Visa kommentarer till avvisning
 När en tidspost avvisas av en godkännare kan godkännaren lägga till kommentarer som gör det lättare för resursen att förstå orsaken till avslaget. Om du vill visa avslagskommentarerna för en tidspost markerar du **öppna post**. Kommentarerna för avvisningen visas på tidslinjen. Användaren kan svara på de för avslagskommentarerna innan de skickar posten på nytt.
@@ -80,7 +80,7 @@ När några tidsposter har skapats kan användarna skapa flera samtidigt.
 
 1. I formuläret **Tidsposter** väljer du **Kopiera vecka** för att skapa ytterligare tidsposter. 
 2. I dialogrutan **Kopiera** i avsnittet **Från period** använder du fälten **Startdatum** och **Slutdatum** för att definiera datumintervallet att kopiera tidsposter från. 
-3. I avsnittet **Till period** i fältet **Startdatum** , ange datumet att skapa tidsposter för. 
+3. I avsnittet **Till period** i fältet **Startdatum**, ange datumet att skapa tidsposter för. 
 4. Välj **kopiera**. För det angivna datumet i **Till period** skapas en kopia av tidsposterna för den motsvarande veckodagen i **Från period**. Exempelvis kopieras tidsposten för måndagen från den senaste veckan till måndagen i veckan som anges som **Till period**.
 
 ## <a name="import"></a>Import

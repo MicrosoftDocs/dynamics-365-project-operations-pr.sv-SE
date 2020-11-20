@@ -3,7 +3,7 @@ title: Godkänna tid och utgifter
 description: Godkänna tid och utgifter i Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085718"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127135"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Godkänn tid och utgifter (Project Service)
 
@@ -35,7 +35,7 @@ När konsulter anger tid och utgifter för projektet måste du godkänna det så
   
 2.  Klicka på objektet som ska godkännas.  
   
-3.  På flikarna **Tidsposter** , **Utgiftsposter** och **Frånvaro/ledighet** granskar du varje objekt och gör de ändringar som krävs.  
+3.  På flikarna **Tidsposter**, **Utgiftsposter** och **Frånvaro/ledighet** granskar du varje objekt och gör de ändringar som krävs.  
   
 4.  Om du vill godkänna ett objekt väljer du det och klickar på **Godkänn**. Du kan välja och godkänna flera objekt samtidigt.  
   

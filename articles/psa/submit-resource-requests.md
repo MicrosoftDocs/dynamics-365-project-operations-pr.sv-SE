@@ -3,7 +3,7 @@ title: Skicka resursbegäran
 description: Skicka in resursbegäran i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085632"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126910"
 ---
 # <a name="submit-resource-requests-project-service"></a>Skicka resursförfrågningar (Project Service)
 
@@ -41,7 +41,7 @@ När du har vunnit ett projektkontrakt måste bemanna projektet. En mall för up
   
 5.  Om du vill göra en fast bokning för resursen i stället väljer du rollen och klickar på **Fast bokning**. Detta visar en kalendervy av alla resurser och deras tillgänglighet, med färgkodning som ger en visuell översikt av bokningsstatus för en resurs. Gör något av följande för att optimera din sökning:  
   
-    -   Välj en vy eller sorteringsordning från överst på skärmen. Du kan också välja om du vill visa tillgänglighet för **dag** , **vecka** eller **månad** , och använda pilarna för att visa föregående eller nästa tidsperioden. Använd sökrutan för att hitta en viss resurs.  
+    -   Välj en vy eller sorteringsordning från överst på skärmen. Du kan också välja om du vill visa tillgänglighet för **dag**, **vecka** eller **månad**, och använda pilarna för att visa föregående eller nästa tidsperioden. Använd sökrutan för att hitta en viss resurs.  
   
     -   Klicka på **Alternativ** för att ändra det som visas. Till exempel kan du visa en förklaring som visar färgschemat för olika typer av bokningar, eller du kan välja att visa endast en viss typ av bokning (till exempel fast bokning eller preliminär bokning).  
   

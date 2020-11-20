@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124660"
 ---
 # <a name="extending-time-entries"></a>Utöka tidsposter
 
@@ -33,7 +33,7 @@ Det går att utöka tidsposter i två områden:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Lägga till anpassade tidsposter för egen användning
 
-Tidsposter är en huvudsaklig entitet som används i flera scenarier. Under utgivningscykel 1 i april 2020 introducerades lösningen TESA. TESA tillhandahåller en **inställningsentitet** och en ny säkerhetsroll **Användare av tidsposter**. Även de nya fälten **msdyn_start** och **msdyn_end** , som har en direkt relation till **msdyn_duration** , ingår. Den nya entiteten, säkerhetsrollen och de nya fälten ger en mer enhetlig inställning till tid över flera produkter.
+Tidsposter är en huvudsaklig entitet som används i flera scenarier. Under utgivningscykel 1 i april 2020 introducerades lösningen TESA. TESA tillhandahåller en **inställningsentitet** och en ny säkerhetsroll **Användare av tidsposter**. Även de nya fälten **msdyn_start** och **msdyn_end**, som har en direkt relation till **msdyn_duration**, ingår. Den nya entiteten, säkerhetsrollen och de nya fälten ger en mer enhetlig inställning till tid över flera produkter.
 
 
 ### <a name="time-source-entity"></a>Källentitet för tid
@@ -109,7 +109,7 @@ Den här vyn ska innehålla fälten **Beskrivning** och **Externa kommentarer** 
 2. Konfigurera den anpassade kontrollen för vyn så att den är en kontroll för **Rutnät för tidspost**. 
 3. Lägg till den här kontrollen i vyn och välj den för webben, telefon och surfplatta. 
 4. Konfigurera parametrarna för rutnät för veckotidspost. 
-5. Ange fältet **Startdatum** till **msdyn_date** , ange värdet för **varaktighet** till **msdyn_duration** och ange fältet **Status** till **msdyn_entrystatus**. 
+5. Ange fältet **Startdatum** till **msdyn_date**, ange värdet för **varaktighet** till **msdyn_duration** och ange fältet **Status** till **msdyn_entrystatus**. 
 6. I standardvyn är fältet **Skrivskyddad statuslista** inställd på **192350002,192350003,192350004**. Fältet **Uppgiftsflöde för radredigering** är inställt på **msdyn_timeentryrowedit**. Fältet **Uppgiftsflöde för cellredigering** är inställt på **msdyn_timeentryedit**. 
 7. Du kan anpassa de här fälten om du vill lägga till eller ta bort skrivskyddad status eller om du vill använda olika uppgiftsbaserade miljöer (TBX) för redigering av rader eller celler. De här fälten är nu bundna till ett statiskt värde.
 
@@ -121,10 +121,10 @@ Fastställ lämpligt uppgiftsflöde för det anpassade fältet. Om du har lagt t
 
 Om du vill lägga till det anpassade fältet i ett uppgiftsflöde drar du elementet **Fält** till rätt plats på sidan och anger sedan fältegenskaperna. Ange egenskapen **Källa** till **Tidspost** och ange egenskapen för **datafältet** till det anpassade fältet. Egenskapen **Fält** anger visningsnamn på sidan TBX. Välj **Tillämpa** om du vill spara ändringarna i fältet och välj sedan **Uppdatera** för att spara ändringarna på sidan.
 
-Om du vill använda en ny anpassad TBX-sida i stället skapar du en ny process. Ange kategorin som **affärsprocessflöde** , ange posten till **tidspost** och ange affärsprocesstypen till **Kör process som uppgiftsflöde**. Under **egenskaper** ska egenskapen **sidnamn** anges som visningsnamn för sidan. Lägg till alla relevanta fält på sidan TBX. Spara och aktivera processen. Uppdatera egenskapen anpassad kontroll för det aktuella uppgiftsflödet till värdet för processens **namn**.
+Om du vill använda en ny anpassad TBX-sida i stället skapar du en ny process. Ange kategorin som **affärsprocessflöde**, ange posten till **tidspost** och ange affärsprocesstypen till **Kör process som uppgiftsflöde**. Under **egenskaper** ska egenskapen **sidnamn** anges som visningsnamn för sidan. Lägg till alla relevanta fält på sidan TBX. Spara och aktivera processen. Uppdatera egenskapen anpassad kontroll för det aktuella uppgiftsflödet till värdet för processens **namn**.
 
 ### <a name="add-new-option-set-values"></a>Lägg till nya värden för alternativuppsättning
-Om du vill lägga till värden för alternativuppsättning i ett färdigt fält öppnar du redigeringssidan för fältet och under **Typ** väljer du sedan **Redigera** bredvid alternativuppsättningen. Lägg till ett nytt alternativ som har en egen etikett och färg. Om du vill lägga till en ny tidspoststatus heter det färdiga fältet **Poststatus** , inte **Status**.
+Om du vill lägga till värden för alternativuppsättning i ett färdigt fält öppnar du redigeringssidan för fältet och under **Typ** väljer du sedan **Redigera** bredvid alternativuppsättningen. Lägg till ett nytt alternativ som har en egen etikett och färg. Om du vill lägga till en ny tidspoststatus heter det färdiga fältet **Poststatus**, inte **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Ange en ny tidspoststatus som skrivskyddad
 Om du vill ange en ny tidspoststatus som skrivskyddad lägger du till det nya värdet till egenskapen **Skrivskyddad statuslista**. Den redigerbara delen av rutnätet för tidsposter låses för rader med den nya statusen.

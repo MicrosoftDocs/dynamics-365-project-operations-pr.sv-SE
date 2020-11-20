@@ -3,7 +3,7 @@ title: Översikt över värden
 description: I det här ämnet finns information om projektets faktiska värden.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085738"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129790"
 ---
 # <a name="actuals-overview"></a>Översikt över värden
 
@@ -51,7 +51,7 @@ I den aktuella versionen av PSA är kategoribaserade poster av per enhet standar
 
 ## <a name="using-entry-journals-to-record-costs"></a>Använda postjournaler för att registrera kostnader
 
-I PSA kan du med hjälp av postjournaler registrera kostnader eller intäkter i transaktionsklasserna material, avgift, tid, utgift eller moms. En journal har ett huvud, rader och en **Bekräfta** -åtgärd. Här följer några scenarier där du kan använda en journal:
+I PSA kan du med hjälp av postjournaler registrera kostnader eller intäkter i transaktionsklasserna material, avgift, tid, utgift eller moms. En journal har ett huvud, rader och en **Bekräfta**-åtgärd. Här följer några scenarier där du kan använda en journal:
 
 - Du måste registrera materialets faktiska kostnader och försäljning i ett projekt.
 - Du måste flytta faktiska värden för transaktioner från ett annat system till PSA.

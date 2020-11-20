@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085537"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127798"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Skapa och bekräfta korrigeringsjournaler
 
@@ -36,7 +36,7 @@ Du måste ha administratörsbehörigheter för att kunna slutföra procedurerna 
 
 Utför följande steg för att korrigera enstaka eller flera tidsposter för ett projekt.
 
-1. Välj området **Försäljning** , **Transaktioner** och välj sedan **Godkänd tid**. 
+1. Välj området **Försäljning**, **Transaktioner** och välj sedan **Godkänd tid**. 
 
 2. I listan **Godkänd tid** letar du upp och markerar en eller flera godkända tidsposter som du vill korrigera. Du kan använda filtret för att söka efter relaterade poster. Du kan till exempel filtrera på ett projekt-ID och sedan välja alla godkända tidsposter med det projekt-ID:t.
 
@@ -53,7 +53,7 @@ Utför följande steg för att korrigera enstaka eller flera tidsposter för ett
 
 7. Om korrigeringarna visas som de ska väljer du **Bekräfta**. I dialogrutan markerar du **OK**.
 
-8. Gå tillbaka till området **Fförsäljning** , välj **Projekt** och öppna sedan projektet som du precis uppdaterat tidstransaktionerna för. 
+8. Gå tillbaka till området **Fförsäljning**, välj **Projekt** och öppna sedan projektet som du precis uppdaterat tidstransaktionerna för. 
 
 9. På sidan **Projekt** i fliken **Faktiska värden** kan du se de ändringar du har gjort. 
 
@@ -69,11 +69,11 @@ I följande bild finns till exempel två radobjekt med kvantiteten 8,00 som har 
 
 Följ stegen nedan om du vill korrigera en eller flera utgiftsposter. 
 
-1. I området **Försäljning** : I vänster navigeringsuta, under **Transaktioner** , väljer du **Godkända utgifter**.
+1. I området **Försäljning**: I vänster navigeringsuta, under **Transaktioner**, väljer du **Godkända utgifter**.
 
 2. I listan **Godkända utgifter** väljer du det projekt som du vill korrigera och väljer sedan **Korrigera poster**. En ny korrigeringsjournal skapas automatiskt med den tilldelade typen **Utgiftskorrigering**. 
 
-3. På sidan **Ny journal** anger du en **Beskrivning** för korrigeringen, och på fliken **Utgiftskorrigering** , i avsnittet **Nya utgiftsvärden** , väljer du de datafält som du vill korrigera för valda utgiftsrader. Du kan t.ex. tilldela utgiften till ett annat **Projekt** eller korrigera **Utgiftskategori** , **Utgiftsdatum** eller **Bokningsbar resurs**.
+3. På sidan **Ny journal** anger du en **Beskrivning** för korrigeringen, och på fliken **Utgiftskorrigering**, i avsnittet **Nya utgiftsvärden**, väljer du de datafält som du vill korrigera för valda utgiftsrader. Du kan t.ex. tilldela utgiften till ett annat **Projekt** eller korrigera **Utgiftskategori**, **Utgiftsdatum** eller **Bokningsbar resurs**.
 
 4. Välj **Förhandsversion**. I dialogrutan markerar du **OK**. 
 

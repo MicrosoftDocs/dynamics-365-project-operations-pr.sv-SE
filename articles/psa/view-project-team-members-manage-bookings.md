@@ -3,7 +3,7 @@ title: Visa projektets teammedlemmar och hantera bokningar
 description: Visa projektteammedlemmar och hantera bokningar i Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085615"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127808"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Visa projektets teammedlemmar och hantera bokningar (Project Service)
 
@@ -41,7 +41,7 @@ Du kan visa en lista över projektets teammedlemmar och därifrån kan du underh
   
 5.  Om du vill göra en fast bokning för resursen i stället väljer du rollen och klickar på **Fast bokning**. Detta visar en kalendervy av alla resurser och deras tillgänglighet, med färgkodning som ger en visuell översikt av bokningsstatus för en resurs. Gör något av följande för att optimera din sökning:  
   
-    -   Välj en vy eller sorteringsordning från överst på skärmen. Du kan också välja om du vill visa tillgänglighet för **dag** , **vecka** eller **månad** , och använda pilarna för att visa föregående eller nästa tidsperioden. Använd sökrutan för att hitta en viss resurs.  
+    -   Välj en vy eller sorteringsordning från överst på skärmen. Du kan också välja om du vill visa tillgänglighet för **dag**, **vecka** eller **månad**, och använda pilarna för att visa föregående eller nästa tidsperioden. Använd sökrutan för att hitta en viss resurs.  
   
     -   Klicka på **Alternativ** för att ändra det som visas. Till exempel kan du visa en förklaring som visar färgschemat för olika typer av bokningar, eller du kan välja att visa endast en viss typ av bokning (till exempel fast bokning eller preliminär bokning).  
   

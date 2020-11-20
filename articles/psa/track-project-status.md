@@ -3,7 +3,7 @@ title: Följa upp projektstatus
 description: Spåra projektstatus i Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127855"
 ---
 # <a name="track-a-projects-status-project-service"></a>Följa upp projektstatus (Project Service)
 
@@ -37,7 +37,7 @@ När engagemanget fortlöper, uppdateras projektstadier för att återspegla sta
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Nytt**    | När du skapar ett projekt anges stadiet till **Nytt**. Om du har skapat projektet från en mall kan projektet i detta skede ha ett schema, uppskattningar och teamdata. Annars blir den projektets disposition och du måste manuellt ange resten av projektkomponenterna. |
-|  **Offert**   |      När du associerar ett projekt till en offert eller skapar det från en offert, anges projektstadiet som **Offert** , och de uppskattade start- och slutdatumen uppdateras också. När projektet är i offertstadiet visas information om offerten på fliken **Försäljning** fliken på sidan **Projekt**.      |
+|  **Offert**   |      När du associerar ett projekt till en offert eller skapar det från en offert, anges projektstadiet som **Offert**, och de uppskattade start- och slutdatumen uppdateras också. När projektet är i offertstadiet visas information om offerten på fliken **Försäljning** fliken på sidan **Projekt**.      |
 |   **Planera**   |                                     När du vinner en offert som är associerad med ett projekt och åtagandet övergår i kontraktstadiet uppdateras projektfasen till **Planera**. Information om kontraktet visas på fliken **Försäljning** på sidan **Projekt**.                                      |
 | **Slutförd** |                    När du är klar med arbetet i projektet du kan byta stadium **Slutfört**. Det är underförstått att arbetet är 100 % färdigt när projektstadiet anges till slutfört, men projektet hålls öppet för eventuella väntande tids- och utgiftsutgifter ska registreras.                     |
 |  **Stäng**   |           Om du inte förväntar dig fler transaktioner ska loggas och alla transaktioner har registrerats i projektet kan du manuellt ange stadiet till **Stäng**. När projektet är inställt på **Stäng** kan du inte logga några fler transaktioner i projektet och projektet är skrivskyddat.           |
