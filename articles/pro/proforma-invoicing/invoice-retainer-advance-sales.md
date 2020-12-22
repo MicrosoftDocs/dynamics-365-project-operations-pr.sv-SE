@@ -1,5 +1,5 @@
 ---
-title: Fakturera arvode eller förskott - lite
+title: Fakturera arvode eller förskott
 description: I det här ämnet finns information om hur du fakturerar ett arvode eller förskott i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180574"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596214"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturera arvode eller förskott - lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturera arvode eller förskott
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Dynamics 365 Project Operations stöder arvode-baserade kontrakt och engångsförskott. I ett projektkontrakt kan du registrera ett schema över arvoden eller engångsförskott. Registrering på projektkontraktsnivå gör emellertid inte direkt ett arvode eller förskott tillgängligt för användning. Om du vill använda ett arvode eller förskott på en faktura som faktiskt debiterar kunden, måste arvodet eller förskottet faktureras först.
+Dynamics 365 Project Operations stöder arvodesbaserade kontrakt och engångsförskott. I ett projektkontrakt kan du registrera ett schema över arvoden eller engångsförskott. Registrering på projektkontraktsnivå gör emellertid inte direkt ett arvode eller förskott tillgängligt för användning. Om du vill använda ett arvode eller förskott på en faktura som faktiskt debiterar kunden, måste arvodet eller förskottet faktureras först.
 
 Slutför stegen nedan om du vill fakturera ett arvode eller förskott.
 

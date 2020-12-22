@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131635"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642430"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Ta fram projektmallar med Kopiera projekt
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Med Dynamics 365 Project Operations kan du kopiera ett projekt och återställa alla tilldelningar till de allmänna resurser som representerar rollen. Kunderna kan använda den här funktionen för att skapa grundläggande projektmallar.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations stöder möjligheten att kopiera ett projekt och återställa eventuella tilldelningar till de generiska resurser som representerar rollen. Kunderna kan använda den här funktionen för att skapa grundläggande projektmallar.
 
 När du väljer **Kopiera projekt** uppdateras statusen för målprojektet. Använd **Statusorsak** för att bestämma när kopieringsåtgärden är klar. Om du väljer **Kopiera projekt** uppdateras även projektets startdatum till det aktuella startdatumet om inget måldatum hittas i entiteten för målprojektet.
 
@@ -32,15 +34,15 @@ När du väljer **Kopiera projekt** uppdateras statusen för målprojektet. Anv�
 ### <a name="input-parameters"></a>Indataparametrar
 Det finns tre indataparametrar:
 
-| Parameter          | Type   | Värden                                                   | 
+| Parameter          | Typ   | Värden                                                   | 
 |--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** eller **{"clearTeamsAndAssignments":true}** |
+| ProjectCopyOption  | Sträng | **{"removeNamedResources":true}** eller **{"clearTeamsAndAssignments":true}** |
 | SourceProject      | Entitetsreferens | Källprojekt |
 | Mål             | Entitetsreferens | Målprojekt |
 
 
-- **{"clearTeamsAndAssignments":true}**: Tre standardbeteenden för Project for the Web och tar bort alla tilldelningar och teammedlemmar.
-- **{"removeNamedResources":true}** Standardbeteendet för Project Operations och återför tilldelningar till generiska resurser.
+- **{"clearTeamsAndAssignments":true}**: Tre standardbeteenden för Project for the Web och tar bort alla tilldelningar och gruppmedlemmar.
+- **{"removeNamedResources":true}** Standardbeteendet för Project Operations och återställer tilldelningar till generiska resurser.
 
 Mer standarder vad gäller åtgärder finns i [Använd webb-API-åtgärder](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 

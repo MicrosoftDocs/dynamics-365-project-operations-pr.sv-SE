@@ -1,5 +1,5 @@
 ---
-title: Skapa ett ad hoc-förskott på ett kontrakt – Lite
+title: Skapa ett ad hoc-förskott i ett kontrakt
 description: I det här ämnet finns information om hur du skapar ett förskott på ett kontrakt efter behov.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181384"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596034"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Skapa ett ad hoc-förskott på ett kontrakt – Lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Skapa ett ad hoc-förskott i ett kontrakt
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Microsoft Dynamics 365 Project Operations har stöd för faktureringsscenarier som omfattar förskottsbetalningar och förskott. Processen för att använda **förskott** i **Project Operations** liknar kontrakt som **Kvarhållare**. 
 

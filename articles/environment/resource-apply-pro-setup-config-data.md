@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401150"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642250"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Ställ in och använd konfigurationsdata i Common Data Service 
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="prerequisites"></a>Förutsättningar
 
@@ -33,9 +35,9 @@ Innan du börjar konfigurera data i Common Data Service (CDS) måste följande k
 
 1. Hämta, avblockera och packa upp paketet [Inställnings- och konfigurationsdata](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Navigera till den uppackade mappen och kör den körbara filen *DataMigrationUtility*.
-3. På sidan 1 i guiden Common Data Service konfigurationsmigrering (CMT) väljer du **Importera data** och sedan **Fortsätt**.
+3. På sidan 1 i guiden Common Data Service Configuration Migration (CMT) väljer du **Importera data** och sedan **Fortsätt**.
 
-![Konfigurationsmigrering](./media/1ConfigurationMigration.png)
+![Configuration Migration](./media/1ConfigurationMigration.png)
 
 4. På sidan 2 i guiden CMT väljer du **Microsoft 365** som **Distributionstyp**.
 5. Markera kryssrutorna **Visa en lista över tillgängliga organisationer** och **Visa avancerat**.

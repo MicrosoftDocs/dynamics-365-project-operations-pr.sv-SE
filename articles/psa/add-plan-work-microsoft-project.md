@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129700"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642790"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Använd Project Service Automation-tillägget för att planera ditt arbete i Microsoft Project
 
@@ -64,11 +64,11 @@ ms.locfileid: "4129700"
 2.  Välj en projektmall i listan och klicka sedan på **öppna**.  
 
     > [!NOTE]
-    >  Som standard ställs aktiviteter som kopieras från mallen till projekt in som manuellt schemalagda.  
+    >  Som standard ställs uppgifter som kopieras från mallen till projekt in som manuellt schemalagda.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Tilldela [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-roller till projektresurser  
 
-1.  Öppna ett projekt och klicka på menyfliksområdet **Aktivitet**.  
+1.  Öppna ett projekt och klicka på menyfliksområdet **Uppgift**.  
 
 2.  Klicka på **Gantt-schemat** -menyn och välj sedan **Resurslista**.  
 
@@ -91,8 +91,8 @@ Projektet kommer att importeras till [!INCLUDE[pn_project_service_auto](../inclu
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Redigera diagram**   | Importera till skärmen [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **uppdelad arbetsstruktur**. |
-| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resursark** |   Importera till skärmen [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektteammedlemmar**.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Använd användning**    |    Importerar till skärmen [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektberäkningar**.     |
+| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resursark** |   Importera till skärmen [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektgruppmedlemmar**.   |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Använd användning**    |    Importerar till vyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektuppskattningar**.     |
 
 **Importera och publicera projektet**  
 1. Från fliken **Project Service** klickar du på **Publicera** > **Nytt Project Service Automation-projekt**.  
@@ -173,6 +173,59 @@ Projektet kommer att importeras till [!INCLUDE[pn_project_service_auto](../inclu
 4. Klicka på **Publicera**.  
 
 Länka projektfilen till [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] gör projektfilen till huvudfilen och anger uppdelad arbetsstruktur i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-mallen till skrivskyddad.  Om du vill göra ändringar i projektplanen, måste du göra dem i [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] och publicera dem som uppdateringar till [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Läs ett resursinläst schema
+
+När du läser ett projekt från Project Service Automation synkroniseras inte resursens kalender till skrivbordsklienten. Om det finns skillnader i uppgifternas varaktighet, arbetsinsats eller slut beror detta förmodligen på att resurserna och skrivbordsklienten inte har samma mallkalender för arbetstimmar tillämpade på projektet.
+
+
+## <a name="data-synchronization"></a>Datasynkronisering
+
+I följande tabell beskrivs hur data synkroniseras mellan Project Service Automation och Microsoft Project-skrivbordstillägget.
+
+| **Entitet** | **Fält** | **Microsoft Project till Project Service Automation** | **Project Service Automation till Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektuppgift | Förfallodatum | ● | - |
+| Projektuppgift | Uppskattad ansträngning | ● | - |
+| Projektuppgift | Klient-ID för MS Project | ● | - |
+| Projektuppgift | Överordnad uppgift | ● | - |
+| Projektuppgift | Projekt | ● | - |
+| Projektuppgift | Projektuppgift | ● | - |
+| Projektuppgift | Projektuppgiftens namn | ● | - |
+| Projektuppgift | Resursenhet (utfasad i version 3.0) | ● | - |
+| Projektuppgift | Schemalagd tid | ● | - |
+| Projektuppgift | Startdatum | ● | - |
+| Projektuppgift | ID för WBS | ● | - |
+
+| **Entitet** | **Fält** | **Microsoft Project till Project Service Automation** | **Project Service Automation till Microsoft Project** |
+| --- | --- | --- | --- |
+| Gruppmedlem | Klient-ID för MS Project | ● | - |
+| Gruppmedlem | Positionens namn | ● | - |
+| Gruppmedlem | projekt | ● | ● |
+| Gruppmedlem | Projektteam | ● | ● |
+| Gruppmedlem | Resursenhet | - | ● |
+| Gruppmedlem | Roll | - | ● |
+| Gruppmedlem | Arbetstider | Inte synkroniserad | Inte synkroniserad |
+
+| **Entitet** | **Fält** | **Microsoft Project till Project Service Automation** | **Project Service Automation till Microsoft Project** |
+| --- | --- | --- | --- |
+| Resurstilldelning | Från och med | ● | - |
+| Resurstilldelning | timmar | ● | - |
+| Resurstilldelning | Klient-ID för MS Project | ● | - |
+| Resurstilldelning | Planerat arbete | ● | - |
+| Resurstilldelning | Projekt | ● | - |
+| Resurstilldelning | Projektteam | ● | - |
+| Resurstilldelning | Resurstilldelning | ● | - |
+| Resurstilldelning | Uppgift | ● | - |
+| Resurstilldelning | Hittills | ● | - |
+
+| **Entitet** | **Fält** | **Microsoft Project till Project Service Automation** | **Project Service Automation till Microsoft Project** |
+| --- | --- | --- | --- |
+| Beroenden för projektuppgift | Beroende för projektuppgift | ● | - |
+| Beroenden för projektuppgift | Länktyp | ● | - |
+| Beroenden för projektuppgift | Föregående uppgift | ● | - |
+| Beroenden för projektuppgift | Projekt | ● | - |
+| Beroenden för projektuppgift | Efterföljande uppgift | ● | - |
 
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)

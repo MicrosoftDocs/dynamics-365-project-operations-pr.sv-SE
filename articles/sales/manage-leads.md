@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181789"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513856"
 ---
 # <a name="manage-leads"></a>Hantera leads
 
@@ -29,7 +29,7 @@ Du kan skapa en filtrerad vy om du endast vill visa projektbaserade leads genom 
 
 ## <a name="create-a-new-lead-for-a-project-based-deal"></a>Skapa en ny lead för en projektbaserad affär
 
-När en projektbaserad lead kvalificeras skapas en affärsmöjlighet och ett konto. En projektbaserad affärsmöjlighet är startpunkten för försäljningsaktiviteter i fasen Affärsmöjlighet. Projektbaserade affärsmöjligheter har unika funktioner som krävs för att kunna sälja projektarbete. Dessa funktioner omfattar:
+När en projektbaserad lead kvalificeras skapas en affärsmöjlighet och ett konto. En projektbaserad affärsmöjlighet är startpunkten för försäljningsuppgifter i fasen Affärsmöjlighet. Projektbaserade affärsmöjligheter har unika funktioner som krävs för att kunna sälja projektarbete. Dessa funktioner omfattar:
 
 - Faktureringsmetoderna Tid och material och Fast pris
 - Flera datumeffektiva prislistor för personal, utgifter och material som uppstår i projekt

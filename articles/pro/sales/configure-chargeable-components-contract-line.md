@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177173"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513901"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad - lite
 
@@ -34,7 +34,7 @@ En delmängd av de inkluderade komponenterna kan markeras som debiterbar med hj�
 
 Debiterbara komponenter kan definieras för uppgifter, roller och transaktionskategorier.
 
-Debiterbarhet anges för uppgifter för en projektkontraktrad och gäller alla transaktionsklasser som finns på raden. Om fältet **Inkludera uppgifter** på en kontraktrad är tomt eller har värdet **Hela projektet** är fliken **Debiterbara uppgifter** inte tillgängliga.
+Debiteringsbarhet anges för uppgifter för en projektkontraktrad och gäller alla transaktionsklasser som finns på raden. Om fältet **Inkludera uppgifter** på en kontraktrad är tomt eller har värdet ***Hela projektet*** är fliken **Debiterbara uppgifter** inte tillgänglig.
 
 Debiteringsbarhet som definieras på roller för en projektkontraktsrad gäller endast för transaktionsklassen **Tid**. Om fältet **Inkludera tid** på en kontraktrad är angiven till **Nej**, är fliken **Debiterbara roller** inte tillgänglig.
 
@@ -46,7 +46,7 @@ En projektuppgift kan vara debiterbar eller ej debiterbar på en specifik kontra
 
 Om en projektbaserad kontraktrad innehåller **Tid** och en viss uppgift associerad **T1** till den som debiterbar. Om det finns en andra kontraktrad som inkluderar **Utgift** kan du associera T1-uppgiften på kontraktraden som icke debiterbar. Resultatet blir att all tid som har registrerats på uppgiften är debiterbar och att alla utgifter är icke debiterbara.
 
-Faktureringstypen för en uppgift kan konfigureras på **Debiterbara uppgifter** på kontraktraden genom att uppdatera fält **Faktureringstyp** i underrutnätet uppgifter i kontraktsraden. Du kan också uppdatera fältet **faktureringstyp** i underrutnätet i inställningarna för uppgiftsfakturering i ett projekt som visar de kontraktrader som är associerade med en aktivitet.
+Faktureringstypen för en uppgift kan konfigureras på **Debiterbara uppgifter** på kontraktraden genom att uppdatera fält **Faktureringstyp** i underrutnätet uppgifter i kontraktsraden. Du kan också uppdatera fältet **faktureringstyp** i underrutnätet i inställningarna för uppgiftsfakturering i ett projekt som visar de kontraktrader som är associerade med en uppgift.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Uppdatera en roll som debiterbar eller ej debiterbar
 
@@ -60,14 +60,14 @@ En transaktionskategori kan vara debiterbar eller inte debiterbar på en specifi
 
 En transaktions faktureringstyp kan konfigureras under fliken **Debiterbara kategorier** på en projektbaserad kontraktrad. Det gör du genom att uppdatera fältet **faktureringstyp** i under rutnätet **debiterbara kategorier**.
 
-### <a name="resolve-chargeability"></a>Åtgärda debiterbarhet
+### <a name="resolve-chargeability"></a>Åtgärda debiteringsbarhet
 
 En uppskattning eller ett faktiskt värde som skapats för tid anses endast vara debiterbart om **Tid** finns på kontraktraden och om **Uppgift** och **Roll** har konfigurerats som debiterbara på kontraktraden.
 
 En uppskattning eller ett faktiskt värde som skapats för utgift anses endast vara debiterbart om **Utgift** finns på kontraktraden och om kategorierna **Uppgift** och **Transaktion** har konfigurerats som debiterbara på kontraktraden.
 
 
-| Inkluderar tid | Inkluderar utgift | Inkluderar uppgifter | Roll           | Kategori       | Aktivitet                                                                                                      |
+| Inkluderar tid | Inkluderar utgift | Inkluderar uppgifter | Roll           | Kategori       | Uppgift                                                                                                      |
 |---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
 | Ja           | Ja              | Hela projektet | Debiterbart     | Debiterbart     | Fakturering för faktiskt värde för Tid: **Debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Debiterbart**           |
 | Ja           | Ja              | Valda uppgifter | Debiterbart     | Debiterbart     | Fakturering för faktiskt värde för Tid: **Debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Debiterbart**           |

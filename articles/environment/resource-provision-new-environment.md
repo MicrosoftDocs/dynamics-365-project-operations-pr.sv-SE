@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121195"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643014"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-I den här ämne finns information om hur du etablerar en ny Dynamics 365 Project Operations-miljö för resursbaserade/icke lagerbaserade scenarier.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+I det här ämnet finns information om hur du tillhandahåller en ny Dynamics 365 Project Operations-miljö för resurser/icke-lagerbaserade scenarier.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Aktivera automatisk etablering av Project Operations i ett LCS-projekt
 
@@ -120,7 +122,7 @@ Miljöunderhållet tar lite tid. När det är klart kommer miljön att återgå 
 
 ![Tillämpa lösningar](./media/13ApplySolutions.png)
 
-5. Välj båda lösningarna, **Dynamics 365 Finance and Operations Dual Write Entity Map** och **Dynamics 365 Project Operations Dual Write Entity Maps**, och välj sedan **Tillämpa**.
+5. Välj båda lösningarna, **Dynamics 365 Finance and Operations-entitetskarta för dubbelskrivning** och **Dynamics 365 Project Operations-entitetskartor för dubbelskrivning** och välj sedan **Verkställ**.
 
 ![Bekräfta lösningar](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den �
 | --- | --- | --- | --- | --- | --- |
 | **Projektresursroller för alla företag (bookableresourcecategories)** | Inga | Ja | Common Data Service | Inga | N\A |
 | **Juridiska personer (cdm\_companies)** | Inga | Ja | Finance and Operations-appar | Inga | N\A |
+| **Huvudbok (msdyn_ledgers)** | Inga | Ja | Finance and Operations-appar | Ja | Ja, Finance and Operations-appar |
 | **Verkliga värden för Project Operations-integrering (msdyn\_actuals)** | Inga | Inga | N\A | Ja | Inga |
 | **Projektkontraktrader (salesorderdetails)** | Inga | Inga | N\A | Inga | Inga |
 | **Integrationsentitet för projekttransaktionsrelationer (msdyn\_transactionconnections)** | Inga | Inga | N\A | Inga | N\A |

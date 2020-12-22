@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130870"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672253"
 ---
 # <a name="override-project-sales-price-lists"></a>Åsidosätt projektförsäljningsprislistor
 
@@ -27,7 +28,7 @@ Om du vill skapa en kundspecifik projektprislista i området **försäljning** n
 
 1. Öppna listsidan **Konton**.
 2. Leta upp och dubbelklicka på en kundpost om du vill öppna informationssidan **konto**.
-3. På fliken **Projektprislistor** välj **+ Ny projektprislista^^.
+3. I fliken **Projektprislistor** väljer du **+ Ny projektprislista**.
 4. På sidan **Ny projektprislista** väljer du en prislista i listrutan. Endast prislistor som har kontexten inställd på **försäljning** och vars valuta överensstämmer med kontovalutan.
 5. Namnge associationen och välj **Spara**. En kundspecifik projektprislista skapas. Den här prislistan används som standard för projektkostnader i projektofferter eller kontrakt som skapats för den här kunden när offertens eller projektkontraktets slutdatum faller inom giltighetsdatum för prislistan.
 

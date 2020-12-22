@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124390"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642925"
 ---
 # <a name="security-model"></a>Säkerhetsmodell
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Microsoft Dynamics 365 Project Operations innehåller en unik säkerhetsmodell som tillåter en rollbaserad säkerhetsmodell för affärer som samarbetar med Microsoft Office-grupper. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations innehåller en unik säkerhetsmodell som möjliggör en rollbaserad affärsmodell för verksamhetssäkerhet som samarbetar med Microsoft Office-grupper. 
 
 
 ## <a name="security-roles"></a>Säkerhetsroller
@@ -31,7 +33,7 @@ Klientdesfunktioner i Projet Operations innehåller följande roller:
 | Projektgodkännare              | Godkänner tid och utgifter mot ett projekt.                                                                                                                              | Affärsenhet |
 | Debiteringsadministratör för projekt | Skapar fakturaförslaget.                                                                                                                                                 | Affärsenhet |
 | Projektledare               | Skapar projektplanen och begär resurser.                                                                                                                              | Affärsenhet |
-| Projektresurs              | Teammedlemmar som kan bokas och rapportera tid.                                                                                                          | Affärsenhet|
+| Projektresurs              | Gruppmedlemmar som kan bokas och rapportera tid.                                                                                                          | Affärsenhet|
 | Resurshanterare              | Alla resurshanteringsfunktioner, t.ex. uppfyllande av resursbegäranden och bokningar, avgränsade med stöd för en hybridkonfiguration av projektledare + resurshanterare och en enskild och centraliserad resurshanteringsroll. | Affärsenhet |
 
 

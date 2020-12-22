@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180529"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513811"
 ---
 # <a name="manage-leads---lite"></a>Hantera leads - lite
 
@@ -23,13 +23,13 @@ Projektbaserade leads kan hanteras och kvalificeras i Project Operations. I proc
 
 ## <a name="list-of-project-sales-leads"></a>Lista över projektbaserade försäljningsleads
 
-I avsnittet **Försäljning**, i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Listan med leads som visas är arbetsbaserade och andra typer av leads som kan skapas om du även har Dynamics 365 Sales eller Dynamics 365 Field Service-program.
+I avsnittet **Försäljning**, i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Leadsen i listan är arbetsbaserade leads och andra typer av leads som kan skapas om du också har programmen Dynamics 365 Sales eller Dynamics 365 Field Service.
 
 Du kan skapa en filtrerad vy om du endast vill visa projektbaserade leads genom att skapa ett filter för värdet **Typ**. Du kan till exempel välja att endast visa arbetsbaserade leads.
 
 ## <a name="creating-a-new-lead-for-a-project-based-deal"></a>Skapa en ny lead för en projektbaserad affär
 
-När en projektbaserad lead kvalificeras skapas en affärsmöjlighet och ett konto. En projektbaserad affärsmöjlighet är startpunkten för försäljningsaktiviteter i fasen Affärsmöjlighet. Projektbaserade affärsmöjligheter har unika funktioner som krävs för att kunna sälja projektarbete. Dessa funktioner omfattar:
+När en projektbaserad lead kvalificeras skapas en affärsmöjlighet och ett konto. En projektbaserad affärsmöjlighet är startpunkten för försäljningsuppgifter i fasen Affärsmöjlighet. Projektbaserade affärsmöjligheter har unika funktioner som krävs för att kunna sälja projektarbete. Dessa funktioner omfattar:
 
 - Faktureringsmetoderna Tid och material och Fast pris
 - Flera datumeffektiva prislistor för personal, utgifter och material som uppstår i projekt.

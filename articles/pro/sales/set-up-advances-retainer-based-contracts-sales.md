@@ -1,5 +1,5 @@
 ---
-title: Förskott och arvodesbaserade kontrakt – Lite
+title: Förskott och arvodesbaserade kontrakt
 description: I det här ämnet finns information om arvodesbaserade kontrakteringsmodeller och förskott i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180889"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596124"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Förskott och arvodesbaserade kontrakt – Lite
+# <a name="advances-and-retainer-based-contracts"></a>Förskott och arvodesbaserade kontrakt
 
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Dynamics 365 Project Operations stöder arvode-baserade kontrakt. Ett arvodebaserat kontrakt är en förhandlad uppsättning lika fördelade utbetalningar som kunden ska faktureras för under hela projektets varaktighet. Den här typen av kontrakt används vanligtvis för faktureringsmodeller som grundas på tid och material eller förbrukning, där det finns ett behov av att ge kunden en förutsägbar faktura och en betalningsplan. Faktiska intäkter för varje period stäms av mot den betalning som tas emot från kunden i början av perioden. I enlighet med faktureringsmodellen som grundar sig på tid och material kan intäktsvärden som har ökat i varje period variera beroende på kostnaderna. Om den ökade intäkten överstiger det belopp som erhållits i början av perioden kan projektleveransföretaget göra följande:
+Dynamics 365 Project Operations stöder arvodesbaserade kontrakt. Ett arvodebaserat kontrakt är en förhandlad uppsättning lika fördelade utbetalningar som kunden ska faktureras för under hela projektets varaktighet. Den här typen av kontrakt används vanligtvis för faktureringsmodeller som grundas på tid och material eller förbrukning, där det finns ett behov av att ge kunden en förutsägbar faktura och en betalningsplan. Faktiska intäkter för varje period stäms av mot den betalning som tas emot från kunden i början av perioden. I enlighet med faktureringsmodellen som grundar sig på tid och material kan intäktsvärden som har ökat i varje period variera beroende på kostnaderna. Om den ökade intäkten överstiger det belopp som erhållits i början av perioden kan projektleveransföretaget göra följande:
 
 - Endast fakturera kunden för överskottet 
 - Senarelägga avstämningen av intäkten till nästa faktureringsperiod och utföra en sista faktura i slutet av projektet för eventuella kvarvarande ej avstämda intäkter

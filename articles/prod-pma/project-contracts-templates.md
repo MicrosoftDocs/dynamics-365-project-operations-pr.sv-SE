@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085674"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642655"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisera projektkontrakt och projekt direkt från Project Service Automation till Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 I det här ämne beskrivs de mallar och underliggande uppgifter som används för att synkronisera projektkontrakt och projektet direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
 
@@ -52,7 +54,7 @@ Följande mallar och underliggande uppgifter som används för att synkronisera 
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrera med Dynamics 365 Project Service Automation v2.x
 - **Namn på mallen i dataintegrering:** projekt och kontrakt (PSA till Fin and Ops)
-- **Namn på aktiviteterna i projektet:**
+- **Namn på uppgifterna i projektet:**
 
     - Projektkontrakt PSA till Fin and Ops
     - Projekt PSA till Fin and Ops
@@ -63,7 +65,7 @@ Följande mallar och underliggande uppgifter som används för att synkronisera 
 Det finns en schemaförändring i Project Service Automation som påverkar mallen milstolpe för projektkontraktsrad och användning av v2-versionen av mallen krävs för att integrera Project Service Automation v3.x med Dynamics 365.
 
 - **Namn på mallen i dataintegrering:** projekt och kontrakt (PSA 3.x till Fin and Ops) - v2
-- **Namn på aktiviteterna i projektet:**
+- **Namn på uppgifterna i projektet:**
 
     - Projektkontrakt PSA till Fin and Ops
     - Projekt PSA till Fin and Ops
@@ -74,7 +76,7 @@ Innan synkronisering av projektkontrakt och projekt kan ske måste du synkronise
 
 ## <a name="entity-set"></a>Entitetsuppsättning
 
-| Project Service Automation       | Ekonomi                                                |
+| Project Service Automation       | Finance                                                |
 |----------------------------------|--------------------------------------------------------|
 | Ordrar                           | Integrationsentitet för projektkontrakt                |
 | Projekt                         | Integrationsentitet för projekt                         |
@@ -109,9 +111,9 @@ När integreringslösningen för Project Service Automation till Finance integra
 - I din anslutningsuppsättning lägger du till en fältmappning för integrationsnyckel för **msdyn\_organizationalunits** till **msdyn\_name \[namn\]**. Du kanske först måste lägga till ett projekt i anslutningsuppsättningen. Mer information finns i [integrera data i Common Data Service för appar](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - I din anslutningsuppsättning lägger du till en fältmappning för integrationsnyckel för **msdyn\_projekts** till **msdynce\_projectnumber \[projektnummer\]**. Du kanske först måste lägga till ett projekt i anslutningsuppsättningen. Mer information finns i [integrera data i Common Data Service för appar](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** för projektkontrakt och projekt kan uppdateras till ett annat värde eller tas bort från mappningen. Standardmallens värde är **Project Service Automation**.
-- Mappningen **PaymentTerms** måste uppdateras så att den visar giltiga betalningsvillkor i en Finance. Du kan också ta bort mappningen från projektaktiviteten. Standardvärdes mappning har standardvärden för demonstrationsdata. I följande tabell visas värdena i Project Service Automation.
+- Mappningen **PaymentTerms** måste uppdateras så att den visar giltiga betalningsvillkor i en Finance. Du kan också ta bort mappningen från projektuppgiften. Standardvärdes mappning har standardvärden för demonstrationsdata. I följande tabell visas värdena i Project Service Automation.
 
-    | Value | Beskrivning   |
+    | Värde | Beskrivning   |
     |-------|---------------|
     | 1     | 30 dagar netto        |
     | 2     | 2% 10, 30 dagar netto |
@@ -128,14 +130,14 @@ Du måste använda Microsoft Power Query för Excel för att filtrera data om f�
 Om du måste använda Power Query följer du dessa riktlinjer:
 
 - Mallen projekt och kontrakt (PSA till Fin and Ops) har ett standardfilter som endast innehåller försäljningsorder av typen **Arbetsobjekt (msdyn\_ordertype = 192350001)**. Filtret hjälper till att garantera att projektkontrakt inte skapas för försäljningsorder i Finance. Om du skapar en egen mall måste du lägga till filtret.
-- Du måste skapa ett Power Query filter som endast innehåller de kontraktsorganisationer som ska synkroniseras till den juridiska personen i anslutningsuppsättningen för integrering. Projektkontrakt som du har med kontraktets organisationsenhet för Contoso US ska synkroniseras till USSI juridiska personen, men projektkontrakt som du har med organisationsenheten organisationsstruktur för Contoso Global ska synkroniseras med USMF juridiska personen. Om du inte lägger till filtret i din aktivitetsmappning synkroniseras alla projektkontrakt med den juridiska personen som har definierats för anslutningsuppsättningen oavsett organisationsenhet.
+- Du måste skapa ett Power Query filter som endast innehåller de kontraktsorganisationer som ska synkroniseras till den juridiska personen i anslutningsuppsättningen för integrering. Projektkontrakt som du har med kontraktets organisationsenhet för Contoso US ska synkroniseras till USSI juridiska personen, men projektkontrakt som du har med organisationsenheten organisationsstruktur för Contoso Global ska synkroniseras med USMF juridiska personen. Om du inte lägger till filtret i din uppgiftsmappning synkroniseras alla projektkontrakt med den juridiska personen som har definierats för anslutningsuppsättningen oavsett organisationsenhet.
 
 ## <a name="template-mapping-in-data-integration"></a>Mallgrupp i dataintegrering
 
 > [!NOTE] 
-> Fälten **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** , och **AddressZipCode** ingår inte i standardmappningen för projektkontrakt. Du kan lägga till mappningarna om du kräver att dessa data ska synkroniseras för projektkontrakt.
+> Fälten **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState**, och **AddressZipCode** ingår inte i standardmappningen för projektkontrakt. Du kan lägga till mappningarna om du kräver att dessa data ska synkroniseras för projektkontrakt.
 >
-> Fältet **Beskrivning** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** och **ProjectType** ingår inte i standardmappningen för projekt. Du kan lägga till mappningarna om du kräver att dessa data ska synkroniseras för projekt.
+> Fältet **Beskrivning**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** och **ProjectType** ingår inte i standardmappningen för projekt. Du kan lägga till mappningarna om du kräver att dessa data ska synkroniseras för projekt.
 
 I följande illustration visas exempel på hur du mappar malluppgifter i dataintegrering. Mappningen visar fältinformationen som ska synkroniseras från Project Service Automation till Finance.
 

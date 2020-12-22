@@ -18,16 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120295"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642700"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeta med datamodellen Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation utökar andra app-entiteter och presenterar egna entiteter i Common Data Service datamodellen. I det här ämnet beskrivs några av de entiteter som du kommer att stöta på i vanliga scenarier för PSA-rapportering.
 
@@ -74,10 +75,10 @@ Andra entiteter som PSA lägger till i kontrakt är **Prislista för projektkont
 
 Entiteten **projekt** och den relaterade entiteten är exklusiva till PSA. **Projekt** är den översta entiteten som används för att hämta arbete och kostnadssida för åtgärder. Här följer en lista över relaterade entiteter:
 
-- **Projektteammedlem** – den här entiteten innehåller information om de bokningsbara resurser som har tilldelats projektet. Resurserna kan vara allmänna bokningsbara resurser, eller så kan de heta bokningsbara resurser som antingen anges av projektledaren eller genererats från projektschemat.
+- **Projektgruppmedlem** – den här entiteten innehåller information om de bokningsbara resurser som har tilldelats projektet. Resurserna kan vara allmänna bokningsbara resurser, eller så kan de heta bokningsbara resurser som antingen anges av projektledaren eller genererats från projektschemat.
 - **Projektuppgift** – den här entiteten innehåller de uppgifter som projektplanen eller schemat utgör.
 - **Resurstilldelning** – den här entiteten innehåller uppgiftstilldelningen för bokningsbara resursen.
-- **Resurskrav** – den här entiteten innehåller krav för alla generiska resursteammedlemmar.
+- **Resurskrav** – den här entiteten innehåller krav för alla generiska resursgruppmedlemmar.
 - **Beräkna** och **Beräkna rad** – de här entiteterna har ett huvud/rad-förhållande och innehåller utgiftsberäkningar för projektet. Uppgiftsberäkningar lagras i entiteten **resursberäkning**.
 
 ![Diagram som visar resurskrav och projektrelationer](media/PS-Reporting-image4.png "Diagram som visar resurskrav och projektrelationer")
@@ -95,7 +96,7 @@ Projektresurser använder entiteten **Bokningsbar resurs** från Universal Resou
 
 ## <a name="reporting-on-actual-transactions"></a>Rapportering av faktiska transaktioner
 
-När du godkänner en tidsrapport eller en utgift eller fakturerar ett kontrakt i PSA, registreras affärstransaktionen i den **faktiska** entiteten. Entiteten kan ligga till grund för nästan alla ekonomiska relaterade rapporter i PSA. Den **faktiska** entiteten hämtar kostnads- och försäljningstransaktioner för affärshändelsen. Dessutom hämtas många relevanta attribut.
+När du godkänner en tidrapport eller en utgift eller fakturerar ett kontrakt i PSA, registreras affärstransaktionen i den **faktiska** entiteten. Entiteten kan ligga till grund för nästan alla ekonomiska relaterade rapporter i PSA. Den **faktiska** entiteten hämtar kostnads- och försäljningstransaktioner för affärshändelsen. Dessutom hämtas många relevanta attribut.
 
 När du arbetar med den **faktiska** entiteten är det viktigt att du förstår vilken transaktion eller vilka transaktioner som registreras i entiteten och när transaktionerna registreras. Nedan visas ett typiskt flöde när du arbetar med tidstransaktioner (flödet för utgiftsposter är liknande):
 
@@ -105,17 +106,17 @@ När du arbetar med den **faktiska** entiteten är det viktigt att du förstår 
 
     | Dokumentdatum | Transaktionstyp | Transaktionsklass | Kund         | Kontrakt   | Resurs     | Resursroll | Faktureringstyp | Kvantitet | Enhetspris | Belopp |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|
-    | 2/3/18        | Kostnad             | Time              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | 8.0      | 50.00      | 400.00 |
-    | 2/3/18        | Ofakturerad försäljning   | Time              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | 8.0      | 100.00     | 800.00 |
+    | 2/3/18        | Kostnad             | Tid              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | 8.0      | 50.00      | 400.00 |
+    | 2/3/18        | Ofakturerad försäljning   | Tid              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | 8.0      | 100.00     | 800.00 |
 
     De här två posterna är separata men relaterade poster. De är varken debet eller kredit.
 
-4. Om ett kontrakt är associerat med projektet skapas ytterligare två poster i den **aktuella** entiteten när tidsposten faktureras. Först skapas ett negativt belopp för den fakturerade försäljningsposten. Den här posten återför den fakturerade försäljningen. För det andra skapas en transaktion för den fakturerade försäljningen. De här posterna är emellertid åtskilda men relaterade poster, inte debet och kredit.
+4. Om ett kontrakt är associerat med projektet skapas ytterligare två poster i den **aktuella** entiteten när tidsposten faktureras. Först skapas ett negativt belopp för den fakturerade försäljningsposten. Den här posten återställer den fakturerade försäljningen. För det andra skapas en transaktion för den fakturerade försäljningen. De här posterna är emellertid åtskilda men relaterade poster, inte debet och kredit.
 
     | Dokumentdatum | Transaktionstyp | Transaktionsklass | Kund         | Kontrakt   | Resurs     | Resursroll | Faktureringstyp | Kvantitet | Enhetspris | Belopp   |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|----------|
-    | 2/4/18        | Ofakturerad försäljning   | Time              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | - 8,0    | 100.00     | - 800,00 |
-    | 2/4/18        | Fakturerad försäljning     | Time              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | 8.0      | 100.00     | 800.00   |
+    | 2/4/18        | Ofakturerad försäljning   | Tid              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | - 8,0    | 100.00     | - 800,00 |
+    | 2/4/18        | Fakturerad försäljning     | Tid              | Alpine Ski House | Alpine CRM | Greta Andreasson | Projektledare   | Debiterbart   | 8.0      | 100.00     | 800.00   |
 
 Entitetsposten **Transaktionsursprung** registrerar ursprunget för **faktiska** posten och entiteten **Transaktionskoppling** registrerar relaterade poster för **faktisk** post. Dessutom innehåller den **faktiska** posten refererar till projektet, projektkontraktet (ordern), bokningsbar resurs och kunden.
 

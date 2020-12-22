@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401285"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642115"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Använda demoinställning och konfigurationsdata Project Operations - Lite 
 
 _**Lite-distribution – avtal till proforma-fakturering_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="prerequisites"></a>Förutsättningar
 
@@ -28,9 +30,9 @@ Innan du påbörjar konfigurationen måste du ha installerat en Common Data Serv
 
 1. Hämta [Huvuddatapaketet](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigera till mappen *ProjOpsDemoDataSetupAndMaster - Integrerad CMT* och kör den körbara filen *DataMigrationUtility*.
-3. På sidan 1 i guiden Common Data Service konfigurationsmigrering (CMT) väljer du **Importera data** och sedan **Fortsätt**.
+3. På sidan 1 i guiden Common Data Service Configuration Migration (CMT) väljer du **Importera data** och sedan **Fortsätt**.
 
-![Konfigurationsmigrering](./media/1ConfigurationMigration.png)
+![Configuration Migration](./media/1ConfigurationMigration.png)
 
 4. På sidan 2 i guiden CMT väljer du **Microsoft 365** som **Distributionstyp**.
 5. Markera kryssrutorna **Visa en lista över tillgängliga organisationer** och **Visa avancerat**.

@@ -18,15 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120025"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642610"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheter eller ändringar i Project Service Automation version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 I det här ämnet finns information om ändringar av användargränssnittet, funktioner och terminologi i Project Service Automation mellan version 2 eller version 1 och 3.
 
@@ -68,7 +70,7 @@ I Project Service Automation version 3 när du skapar en ny projektmall från en
 
 - Schemat, teamet och tilldelningarna kopieras till det nya projektet.   
 - Startdatum är antingen kopieringsdatum eller datum som användaren valde.   
-- För alla generiska teammedlemmar med resurskraven i mallen kopieras eller genereras inte kraven automatiskt. Du måste skapa dem. 
+- För alla generiska gruppmedlemmar med resurskraven i mallen kopieras eller genereras inte kraven automatiskt. Du måste skapa dem. 
 
 ## <a name="copy-a-project"></a>Kopiera ett projekt
 I Project Service Automation version 3 när du kopierar ett projekt händer följande: 
@@ -86,7 +88,7 @@ När du flyttar schemat för ett befintligt projekt händer följande:
 - Tilldelade generiska resurser förblir tilldelade.   
 - Om de genereras innan projektet flyttas måste kraven för den generiska resursen vara desamma och inte automatiskt återskapas. Du måste generera dem på nytt för att de nya tilldelningarna ska kunna visas på samma vis som uppgiftsrörelsen. 
 - Tilldelningar i verkliga resurser ändras så att de överensstämmer med uppgiftens datumrörelse. Bokningar på verkliga resurser ändras inte. Du måste ändra bokningarna med hjälp av vyn avstämning. 
-- Teamresurser med bokningar men inga tilldelningar ändras. 
+- Gruppresurser med bokningar men inga tilldelningar ändras. 
 - Faktiska värden flyttas inte 
 
 ## <a name="estimates"></a>Beräkningar
@@ -94,7 +96,7 @@ Beräkningar har delats upp i två flikar **Resurstilldelning** och **Beräkning
 
 ![Resurstilldelningar visar insatser och resurstilldelningar för uppgifter](media/resource-assignments-tab-02.png)
 
-På fliken **Beräkningar** visas kostnads- och försäljningsbeloppen för resurstilldelningar. Beloppen är skrivskyddade. Kostnads- och försäljningsprissättning styrs nu från tilldelningar av teammedlemmar i schemat. Det innebär att om du har en uppgift utan tilldelning visas uppgiften under den icke tilldelade bucket. Detta innebär också att utan **roll**, som är en standarddimension för prissättning, visas ingen uppskattad kostnad eller försäljning om du har en kund eller ett kontrakt/offert som är associerad med projektet. 
+På fliken **Beräkningar** visas kostnads- och försäljningsbeloppen för resurstilldelningar. Beloppen är skrivskyddade. Kostnads- och försäljningsprissättning styrs nu från tilldelningar av gruppmedlemmar i schemat. Det innebär att om du har en uppgift utan tilldelning visas uppgiften under den icke tilldelade bucket. Detta innebär också att utan **roll**, som är en standarddimension för prissättning, visas ingen uppskattad kostnad eller försäljning om du har en kund eller ett kontrakt/offert som är associerad med projektet. 
 
 ![Fliken Beräkningar visar kostnads- och försäljningsbelopp](media/estimates-tab-03.png)
   
@@ -105,21 +107,21 @@ Utgiftsberäkningar kan anges i rutnätet på fliken **Utgiftsberäkningar**.
 ![Fliken utgiftsberäkningar visar rutnät för utgiftsberäkningar](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resurshantering
-I Project Service Automation version 3 med det nya enhetliga gränssnittet för klient och förändringar i relationen mellan bokningar och tilldelningar, bemanna ett projekt med generiska eller verkliga resurser, har ändrats dramatiskt från version 2 och version 1. Begreppen för bokningsbara resurser, både **verkliga** och **generiska**, förblir emellertid samma, och även teammedlemmar, krav, tilldelningar och bokningar.   
+I Project Service Automation version 3 med det nya enhetliga gränssnittet för klient och förändringar i relationen mellan bokningar och tilldelningar, bemanna ett projekt med generiska eller verkliga resurser, har ändrats dramatiskt från version 2 och version 1. Begreppen för bokningsbara resurser, både **verkliga** och **generiska**, förblir emellertid samma, och även gruppmedlemmar, krav, tilldelningar och bokningar.   
 
 ![Använda resursväljare](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Tilldela en verklig bokningsbar resurs 
-I Project Service Automation version 3 är boknings- och aktivitetstilldelningar inte lika sammanlänkade som i tidigare versioner av Project Service Automation. Du kan använda teamrutnätet för att boka **verklig** teammedlem på samma sätt som på marknaden.
+I Project Service Automation version 3 är boknings- och uppgiftstilldelningar inte lika sammanlänkade som i tidigare versioner av Project Service Automation. Du kan använda grupprutnätet för att boka **verklig** gruppmedlem på samma sätt som på marknaden.
 
-Med resursväljaren i schemat kan du välja vilken teammedlem som skapats i teamvyn och sedan tilldela dem till uppgifter. Du kan fortsätta att tilldela dem uppgifter, även efter sina bokningar. Använd fliken **avstämning** om du vill stämma av teammedlemmar som har olika skillnader i bokningar och tilldelningar.
+Med resursväljaren i schemat kan du välja vilken gruppmedlem som skapats i teamvyn och sedan tilldela dem till uppgifter. Du kan fortsätta att tilldela dem uppgifter, även efter sina bokningar. Använd fliken **avstämning** om du vill stämma av gruppmedlemmar som har olika skillnader i bokningar och tilldelningar.
 
-Resursväljaren kommer att visa teammedlemmarna för projektet. Du kan även använda resursväljaren om du vill söka efter och visa andra bokningsbara resurser som inte ingår i projektteamet. Du kan tilldela dem till en uppgift och de blir en del av projektteamet. Du måste boka dem med hjälp av fliken **schemaläggningstavla** eller **avstämning**.
+Resursväljaren kommer att visa gruppmedlemmarna för projektet. Du kan även använda resursväljaren om du vill söka efter och visa andra bokningsbara resurser som inte ingår i projektteamet. Du kan tilldela dem till en uppgift och de blir en del av projektteamet. Du måste boka dem med hjälp av fliken **schemaläggningstavla** eller **avstämning**.
 
 ### <a name="assign-a-generic-bookable-resource-on-a-task-and-project-team-and-then-fulfill-with-a-real-resource-via-schedule-board"></a>Tilldela en generisk bokningsbar resurs till en uppgift och ett projektteam och sedan uppfylla en verklig resurs via schemaläggningstavlan 
-I Project Service Automation version 3 används inte funktionen generera team för allmänna resurser. I stället kan du skapa och direkt tilldela en generisk resurs från schemat genom att skriva namnet på den generiska resursen i resurscellen i schemat. Du kan också välja resursikonen i cellen och sedan med resursväljaren ange namnet på den generiska resurs som du vill skapa. Då öppnas en snabbregistreringspanel där du kan ange roll och organisationsenhet för den generiska resursteammedlemmen. När du har skapat resursen tilldelas den uppgiften och du kan fortsätta att tilldela den generiska resursen till andra uppgifter i schemat.    
+I Project Service Automation version 3 används inte funktionen generera team för allmänna resurser. I stället kan du skapa och direkt tilldela en generisk resurs från schemat genom att skriva namnet på den generiska resursen i resurscellen i schemat. Du kan också välja resursikonen i cellen och sedan med resursväljaren ange namnet på den generiska resurs som du vill skapa. Då öppnas en snabbregistreringspanel där du kan ange roll och organisationsenhet för den generiska resursgruppmedlemmen. När du har skapat resursen tilldelas den uppgiften och du kan fortsätta att tilldela den generiska resursen till andra uppgifter i schemat.    
  
-När du har tilldelat resursen alla relevanta uppgifter kan du skapa ett resurskrav och sedan utföra den genom att direkt boka med **schemaläggningstavlan** eller genom att skicka en resursbegäran. Du kan också lägga till generiska resurser direkt i rutnätet för teammedlemmen. 
+När du har tilldelat resursen alla relevanta uppgifter kan du skapa ett resurskrav och sedan utföra den genom att direkt boka med **schemaläggningstavlan** eller genom att skicka en resursbegäran. Du kan också lägga till generiska resurser direkt i rutnätet för gruppmedlemmen. 
 
 Generiska resurser läggs till i projektteamet utan resurskrav och med start- och slutdatum för projektet tills resurskravet skapas. Om du vill skapa ett krav markerar du resursen och klickar på **Skapa**. Kravlänken visas nu och de begärda timmarna fylls i med de tilldelade timmarna. Du kan klicka på länken för att öppna och uppdatera kravet.
   
@@ -128,19 +130,19 @@ När bokningen är slutförd och helt uppfylld av en namngiven resurs ersätts d
 Föreslagna resurser för krav lagras nu på en flik i stället för i ett separat avsnitt.
 
 ### <a name="multiple-named-resources-fulfilling-a-generic-resource"></a>Flera namngivna resurser uppfyller en generisk resurs
-När ett krav uppfylls med flera resurser blir den generiska resursen kvar på teamet och tilldelas uppgiften. De namngivna teammedlemmar som är bokade är inte tilldelade som en del av befattningen. Projektledaren kan tilldela arbetet enligt de verkliga resursernas behov.  Vyn **avstämning** ger en sammanfattning av bokningarna över flera resurser till flera uppdragstilldelningar. Detta görs inte automatiskt eftersom du i något scenario är mer komplicerat än när du har ett paket med uppgifter som utgör behovet, hur projektledaren vill tilldela, måste antas av systemet. Eftersom systemet inte kan tolka vad som är troligt är det att antagandena är annorlunda än avsett och att ett felaktigt eller oförutsägbart resultat inträffar. Det förutsägbara resultatet är att den allmänna resursen fortfarande är tilldelad tills projektledaren har tilldelat resurser med hjälp av läget **avstämning**.
+När ett krav uppfylls med flera resurser blir den generiska resursen kvar på teamet och tilldelas uppgiften. De namngivna gruppmedlemmar som är bokade är inte tilldelade som en del av befattningen. Projektledaren kan tilldela arbetet enligt de verkliga resursernas behov.  Vyn **avstämning** ger en sammanfattning av bokningarna över flera resurser till flera uppdragstilldelningar. Detta görs inte automatiskt eftersom du i något scenario är mer komplicerat än när du har ett paket med uppgifter som utgör behovet, hur projektledaren vill tilldela, måste antas av systemet. Eftersom systemet inte kan tolka vad som är troligt är det att antagandena är annorlunda än avsett och att ett felaktigt eller oförutsägbart resultat inträffar. Det förutsägbara resultatet är att den allmänna resursen fortfarande är tilldelad tills projektledaren har tilldelat resurser med hjälp av läget **avstämning**.
 
 ### <a name="reconciliation"></a>Avstämning
-Fliken **Avstämning** visar bokningarna och alla tilldelningar för varje projektmedlem i gruppen. Vyn visar timmar i celler som kan representera tidpunkter från månader till dagar. Den här vyn tillåter projektledarna att avstämma teammedlemmarnas bokningar och deras tilldelningar för sina projektteam. Detta är praktiskt eftersom bokningar och uppgiftstilldelningar inte är tätt sammansatta, vilket gör det lättare att planera ett projekt. 
+Fliken **Avstämning** visar bokningarna och alla tilldelningar för varje projektmedlem i gruppen. Vyn visar timmar i celler som kan representera tidpunkter från månader till dagar. Den här vyn tillåter projektledarna att avstämma gruppmedlemmarnas bokningar och deras tilldelningar för sina projektteam. Detta är praktiskt eftersom bokningar och uppgiftstilldelningar inte är tätt sammansatta, vilket gör det lättare att planera ett projekt. 
 
-![Fliken Avstämning visar bokningarna och tilldelningar för varje projektteammedlem.](media/resource-reconciliation-tab-06.png)
+![Fliken Avstämning visar bokningarna och tilldelningar för varje projektgruppmedlem.](media/resource-reconciliation-tab-06.png)
 
-För varje resurs får vyn en skillnad mellan teammedlemmens bokningar och en sammanslagning av deras uppgiftstilldelningar och följande två skillnader som kan uppstå med bokningar och tilldelningar i ett projekt: 
+För varje resurs får vyn en skillnad mellan gruppmedlemmens bokningar och en sammanslagning av deras uppgiftstilldelningar och följande två skillnader som kan uppstå med bokningar och tilldelningar i ett projekt: 
 
 - **Underskott för bokning** – Underskott för bokning uppstår om en resurs har fler tilldelningar än bokningar. Eftersom denna kapacitet inte har reserverats kan en projektledare korrigera detta genom att utöka resursens bokningar så att underskottet täcks. 
-- **Överflödiga bokningar** – Överflödiga bokningar inträffar när en resurs har bokats i projektet men inte tilldelats aktiviteter.  Detta kan vara en acceptabel förekomst om till exempel resursen har bokats före en aktivitetstilldelning. I andra fall kan det emellertid hända att resursen inte är planerad att tilldelas och PM bör annullera resursbokningarna så att kapaciteten kan användas för ett annat projekt. 
+- **Överflödiga bokningar** – Överflödiga bokningar inträffar när en resurs har bokats i projektet men inte tilldelats uppgifter.  Detta kan vara en acceptabel förekomst om till exempel resursen har bokats före en uppgiftstilldelning. I andra fall kan det emellertid hända att resursen inte är planerad att tilldelas och PM bör annullera resursbokningarna så att kapaciteten kan användas för ett annat projekt. 
 
-När du har aktivitetstilldelningar för en resurs utan bokningar (underskott för bokning) kan du välja samlad underskott för bokning och sedan välja **utöka bokning**. Härifrån kan du visa den bokning som behövs för att lösa resursens underskott och deras tillgänglighet. 
+När du har uppgiftstilldelningar för en resurs utan bokningar (underskott för bokning) kan du välja samlad underskott för bokning och sedan välja **utöka bokning**. Härifrån kan du visa den bokning som behövs för att lösa resursens underskott och deras tillgänglighet. 
  
 ## <a name="time-and-expense"></a>Tid och utgift
 Det här avsnittet innehåller information om förändringar av tid, utgifter och godkännande i version 3 Project Service Automation. Som en del av Dynamics 365 Project Service Automation-lösningen har funktionen **tidspost** uppdaterats för att använda ramverk för enhetligt gränssnitt. Detta ger leverans av konsistent, enhetligt användargränssnitt som följer responsiv design för optimal visning på alla skärmstorlekar och enheter. 
@@ -229,7 +231,7 @@ För kunder av Project Service Automation som vill fortsätta att använda de h�
 I version 3 av Project Service Automation har olika aspekter av installation och hantering av offerter och kontrakt ändrats. I följande avsnitt finns mer detaljerad information.
 
 ### <a name="set-up-chargeability-options"></a>Skapa debiterbara alternativ
-I version 1 och 2 gjordes en debiterbar konfiguration för roller och kategorier för specifika offerter och kontrakt med hjälp vyn **debiterbarhet** för debitering som fanns i den övre navigeringen på en offertrad eller en kontraktsrad. Du kunde även ange priser för de här rollerna och utgiftskategorierna.
+I version 1 och 2 gjordes en debiterbar konfiguration för roller och kategorier för specifika offerter och kontrakt med hjälp vyn **debiteringsbarhet** för debitering som fanns i den övre navigeringen på en offertrad eller en kontraktsrad. Du kunde även ange priser för de här rollerna och utgiftskategorierna.
 
 Från och med version 3 görs en inställning av debiteringsalternativ per roll- och utgiftskategori på offert- eller kontraktradnivån. Prissättningsinställningar är separat från debiterbar konfiguration. Du kan söka efter **debiterbara roller** och **debiterbara kategorier**  som flikar på sidorna **offertrad** och  **kontraktrad** utan att behöva använda toppnavigering.
 

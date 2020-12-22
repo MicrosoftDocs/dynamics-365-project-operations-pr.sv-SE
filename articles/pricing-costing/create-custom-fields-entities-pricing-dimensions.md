@@ -3,7 +3,7 @@ title: Skapa anpassade fält och entiteter som prissättningsdimensioner
 description: I det här ämnet finns information om hur du skapar anpassade alternativuppsättningar eller entiteter.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,78 +17,63 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130915"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642835"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Skapa anpassade fält och entiteter som prissättningsdimensioner
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Slutför följande steg varje gång du vill skapa en anpassad alternativuppsättning eller entitet på.
+Slutför följande steg när du vill skapa en anpassad alternativuppsättning eller -entitet för att använda denna som en prissättningsdimension. Mer information finns i [Översikt över prissättningsdimensioner](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
-> Vi rekommenderar att du gör alla anpassade prisändringar i en separat lösning. Med den här viktiga rekommenderade metod som passar för att uppdatera eller ta bort ändringar efter behov, får du hjälp med att återanvända arbetet, och det gör det lättare att överföra ändringarna till en annan instans. När du har gjort alla nödvändiga ändringar exporterar du lösningen som en **hanterad lösning** och importerar den till andra instanser för att återanvända prissättningsinställningarna.
+> Vi rekommenderar att du gör alla anpassade prisändringar i en separat lösning. Denna viktiga bästa praxis ger flexibilitet i framtiden att uppdatera eller ta bort ändringar efter behov. Detta kommer också att bidra till återanvändningen av ditt arbete och göra det enklare att överföra dessa ändringar till en annan instans När du har gjort alla nödvändiga ändringar, exportera då denna lösning som en **hanterad lösning** och importera den till andra instanser för att återanvända din prissättningskonfiguration.
 
-
-## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Skapa en anpassad lösning för prissättningsdimensioner
-1. Klicka på **inställningar** > **lösningar** och klicka sedan på **Ny** för att skapa en ny lösning. 
-2. Ge lösningen ett namn, **\<your organization name> prissättningsdimensioner**, ange den information som krävs och klicka sedan på **Spara**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Skapa anpassade fält och alternativuppsättningar i dimensionslösningen för prissättning
 
 En prissättningsdimension kan vara en alternativuppsättning eller en entitet. Båda måste skapas i din prissättningslösning. Stegen i den här proceduren förklarar hur du skapar entitetbaserade dimensioner och alternativuppsättningsdimensioner.
 
 ### <a name="entity-based-dimensions"></a>Entitetsbaserade dimensioner
+Skapa entitetsbaserade dimensioner genom att följa dessa steg:
 
 1. Gå till **inställningar** > **lösningar** och dubbelklickar på **\<your organization name> prissättningsdimensioner**.
-2. I lösningsutforskaren på den vänstra navigeringsrutan väljer du **Entiteter**.
+2. I det vänstra navigeringsfönstret i lösningsutforskaren väljer du **Entiteter**.
 3. Klicka på **Ny** om du vill skapa en ny entitet som heter **standardrubrik**. 
 4. Ange återstående information som krävs och klicka sedan på **Spara**.
 
+> ![Entiteten standardrubrik](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Alternativuppsättningsbaserade dimensioner 
-Du kan skapa två alternativbaserade dimensioner. Använd **Resursens arbetsplats** för att spåra priset för platsarbetet **Start** och arbete **på plats** och använda **resursens arbetstider** med värdena **Reguljär** och **Övertid** för att tillämpa en markering när arbetet har slutförts.
+Du kan skapa två alternativbaserade dimensioner. 
 
+- Använd **Arbetsplats för resurs** för att spåra priset för arbete på platsen **Start** och platsen **På plats**. 
+- Använd **Arbetstider för resurs** med värdena **Vanlig** och **Övertid** för att tillämpa ett pålägg när arbetet är slutfört.
+
+Följande grafik ger en vy över dimensionen **Arbetsplats för resurs**. 
+
+> ![Alternativuppsättningsbaserad prissättningsdimension med namnet Resursens arbetsplats](media/Option-set-PD-called-Resource-Work-Location.png)
+
+Följande grafik ger en vy över dimensionen **Arbetstider för resurs**. 
+
+> ![Alternativuppsättningsbaserad prissättningsdimension med namnet Resursens arbetstimmar](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Gå till **inställningar** > **lösningar** och dubbelklickar på **\<your organization name> prissättningsdimensioner**. 
-2. I lösningsutforskaren på den vänstra navigeringsrutan väljer du **alternativuppsättningar**. 
+2. I det vänstra navigeringsfönstret i lösningsutforskaren väljer du **Alternativuppsättningar**. 
 3. Klicka på **ny** om du vill skapa en ny alternativuppsättning, ange den information som krävs och klicka sedan på **spara**.
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Skapa data för entitetsbaserade dimensioner
 
 Du kan skapa data för entitetsbaserade dimensioner manuellt, eller genom att använda Microsoft Excel import- eller servicesamtal. Följ stegen nedan om du vill skapa två standardrubriker **Systemtekniker** och **Senior systemtekniker** från den entitetbaserade dimensionen **Standardrubrik**. Om de data du vill skapa är små, som i följande exempel, kan du använda ett standardformulär.
 
-1. Välj **Avancerad sökning**, markera enhetens **standardrubrik** och välj sedan **resultat**. Alla rader i entiteten **standardrubrik** visas.
-2. Välj **Ny** och i fältet **Namn** ange "Systemtekniker" och välj sedan **Spara**.
-3. Stäng formuläret. 
-4. Skapa en ny standardrubrik för "senior systemteknikern" genom att upprepa steg 1-3.
+1. Välj **Avancerad sökning**.
+2. Markera entiteten **Standardrubrik** och välj sedan **Resultat**. Alla rader i entiteten **standardrubrik** visas.
+3. Välj **Ny** och i fältet **Namn** ange "Systemtekniker" och välj sedan **Spara**.
+4. Stäng sidan. 
+5. Skapa en ny standardrubrik för "senior systemteknikern" genom att upprepa steg 1-3.
 
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Lägg till alla obligatoriska entiteter och relaterade komponenter i prisdimensionslösningen
-Du måste lägga till följande entiteter i din prissättningslösning. Följ stegen i den här proceduren för att göra vissa viktiga schemaändringar i prissättningslösningen så att enheterna blir medvetna om de nya prissättningsdimensionerna.
-
-1. Välj **inställningar** > **lösningar** och dubbelklickar på **\<your organization name> prissättningsdimensioner**. 
-2. I lösningsutforskaren på den vänstra navigeringsrutan väljer du **Lägg till befintliga** > **Entiteter**.
-3. I dialogrutan **lösningskomponenter** markerar du följande entiteter:
-
-  - Faktiskt
-  - Bokningsbar resurs
-  - Beräkningsrad
-  - Information om fakturarad
-  - Journalrad
-  - Information om projektkontraktrad
-  - Projektteammedlem
-  - Information om offertrad
-  - Pålägg för rollpris
-  - Pris för roll 
-  - Tidspost 
-
-
-> [!NOTE]
-> Se till att du tar med alla formulär och vyer för varje vald entitet.
-
-4. Klicka på **Nej** om du uppmanas att ta med alla beroende entiteter för de valda entiteterna ovan.
-
+> ![Exempeldata för entiteten Standardrubrik](media/ST-data.png)
