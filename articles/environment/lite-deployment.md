@@ -8,37 +8,39 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175688"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642205"
 ---
-# <a name="deploy-project-operations---lite"></a><span data-ttu-id="3afc8-103">Distribuera Project Operations – Lite</span><span class="sxs-lookup"><span data-stu-id="3afc8-103">Deploy Project Operations - lite</span></span>
+# <a name="deploy-project-operations---lite"></a><span data-ttu-id="8629b-103">Distribuera Project Operations – Lite</span><span class="sxs-lookup"><span data-stu-id="8629b-103">Deploy Project Operations - lite</span></span>
 
-<span data-ttu-id="3afc8-104">_**Gäller:** Enkel distribution – avtal till proforma-fakturering_</span><span class="sxs-lookup"><span data-stu-id="3afc8-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="8629b-104">_**Gäller:** Enkel distribution – avtal till proforma-fakturering_</span><span class="sxs-lookup"><span data-stu-id="8629b-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="3afc8-105">Project Operations har stöd för flera distributionsmodeller.</span><span class="sxs-lookup"><span data-stu-id="3afc8-105">Project Operations supports multiple deployment models.</span></span> <span data-ttu-id="3afc8-106">Information om hur du fastställer den bästa distributionsmodellen finns i [Distributionstyper](determine-deployment-type.md).</span><span class="sxs-lookup"><span data-stu-id="3afc8-106">To determine the best deployment model, see [Deployment types](determine-deployment-type.md).</span></span>
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="8629b-105">Project Operations har stöd för flera distributionsmodeller.</span><span class="sxs-lookup"><span data-stu-id="8629b-105">Project Operations supports multiple deployment models.</span></span> <span data-ttu-id="8629b-106">Information om hur du fastställer den bästa distributionsmodellen finns i [Distributionstyper](determine-deployment-type.md).</span><span class="sxs-lookup"><span data-stu-id="8629b-106">To determine the best deployment model, see [Deployment types](determine-deployment-type.md).</span></span>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="3afc8-107">Den här distributionen, Enkel distribution – avtal till proforma-fakturering, resulterar i en **Common Data Service-distribution av Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="3afc8-107">This deployment, Lite deployment – deal to proforma invoicing, results in a **Common Data Service-only deployment of Project Operations**.</span></span>
+> <span data-ttu-id="8629b-107">Den här distributionen, Enkel distribution – avtal till proforma-fakturering, resulterar i en **Common Data Service-distribution av Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="8629b-107">This deployment, Lite deployment – deal to proforma invoicing, results in a **Common Data Service-only deployment of Project Operations**.</span></span>
 
-- [<span data-ttu-id="3afc8-108">Installera Project Operations i en ny CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="3afc8-108">Install Project Operations into a new CDS environment</span></span>](#new)
-- [<span data-ttu-id="3afc8-109">Installera i en befintlig CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="3afc8-109">Install into an existing CDS environment</span></span>](#existing)
-
-
-
-## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a><span data-ttu-id="3afc8-110">Installera Project Operations i en ny CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="3afc8-110">Install Project Operations to a new CDS environment</span></span>
-
-1. <span data-ttu-id="3afc8-111">Som [Global eller Power Platform-administratör](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens skapar du en ny CDS-miljö i [PowerPlatforms administratörscenter](https://admin.powerplatform.com).</span><span class="sxs-lookup"><span data-stu-id="3afc8-111">As the [Global or Power Platform Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, create a new CDS environment in the [PowerPlatform admin center](https://admin.powerplatform.com).</span></span> <span data-ttu-id="3afc8-112">Kontrollera att **CDS-databasen** och **Dynamics 365-apparna** är aktiverade.</span><span class="sxs-lookup"><span data-stu-id="3afc8-112">Make sure that **CDS database** and **Dynamics 365 Apps** are enabled.</span></span> <span data-ttu-id="3afc8-113">Mer information finns i [Skapa och hantera miljöer i Power Platforms administratörscenter](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).</span><span class="sxs-lookup"><span data-stu-id="3afc8-113">For more information, see [Create and manage environments in the Power Platform admin center](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).</span></span>
-2. <span data-ttu-id="3afc8-114">Välj **Microsoft Dynamics 365 Project Operations** från distributionslistan av Dynamics 365-appar.</span><span class="sxs-lookup"><span data-stu-id="3afc8-114">Select **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps.</span></span>
+- [<span data-ttu-id="8629b-108">Installera Project Operations i en ny CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="8629b-108">Install Project Operations into a new CDS environment</span></span>](#new)
+- [<span data-ttu-id="8629b-109">Installera i en befintlig CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="8629b-109">Install into an existing CDS environment</span></span>](#existing)
 
 
-## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a><span data-ttu-id="3afc8-115">Installera Project Operations i en befintlig CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="3afc8-115">Install Project Operations to an existing CDS environment</span></span>
 
-1. <span data-ttu-id="3afc8-116">Som [Global eller Power Platform-administratör](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens letar du upp miljön i [PowerPlatforms administratörscenter](https://admin.powerplatform.com) där du vill installera Project Operations.</span><span class="sxs-lookup"><span data-stu-id="3afc8-116">As the [Global or Power Platform Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, locate the environment in the [PowerPlatform admin center](https://admin.powerplatform.com) where you want to install Project Operations.</span></span>
-2. <span data-ttu-id="3afc8-117">Installera **Microsoft Dynamics 365 Project Operations** från distributionslistan av Dynamics 365-appar.</span><span class="sxs-lookup"><span data-stu-id="3afc8-117">Install **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps.</span></span> <span data-ttu-id="3afc8-118">Mer information finns i [Hantera Dynamics 365-appar](https://docs.microsoft.com/power-platform/admin/manage-apps).</span><span class="sxs-lookup"><span data-stu-id="3afc8-118">For more information, see [Manage Dynamics 365 apps](https://docs.microsoft.com/power-platform/admin/manage-apps).</span></span>
+## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a><span data-ttu-id="8629b-110">Installera Project Operations i en ny CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="8629b-110">Install Project Operations to a new CDS environment</span></span>
+
+1. <span data-ttu-id="8629b-111">Som [Global eller Power Platform-administratör](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens skapar du en ny CDS-miljö i [PowerPlatforms administratörscenter](https://admin.powerplatform.com).</span><span class="sxs-lookup"><span data-stu-id="8629b-111">As the [Global or Power Platform Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, create a new CDS environment in the [PowerPlatform admin center](https://admin.powerplatform.com).</span></span> <span data-ttu-id="8629b-112">Kontrollera att **CDS-databasen** och **Dynamics 365-apparna** är aktiverade.</span><span class="sxs-lookup"><span data-stu-id="8629b-112">Make sure that **CDS database** and **Dynamics 365 Apps** are enabled.</span></span> <span data-ttu-id="8629b-113">Mer information finns i [Skapa och hantera miljöer i Power Platforms administratörscenter](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).</span><span class="sxs-lookup"><span data-stu-id="8629b-113">For more information, see [Create and manage environments in the Power Platform admin center](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).</span></span>
+2. <span data-ttu-id="8629b-114">Välj **Microsoft Dynamics 365 Project Operations** i distributionslistan för Dynamics 365-appar.</span><span class="sxs-lookup"><span data-stu-id="8629b-114">Select **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps.</span></span>
+
+
+## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a><span data-ttu-id="8629b-115">Installera Project Operations i en befintlig CDS-miljö</span><span class="sxs-lookup"><span data-stu-id="8629b-115">Install Project Operations to an existing CDS environment</span></span>
+
+1. <span data-ttu-id="8629b-116">Som [Global eller Power Platform-administratör](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens letar du upp miljön i [PowerPlatforms administratörscenter](https://admin.powerplatform.com) där du vill installera Project Operations.</span><span class="sxs-lookup"><span data-stu-id="8629b-116">As the [Global or Power Platform Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, locate the environment in the [PowerPlatform admin center](https://admin.powerplatform.com) where you want to install Project Operations.</span></span>
+2. <span data-ttu-id="8629b-117">Installera **Microsoft Dynamics 365 Project Operations** i distributionslistan för Dynamics 365-appar.</span><span class="sxs-lookup"><span data-stu-id="8629b-117">Install **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps.</span></span> <span data-ttu-id="8629b-118">Mer information finns i [Hantera Dynamics 365-appar](https://docs.microsoft.com/power-platform/admin/manage-apps).</span><span class="sxs-lookup"><span data-stu-id="8629b-118">For more information, see [Manage Dynamics 365 apps](https://docs.microsoft.com/power-platform/admin/manage-apps).</span></span>
 
 
