@@ -17,42 +17,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7287054c470a44ed1fdc243018ec935fe21a6c4f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121645"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147270"
 ---
-# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="4e453-103">Project Service Automation uppdateringsversion 13, V3</span><span class="sxs-lookup"><span data-stu-id="4e453-103">Project Service Automation Update Release 13, V3</span></span>
-<span data-ttu-id="4e453-104">Vi är glada att kunna presentera den senaste uppdateringen av Dynamics 365 Project Service Automation (PSA)-programmet.</span><span class="sxs-lookup"><span data-stu-id="4e453-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="4e453-105">Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet.</span><span class="sxs-lookup"><span data-stu-id="4e453-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="4e453-106">Den här versionen är kompatibel med Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="4e453-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="4e453-107">Om du vill uppdatera till den här utgåvan går du till administrationscenter för Dynamics 365 online och går till sidan lösningar för att installera uppdateringen.</span><span class="sxs-lookup"><span data-stu-id="4e453-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="4e453-108">Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="4e453-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="7d93b-103">Project Service Automation uppdateringsversion 13, V3</span><span class="sxs-lookup"><span data-stu-id="7d93b-103">Project Service Automation Update Release 13, V3</span></span>
 
-<span data-ttu-id="4e453-109">I det här ämne finns funktioner och korrigeringar som är nya eller ändrade för Project Service Automation V3, uppdatering version 13.</span><span class="sxs-lookup"><span data-stu-id="4e453-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="4e453-110">Den här versionen har versionsnumret för V3.10.3.18 och är tillgängligt enligt följande schema:</span><span class="sxs-lookup"><span data-stu-id="4e453-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-- <span data-ttu-id="4e453-111">**Allmän tillgänglighet (självuppdatering):** 2019 november</span><span class="sxs-lookup"><span data-stu-id="4e453-111">**General availability (self-update):** November 2019</span></span>
-- <span data-ttu-id="4e453-112">**Automatisk uppdatering:** December 2019</span><span class="sxs-lookup"><span data-stu-id="4e453-112">**Auto-update:** December 2019</span></span>
+<span data-ttu-id="7d93b-104">Vi är glada att kunna presentera den senaste uppdateringen av Dynamics 365 Project Service Automation (PSA)-programmet.</span><span class="sxs-lookup"><span data-stu-id="7d93b-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="7d93b-105">Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet.</span><span class="sxs-lookup"><span data-stu-id="7d93b-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="7d93b-106">Den här versionen är kompatibel med Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="7d93b-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="7d93b-107">Om du vill uppdatera till den här utgåvan går du till administrationscenter för Dynamics 365 online och går till sidan lösningar för att installera uppdateringen.</span><span class="sxs-lookup"><span data-stu-id="7d93b-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="7d93b-108">Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="7d93b-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="7d93b-109">I det här ämne finns funktioner och korrigeringar som är nya eller ändrade för Project Service Automation V3, uppdatering version 13.</span><span class="sxs-lookup"><span data-stu-id="7d93b-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="7d93b-110">Den här versionen har versionsnumret för V3.10.3.18 och är tillgängligt enligt följande schema:</span><span class="sxs-lookup"><span data-stu-id="7d93b-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+
+- <span data-ttu-id="7d93b-111">**Allmän tillgänglighet (självuppdatering):** 2019 november</span><span class="sxs-lookup"><span data-stu-id="7d93b-111">**General availability (self-update):** November 2019</span></span>
+- <span data-ttu-id="7d93b-112">**Automatisk uppdatering:** December 2019</span><span class="sxs-lookup"><span data-stu-id="7d93b-112">**Auto-update:** December 2019</span></span>
 
 
-## <a name="update-release-13"></a><span data-ttu-id="4e453-113">Uppdatering version 13</span><span class="sxs-lookup"><span data-stu-id="4e453-113">Update Release 13</span></span> 
+## <a name="update-release-13"></a><span data-ttu-id="7d93b-113">Uppdatering version 13</span><span class="sxs-lookup"><span data-stu-id="7d93b-113">Update Release 13</span></span> 
 
-### <a name="bug-fixes"></a><span data-ttu-id="4e453-114">Felkorrigeringar</span><span class="sxs-lookup"><span data-stu-id="4e453-114">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="7d93b-114">Felkorrigeringar</span><span class="sxs-lookup"><span data-stu-id="7d93b-114">Bug fixes</span></span>
 
-- <span data-ttu-id="4e453-115">Tid och utgift</span><span class="sxs-lookup"><span data-stu-id="4e453-115">Time and Expense</span></span>
+- <span data-ttu-id="7d93b-115">Tid och utgift</span><span class="sxs-lookup"><span data-stu-id="7d93b-115">Time and Expense</span></span>
 
-     - <span data-ttu-id="4e453-116">Fast: Sökfunktionen på sidan **utgiftsgodkännande** fungerar inte när du söker efter utgiftssyften.</span><span class="sxs-lookup"><span data-stu-id="4e453-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
+     - <span data-ttu-id="7d93b-116">Fast: Sökfunktionen på sidan **utgiftsgodkännande** fungerar inte när du söker efter utgiftssyften.</span><span class="sxs-lookup"><span data-stu-id="7d93b-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
 
-- <span data-ttu-id="4e453-117">Resurshantering</span><span class="sxs-lookup"><span data-stu-id="4e453-117">Resource Management</span></span>
+- <span data-ttu-id="7d93b-117">Resurshantering</span><span class="sxs-lookup"><span data-stu-id="7d93b-117">Resource Management</span></span>
 
-     - <span data-ttu-id="4e453-118">Fast: nummer i avstämningen har uppdaterats till att vara högerjusterad.</span><span class="sxs-lookup"><span data-stu-id="4e453-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
-     - <span data-ttu-id="4e453-119">Fast: namngivna resurser kan inte tilldelas till aktiviteter via fliken **schema**.</span><span class="sxs-lookup"><span data-stu-id="4e453-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
+     - <span data-ttu-id="7d93b-118">Fast: nummer i avstämningen har uppdaterats till att vara högerjusterad.</span><span class="sxs-lookup"><span data-stu-id="7d93b-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
+     - <span data-ttu-id="7d93b-119">Fast: namngivna resurser kan inte tilldelas till aktiviteter via fliken **schema**.</span><span class="sxs-lookup"><span data-stu-id="7d93b-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
 
-- <span data-ttu-id="4e453-120">Projektledning</span><span class="sxs-lookup"><span data-stu-id="4e453-120">Project Management</span></span>
+- <span data-ttu-id="7d93b-120">Projektledning</span><span class="sxs-lookup"><span data-stu-id="7d93b-120">Project Management</span></span>
 
-     - <span data-ttu-id="4e453-121">Fast: Null referensundantag vid tilldelning av teammedlem när **TransactionType** saknas i inställningsinformation för **enhet** och **DefaultGroup**.</span><span class="sxs-lookup"><span data-stu-id="4e453-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
+     - <span data-ttu-id="7d93b-121">Fast: Null referensundantag vid tilldelning av teammedlem när **TransactionType** saknas i inställningsinformation för **enhet** och **DefaultGroup**.</span><span class="sxs-lookup"><span data-stu-id="7d93b-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
 
-- <span data-ttu-id="4e453-122">Sales</span><span class="sxs-lookup"><span data-stu-id="4e453-122">Sales</span></span>
+- <span data-ttu-id="7d93b-122">Sales</span><span class="sxs-lookup"><span data-stu-id="7d93b-122">Sales</span></span>
 
-     - <span data-ttu-id="4e453-123">Fast: dubbla transaktionstypposter returnerar ett fel när rollprisposter skapas.</span><span class="sxs-lookup"><span data-stu-id="4e453-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
-     - <span data-ttu-id="4e453-124">Fast: extra knappar för **Ny affärsmöjlighet**, **Offert**, **Orderrad** och **Lägg till produkt** visas i kommandon för affärstillfällen, offerter, orderprodukter och i underrutnätet projektbaserade rader.</span><span class="sxs-lookup"><span data-stu-id="4e453-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+     - <span data-ttu-id="7d93b-123">Fast: dubbla transaktionstypposter returnerar ett fel när rollprisposter skapas.</span><span class="sxs-lookup"><span data-stu-id="7d93b-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
+     - <span data-ttu-id="7d93b-124">Fast: extra knappar för **Ny affärsmöjlighet**, **Offert**, **Orderrad** och **Lägg till produkt** visas i kommandon för affärstillfällen, offerter, orderprodukter och i underrutnätet projektbaserade rader.</span><span class="sxs-lookup"><span data-stu-id="7d93b-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
 
 
