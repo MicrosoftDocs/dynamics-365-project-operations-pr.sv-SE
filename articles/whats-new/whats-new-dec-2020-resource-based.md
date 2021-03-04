@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700702"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727902"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i december 2020 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 
@@ -24,6 +24,8 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 
 - Project Operations i Dataverse-miljöversion 4.5.0.134
 - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.15
+
+Information om hur du uppdaterar till den här versionen finns i [Uppdatera Project Operations i Finance-miljön](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 Följande funktioner ingår i denna version:
@@ -89,7 +91,7 @@ Följande funktioner ingår i denna version:
 | Projektledning och redovisning | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799)           | Det går inte att utföra uppskattnings-/intäktsigenkänning med Project Operations aktiverat                                                                                                                                                                         |
 | Resor och utgifter                | [378738](https://fix.lcs.dynamics.com/Issue/Details/?bugId=378738)           | Den utgift som angetts av ett ombud skickas tillbaka till utgiftsanvändaren och inte till ombudet                                                                                                                                                                                           |
 | Resor och utgifter                | [409489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=409489)           | Den ombudsanvändare för arbetsflödet för utgiftsrapport som skickar arbetsflödet redovisas inte som arbetsflödets upphovsman                                                                                                                                                             |
-| Resor och utgifter                | [464658](https://fix.lcs.dynamics.com/Issue/Details/?bugId=464658)           | Standarddimensioner i åsidosättningar av juridiska enheter fungerar inte på koncerninterna utgiftsrapporter                                                                                                                                                                    |
+| Resor och utgifter                | [464658](https://fix.lcs.dynamics.com/Issue/Details/?bugId=464658)           | Standarddimensioner i åsidosättningar av juridiska personer fungerar inte på koncerninterna utgiftsrapporter                                                                                                                                                                    |
 | Resor och utgifter                | [472892](https://fix.lcs.dynamics.com/Issue/Details/?bugId=472892)           | Problem med beräkningen av sista dagens måltidsrabatt för utgiftskategorin per dag                                                                                                                                                                                    |
 | Resor och utgifter                | [473646](https://fix.lcs.dynamics.com/Issue/Details/?bugId=473646)           | Fältet **Belopp att stämma av** på sidan **Reserekvisition** uppdateras inte när en artikel på en utgiftsrad tas bort från utgiftsrapporten som är kopplad till reserekvisitionen                                                                                                       |
 | Resor och utgifter                | [474396](https://fix.lcs.dynamics.com/Issue/Details/?bugId=474396)           | Utgiftsrapport validerade policyn efter att ha skickat den till arbetsflödet                                                                                                                                                                                           |

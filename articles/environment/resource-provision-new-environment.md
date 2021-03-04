@@ -3,17 +3,18 @@ title: Etablera en ny miljö
 description: I det här ämnet finns information om hur du etablerar en ny Project Operations-miljö.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643014"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727812"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
@@ -60,17 +61,15 @@ Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för P
 
 ![Distributionsmedgivande](./media/2DeploymentConsent.png)
 
-7. Fyll i de återstående obligatoriska fälten i guiden och bekräfta distributionen. Hur lång tid det tar att etablera miljön varierar beroende på miljötypen. Etableringen kan ta upp till sex timmar.
+7. Valfritt – Tillämpa demodata på miljön. Gå till **Avancerade inställningar** väljer du **Anpassa konfiguration av SQL-databas** och ange **Ange en datauppsättning för programdatabas** som **Demo**.
+
+8. Fyll i de återstående obligatoriska fälten i guiden och bekräfta distributionen. Tiden för etablering av miljön varierar beroende på miljötypen. Etableringen kan ta upp till sex timmar.
 
   När distributionen har slutförts visas miljön som **Distribuerad**.
 
-8. Du bekräftar att miljön har distribuerats genom att välja **Logga in** och sedan logga in på miljön.
+9. Bekräfta att miljön har distribuerats korrekt genom att välja **Inloggning** och logga in i miljön för att bekräfta.
 
 ![ miljöinformation](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Tillämpa Project Operations Finance-demodata (valfritt steg)
-
-Tillämpa Project Operations Finance-demodata till 10.0.13-tjänstutgåvan av molnbaserad miljö enligt beskrivningen i [den här artikeln](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Tillämpa uppdateringar av Finance-miljön
 
@@ -151,6 +150,21 @@ När entiteterna har tillämpats visas alla tillgängliga mappningar i miljön.
 Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den är klar.
 
 ![Uppdateringsbekräftelse](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Uppdatera säkerhetsinställningarna för Project Operations i Dataverse
+
+1. Gå till Project Operations i din Dataverse-miljö. 
+2. Gå till **Inställningar** > **Säkerhet** > **Säkerhetsroller**. 
+3. På sidan **Säkerhetsroller**, i listan över roller, väljer du **Användare av appar för dubbelriktad skrivning** och välj fliken **Anpassade entiteter**.  
+4. Kontrollera att rollen har behörigheterna **Läs** och **Lägg till i** för:
+      
+      - **Växelkurstyp för valuta**
+      - **Kontolista**
+      - **Kalender för räkenskapsår**
+      - **Transaktionsregister**
+
+5. När säkerhetsrollen uppdateras går du till **Inställningar** > **Säkerhet** > **Teams** och väljer standardteamet i teamvyn **Lokala företagsägare**.
+6. Välj **Hantera roller** och kontrollera att säkerhetsbehörigheten **Användare av appar för dubbelriktad skrivning** gäller för det här teamet.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Kör kartor för dubbelskrivning i Project Operations
 

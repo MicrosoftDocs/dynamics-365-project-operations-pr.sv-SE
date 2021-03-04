@@ -5,23 +5,24 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176723"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764585"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Konfigurera kostnads- och försäljningstaxa för katalogprodukter – Lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 
-Att konfigurera prissättning för produktkatalogsartiklar i Dynamics 365 Project Operations är samma som i Dynamics 365 Sales.
+Att ange priser för produktkatalogsobjekt i Dynamics 365 Project Operations sker på samma sätt som i Dynamics 365 Sales.
 
-Eftersom produkter inte kan uppskattas eller användas i Project Operations behöver du inte ange produktkatalogspriser på projektprislistor för offerter och kontrakt.
+I Project Operations kan produkter inte beräknas eller användas i projekt, varför produktkatalogpriser inte behöver anges i projektprislistor för offerter och kontrakt.
 
-Produktkatalogspriser bör konfigureras i fältet **Produktpris** i en offert, ett kontrakt eller konto. Konfigurera inte produktkatalogspriser i projektprislistorna för dessa entiteter. Projektprislistor är exklusiva för Project Operations. Det finns programspecifik affärslogik som kopierar prislistorna från en offert till ett kontrakt. Resultatet är en kontraktspecifik projektprislista. Kopieringen kan fördröja offertvinsten om projektprislistan i offerten blir för stor. Produktprislistor kopieras inte för att skapa anpassade prislistor i kontrakt. Detta innebär att produktprislistor inte påverkar effektiviteten i offertvinstprocessen.
+Använd fältet **Produktpris** för en offert, ett kontrakt eller ett konto om du vill konfigurera priser för produktkataloger. Ange inga produktkatalogpriser i projektprislistorna. Projektprislistor är exklusiva för Project Operations. Programspecifik affärslogik kopierar prislistorna från en offert till ett kontrakt. Resultatet är en kontraktspecifik projektprislista. Kopieringen kan fördröja offertvinsten om projektprislistan i offerten blir för stor. Produktprislistor kopieras inte för att skapa anpassade prislistor i kontrakt. Eftersom ingen kopiering förekommer påverkas inte offertprocessens prestanda.

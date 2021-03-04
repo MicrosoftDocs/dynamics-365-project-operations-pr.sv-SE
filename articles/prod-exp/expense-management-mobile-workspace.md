@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085699"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960494"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobil arbetsyta för utgiftshantering
-
-[!include [banner](../includes/banner.md)]
 
 I det här ämnet finns information om hur du använder mobil arbetsyta för **utgiftshantering**. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter. Dessutom kan godkännare använda mobil arbetsyta för **utgiftshantering** för att visa utgiftsrapporter som har tilldelats dem och antingen godkänna eller avvisa dessa utgiftsrapporter.
 
@@ -203,7 +201,7 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
 18. Om företagspolicyn kräver gäster för utgiften markerar du **Gäster** och följer sedan stegen nedan:
 
-    1. Välj **Gäst** , **Tidigare gäster** eller **Medarbetare**.
+    1. Välj **Gäst**, **Tidigare gäster** eller **Medarbetare**.
     2. Följ ett av de här stegen:
 
         - Om du valde **Gäst** följer du stegen nedan:

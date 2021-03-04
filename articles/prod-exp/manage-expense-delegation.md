@@ -1,6 +1,6 @@
 ---
 title: Hantera utgiftsdelegering
-description: Ett utgiftsombud kan skapa och hantera utgiftsrapporter för en annan anställds räkning i organisationen.
+description: En användare som delegerar utgifter kan skapa och hantera utgiftsrapporter för en annan anställd i organisationen.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085692"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960809"
 ---
 # <a name="manage-expense-delegation"></a>Hantera utgiftsdelegering
 
-[!include [banner](../includes/banner.md)]
+Ett utgiftsombud kan skapa och hantera utgiftsrapporter för en annan medarbetare.
 
-Ett utgiftsombud kan skapa och hantera utgiftsrapporter för en annan anställds räkning i organisationen.
+## <a name="configure-expense-delegation"></a>Konfigurera utgiftsdelegering
 
-## <a name="configuring-expense-delegation"></a>Konfigurera utgiftsdelegering
+1. Om du vill ange en användare som ombud för utgifter går du till **Utgiftshantering > Inställningar > Allmänt > Ombud**.
+2. På sidan **Ombud** väljer du **Nytt**.
+3. Välj den medarbetare som ska ha ett ombud definierat. 
+4. Ange alias för ombudet samt start- och slutdatum för delegeringsperioden.
 
-Om du vill konfigurera en användare som utgiftsombud går du till **Utgiftshantering > Konfiguration > Allmänt > Ombud** för att öppna sidan **Ombud**. Välj **Ny** och välj sedan den medarbetare som ska ha ett ombud. Ange alias för ombudet samt start- och slutdatum för delegeringsperioden.
+## <a name="manage-expense-delegation-for-another-employee"></a>Hantera utgiftsdelegering för en annan anställd
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Hantera utgiftsdelegering för en annan medarbetares räkning
+När funktionshanteringsnyckeln **Aktivera listsidan för utgiftsombud** är aktiverat blir listsidan **Utgifter delegerade till mig** tillgänglig. Gå till **Utgiftshantering** > **Mina utgifter** > **Utgifter som delegerats till mig**.
 
-Om funktionshanteringsnyckeln **Aktivera listsida med utgiftsombud** har aktiverats, blir listsidan **Utgifter som delegerats till mig** tillgänglig genom att navigera till **Utgiftshantering > Mina utgifter > Utgifter som delegerats till mig**.
+En ombudsanvändare kan snabbt filtrera och söka efter befintliga utgiftsrapporter som har delegerats till dem. De kan också skapa en ny utgiftsrapport för andra användare genom att välja **Ny utgiftsrapport**.
 
-Ett ombud kan snabbt filtrera och söka i befintliga utgiftsrapporter som har delegerats till användaren. Användaren kan också snabbt skapa en ny utgiftsrapport för andra användare genom att klicka på **Ny utgiftsrapport**.
-
-Ombud kan också skapa och hantera utgiftsrapporter för andra medarbetare genom att gå till **Utgiftshantering > Mina utgifter > Utgiftsrapporter** och klicka på knappen **Öppna annan användares utgifter**.
+Ombudsanvändare kan också skapa och hantera utgiftsrapporter för andra anställda genom att gå till **Utgiftshantering** > **Mina utgifter** > **Utgiftsrapporter** ochv älja **Öppna andra användares utgifter**.

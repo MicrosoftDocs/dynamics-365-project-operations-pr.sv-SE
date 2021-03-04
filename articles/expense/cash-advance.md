@@ -3,19 +3,19 @@ title: Förskott
 description: I det här ämnet finns information om förskott.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122771"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098906"
 ---
 # <a name="cash-advance"></a>Förskott
 
@@ -24,8 +24,9 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 Ett förskott gör det möjligt för anställda att låna pengar från sitt företag innan de får utgifter. När ett begärt förskott godkänns och betalas kan medarbetaren använda sig av pengarna för de affärsutgifter de är på väg att ådra sig. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Skapa och skicka in en förskottsbegäran
+Så här skapar du ett nytt förskott och skickar en begäran om förskott: 
 
-1. Under **Mina utgifter** väljer du **Förskott** > **Ny** för att skapa en ny förskottsbetalning. 
+1. Under **Mina utgifter** väljer du **Förskott** > **Nytt**. 
 2. På sidan **Ny förskottsbegäran** anger du syftet med utgiften och väljer den plats där kostnad ska påföras.
 3. Ange det begärda beloppet och valutan och välj sedan **Spara**. 
 4. När du är redo att skicka in förskottsbegäran går du till sidan **Förskottsbegäran** och väljer **Arbetsflöde** > **Skicka in**.
@@ -34,7 +35,7 @@ Ett förskott gör det möjligt för anställda att låna pengar från sitt för
 
 Du kan ändra en förskottsbegäran om den inte har skickats för godkännande.
 
-1. Under **Mina utgifter: förskott** söker du efter och markerar de förskott du vill redigera.
+1. Under **Mina utgifter: förskott** letar du upp det förskott du vill redigera.
 2. Välj **Redigera** och gör nödvändiga ändringar i förskottsförfrågan. 
 3. Välj **Spara och stäng**.
 
@@ -57,7 +58,8 @@ Följande procedur slutförs vanligen av en revisor eller en användare med redo
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Skicka en utgiftsrapport mot ett betalat förskott 
 
-När du skapar och skickar en utgiftsrapport för den förskottsbetalning som du redan har tagit emot justeras utgifterna automatiskt mot förskottet. Om förskottet är större än utgiftsbeloppet måste du returnera saldot till företaget med hjälp av utgiftskategorin **Returnera kontanter**. Om förskottet som betalats av företaget är mindre än det belopp som du har betalat måste företaget betala mellanskillnaden. 
+När du skapar och skickar en utgiftsrapport för det förskott som du redan har fått, justeras utgifterna automatiskt mot det förskottet. Om förskottet är större än utgiftsbeloppet måste du returnera saldot till företaget med hjälp av utgiftskategorin **Returnera kontanter**. Om förskottet som betalas av företaget är mindre än det belopp du har lagt ut för, måste företaget ersätta dig för detta. 
 
 ### <a name="example"></a>Exempel
-Du planerar att resa för en konferens från Stockholm till Göteborg. Du skapar en förskottsbegäran för 30 000 kr då du har uppskattat att detta är den ungefärliga kostnaden för konferensbiljetten, flygningar, hotell, måltider och taxiresor. Du kommer inte att få betalt om din chef inte har godkänt förfrågan. Efter att chefen har godkänt betalningen betalas det begärda förskottet på 30 000 kr till ditt bankkonto. Du ska sedan delta i konferensen. När resan är klar upptäcker du att endast de totala utgifterna var 27 900 kr. Välj **Kontanter** i fältet **Betalningsmetod** och skicka in utgiften på 27 900 kr. Det inskickade utgiftsbeloppet justeras automatiskt mot förskottet för de 30 000 kronorna som lånades ut till dig. Du är nu skyldig en mellanskillnad på 2 100 kr (30 000 - 27 900) till företaget, som du kan betala till företaget med hjälp av utgiftskategorin **Returnera kontanter**. 
+Du planerar att resa från Seattle till New York City för en konferens. Du skapar en förskottsförfrågan för 3 000 USD utifrån den beräknade kostnaden för konferensbiljetten, flyg, hotell, måltider och taxiresor. Du kommer inte att få betalt om inte din chef godkänner denna förfrågan. Efter att chefen har godkänt betalningen betalas det begärda förskottet på 30 000 kr till ditt bankkonto. Du ska sedan delta i konferensen. När resan är klar upptäcker du att endast de totala utgifterna var 27 900 kr. Välj **Kontant** i fältet **Betalsätt** och skicka in dina utgifter uppgående till 2 790 USD. Det inskickade utgiftsbeloppet justeras automatiskt mot förskottet för de 30 000 kronorna som lånades ut till dig. Du får nu ett saldo på 210 USD (3 000 - 2 790) som du kan återföra tiull företaget med hjälp av utgiftskategorin **Returnera medel**.
+
