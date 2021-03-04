@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642610"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150690"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheter eller ändringar i Project Service Automation version 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
@@ -231,7 +234,7 @@ För kunder av Project Service Automation som vill fortsätta att använda de h�
 I version 3 av Project Service Automation har olika aspekter av installation och hantering av offerter och kontrakt ändrats. I följande avsnitt finns mer detaljerad information.
 
 ### <a name="set-up-chargeability-options"></a>Skapa debiterbara alternativ
-I version 1 och 2 gjordes en debiterbar konfiguration för roller och kategorier för specifika offerter och kontrakt med hjälp vyn **debiteringsbarhet** för debitering som fanns i den övre navigeringen på en offertrad eller en kontraktsrad. Du kunde även ange priser för de här rollerna och utgiftskategorierna.
+I version 1 och 2 gjordes en debiterbar konfiguration för roller och kategorier för specifika offerter och kontrakt med hjälp vyn **debiteringsbarhet** för debitering som fanns i den övre navigeringen på en offertrad eller en kontraktrad. Du kunde även ange priser för de här rollerna och utgiftskategorierna.
 
 Från och med version 3 görs en inställning av debiteringsalternativ per roll- och utgiftskategori på offert- eller kontraktradnivån. Prissättningsinställningar är separat från debiterbar konfiguration. Du kan söka efter **debiterbara roller** och **debiterbara kategorier**  som flikar på sidorna **offertrad** och  **kontraktrad** utan att behöva använda toppnavigering.
 

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085581"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151320"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startsida för prissättnings- och kostnadsdimensioner
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 De dimensioner som används för att ange lönesättning och kostnader i projektbaserade organisationer påverkas av följande attribut:
 
@@ -33,7 +35,7 @@ De dimensioner som används för att ange lönesättning och kostnader i projekt
 
 Med tanke på att de olika attrubuten av arbete och de personer som krävs för att utföra arbetet finns det två typer av prisdimensionsvärden tillgängliga i Project Service Automation: 
 
-- **Alternativuppsättningar** : - Attribut som är fasta uppräkningar för en uppsättning värden.
+- **Alternativuppsättningar**: - Attribut som är fasta uppräkningar för en uppsättning värden.
 - **Entitetbaserade värden** - attribut som kan ha en varierad uppsättning värden som är begränsade men kan ändras med tiden.
 
 ## <a name="pricing-dimensions"></a>Prissättningsdimensioner
@@ -55,7 +57,7 @@ Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare a
 ## <a name="pricing-human-resource-time"></a>Prissättning av mänsklig resurs
 Hur en organisation prissätter mänsklig resurs är ofta ett viktigt strategiskt övervägande som påverkar organisationens lönsamhet direkt. Arbeta med ekonomiteamen och övningsrubriker när organisationen är klar att identifiera hur fakturering och kostnader för personaltid ska konfigureras.
 
-Andra faktorer för prissättningen är om återanvända fält eller entiteter som inte för närvarande är prissättningsdimensioner men som används som prissättningsdimensioner för organisationen. Fält som **transaktionskategori** ( **msdyn_transactioncategory** ) och **bokningsbar resurs** ( **bookableresource** ) är exempel på sökande dimensioner. 
+Andra faktorer för prissättningen är om återanvända fält eller entiteter som inte för närvarande är prissättningsdimensioner men som används som prissättningsdimensioner för organisationen. Fält som **transaktionskategori** (**msdyn_transactioncategory**) och **bokningsbar resurs** (**bookableresource**) är exempel på sökande dimensioner. 
 
 Fundera över om prissättningsdimensionen ska vara en tabell eller en alternativuppsättning. Om du förväntar dig ändringar av värden i en dimension som blir större än 10 eller 12 och du behöver ytterligare attribut för dessa värden kan du skapa en entitet i stället för en alternativuppsättning. Om du underhåller en alternativuppsättning, t.ex. lägga till eller ta bort värden, krävs en administratör eller utvecklare för att kunna lägga till nya rader i en tabell kan utföras av de flesta företagsanvändare.
 
@@ -65,13 +67,13 @@ I följande exempel visas faktureringskostnader som är inställda utifrån den 
 
 | Roll        | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvecklare   | Contoso US  |Hour | 200|USD     |
-| Utvecklare   | Contoso India |Hour|   112|USD     |
+| Utvecklare   | Contoso US  |Timme | 200|USD     |
+| Utvecklare   | Contoso India |Timme|   112|USD     |
 
 
 **Exempelkostnadstariffer**
 
 | Löneband     | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt företag_Band1 | Contoso US  |Hour | 145|USD     |
-| Mitt företag_Band2 | Contoso India |Hour|   67|USD     |
+| Mitt företag_Band1 | Contoso US  |Timme | 145|USD     |
+| Mitt företag_Band2 | Contoso India |Timme|   67|USD     |

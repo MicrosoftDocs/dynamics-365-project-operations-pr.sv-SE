@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131400"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151635"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metoder för att boka allokeringar i Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Oavsett om du lägger till en teammedlem direkt i ett projekt på fliken **Team** eller schemalägger en resurs till ett projekt eller krav via schemaläggningstavlan, finns det några olika bokningsallokeringsmetoder du kan använda. Det här ämnet lär dig hur de olika metoderna fungerar och vilka metoder som kan leda till överbokning av resurser.
 
