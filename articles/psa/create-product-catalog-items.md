@@ -37,3 +37,6 @@ Om du vill inkludera produkter, till exempel programvarulicenser, på projektoff
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

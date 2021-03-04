@@ -134,3 +134,6 @@ Innan du börjar konfigurera data i Common Data Service (CDS) måste följande k
 13. Välj **Spara**. 
 
 ![Uppdaterade projektparametrar](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

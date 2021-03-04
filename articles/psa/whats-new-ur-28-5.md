@@ -42,3 +42,6 @@ Följande problem har åtgärdats:
 
 - Schemalägga försämrad assistanssökningsprestanda
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

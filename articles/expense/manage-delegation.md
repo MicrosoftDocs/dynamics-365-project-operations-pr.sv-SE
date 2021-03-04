@@ -39,3 +39,6 @@ Om funktionshanteringsnyckeln **Aktivera listan över utgiftsombud** är aktiv b
 Ett ombud kan snabbt filtrera och söka i befintliga utgiftsrapporter som har delegerats till dem. Ombudet kan också snabbt skapa en ny utgiftsrapport för andra användare genom att välja **Ny utgiftsrapport**.
 
 Ombud kan skapa och hantera utgiftsrapporter för andra medarbetare genom att gå till **Utgiftshantering** > **Mina utgifter** > **Utgiftsrapporter** och välja **Öppna andra användares utgifter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

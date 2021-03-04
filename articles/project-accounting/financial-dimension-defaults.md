@@ -62,3 +62,6 @@ Projekt skapas och underhålls i CDS. Redovisningsproviders för projekt anges i
 4. Ange standardvärden för ekonomisk dimension. Observera att de ekonomiska dimensionerna standard från kundkontot. Om projektet är associerat med en kontraktrad med flera projektkontraktkunder används den primära kunden för att standardisera ekonomiska dimensioner.
 
 Projektets ekonomiska standarddimensioner används för att ange standard för journalrader för tid-, utgifts- och avgiftstransaktioner i **Project Operations integrationsjournalen** och på relaterade projekt fakturarader.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

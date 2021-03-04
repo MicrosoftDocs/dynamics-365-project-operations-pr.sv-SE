@@ -49,3 +49,6 @@ Mina tidrapporter (optimerade för mobil) och tidrapporter för min granskning (
 - [Projektets tidspost]( project-time-entry-mobile-workspace.md)
 - [Projektets tidrapporter på en mobil enhet](Mobile-timesheets.md)
 - [Implementera anpassade fält för Microsoft Dynamics 365 Project Timesheet mobilappen på iOS och Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

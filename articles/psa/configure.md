@@ -58,3 +58,6 @@ Innan du kan använda [!INCLUDE[pn_project_service_auto](../includes/pn-project-
  [Guiden för projektledare](../psa/project-manager-guide.md)   
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)   
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

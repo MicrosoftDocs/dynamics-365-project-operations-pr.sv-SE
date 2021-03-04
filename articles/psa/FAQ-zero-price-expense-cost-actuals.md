@@ -38,3 +38,6 @@ Dessa Vanliga frågor och svar gäller utgiftstillgångar där transaktionsklass
 Gå till posten för relaterade utgifter och se till att det finns ett belopp i fältet för utgifter. Om den ursprungliga utgiftsposten inte hade fyllts i har du hittat problemet.
  
 Lös problemet genom att återskapa utgiftsposten med ett giltigt värde och godkänna den.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

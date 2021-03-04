@@ -116,3 +116,6 @@ Uppgiftsläget påverkar inte uppdateringar som görs av start- och slutdatum f�
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och tangentbordsgenvägar
 
 Rutnätet **Schema** är fullt åtkomligt och kan användas med skärmläsare som Berättare, JAWS eller NVDA. Du kan förflytta dig i rutnätsområdet med hjälp av piltangenterna (som i Microsoft Excel), men du kan använda tabbtangenten för att gå igenom de interaktiva användargränssnittselementen, och du kan använda nedåtpil, Retur eller blanksteg för att välja och öppna listrutemenyerna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

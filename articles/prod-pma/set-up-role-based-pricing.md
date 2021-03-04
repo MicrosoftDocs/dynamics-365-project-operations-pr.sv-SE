@@ -34,3 +34,6 @@ Alla kostnads-, försäljnings- och överföringspriser kan ställas in för rol
 1. På sidan **Försäljningspris (timma)** välj **Ny** och ange ett giltigt datum.
 2. I kolumnen **Roll** välj en roll.
 3. I kolumnen **Prissättning** ange ett pris för den valda resursrollen i kolumnen prissättning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

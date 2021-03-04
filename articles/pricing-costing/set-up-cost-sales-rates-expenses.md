@@ -55,3 +55,6 @@ När den här prissättningsmetoden väljs på kategoriprisraden som är länkad
 
 ### <a name="markup-over-cost"></a>Pålägg över kostnad
 När den här prissättningsmetoden väljs på kategoriprisraden som är länkad till en försäljningsprislista är priset standardvärdet för kategori- och enhetskombinationen enbart för ett faktiskt utgiftsvärde. Till exempel faktiska ofakturerade försäljningsvärden för utgiftstransaktionsklassen. Det här styckpriset anges som faktiskt ofakturerat försäljningsvärde till ett beräknat värde från styckpriset på det faktiska kostnadsvärde som angetts för utgiften efter att den definierade påläggsprocenten har tillämpats. Pris som standardiseras utifrån kostnad görs inte på projektuppskattningar av utgifter eller i offertrads- och kontraktradsinformation för utgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

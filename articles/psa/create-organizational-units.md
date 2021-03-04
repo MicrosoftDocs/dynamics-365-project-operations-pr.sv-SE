@@ -52,3 +52,6 @@ Ditt företag ordnar förmodligen sin konsultverksamheten efter geografi, funkti
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

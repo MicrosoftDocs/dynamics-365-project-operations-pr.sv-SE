@@ -52,3 +52,6 @@ Du kan använda var och en av dessa prislistor och göra uppdateringar av arbete
 I ett projektkontrakt är projektpriset alltid standard som en anpassad prislista med namnet på kontraktet och datum-tidsstämpeln som läggs till i namnet. Detta gäller oavsett om kontraktet skapades när offerten vanns eller om kontraktet skapades från grunden. Om det behövs kan du ta bort kopplingen till den anpassade prislistan och associera en standardprislista till projektkontraktet i stället.
 
 När du associerar en standardprislista med projektprislistorna för en offert eller ett kontrakt påverkas alla eventuella ändringar av priserna i prislistan för alla offerter och kontrakt som använder prislistan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

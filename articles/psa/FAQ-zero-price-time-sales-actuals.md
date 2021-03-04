@@ -57,3 +57,6 @@ Om det inte finns någon rad i rutnätet för rollpriser för prissättning i ti
 
 Om du fortfarande inte ser något giltigt pris på tidsförsäljningstillgången efter att ha följt de tre kontrollerna ovan, vänligen skapa då ett supportärende. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

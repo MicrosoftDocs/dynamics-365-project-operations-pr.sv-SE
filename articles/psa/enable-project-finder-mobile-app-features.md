@@ -68,3 +68,6 @@ Dina resurser kan använda appen Project Finder Mobile på sina telefoner med [!
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

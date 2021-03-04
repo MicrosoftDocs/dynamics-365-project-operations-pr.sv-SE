@@ -142,3 +142,6 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
 Mer information om regelverksuppdateringar för Dynamics 365 Finance finns i [Regelverksuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på Lifecycle Services (LCS) och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

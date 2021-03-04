@@ -74,3 +74,6 @@ När du expanderar raden i den teammedlemmens post kan du se enskilda tilldelnin
 När du navigerar till rutnätet **beräkning** kommer du att lägga märke till att båda tilldelningarna för samma resurs är olika.
 Tilldelningen för resursens uppgift A är prissatt med hjälp av attributvärdet för **Roll** för **Rådgivningslead**. Tilldelningen för sanna resurs för uppgift B är prissatt med hjälp av attributvärdet för **Roll** för **nätverkstekniker**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

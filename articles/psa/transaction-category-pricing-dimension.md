@@ -53,3 +53,6 @@ Följande tabell är en fullständig lista över de formulär och vyer som inte 
 2. På sidan **parametrar** på fliken **Beloppsbaserade prissättningsdimensioner** kan du notera att i rutnätet på fliken visas posterna i entiteten **prissättningsdimensioner**.
 3. Lägg till **transaktionskategori** i den här listan och ange värdet **Gäller för kostnad** och **Gäller för försäljning** till **Ja**.
 4. I fältet **Dimensionstyp** väljer du **Beloppsbaserad** och väljer sedan prioriteten för **transaktionskategori** som gäller för kostnad och försäljning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

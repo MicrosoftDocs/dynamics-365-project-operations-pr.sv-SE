@@ -101,3 +101,6 @@ I följande exempel är Contoso Robotics USA (USPM) den låntagande juridiska pe
           - **Resursföretag** = **Contoso Robotics Storbritannien**
           - **Fakturataxa** = **200 USD**
       9. Gå till **Försäljning** > **Projektkontrakt** och bifoga **Fakturataxor för Adventure Works** till Adventure Works projektprislista för projektkontrakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

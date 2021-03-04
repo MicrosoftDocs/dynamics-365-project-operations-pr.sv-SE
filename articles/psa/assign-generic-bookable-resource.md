@@ -59,3 +59,6 @@ Du kan också klicka på länken **resurskrav** i teamets rutnät för att öppn
 
 ![Resurskrav](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

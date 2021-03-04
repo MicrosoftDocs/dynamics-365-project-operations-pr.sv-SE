@@ -105,3 +105,6 @@ I Dynamics 365 hanterar automatiskt sammanslagning av belopp i olika valutor. H�
 | Expense           | Ofakturerad försäljning   | 17 juni | Joel  | Biluthyrning           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Om du vill beräkna det totala fakturerade försäljningsvärdet i projektet kan du skapa ett fält för sammanslagning för fältet **belopp** i alla relaterade, ej fakturerade försäljningsvärden. Sammanslagningsfältet är en konstruktion av Dynamics 365 som gör det enkelt att skapa formler för relaterade poster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

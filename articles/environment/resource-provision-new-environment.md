@@ -209,3 +209,6 @@ Om du har använt demonstrationsdata i Finance-miljön läser du [Konfigurera oc
 
 
 Project Operations-miljön har nu etablerats och konfigurerats. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Du kan använda sökrutan i **resursväljaren** för att söka efter alla aktiva
 1. Navigera till cellen **Tilldelad till** från uppgiftsrutnätet, tavlan eller tidslinjen.
 2. Börja med att skriva ett namn i sökrutan. Sökresultaten för namnet visas i resursväljaren under **resursväljaren** under **andra resurser**.
 3. Välj den resurs du vill tilldela uppgiften eller välj namnet på resursen under **Andra teamresurser**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

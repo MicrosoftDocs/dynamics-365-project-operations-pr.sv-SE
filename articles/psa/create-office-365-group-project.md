@@ -43,3 +43,6 @@ Tillhandahåller ett utrymme där teammedlemmar för ett projekt kan samarbeta o
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

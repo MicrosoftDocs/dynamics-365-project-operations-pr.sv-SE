@@ -78,3 +78,6 @@ Följande funktioner finns på den befintliga sidan, men finns ännu inte på de
 - Arbetsflöde på radnivå
 - Stöd för interimistiska godkännanden
 - Avancerad specifikation
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Mer information finns i [Utgiftspost (enkel)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Fastställa din utgiftsdistribution
 Kontrollera om du kör distributionen Grundläggande utgiftshantering genom att kontrollera att webbadressen slutar på **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

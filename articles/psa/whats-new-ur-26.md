@@ -74,3 +74,6 @@ Följande problem har åtgärdats:
 - Vid val av en projektbaserad rad inom en offert eller ett kontrakt ska knappen **Förslag** endast vara synlig när du väljer en produktbaserad rad som är kopplad till en befintlig produkt.
 - Spearera privilegiet **Skapa_produkt** från privilegiet **Skapa_projektkontrakt**.
 - Om du tar bort en fakturarad orsakas ett nollreferensfel i **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

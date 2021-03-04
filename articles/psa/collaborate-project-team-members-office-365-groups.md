@@ -43,3 +43,6 @@ Med [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] kan du samarbeta
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Till skillnad från bokningar är tilldelningar åtagande av resurser till proje
 Vanligtvis är summan av bokningarna för en resurs lika med summan av resursens tilldelningar för en eller flera uppgifter. Project Operations verkställer emellertid inte detta avtal. I vyn **avstämning** visas en projektledare där resursens bokningar och tilldelningar inte godkänner varandra.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

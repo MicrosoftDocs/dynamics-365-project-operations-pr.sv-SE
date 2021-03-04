@@ -135,3 +135,6 @@ Om du har verkliga värden som följde efter att fakturan skapades kan du ta med
 2. Öppna proforma-utkastfakturan och i menyfliksområdet **Åtgärder** klicka på **Uppdatera transaktioner på fakturaraden**.
 
   Detta skapar fakturaradinformation för alla faktiska som är tidigare daterade och markerade som **Klar att fakturera** men som inte ingår i fakturan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

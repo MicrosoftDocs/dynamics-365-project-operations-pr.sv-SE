@@ -43,3 +43,6 @@ Om projektofferten som stängs som Förlorad har ett projekt som refererar till 
 
 > [!NOTE]
 > När du stänger en offert som Vunnen eller Förlorad i Project Operations påverkas inte affärsmöjlighetens status, som förblir öppen tills den stängs manuellt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

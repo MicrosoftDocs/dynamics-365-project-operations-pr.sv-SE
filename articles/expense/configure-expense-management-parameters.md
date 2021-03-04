@@ -83,3 +83,6 @@ I det här ämnet beskrivs parametrar som styr det allmänna beteendet i utgifts
 | Visa attestering för anti-korruption   | Välj det här alternativet om du vill visa anti-korruptionstexten när en utgiftsrapport skapas. Särskilda utgiftskategorier kan sedan aktiveras som kräver att attesteringen för anti-korruption väljs i utgiftsrapporten. En presentkategori som är relaterad till en statlig officiell kostnad kan till exempel kräva att medarbetaren bekräftar att utgiften uppfyller företagets policy vad gäller myndighetstjänstemän. |
 | Anti-korruptionsmeddelande för avsändare | Ange den text som ska visas för en anställd som skapar en utgiftsrapport. Om du vill ange språkspecifik text som ska visas baserat på användarspråket väljer du **Översättningar**. |
 | Anti-korruptionsmeddelande för godkännare  | Ange den text som ska visas för godkännaren när en utgiftsrapport skapas. Om du vill ange språkspecifik text som ska visas baserat på användarspråket väljer du **Översättningar**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

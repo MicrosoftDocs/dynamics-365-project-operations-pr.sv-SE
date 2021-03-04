@@ -55,3 +55,6 @@ Utgifter som ännu inte har skickats kan tas bort. Om du vill ta bort en utgift 
 ## <a name="see-also"></a>Se även
 
 - [Översikt över godkännanden](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

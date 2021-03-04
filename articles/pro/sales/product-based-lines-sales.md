@@ -28,3 +28,6 @@ Produktbaserade rader kan vara katalogartiklar eller oregistrerade produkter. De
 
 När intäktsmetoden för sammanfattningen för affärsmöjlighet är **Systemberäknad** sammanfattas kundbudgetvärdena över affärsmöjlighetsraderna i syfte att beräkna den beräknade omsättningen. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

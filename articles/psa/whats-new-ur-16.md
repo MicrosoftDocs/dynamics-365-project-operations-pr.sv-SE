@@ -64,3 +64,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
 
     -   åtgärdat: När användare uppgraderar från 2.X till 3. X tillåts projekt med ett NULL-värde för projektets namn.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Affärsprocessen Lead till affärsmöjlighet stöder följande steg:
 | Ta fram | Affärsmöjlighet | Utveckla affärsmöjligheten och lägg till mer information om det arbete som ingår, viktiga intressenter och konkurrens. |
 | Föreslå | Affärsmöjlighet | Utarbeta förslaget och få godkännande från det interna granskningsteamet. |
 | Stängning | Affärsmöjlighet | Vinn affärsmöjligheten för att stänga affären. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

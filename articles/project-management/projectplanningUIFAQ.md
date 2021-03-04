@@ -106,3 +106,6 @@ När en eller flera uppdateringar görs i den uppdelade arbetsstrukturen misslyc
   - Project Operations-systemet
   - Projektsystem
   - Dubbelskrivningssystem för Project Operations (denna roll krävs om du distribuerar det resurs-/icke-lagerbaserade scenariot för Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

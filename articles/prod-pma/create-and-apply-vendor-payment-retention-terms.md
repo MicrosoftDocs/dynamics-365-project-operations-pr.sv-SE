@@ -65,3 +65,6 @@ När du har skapat villkor för kvarhållande för en leverantör kan du tilläm
 6. Om projektet även har ställts in för betala vid betalning (PWP) för leverantören anger du tröskelvärdet i procent för projektet i fältet **Tröskelvärdesprocent för PWP**.
 
 Villkoren för leverantörskvarhållande visas även på inköpsorder som du skapar för leverantören.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

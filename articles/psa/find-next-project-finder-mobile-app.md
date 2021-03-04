@@ -49,3 +49,6 @@ Med Project Finder Mobile-appen på din [!INCLUDE[tn_iphone](../includes/tn-ipho
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

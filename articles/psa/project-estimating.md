@@ -97,3 +97,6 @@ I både rutnätsvy och vyn med tidsfaser kan du välja vilka fält som ska visas
 ## <a name="expense-estimates"></a>Utgiftsberäkningar
 
 Knappen **Lägg till en ny utgiftsberäkning** i rutnätsvyn låter dig registrera alla utgifter som påförts i projektet, men som inte är direkt relaterade till arbete. Du kan registrera utgiftsberäkningar för en specifik uppgift eller för hela projektet. Välj utgiftskategorier och preliminärt datum då du förväntar dig utgiften. Om den associerade självkostnadslistan och försäljningsprislistan har standardpriser (eller påläggsprocentsatser definierade för utgiftskategorier) och anges automatiskt på beräkningsraden vid associeringen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145740"
 Alla ekonomiska transaktioner som inträffar under ett projekt registreras. Dessa transaktioner registreras som **faktiska värden**. I följande tabell visas de olika typerna av faktiska värden som skapas, beroende på om projektet är ett tids- och materiallager, fast pris eller internt projekt eller om det är i stadiet för försäljning.
 
 > ![Tabell som visar hur verkliga värden registreras](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

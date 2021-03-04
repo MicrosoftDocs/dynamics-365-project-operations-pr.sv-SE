@@ -31,3 +31,6 @@ Ett traktamente är ett belopp som betalas till en arbetare som reser i arbetet.
     
 ## <a name="submit-expenses-using-per-diem"></a>Skicka utgifter med traktamente
 Om du vill skicka in utgifter med traktamente använder du utgiftskategorin **Traktamente** när du skapar en utgiftsrapport. Ange **Traktamente från datum**, **Traktamente till datum** och **Traktementsplats**. Beloppet beräknas utifrån traktamentstaxan för den valda platsen och måltidsminskningen beräknas baserat på nivåerna av traktamentstaxa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

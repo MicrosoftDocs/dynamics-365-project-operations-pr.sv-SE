@@ -56,3 +56,6 @@ När du loggar in på Dynamics 365-appar måste du följande information redo fr
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

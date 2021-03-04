@@ -40,3 +40,6 @@ Ibland kan du behöva ändra de ursprungliga beräkningarna för en uppgift. Upp
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

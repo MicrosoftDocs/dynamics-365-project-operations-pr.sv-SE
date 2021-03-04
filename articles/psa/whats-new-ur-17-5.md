@@ -44,3 +44,6 @@ I detta ämne anges de funktioner och snabbkorrigeringar som är nya eller som h
 - Åtgärdat: Dygnet runt-arbetstidsmallar som felaktigt lägger till ytterligare en dag i aktiviteterna.
 - Åtgärdat: Arbetstidsmallar för 13 GMT som felaktigt byter uppgift en dag i förväg.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

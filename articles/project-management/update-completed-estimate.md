@@ -36,3 +36,6 @@ Det finns två sätt som en projektledare kan använda för att förnya arbetet 
 - Åsidosätt standardförlopp i procent med en ny uppskattning av det faktiska förloppen för aktiviteten.
 
 Var och en av dessa är en omberäkning av aktivitetens ETC, uppskattning för att slutföra (EAC) och förloppsprocent och den planerade insatsavvikelsen för en aktivitet. Procenten för EAC, ETC och förloppsprocent för sammanfattningsaktiviteterna beräknas om, och produktionen skapas som en ny projektion av insatsavvikelsen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

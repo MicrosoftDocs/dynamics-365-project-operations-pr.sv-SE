@@ -67,3 +67,6 @@ Valuta i offertradsinformation för kostnad hämtas från prislistan för den av
 Vid beräkningen av lönsamhet konverteras beloppet i offertradsinformationen för kostnad och försäljning till miljöns basvaluta för att rapportera den uppskattade övergripande marginalen för offerten.
 
 Detta kan resultera i avrundningsfel i valutan och att marginalerna ändras på grund av brist på aktuella valutakurser. Använd endast de här beräkningarna i projektofferter som uppskattningar och inte verklig lagstadgad eller annan rapportering som kräver högre precision för avrundning och medvetenhet om aktuella valutakurser.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

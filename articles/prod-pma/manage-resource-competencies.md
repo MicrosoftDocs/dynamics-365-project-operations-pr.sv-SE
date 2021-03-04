@@ -53,3 +53,6 @@ Om du vill ange kompetenser för en arbetare kan du antingen använda listsidan 
 5. I fältet **Nivådatum** välj **1-/14/2014**.
 6. I fältet **År av erfarenhet** ange **10**.
 7. Klicka på **Spara** och stäng sedan sidan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

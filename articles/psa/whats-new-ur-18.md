@@ -63,3 +63,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
 **Sales**
 
 - Korrigerat: När tidsposter godkänns igen (**Godkänn > Annullera >** Godkänn igen) skapas en dubblett av den verkliga transaktionen som inte kan debiteras.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

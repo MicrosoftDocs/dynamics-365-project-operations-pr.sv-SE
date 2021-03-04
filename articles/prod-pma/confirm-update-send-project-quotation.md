@@ -57,3 +57,6 @@ Om du vill ändra en befintlig projektoffert måste offertstatusen vara **Skapad
 
 > [!NOTE]
 > Du kan inte ändra en projektoffert efter att status har ändrats till **Skickad**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

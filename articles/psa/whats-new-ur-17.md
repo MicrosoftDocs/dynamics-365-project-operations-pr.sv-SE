@@ -57,3 +57,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
 - Åtgärdat: När transaktionsklassen är **Tid** är **UnitGroup** icke redigerbart för alla entiteter, inklusive **QuoteLineDetails**. **JournalLine**, **InvoiceLineDetail** och **ContractLineDetails**. **Enhet** är emellertid icke-redigerbart endast för **JournalLine** och **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Följande problem har åtgärdats:
 Följande problem har åtgärdats:
 
 - **Hämta alla transaktionskategorier** dubbelklicka på skapar flera rader.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

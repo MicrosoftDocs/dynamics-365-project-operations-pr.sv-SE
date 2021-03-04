@@ -35,3 +35,6 @@ Projektfaser kan användas som riktlinjer för projektets livscykel. Du kan defi
 4. I listan väljer du den fördefinierade eller användardefinierade fasen som du vill ändra. 
 5. I fältet Projektfas anger du ett nytt namn.
 6. Klicka på Spara.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

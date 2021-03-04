@@ -45,3 +45,6 @@ Ta en titt på ditt schema när du vill se vad du arbetar med under veckan.
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Välj **Boka** för den generiska resursen. Du kan sedan använda schemaläggnin
 Om den generiska resursen har kompletterats med en namngiven resurs tas den generiska resursen bort från teamet, och aktivitetstilldelningarna för den generiska resursen tilldelas den namngivna resurs som uppfyllt den generiska resursens resurskrav.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

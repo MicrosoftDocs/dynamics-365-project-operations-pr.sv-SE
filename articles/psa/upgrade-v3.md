@@ -110,3 +110,6 @@ För uppgifter som tilldelas en roll med en organisationsenhet som skiljer sig f
  
 Om du ändrar standardvärdet för de olika organisationsenheterna för resurser på icke-genererade teammedlemmar rekommenderar vi att du genererar eller återskapar teamet i varje projekt som innehåller generiska resurser innan du uppgraderar, så att tilldelningen av organisationsenhet inte bortfaller.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

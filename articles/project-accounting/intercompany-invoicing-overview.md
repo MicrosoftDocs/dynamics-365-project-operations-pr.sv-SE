@@ -43,3 +43,6 @@ Följande diagram illustrerar koncernintern fakturering eftersom denna avser red
 - [Konfigurera koncernintern fakturering](configure-intercompany-invoicing.md)
 - [Registrera koncerninterna transaktioner](create-intercompany-transactions.md)
 - [Skapa koncerninterna kund- och leverantörsfakturor](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

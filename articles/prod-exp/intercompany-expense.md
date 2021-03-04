@@ -35,3 +35,6 @@ Innan en anställd kan skapa och skicka in koncerninterna utgifter, måste du ak
 
 Innan du kan använda momsgrupper som är associerade med den utlånande (källrelaterade) juridiska entiteten i stället för den lånande juridiska personen (associerad med destination) i utgiftsrapporten måste du aktivera funktionen i momskonfigurationen för huvudboken. När parametern **Juridisk entitet för momsbokföring** har angetts som **Källa** och **Tillämpa momsregler** har angetts som **Nej** används momskombinationen för den lånande juridiska entiteten. När samma parameter anges till **Destination** används momskombinationen för lånande juridisk person. För juridiska personer i USA, när parametern är inställd på **Källa**, måste också fältet **Momsfordran** konfigureras på sidan **Bokföringsgrupper i transaktionsregister**. Redovisningsmotorn använder informationen från det här fältet för momsrelaterade redovisningsposter.   
 Beteendet är konsekvent för utgiftsrader som har bokförts med eller utan projekt.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

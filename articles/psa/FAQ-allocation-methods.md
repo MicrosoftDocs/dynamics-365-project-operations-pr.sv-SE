@@ -71,3 +71,6 @@ Sammanfattningsvis kan följande tilldelningsmetoder medföra överbokning om re
 - Fördela timmar jämnt
 
 När du använder någon av dessa tre tilldelningsmetoder meddelas du inte om resursen överbokas. För att korrigera en överbokning måste du använda schemaläggningstavlan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Project Operations-offerter bygger på Dynamics 365 Sales-offerter. Det finns em
 - Project Operations-offerter har sina egna formulär och gränssnittselement, affärsregler, affärslogik i plugin-program och skript på klientsidan som gör dem unika från Sales-offerter.
 
 Av dessa anledningar bör du inte använda en Sales-offert och en Project Operations-offert på samma sätt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

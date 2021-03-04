@@ -38,3 +38,6 @@ Ofakturerade faktiska värden för försäljning med **Får ej överskridas**-st
 När det gäller kontraktrader med flera kunder som har en faktureringsmetod för tid och material, när tid och utgifter godkänns, skapas ett ofakturerat faktiskt värde för försäljning för varje kund på kontraktraden enligt den delningsprocent som definierats för varje kund på kontraktraden. I vyn **Eftersläpad fakturering av tid och material** ser du dessa enskilda kundspecifika ofakturerade faktiska värden för försäljning. Vart och ett av dessa ofakturerade faktiska värden för försäljning kan markeras som **Klart att fakturera** separat från den här vyn.
 
 Ett ofakturerat faktiskt värde för försäljning i ett utkast till en faktura visas i den här vyn med **faktureringsstatusen** **Kundfaktura har skapats**. När utkastfakturan bekräftas uppdateras faktureringsstatusen för den här posten till **Kundfaktura har bokförts**. Du rekommenderas inte att uppdatera den här statusen när den är i detta tillstånd genom att använda anpassad kod. Project Operations fungerar inte korrekt när dessa statusvärden uppdateras med anpassad kod.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ I följande exempel visas faktureringskostnader som är inställda utifrån den 
 | ----------------|-------------|----------|----------:|----------|
 | Mitt företag_Band1 | Contoso US  |Timme | 145|USD     |
 | Mitt företag_Band2 | Contoso India |Timme|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

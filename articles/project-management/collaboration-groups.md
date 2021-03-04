@@ -26,3 +26,6 @@ Med Office-grupper kan du dela ett projekt med andra gruppmedlemmar i Common Dat
 > [!NOTE] 
 > Användare läggs endast till i gruppen om du trycker på **Grupper** och lägger till dem. Detta skiljer sig från beteendet hos projekt för webben. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

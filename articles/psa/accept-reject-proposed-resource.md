@@ -45,3 +45,6 @@ Om du vill avvisa förslaget klickar du på **Avvisa resurs**.
 ![Acceptera ett resursförslag](media/RM-how-to-20.png) 
 
 På samma sätt som att direkt uppfylla en allmän resursförfrågan med en namngiven resurs kommer den allmänna resursen att ersättas och de tilldelade uppgifterna uppdateras med den namngivna teammedlemmen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

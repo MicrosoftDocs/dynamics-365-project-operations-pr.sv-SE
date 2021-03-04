@@ -29,3 +29,6 @@ Avsnittet **Status** på sidan **Projektentitet** ges en sammanfattning av ett p
 - I fältet **kommentarer** kan projektledaren ange kommentarer om statusen. 
 - Fältet **Status uppdaterades** senast går inte att redigera. Värdet i det här fältet är en tidstämpel som anger när statusen senast uppdaterades.
 - Fälten **Schemalägg resultat** och **Kostnadsresultat** anges rutnätet utifrån spårningsdatumet. När schema och kostnadsavvikelse för rotnoden i vyn **Insatsspårning** är positiva kan du ange att dessa fält är uppdaterade till **Före**. När schema och kostnadsavvikelse för rotnoden är negativa anges dessa fält till **Efter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

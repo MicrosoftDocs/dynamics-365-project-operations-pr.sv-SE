@@ -43,3 +43,6 @@ Välj den här distributionstypen om du vill använda Dynamics 365 Project Opera
 - En motor för moms och valutakurs för företag i företagsklass som genererar kundfakturor för projekt.
 - En internationell finansiell rapporteringsstandard (IFRS)-kompatibelt projektredovisnings- och intäktsredovisningssystem.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

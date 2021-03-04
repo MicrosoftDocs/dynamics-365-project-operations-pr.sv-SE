@@ -87,3 +87,6 @@ När du är redo att ändra en preliminärbokad teammedlemsresurs till en fastbo
 2. Expandera resursen om du vill visa bokningar när schemaläggningstavlan öppnas. Bokningen markeras som Preliminär.
 3. Högerklicka på bokningen och - under Ändra Status - markera Fastboka och sedan Fast. Bokningsstatusen är nu Fast.
 4. När du stänger schemaläggningstavlan ser du att timmarna för resursen har ändrats från Preliminär till Fast i rutnätet för teammedlem. Du kan nu tilldela resursen till aktiviteter (förutsatt att det finns samstämmighet mellan fastbokade timmar och aktivitetens insatstimmar för tilldelningen). Observera att om du har följt stegen för generisk resursexpediering i objekt #3 ovan, så kommer den generiske teammedlemmen att tas bort från teamet när du ändrar statusen för den preliminärbokade bokningsbara resursen till Fast.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

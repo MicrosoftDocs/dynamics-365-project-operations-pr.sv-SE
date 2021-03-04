@@ -37,3 +37,6 @@ Använd den här distributionstypen om din förväntning från Project Operation
 - Ett integrerat system som hanterar interna och fakturerbara projekt för scheman och finansiella resultat från projektförsäljning till fakturering.
 - Ett företagsresursplanering (ERP/bokföringssystem från tredje part som ska integreras med Project Operations.
 - Ett tredje parts system för att arbeta med moms, valutakurser, kostnadsåterbetalningar och icke-projektrelaterade utgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

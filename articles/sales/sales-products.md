@@ -124,3 +124,6 @@ Om det till exempel finns följande egenskaper:
 - **Produkt-SKU** 
 
 Egenskaperna **Antal användare** och **Antal för månader** kan flaggas som kvantitetsrapporter genom att egenskaperna för produktraden redigeras. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

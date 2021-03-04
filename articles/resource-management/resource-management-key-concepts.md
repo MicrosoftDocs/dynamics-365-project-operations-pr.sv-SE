@@ -35,3 +35,6 @@ Resurser är den viktigaste tillgången i en tjänstebaserad organisation. Förm
 
 
 Du kan bemanna ditt projekt med ett team av generiska eller namngivna resurser i Project Operations. Du kan använda olika metoder för att lägga till och tilldela teammedlemmar och för att hantera deras bokningar och uppdrag. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

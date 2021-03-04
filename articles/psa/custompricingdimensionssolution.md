@@ -68,3 +68,6 @@ Du måste lägga till följande Project Service-entiteter i din prissättningsl�
 > ![Inkludera inte alla relaterade komponenter](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

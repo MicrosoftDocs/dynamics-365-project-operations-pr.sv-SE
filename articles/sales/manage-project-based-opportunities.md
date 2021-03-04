@@ -65,3 +65,6 @@ Affärsmöjlighetens försäljningsprocess i Project Operations är ett tillägg
 > Om ditt projektbaserade avtal har inletts med en affärsmöjlighet ges försäljningsprocessen för affärsmöjligheten företräde.
 
 Du kan redigera produktens affärsprocessflöde eller skapa egna affärsprocessflöden för att spåra din försäljningsprocess efter behov. Mer information om affärsprocessflödet finns i [Översikt över affärsprocessflöden](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

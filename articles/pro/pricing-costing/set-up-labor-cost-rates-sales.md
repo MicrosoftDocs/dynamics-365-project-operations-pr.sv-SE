@@ -82,3 +82,6 @@ I kostnadsprislistan för Fabrikam UK-Robotics kan kostnadstaxan uttryckas enlig
 | Developer | Fabrikam UK | 115 GBP |
 
 Kostnadsprislistan kan ge arbetstaxor i flera olika valutor. När du genererar en kostnadsuppskattning i projektet konverterar Project Operations de här kostnadstaxorna till projektvalutan och visar dessa för användaren. När en tidspost godkänns och en faktisk kostnad skapas prissätts den faktiska kostnaden i valutan på den motsvarande rollprisraden i kostnadsprislistan. Faktiska kostnader för tid i ett enskilt projekt kan registreras i flera olika valutor. När de faktiska arbetskostnaderna på projektnivå slås samman eller summeras kommer dock Project Operations att konvertera alla arbetskostnadsbelopp till projektvalutan, som användaren kan visa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

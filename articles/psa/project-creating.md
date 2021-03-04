@@ -149,3 +149,6 @@ Startdatumet för en lövnodsuppgift som saknar föregångare blir som standard 
 ### <a name="manual-scheduling"></a>Manuell schemaläggning
 
 Om reglerna för automatisk schemaläggning inte uppfyller dina krav kan du ange uppgiftsläget för uppgiften till **manuellt schemalagt**. Denna inställning stoppar schemaläggningsmotorn från att beräkna värdena för andra schemaläggningsattribut. Oavsett uppgiftsläget påverkas alltid den beroende uppgiftens startdatum om du anger föregående uppgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

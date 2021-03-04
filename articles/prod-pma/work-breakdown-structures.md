@@ -316,3 +316,6 @@ Du kan även åtgärda eventuella schemaläggningsfel individuellt genom att kli
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ Följande tabell ger en fullständig lista över de formulär och vyer som inte 
 |  Faktiskt|• Information<br>• Aktiva faktiska värden|• Associerad vy för faktiska värden|
 
 Anpassade fält kan också behöva läggas till i affärsregler beroende på vad du har definierat. Ett färdigt exempel är för affärsregeln **Redigering baserat på status för tidspost**. Den här regeln definierar vilka fält som måste låsas när tidsposten är i en icke redigerbar status, t.ex **godkänd**. Lägg till fält i den här affärsregeln så att fälten blir låsta för redigering när tidsposten är i en annan status än **utkast** eller **returnerad**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

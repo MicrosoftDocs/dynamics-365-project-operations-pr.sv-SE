@@ -40,3 +40,6 @@ En projektledare kan planera nödvändiga resursroller för ett projekt. Resursh
 7. Välj en arbetare och sedan **Tilldela**.
 8. Kontrollera att raden för **programvaruutvecklare 1** har tagits bort för projektet **XYZ uppgradering projektfas 2**.
 9. På fliken **Projektteam och schemaläggning** för projekt **XYZ uppgradera fas 2** , kontrollera att arbetaren som du valde i föregående steg har lagts till som **Programvaruutvecklare**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

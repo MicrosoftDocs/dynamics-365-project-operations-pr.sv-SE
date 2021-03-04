@@ -55,3 +55,6 @@ Endast följande redovisningsattribut kan uppdateras i raderna i Project Operati
 Integrerings journalrader kan tas bort, men alla ej bokförda rader infogas i journalen igen när du kör periodiska processen **importen från faser**.
 
 När du bokför integrationsjournalen skapas en projekttransaktion och en redovisningstransaktion. De används i underordnad kundfakturering, intäktsredovisning och ekonomisk rapportering.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

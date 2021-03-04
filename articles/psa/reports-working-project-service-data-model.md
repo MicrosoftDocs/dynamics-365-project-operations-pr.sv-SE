@@ -123,3 +123,6 @@ När du arbetar med den **faktiska** entiteten är det viktigt att du förstår 
 Entitetsposten **Transaktionsursprung** registrerar ursprunget för **faktiska** posten och entiteten **Transaktionskoppling** registrerar relaterade poster för **faktisk** post. Dessutom innehåller den **faktiska** posten refererar till projektet, projektkontraktet (ordern), bokningsbar resurs och kunden.
 
 ![Diagram över transaktionsanslutning, ursprung och faktiska relationer](media/PS-Reporting-image6.png "Diagram över transaktionsanslutning, ursprung och faktiska relationer")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

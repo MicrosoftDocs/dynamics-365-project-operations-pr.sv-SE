@@ -96,3 +96,6 @@ För att uppgraderingen ska genomföras korrekt måste följande relationer uppr
 
 - Alla beroende av projektuppgifter måste vara relaterade till samma projekt.
 - En uppgift får inte ha samma beroendereferens mer än en gång.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

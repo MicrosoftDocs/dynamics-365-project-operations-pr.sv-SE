@@ -170,3 +170,6 @@ Följande fält för planerade, faktiska och resterande kostnader och försäljn
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

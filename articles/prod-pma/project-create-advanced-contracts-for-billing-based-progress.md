@@ -103,3 +103,6 @@ Budgetkategorier används för att automatiskt beräkna fakturabeloppen för den
 8. Valfritt: tilldela faktureringsregeln till ytterligare projekt. Under snabbfliken **Projekt** , i avsnittet **Tillgängliga projekt** , väljer du ett projekt och sedan högerpilen för att lägga till projektet i avsnittet **Valda projekt**.
 9. Valfritt: beräkna procentsatsen som kunden håller inne från betalningar på en faktura. Under snabbfliken **Villkor för innehållen betalning** väljer du finansieringskälla och sedan, i fältet **Innehållen procentsats** , anger du innehållen procentsats.
 10. Upprepa stegen för att skapa ytterligare faktureringsregler för projektkontraktet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

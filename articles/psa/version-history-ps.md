@@ -73,3 +73,6 @@ För information om andra uppdateringar av Project Service, se [Dynamics 365 utg
 >[!Note]
 > - Datum i alla regioner utom GCC (Government Community Cloud) anger tidpunkten för nästa automatiska uppdatering. Datum i GCC anger versionens tillgänglighet; för närvarande finns det ingen automatisk uppdatering för de här regionerna.
 > - Medan de flesta uppdateringar bör slutföras under schemalagd kväll kan uppdateringar som kräver mer tid slutföras nattetid under helger enligt angivet i kolumnen **Schemalagt datum** för alla andra regioner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Du kan skapa, uppdatera eller ta bort en offertkund från fliken **Offertkunder*
 Du kan redigera procentandelarna för faktureringsdelning med hjälp av redigeringsfunktionen i rutnätet. När delningsprocenten för fakturering inte är 100 % uppstår ett fel. När du har uppdaterat delningsprocenten för fakturering uppdaterar du sidan för att ta bort felet.
 
 Du kan också prova att välja **Fördela jämnt** i underrutnätet för offertkunder. Med den här åtgärden tilldelas faktureringsdelningar till alla offertkunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundande kunden. En av offertkunderna är alltid märkt som den avrundande kunden. detta innebär att offertkundposten har flaggan **Avrundning** inställd på **Ja**. Det är vanligtvis den primära kunden i offerten, men det kan ändras.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

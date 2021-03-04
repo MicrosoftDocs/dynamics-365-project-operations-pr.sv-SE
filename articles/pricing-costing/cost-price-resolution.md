@@ -35,3 +35,6 @@ När en kostnadsprislista har lösts använder systemet fälten **Roll**, **Resu
 Uppskattningsrader för utgift refererar till offert- och kontraktradsinformation för rader för utgift och utgiftsuppskattning i ett projekt.
 
 När en kostnadsprislista har lösts använder systemet en kombination av fälten **Kategori** och **Enhet** på uppskattningsraden för en utgift så att den stämmer överens med raderna **Kategoripris** i den lösta prislistan. Om systemet hittar en kategoriprisrad som har en kostnadstaxa för kombinationen av fälten **Kategori** och **Enhet** används kostnadstaxan som standard. Om systemet inte kan matcha värdena **Kategori** och **Enhet**, eller om det går att hitta en matchande kategoriprisrad, men prissättningsmetoden inte är **Pris per enhet**, är kostnadstaxan som standard inställd på noll (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

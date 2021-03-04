@@ -113,3 +113,6 @@ Molly Clark, utvecklare anställd inom GBPM, registrerar 10 timmars arbete mot e
     - Kredit: Projekt – Periodiserade intäkter 120 USD
 
     Systemet är nu redo att skapa en koncernintern kundfaktura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

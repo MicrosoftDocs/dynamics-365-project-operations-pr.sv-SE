@@ -65,3 +65,6 @@ Innan du kan skapa projektscheman, måste du lägga upp en projektkalender som d
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

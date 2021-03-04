@@ -32,3 +32,6 @@ Kvarhållarscheman konfigureras på sidan **Projektkontrakt** i Dynamics 365 Pro
 | Antal kvarhållare att skapa | När du anger antalet kvarhållare som ska skapas använder systemet startdatum och frekvens för att skapa numret i det här fältet. | När fältet uppdateras manuellt ignoreras värdet i fältet **Slut för kvarhållarschema** och i stället skapas det specifika antalet kvarhållna eller förskott. |
 | Fakturafrekvens | Hur ofta programmet ska skapa balanserade och förskott. | Värdet påverkar direkt antalet kvarhållare och förskott samt de datum som skapats. |
 | Totalbelopp | Total beloppet är det belopp som är uppdelat i den individuella beställnings- eller förskottsbetalningen som ska skapas. | Det här fältet har ingen inverkan nedströms. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

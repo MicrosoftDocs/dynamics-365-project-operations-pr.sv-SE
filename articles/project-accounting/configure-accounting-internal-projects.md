@@ -32,3 +32,6 @@ Alla projekt som inte är associerade med ett kontrakt i Dynamics 365 Project Op
 När transaktioner har bokförts i projektet, om projektet är associerat med ett projektkontrakt, kommer systemet att återföra alla ackumulerade transaktioner och skapa nya fakturerbara transaktioner. De fakturerbara transaktionerna följer redovisningsreglerna som har definierats i respektive projektkostnads- och intäktsprofil.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

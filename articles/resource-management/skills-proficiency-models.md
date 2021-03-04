@@ -43,3 +43,5 @@ Om du lägger till egenskaper i resurskrav kan du dokumentera de kunskaper och d
 3. I underrutnätet **Färdigheter** väljer du **+Lägg till ny kravegenskap.**
 4. Leta upp och välj de obligatoriska egenskaperna i fönstret för snabbskapande och lägg till ett **omdömesvärde**.
 5. Välj **Spara och stäng**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

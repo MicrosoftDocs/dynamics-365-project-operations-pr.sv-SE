@@ -57,3 +57,6 @@ Följande nyckelvärden är tillgängliga under fliken **Kontraktprestanda** i e
 | Upparbetade kostnader | Produktbaserade rader | Summan av alla faktiska kostnadsvärden som har loggats för den produktbaserade kontraktraden. |
 | Bruttomarginal | Projektbaserade rader | Fakturerat belopp – kostnad hittills/fakturerat belopp |
 | Förväntad marginal | Produktbaserade rader | (Kontraktradsvärde – uppskattade kostnader för kontraktraden)/kontraktradsvärde |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Innan du kan boka från schemaläggningstavlan måste du skapa eller generera re
 Kravet uppfylls med hjälp av den valda resursen. I rutan **Bokningskrav** observera att kravet har uppdaterats och att resursen visas som bokad i projektet.
 
 ![Resurs bokad i projektet](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

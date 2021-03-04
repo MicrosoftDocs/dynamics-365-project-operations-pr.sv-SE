@@ -63,3 +63,6 @@ I Project Operations kan du inte följa upp ändringar i en offert. I stället m
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Spåra kommentarer och godkännanden av offerter och projektkontrakt
 Du kan hantera granskning och godkännande av offerter och projektkontrakt med hjälp av postväggar och inlägg. Din organisation kan skapa anpassade arbetsflöden och plugin-program för att tilldela, omdirigera, eskalera och hantera meddelanden om gransknings- och godkännandeuppgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

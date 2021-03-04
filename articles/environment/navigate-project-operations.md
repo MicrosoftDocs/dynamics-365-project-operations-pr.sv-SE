@@ -38,3 +38,6 @@ Välj **Logga in** > **Logga in i miljön** för att vill navigera till modulen 
 
 > [!NOTE]
 > Du kan komma åt Project Operations i Common Data Service och modulen **projektlednings- och redovisning** direkt med hjälp av deras respektive URL:er. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

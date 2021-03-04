@@ -273,3 +273,6 @@ Ett fakturerat faktiskt värde för försäljning för produktraden med kvantite
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

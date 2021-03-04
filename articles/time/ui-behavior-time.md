@@ -85,3 +85,6 @@ När några tidsposter har skapats kan användarna skapa flera samtidigt.
 
 ## <a name="import"></a>Import
 Samma grundläggande process används för att importera från bokningar, tilldelningar och utbyten. Du kan ange datumintervallet som bokningar importeras från och sedan uttryckligen välja de bokningar som ska kopieras till utkast av tidsposter. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

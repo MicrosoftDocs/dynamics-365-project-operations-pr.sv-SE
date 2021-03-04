@@ -74,3 +74,6 @@ Innan du påbörjar konfigurationen måste du ha installerat en Common Data Serv
     -   Egenskap för bokningsbar resurs
 
     ![Slutför import](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

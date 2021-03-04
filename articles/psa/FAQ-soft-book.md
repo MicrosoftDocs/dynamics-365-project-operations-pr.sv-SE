@@ -67,3 +67,6 @@ När du är redo att ändra en preliminärbokad teammedlemsresurs till en fastbo
 2. Högerklicka på bokningen och under **Ändra Status** - markera **Fastboka** \> **Fast**. Bokningsstatusen är nu **Fast**.
 3. När du har stängt schemaläggningstavlan och återgått till projektet samt öppnat fliken **Team**, ser du att timmarna för resursen har flyttats från kolumnen **Preliminärbokade timmar** till kolumnen **Fastbokade timmar** i fliken **Team** när du visar vyn **Namngivna teammedlemmar**. Om resursen har tilldelats uppgifter visar de inte längre ett bokningsunderskott i fliken **Avstämning** eftersom deras bokningar nu är fasta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

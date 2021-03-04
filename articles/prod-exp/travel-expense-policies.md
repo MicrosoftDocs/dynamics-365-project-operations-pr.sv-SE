@@ -51,3 +51,6 @@ Här följer några förslag som kan hjälpa dig när du skapar nya principer f�
 ## <a name="when-to-evaluate-policies"></a>När policyer utvärderas
 
 I parametrar för utgiftshantering finns ett alternativ att antingen utvärdera principer för utgiftshantering när en rad sparas eller när en utgiftsrapport skickas in. Om du väljer att utvärdera när en rad sparas säkerställer detta att användare får tidigare insyn i vad de behöver göra för att slutföra sina utgiftsrapporter samtidigt. Annars kan du försena utvärdering av principer och spara tid genom att validera i slutet, under överföringen till arbetsflödet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

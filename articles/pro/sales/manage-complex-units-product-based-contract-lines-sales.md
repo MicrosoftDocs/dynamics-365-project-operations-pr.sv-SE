@@ -46,3 +46,6 @@ Följ stegen nedan om du vill skapa kvantitetsfaktorer från produktegenskaper.
 7. Upprepa steg 2-6 för alla de egenskaper som tillsammans ska utgör kvantiteten för den produktbaserade kontraktraden.
 
 När en användare skapar en kontraktrad för den här produkten är antalet på kontraktraden låst. Antalet beräknas sedan som en produkt av egenskapsvärdena för den kontraktraden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

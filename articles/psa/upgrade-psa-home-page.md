@@ -65,3 +65,6 @@ Från och med 1 mars 2020 kan Dynamics PSA-kunderna inte längre skapa en ny mil
 
 > [!NOTE]
 > För att få bästa möjliga resultat när du använder äldre versioner av Field Service och PSA-program går du till sidan **systeminställningar** och för fältet **Använd endast det nya enhetliga gränssnittet (rekommenderas)**, välj **Nej** eftersom de här versionerna inte har utformats för korrekt inläsning i UCI. När du har inaktiverat UCI kan du öppna och köra de här versionerna av Field Service och PSA med hjälp av den gamla webbklienten. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

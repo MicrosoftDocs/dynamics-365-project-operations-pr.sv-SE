@@ -96,3 +96,6 @@ Klicka på **Skicka** för att skicka tid rapporten till godkännande arbetsflö
 ## <a name="review-timesheets"></a>Granska tidrapporter
 
 En lista över de tidrapporter som måste granskas visas på menyn. Det här alternativet är bara tillgängligt om du har angetts som godkännande för arbetsflödet. Både rubrik och rad godkännande stöds. Med godkännande av radnivå kan du markera en eller flera rader för godkännande. När du har granskat tid rapport informationen klickar du på **godkänn** , **delegera** eller **återgå** för att fortsätta arbetsflödet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

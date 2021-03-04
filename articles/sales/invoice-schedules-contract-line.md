@@ -74,3 +74,6 @@ Du kan generera milstolpar med fast pris manuellt när de inte delas periodiskt.
 | Moms | Snabbregistrering | Momsbeloppet som används på milstolpen. | Detta förs över till milstolpen i projektets kontraktrad och till fakturan. |
 
 3. Välj **Spara och stäng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

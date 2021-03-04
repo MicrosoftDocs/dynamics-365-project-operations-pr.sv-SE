@@ -34,3 +34,6 @@ Följande tabell innehåller de fält i en projektbaserad affärsmöjlighet som 
 | Kontrakteringsenhet | Fliken Allmänt | Den organisationsenhet som är ansvarig för leveransen av projektet eller projekten som är associerade med denna affär. | Den avtalande enheten är den avdelning i företaget som ska utföra projekten efter det att affären har stängts. Varje avtalande enhet har en valuta och valutan används för att rapportera uppskattade och faktiska kostnader som uppstår under projektet. |
 
 För alla andra fält och avsnitt under fliken **Sammanfattning** för affärsmöjligheten, se [Skapa eller redigera affärsmöjligheter (försäljning och försäljningsnav)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

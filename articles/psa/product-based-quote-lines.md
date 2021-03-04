@@ -82,3 +82,6 @@ Egenskaperna **Antal användare** och **Antal för månader** kan flaggas som kv
 
 > ![Flaggantalet användare och inga månader som kvalitetsfaktorer](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

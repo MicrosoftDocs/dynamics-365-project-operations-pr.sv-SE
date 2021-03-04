@@ -20,3 +20,6 @@ ms.locfileid: "4514594"
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan använda den funktionalitet som tillhandahålls i Universal Resource Scheduling för att låta Dynamics 365 Field Service konfigurera bokningsstatus för din organisation. Information om hur du slutför den här konfigurationen finns i [Ställa in bokningsstatus](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

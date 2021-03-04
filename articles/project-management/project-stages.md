@@ -63,3 +63,6 @@ När arbetet för projektet har slutförts kan projektledaren uppdatera fasen ti
 
 När alla transaktioner har registreras kan projektledaren uppdatera fasen till att **Stäng**. Vid den tidpunkten kan inga transaktioner registreras och projektet får värdet skrivskyddat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

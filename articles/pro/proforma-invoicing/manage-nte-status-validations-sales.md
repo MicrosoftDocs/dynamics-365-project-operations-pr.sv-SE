@@ -73,3 +73,6 @@ Du kan göra en en ny utvärdering i bulk av statusen Överskrid inte. Ny utvär
 Om du vill omvärdera statusen till Överskrid inte väljer du en eller flera värden från någon av vyerna **Eftersläpad fakturering av tid och material** eller **Faktiska värden** och väljer sedan **Omvärdera status Överskrid inte**.
 
 Alla relevanta valda faktiska värden med en undre gräns utvärderas mot den begränsningsinställning för undre gräns. Verkliga värden som är relevanta för omvärdering för överskrid inte-status är ej fakturerade försäljningsvärden som inte redan har fakturerats, inte på fakturautkast och är markerade som debiterbara. Alla andra valda faktiska värden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

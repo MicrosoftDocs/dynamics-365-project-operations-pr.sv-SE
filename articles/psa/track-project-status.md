@@ -58,3 +58,6 @@ När engagemanget fortlöper, uppdateras projektstadier för att återspegla sta
 
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

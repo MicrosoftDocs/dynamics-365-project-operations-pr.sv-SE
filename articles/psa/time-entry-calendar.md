@@ -42,3 +42,6 @@ Kalendern stöder inte åtgärder för enskilda kalenderobjekt och du kan inte m
 ## <a name="extensibility"></a>Utökningsbarhet
 
 På sidan **tidsposter** som har rutnät för tidspost kan du lägga till anpassade fält, skapa uppslagsfält och skapa anpassade vyer. Du kan även konfigurera en anpassad affärslogik som bygger på de värden som är markerade eller som anges i anpassade fält.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ I Dynamics 365 Project Service Automation version 3.0 har vyn tid och utgifter u
 Tidigare implementerades kalender- och rutnätsvy för tid och utgifter som DHTMLX-kontroller. De artefakter som är relaterade till den implementeringen av vyerna kalender och rutnät är nu inaktuella.
 
 En fullständig lista över inaktuella resurser finns i [Inaktuella webbresurser i Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

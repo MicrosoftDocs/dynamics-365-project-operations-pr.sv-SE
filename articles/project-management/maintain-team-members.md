@@ -42,3 +42,6 @@ När du gör ett val läggs resursen till i projektteamet och tilldelas uppgifte
 Du kan använda den utökade bokningsfunktionen på fliken **avstämning** eller **Schemaläggningstavla** för att boka resursens kapacitet på projektet.
 
 När en teammedlem är bokad i projektet kan du använda **Underhåll bokningar** eller **Schemaläggningstavlan** direkt för att hantera deras bokningar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

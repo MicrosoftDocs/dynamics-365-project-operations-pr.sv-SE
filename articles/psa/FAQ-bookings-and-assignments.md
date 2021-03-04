@@ -68,3 +68,6 @@ Eftersom bokningar och tilldelningar inte är nära sammankopplade, är det möj
 > [!NOTE]
 > Om du flyttar en aktivitet som du själv har profilerat, så bibehålls inte profilerna. Profilerna återskapas enligt projektkalendern för att reflektera ändringar i arbetstimmar och helgdagar. Detta är avsiktligt eftersom systemet inte känner till syftet med den ursprungliga profilen och inte kan avgöra om det är rätt att behålla profilen under en ny tidsperiod. Eftersom bokningar och tilldelningar separeras behåller bokningarna de ursprungliga profilerna för bokning. I så fall måste du avbryta och omboka till den nya tilldelningsprofilen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

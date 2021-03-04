@@ -62,3 +62,6 @@ Följande procedur förklarar hur du skapar ett projektteam.
 ## <a name="monitor-project-teams"></a>Övervaka projektteam
 1. På sidan **All projekt** välj länken **projekt-ID** för projekt **XYZ uppgradering fas 2**.
 2. Snabbflik **Projektgrupp och schemaläggning** , verifiera att de projektresurser som anges är korrekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ USA stöds för närvarande.
 Finans ska kontakta Cognitive Services för att extrahera fältdata. Cognitive Services behåller en kopia av ditt kvitto i upp till 24 timmar under bearbetningen. När bearbetningen har slutförts tas kvittot bort av Cognitive Services. Kvitton lagras fortfarande i Finance.
 
 Mer information finns i [Aktivera kvittoförståelse med formigenkänningens nya förmåga](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

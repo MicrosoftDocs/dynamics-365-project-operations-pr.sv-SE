@@ -33,3 +33,6 @@ En lista över alla projektofferter visas på listsidan **Offerter**.
 2. Använd **Visa växlaren** om du vill välja andra filtrerade vyer av offerterna. Med anpassade filter villkor kan du konfigurera egna vyer och navigeringsalternativ.
 
 Offerter kan skapas eller tas bort från den här listsidan eller informationssidorna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

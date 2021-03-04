@@ -45,3 +45,6 @@ Denna dokumentation har utformats i syfte att tillhandahålla djupgående inform
 
 ### <a name="see-also"></a>Se även
  [Översikt över Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

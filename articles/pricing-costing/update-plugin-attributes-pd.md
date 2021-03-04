@@ -52,3 +52,6 @@ Slutför följande steg för att uppdatera och registrera om plugin-programen.
 7. Välj **OK** för att stänga sidan, och välj sedan **Uppdatera steg**.
 8. Upprepa steg 2-7 för det andra plugin-programmet, **PreOperationQuoteLineDetail**. För detta plugin-program måste du uppdatera steget **Uppdatera msdyn_quotelinetransaction**.
 9. Stäng **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

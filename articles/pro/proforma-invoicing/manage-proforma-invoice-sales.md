@@ -144,3 +144,6 @@ Om du har verkliga värden som följde efter att fakturan skapades kan du ta med
 I Project Operations kan du skapa fakturarader för produkter som inte gäller för några projekt eller för alla projekt tillsammans med projektbaserade fakturarader. Dessa fakturarader skapas som produktbaserade kontraktrader och efter att de har markerats som klara för fakturering läggs de till som produktbaserade fakturarader.
 
 När du har lagt till produktbaserade fakturarader kan de inte ändras. De kan emellertid tas bort från proforma-utkastfaktura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

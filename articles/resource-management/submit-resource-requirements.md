@@ -27,3 +27,6 @@ Du kan skicka in ett genererat resursbehov som en resursförfrågan. Förfrågan
 Status för begäran för den allmänna teammedlemmen ändras till **skickad**.
 
 När förfrågan har uppfyllts ersätts den generiska resursen av en namngiven resurs om resursansvariges begäran uppfyller bokningen av en namngiven resurs. om resursansvarig föreslår en namngiven resurs kvarstår annars den generiska resursen i teamet och status för förfrågan ändras till **Måste granskas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

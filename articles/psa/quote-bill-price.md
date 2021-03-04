@@ -44,3 +44,6 @@ Följande avsnitt innehåller mer information om offert-, prissättnings- och fa
 - [Enhetsgrupper och enheter](advanced-units.md)
 - [Valuta med flera enheter](advanced-currency.md)
 - [Registrera faktiska värden](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

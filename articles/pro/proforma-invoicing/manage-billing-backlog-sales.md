@@ -60,3 +60,6 @@ Ej fakturerade försäljningsvärden med statusen **Undre gräns** som **Misslyc
 Om kontraktrader för flera kunder har en faktureringsmetod för tid och material, när tid och utgifter godkänns, skapas en ofakturerad faktisk försäljning för varje kund på kontraktraden enligt den faktureringsdelningsprocent som angetts för varje kund. I vyn **Eftersläpad fakturering av tid och material**, kommer du att se dessa individuella kundspecifika, ej fakturerade försäljningsvärden. Vart och ett av dessa ofakturerade faktiska värden för försäljning kan markeras som **Klart att fakturera** separat från den här vyn.
 
 Ett ej fakturerat försäljningsvärde som finns på ett utkast till en faktura visas i den här vyn med faktureringsstatus för **kundfakturan har skapats**. När utkastfakturan bekräftas uppdateras faktureringsstatusen för den här posten till **Kundfaktura har bokförts**. Uppdatera inte det här statusvärdet med hjälp av anpassad kod. Project Operations fungerar inte korrekt när dessa statusvärden uppdateras med anpassad kod.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 Entiteten **Faktiska värden** har många fält som kan användas som prisdimensioner för resursbaserade priser. Ett vanligt fält är **Bokningsbar resurs**. Mindre företag som har färre än 20-30 fakturerbara resurser kan upptäcka att fakturerings- och kostnadstaxan som är specifika för varje resurs är en enklare metod. Eftersom den fakturerbara arbetspersonalen växer kunde emellertid resursspecifika avgifter bli för realistiska. Resurskostnader och faktureringskostnaderna börjar variera när resurser befordras, får mer erfarenhet eller får en annan uppsättning färdigheter. 
 
 Ett annat exempel är det i transaktionskategori. Kunder och implementerare har använt transaktionskategorin för att klassificera arbete och använda fältet till pris och kostnad utifrån arbetskategori.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Projektledaren kan granska icke-fakturerade försäljningstransaktioner med hjä
 Du kan [skapa en proforma-faktura manuellt](../proforma-invoicing/create-manual-proforma-invoice.md) eller använda en [periodisk process](../proforma-invoicing/configure-automated-invoice-creation.md). Projektledaren kan [justera ett proforma-fakturautkast](../proforma-invoicing/manage-proforma-invoice.md) efter behov och sedan bekräfta det.
 
 Den bekräftade proforma-fakturan skickas till modulen **Projekthantering och redovisning** i Finance. Projektrevisorerna utformar och uppdaterar projektfakturaförslaget och publicerar samt skrider sedan ut dokumentet. Bokförda projektfakturor registreras i huvudboken samt i under-transaktionsregistren för kunder och projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

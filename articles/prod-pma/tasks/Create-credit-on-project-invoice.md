@@ -39,3 +39,6 @@ ms.locfileid: "4085517"
 10. Klicka på OK. 
 
 Efter det här steget blir kreditfakturan tillgänglig för fakturaförslag.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

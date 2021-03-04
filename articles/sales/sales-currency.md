@@ -71,3 +71,6 @@ Innan du börjar med den här proceduren bör du kontrollera att säkerhetsrolle
 
 > [!IMPORTANT]
 >  Du kan inte ta bort valutor som används av andra poster, du kan bara inaktivera dem. Om du inaktiverar valutaposter innebär inte detta att valutainformationen som sparats i befintliga poster bort, till exempel för affärsmöjligheter eller ordrar. Du kommer emellertid inte att kunna välja den inaktiverade valutan för nya transaktioner.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

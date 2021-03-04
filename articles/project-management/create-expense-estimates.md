@@ -38,3 +38,6 @@ Följande attribut anges för varje utgiftsradartikel:
 - **Självkostnad per enhet**: det enhetspris som används för att beräkna kostnaden för utgiften.
 - **Försäljningspris per enhet**: det enhetspris som används för att beräkna försäljningspriset för utgiften.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

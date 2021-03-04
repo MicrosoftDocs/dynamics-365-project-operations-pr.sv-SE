@@ -51,3 +51,6 @@ Varje juridisk person som använder Project Operations i Dynamics 365 Customer E
   - **Standard för faktureringstyp**: Project Operations använder en fast uppsättning standardfaktureringstyper som måste mappas till egenskaper i Finance. Skapa en post för varje faktureringstyp: **Inte angiven**, **Debiterbar**, **Inte debiterbar**, **Kostnadsfri** och **Ej tillgänglig**.
   - **Standardprojektkategori**: Välj de projektkategorier som ska användas som standard för varje transaktionstyp. De här standardvärdena används i **Project Operations integreringsjournal** och i uppskattningar där ingen transaktionskategori har angetts för projektets faktiska värden.
   - **Prognoser**: Välj vilken prognosmodell som ska användas för uppskattning av tid och utgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

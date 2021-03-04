@@ -35,3 +35,6 @@ Om projektkontraktet som stängs som förlorat refererar ett projekt på dess ra
 
 > [!NOTE]
 > Om du stänger ett projektkontrakt som förlorat påverkas inte statusen för den associerade affärsmöjligheten i Dynamics 365 Project Operations. Affärsmöjligheten förblir öppen och måste stängas manuellt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

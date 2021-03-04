@@ -89,3 +89,6 @@ Parametrarna styr det allmänna beteendet i utgiftshanteringen.
 | <strong>Anti-korruptionsmeddelande för avsändare</strong> |                                                                                             Ange den text som ska visas för medarbetaren när du skapar en ny utgiftsrapport. Klicka på knappen <strong>Översättningar</strong> för att ange språkspecifik text som ska visas baserat på användarspråket.                                                                                             |
 | <strong>Anti-korruptionsmeddelande för godkännare</strong>  |                                                                                             Ange den text som ska visas för godkännaren när du skapar en ny utgiftsrapport. Klicka på knappen <strong>Översättningar</strong> för att ange språkspecifik text som ska visas baserat på användarspråket.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Om du vill eliminera ett uppskattningsprojekt måste det vara klart. I följande
 5. När elimineringsprocessen har slutförts visas det eliminerade uppskattningsprojektet med ett negativt värde. 
 
 Om du inte har för avsikt att eliminera en uppskattning kan du markera den eliminerade uppskattningen och välja **Återför eliminering**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

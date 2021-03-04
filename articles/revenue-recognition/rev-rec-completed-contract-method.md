@@ -90,3 +90,6 @@ Uppskattningen ändrar status till **Eliminerad**.
 Använd den här sidan om du vill omvända alla elimineringar med ett angivet uppskattningsdatum och med uppskattningsstatusen **Eliminerad**. Transaktionsstatusen ändras när du har valt lämpliga fält.
 
 Detta ändrar också automatiskt projektstatusen till **Pågår** om projektstadiet är inställt på Slutfört. Uppskattningsstatusen för projektperioden ändras tillbaka till **Bokförd**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

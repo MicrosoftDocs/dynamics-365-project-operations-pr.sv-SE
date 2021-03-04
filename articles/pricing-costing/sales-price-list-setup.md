@@ -59,3 +59,6 @@ I ett projektkontrakt använder följande prioriteringsordning för att automati
 När en projektprislista anges som standard verifierar systemet att valutan överensstämmer med kundens valuta och att standardprislistorna som har angetts har kontexten **försäljning**.
 
 Du kan associera flera projektprislistor med entiteterna kund, affärsmöjlighet, offert och projektkontrakt. Den här funktionen har stöd för tidsspecifika standardpriser för ett långvarigt projektkontrakt, där du kan behöva mer än en prislista för att ta hänsyn till prisuppdateringar som sker på grund av inflation. Om de prislistor som du associerar med en entitet för kund, affärsmöjlighet, offert eller projektkontrakt har överlappande giltighetsdatum kan standardpriset vara fel. Därför bör du kontrollera att projektprislistor som har överlappande giltighetsdatum inte är associerade med dessa entiteter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

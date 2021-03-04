@@ -58,3 +58,6 @@ Ytterligare hjälp finns som uppgiftsguider. Om du vill få åtkomst till uppgif
 ### <a name="videos"></a>Video
 
 Titta på instruktionsvideor som är tillgängliga på [Microsoft Dynamics 365:s YouTube-kanal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

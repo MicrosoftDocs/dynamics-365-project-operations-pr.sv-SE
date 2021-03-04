@@ -57,3 +57,6 @@ I följande tabell visas uppdateringarna av Project Operations på Dataverse-mil
 | Tid och utgift | 2034882 | Knappen **Nytt** visas två gånger i kommandofältet för tidsposter när Dynamics 365 Field Service installeras. |
 | Tid och utgift | 2056028 | Uppdatera sidan **Tidsredigering** för att inkludera tid. |
 | Tid och utgift | 1983747 | Tidspostdiagrammet visar ytterligare data. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

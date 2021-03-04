@@ -113,3 +113,6 @@ När den långivande juridiska personen USSI bokför den koncerninterna kundfakt
 Mer information finns i [Konfigurera en koncernintern projektfaktura](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

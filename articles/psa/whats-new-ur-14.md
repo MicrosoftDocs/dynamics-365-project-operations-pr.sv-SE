@@ -64,3 +64,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
      - Fast: det totala försäljningspriset beräknas inte förrän användaren även försummar en självkostnad för utgiftsuppskattningar i ett projekt.
      - Fixat: Stängning av en offert som **vunnen** misslyckas om det associerade projektavtalet inte har statusen **Utkast**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

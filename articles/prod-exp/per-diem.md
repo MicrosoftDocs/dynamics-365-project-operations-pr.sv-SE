@@ -28,3 +28,6 @@ ms.locfileid: "4960044"
 Ett *traktamente* är ett belopp som betalas till en arbetare som reser i arbetet. I Utgiftshantering kan du skapa traktamentsregler för olika resesituationer. Traktamentstaxa kan baseras på tid på året, resmål eller både och. När du skapar en traktamentsregel kan du ange att en procentsats av traktamentstaxan ska dras in om en arbetare får gratis måltider eller tjänster. Du kan även ange ett minsta och högsta antal timmar som traktamentstaxan kan gälla för en arbetares resa.
 
 Beräkningen av det totala traktamentsbeloppet baseras på de start- och slutdatum som du kan ange på sidan **Traktamenten**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

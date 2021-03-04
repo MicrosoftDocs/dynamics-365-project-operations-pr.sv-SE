@@ -63,3 +63,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
   - Fast: får inte längre ett felmeddelande i **projektsökning** i formuläret **offertrad** när det finns fler än 1000 projekt.
   - Fast: **uppskattning** rutnät för arbetsuppskattningar och utgiftsuppskattningar visar nu rätt valutasymbol.
   - Fast: när en organisation uppdaterar PSA från uppdatering version 14 till uppdatering version 15 visas inte längre fliken **schema** som tom i formuläret **projekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

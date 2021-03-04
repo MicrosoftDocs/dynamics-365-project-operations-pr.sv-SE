@@ -64,3 +64,6 @@ Lägg till följande Project Service-entiteter i din prissättningslösning för
 5.  När du uppmanas att inkludera eventuella beroende entiteter för de valda entiteterna väljer du **Nej, inkludera inte nödvändiga komponenter.**
 
     ![Inkludera beroende enheter](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

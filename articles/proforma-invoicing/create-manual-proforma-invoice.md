@@ -111,3 +111,6 @@ När du bekräftar en rättningsfaktura återförs den ursprungliga fakturerade 
 
 - En fakturerad faktisk försäljning som faktiskt innehåller sex timmar.
 - En ofakturerad faktisk försäljning för de återstående två timmarna. Denna transaktion kan antingen faktureras senare eller vara markerad som icke debiterbar, beroende på förhandlingarna med kunden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

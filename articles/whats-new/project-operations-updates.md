@@ -77,3 +77,6 @@ Målinriktade utgivningsdatum kan ändras. Mer information finns i [Tjänstuppda
 | --- | --- |
 | 10.0.17 | 19 mars 2021 |
 | 10.0.18 | 16 april 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

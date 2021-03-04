@@ -77,3 +77,6 @@ Följande problem har åtgärdats:
 - Logiken **Stängning av prislista för försäljning** hanterar tidszoner felaktigt, vilket resulterar i ett felaktigt urval av prislistor.
 - Ett projekts **Total faktisk kostnad** kan avgränsas med ett decimal belopp efter att en enskild tid har godkänts.
 - Logiken **Prismatchning** ger inte ett användarvänligt felmeddelande om **Hämta RolePrice** inte har värden i fälten **primär enhet** och **pris i primär enhet**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

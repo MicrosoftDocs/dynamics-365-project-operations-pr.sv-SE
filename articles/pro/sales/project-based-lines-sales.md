@@ -32,3 +32,6 @@ Nedan visas fälten i en projektbaserad affärsmöjlighetsrad:
 | Namn | Fliken Allmänt | Det här är ett redigerbart textfält som kan användas för att ge en kort identitet för radartikeln. | Det här värdet överförs till offertraden när du skapar en offert från den här affärsmöjligheten. |
 | Kundbudget | Fliken Allmänt | Det här redigerbara valutafältet kan användas för att spåra det belopp som kunden är villig att spendera för den här radartikeln. | Det här värdet överförs till motsvarande fält på offertraden när du skapar en offert från den här affärsmöjligheten. |
 | Faktureringsmetod | Fliken Allmänt | Det här redigerbara fältet har följande värden:</br>- Tid och material</br>- Fast pris | Det här värdet överförs till motsvarande fält på offertraden när du skapar en offert från den här affärsmöjligheten. När du har skapat offertraden är fältet låst och kan inte ändras. Tilldela det här fältvärdet så exakt som möjligt. Om du behöver ändra värdet i det här fältet på offertraden tar du bort och skapar offertraden på nytt. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

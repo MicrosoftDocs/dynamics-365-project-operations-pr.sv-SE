@@ -77,3 +77,6 @@ Du kan skapa data för entitetsbaserade dimensioner manuellt, eller genom att an
 5. Skapa en ny standardrubrik för "senior systemteknikern" genom att upprepa steg 1-3.
 
 > ![Exempeldata för entiteten Standardrubrik](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

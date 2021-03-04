@@ -80,3 +80,6 @@ När en leverantör har avslutat arbetet med ett projekt och skickar en faktura 
 2. På sidan **Leverantörsfaktura med betala vid betalning** , i sökfältet, anger du värden för att söka efter den leverantörsfaktura du vill granska, och väljer sedan **Sök**.
 3. Under snabbfliken **Leverantörsfakturarader** väljer du de rader du vill ändra.
 4. Om villkoren för **Betala vid betalning** uppfylls för fakturaraden väljer du **Släpp leverantörsbetalning**. Alternativet **Betala vid betalning** rensas och värdet i fältet **Klar för betalning** ändras till **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

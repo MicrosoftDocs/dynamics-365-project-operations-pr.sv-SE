@@ -35,3 +35,6 @@ Slutför följande steg om du vill granska projekt för fasta prisintäkter:
 
   Projektkostnad, intäktsprofil, kostnadsmall och periodkod kan anges manuellt. Om de inte anges manuellt kommer värdena att återgå till sina respektive standardvärden under den första uppskattningsberäkningen för projektet med hjälp av de regler som konfigurerats för projektkostnad och intäktsprofiler.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

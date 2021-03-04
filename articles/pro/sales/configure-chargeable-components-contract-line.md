@@ -79,3 +79,6 @@ En uppskattning eller ett faktiskt värde som skapats för utgift anses endast v
 | Inga            | Ja              | Hela projektet | Kan inte anges   | Ej debiterbar | Fakturering för faktiskt värde för Tid: **Inte tillgängligt**</br> Faktureringstyp för faktiskt värde för Utgift: **Ej debiterbart**     |
 | Ja           | Inga               | Hela projektet | Debiterbart     | Kan inte anges   | Fakturering för faktiskt värde för Tid: **Debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Inte tillgängligt**        |
 | Ja           | Inga               | Hela projektet | Ej debiterbar | Kan inte anges   | Fakturering för faktiskt värde för Tid: **Ej debiterbart** </br>Faktureringstyp för faktiskt värde för Utgift: **Inte tillgängligt**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

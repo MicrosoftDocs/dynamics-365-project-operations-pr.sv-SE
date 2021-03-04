@@ -41,3 +41,6 @@ Resurser är den viktigaste tillgången i en tjänstebaserad organisation. Möjl
 - [Preliminärboka krav](resource-management-softbook-requirements.md)
 - [Modeller för färdigheter och kompetens](resource-management-skills-proficiency.md)
 - [Vanliga frågor om resurshantering](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

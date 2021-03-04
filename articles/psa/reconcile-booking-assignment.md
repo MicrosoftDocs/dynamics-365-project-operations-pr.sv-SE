@@ -101,3 +101,6 @@ När funktionerna för att utöka bokning har körts för varje resurs utökas b
 
 Men en närmare information om bokföringarna visar att det finns skillnader i bokföringens starttid. Bokningarna startar inte tidigare än starttiden för tilldelningens profil och inte tidigare än resursens tillgängliga starttid.
  ![Nya bokningar av de resurser som har schemaläggningstavlan](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

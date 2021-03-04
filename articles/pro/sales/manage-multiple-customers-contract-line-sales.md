@@ -43,3 +43,6 @@ Nedan visas fälten på kundposten för **kontrakt** raden för en projektbasera
 Faktureringsdelningsprocenten kan redigeras i rutnätet. När faktureringsdelningsprocenten inte är total till 100 procent får du ett felmeddelande. När du har redigerat faktureringsdelningsprocenten uppdaterar du sidan så att felmeddelandet stängs.
 
 Du kan också välja **Fördela jämnt** i underrutnätet för kontraktsradkunden. Den här åtgärden tilldelar jämn faktureringsdelning till alla kontraktradkunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundade kunden. En kontraktradkund märks alltid som den **avrundande** kunden med **avrundning** inställd på **Ja**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

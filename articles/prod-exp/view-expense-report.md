@@ -32,3 +32,6 @@ För utgiftsrapporter kan du öka detaljnivån från en transaktion till den urs
 Om du vill öka detaljnivån i den ursprungliga utgiftsrapporten som en transaktion visades på markerar du transaktionen och väljer sedan **Ursprungligt dokument**.
 
 När du visar enskilda transaktioner kan du även visa ytterligare data som är kopplade till en transaktion. Du kan till exempel visa en detaljerad lista över utgifter, t.ex. Internetanslutning, telefonsamtal och rumsservice för en specificerad hotellkostnad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

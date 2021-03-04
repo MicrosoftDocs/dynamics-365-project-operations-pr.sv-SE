@@ -24,3 +24,6 @@ Projektmöjligheter kan stängas som vunna eller Förlorade. I dialogrutan **St�
 Du får inte stänga möjligheten om några aktiva offerter är associerade med den. Du kan stänga alla aktiva offerter och utkast till offerter som associeras med en möjlighet på samma gång. Sedan får du möjlighet att stänga möjligheten.
 
 Mer allmän information om att stänga möjligheter finns i [Stänga möjligheter som vunna eller förlorade](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

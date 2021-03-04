@@ -49,3 +49,6 @@ För att skapa ett projektschema skapar du en projektkalendermall som definierar
 8. I dialogrutan **Arbetsmall** anger du ett namn på arbetsmallen och klickar på **Använd**. 
 
 Du kan nu associera arbetsmallen med en projektkalendermall.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

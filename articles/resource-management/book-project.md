@@ -66,3 +66,6 @@ Som projektledare kan du behöva boka en resurs till ett projekt, men känner ba
 
 > [!NOTE]
 > Med den här metoden skapas inga bokningar för resursen. I stället läggs resursen till i teamet. När teammedlemmen har lagts till i projektet kan projektledaren använda underhåll bokningar eller utöka bokningar för att lägga till de bokningar som krävs i resursen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

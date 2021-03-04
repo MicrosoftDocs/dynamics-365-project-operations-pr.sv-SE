@@ -40,3 +40,6 @@ Instrumentpanelen **Metodansvarig** får du en grafisk instrumentpanelsupplevels
 ## <a name="resource-manager"></a>Resource Manager 
 
 Med instrumentpanel **Resource Manager** får resurshanterare en grafisk instrumentpanelsupplevelse för övervakning av resursbegäranden och resursbehov och utnyttjande av resurser. Det innebär också att resursansvariga kan segmentera den övervakade informationen utifrån olika dimensioner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

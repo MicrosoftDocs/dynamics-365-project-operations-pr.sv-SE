@@ -49,3 +49,6 @@ Vi rekommenderar att du använder en batch. Alternativen är tillgängliga under
     | Slutdatum    | Ange slutdatum för synkroniseringsprocessen för resurskapacitets sammanslagning. |
 
 [![Synkroniseringsprocess](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

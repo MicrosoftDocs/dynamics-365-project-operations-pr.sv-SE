@@ -63,3 +63,6 @@ Du kan använda samma metod för att annullera en fast bokning eller en prelimin
 Om du vill konvertera en preliminär bokning till en fast bokad på projektets flik **Team** klickar du på resursen och väljer **bekräfta**.
 
 ![Bekräfta kommando](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Följande illustration visar de ändringar som inträffar för godkända tidspos
 Följande illustration visar de ändringar som inträffar för godkända utgiftsposter när de återkallas.
 
 ![Utgiftspostens tillståndsövergångar](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

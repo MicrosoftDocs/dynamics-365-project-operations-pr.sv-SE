@@ -33,3 +33,6 @@ Via rutnätet **Teammedlem** kan en projektledare markera en specifik resurs och
 ## <a name="schedule-board"></a>Schemaläggningstavla
 
 Via **schematavlan** har resurshanteraren en portföljvy över samtliga en organisations bokningar. Från denna vy kan resurshanteraren utöka, förkorta eller flytta befintliga bokningar på samma sätt som via de funktioner som finns i **Bibehåll bokningar**. Resurshanteraren kan också ersätta befintliga resurser som har tilldelats en viss bokning genom att högerklicka på bokningsposten och välja **Ersättningsresurs**. Resursansvariga kan också redigera befintliga ändringar genom att högerklicka på bokningen och välja **Redigera**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

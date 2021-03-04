@@ -20,3 +20,6 @@ ms.locfileid: "4514593"
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan använda Dynamics 365 Field Service för att skapa bokningsbara resurser som ska användas i din Dynamics 365 Project Operations-miljö. Information om hur du skapar dessa resurser finns i [Konfigurera bokningsbara resurser](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

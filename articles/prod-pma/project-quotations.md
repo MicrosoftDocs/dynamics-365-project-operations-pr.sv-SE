@@ -41,3 +41,6 @@ Om kunden godkänner projektofferten kan du kopiera informationen i projektoffer
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

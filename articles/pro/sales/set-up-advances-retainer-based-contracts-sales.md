@@ -37,3 +37,6 @@ Arvodet i Project Operations är inte tillgängligt för användning förrän de
 | --- | --- | --- |
 | Disponibelt belopp | Det belopp som är tillgängligt för användning på en arvodes- eller förskottspost. | Innan förskottet eller arvodet faktureras är det inte tillgängligt att använda, vilket innebär att det tillgängliga beloppet blir noll. |
 | Använt belopp | Det belopp som redan använts av arvodet eller förskottet. | Ett förskott eller arvode kan avstämmas delvis på en faktura med faktiska kostnader som gör att någon del markeras som redan använd eller förbrukad. Resten av förskottet eller arvodet är tillgängligt att stämma av på en framtida faktura med faktiska kostnader. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

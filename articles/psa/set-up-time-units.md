@@ -47,3 +47,6 @@ Konfigurera tidsenheterna i produktkatalogen som ska använda som bas för tidsp
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

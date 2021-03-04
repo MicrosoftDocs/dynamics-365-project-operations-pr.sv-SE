@@ -140,3 +140,6 @@ I följande illustration visas exempel på hur du mappar malluppgifter i dataint
 [![Mallmappning – uppdatering av faktiska värden](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mallmappning – transaktionsuppdatering](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

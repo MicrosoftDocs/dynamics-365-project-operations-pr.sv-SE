@@ -124,3 +124,6 @@ I följande illustration visas ett exempel på hur du mappar malluppgifter i dat
 > Mappningen visar fältinformationen som ska synkroniseras från Project Service Automation till Finance.
 
 [![Project Service Automation till Finance-mallmappning](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

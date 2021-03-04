@@ -73,3 +73,6 @@ ms.locfileid: "5147360"
  [Guide för kontohanteraren](../psa/account-manager-guide.md)   
  [Guiden för projektledare](../psa/project-manager-guide.md)   
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

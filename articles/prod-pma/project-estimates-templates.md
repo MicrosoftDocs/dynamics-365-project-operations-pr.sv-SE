@@ -170,3 +170,6 @@ I följande illustration visas exempel på hur du mappar malluppgifter i dataint
 [![Mallmappning av transaktioner av utgiftsuppskattning](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mallmappning av utgiftsuppskattningar](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

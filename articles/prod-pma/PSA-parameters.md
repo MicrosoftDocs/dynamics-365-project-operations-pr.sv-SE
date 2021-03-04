@@ -47,3 +47,6 @@ På sidan **Project Service Automation integreringsparametrar** kan du konfigure
 | Faktureringstyp standard  | Faktureringstyp         | Klicka på **ny** om du vill lägga till en rad där du kan välja faktureringstypen för att ange standard radegenskapen. Du kan bara välja en specifik faktureringstyp en gång i konfigurationen. |
 |                        | Radegenskap        | Välj standard radegenskap för den valda faktureringstypen. Om nya timuppskattningar, nya utgiftsuppskattningar eller nya verkliga värden synkroniseras från Project Service Automation anges fältet **radegenskap** till standardvärdet för faktureringstypen. |
 | Funktioner som låser  | Gäller inte       | Välj vilka funktioner som ska inaktiveras i Finance för projekt och kontrakt som härrör från Project Service Automation. Du kan till exempel inaktivera möjligheten att redigera kontrakt och projekt, skapa uppdelnings strukturer och ange tid rapporter i Finance. Redovisningsfält som är relaterade till poster aktiveras även om de inte är tillgängliga i parameterinställningarna. Som standard är alla funktioner aktiverade. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

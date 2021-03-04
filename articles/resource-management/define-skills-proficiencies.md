@@ -42,3 +42,6 @@ Kunskaper för resurser klassificeras efter kompetensmodeller. De enskilda klass
 
 
 De här klassificeringsvärdena visas på filtren **resurskrav**, **schematavla** och **schemaassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

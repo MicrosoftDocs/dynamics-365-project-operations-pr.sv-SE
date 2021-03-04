@@ -43,3 +43,6 @@ Följ stegen nedan om du vill göra en kopia av prislistan.
 1. På fliken **Roll**, **Kategori** och **Prislistepost** i prislista kan du välja **Uppdatera priser** för att tillämpa en markering för alla priser i underrutnätet. 
 2. I dialogrutan som öppnas anger du ett pålägg. Du kan även ange en negativ påläggsprocent för att sänka priset med en viss procentsats. 
 3. Välj **OK** på dialogsidan och kontrollera sedan att priserna i under rutnätet återspeglar de ändringar du har gjort.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

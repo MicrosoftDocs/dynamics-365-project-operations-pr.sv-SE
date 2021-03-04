@@ -47,3 +47,6 @@ Klienternas projekt kräver utan tvekan en mängd olika färdigheter för att sl
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

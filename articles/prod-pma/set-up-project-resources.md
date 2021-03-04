@@ -75,3 +75,6 @@ När föregående aktiviteter har slutförts kan du utföra följande uppgifter 
 - Uppfyll resursförfrågningar.
 - Begära en personalresurs från en WBS.
 - Boka resurser i ett projekt utan att behöva begära en personalresurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

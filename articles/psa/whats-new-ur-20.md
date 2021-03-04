@@ -62,3 +62,6 @@ Följande problem har åtgärdats:
 - **Självkostnad för organisationsenhet** anger tillåtna överlappningar i giltighetsdatum.
 - Användare har inte behörighet att ändra **OrgUnit** när ordertypen inte fungerar eftersom den leder till ett fel av typen null-referens.
 - När du försöker navigera från formuläret **Information om offertrad** tillbaka till **Offert** uppdateras formuläret och fliken **Sammanfattning**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

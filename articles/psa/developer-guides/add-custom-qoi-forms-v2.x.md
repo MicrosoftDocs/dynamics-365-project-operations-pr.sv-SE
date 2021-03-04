@@ -96,3 +96,6 @@ Följ stegen nedan om du vill skapa en anpassad version av formuläret **projekt
     ```
 
 6. Spara och publicera anpassningarna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

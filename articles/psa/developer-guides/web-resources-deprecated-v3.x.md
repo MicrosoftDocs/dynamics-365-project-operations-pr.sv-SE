@@ -538,3 +538,6 @@ På grund av det nya klientgränssnittet och andra ändringar som har gjorts i D
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

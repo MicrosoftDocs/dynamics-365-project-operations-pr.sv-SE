@@ -57,3 +57,6 @@ Regel: ett projekt och en viss transaktionsklass kan endast tas med på en proje
 | C1       | CL2           | P1      | Inga           | Ja             | Inga          | Giltig           | Tid och avgifter för projekt P1 ingår på CL1. Utgiften på P1-projektet ingår i CL2. </br>   Det finns ingen överlappning i vad som ska tas med på varje kontraktrad och är därför giltigt.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Ogiltigt       | Bryter mot regeln. Tid, utgifter och avgifter i projekt P1 tas med på raderna på de två kontrakten.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Ogiltigt       | Bryter mot regeln. Tid, utgifter och avgifter i projekt P1 tas med på raderna på de två kontrakten.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

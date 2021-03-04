@@ -132,3 +132,6 @@ Du bör använda plugin-valideringar för alla valideringar som kräver mer kont
 
 > [!IMPORTANT] 
 > För närvarande hindrar ett känt problem på TBX-sidorna användarna från att korrigera information och sedan välja Klart när en uppdatering misslyckas med en verifiering av plugin-program. Du kan lösa problemet genom att konfigurera affärsregelvalideringar för att förhindra situationen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

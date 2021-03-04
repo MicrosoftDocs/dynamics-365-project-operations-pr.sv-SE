@@ -144,3 +144,6 @@ Använd plugin-valideringar för alla valideringar som kräver mer kontext än v
 
 ### <a name="copying-time-entries"></a>Kopiera tidsposter
 Använd vyn **Kopiera tidspostkolumner** för att definiera listan över fält som ska kopieras under en tidspost. **Datum** och **Varaktighet** är obligatoriska fält och bör inte tas bort från vyn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

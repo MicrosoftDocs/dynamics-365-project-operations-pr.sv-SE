@@ -34,3 +34,6 @@ Det går enkelt att kopiera projektmöjligheter för att skapa nya projektmöjli
     | Kopiera prissättning | Ett ja/nej-värde som anger om prissättningen i affärsmöjligheten ska kopieras från källmöjligheten. | Om **Ja** har valts kopieras prislistor från käll- till målmöjligheten. Om **Nej** har valts återställs prislistor utifrån de senaste prislistorna som konfigurerades. |
 
 3. Välj **OK**. Systemet skapar en kopia av projektmöjligheten utifrån valda parametrar och den nya projektmöjligheten öppnas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

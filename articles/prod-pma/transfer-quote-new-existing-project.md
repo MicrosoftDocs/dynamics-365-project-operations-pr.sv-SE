@@ -36,3 +36,6 @@ Följ stegen nedan för att använda guiden.
 1. Gå till **Projektledning och redovisning** > **Offerter** > **Projektofferter**.
 2. Välj den offert du vill överföra och under fliken **Följa upp** , i gruppen **Ändra** , välj **Överför till projekt**.
 3. Följ guiden **Överför offert till projekt** för att koppla och överföra offerten till ett projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

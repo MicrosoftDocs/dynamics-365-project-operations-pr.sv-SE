@@ -35,3 +35,6 @@ Navigera till projektets verkliga värden och kontrollera att utgiften och ofakt
   
 ### <a name="see-also"></a>Se även  
  [Guide för projektansvarig](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

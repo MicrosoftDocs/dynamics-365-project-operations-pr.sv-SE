@@ -35,3 +35,6 @@ Alla projektfakturor som skapas finns på sidan **Faktura** i avsnittet **Faktur
 En proforma-faktura kan också skapas från informationssidan **Projektkontrakt**. Systemet bekräftar att projektkontraktet har en **Redo att fakturera**-backlogg daterad före dagens datum. Från de här kontrakten skapas utkast av proforma-fakturor utifrån antalet kunder på varje kontraktrad.
 
 När du har skapat en proforma-faktura öppnas sidan **Faktura**. Om flera fakturor skapas för projektkontraktet öppnas listsidan **Fakturor** för att visa alla skapade fakturor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

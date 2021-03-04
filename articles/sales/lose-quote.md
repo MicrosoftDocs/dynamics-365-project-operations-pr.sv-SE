@@ -45,3 +45,6 @@ När du väljer **OK** i dialogrutan skapas en kopia av projektofferten utifrån
 > - Projektreferens för projektbaserade offertrader – kundens budgetinformation
 >
 >Eftersom informationen är mycket specifik för varje offert kopieras inte dessa fält och poster. Offertrader för projekt och produkter, uppskattningar av offertradsinformation och värden som inte ska överskridas på offertnivån kopieras. Pris- och kostnadstaxa varierar beroende på vilket alternativ för **kopiering av prissättning** som väljs i dialogrutan **Kopiera parametrar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

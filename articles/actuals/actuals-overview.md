@@ -342,3 +342,6 @@ Project Operations registrerar ekonomiska transaktioner som inträffar under ett
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

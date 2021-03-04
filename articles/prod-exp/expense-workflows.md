@@ -50,3 +50,6 @@ I följande tabell visas de typer av arbetsflöden som du kan skapa i **Utgift**
 |      <strong>Begäran om förskott</strong>      |         Skapa godkännande arbetsflöden för begäran om förskott.          |
 |        <strong>Momsåtervinning</strong>        | Skapa godkännande arbetsflöden för att momsåtervinning.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

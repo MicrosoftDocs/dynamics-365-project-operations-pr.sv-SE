@@ -56,3 +56,6 @@ En befintlig offert kan länkas till en affärsmöjlighet. Följ stegen nedan om
    När du flyttar en affärsmöjlighet till detta stadium kan du välja den här offerten från en lista med offerter som är associerade med den här affärsmöjligheten. Om du väljer den här offerten betyder det att du går vidare med den.
 
    Alla andra offerter som är associerade med affärsmöjligheten är fortfarande tillgängliga och aktiva tills en av dem har vunnits. Du kan flytta tillbaka försäljningsprocessen till föregående stadium **Kvalificera** och välja en annan offert att gå vidare med.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

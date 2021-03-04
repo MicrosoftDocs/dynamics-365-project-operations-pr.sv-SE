@@ -231,3 +231,6 @@ I följande tabell beskrivs hur data synkroniseras mellan Project Service Automa
 
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

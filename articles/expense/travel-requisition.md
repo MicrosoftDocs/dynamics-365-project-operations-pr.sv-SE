@@ -56,3 +56,6 @@ Välj den reserekvisition som du vill godkänna och välj sedan **Arbetsflöde**
 
 > [!NOTE]
 > När du mappar en utgiftsrapport till en godkänd reserekvisition får transaktionsbeloppet inte vara större än det godkända beloppet. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

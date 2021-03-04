@@ -48,3 +48,6 @@ Du kan kontrollera resurstillgänglighet för att få en övergripande bild av h
 
 ### <a name="see-also"></a>Se även  
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Om utgifter i en utgiftsrapport debiteras ett företag som inte är samma föret
 Om du vill bokföra en utgiftsrapport på sidan **Godkända utgiftsrapporter** väljer du utgiftsrapport och sedan, i åtgärdsfönstret, väljer du **Bokför**.
 
 Du kan också bokföra alla utgiftsrapporter i listan på samma gång. Välj alla utgiftsrapporter och välj sedan **Bokför**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

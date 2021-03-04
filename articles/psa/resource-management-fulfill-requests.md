@@ -46,3 +46,6 @@ Schemaassistenten visas och filtreras efter kraven. Välj resursen och sedan **B
 > ![Vald resurs](media/Resource-Management-image61.png)
 
 Den allmänna teammedlemmen ersätts med den resurs som har beteckningen projektteam i projektgruppen och aktivitetstilldelningarna i projektschemat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

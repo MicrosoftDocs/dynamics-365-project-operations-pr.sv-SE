@@ -68,3 +68,6 @@ Nedan förklaras hur du registrerar plugin-programmen.
 
 9. Stäng registrering av plugin-program.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

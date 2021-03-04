@@ -107,3 +107,6 @@ Ytterligare alternativ har lagts till i strukturen för att bättre använda fun
     > Du får ingen varning om att den angivna resursen nu är 2 eftersom antalet resurser fortfarande är 1.
 
 14. På sidan **Uppdelad arbetsstruktur** validerar du resurstilldelningen i WBS och väljer sedan **Spara**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Om du fortfarande inte ser något giltigt pris på din tidskostnadstillgång eft
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

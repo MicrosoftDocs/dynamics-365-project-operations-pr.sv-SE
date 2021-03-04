@@ -47,3 +47,6 @@ Nu när du har vunnit offerten för projektet, är det dags att skapa ett kontra
   
 ### <a name="see-also"></a>Se även  
  [Guide för kontohanteraren](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

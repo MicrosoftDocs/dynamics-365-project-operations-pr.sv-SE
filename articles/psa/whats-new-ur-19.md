@@ -66,3 +66,6 @@ Följande problem har åtgärdats:
 - Kunderna kan få försämrade prestanda när de skapar ett projekt eftersom **GetBookableResourceIdFromUser** hämtar alla bokningsbara resurser i stället för bara det primära ID:t.
 - **TransactionType**-entiteten saknar plugin-programmet för valideringsuppdatering för att förhindra att användare anger **Enheter** och **UnitGroups** som inte är giltiga för transaktionstyper.
 - Steget **Ta bort** fungerar inte för import av tidsposter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

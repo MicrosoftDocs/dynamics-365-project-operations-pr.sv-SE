@@ -48,3 +48,6 @@ Boka en resurs direkt till ett projekt:
 Boka en resurs från ett resurskrav:
 - [Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Boka namngivna resurser från resurskrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

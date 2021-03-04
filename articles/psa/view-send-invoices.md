@@ -58,3 +58,6 @@ När du skapar ett projekt kan du ange en frekvens för att skapa fakturor. Du k
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

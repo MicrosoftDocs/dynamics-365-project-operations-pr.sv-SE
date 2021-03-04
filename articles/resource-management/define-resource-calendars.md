@@ -43,3 +43,6 @@ Varje bokningsbar resurs som arbetar i ett projekt måste ha en kalender med arb
 2. Välj upp till 25 **bokningsbara resurser** som ska uppdateras från rutnätsvyn.
 3. Välj **Ange kalender** så visas en dialogruta med en lista över tillgängliga arbetstidsmallar.
 4. Välj mallen du vill använda och välj sedan **Tillämpa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

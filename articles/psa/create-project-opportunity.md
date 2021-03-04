@@ -55,3 +55,6 @@ Affärsmöjligheter är varma leads från kunder som är intresserade av att kon
   
 ### <a name="see-also"></a>Se även  
  [Guide för kontohanteraren](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

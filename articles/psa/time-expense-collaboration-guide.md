@@ -73,3 +73,6 @@ Klicka på en av nedanstående länkar för mer information om vad du kan göra 
  [Guide för kontohanteraren](../psa/account-manager-guide.md)   
  [Guiden för projektledare](../psa/project-manager-guide.md)   
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

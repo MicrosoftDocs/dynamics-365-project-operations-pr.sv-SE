@@ -55,3 +55,6 @@ I följande avsnitt finns information om de uppgifter som måste utföras när d
 - [Resultat av projektresursschemaläggning](project-scheduling-performance.md)
 - [Konfigurera roller i mallar för uppdelad arbetsstruktur](set-up-roles-wbs-template.md)
 - [Resursuppfyllelse för planerade resurser](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

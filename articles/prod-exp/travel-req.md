@@ -32,3 +32,6 @@ Din organisation kan kräva att en reserekvisition skickas in innan de anställd
 Reserekvisitioner och principer kan användas för underlätta budgetkontroll. Om din organisation till exempel arbetar med ett fastprisprojekt som kräver resa, måste reseutgifterna för projektets teammedlemmar passa i projektbudgeten. Genom att kräva att resekostnaderna godkänns innan de uppkommer kan organisationen se till att projektet förblir inom budgeten.
 
 Du kan konfigurera principer för reserekvisitioner från sidan **Reserekvisition**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

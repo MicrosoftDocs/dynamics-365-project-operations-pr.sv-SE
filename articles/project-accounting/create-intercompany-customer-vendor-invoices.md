@@ -61,3 +61,6 @@ Du kan skapa flera koncerninterna fakturor samtidigt för alla låntagande jurid
 ## <a name="post-the-intercompany-vendor-invoice"></a>Bokför den koncerninterna leverantörsfakturan
 
 En projektrevisor i den låntagande juridiska personen kan granska koncerninterna, väntande leverantörsfakturor när motsvarande koncerninterna kundfaktura bokförs. I Finance går du till **Leverantörsreskontra** > **Fakturor** > **Väntande leverantörsfaktura**. Det väntande fakturanumret kommer att matcha det koncerninterna kundfakturanumret. Kontrollera att fakturan är korrekt och bokför sedan fakturan. Bokföring av koncernintern leverantörsfaktura skapar en projektredovisning och en redovisningstransaktion som återspeglar transaktionskostnaderna i den låntagande juridiska personen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

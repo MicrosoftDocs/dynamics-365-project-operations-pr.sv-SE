@@ -198,3 +198,6 @@ Ett fakturerat faktiskt värde för försäljning för milstolpens belopp på de
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

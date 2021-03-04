@@ -160,3 +160,6 @@ Genom att skapa principer för utgiftsrapporter kan du hjälpa organisationen at
 - När upphör principen att gälla?
 - Vad är principregeln?
 - Vad är resultatet av principregeln?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

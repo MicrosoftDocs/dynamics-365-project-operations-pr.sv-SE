@@ -74,3 +74,6 @@ Milstolpar med fast pris kan skapas manuellt när de inte längre är delade. F�
 | Moms | Snabbregistrering | Momsbeloppet som används på milstolpen. | Detta ingår i milstolpen för projektkontraktraden och fakturan. |
 
 4. Välj **Spara och stäng**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Följ stegen nedan om du vill korrigera en eller flera utgiftsposter.
 8. I fliken **Faktiska värden** på projektsidan granskar du **Associerad vy för faktiska värden**. De ursprungliga posterna och de korrigerade posterna visas i listan. Följande bild illustrerar ursprungliga utgiftspostbelopp och motsvarande, korrigerade utgiftspostbelopp. 
 
 ![Faktiska utgifter](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

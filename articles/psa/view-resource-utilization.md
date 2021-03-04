@@ -43,3 +43,6 @@ Du kan kontrollera resursutnyttjande om du vill bestämma utnyttjandenivåer fö
   
 ### <a name="see-also"></a>Se även  
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

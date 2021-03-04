@@ -153,3 +153,6 @@ I följande illustration visas exempel på hur du mappar malluppgifter i dataint
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mappning av milstolpe för projektkontrakt i projekt och kontrakt (PSA 3.x till Dynamics) - v2 mall:
 
 [![Mappning av milstolpe för projektkontraktrader med mall av version två](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

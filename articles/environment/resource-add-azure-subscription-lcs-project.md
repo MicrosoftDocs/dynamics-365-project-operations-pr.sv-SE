@@ -70,3 +70,6 @@ Auktoriseringen har slutförts.
 Din Azure-prenumeration har upprättats. Nu kan du distribuera Dynamics 365 Finance-miljöer i molnet.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

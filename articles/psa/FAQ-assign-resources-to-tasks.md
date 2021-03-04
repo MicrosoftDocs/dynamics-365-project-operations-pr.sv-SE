@@ -82,3 +82,6 @@ Resurser som är tilldelade detta sätt läggs till i teamet utan att behöva bo
 
 3. Välj resursen som du vill tilldela uppgiften.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Försäljningspriser tillämpas en gång per affär. Hierarkin för försäljnin
 1. Organisation
 2. Kund
 3. Offert/kontrakt
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ I det här ämnet beskrivs hur du skapar en prognosmodell för resterande budget
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

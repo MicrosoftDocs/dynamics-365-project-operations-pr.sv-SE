@@ -44,3 +44,6 @@ I den här uppgiftsguiden visas hur du justerar en transaktion i ett projekt. Du
 13. Markera den markerade raden i listan. 
 14. Ange ett nummer i fältet självkostnad. 
 15. Klicka på Publicera. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

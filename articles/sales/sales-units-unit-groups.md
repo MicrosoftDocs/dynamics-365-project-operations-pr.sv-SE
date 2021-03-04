@@ -46,3 +46,6 @@ Följ stegen i det här ämnet genom att kontrollera att du har tilldelats rolle
 3. I fältet **kvantitet** ange den kvantitet som enheten ska innehålla. Om en låda till exempel innehåller 2 stycken skriver du "2". 
 4. I fältet **Basenhet** väljer du en basenhet för att fastställa den lägsta mått enheten för enheten. Du kan till exempel välja "stycke".
 5. Välj **Spara**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

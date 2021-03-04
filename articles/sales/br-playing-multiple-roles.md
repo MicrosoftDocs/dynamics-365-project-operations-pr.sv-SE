@@ -106,3 +106,6 @@ När du expanderar raden för den gruppmedlemsposten kan du se distinkta tilldel
 ### <a name="estimates-grid"></a>Beräkningsrutnät 
 
 På rutnätet **Uppskattningar** prissätts båda tilldelningar för samma resurs på olika sätt. Tilldelningen för resursen tillhörande **Uppgift A** prissätts med hjälp av attributvärdet **Rådgivningslead** för **Roll**. Tilldelningen för samma resurs för **Uppgift B** prissätts med hjälp av attributvärdet **Nätverkstekniker** för **Roll**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

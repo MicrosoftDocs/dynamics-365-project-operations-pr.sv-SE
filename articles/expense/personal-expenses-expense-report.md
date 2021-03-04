@@ -28,3 +28,6 @@ Du kan använda två metoder för att arbeta med en anställds personliga utgift
   - **Betald av företag**: Organisationen betalar den fullständiga fakturan för företagets kreditkort och debiterar sedan den anställdes konto för de personliga kostnaderna.
 
 Du kan välja vilken metod som ska användas av organisationen på sidan **Parametrar för utgiftshantering**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

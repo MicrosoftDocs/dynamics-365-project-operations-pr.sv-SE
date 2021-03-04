@@ -79,3 +79,6 @@ Skapa kostnadsmallar genom att följa stegen nedan:
 7. Välj fliken **Kategorier** och välj de projektkategorier som ska ingå på kostnadsmallraden.
 8. I fliken **Allmänt** väljer du om den här raden ska inkluderas i beräkningen av procentandelsvärdet för slutförande.
 9. Välj den kostnad för slutförandemetod som ska användas vid beräkning av slutförandeprocenten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

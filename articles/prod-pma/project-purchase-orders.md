@@ -76,3 +76,6 @@ Du kan använda någon av följande metoder för att skapa en inköpsorder i pro
 
 Mer information finns i [Ta emot varor på inköpsordern från artikelkravet](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

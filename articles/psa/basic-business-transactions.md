@@ -149,3 +149,6 @@ I följande tabell visas posterna i entiteten för transaktionskoppling för fö
 | Korrigeringsfaktura, utkast       | Transaktion på fakturaraden GUID | Utbyte          | msdyn_invoicelinetransaction | Fakturerad försäljning GUID            | Ursprunglig           | msdyn_actual       |
 | Bekräfta fakturakorrigering     | Fakturerad återförd försäljning GUID    | Återföring          | msdyn_actual                 | Fakturerad försäljning GUID            | Ursprunglig           | msdyn_actual       |
 | Ny ofakturerad faktisk försäljning GUID | Utbyte                     | msdyn_actual       | Fakturerad försäljning GUID            | Ursprunglig                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

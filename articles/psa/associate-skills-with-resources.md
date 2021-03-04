@@ -45,3 +45,6 @@ I det föregående steget har du redan associerat vissa färdigheter med en ny r
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

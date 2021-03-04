@@ -57,3 +57,6 @@ I filterrutan visas alternativen för arbete, t.ex.:
 -   Resursföretag
 -   Resurstyper
 -   Prioriterade resurser
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

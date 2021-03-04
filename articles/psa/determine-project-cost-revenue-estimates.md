@@ -81,3 +81,6 @@ Alla utgifter som uppkommer i projektet som inte är direkt relaterade till arbe
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

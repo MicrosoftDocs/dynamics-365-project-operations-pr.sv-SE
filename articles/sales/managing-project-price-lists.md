@@ -120,3 +120,6 @@ På samma sätt som med faktureringskostnader är kostnadstariffer för personal
     1. Prislista för självkostnad är kopplad till organisationsenheten.
     2. Prislista för självkostnad är kopplad till Project Operations-parametrarna. Eftersom prislista för självkostnad i många olika valutor kan kopplas till parametrar, slutförs en valutamatchning mellan valutan i den upphandlande organisationsenheten för projektet, kontraktet eller offerten och valutan i prislistan för självkostnad.
     3. För utgifter gäller prissättningsmetoderna Vid kostnad och Pålägg på kostnad inte prislistor för självkostnad. Även om de här prissättningsmetoderna används på rader för prislista för självkostnad för att konfigurera kostnaderna för en transaktionskategori ignoreras de och ingen standardsjälvkostnad anges.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

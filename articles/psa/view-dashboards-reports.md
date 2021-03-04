@@ -49,3 +49,6 @@ Med instrumentpaneler och rapporter får du en förståelse för var ditt föret
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

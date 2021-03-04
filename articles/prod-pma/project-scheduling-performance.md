@@ -69,3 +69,6 @@ Följ stegen nedan om du vill aktivera prestandaförbättringar för resursschem
 
 > [!NOTE]
 > Detta innebär att allmänna data distribueras till tabellen **ResRollup** i alla företag i din miljö, så att batch-jobbet endast behöver köras i en juridisk person. Det här batch-jobbet krävs för alla vyer i **Resurstillgänglighet**. Om det här batch-jobbet inte körs kommer **ResRollup** -data att skapas i farten, vilket kan ta tid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

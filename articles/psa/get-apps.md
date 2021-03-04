@@ -36,3 +36,6 @@ Om du vill ange tid och utgifter på din mobila enhet, [hämta och installera Dy
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

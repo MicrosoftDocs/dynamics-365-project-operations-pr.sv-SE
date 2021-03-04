@@ -41,3 +41,6 @@ Om du vill kräva flera godkännare för utgiftsrapporter kan du lägga till arb
 
     1. Medarbetarens chef godkänner utgiftsrapporten.
     2. Budgetägaren godkänner utgiftsrapporten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

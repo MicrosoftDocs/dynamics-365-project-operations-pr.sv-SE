@@ -257,3 +257,6 @@ Följande bild är efter anpassade prislistor har skapats.
 
 > [!NOTE]
 > En kort fördröjning kan inträffa när du klickar på **Skapa anpassad prissättning** till när den anpassade prislistan skapas. Vi rekommenderar att du uppdaterar rutnätet i stället för att klicka flera gånger. En anpassad prislista skapas om namnet på den associerade prislistan har offertnamnet eller projektkontraktsnamnet bifogat det.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

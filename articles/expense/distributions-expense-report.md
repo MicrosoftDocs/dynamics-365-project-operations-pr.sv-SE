@@ -30,3 +30,6 @@ Eftersom Nancy arbetade i två separata projekt samtidigt när hon var i Frankfu
 | Tågbiljett   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotell        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Måltider        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ När du har bokat resurser väljer du **Underhåll bokningar** för att göra n�
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Vad är det för skillnad på en tilldelning och en bokning?
 
 Tilldelningar är tilldelningen av resurser till projektuppgifter i projektschemat. Resurserna kan antingen vara riktiga eller generiska resurser. Bokningar är en fast eller preliminär allokering av resurser till ett projekt. Fasta bokningar förbrukar en resurs kapacitet. För verkliga resurser bör bokningarna och tilldelningarna godkännas eftersom de inte skiljer sig åt. PSA tvingar emellertid inte detta avtal. I vyn avstämning visas en projektledare där resursens bokningar och tilldelningar inte godkänner varandra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

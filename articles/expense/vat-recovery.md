@@ -66,3 +66,6 @@ När Arnie är redo att skicka utgiftsrapportdata till den tredje part som ska r
 Arnie måste kontrollera att transaktionerna i utgiftsrapporten är berättigade till momsåterbetalning och att de digitala kvittona har bifogats till rapporterna. För att börja bearbeta utgifter som är berättigade till inhemsk återbetalning öppnar Arnie sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som kräver verifiering. Han bekräftar att kvitton finns i företagets namn i stället för i medarbetarens. (För momsåterbetalning måste kvitton vara i företagets namn). Arnie verifierar sedan att alla begärda kvitton har bifogats och att rätt momsgrupp och momskoder har angetts.
 
 När Arnie tar emot papperskvitton ändrar han status för utgiftsrapporten till **Klar för återbetalning**. Han kan sedan registrera återbetalningen hos rätt skattemyndighet. I det här fallet är rätt skattemyndighet i USA Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

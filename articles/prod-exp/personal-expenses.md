@@ -33,3 +33,6 @@ Det finns två sätt att hantera en arbetares privata utgifter:
 - **Betalas av företaget** – organisationen betalar hela fakturan för företagets kreditkort och debiterar sedan arbetarens konto för privata utgifter.
 
 Du kan välja vilken metod som ska användas av organisationen på sidan **Parametrar för utgiftshantering**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Vid resursreservationen kan projektledarna filtrera de rollresurser som är till
 
 3. Klicka på **Spara** och stäng sedan sidan.
 4. På fliken **kompetenser** lägger du till kompetensen **ProjectMgmt** och **PMP** -intyg.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

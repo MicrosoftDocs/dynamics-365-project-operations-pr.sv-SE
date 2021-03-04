@@ -62,3 +62,6 @@ Android kommer att vara kompatibel med plattformsuppdatering 16, när den blir t
 13. Valfritt: ange ytterligare tidrapportrader.
 
 14. När du har angett tidrapportraderna väljer du åtgärden **arbetsflöde** \> **skicka** för att skicka in din tidrapport till godkännande processen för arbetsflödet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

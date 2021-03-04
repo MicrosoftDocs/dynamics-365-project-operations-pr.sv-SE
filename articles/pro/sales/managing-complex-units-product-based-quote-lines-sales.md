@@ -45,3 +45,6 @@ Följ stegen nedan om du vill skapa kvantitetsfaktorer från produktegenskaper:
 6. Spara och stäng formuläret. Upprepa de här stegen för alla egenskaper som ska användas för att beräkna kvantiteten för den produktbaserade offertraden.
 
 När du skapar en produktbaserad offertrad för en produkt blir antalet offerter automatiskt låsta. Antalet beräknas som en produkt av de egenskapsvärden som du har angett för den offertraden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

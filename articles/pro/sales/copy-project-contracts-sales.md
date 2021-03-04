@@ -45,3 +45,6 @@ Följande information kopieras inte från **Källkontrakt** till **Målkontrakt*
   - Information om kundbudget
 
 Eftersom informationen är specifik för varje kontrakt kopieras inte dessa fält och poster. Kontraktrader för projekt och produkter, uppskattningar av kontraktradsinformation och värden som inte ska överskridas på kontraktnivån kopieras. Pris- och kostnadstaxa varierar beroende på valet i fältet **Kopiering av prissättning** i dialogrutan **Kopiera parametrar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Här följer några förslag som kan hjälpa dig när du skapar nya policyer fö
 ## <a name="when-to-evaluate-policies"></a>När policyer utvärderas
 
 I parametrar för utgiftshantering kan du välja om du vill utvärdera policyer för utgiftshantering när en rad sparas eller när en utgiftsrapport skickas. Om du väljer att utvärdera när en rad sparas får användarna tidigare insyn i vad de behöver göra för att slutföra sina utgiftsrapporter samtidigt. Annars kan du försena utvärdering av policyer och spara tid genom att validera i slutet, under överföringen till arbetsflödet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

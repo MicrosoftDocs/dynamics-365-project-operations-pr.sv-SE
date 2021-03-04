@@ -125,3 +125,6 @@ Fast pris – procent färdigt
 Reglerna för projektkostnads- och intäktsprofiler avgör vilken projektkostnads- och intäktsprofil som måste användas när du bearbetar några fakturerbara projekttransaktioner. Definiera reglerna genom att gå till **Projekthantering och redovisning** \> **Inställningar** \> **Bokföring** \> **Regler för projektkostnads- och intäktsprofiler**.
 
 Regler kan definieras efter projektkontrakt, projektgrupp eller efter ett specifikt projekt. Systemet kommer alltid att välja den högsta detaljeringsregeln först.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

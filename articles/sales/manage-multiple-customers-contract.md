@@ -47,3 +47,6 @@ Du kan skapa, uppdatera eller radera en kontraktskund från fliken **Kontraktsku
 Du kan redigera faktureringsdelningsprocenten i rutnätet. När den totala faktureringsdelningsprocenten inte uppgår till 100 procent genereras ett felmeddelande. När du har redigerat faktureringsdelningsprocenten uppdaterar du sidan **Projektkontrakt** för att avlägsna felet.
 
 Du kan också välja **Fördela jämnt** i underrutnätet för projektkontraktskunder. Faktureringsdelningar allokeras till samtliga kunder i projektkontraktet. Om det finns någon avrundningsfaktor kommer denna att läggas till i den avrundade kunden. En av kontraktskunderna har alltid flaggan **Avrundning** inställd på **Ja**. Den kunden är avrundningskunden. Vanligtvis är avrundningskunden också den primära kunden i kontraktet, men detta krävs inte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Det här ämnet gäller för följande komponenter och versioner i Dynamics 365 
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
 Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

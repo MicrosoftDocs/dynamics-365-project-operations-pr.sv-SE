@@ -83,3 +83,6 @@ Om du använder en äldre version och vill se resurstillgängligheten, se då [V
   
 ### <a name="additional-resources"></a>Ytterligare resurser  
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

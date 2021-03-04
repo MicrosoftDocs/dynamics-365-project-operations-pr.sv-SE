@@ -57,3 +57,6 @@ Prislistor för självkostnad hämtas inte från någon entitet i Project Operat
 5. Därefter kontrollerar systemet giltighetsdatumet för prislistor som överensstämmer med datumet på raden för inkommande uppskattning eller faktiskt värde. 
 6. Om det finns flera prislistor som är giltiga för datumet på den inkommande uppskattningen eller det faktiska värdet, väljs den prislista som skapades senast.
 7. Om inga prislistor för självkostnad är kopplade till de projektparametrar som överensstämmer med valutan och giltighetsdatumet är standardvärdet för kostnadstaxan noll (0) på raden för inkommande uppskattning eller faktiskt värde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

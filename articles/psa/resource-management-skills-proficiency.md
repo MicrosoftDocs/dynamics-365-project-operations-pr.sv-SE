@@ -48,3 +48,6 @@ Kunskaper för resurser klassificeras efter kompetensmodeller. De enskilda klass
 > ![Minimi- och maximivärden som definierats](media/Resource-Management-image85.png)
 
 De här klassificeringsvärdena visas på filtren **resurskrav**, **schematavla** och **schemaassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

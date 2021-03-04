@@ -55,3 +55,6 @@ Följande process är ett exempel på arbetsflödet för utgiftshantering för e
 När dessa krav har verifierats bokförs utgiftsrapporten.
 
 När utgiftsrapporten har bokförts auktoriseras betalningen för utgiftsrapporten och medarbetaren återbetalas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

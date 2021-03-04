@@ -69,3 +69,6 @@ När du kopierar över beräkningsrader för projekt uppdateras prislistorna. F�
 ### <a name="copying-a-project-team"></a>Kopiera ett projektteam
 
 När ett projektgrupp kopieras från en projektmall till ett projekt, kopieras de generiska resurserna tillsammans med de färdigheter och färdigheter som definieras i mallen. Allmänna resurstilldelningar hanteras också i projektmallen. Namngivna resurser stöds inte i projektmallar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

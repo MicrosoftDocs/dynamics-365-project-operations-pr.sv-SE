@@ -42,3 +42,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
 Följande problem har åtgärdats:
 
 - Schemalägga försämrad assistanssökningsprestanda
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

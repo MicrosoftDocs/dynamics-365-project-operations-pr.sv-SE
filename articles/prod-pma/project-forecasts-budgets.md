@@ -81,3 +81,6 @@ Om du använder projektprognoser kan du identifiera modeller som del modeller. D
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

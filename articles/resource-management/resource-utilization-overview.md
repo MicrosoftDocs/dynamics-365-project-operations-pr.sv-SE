@@ -45,3 +45,6 @@ Dessutom måste en standardroll tilldelas varje bokningsbar resurs. Gå till **R
 På fliken **Project Service** kan du också ange ett enskilt målutnyttjande för resursen. Utnyttjandeberäkningen använder då målutnyttjande för att utvärdera resursens mål i stället för resursens standardroll.
 
 Utnyttjande visas endast för en resurs om resursen har godkänt, debiterbar tid under den period som visas i rutnätet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

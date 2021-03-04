@@ -59,3 +59,6 @@ Varje projektkontraktrad som har faktureringsmetod med fast pris måste definier
 Om du vill granska faktureringsmilstolpar går du **försäljning** \> **fakturering** \> **milstolpar med fast pris**. Markera alla milstolpar för ofakturerad försäljning som är klara för fakturering och välj sedan **klar för fakturering**. Faktureringsstatusen för dessa milstolpar ändras till **klart för fakturering**.
 
 ![Milstolpar med fast pris](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

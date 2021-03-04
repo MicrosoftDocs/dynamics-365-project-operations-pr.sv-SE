@@ -60,3 +60,6 @@ Du kan analysera offerter och skapa diagram för kundförväntningar om schemat 
 Analys av kundens förväntningar om schemat görs genom att jämföra det senaste slutdatumet för offertraddetaljerna med begärt leveransdatum för alla offertrader i offerten.
 
 Analys av kundförväntningar för budgeten sker genom att summan av den totala kundbudgeten jämförs med det offererade beloppet över alla offertrader.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

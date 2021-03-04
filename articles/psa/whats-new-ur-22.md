@@ -72,3 +72,6 @@ Följande problem har åtgärdats:
 - När du stänger offerten som vunnen navigerar den inte till det skapade kontraktet om en BPF som är kopplad till offerten är den sista fasen.
 - Återföring av **Fakturerad försäljning** är länkat till den ursprungliga kostnaden när en tidspost återkallas.
 - När du väljer knappen **Bekräfta** ändras inte faktura statusen till **Bekräftad** om inte fakturan uppdateras.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

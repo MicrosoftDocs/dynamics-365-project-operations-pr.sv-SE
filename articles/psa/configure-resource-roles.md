@@ -59,3 +59,6 @@ Roller spelar en viktig roll i projektplaneringen, vid bestämning av resursbeho
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

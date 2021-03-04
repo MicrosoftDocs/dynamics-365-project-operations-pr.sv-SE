@@ -61,3 +61,6 @@ Innan du kan börja konfigurationsprocessen måste följande beslut göras för 
 
     - Har någon av underkategorierna exkluderats från momsåterbetalning?
     - Vad är momsgruppen för underkategorierna?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Den PDF-länk som tidigare fanns i ämnet har tagits bort och innehållet har fl
 
 > [!NOTE]
 > Det här ämnet tas bort i en kommande dokumentationsuppdatering. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

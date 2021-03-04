@@ -53,3 +53,6 @@ Du kan bemanna ditt projekt med ett team av generiska eller namngivna resurser i
 - [Boka namngivna resurser från resursbehov](book-named-resource.md)
 - [Skicka en resursbegäran](submit-resource-request.md)
 - [Acceptera eller avvisa en föreslagen projektresurs från en resursförfrågan](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

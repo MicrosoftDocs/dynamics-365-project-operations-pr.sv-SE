@@ -88,3 +88,6 @@ Faktureringsscheman är specifika för varje kontraktrad och krävs för att aut
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Ändringar från Dynamics 365 Sales-order
 
 Kontrakt i Project Operations bygger på order i Dynamics 365 Sales. Det finns emellertid viktiga avvikelser och skillnader i funktionerna. Kontrakt har sina egna formulär och gränssnittselement, affärsregler, affärslogik i plugin-program och skript på klientsidan som gör dem unika från order. Av dessa skäl bör du inte använda en Sales-order och ett Project Operations-kontrakt på samma sätt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

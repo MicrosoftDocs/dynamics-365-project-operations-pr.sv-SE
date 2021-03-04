@@ -59,3 +59,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
      - Fast: extra knappar för **Ny affärsmöjlighet**, **Offert**, **Orderrad** och **Lägg till produkt** visas i kommandon för affärstillfällen, offerter, orderprodukter och i underrutnätet projektbaserade rader.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ När funktionen för att utöka bokning har använts för varje resurs utökas b
 Observera att informationen i bokningarna visar olikheter i starttiden för bokningarna. Bokningarna börjar inte tidigare än starttiden för tilldelningens profil och tidigast den tillgängliga starttiden för resursen.
 
 ![Nya bokningar av de resurser som har schemaläggningstavlan](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

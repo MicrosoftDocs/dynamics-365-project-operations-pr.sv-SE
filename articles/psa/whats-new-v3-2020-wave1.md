@@ -43,3 +43,6 @@ Om du har några anpassade programmoduler som innehåller alla formulär för en
 
 ### <a name="currently-extended-time-entry-changes"></a>För närvarande ändras utökad tidspost
 Den här rolländringen är det enda grundläggande kravet som krävs för att fortsätta utnyttjandet av tidposten för att minimera påverkan för aktuella tidsposter. Om du har skapat anpassade vyer eller olika tidstransaktionsupplevelser måste du ange korrekt fält för **tidspostinställning** i korrekt PSA-värde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

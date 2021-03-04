@@ -43,3 +43,6 @@ Följande problem har åtgärdats:
 
 - Slutdatum fylls i automatiskt när en tidspost skapas om varaktigheten är null.
 - Användare kan ändra aktiviteten på en tidspost som har godkänts eller skickats.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Ställ in transaktionskategorier för att definiera en supermängd av utgiftskat
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Du kan visa en lista över projektets teammedlemmar och därifrån kan du underh
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

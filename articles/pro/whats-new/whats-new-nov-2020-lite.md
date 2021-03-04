@@ -37,3 +37,6 @@ I följande tabell visas uppdateringarna av Project Operations på CDS-miljö ve
 | Post för tid och snabbutgift | 2047499          | Knappen **Ny** på sidan tidspost öppnar sidan **ny e-postsignatur**.                                                                                               |
 | Post för tid och snabbutgift | 2059859          | Oväntat popup-fönster öppnas när en utgiftspost skapas.                                                                                                                         |
 | Annat                         | 2044181          | [IO-avinstallation] - felmeddelandet "posten är inte tillgänglig" inträffar när du försöker avinstallera **msdyn_ProjectServiceCore_Patch** och msdyn för Project Service-kärnlösningar.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

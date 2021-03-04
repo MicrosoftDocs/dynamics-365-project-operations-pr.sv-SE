@@ -37,3 +37,5 @@ Som projektledare kan du utföra följande steg för att redigera en teammedlems
 ## <a name="edit-resource-assignment-contours"></a>Redigera profiler av resurstilldelningar
 
 Förutom att redigera informationen i resurskraven kan en projektledare uppdatera enskilda profiler av resurskravet med hjälp av funktionen **Ange mönster**. När **Ange mönster** väljs öppnas en sida där du kan se profiler per dag, vecka eller månad. Varje profil kan justeras för starttid, sluttid och total insats inom en viss period.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

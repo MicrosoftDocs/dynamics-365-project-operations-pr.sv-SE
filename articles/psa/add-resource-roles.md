@@ -47,3 +47,6 @@ Ange mål för utnyttjandegraden för varje roll. Dessa inställningar bestämme
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

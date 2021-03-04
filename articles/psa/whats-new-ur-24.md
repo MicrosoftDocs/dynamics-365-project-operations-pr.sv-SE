@@ -81,3 +81,6 @@ Följande problem har åtgärdats:
 - Knappen **Uppdatera faktiska värden** för beräkning av sammanfattningsuppgifter.
 - Microsoft Project-tillägg: korrigera null-referens-fel om en teammedlem har en tom resursenhet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

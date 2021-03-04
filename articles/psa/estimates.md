@@ -106,3 +106,6 @@ Om du har lagt till ett anpassat fält på offertradinformationen och vill att f
 
 8. Upprepa steg 1 till och med 7 för det andra plugin-programmet.
 9. Stäng PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

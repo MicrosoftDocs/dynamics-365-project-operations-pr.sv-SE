@@ -45,3 +45,6 @@ Med [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

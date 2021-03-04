@@ -55,3 +55,6 @@ Exempel: En utvecklare från Robotics-avdelningen av Fabrikam India som arbetar 
     | Developer | Fabrikam US | Fabrikam US – Robotics | 150 USD |
 
 3. Bifoga försäljningsprislistan, **Fakturataxa för Fabrikam US** till projektprislistan för projektkontraktet eller till ett visst konto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Här följer några saker du kan kontrollera om du inte ser något debiterbart r
   - Rollen på projektkontraktraden bakom projektet har angetts som "icke-debiterbar".
   - Projektet har ingen associerad kontraktrad.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

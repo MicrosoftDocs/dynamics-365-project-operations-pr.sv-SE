@@ -33,3 +33,6 @@ En lista över alla projektkontrakt visas på listsidan **kontrakt**.
 2. Välj **Visa växlare** (listpilen bredvid vyns namn) om du vill välja andra filtrerade vyer. Du kan skapa egna vyer med villkor för anpassade filter.
 
 Du kan skapa eller ta bort kontrakt från den här listsidan eller informationssidorna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

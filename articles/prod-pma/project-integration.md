@@ -127,3 +127,6 @@ Gör så här om du vill skapa en ny uppdelad arbetsstruktur av Microsoft Projec
 8.  Välj den **kalender** som ska användas för resurser.
 
 11. Klicka på **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Batchprocessjobbet för att skapa fakturor är ett återkommande jobb. Om batchp
 
 > [!NOTE]
 > Batchfakturering i Project Operations körs endast för projektkontraktrader som konfigurerats av fakturascheman. En kontraktrad med en fast pris faktureringsmetod måste ha milstolpar konfigurerad. En projekts kontraktrad med en tids- och material faktureringsmetod måste ha en datumbaserad fakturauppställning.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

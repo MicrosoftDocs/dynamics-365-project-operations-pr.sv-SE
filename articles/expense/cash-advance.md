@@ -63,3 +63,6 @@ När du skapar och skickar en utgiftsrapport för det förskott som du redan har
 ### <a name="example"></a>Exempel
 Du planerar att resa från Seattle till New York City för en konferens. Du skapar en förskottsförfrågan för 3 000 USD utifrån den beräknade kostnaden för konferensbiljetten, flyg, hotell, måltider och taxiresor. Du kommer inte att få betalt om inte din chef godkänner denna förfrågan. Efter att chefen har godkänt betalningen betalas det begärda förskottet på 30 000 kr till ditt bankkonto. Du ska sedan delta i konferensen. När resan är klar upptäcker du att endast de totala utgifterna var 27 900 kr. Välj **Kontant** i fältet **Betalsätt** och skicka in dina utgifter uppgående till 2 790 USD. Det inskickade utgiftsbeloppet justeras automatiskt mot förskottet för de 30 000 kronorna som lånades ut till dig. Du får nu ett saldo på 210 USD (3 000 - 2 790) som du kan återföra tiull företaget med hjälp av utgiftskategorin **Returnera medel**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

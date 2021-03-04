@@ -91,3 +91,6 @@ Följ stegen nedan om du vill boka från ett nytt resurskrav.
 
 4. Nu när resursen har bokats måste du tilldela uppgifter manuellt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Skapa ett konto för varje kund som du arbetar med, oavsett om du offererar ett 
   
 ### <a name="see-also"></a>Se även  
  [Guide för kontohanteraren](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

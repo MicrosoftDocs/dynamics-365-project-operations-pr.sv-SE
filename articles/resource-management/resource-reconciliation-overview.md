@@ -48,3 +48,6 @@ I situationer där du har uppgiftstilldelningar för en resurs men inga bokninga
 Bokningar som skapas genom åtgärden **Utöka bokning** associeras med det primära projektkravet. När ett tillägg initieras går det inte att fastställa det specifika kravet som måste utökas, detta eftersom resursen kan vara associerad med mer än ett krav för projektet.
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utöver sin kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

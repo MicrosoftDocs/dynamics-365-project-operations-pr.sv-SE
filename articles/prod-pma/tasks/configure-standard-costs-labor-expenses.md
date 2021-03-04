@@ -54,3 +54,6 @@ I det här ämnet beskrivs hur du skapar standardkostnader för arbete och utgif
 22. I fältet **Prissättning** anger du ett nummer. Det faktiska försäljningspriset, som används när en arbetare registrerar transaktioner i en utgiftsjournal, är försäljningspriset på den högsta detaljnivån. Om t.ex. både ett allmänt och ett arbetar försäljningspris är inställda används det arbetsspecifika försäljningspriset.  
 23. Välj **Spara**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

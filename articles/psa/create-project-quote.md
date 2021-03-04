@@ -55,3 +55,6 @@ Skapa en offert påminner om att skapa en affärsmöjlighet. En affärsmöjlighe
   
 ### <a name="see-also"></a>Se även  
  [Guide för kontohanteraren](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

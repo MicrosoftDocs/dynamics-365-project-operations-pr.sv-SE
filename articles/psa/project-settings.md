@@ -68,3 +68,6 @@ Varje organisation måste skapa de här rollerna på sidan **Aktiva resurskatego
 ## <a name="price-lists"></a>Prislistor
 
 Prislistor låter dig ställa in självkostnads- och försäljningspriser, utgiftskategorier, produkter och andra element i en organisation. Innan du anger ekonomiska uppskattningar för arbetet som måste levereras för ett projekt måste du skapa en bakomliggande utgifts- och prislista. I avsnittet parametrar bör du även ange en standardkostnads- och försäljningsprislista som gäller alla projekt som skapas i organisationen. På sidan **Aktiva projektparametrar** ser du till att du anger en standardkostnads- och försäljningsprislista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

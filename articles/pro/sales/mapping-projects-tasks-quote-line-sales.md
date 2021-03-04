@@ -90,3 +90,6 @@ Du kan även avassociera projektuppgifter från offertrader från fliken **Debit
 
 >[!NOTE]
 > Med den här proceduren tas inte uppgiften bort från projektet. Det är bara uppgiftskopplingen som tas bort från den projektbaserade offertraden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

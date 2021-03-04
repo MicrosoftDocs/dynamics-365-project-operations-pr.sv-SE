@@ -51,3 +51,6 @@ Kontoansvariga och projektledare begär regelbundet resurser för sina projekt. 
   
 ### <a name="see-also"></a>Se även  
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

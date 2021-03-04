@@ -79,3 +79,6 @@ Du kan skapa ett anslag genom att ange alla detaljer i en ny post, eller så kan
 2. Välj det anslag som ska ändras.
 3. I åtgärdsfönstret under fliken **Anslag** i gruppen **Upprätthåll** väljer du **Redigera**.
 4. Granska anslagsinformationen och gör de ändringar som behövs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

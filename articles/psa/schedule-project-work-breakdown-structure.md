@@ -152,3 +152,6 @@ Du ska använda följande typer av uppgifter när du skapar en mall för uppdela
   
 ### <a name="see-also"></a>Se även  
  [Guide för projektansvarig](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

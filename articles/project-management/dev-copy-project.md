@@ -112,3 +112,6 @@ Följande exempel visar hur du anropar den anpassade åtgärden **CopyProject** 
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

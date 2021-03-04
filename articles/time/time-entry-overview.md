@@ -27,3 +27,6 @@ Medlemmar i projektteamet skapar och skickar tidsposter för godkännande och pr
 
 Om du vill ha information om hur du skapar, skickar eller återkallar en post och andra verktyg som kan vara till hjälp när du rapporterar går du till [Användarbeteende för tidspost](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

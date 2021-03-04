@@ -46,3 +46,6 @@ När en offertrad bygger på en produktkatalog kan du åsidosätta försäljning
 Om du väljer **Åsidosätt prissättning** är inte standardpriset angivet. Du måste istället ange ett pris för produkten på offertraden. Om du väljer **Använd standard** används standard försäljningspriset och fältet är låst för redigering.
 
 Standardförsäljningspriser anges på de produktbaserade raderna i en offert. Fältet **Prissättning** anges sedan till **åsidosätta prissättning** så att du kan redigera standardpriset på offertraderna. Det här är en projektrelaterad åsidosättning av projekt för de produktbaserade radfunktionerna i Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

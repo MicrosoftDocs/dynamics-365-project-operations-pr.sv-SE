@@ -72,3 +72,6 @@ Om prisinställningen för utgiftskategorin är ogiltig har du hittat problemet.
 Om du fortfarande inte ser något giltigt pris på säljtillgången för Utgift efter att ha följt de tre kontrollerna ovan, skapa då ett supportärende.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

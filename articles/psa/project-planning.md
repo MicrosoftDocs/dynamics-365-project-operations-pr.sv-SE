@@ -52,3 +52,6 @@ Följande avsnitt innehåller information som hjälper projektledarna att beräk
 - [Projektmallar](project-templates.md)
 - [Projektstadier](project-stages.md)
 - [Projektinställningar](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

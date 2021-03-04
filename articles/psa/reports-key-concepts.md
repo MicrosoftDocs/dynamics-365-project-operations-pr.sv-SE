@@ -48,3 +48,6 @@ I följande tabell definieras viktiga begrepp som används i Dynamics 365 Projec
 | Profil                    | Uppgift, krav eller tilldelningens timmar när de delas upp i en daglig fördelning. En fem dagars 40-timmars uppgift kan till exempel läggas till åtta timmar per dag över fem dagar. |
 | Vyn avstämningar        | En vy som visar bokningarna och tilldelningarna för varje projektmedlem i gruppen. I den här vyn kan projektledaren söka efter alla matchningar mellan bokningar och tilldelningar och åtgärda eventuella fel som uppstår om de inte stämmer. |
 | Arbetstider                 | En entitet som används för att identifiera resursens kapacitet och arbetstider och lediga tider. Entiteten kallas även för resurskalendern. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

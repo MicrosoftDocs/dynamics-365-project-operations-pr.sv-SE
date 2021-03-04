@@ -61,3 +61,6 @@ När ett projektteam kopieras från källprojektet kopieras de allmänna resurse
 När projektet kopieras, kopieras både resurs- och utgiftsraderna för uppskattningar från källprojektet. 
 
 Mer information om hur du programmässigt kommer åt Kopiera projekt finns i [Utveckla projektmallar med Kopiera projekt](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

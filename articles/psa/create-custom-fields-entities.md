@@ -73,3 +73,6 @@ Du kan skapa data för entitetsbaserade dimensioner manuellt, eller genom att an
 > ![Exempeldata för entiteten för standardrubrik ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

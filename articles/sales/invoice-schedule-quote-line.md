@@ -68,3 +68,6 @@ Milstolpar med fast pris kan också skapas manuellt när de inte delas periodisk
 | Fakturastatus | Snabbregistrering | När en milstolpe skapas är statusen alltid inställd på **Inte klar för fakturering**. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan. |
 | Radbelopp | Snabbregistrering | Beloppet eller värdet för den milstolpe som ska faktureras kunden. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan. |
 | Moms | Snabbregistrering | Momsbelopp som ska tillämpas på milstolpen. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

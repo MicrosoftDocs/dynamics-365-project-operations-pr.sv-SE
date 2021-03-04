@@ -125,3 +125,6 @@ Följande uppdateringar av säkerhetsprivilegier för entiteter krävs som en de
  
  ![Synkronisering av huvudboksmappning](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

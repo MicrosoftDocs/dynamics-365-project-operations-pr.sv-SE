@@ -26,3 +26,6 @@ Projekthanteringsverktygen i Dynamics 365 Project Operations hjälper dig att en
 - Använd projektuppskattningar under försäljningsprocessen.
 - Förutse resursbehovet för projekt som är i pipeline.
 - Leverera projekt genom att följa upp status och kostnadsförbrukning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

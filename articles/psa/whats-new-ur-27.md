@@ -81,3 +81,6 @@ Följande problem har åtgärdats:
 - När Dynamics 365 Field Service och Project Service Automation båda är installerade visas inte alternativen **Lås prissättning** och **Använd aktuell prissättning** samtidigt på sidan **Faktura**.
 - För det japanska språket finns det inkonsekvent översättning med andra kalenderbaserade sidor.
 - **Aktivera** och **Inaktivera** har tagits bort från **Prislisteassociation**-entiteter i Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

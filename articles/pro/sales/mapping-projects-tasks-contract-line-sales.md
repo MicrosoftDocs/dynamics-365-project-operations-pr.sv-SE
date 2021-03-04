@@ -82,3 +82,6 @@ Detta är den mer optimala upplevelsen för att koppla bort uppgifter från kont
 4. Välj en kontraktrad i listrutan på den dialogsida som öppnas.
 5. Markera kryssrutan för att ange om associationen även ska tas bort från underordnade uppgifter för de markerade aktiviteterna. Om du markerar rutan kopplar även bort de underordnade uppgifterna från markerade aktiviteterna till kontraktraden.
 6. Välj **OK**. Ett varningsmeddelande anger att om du tar bort den här associationen kan det resultera i återföring av eventuella verkliga värden som tidigare registrerats för uppgiften. Välj **OK** i dialogrutan för varning om du vill ta bort kopplingen mellan uppgiften och den projektbaserade kontraktraden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

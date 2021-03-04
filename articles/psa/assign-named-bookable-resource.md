@@ -68,3 +68,6 @@ Du kan använda den utökade bokningsfunktionen på fliken **avstämning** eller
 ![Utöka bokningar för en teammedlem på fliken resursavstämning](media/RM-how-to-7.png)
 
 När en teammedlem är bokad i projektet kan du använda underhåll bokningar eller använda schemaläggningstavlan direkt för att hantera deras bokningar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

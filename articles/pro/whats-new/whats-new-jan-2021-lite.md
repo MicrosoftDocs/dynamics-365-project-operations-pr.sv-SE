@@ -41,3 +41,6 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | **Administrering av affärsmöjligheter** | 2040713 | Åtgärdade skriptfelet som uppstår när en faktura skapas från ett kontrakt och Field Service installeras. |
 | **Projektplanering och spårning** | 2090202 | Markerade affärsregler som inte längre används som **inaktuella**. |
 | **Tid och utgift** | 2091249 | Stramade åt kontrollerna så att användaren inte kan ändra uppgiften på en tidspost som har godkänts eller skickats. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

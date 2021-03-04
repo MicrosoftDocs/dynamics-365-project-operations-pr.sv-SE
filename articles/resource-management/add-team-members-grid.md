@@ -200,3 +200,6 @@ När du visar högre tidsnivåer visar har celler i fliken **avstämning** har e
 I situationer där du har uppgiftstilldelningar för en resurs men inga bokningar, på formuläret **Projekt** under fliken **Avstämning**, välj underskott för bokningen och sedan **Utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Dialogrutan visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utanför sin kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ I den här uppgiften används USSI-datauppsättningen.
 21. I fältet **Produktinleverans** skriver du ett värde.
 22. Välj **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

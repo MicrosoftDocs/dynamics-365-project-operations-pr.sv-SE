@@ -60,3 +60,6 @@ I Dynamics 365 Project Operations varierar principerna för intäktsredovisning 
 [Hantera intäktsberäkningar](rev-rec-completed-contract-method.md)
 
 [Kostnad för slutförandemetoder](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

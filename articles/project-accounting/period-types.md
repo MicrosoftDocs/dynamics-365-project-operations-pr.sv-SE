@@ -34,3 +34,6 @@ Om du vill skapa och arbeta med periodtyper utför du följande steg:
 4. Välj periodtypposten och välj sedan **Generera perioder** för att skapa perioder för periodtypen. Baserat på periodfrekvensen som du har valt kanske du har möjlighet att ange ett startdatum eller antalet perioder som ska genereras.
 5. Välj **Perioder** för att granska genererade perioder.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

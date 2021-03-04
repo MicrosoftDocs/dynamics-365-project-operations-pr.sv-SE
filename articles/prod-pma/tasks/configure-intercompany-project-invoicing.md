@@ -64,3 +64,6 @@ I det här ämne visas hur du konfigurerar projektfakturering mellan två föret
 32. I fältet **Prissättning** anger du ett nummer.
 33. Välj **Spara**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ I det här ämne finns funktioner och korrigeringar som är nya eller ändrade f
     - Fast: dubbletter av objekt-ID hittas i huvudformuläret **Kontrakt**.
     - Fast: logiken har uppdaterats för att fliken **Offertanalys** ska visas så att flikens metadata visas.
     - Fast: bokföringsdatumet på den faktiska posten kommer nu från datumet då datum för tid/utgiftspost skapades, inte datumet för godkännandet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

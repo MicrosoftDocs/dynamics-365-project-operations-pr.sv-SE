@@ -240,3 +240,6 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 22. Välj **Skicka**.
 23. Ange kommentarer för godkännare.
 24. Välj **Utfört**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

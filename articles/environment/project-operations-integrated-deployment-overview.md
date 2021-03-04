@@ -43,3 +43,6 @@ Den här distributionen bör välja förväntning från Project Operations är a
 - Kräver en rik motor för moms och valutakurs för företag i företagsklass som genererar kundfakturor för projekt.
 - En internationell finansiell rapporteringsstandard (IFRS)-kompatibelt projektredovisnings- och intäktsredovisningssystem.
 - Finance eller Supply Chain Management program och integrering av projektbaserade transaktioner.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

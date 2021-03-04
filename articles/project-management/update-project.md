@@ -48,3 +48,6 @@ Nedan visas en sammanfattning av de fält som kan uppdateras i ett projekt efter
 - **Övergripande projektstatus**: Det övergripande projekthälsotillståndet från projektledaren.
 - **Kommentarer**: om den aktuella hälsan för projektet som projektledaren har tillhandahållit.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

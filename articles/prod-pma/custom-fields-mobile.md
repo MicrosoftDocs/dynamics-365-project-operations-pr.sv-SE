@@ -429,3 +429,6 @@ Inmatning av en standardprojektkategori i tidrapportposter sker på tre nivåer.
 1. I appen görs ett försök att lägga till standardkategori från projektresursen. Den här standardkategorin anges i metoderna **getCurrentUserResource** och **getDelegatedResourcesForCurrentUser** i klassen **TSTimesheetSettingsService**.
 2. Om standardkategorin inte visas på projektresursnivån försöker appen att hämta den från projektaktiviteten. Den här standardkategorin anges i metoden **getActivitiesForProject** i klassen **TSTimesheetProjectService**.
 3. Om standardkategorin inte visas på projektetaktivitetsnivå, standardkategorin som den hämtade från projektparametrarna. Den här standardkategorin anges i metoden **getProjectDetailsbyRule** i klassen **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

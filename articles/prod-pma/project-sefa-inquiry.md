@@ -104,3 +104,6 @@ I tidsplanen för utgifter för en förfrågan om federala beviljanden finns fö
 - Katalog med federalt inhemskt stöd
 - Kvitton
 - Utgifter
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

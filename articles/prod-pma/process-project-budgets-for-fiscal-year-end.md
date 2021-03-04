@@ -98,3 +98,6 @@ När du bearbetar resterande budgetbelopp kan du skapa transaktioner i redovisni
 5. För varje projekt som du vill bearbeta markerar du alternativet i början av raden för projektet. 
 6. Välj **Behandla** för att överföra de resterande budgetbeloppen för de valda projekten till det valda räkenskapsåret.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

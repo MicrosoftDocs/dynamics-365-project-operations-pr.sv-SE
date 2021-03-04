@@ -59,3 +59,6 @@ Varje projekt har ett antal projektteammedlemmar. Du kan ange vilka teammedlemma
 3. Välj **Spara**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

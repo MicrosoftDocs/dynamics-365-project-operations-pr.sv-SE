@@ -44,3 +44,6 @@ När en budget eller budgetändring har allokerats kan du granska fördelningsbe
 10. När tilldelningen är det sätt som du vill ha den klickar du på Skicka på sidan Projektbudget för att skicka budget eller budgetändringarna till arbetsflödet för godkännande.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

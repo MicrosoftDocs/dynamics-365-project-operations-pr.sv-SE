@@ -70,3 +70,6 @@ Du kan importera data från projektbokningar och tilldelningar. När du importer
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Gruppera efter, sortera, söka och filtrera funktioner
 
 Du kan gruppera och filtrera tidsposter efter de dimensioner som anges i kolumnerna. I fältet **gruppera efter** väljer du den dimension som ska användas för att filtrera tidsposter. Du kan också sortera tidsposter i stigande eller fallande ordning med hjälp av pilen sortera i kolumnrubrikerna. Du kan även visa eller dölja poster genom att välja knappen **Filter** i kolumnrubrikerna och i rutan **Sök** ange den text som ska användas för att söka efter tidsposter efter projektnamn, projektuppgift, tidspost eller resurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

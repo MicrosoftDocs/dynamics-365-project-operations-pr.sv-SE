@@ -440,3 +440,6 @@ När utdraget har beräknats kan du visa följande information på de olika flik
 -   **Förbrukning** – information om timmar, artiklar, utgifter och lönetransaktioner.
 -   **Faktura** – information om fakturor och à conto-fakturering.
 -   **Timtariff** – Timtariffer för timmar som har bokförts på intäkts- och kostnadskonton.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

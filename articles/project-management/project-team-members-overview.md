@@ -60,3 +60,6 @@ Från rutnätet med projektmedlemmar kan du utföra följande åtgärder:
 
 - **Ny**: förutom att lägga till resurser direkt från schemat kan projektledarna lägga till nya namngivna eller generiska teammedlemmar från rutnätet med teammedlemmar.
 - **Ta bort**: genom att välja en eller flera teammedlemmar kan projektledarna ta bort resurser som inte längre ska ingå i projektet. Om du tar bort en teammedlem tas även alla associerade resurstilldelningar bort och alla befintliga bokningar avbryts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

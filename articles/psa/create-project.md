@@ -48,3 +48,6 @@ Därefter skapar du en uppdelad arbetsstruktur för projektet för att definiera
   
 ### <a name="see-also"></a>Se även  
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

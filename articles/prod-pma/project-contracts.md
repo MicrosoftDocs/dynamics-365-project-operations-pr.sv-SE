@@ -344,3 +344,6 @@ Under den första månaden registreras sammanlagt 800 timmar av konsulterna i pr
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

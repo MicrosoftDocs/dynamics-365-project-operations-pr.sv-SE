@@ -58,3 +58,6 @@ Entiteterna affärsmöjlighet, offert och projektkontrakt använder följande or
 Som standard listar fältet **produkt** på offertraden alla aktiva produkter i offertens produktprislista. Om en produkt har inaktiverats eller om det är en utkast produkt visas den inte, även om den är i prislistan. 
 
 Produktkatalograder läggs till som fakturarader på den första fakturan som skapas för ett projektkontrakt. På en utkastfaktura kan dessa fakturarader tas bort. I så fall visas raderna på en efterföljande faktura tills de har fakturerats, eller tills fakturan skickas till kunden. Du kan inte fakturera en del av en produktfakturarad. När produktraderna från projektkontraktet faktureras skapas verkliga värden. De faktiska värdena länkas emellertid inte till den relaterade projektentiteten. Produkter som bygger på projektkontraktrader är med andra ord oberoende av projektbaserade användningstider. Materialförbrukningen i projekt spåras inte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

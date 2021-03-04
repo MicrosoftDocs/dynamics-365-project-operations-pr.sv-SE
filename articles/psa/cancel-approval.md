@@ -62,3 +62,6 @@ Ett projekt påverkas också ekonomiskt när ett godkännande annulleras. Först
 Sedan skapas återföringsposter i tabellen faktiska värden. Om du vill skapa återföringsposter kopieras systemet över fältvärdena från de ursprungliga värdena. De enda värden som inte kopieras över är antalet värden. De här värdena återförs i stället. Återförda faktiska värden skapas både för **kostnad** och för **fakturerade försäljningsvärden**. Fältet **justeringsstatus** på de återförda verkliga värdena ställs till att värdet **inte justerat** och faktureringsstatus är **annullerad**.
 
 När ändringarna har gjorts bokförs det belopp som har registrerats som förbrukat i projektet och den totala förväntande omsättningen i projektet tar längre tid för de belopp som dessa faktiska värden representerar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

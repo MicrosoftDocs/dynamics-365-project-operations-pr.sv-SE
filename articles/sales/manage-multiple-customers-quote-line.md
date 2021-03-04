@@ -44,3 +44,6 @@ I följande tabell visas fälten på kundposten för offertraden i en projektrel
 Du kan redigera delningsprocentför fakturering på raden. När delningsprocenten för fakturering inte är 100 % uppstår ett fel. När du har redigerat delningsprocenten för fakturering uppdaterar du offertradssidan för att ta bort felet.
 
 Använd åtgärden jämn distribution på offertradskunders underrutnät för att fördela faktureringsdelningar till alla offertradskunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundande kunden. En av offertradskundernas märks alltid som den avrundande kunden, vilket innebär att avrundningsflaggan har värdet **Ja** i posten för offertradskunden. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

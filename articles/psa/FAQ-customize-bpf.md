@@ -107,3 +107,6 @@ För att skapa ditt eget affärsprocessflöde för projektentiteten, gör följa
 
    ![Skärmbild på ändring av vyer i entiteten för projekt](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

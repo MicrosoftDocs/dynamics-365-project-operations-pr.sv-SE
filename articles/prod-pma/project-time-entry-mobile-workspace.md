@@ -113,3 +113,6 @@ Ladda ned och installera mobilappen Finance and Operations:
 11. Välj radegenskapen.
 12. Valfritt: Ange eventuella externa och interna kommentarer.
 13. Välj **Utfört**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

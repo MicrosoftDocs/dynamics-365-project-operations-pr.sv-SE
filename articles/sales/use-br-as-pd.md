@@ -78,3 +78,6 @@ Posten för prissättningsdimension för **msydn_bookableresource** måste känn
 5. Lägg till **msdyn_bookableresourceid** i **Fältnamn**.
 
  ![Formulär för fältnamn för prissättningsdimensioner](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

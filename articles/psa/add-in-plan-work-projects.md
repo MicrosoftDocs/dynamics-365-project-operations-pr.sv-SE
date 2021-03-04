@@ -242,3 +242,6 @@ I följande tabell beskrivs hur entitetsdata för projektuppgiftsberoenden synkr
 
 ### <a name="additional-resources"></a>Ytterligare resurser
  [Guiden för projektledare](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Följande problem har åtgärdats:
 - Ett null-referensundantag genereras när plugin-programmet **GetEstimatesForProject** åberopas.
 - **Markera redo att fakturera** i milstolprutnätet uppdaterar attribut endast delvis, med undantag för attributet **InvoiceStatus**, som uppdateras.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

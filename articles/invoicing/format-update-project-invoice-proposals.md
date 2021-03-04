@@ -143,3 +143,6 @@ Om du vill visa fakturan innan du bokför rensar du kryssrutan **Bokföra**. **P
 Förutom sidan **Fakturaförslag** kan fakturaförslag även bokföras genom att köra det periodiska jobbet **Bokför fakturaförslag**. Om du vill hitta det här jobbet går du till **Projekthantering och redovisning** > **Periodisk** > **Projektfakturor** > **Bokför fakturaförslag**.
 
 På den här sidan visas alla fakturaförslag som är klara att bokföras. Du kan schemalägga bokföringen av fakturaförslag genom att välja **Batch**. Ange **batchbearbetningsparametern** som **Ja** och ange upprepningen för batchbearbetning genom att välja **Återkommande**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

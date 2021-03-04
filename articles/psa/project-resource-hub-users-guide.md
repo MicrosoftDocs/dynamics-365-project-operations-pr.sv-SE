@@ -105,3 +105,6 @@ Ange dina utgifter minst varje vecka, eller med den frekvens som begärts av din
  [Översikt över Project Service](../psa/overview.md)   
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

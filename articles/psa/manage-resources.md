@@ -344,3 +344,6 @@ I situationer där du har aktivitetstilldelningar för en resurs men inga boknin
 ![Dialogrutan utöka bokning](media/Resource-Management-image58.png)
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utanför sin kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

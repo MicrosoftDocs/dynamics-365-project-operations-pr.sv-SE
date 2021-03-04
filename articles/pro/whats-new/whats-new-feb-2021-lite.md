@@ -38,3 +38,6 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | **Projektplanering och spårning** | 2164035 | Åtgärdade problem med funktionen **Kopiera projekt**. |
 | **Tidspost** | 2129161 | Hårdare begränsningar tillämpas för att säkerställa att användarna inte kan ändra och uppdatera en tidspost som har skickats eller godkänts. |
 | **Tidspost** | 2103572 | Tidsgodkännande för icke-projekttidsposter får inte söka rollen som projektgodkännare. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

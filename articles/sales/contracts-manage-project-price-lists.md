@@ -72,3 +72,6 @@ Du kan också skapa kundspecifika projektprislistor när du har förhandlat fram
 ## <a name="custom-pricing-on-a-project-contract"></a>Anpassad prissättning på ett projektkontrakt
 
 När du har skapat organisations- och kundspecifika standard prislistor skapas projektkontrakten automatiskt med de här kopplingarna av prislistorna i projekt. Projektkontraktslistor i ett projektkontrakt kopieras dock alltid med datum- och kontraktnamn som bifogas till dem. Konto- och projektledarna kan sedan göra ändringar i priser för kopiorna. Dessa ändrade priser gäller endast för detta projektkontrakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

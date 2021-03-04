@@ -95,3 +95,6 @@ Den här guiden innehåller information som du behöver för att skapa och hante
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)   
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

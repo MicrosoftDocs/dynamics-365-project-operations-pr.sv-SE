@@ -68,3 +68,6 @@ Vid beräkningen av lönsamhet konverteras beloppen för kontraktradinformation 
 
 > [!NOTE]
 > Fel i valutaavrundning och ändrade marginaler kan uppstå på grund av att valutakurserna inte fungerar på ett effektivt datum. Använd de här beräkningarna i projektkontrakt endast som uppskattningar och inte för verklig lagstadgad eller annan rapportering som kräver högre precision för avrundning och datumeffektivitet för växelkurser.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

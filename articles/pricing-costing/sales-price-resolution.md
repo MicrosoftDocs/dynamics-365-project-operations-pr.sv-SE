@@ -54,3 +54,6 @@ När en prislista för försäljning har lösts slutför systemet följande steg
     | &nbsp; | Pålägg över kostnad | Genom att tillämpa ett pålägg enligt definitionen på kategoriprisraden i enhetens kostnadstaxa för relaterade faktiska kostnadsvärden |
 
 4. Om systemet inte kan matcha värdena i fälten **Kategori** och **Enhet** blir försäljningstaxan som standard noll (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

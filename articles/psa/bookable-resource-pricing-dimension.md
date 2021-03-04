@@ -76,3 +76,6 @@ Då öppnas sidan **nya prissättningsdimensioner** för **msdyn_bookableresourc
 5. Lägg till **msdyn_projectteam** till fältet **entiteten logiskt namn** och **msdyn_bookableresourceid** till fältet **fältnamn**. Spara posten.
 
  ![Formulär för fältnamn för prissättningsdimensioner](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

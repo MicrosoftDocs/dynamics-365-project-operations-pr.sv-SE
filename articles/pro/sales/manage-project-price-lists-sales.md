@@ -67,3 +67,6 @@ När du har skapat organisations- och kundspecifika standardprislistor skapas di
 
 1. I **Projektoffert**, under fliken **Projektprislistat**, verifierar du i underrutnätet att ingen specifik prislistpost har valts.
 2. Välj **Skapa anpassad prissättning**. Då skapas en kopia av alla standardprislistor som är associerade med offerten och dessa kopior associeras till offerten. De befintliga kopplingarna till standardprislistor tas bort. Säljaren kan sedan göra ändringar i priser för kopiorna. De ändrade priserna gäller endast för den här projektofferten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

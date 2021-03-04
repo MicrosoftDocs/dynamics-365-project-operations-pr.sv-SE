@@ -297,3 +297,6 @@ Välj en användare (till exempel Spencer Low) och ändra Spencers arbetstider t
 
 > [!div class="mx-imgBorder"]
 > ![Bild på aktiva bokningsbara resurser](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

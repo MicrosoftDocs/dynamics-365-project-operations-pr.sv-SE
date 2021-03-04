@@ -47,3 +47,6 @@ När du lägger till resursroller har du förmodligen redan associerat vissa fä
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

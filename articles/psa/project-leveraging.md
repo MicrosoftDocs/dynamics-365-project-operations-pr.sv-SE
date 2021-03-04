@@ -54,3 +54,6 @@ Du kan ange arbetsinsats och schemauppskattningar med hjälp av fälten på flik
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importera uppskattningar från ett projekt till en offert
 
 När du har definierat projektuppskattningar kan du importera dem till offertraden. På sidan **Information om offertrad**, välj **Importera från uppskattningar** i menyfliksområdet för att sammanfatta projektuppskattningar efter transaktionstyp, roll eller aktivitetsnivå.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

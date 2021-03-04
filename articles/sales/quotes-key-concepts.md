@@ -128,3 +128,6 @@ För en offertrad med fast pris kan du använda rutnätet **fakturaschema** för
 - Om du vill skapa faktureringsmilstolpar som är jämnt fördelade väljer du en fakturafrekvens, anger startdatum för fakturering på offertraden och väljer **begärt slutdatum** för offerten i avsnittet **Sammanfattning** i offerthuvudet. Välj sedan **skapa periodiska milstolpar** för att skapa lika stora milstolpar som bygger på vald fakturafrekvens. 
 - Om du vill skapa en klumpsumma för faktureringsmilstolpe skapar du en milstolpe och anger sedan värdet för offertraden som milstolpebelopp.
 - Om du vill skapa faktureringsmilstolpar som bygger på specifika uppgifter i projektplanen skapar du en milstolpe och mappar den till projektets schemaelement i användargränssnittet för faktureringsmilstolpe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

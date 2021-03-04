@@ -55,3 +55,6 @@ Du kan tilldela resurser till organisationsenheter om du behöver ha olika utgif
   
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

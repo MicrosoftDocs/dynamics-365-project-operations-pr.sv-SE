@@ -70,3 +70,6 @@ Följande problem har åtgärdats:
 - Förbättrad felhantering för att adressera nollreferens undantag som genererats från **Kopiera projekt: uppskattning av HelperResource-hantering**.
 - **Inte redo att fakturera** på en **Eftersläpning av tids- och materialfakturering** rensar inte faktureringsstatus.
 - Korrigerade felmärkta knappar **Priser** i **Rollpris** och **Katalogobjekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

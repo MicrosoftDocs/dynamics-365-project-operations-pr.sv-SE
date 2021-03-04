@@ -48,3 +48,6 @@ ms.locfileid: "5146101"
  [Guiden för projektledare](../psa/project-manager-guide.md)   
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)   
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

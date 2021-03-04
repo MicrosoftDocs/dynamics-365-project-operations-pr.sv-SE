@@ -112,3 +112,6 @@ Nr Schemaberäkningen är för närvarande begränsad till timmar och kan inte �
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheter och enhetsgrupper redigeras, tas bort och läggas till?
 Ja. Med undantag för enhetsgruppen **Tid** och enheten **timme** kan alla enheter tas bort och du kan lägga till nya enheter. I PSA kan enhetsgruppen **Tid** och enheten **Timme** inte tas bort. De kan emellertid uppdateras med översatt text för fältet **namn**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

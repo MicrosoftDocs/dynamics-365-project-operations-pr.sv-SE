@@ -43,3 +43,6 @@ Nedan finns flikarna och KPI:erna som är tillgängliga i en projektoffert som �
 | Lönsamhetsanalys | Flik i offerten | Fliken visar följande mått:</br>- Total debiterbar kostnad</br></br>- Total icke debiterbar kostnad</br>- Totalintäkt</br>- Totalintäkt (bas)</br>- Bruttomarginal</br>- Justerad bruttomarginal|
 | Jämförelse med kundförväntningar | Flik i offerten | Fliken visar följande mått:</br>- Beräknat färdigställande</br>- Begärt färdigställande</br>- Kundbudget</br>- Offertvärde |
 | Offertanalys | Flik i offerten | Den här fliken sammanfattar följande KPI:er för en projektoffert</br>- Jämförelse med kundförväntningar på budget och schema</br>- Bruttomarginal</br>- Justerad bruttomarginal |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Om en kontraktrad bygger på en produktkatalog kan du åsidosätta försäljning
 Om du här fältet **Prissättning** till **Åsidosätt prissättning** ställs inget standardpris in. Ange ett pris för produkten på kontraktraden. Om du ställer in fältet på **Använd standard** används standardförsäljningspriset och fältet kan inte redigeras.
 
 När du har installerat Project Operations anges standardförsäljningspriserna på de produktbaserade raderna i ett kontrakt. Fältet **Prissättning** anges till **Åsidosätt prissättning** så att du kan redigera standardpriset på kontraktraderna. Det här är en Project Operations-specifik åsidosättning av beteendet hos projektbaserade rader i Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

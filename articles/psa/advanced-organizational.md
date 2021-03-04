@@ -167,3 +167,6 @@ Om företaget fungerar som en enhet som har en självkostnadsprislista behöver 
 När ett projekt skapas separat baseras den upphandlande standardenheten i projektet på den användare som skapar den. Den användaren är även standardprojektledare. Om projektet är mappat till en försäljningsenhet, t.ex. en offert eller ett projektkontrakt, baseras den upphandlande enheten i projektet på entiteten försäljning i stället. I det här fallet kan projektuppskattningar räknas om, eftersom självkostnadsprislistan används för att beräkna kostnadsuppskattningsändringarna om den upphandlande enheten ändras. Försäljningsprislistan används för att beräkna de försäljningsuppskattningar som ska ändras så att de synkroniseras med projektprislistan i offerten.
 
 Fälten **Kontrakteringsenhet** och **Valuta** i projektet är låsta för redigering eftersom de måste synkroniseras med värdena i försäljningsentiteten (offert eller projektkontrakt) som projektet är mappat till.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

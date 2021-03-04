@@ -102,3 +102,6 @@ Här följer en kortfattad översikt över de typiska kontroller som finns på f
 **Lägg till kolumn**: gör att användaren kan definiera de synliga kolumnerna i rutnätet. Endast kolumner som är färdiga kan läggas till i rutnäten i formuläret **Projektplanering**.
 
 ![Lägg till kolumnknapp](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
