@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121870"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147090"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Uppdatera plugin-attribut för att inkludera nya prissättningsdimensioner
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
 > Om du inte använder funktionerna för offert och kontrakt i Project Service Automation (PSA) kan du hoppa över det här ämnet.

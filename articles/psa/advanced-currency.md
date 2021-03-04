@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123400"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145695"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flera valutor
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -73,7 +75,7 @@ I det här avsnittet beskrivs ett exempel på ett projekt som Contoso UK leverer
 3. En organisationsenhet med namnet **Contoso UK** har ställts in och GBP valts som valuta.
 4. Ett projektkontrakt skapas, där **Contoso UK** anges som den upphandlande enheten och **Fabrikam – Japan** anges som kund.
 5. Projektkontraktrader skapas utifrån fakturering för de olika transaktionsklasserna i projektet, t.ex. fakturering för tid jämfört med fakturering för utgifter.
-6. Ett projekt skapas där **Contoso UK** anges som den upphandlande enheten. Det här projektet skapas och mappas till projektkontraktsraderna.
+6. Ett projekt skapas där **Contoso UK** anges som den upphandlande enheten. Det här projektet skapas och mappas till projektkontraktraderna.
 
 
 När du använder en uppskattning som innehåller information om offertrader, projektkontraktradens information eller på uppskattningsraden i schemat skapas två poster alltid i entiteten. En post är för kostnad och den andra posten är för försäljning.
