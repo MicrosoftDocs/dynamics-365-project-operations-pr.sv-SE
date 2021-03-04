@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085731"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148665"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Resurshanteringsändringar (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Avsnitten i det här ämne innehåller information om de ändringar som har gjorts i området resurshantering i Dynamics 365 Project Service Automation version 3.x.
 
 ## <a name="project-estimates"></a>Projektberäkningar
 
-I stället för att basera sig på entiteten **msdyn\_projecttask** ( **Projektuppgift** ), baseras projektberäkningar på entiteten **msdyn\_resourceassignment** ( **resurstilldelning** ). Resurstilldelningar har blivit "källan till sanningen" för schemaläggning av aktiviteter och priser.
+I stället för att basera sig på entiteten **msdyn\_projecttask** (**Projektuppgift**), baseras projektberäkningar på entiteten **msdyn\_resourceassignment** (**resurstilldelning**). Resurstilldelningar har blivit "källan till sanningen" för schemaläggning av aktiviteter och priser.
 
 ## <a name="line-tasks"></a>Raduppgifter
 
@@ -65,7 +67,7 @@ I PSA 3.x är en otilldelad tilldelning en tilldelning som är tilldelad en **NU
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Schemaläggningsfält på entiteten för projektuppgift
 
-Fälten i entiteten **msdyn\_projecttask** är inaktuella eller flyttade till entiteten **msdyn\_resourceassignment** eller så refereras de från entiteten **msdyn\_projectteam** ( **projektteammedlem** ).
+Fälten i entiteten **msdyn\_projecttask** är inaktuella eller flyttade till entiteten **msdyn\_resourceassignment** eller så refereras de från entiteten **msdyn\_projectteam** (**projektteammedlem**).
 
 | Inaktuellt fält i msdyn\_projecttask (projektuppgift) | Nytt fält i msdyn\_resourceassignment (resurstilldelning) | Kommentar |
 |---|---|---|
@@ -77,7 +79,7 @@ Fälten i entiteten **msdyn\_projecttask** är inaktuella eller flyttade till en
 
 ## <a name="schedule-contour"></a>Schemalägg profil
 
-Schemalägg profil lagras i fältet **planerat arbete** ( **msdyn\_plannedwork** ) för varje entitet för **resurstilldelning** ( **msdyn\_resourceassignment** ).
+Schemalägg profil lagras i fältet **planerat arbete** (**msdyn\_plannedwork**) för varje entitet för **resurstilldelning** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktur
 
@@ -139,7 +141,7 @@ I det här exemplet tilldelas uppgiften två resurser och schemaläggs automatis
 
 ## <a name="pricing-dimensions"></a>Prissättningsdimensioner
 
-I PSA 3.x har resursspecifika fält för prissättningsdimensioner (t.ex. **Roll** och **Organisationsenhet** ) tagits bort från entiteten **msdyn\_projecttask**. Dessa fält kan nu hämtas från motsvarande projektteammedlem ( **msdyn\_projectteam** ) för resurstilldelningen ( **msdyn\_resourceassignment** ) när projektberäkningar genereras. Ett nytt fält **msdyn\_organizationalunit** har lagts till i entiteten **msdyn\_projectteam**.
+I PSA 3.x har resursspecifika fält för prissättningsdimensioner (t.ex. **Roll** och **Organisationsenhet**) tagits bort från entiteten **msdyn\_projecttask**. Dessa fält kan nu hämtas från motsvarande projektteammedlem (**msdyn\_projectteam**) för resurstilldelningen (**msdyn\_resourceassignment**) när projektberäkningar genereras. Ett nytt fält **msdyn\_organizationalunit** har lagts till i entiteten **msdyn\_projectteam**.
 
 | Inaktuellt fält i msdyn\_projecttask (projektuppgift) | Fält från msdyn\_projectteam (projektteammedlem) som används i stället |
 |---|---|
@@ -155,12 +157,12 @@ Fälten prissättnings- och beräkningsprofil är inaktuella i entiteten **msdyn
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Följande fält har lagts till entiteten **msdyn\_resourceassignment** :
+Följande fält har lagts till entiteten **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Följande fält för planerade, faktiska och resterande kostnader och försäljningar ändras inte i entiteten **msdyn\_projecttask** :
+Följande fält för planerade, faktiska och resterande kostnader och försäljningar ändras inte i entiteten **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085755"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150375"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Innan du börjar förutsätter det här ämnet att du har slutfört procedurerna i avsnitten [Skapa anpassade fält och entiteter](create-custom-fields-entities.md) och [Lägg till anpassade fält till prisinställningar och transaktionsenheter](field-references.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till ämne. 
 
@@ -34,7 +36,7 @@ I det här ämnet finns information om hur du ställer in anpassade prissättnin
 - **msdyn_OrganizationalUnit** (organisationsenhet)
 
 > [!IMPORTANT]
-> Ta inte bort de här raderna. Om du inte behöver dem kan du emellertid välja att inte använda dem i en specifik kontext genom att ange **Gäller för kostnad** , **Gäller för försäljning** och **Gäller för inköp** till **Nej**. Genom att ange dessa attributvärden till **Nej** fås inte samma effekt som en prissättningsdimension.
+> Ta inte bort de här raderna. Om du inte behöver dem kan du emellertid välja att inte använda dem i en specifik kontext genom att ange **Gäller för kostnad**, **Gäller för försäljning** och **Gäller för inköp** till **Nej**. Genom att ange dessa attributvärden till **Nej** fås inte samma effekt som en prissättningsdimension.
 
 För att ett fält ska bli en prissättningsdimension måste det vara:
 
@@ -43,7 +45,7 @@ För att ett fält ska bli en prissättningsdimension måste det vara:
 
 ![Beloppsbaserade prissättningsrader](media/Amt-based-PD.png)
 
-Observera att that resursens arbetstider ( **msdyn_resourceworkhours** ) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
+Observera att that resursens arbetstider (**msdyn_resourceworkhours**) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
 
 ![Påläggsbaserade prissättningsdimensionsrader](media/Markup-based-PD.png)
 
@@ -60,8 +62,8 @@ Värdet ska vara exakt samma som schemanamnet för fältet som läggs till i tab
 ### <a name="type-of-dimension"></a>Typ av dimension
 Det finns två typer av prissättningsdimensioner:
   
-  - **Beloppsbaserade dimensioner** : dimensionsvärdena från inmatningskontexten matchas mot dimensionsvärdena på raden **rollpris** och priset/kostnaden är standardvärdet i tabellen **rollpris**.
-  - **Påläggsbaserade dimensioner** : Detta är dimensioner där Project Service kommer att anta följande trestegsprocess för att ta fram pris/kostnad
+  - **Beloppsbaserade dimensioner**: dimensionsvärdena från inmatningskontexten matchas mot dimensionsvärdena på raden **rollpris** och priset/kostnaden är standardvärdet i tabellen **rollpris**.
+  - **Påläggsbaserade dimensioner**: Detta är dimensioner där Project Service kommer att anta följande trestegsprocess för att ta fram pris/kostnad
  
     1. Project Service matchar de icke påläggsbaserade dimensionsvärdena från inmatningskontexten till rollprisraden för att uppnå grundpriset.
     2. Project Service matchar alla dimensionsvärdena från inmatningskontexten till **Pålägg för rollpris** för att uppnå pålägg i procent.
@@ -90,5 +92,5 @@ Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatni
 ### <a name="priority"></a>Prioritet
 Genom att ange dimensionsprioriteten kan Project Service producera ett pris även om det inte går att hitta en exakt matchning mellan värdena för indata och värdena för tabellerna **Rollpris** eller **Pålägg för rollpris**. I det här scenariot använder Project Service null-värden för omatchade dimensionsvärden genom vägning av dimensionerna i prioritetsordning.
 
-- **Kostnadsprioritet** : värdet för dimensionens kostnadsprioritet anger vikten av dimensionen när den matchas mot inställningarna av självkostnader. Värdet för **kostnadsprioritet** måste vara unikt mellan de dimensioner som **gäller för kostnaden**.
-- **Försäljningsprioritet** : värdet för dimensionens försäljningsprioritet anger vikten av dimensionen när den matchas mot inställningarna av försäljningspris eller faktureringskostnader. Värdet för **försäljningsprioritet** måste vara unikt mellan de dimensioner som **gäller för försäljning**.
+- **Kostnadsprioritet**: värdet för dimensionens kostnadsprioritet anger vikten av dimensionen när den matchas mot inställningarna av självkostnader. Värdet för **kostnadsprioritet** måste vara unikt mellan de dimensioner som **gäller för kostnaden**.
+- **Försäljningsprioritet**: värdet för dimensionens försäljningsprioritet anger vikten av dimensionen när den matchas mot inställningarna av försäljningspris eller faktureringskostnader. Värdet för **försäljningsprioritet** måste vara unikt mellan de dimensioner som **gäller för försäljning**.

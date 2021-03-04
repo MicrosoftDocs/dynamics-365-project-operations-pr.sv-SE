@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121825"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149565"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Uppgraderingshänsyn för uppdelad arbetsstruktur
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 I det här ämnet finns information om hur du uppgraderar uppdelad arbetsstruktur från Project Service Automation 2.x till 3.x. I det här ämnet anges hälsotillståndet för ett projekt i Project Service Automation (PSA) som krävs för en lyckad uppgradering. Det finns också information om de vanligaste spärrningsförhållanden som gör att uppgraderingen misslyckas. Mer information om hur du definierar projektuppgifter och deras funktioner i ett projektschema finns i [projektscheman](project-creating.md).
 
 ## <a name="key-entities"></a>Nyckelentiteter

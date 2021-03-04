@@ -2,6 +2,7 @@
 title: Uppgradera startsidan
 description: I det här ämnet visas var du hittar viktig information om de nya och ändrade funktioner i Dynamics 365 Project Service Automation och hur du uppgraderar till den senaste versionen.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121780"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150105"
 ---
 # <a name="upgrade-home-page"></a>Uppgradera startsidan
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Från och med 17 maj 2019 när Project Service Automation väljs under etablerin
 
 ### <a name="existing-instances"></a>Befintliga instanser
 
-Tidigare måste kunder med en instans av PSA version 2.x uppgradera till version 3.x, som är den UCI(Unified Client Interface)-baserade PSA-versionen, kontakta Microsoft-supporten och tillhandahålla information om sin instans så att supporten skulle kunna aktivera instansen för uppgradering till version 3.x. Från och med 1 mars 2020 kan kunder som har en instans av PSA version 2.x och behöver uppgradera till version 3.x uppgradera sina instanser direkt från administrationsportalen utan att först behöva kontakta Microsoft Support.  
+Tidigare måste kunder med en instans av PSA version 2.x som vari behov av att uppgradera till version 3.x (som utgör den PSA-version som är Unified-klientbaserad) kontakta Microsoft Support och tillhandahålla information om sin instans, så att supporten kunde aktivera instans för uppgradering till version 3.x. Från och med den 1 mars 2020 kan kunder som har en instans av PSA version 2.x och behöver uppgradera till version 3.x uppgradera sina instanser direkt från administrationsportalen utan att behöva kontakta Microsoft Support.  
 
 > [!NOTE]
 > PSA version 3.x innehåller viktiga förändringar. Den har byggts på ramverk för enhetligt gränssnitt för att ge en bättre användarupplevelse. Den omkonstruerade appen levererar ett konsistent, enhetligt användargränssnitt (UI) och följer de designprinciper som är tillgängliga för optimal visning på alla skärmstorlekar och enheter. Det har gjorts andra ändringar i hela programmet. Vissa av de områden som har ändrats är bland annat prissättning, bokning och tilldelning av resurser, tid, utgifter och godkännanden.
@@ -58,7 +61,7 @@ När du har granskat ämnena som nämnts tidigare och är redo att uppgradera ti
 
 Från och med 17 maj 2019 kommer alla nya instanser att ha samma värde som standardklienten. För att justeringen ska kunna ändras tillhandahålls PSA version 3.x och Field Service version 8.x som standard, eftersom dessa versioner har utformats för att fungera med UCI-klienten.
 
-Från och med den 1 mars 2020 kan kunder med Dynamics PSA inte längre skapa nya miljöer med äldre versioner av PSA, till exempel PSA version 2.x eller äldre. Alla nya miljöer kommer att behöva version 3.x av PSA.
+Från och med 1 mars 2020 kan Dynamics PSA-kunderna inte längre skapa en ny miljö med äldre versioner av PSA, till exempel PSA version 2.x eller lägre. Alla nya miljöer kommer att behöva version 3.x av PSA.
 
 > [!NOTE]
 > För att få bästa möjliga resultat när du använder äldre versioner av Field Service och PSA-program går du till sidan **systeminställningar** och för fältet **Använd endast det nya enhetliga gränssnittet (rekommenderas)**, välj **Nej** eftersom de här versionerna inte har utformats för korrekt inläsning i UCI. När du har inaktiverat UCI kan du öppna och köra de här versionerna av Field Service och PSA med hjälp av den gamla webbklienten. 
