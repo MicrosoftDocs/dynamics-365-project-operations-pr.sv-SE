@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085734"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144615"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Lägg till nya anpassade entitetsformulär (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Typfält 
 
-Dynamics 365 Project Service Automation är beroende av fältet **Typ** ( **msdyn\_ordertyp** ) som används i entiteterna affärsmöjlighet, offert, order och faktura för att särskilja **arbetsbaserade** versioner av dessa entiteter från **objektbaserade** och **tjänstbaserade** versioner. Arbetsbaserade versioner av dessa entiteter hanteras av PSA. Många affärs logiker på klientsidan och serversidan av lösningen beror på fältet **typ**. Därför är det viktigt att fältet initieras med ett korrekt värde när entiteterna skapas. Ett felaktigt värde kan orsaka felaktiga beteenden och en del affärslogik kanske inte fungerar korrekt.
+Dynamics 365 Project Service Automation är beroende av fältet **Typ** (**msdyn\_ordertyp**) som används i entiteterna affärsmöjlighet, offert, order och faktura för att särskilja **arbetsbaserade** versioner av dessa entiteter från **objektbaserade** och **tjänstbaserade** versioner. Arbetsbaserade versioner av dessa entiteter hanteras av PSA. Många affärs logiker på klientsidan och serversidan av lösningen beror på fältet **typ**. Därför är det viktigt att fältet initieras med ett korrekt värde när entiteterna skapas. Ett felaktigt värde kan orsaka felaktiga beteenden och en del affärslogik kanske inte fungerar korrekt.
 
 ## <a name="automatic-form-switching"></a>Automatisk formulärväxling
 
@@ -47,7 +49,7 @@ Följ stegen nedan om du vill skapa en anpassad version av formuläret **projekt
     > [!IMPORTANT]
     > Ta inte bort skripten. Annars kan vissa data ha initierats felaktigt.
 
-3. Kontrollera att fältet **Typ** ( **msdyn\_ordertyp** ) finns i formuläret. 
+3. Kontrollera att fältet **Typ** (**msdyn\_ordertyp**) finns i formuläret. 
 
     > [!IMPORTANT]
     > Ta inte bort det här fältet. Annars misslyckas initieringsskripten.

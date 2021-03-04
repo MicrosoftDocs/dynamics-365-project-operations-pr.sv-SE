@@ -2,6 +2,7 @@
 title: Att tänka på när du uppgraderar - Microsoft Dynamics 365 Project Service Automation version 2.x eller 1.x till version 3
 description: I det här ämnet finns information om hur du uppgraderar från Project Service Automation version 2.x eller 1.x till version 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121735"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144205"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Att tänka på när du uppgraderar - PSA-version 2.x eller 1.x till version 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation och Field Service
-Både Dynamics 365 Project Service Automation och Dynamics 365 Field Service använder URS-lösningen (Universal Resourcing Scheduling) för resursschemaläggning. Om du har både Project Service Automation och Field Service i din instans bör du planera för att uppgradera båda lösningarna till den senaste versionen (version 3.x för Project Service Automation, version 8.x för Field Service). Uppgradering av Project Service Automation eller Field Service kommer att installera den senaste versionen av URS, vilket innebär att inkonsekvent beteende är möjlig om både Project Service Automation och Field Service-lösningar i samma instans inte uppgraderas till den senaste versionen.
+Både Dynamics 365 Project Service Automation och Dynamics 365 Field Service använder URS-lösningen (Universal Resourcing Scheduling) för resursschemaläggning. Om du har Project Service Automation och Field Service i din instans uppgraderar du båda dessa lösningar till den senaste versionen. För Project Service Automation, dvs. version 3.x. För Field Service gäller version 8.x. Om du uppgraderar Project Service Automation eller Field Service installeras den senaste versionen av URS. Om både Project Service Automation och Field Service-lösningarna i samma instans inte uppgraderas till den senaste versionen kan ett inkonsekvent beteende uppstå.
 
 ## <a name="resource-assignments"></a>Resurstilldelningar
 I Project Service Automation version 2 och version 1, sparades uppgiftstilldelningar som underordnade uppgifter (kallas även raduppgifter) i **uppgiftsentiteten** och relaterade indirekt till entiteten **Resurstilldelning**. Raduppgiften visas i popup-fönstret för tilldelning i strukturen för Work Breakdown Structure (WBS).
@@ -40,9 +44,9 @@ I version 3 av Project Service Automation har det underliggande schemat för til
 Ändringarna påverkar uppgraderingen av befintliga projekt med resurstilldelningar för namngivna bokningsbara resurser och generiska resurser i ett projektteam. I det här ämnet finns information om hur du kommer att behöva ta hänsyn till dina projekt när du uppgraderar till version 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Uppgifter tilldelade namngivna resurser
-Med hjälp av den underliggande uppgiftsentiteten får uppgifter i version 2 och version 1 tillåtna teammedlemmar att framställa en roll som inte är definierad som standardroll. Till exempel kan Karla Larsson, som tilldelas som standardrollen som programhanterare, tilldelas en aktivitet med rollen utvecklare. I version 3 är rollen för en namngiven teammedlem alltid standard så därför använder uppgifter som är tilldelade Karla Larsson hennes standardroll i programhanteraren.
+Med hjälp av den underliggande uppgiftsentiteten får uppgifter i version 2 och version 1 tillåtna teammedlemmar att framställa en roll som inte är definierad som standardroll. Till exempel kan Karla Larsson, som tilldelas som standardrollen som programhanterare, tilldelas en aktivitet med rollen utvecklare. I version 3 är rollen för en namngiven teammedlem alltid standard, varför alla uppgifter som Karla Larson tilldelats använder Karlas standardroll som programhanterare.
 
-Om du har tilldelat en resurs till en uppgift utanför sin standardroll i version 2 och version 1, tilldelas den namngivna resursen standardrollen för alla aktivitetstilldelningar när du uppgraderar, oavsett rolltilldelning i version 2. Detta innebär skillnader i beräknade uppskattningar från version 2 eller version 1 till version 3 eftersom uppskattningar beräknas utifrån resursens roll och inte tilldelningen av radens tilldelning av uppgifter. Exempel: i version 2 har två uppgifter tilldelats Greta Andreasson. Rollen för raduppgift för uppgift 1 är utvecklare och för uppgift 2, programhanterare. Greta Andreasson har standardrollen programhanterare.
+Om du har tilldelat en resurs till en uppgift utanför sin standardroll i version 2 och version 1, tilldelas den namngivna resursen standardrollen för alla aktivitetstilldelningar när du uppgraderar, oavsett rolltilldelning i version 2. En tilldelning resulterar i skillnader i beräknade uppskattningar från version 2 eller version 1 till version 3, detta eftersom uppskattningar beräknas utifrån resursens roll och inte tilldelningen av raduppgifter. Exempel: i version 2 har två uppgifter tilldelats Greta Andreasson. Rollen för raduppgift för uppgift 1 är utvecklare och för uppgift 2, programhanterare. Greta Andreasson har standardrollen programhanterare.
 
 ![Flera roller som har tilldelats en resurs](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ När du uppgraderar till version 3 ersätts raduppgifter med resurstilldelningar
 
 ![Resurstilldelningar](media/resource-assignment-v2-05.png)
 
-Eftersom uppskattningarna bygger på standardrollen för resursen kan det hända att uppskattningar av försäljning och kostnad ändras. Observera att rollen **utvecklare** i följande bild inte längre visas eftersom rollen nu tas från den bokningsbara resursens standardroll.
+Eftersom uppskattningarna bygger på standardrollen för resursen kan det hända att uppskattningar av försäljning och kostnad ändras. I följande bild visas inte längre rollen **Utvecklare** eftersom rollen numera tas från den bokningsbara resursens standardroll.
 
 ![Kostnadsuppskattningar för standardroller](media/resource-assignment-cost-estimate-06.png)
 ![Försäljningsuppskattningar för standardroller](media/resource-assignment-sales-estimate-07.png)
 
-När uppgraderingen är klar kan du redigera en teammedlems roll som någon annan än den tilldelade standarden. Om du ändrar en roll för en teammedlem ändras den emellertid i alla tilldelade uppgifter, eftersom teammedlemmar inte längre får tilldelas flera roller i version 3.
+När uppgraderingen är klar kan du redigera en teammedlems roll som någon annan än den tilldelade standarden. Om du ändrar en roll för en teammedlem ändras rollen emellertid i alla dennes tilldelade uppgifter, detta eftersom teammedlemmar inte får tilldelas flera roller i version 3.
 
 ![Uppdatera en resursroll](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Du kan se organisationsenheten i vyn uppskattningar.
  
 När uppgraderingen är klar läggs organisationsenheten för den raduppgift som motsvarar den generiska teammedlemmen till i den generiska teammedlemmen och raduppgiften tas bort. Innan du uppgraderar rekommenderar vi att du genererar eller återskapar teamet i varje projekt som innehåller generiska resurser.
 
-För uppgifter som tilldelas en roll med en organisationsenhet som skiljer sig från organisationsenhet i det avtalade projektet och ett team inte har genererats, skapar uppgraderingen en generisk teammedlem för rollen, men kommer att använda den upphandlande enheten för projektmedlemmens organisationsenheter. Om du refererar tillbaka till exemplet med Project Z innebär det att den upphandlande organisationsenheten Contoso US och projektplanen har tilldelats rollen teknisk konsult med den organisationsenhet som tilldelats Contoso India. Integrering av testaktivitet som slutförs efter att implementeringsfasen har tilldelats rollen teknisk konsult. Organisationsenheten är Contoso US och ett team har inte skapats. Uppgradering skapar en generisk teammedlem, en teknisk konsult som har tilldelade timmar av alla tre aktiviteter och en organisationsenhet för Contoso US som är projektets upphandlande organisationsenhet.   
+För uppgifter som tilldelas en roll med en organisationsenhet som skiljer sig från organisationsenhet i det avtalade projektet och ett team inte har genererats, skapar uppgraderingen en generisk teammedlem för rollen, men kommer att använda den upphandlande enheten för projektmedlemmens organisationsenheter. Om du refererar tillbaka till exemplet med Project Z innebär detta att den upphandlande organisationsenheten Contoso US och projektplanen har tilldelats rollen "teknisk konsult" med den organisationsenhet som tilldelats Contoso India. Integrering av testaktivitet som slutförs efter att implementeringsfasen har tilldelats rollen teknisk konsult. Organisationsenheten är Contoso US och ett team har inte skapats. Uppgradering skapar en generisk teammedlem, en teknisk konsult som har tilldelade timmar av alla tre aktiviteter och en organisationsenhet för Contoso US som är projektets upphandlande organisationsenhet.   
  
 Om du ändrar standardvärdet för de olika organisationsenheterna för resurser på icke-genererade teammedlemmar rekommenderar vi att du genererar eller återskapar teamet i varje projekt som innehåller generiska resurser innan du uppgraderar, så att tilldelningen av organisationsenhet inte bortfaller.
 

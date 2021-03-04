@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085609"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144885"
 ---
 # <a name="create-custom-fields-and-entities"></a>Skapa anpassade fält och entiteter 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Slutför följande steg varje gång du vill skapa en anpassad alternativuppsättning eller entitet på Power Apps-plattformen.  
 Procedurerna i det här ämnet ska slutföras med webbgränssnittet för PSA (Project Service Automation).

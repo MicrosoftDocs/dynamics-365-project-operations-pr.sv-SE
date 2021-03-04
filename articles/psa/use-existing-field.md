@@ -17,15 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 415e346f88e60cb064f3327bfb35e21bd1c89014
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8bc3a1df7669dac43b45d781448ed5c795a65be4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085618"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144202"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Använd ett befintligt fält i Project Service som prissättningsdimension
 
-Project Service Automation (PSA) har många fält på entiteten **Faktiska värden** som kan användas som prissättningsdimensioner för resursbaserade priser i projektorganisationer. Ett vanligt fält är **Bokningsbar resurs**. Mindre företag som har färre än 20-30 fakturerbara resurser kan upptäcka att fakturerings- och kostnadstaxan som är specifika för varje resurs är en enklare metod. Eftersom den fakturerbara arbetsstyrkan växer kan det emellertid bli så realistiskt att upprätthålla resurskostnaden och faktureringskostnaderna för att de ska kunna befordras, få mer erfarenheter eller skaffa olika kompetens uppsättningar. Eftersom det fortfarande fungerar för företag av en viss storlek går du till ämne och [Använder en bokningsbar resurs som prissättningsdimension](bookable-resource-pricing-dimension.md) för att se hur ett befintligt Project Service-fält kan användas som prissättningsdimension.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Project Service Automation (PSA) har många fält på entiteten **Faktiska värden** som kan användas som prissättningsdimensioner för resursbaserade priser i projektorganisationer. Ett vanligt fält är **Bokningsbar resurs**. Mindre företag som har färre än 20-30 fakturerbara resurser kan upptäcka att fakturerings- och kostnadstaxan som är specifika för varje resurs är en enklare metod. I takt med att den fakturerbara arbetsstyrkan växer kan det emellertid bli orealistiskt att upprätthålla specifika taxor när resurs- och faktureringskostnaderna börjar variera i takt med att resurserna befordras, får mer erfarenheter samt tillgodogör sig olika kompetenser. Eftersom denna metod fortfarande fungerar för företag av en viss storlek går du till [Använd en bokningsbar resurs som prissättningsdimension](bookable-resource-pricing-dimension.md) för att se hur ett befintligt Project Service-fält kan användas som prissättningsdimension.
 
 Ett annat exempel är det i transaktionskategori. Kunder och implementerare har använt transaktionskategorin i PSA för att klassificera arbete och använda fältet till pris och kostnad utifrån arbetskategori. Mer information finns i [använda transaktionskategori som prissättningsdimension](transaction-category-pricing-dimension.md).

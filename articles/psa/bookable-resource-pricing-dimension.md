@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085639"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145020"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Använda bokningsbar resurs som prissättningsdimension
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension. Innan du börjar måste du, om du inte redan har skapat en dimensionslösning för prissättning, skapa en ny. Om du redan har en dimensionslösning för prissättning kan du göra ändringarna i den lösningen. Om du inte har skapat en ny dimensionslösning för prissättning för organisationen ska du slutföra procedurerna i ämnet [skapa anpassade fält och entiteter](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Lägga till bokningsbar resurs i formulär och vyer
@@ -40,7 +43,7 @@ Följande tabell är en fullständig lista över de formulär och vyer som inte 
 |  Information om offertrad|• Projektinformation<br>• Snabbregistrera projekt|• Aktiv information om offertrad<br>• Kombinerad information om offertrad<br>• Associerad vy för information om offertrad|
 |  Information om projektkontraktrad|• Projektinformation<br>• Snabbregistrera projekt|• Kombinerad kontraktradsinformation<br>• Aktiv kontraktradsinformation<br>• Associerad vy för kontraktradsinformation|
 |  Projektuppgift|• Information<br>• Nytt formulär||
-|  Projektteammedlem|• Information<br>• Nytt formulär|• Aktiva projektteammedlemmar<br>• Projektteammedlemmar<br>• Associerad vy för projektteammedlemmar|
+|  Projektteammedlem|• Information<br>• Nytt formulär|• Aktiva projektteammedlemmar<br>• Projektgruppmedlemmar<br>• Associerad vy för projektgruppmedlemmar|
 |  Tidspost|• Information<br>• Skapa tidspost|• Mina tidsposter efter datum<br>• Mina tidsposter för den här veckan<br>• Tidsposter för godkännande.|
 |  Journalrad|• Information<br>• Snabbregistrering|• Aktiva journalrader<br>• Associerad vy för journalrad|
 |  Information om fakturarad|• Information<br>• Snabbregistrering|• Information om aktiv fakturarad<br>• Debiterbara fakturatransaktioner<br>• Kostnadsfria fakturatransaktioner<br>• Associerad vy för information om fakturarad<br>• Icke debiterbar fakturatransaktion|
@@ -57,9 +60,9 @@ Följande tabell är en fullständig lista över de formulär och vyer som inte 
 ## <a name="set-up-pricing-dimension-field-names"></a>Ange fältnamn för prissättningsdimension
 
 När fältnamnet för en prisdimension i tabellen **Rollpris** skiljer sig från dess fältnamn i någon av de andra entiteterna där prisstandard ska användas, måste posten för prisdimension vara medveten om de olika namnen.    
-För den bokningsbara resursen **Projektteammedlemmar** något annorlunda fältnamn ( **msdyn_bookableresourceid** ) som den benämns för entiteten **Rollpris** ( **msdyn_bookableresource** ). Dimensionen för prissättningsdimension för **msydn_bookableresource** måste göras medveten om detta. 
+För den bokningsbara resursen **Projektteammedlemmar** något annorlunda fältnamn (**msdyn_bookableresourceid**) som den benämns för entiteten **Rollpris** (**msdyn_bookableresource**). Dimensionen för prissättningsdimension för **msydn_bookableresource** måste göras medveten om detta. 
 1. Det gör du genom att dubbelklicka på raden i rutnätet **prisdimensioner** för att öppna dimensionssidan med **msdyn_bookableresource**.
-2. På dimensionssidan på fliken **Relaterad** , klicka på **Fältnamn för prissättningsdimensioner**.
+2. På dimensionssidan på fliken **Relaterad**, klicka på **Fältnamn för prissättningsdimensioner**.
 
  ![Fliken fältnamn för prissättningsdimensionerr](media/PD-fieldname.png)
 
