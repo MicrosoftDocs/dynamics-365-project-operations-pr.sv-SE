@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nyheter
       items:
+        - name: Mars 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februari 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: Januari 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -318,52 +320,52 @@
       items:
         - name: Översikt över utgifter
           href: expense/expense-overview.md
-        - name: Utgiftshanteringsupplevelse för projekt
+        - name: Ny utgiftsupplevelse
           items:
-            - name: Konfiguration och inställningar
-              items:
-                - name: Konfigurera policyer
-                  href: expense/set-up-policies.md
-                - name: Konfigurera arbetsflöden
-                  href: expense/set-up-workflows.md
-                - name: Hantera delegering
-                  href: expense/manage-delegation.md
-                - name: Konfigurera parametrar för utgiftshantering
-                  href: expense/configure-expense-management-parameters.md
-                - name: Konfigurera kreditkortsintegration
-                  href: expense/set-up-credit-card-integration.md
-                - name: Ställa in utgiftskategorier
-                  href: expense/set-up-expense-categories.md
-            - name: Arbeta med utgifter i en utgiftsrapport
-              href: expense/personal-expenses-expense-report.md
-            - name: Skapa utgiftsrapporter
-              items:
-                - name: Fördelningar i en utgiftsrapport
-                  href: expense/distributions-expense-report.md
-            - name: Godkänna utgiftsrapporter
-              items:
-                - name: Utgiftsrapporter och flera godkännare
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Bokföra utgiftsrapporter
-              href: expense/posting-expense-reports.md
-            - name: Reserekvisition
-              href: expense/travel-requisition.md
-            - name: Förskott
-              href: expense/cash-advance.md
-            - name: Traktamente
-              href: expense/per-diems.md
-            - name: Ekonomihantering
-              items:
-                - name: Momsåtervinning
-                  href: expense/vat-recovery.md
-            - name: Ny utgiftsupplevelse
-              items:
-                - name: Ny typ av utgiftsrapporter
-                  href: expense/expense-reports-reimagined.md
-                - name: Matcha kvitto mot utgift med OCR
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Mobil utgiftshantering
-              href: expense/expense-using-mobile.md
+            - name: Ny typ av utgiftsrapporter
+              href: expense/expense-reports-reimagined.md
+            - name: Hämta ett kvitto med OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfiguration och inställningar
+          items:
+            - name: Konfigurera policyer
+              href: expense/set-up-policies.md
+            - name: Konfigurera arbetsflöden
+              href: expense/set-up-workflows.md
+            - name: Hantera delegering
+              href: expense/manage-delegation.md
+            - name: Konfigurera parametrar för utgiftshantering
+              href: expense/configure-expense-management-parameters.md
+            - name: Konfigurera kreditkortsintegration
+              href: expense/set-up-credit-card-integration.md
+            - name: Konfigurera utgiftskategorier
+              href: expense/set-up-expense-categories.md
+        - name: Personliga utgifter
+          href: expense/personal-expenses-expense-report.md
+        - name: Koncerninterna utgifter
+          href: prod-exp/intercompany-expense.md
+        - name: Skapa utgiftsrapporter
+          items:
+            - name: Fördelningar i en utgiftsrapport
+              href: expense/distributions-expense-report.md
+        - name: Godkänna utgiftsrapporter
+          items:
+            - name: Utgiftsrapporter och flera godkännare
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Bokföra utgiftsrapporter
+          href: expense/posting-expense-reports.md
+        - name: Reserekvisition
+          href: expense/travel-requisition.md
+        - name: Förskott
+          href: expense/cash-advance.md
+        - name: Traktamente
+          href: expense/per-diems.md
+        - name: Mobil utgiftsapp
+          href: expense/expense-using-mobile.md
+        - name: Ekonomihantering
+          items:
+            - name: Momsåtervinning
+              href: expense/vat-recovery.md
     - name: Godkännanden
       items:
         - name: Godkännanden – Översikt
@@ -456,9 +458,11 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Vad är nytt i februari 2021 – lite-distribution
+        - name: Vad är nytt i mars 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-mar-2021-lite.md
+        - name: Vad är nytt i februari 2021 – Lite-distribution
           href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Vad är nytt i januari 2021 – lite-distribution
+        - name: Vad är nytt i januari 2021 – Lite-distribution
           href: pro/whats-new/whats-new-jan-2021-lite.md
         - name: Vad är nytt i december 2020 – lite-distribution
           href: pro/whats-new/whats-new-dec-2020-lite.md
@@ -894,44 +898,52 @@
   items:
     - name: Översikt över utgiftshantering
       href: prod-exp/expense-management.md
-    - name: Ny typ av utgiftsrapporter
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Planera utgiftshantering
-      href: prod-exp/plan-expense-management.md
-    - name: Parametrar för utgiftshantering
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Mobil arbetsyta för utgiftshantering
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Ställ in arbetsflöden för utgiftshantering
-      href: prod-exp/expense-workflows.md
-    - name: Arbetsflöde för utgiftshantering
-      href: prod-exp/expense-workflow.md
-    - name: Hantera utgiftsdelegering
-      href: prod-exp/manage-expense-delegation.md
-    - name: Bearbetning av utgiftskvitto
-      href: prod-exp/expense-receipt-processing.md
-    - name: Importera och underhåll kreditkortstransaktioner
-      href: prod-exp/import-credit-card.md
-    - name: Fördelningar i en utgiftsrapport
-      href: prod-exp/expense-report-distributions.md
+    - name: Ny utgiftsupplevelse
+      items:
+        - name: Ny typ av utgiftsrapporter
+          href: expense/expense-reports-reimagined.md
+        - name: Hämta ett kvitto med OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Konfiguration och inställningar
+      items:
+        - name: Konfigurera policyer
+          href: expense/set-up-policies.md
+        - name: Konfigurera arbetsflöden
+          href: expense/set-up-workflows.md
+        - name: Hantera delegering
+          href: expense/manage-delegation.md
+        - name: Konfigurera parametrar för utgiftshantering
+          href: expense/configure-expense-management-parameters.md
+        - name: Konfigurera kreditkortsintegration
+          href: expense/set-up-credit-card-integration.md
+        - name: Konfigurera utgiftskategorier
+          href: expense/set-up-expense-categories.md
+    - name: Personliga utgifter
+      href: expense/personal-expenses-expense-report.md
     - name: Koncerninterna utgifter
       href: prod-exp/intercompany-expense.md
-    - name: Definiera utgiftspolicyer
-      href: prod-exp/travel-expense-policies.md
-    - name: Visa en utgiftsrapport
-      href: prod-exp/view-expense-report.md
-    - name: Bokför en utgiftsrapport
-      href: prod-exp/post-expense.md
-    - name: Utgiftsrapporter och flera godkännare
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Momsåterbetalning i utgiftshantering
-      href: prod-exp/VAT-expense-report.md
-    - name: Per dag-regler
-      href: prod-exp/per-diem.md
-    - name: Reserekvisitioner
-      href: prod-exp/travel-req.md
-    - name: Privata utgifter i en utgiftsrapport
-      href: prod-exp/personal-expenses.md
+    - name: Skapa utgiftsrapporter
+      items:
+        - name: Fördelningar i en utgiftsrapport
+          href: expense/distributions-expense-report.md
+    - name: Godkänna utgiftsrapporter
+      items:
+        - name: Utgiftsrapporter och flera godkännare
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Bokföra utgiftsrapporter
+      href: expense/posting-expense-reports.md
+    - name: Reserekvisition
+      href: expense/travel-requisition.md
+    - name: Förskott
+      href: expense/cash-advance.md
+    - name: Traktamente
+      href: expense/per-diems.md
+    - name: Mobil utgiftsapp
+      href: expense/expense-using-mobile.md
+    - name: Ekonomihantering
+      items:
+        - name: Momsåtervinning
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Uppdatering av tidsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 29, V3'
+          href: psa/whats-new-ur-29.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 28.6 Hotfix, V3'
+          href: psa/whats-new-ur-28-6.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 28.5 Hotfix, V3'
           href: psa/whats-new-ur-28-5.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 28, V3'
           href: psa/whats-new-ur-28.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 27.6 Hotfix, V3'
+          href: psa/whats-new-ur-27-6.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 27.5 Hotfix, V3'
           href: psa/whats-new-ur-27-5.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 27, V3'
