@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290066"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrera dig för förhandsversionsprenumeration - lite 
 
-I det här ämnet beskrivs hur du prenumererar partnererbjudandet för förhandsversion och distribuerar Dynamics 365 Project Operations enkel distribution – avtal till proforma-fakturering.
+Detta ämne förklarar hur du prenumererar på förhandsgranskning av partnererbjudandet och distribuerar Dynamics 365 Project Operations Lite-distribuerar – hantera proformafakturering.
 
 > [!NOTE]
 > Processen kommer att ändras i kommande versioner av Project Operations.
@@ -32,17 +32,17 @@ I det här ämnet beskrivs hur du prenumererar partnererbjudandet för förhands
 
 När du får ett godkännande av en [begäran av förhandsversion](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) får du två erbjudanden från Microsoft via e-post. Med de här erbjudandena kan du distribuera förhandsversionen av Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion
+- Utvärderingsversion av Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations – utvärdering av förhandsversion
 
 > [!IMPORTANT]
 > Endast en person, klientadministratören, i en organisation behöver utföra den här uppgiften. Om du inte är prenumerant på den här versionen väntar du tills din organisation har registrerats och du har fått dina användarautentiseringsuppgifter.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Utvärderingsversion av Dynamics 365 Project Operations (CRM) 
 
 Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med användarkontot för arbete i klientorganisationen där du vill använda förhandsversionen av Project Operations.
 
-1. Lös in den första erbjudandekoden, **Dynamics 365 Project Operations (CRM) – utvärdering av förhandsversion** genom att klistra in den i webbläsarens URL.
+1. Lös in den första erbjudandekoden, **Dynamics 365 Project Operations (CRM) - Utvärderingsversion** genom att klistra in den i webbläsarens webbadress.
 
 ![Hämta erbjudande](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Upprepa samma steg som med den första erbjudandekoden. Se till att du lägger t
 
 ![Tilldela licenser](./media/15AssignLicenses.png)
 
-3. Kontrollera att licenserna för **förhandsversion av Dynamics 365 Project Operations (CRM)** och **Office 365 Project Operations – förhandsversion** har valts. 
+3. Kontrollera att licenser **Dynamics 365 Project Operations (CRM) förhandsgranskning** och **Office 365 Project Operations - förhandsgranskning** markeras. 
 4. Välj **Spara ändringar**.
 
 ## <a name="create-a-new-cds-environment"></a>Skapa en ny CDS-miljö
@@ -84,7 +84,7 @@ Upprepa samma steg som med den första erbjudandekoden. Se till att du lägger t
 
 ![Lägg till databas](./media/20CreateEnvironment1.png)
 
-4. När miljön har skapats installerar du lösningen **Microsoft Dynamics 365 Project Operations**. 
+4. När miljön har skapats installerar du **Microsoft Dynamics 365 Project Operations**-lösningen. 
 
 ![Installera lösning](./media/21InstallSolution.png)
 

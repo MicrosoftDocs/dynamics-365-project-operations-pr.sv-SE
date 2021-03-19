@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291866"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i november 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-Det här ämnet gäller för följande komponenter och versioner i Dynamics 365 Project Operations:
+Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
 - Project Operations i CDS-miljö version 4.4.0.70
 - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.14

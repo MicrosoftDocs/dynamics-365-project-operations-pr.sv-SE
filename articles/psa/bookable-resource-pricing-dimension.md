@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d3f5ed7da5972cec5b22524bdcb3dc34a83eee28
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145020"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290966"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Använda bokningsbar resurs som prissättningsdimension
 
