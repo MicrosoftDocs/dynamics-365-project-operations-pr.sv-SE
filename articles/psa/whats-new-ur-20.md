@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280690"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation uppdateringsversion 20, V3
 
@@ -42,7 +42,7 @@ Följande problem har åtgärdats:
 
 - Om du importerar projektmedlemmar med en allokeringsmetod som kräver timmar uppstår ett oklart felmeddelande när de angivna timmarna är noll.
 - Användare får ett felmeddelande när det maximala tillåtna antalet tecken har angetts i fältet **Beskrivning** för en projektaktivitet.
-- Sidan **Microsoft Dynamics 365 Project Service Automation hämta tillägg** omdirigerar till den engelska hämtningssidan när användarens språkinställningar är inställda på japanska.
+- Sidan **Hämta tillägg för Microsoft Dynamics 365 Project Service Automation** omdirigeras till den engelska hämtningssidan när användarens språkinställningar är inställda på japanska.
 - När ett serverfel inträffar blir synkroniseringsetiketten på fliken **schema** i formuläret **projekt** ibland kvar.
 - Redundanta aktivitetsuppdateringar skickas till servern när en uppgift ändras.
 
