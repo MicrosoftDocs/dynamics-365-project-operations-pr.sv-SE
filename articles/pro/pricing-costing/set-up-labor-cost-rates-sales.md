@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274390"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Konfigurera kostnadstaxa för arbete – Lite
 
@@ -38,7 +38,7 @@ Följande tabell innehåller några av de fält som är viktiga när det gäller
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Överföra priser och kostnader för resurser utanför din avdelning eller juridiska person
 
-I projektbaserade företag är det vanligt att använda anställda från olika juridiska personer eller avdelningar i projekt. Ett projekt kan utföras av en juridisk person, men de medarbetare eller konsulter som arbetar på projektet kan komma från samma juridiska person eller från en annan, eller så kan det finnas en kombination av båda. I Dynamics 365 Project Operations är den juridiska personen som äger leveransen av projektet det **ägande företaget** och den avdelning som äger leveransen är den **kontrakterande enheten**. Andra juridiska personer som tillhandahåller resurser är **resursföretag** och avdelningar som tillhandahåller resurser är **resursenheter**. I de flesta länder krävs ett företag för att säkerställa att den juridiska personen eller avdelningen för resurser debiterar det ägande företaget och den kontrakterande enheten för användningen av resurser.
+I projektbaserade företag är det vanligt att använda anställda från olika juridiska personer eller avdelningar i projekt. Ett projekt kan utföras av en juridisk person, men de medarbetare eller konsulter som arbetar på projektet kan komma från samma juridiska person eller från en annan, eller så kan det finnas en kombination av båda. I Dynamics 365 Project Operations är den juridiska entitet som äger leverans av projektet är **Ägande företag** och den avdelning som äger leverans **uppslagsenhet**. Andra juridiska personer som tillhandahåller resurser är **resursföretag** och avdelningar som tillhandahåller resurser är **resursenheter**. I de flesta länder krävs ett företag för att säkerställa att den juridiska personen eller avdelningen för resurser debiterar det ägande företaget och den kontrakterande enheten för användningen av resurser.
 
 Företaget Fabrikam måste exempelvis se till att Fabrikam India-Robotics har förhandlat en kostnadsprislista med Fabrikam US-Robotics eller Fabrikam UK-Robotics.
 

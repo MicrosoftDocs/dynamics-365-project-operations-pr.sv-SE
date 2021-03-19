@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177398"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273355"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Hantera komplexa enheter för produktbaserade kontraktrader - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-I Dynamics 365 Project Operations används kvantitetsfaktorer för att stödja försäljning av prenumerationsbaserade produkter. För prenumerationsbaserade produkter uttrycks kvantitet på kontrakt- eller projektkontraktraden som antalet användarmånader.
+Dynamics 365 Project Operations används kvantitetsfaktorer för att stödja försäljning av prenumerationsbaserade produkter. För prenumerationsbaserade produkter uttrycks kvantitet på kontrakt- eller projektkontraktraden som antalet användarmånader.
 
 Priset lagras på prenumerationsprogram i katalogen som priset per användare i månaden. Under försäljningsprocessen är priset på kontraktraden vanligtvis per användare, per månadspris som förhandlas fram och rabatteras av säljaren. Varje avtal har ett annat antal användare och ett annat antal prenumerationsmånader. Den kvantitet som används för att beräkna beloppet på kontraktraden är en produkt av antalet användare och antalet prenumerationsmånader.
 

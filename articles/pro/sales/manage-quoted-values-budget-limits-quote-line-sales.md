@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181114"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272995"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Projektbaserade offertrader - lite
 
@@ -34,7 +34,7 @@ Följande tabell innehåller information om fälten under fliken **Allmänt** i 
 | **Fält** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- |
 | Namn | Namnet på en offertrad som kan hjälpa dig att identifiera den diskreta komponenten i offerten som uppskattas. | Kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
-| Faktureringsmetod | I en offert som skapats från en affärsmöjlighet kopieras värdet från motsvarande fält på affärsmöjlighetsraden. Det här fältet innehåller de två huvudmodellerna för kontrakt som stöds av Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid och material.| Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Faktureringsmetod | I en offert som skapats från en affärsmöjlighet kopieras värdet från motsvarande fält på affärsmöjlighetsraden. Fältet innehåller de två huvudkontraktsmodeller som stöds av Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid och material.| Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Project | Använd det här valfria fältet för att identifiera det projekt som ska användas för att leverera arbetet i det här åtagandet. När ett projekt är mappat till en offertrad bidrar det till att lägga till debiterbara uppgifter och till att i en projektbaserad uppskattning använda offertraden som offertradsinformation. När ett projekt inte är mappat till en projektrelaterad offertrad ska du skapa uppskattningen manuellt genom att skapa varje offertradsinformation. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits.|
 | Uppgifter som ingår | Anger om den här offertraden används för alla eller några av projektuppgifterna för det valda projektet. Fältet har följande möjliga värden:</br>- Alla projektuppgifter</br>- Endast valda projektuppgifter</br>Ett tomt värde i det här fältet motsvarar alternativet **Alla projektuppgifter**. | När **Endast valda projektuppgifter** har valts kan du på projektsidan, under fliken **Konfiguration av uppgiftsfakturering** välja specifika uppgifter för att associera dem med denna offertrad. Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 | Inkludera tid | En **Ja**/**Nej**-flagga anger om tidstransaktioner eller arbetskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att tidstransaktionerna eller arbetskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att tidstransaktionerna eller arbetskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |

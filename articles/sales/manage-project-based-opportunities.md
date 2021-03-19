@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118495"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277855"
 ---
 # <a name="manage-project-based-opportunities"></a>Hantera projektbaserade affärsmöjligheter
 
@@ -21,7 +21,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Projektbaserade företag har vanligtvis sina operationer för leveransspridning i flera länder och geografier. Kostnaden för projektkörningen och leveransen kan variera beroende på vilken geografi eller avdelning som hanterar leveransen. Detta kan i sin tur påverka avtalets marginaler. Leverans av projektbaserade tjänster innebär vanligtvis stora kvantiteter mänsklig tid, avsevärda kostnader för resor, materialkostnader och andra utgifter.
 
-Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har designats med tillägg till Dynamics 365 Sales. I ämnet finns information om de olika fälten och affärslogiken i de ytterligare funktioner som krävs av projektbaserade företag för att hantera projektbaserade affärsmöjligheter.
+Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har utformats med tillägg till Dynamics 365 Sales. I ämnet finns information om de olika fälten och affärslogiken i de ytterligare funktioner som krävs av projektbaserade företag för att hantera projektbaserade affärsmöjligheter.
 
 ## <a name="view-all-project-based-opportunities"></a>Visa alla projektbaserade affärsmöjligheter
 

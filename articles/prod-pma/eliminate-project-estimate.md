@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085593"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270700"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminera en projektuppskattning
 
@@ -37,15 +37,15 @@ Om du vill eliminera ett uppskattningsprojekt måste det vara klart. I följande
 2. Under fliken **Hantera** väljer du **Uppskattningar** och på sidan **Uppskatta** väljer du **Eliminera**.
 3. På sidan **Eliminera uppskattning** under fliken **Allmänt** anger du följande alternativ:
 
-   - **Periodkod** : Välj periodkoden för att välja lämpliga uppskattningsprojekt. 
-   - **Uppskattningsdatum** : Välj lämpligt uppskattningsdatum för eliminering.
-   - **Eliminera med PIA-varningar** : Aktivera det här alternativet om du vill att aviseringar ska visas när en uppskattning som är kopplad till ett pågående arbete (PIA) ska elimineras. Om det här alternativet inte är aktiverat kan eliminering inte fortsätta om det finns icke uppskattade transaktioner. 
+   - **Periodkod**: Välj periodkoden för att välja lämpliga uppskattningsprojekt. 
+   - **Uppskattningsdatum**: Välj lämpligt uppskattningsdatum för eliminering.
+   - **Eliminera med PIA-varningar**: Aktivera det här alternativet om du vill att aviseringar ska visas när en uppskattning som är kopplad till ett pågående arbete (PIA) ska elimineras. Om det här alternativet inte är aktiverat kan eliminering inte fortsätta om det finns icke uppskattade transaktioner. 
    > [!NOTE]
    > Det här alternativet är endast tillgängligt när eliminering tillämpas på ett uppskattningsprojekt. Det är inte tillgängligt om du använder periodiska bokningar. Den här inställningen fungerar med inställningarna under fliken **Uppskattning** på sidan **Projektparametrar** i fältgruppen **Tillåt eliminering när transaktioner som inte uppskattas finns**.
-   - **Ange att stadiet har slutförts** : Aktivera det här alternativet om du vill att uppskattningsprojektets stadium ska vara anges som **Slutfört** efter att elimineringen har körts.
-   - **Skriv ut uppskattningslista** : Välj vilken information som ska inkluderas när uppskattningslistan skrivs ut.
-   - **Visa informationslogg** : Aktivera det här alternativet om du vill visa informationsloggen.
-   - **Bokföringsdatum** : Välj datumet då uppskattningen bokförs i transaktionsregistret.
+   - **Ange att stadiet har slutförts**: Aktivera det här alternativet om du vill att uppskattningsprojektets stadium ska vara anges som **Slutfört** efter att elimineringen har körts.
+   - **Skriv ut uppskattningslista**: Välj vilken information som ska inkluderas när uppskattningslistan skrivs ut.
+   - **Visa informationslogg**: Aktivera det här alternativet om du vill visa informationsloggen.
+   - **Bokföringsdatum**: Välj datumet då uppskattningen bokförs i transaktionsregistret.
 
 4.  Välj **OK**.
 5. När elimineringsprocessen har slutförts visas det eliminerade uppskattningsprojektet med ett negativt värde. 

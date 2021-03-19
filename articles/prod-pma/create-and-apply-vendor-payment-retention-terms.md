@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085677"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270970"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Skapa och tillämpa villkor för innehållen leverantörsbetalning
 
@@ -41,9 +41,9 @@ Följ stegen nedan om du vill konfigurera och upprätthålla villkor för inneh�
 2. Välj **Ny** om du vill lägga till ett nytt villkor för kvarhållande för leverantören. Värdet **Regel-ID** för det nya villkoret anges automatiskt. 
 3. Ange en kort beskrivning i fältet **Beskrivning** och på snabbfliken **Villkor** väljer du **Lägg till rad** för att ange villkorsvärden för följande:
 
-   - **Procentandel av levererade enheter** : Ange en procentandel som slutförts av villkoret. Belopp hålls automatiskt inne på leverantörsfakturor tills projektslutförandet är lika med den specificerade procentandelen. Om du till exempel anger 50,00 kvarhålls beloppen tills projektet har slutförts till 50 procent.
-   - **Procent att hålla inne** : Ange en procentandel av leverantörsfakturans belopp som ska hållas inne. Om du till exempel anger 10,00 kvarhålls 10 procent av beloppet på en leverantörsfaktura tills projektet når slutförandeprocenten som angetts i fältet **Procentandel av levererande enheter**.
-   - **Procentandel som ska släppas** : Välj **Lägg till rad** om du vill ange en procentandel av tidigare kvarhållna belopp som ska frisläppas för den valda slutförandenivån av projektet.
+   - **Procentandel av levererade enheter**: Ange en procentandel som slutförts av villkoret. Belopp hålls automatiskt inne på leverantörsfakturor tills projektslutförandet är lika med den specificerade procentandelen. Om du till exempel anger 50,00 kvarhålls beloppen tills projektet har slutförts till 50 procent.
+   - **Procent att hålla inne**: Ange en procentandel av leverantörsfakturans belopp som ska hållas inne. Om du till exempel anger 10,00 kvarhålls 10 procent av beloppet på en leverantörsfaktura tills projektet når slutförandeprocenten som angetts i fältet **Procentandel av levererande enheter**.
+   - **Procentandel som ska släppas**: Välj **Lägg till rad** om du vill ange en procentandel av tidigare kvarhållna belopp som ska frisläppas för den valda slutförandenivån av projektet.
 
 > [!NOTE]
 > Om du har fler än en milstolpe för olika nivåer av projektslutförande anger du en separat rad för villkor för kvarhållande för varje kvarhållningsregel. Varje rad kan ange en annan kvarhållandeprocentandel och en annan procentandel för varje angiven nivå av projektets slutförande.
@@ -56,9 +56,9 @@ När du har skapat villkor för kvarhållande för en leverantör kan du tilläm
 2. Under snabbfliken **Leverantörsavtal** väljer du **Lägg till rad**.
 3. I fältet **Kontokod** väljer du något av följande alternativ: 
 
-   - **Tabell** : Villkoren för leverantörskvarhållande gäller för en enskild leverantör.
-   - **Grupp** : Villkoren för leverantörskvarhållande gäller för alla leverantörer i en leverantörsgrupp.
-   - **Alla** : Villkoren för leverantörskvarhållande gäller för alla leverantörer.
+   - **Tabell**: Villkoren för leverantörskvarhållande gäller för en enskild leverantör.
+   - **Grupp**: Villkoren för leverantörskvarhållande gäller för alla leverantörer i en leverantörsgrupp.
+   - **Alla**: Villkoren för leverantörskvarhållande gäller för alla leverantörer.
 
 4. I fältet **Leverantör/leverantörsgrupp** väljer du den leverantör eller leverantörsgrupp som villkoren för leverantörskvarhållande gäller för. Om du valde **Alla** i föregående steg är detta fält inte tillgängligt.
 5. I fältet **Villkor för leverantörskvarhållning** väljer du de kvarhållningsvillkor som du skapade i föregående procedur.

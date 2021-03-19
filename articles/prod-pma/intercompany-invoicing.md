@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085566"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270790"
 ---
 # <a name="intercompany-invoicing"></a>Koncernintern fakturering
 
@@ -78,7 +78,7 @@ USSI, den långivande juridiska personen för utlåningen, måste skapa och bokf
 
 | Steg | Startpunkt                                                                       | Beskrivning                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Projekthantering och redovisning** &gt; **tidrapporter** &gt; **alla tidrapporter** | Skapa en ny tidrapport. På tidrapportraden för fältet **juridisk person** välj **FRSI**. I fältet **Projekt-ID** , välj projektet i FRSI. Ange timmarna för varje veckodag. |
+| A    | **Projekthantering och redovisning** &gt; **tidrapporter** &gt; **alla tidrapporter** | Skapa en ny tidrapport. På tidrapportraden för fältet **juridisk person** välj **FRSI**. I fältet **Projekt-ID**, välj projektet i FRSI. Ange timmarna för varje veckodag. |
 | F    | Sidan **Tidrapport**                                                                | När arbetsflödet har körts bokför du tidrapporten och noterar verifikationsnumret.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exempel 3: Skapa och bokföra en koncernintern leverantörsfaktura

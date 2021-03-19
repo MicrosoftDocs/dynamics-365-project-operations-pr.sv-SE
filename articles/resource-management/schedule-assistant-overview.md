@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279250"
 ---
 # <a name="schedule-assistant-overview"></a>Översikt över schemaläggningsassistenten
 
@@ -25,7 +25,7 @@ När lämpliga resurser identifieras kan resursen eller projektledaren boka resu
 
 ## <a name="prerequisites"></a>Förutsättningar
 
-Schemaläggningsassistenten ingår i lösningen Universal Resource Scheduling. Lösningen ingår i och installeras med Dynamics 365 Project Operations, Dynamics 365 Field Service och Dynamics 365 Customer Service.
+Schemaläggningsassistenten ingår i lösningen Universal Resource Scheduling. Den här lösningen ingår och installeras med Dynamics 365 Project Operations, Dynamics 365 Field Service och Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Matchningskrav och resurser
 

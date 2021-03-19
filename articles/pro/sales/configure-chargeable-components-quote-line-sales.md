@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177128"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273895"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurera debiterbara komponenter på en offertrad- lite
 
@@ -60,7 +60,7 @@ En transaktionskategori kan vara debiterbar eller inte debiterbar på en specifi
 
 En transaktion faktureringstyp kan konfigureras på **Debiterbara kategorier** på en projektbaserad offertrad genom uppdatering fält **Faktureringstyp** på underrutnätet **Debiterbara kategorier**.
 
-### <a name="resolve-chargeability"></a>Åtgärda debiterbarhet
+### <a name="resolve-chargeability"></a>Åtgärda debiteringsbarhet
 En uppskattning eller ett faktiskt värde som skapats för tid anses endast vara debiterbart om **Tid** finns på offertraden och om **Uppgift** och **Roll** har konfigurerats som debiterbara på offertraden.
 
 En uppskattning eller ett faktiskt värde som skapats för utgift anses endast vara debiterbart om **Utgift** finns på offertraden och om **Uppgift** och **Transaktionskategori** har konfigurerats som debiterbara på offertraden.

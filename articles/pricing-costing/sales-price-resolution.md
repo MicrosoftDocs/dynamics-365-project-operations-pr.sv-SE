@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274975"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Lösa försäljningspriser för uppskattningar och faktiska värden
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-När försäljningspriser i uppskattningar och faktiska värden löses i Dynamics 365 Project Operations används först datumet och valutan för den relaterade projektofferten eller kontraktet för att lösa försäljningsprislistan. När försäljningsprislistan har lösts löser systemet försäljnings- eller fakturataxan.
+När försäljningspriser på uppskattningar och faktiska värden löses i Dynamics 365 Project Operations använder systemet först datum och valuta för den relaterade projektofferten eller kontraktet för att lösa försäljningsprislistan. När försäljningsprislistan har lösts löser systemet försäljnings- eller fakturataxan.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Lösa försäljningstaxor på rader för faktiska värden och uppskattningar för tid
 

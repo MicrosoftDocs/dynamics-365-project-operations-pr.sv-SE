@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180259"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277585"
 ---
 # <a name="project-quote-settings"></a>Inställningar för projektoffert
 
@@ -22,7 +22,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 Den här artikeln innehåller information om hur du använder en projektoffert. Detta inkluderar de inställningar som påverkar alla offertrader och information om den offert som summeras från alla radartiklarna för att köra KPI:er för projektofferten.
 
-I följande tabell visas summeringsinformationsfälten i en projektoffert som är unik för Dynamics 365 Project Operations eller som har viktiga ändringar i beteendet från Dynamics 365 Sales-offerter.
+I följande tabell visas fälten sammanfattningsinformation i en projektoffert som är unika för Dynamics 365 Project Operations eller har några viktiga funktionsförändringar från offerter i Dynamics 365 Sales.
 
 | **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |

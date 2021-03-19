@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177623"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277405"
 ---
 # <a name="sales-process-overview"></a>Översikt över försäljningsprocessen
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-De försäljningsprocesser som används i en projektbaserad organisation skiljer sig från de försäljningsprocesser som används i en produktbaserad organisation. Detta beror på att försäljningscykler för projektbaserade organisationer är längre och kräver anpassad uppskattningsteknik för att analysera och skapa offerter för varje avtal. Dynamics 365 Project Operations använder en del av följande funktioner som används i försäljningsprocessen:
+De försäljningsprocesser som används i en projektbaserad organisation skiljer sig från de försäljningsprocesser som används i en produktbaserad organisation. Detta beror på att försäljningscykler för projektbaserade organisationer är längre och kräver anpassad uppskattningsteknik för att analysera och skapa offerter för varje avtal. Dynamics 365 Project Operations använder några av följande funktioner som används i en försäljningsprocess:
 
 - En leadpost används för att spåra försäljningsprocessen.
 - Kvalificera leads följs upp som affärsmöjligheter.

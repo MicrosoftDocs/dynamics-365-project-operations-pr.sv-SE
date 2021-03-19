@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182014"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277900"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Hantera flera kunder i en projektoffert
 
@@ -23,7 +23,7 @@ Projektofferter har stöd för scenariot där ett förslag omfattar flera kunder
 
 Alla offertkunder under fliken **Kunder** i projektofferten anges som offertradskunder på alla **nya** projektbaserade offertrader som skapas för offerten. Eventuella befintliga projektbaserade offertrader ärver inte nya offertkundposter som skapats efter dem.
 
-Du kan när som helst lägga till, uppdatera eller ta bort offertkunder och offertradskunder innan offerten har vunnits. En giltig kund i offerten måste vara inställd som en kund i det ägande företaget eller den juridiska entiteten på sidan **Kunder**. Juridiska entiteter konfigureras i modulen **Projektledning och redovisning** i Dynamics 365 Project Operations och görs tillgängliga som företag i modulen **Projektförsäljning och leverans** i Project Operations.
+Du kan när som helst lägga till, uppdatera eller ta bort offertkunder och offertradskunder innan offerten har vunnits. En giltig kund i offerten måste vara inställd som en kund i det ägande företaget eller den juridiska entiteten på sidan **Kunder**. Juridiska personer ställs in i modulen **Projektledning och redovisning** i Dynamics 365 Project Operations och finns att tillgå som företag i modulerna **Projektförsäljning och leverans** i Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept för en primär kund
 

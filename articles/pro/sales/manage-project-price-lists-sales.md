@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273040"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Hantera projektprislistor i projektofferter - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Projektofferter har utformats för att stödja flera datumeffektiva försäljningsprislistor. Med Dynamics 365 Project Operations läggs en ny associerad entitet med namnet **Projektprislistor** till. Entiteten har förhållandet 1-till-många till en projektoffert.
+Projektofferter har utformats för att stödja flera datumeffektiva försäljningsprislistor. Med Dynamics 365 Project Operations läggs en ny associerad entitet med namnet **Projektprislistor**. Entiteten har förhållandet 1-till-många till en projektoffert.
 
 Projektprislistor används för att visa pris-, tids- och utgiftstransaktioner för ett projekt. När en offert har en eller flera projektprislistor används de här prislistorna som uppskattningar och faktiska värden av pris, tid och utgifter för projekt som associeras med offerten via offertraden.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085675"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270745"
 ---
 # <a name="create-a-new-project"></a>Skapa ett nytt projekt
 
@@ -45,7 +45,7 @@ Följ stegen nedan om du vill skapa ett nytt projekt.
 1. På sidan **arbetare** i listan **arbetare** välj posten för den arbetare som du tidigare har ställt in kompetenser för och öppna arbetarposten.
 2. I åtgärdsfönstret på fliken **Projekt** i gruppen **Inställning** välj **Tilldela projekt**.
 3. På sidan **Tilldelning av resursvalideringsprojekt** på fliken **Projekt** i fältet **Lägg till projektet i utvalda projekt** i projektet **XYZ uppgradering fas 2**.
-4. I fönstret **Återstående projekt** , välj ett projekt och välj sedan pilknappen för att lägga till det i rutan **Valda projekt**.
+4. I fönstret **Återstående projekt**, välj ett projekt och välj sedan pilknappen för att lägga till det i rutan **Valda projekt**.
 
 Du kan även tilldela kategorier för en resurs som du behöver. Kategoritypen är antingen **kostnad** eller **intäkt**. Kategoritypen bestäms av din organisation. Om du inte har tilldelats några kategorier för en resurs slår Finance upp kategorin som standard för timkostnader för kostnader och intäkter.
 
@@ -103,7 +103,7 @@ Vid resursreservationen kan projektledarna filtrera de rollresurser som är till
     - **Roll:** Ange **chefsprojektledare**.
 
 3. Klicka på **Spara** och stäng sedan sidan.
-4. På fliken **kompetenser** lägger du till kompetensen **ProjectMgmt** och **PMP** -intyg.
+4. På fliken **kompetenser** lägger du till kompetensen **ProjectMgmt** och **PMP**-intyg.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

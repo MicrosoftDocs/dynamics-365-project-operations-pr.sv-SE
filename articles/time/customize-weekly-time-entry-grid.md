@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124660"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277180"
 ---
 # <a name="extending-time-entries"></a>Utöka tidsposter
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-I Dynamics 365 Project Operations ingår en anpassad kontroll för utökad tidspost. Denna kontroll omfattar följande funktioner:
+Dynamics 365 Project Operations innehåller en anpassad kontroll för längre tidsinmatning. Denna kontroll omfattar följande funktioner:
 
 - Ange tid vågrätt över en vecka
 - Summor per dag, rad eller vecka

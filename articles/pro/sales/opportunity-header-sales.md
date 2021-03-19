@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181068"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272725"
 ---
 # <a name="opportunity-header---lite"></a>Huvud för affärsmöjlighet - lite
 
@@ -21,7 +21,7 @@ _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 I affärsmöjlighetens rubrik anges övergripande information om en projektbaserad affär som gäller alla rader på en projektbaserad affärsmöjlighet.
 
-Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations är utökningar av affärsmöjligheter i Dynamics 365 Sales. De här tilläggen tillhandahåller ytterligare funktioner som är specifika för och krävs för projektbaserade affärsmöjligheter. De här tilläggen kan innehålla nya fält och åtgärder för menyfliksområdet som är tillgängliga i projektbaserade affärsmöjligheter. Vissa fält, funktioner och standardlogik som är tillgängliga i Sales är inte tillgängliga i Project Operations.
+Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har utformats med tillägg av affärsmöjligheter i Dynamics 365 Sales. De här tilläggen tillhandahåller ytterligare funktioner som är specifika för och krävs för projektbaserade affärsmöjligheter. De här tilläggen kan innehålla nya fält och åtgärder för menyfliksområdet som är tillgängliga i projektbaserade affärsmöjligheter. Vissa fält, funktioner och standardlogik som är tillgängliga i Sales är inte tillgängliga i Project Operations.
 
 Följande tabell innehåller de fält i en projektbaserad affärsmöjlighet som antingen är unika för Project Operations eller som har viktiga ändringar i beteendet jämfört med affärsmöjligheter i Sales.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085565"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270655"
 ---
 # <a name="manage-resource-competencies"></a>Hantera resurskompetens
 
@@ -46,7 +46,7 @@ Om du vill ange kompetenser för en arbetare kan du antingen använda listsidan 
 
 ## <a name="set-up-competencies-skills"></a>Konfigurera kompetenser: färdigheter
 
-1. Listsida **Arbetare** , se till att den arbetare som du använde i föregående procedur fortfarande är vald. I åtgärdsfönstret på fliken **Arbetare** i gruppen **Kompetenser** välj **Färdigheter**.
+1. Listsida **Arbetare**, se till att den arbetare som du använde i föregående procedur fortfarande är vald. I åtgärdsfönstret på fliken **Arbetare** i gruppen **Kompetenser** välj **Färdigheter**.
 2. Välj **Nytt**.
 3. I fältet **Färdighet** välj **Projekthantering**.
 4. I fältet **Nivå** välj **5 Expert**.

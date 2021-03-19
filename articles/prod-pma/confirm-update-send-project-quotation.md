@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085678"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270835"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Bekräfta, uppdatera och skicka en projektoffert
 
@@ -38,8 +38,8 @@ Du kan skicka en befintlig projektoffert för bekräftelse via e-post eller som 
 1. Gå till **Projektledning och redovisning** > **Offerter** > **Projektoffert**. 
 2. På sidan **Projektoffert** väljer du den offert du vill skicka för bekräftelse. 
 3. Under fliken **Följa upp** i gruppen **Generera** väljer du **Bekräfta**. 
-4. På sidan **Bekräfta offert** anger du nödvändiga parametrar. Om du till exempel vill skriva ut bekräftelsen går du till alternativet **Skriv ut** , aktiverar **Skriv ut bekräftelse** och väljer sedan **OK**.
-5. På sidan **Skicka offert** väljer du **Alternativ** och på sidan **Inställningar för utskriftsdestination** väljer du om du vill att offerten skickas till **Skärm** , **E-post** , **Fil** , **Utskriftsarkiv** eller **Skrivare** , och sedan gör du eventuella justeringar i området **Specifikation** för att dirigera offerten.
+4. På sidan **Bekräfta offert** anger du nödvändiga parametrar. Om du till exempel vill skriva ut bekräftelsen går du till alternativet **Skriv ut**, aktiverar **Skriv ut bekräftelse** och väljer sedan **OK**.
+5. På sidan **Skicka offert** väljer du **Alternativ** och på sidan **Inställningar för utskriftsdestination** väljer du om du vill att offerten skickas till **Skärm**, **E-post**, **Fil**, **Utskriftsarkiv** eller **Skrivare**, och sedan gör du eventuella justeringar i området **Specifikation** för att dirigera offerten.
 6. På sidan **Inställningar för utskriftsdestination** väljer du **OK**.  
 
 ## <a name="update-a-project-quotation"></a>Uppdatera en projektoffert

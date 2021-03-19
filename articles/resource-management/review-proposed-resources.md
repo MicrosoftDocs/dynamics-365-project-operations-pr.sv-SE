@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401195"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279295"
 ---
 # <a name="review-proposed-resources"></a>Granska föreslagna resurser
 
@@ -58,7 +58,7 @@ I schemaläggningstavlan används färger och fyllning för att visa bokningar, 
 
 Om en högerriktad pil visas bredvid en enskild bokningsbar resurs på schemaläggningstavlan kan resursen expanderas så att den innehåller information om det arbete som resursen är bokad på.
 
-Eftersom Dynamics 365 Project Operation använder Universal Resource Scheduling-motorn, om du även har Dynamics 365 Field Service installerat kan du visa information om resursbokningar för projekt, arbetsorder och andra entiteter som du har utvidgat schemaläggning till.
+Eftersom Dynamics 365 Project Operations använder Universal Resource Scheduling-motorn, om du även har Dynamics 365 Field Service installerat kan du visa information om resursbokningar för projekt, arbetsorder och andra entiteter som du har utvidgat schemaläggning till.
 
 Om du vill visa mer information om en enskild resurs högerklickar du på den så att resurskortet öppnas.
 

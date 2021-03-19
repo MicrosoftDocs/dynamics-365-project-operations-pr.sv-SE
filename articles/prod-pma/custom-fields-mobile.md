@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085594"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271015"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementera anpassade fält för Microsoft Dynamics 365 Project Timesheet mobilappen på iOS och Android
 
@@ -42,7 +42,7 @@ Den här ämne är avsedd för utvecklare som integrerar sina anpassade fält i 
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datakontrakt – TSTimesheetCustomField X++ klass
 
-**TSTimesheetCustomField** -klassen är X++ datakontraktsklassen som representerar information om ett anpassat fält för tidrapportfunktioner. Listorna över de anpassade fältvärdena skickas både i TSTimesheetDetails datakontrakt och TSTimesheetEntry för att visa anpassade fält i mobilappen.
+**TSTimesheetCustomField**-klassen är X++ datakontraktsklassen som representerar information om ett anpassat fält för tidrapportfunktioner. Listorna över de anpassade fältvärdena skickas både i TSTimesheetDetails datakontrakt och TSTimesheetEntry för att visa anpassade fält i mobilappen.
 
 - **TSTimesheetDetails** – kontrakt för tidrapporthuvud.
 - **TSTimesheetEntry** – kontrakt för tidrapporttransaktion. Grupper med dessa objekt som har samma projektinformation och värdet **timesheetLineRecId** utgör en rad.
@@ -179,9 +179,9 @@ Nedan visas en skärmbild från Visual Studio av appens objektträdet. Den visar
 
 Den här koden styr bildskärmsinställningarna för fältet i appen. Till exempel styr den typen av fält, etiketten, om fältet är obligatoriskt och vilket avsnitt fältet visas i.
 
-I följande exempel visas ett sträng fält i tidposter. Det här fältet har två alternativ **Första alternativet** och **Andra alternativet** , som är tillgängliga via alternativknappar (radioknappar). Fältet i appen är associerat med fältet **TestLineString** som läggs till i tabellen TSTimesheetLine.
+I följande exempel visas ett sträng fält i tidposter. Det här fältet har två alternativ **Första alternativet** och **Andra alternativet**, som är tillgängliga via alternativknappar (radioknappar). Fältet i appen är associerat med fältet **TestLineString** som läggs till i tabellen TSTimesheetLine.
 
-Observera att användningen av metoden **TSTimesheetCustomField::newFromMetatdata()** för att förenkla initieringen av de anpassade fältegenskaperna: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** och **numberOfDecimals**. Du kan även ange dessa parametrar manuellt, som du vill.
+Observera att användningen av metoden **TSTimesheetCustomField::newFromMetatdata()** för att förenkla initieringen av de anpassade fältegenskaperna: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** och **numberOfDecimals**. Du kan även ange dessa parametrar manuellt, som du vill.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Befintlig logik för tidrapportfunktioner på databasnivå fungerar fortfarande 
 
 - Om **validateWrite** i TSTimesheetLine-tabellen returnerar **falsk** under en spara-åtgärd för en tidrapportrad visas ett felmeddelande i mobilappen.
 - Om **validateSubmit** i TSTimesheetTable-tabellen returnerar **falsk** under inlämning av tidrapport i appen visas ett felmeddelande för användaren.
-- Logik som fyller i fält (till exempel **radegenskap** ) under metoden **infoga** på TSTimesheetLine-tabellen, körs fortfarande.
+- Logik som fyller i fält (till exempel **radegenskap**) under metoden **infoga** på TSTimesheetLine-tabellen, körs fortfarande.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Dölja och markera färdiga fält som är skrivskyddade via konfiguration
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085705"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270880"
 ---
 # <a name="create-a-project-team"></a>Skapa ett projektteam
 
 [!include [banner](../includes/banner.md)]
 
-För att du ska kunna använda rollerna som har ställts in tidigare i ett projekt måste en projektledare associera rollerna med projektet. Flera roller kan tilldelas för ett projekt. För att undvika förvirring märks rollerna automatiskt under reservation. Om projektledaren t.ex. kräver tre programmerare är det tre programmerare som har **programmerare 1** , **programmerare 2** och **programmerare 3** när deras etiketter genereras automatiskt. Om rollegenskaperna tidigare har angetts för rollen används de som ett filter vid sökning efter en resurs. Ytterligare kännetecken kan läggas till som krävs för att sökningen ska kunna förfinas ytterligare.
+För att du ska kunna använda rollerna som har ställts in tidigare i ett projekt måste en projektledare associera rollerna med projektet. Flera roller kan tilldelas för ett projekt. För att undvika förvirring märks rollerna automatiskt under reservation. Om projektledaren t.ex. kräver tre programmerare är det tre programmerare som har **programmerare 1**, **programmerare 2** och **programmerare 3** när deras etiketter genereras automatiskt. Om rollegenskaperna tidigare har angetts för rollen används de som ett filter vid sökning efter en resurs. Ytterligare kännetecken kan läggas till som krävs för att sökningen ska kunna förfinas ytterligare.
 
 Vyinställningar kan också anpassas så att du får en bättre bild av resurstillgängligheten. Det finns alternativ för att visa tim-, dygns-, vecko-, månads-, kvartals- och årstillgänglighet. Det finns även ett alternativ för att visa tillgänglig och återstående kapacitet för resurser. Det här alternativet är användbart vid tidshantering när du uppskattar tillgänglig tid för aktiviteter eller resurstillgänglighet.
 
@@ -37,7 +37,7 @@ Projektledaren kan välja en roll på sidan och om det finns en tillgänglig res
 
 [![Projektteamlistor som innehåller både roller och faktiska resurser](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Projektledaren har olika alternativ för att boka en resurs för ett projekt, till exempel **återstående kapacitet** , **full kapacitet** , **kapacitetsprocent** och **ange timmar**. De här bokningsalternativen kan när som helst annulleras om resurstilldelningar ändras. Två typer av bokningar stöds:
+Projektledaren har olika alternativ för att boka en resurs för ett projekt, till exempel **återstående kapacitet**, **full kapacitet**, **kapacitetsprocent** och **ange timmar**. De här bokningsalternativen kan när som helst annulleras om resurstilldelningar ändras. Två typer av bokningar stöds:
 
 - **Fast bokning** – resursreservationen har godkänts och bekräftats för att arbeta med åtagandet för den angivna varaktigheten.
 - **Mjuk bokning** – resursreservationerna har godkänts och preliminärt angetts till att arbeta med åtagandet för den angivna varaktigheten.
@@ -61,7 +61,7 @@ Följande procedur förklarar hur du skapar ett projektteam.
 
 ## <a name="monitor-project-teams"></a>Övervaka projektteam
 1. På sidan **All projekt** välj länken **projekt-ID** för projekt **XYZ uppgradering fas 2**.
-2. Snabbflik **Projektgrupp och schemaläggning** , verifiera att de projektresurser som anges är korrekta.
+2. Snabbflik **Projektgrupp och schemaläggning**, verifiera att de projektresurser som anges är korrekta.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273850"
 ---
 # <a name="confirm-a-project-contract"></a>Bekräfta ett projektkontrakt
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Ett projektkontrakt i Dynamics 365 Project Operations kan aktiveras som **Bekräftat** eller stängas som **Förlorat**. När du bekräftar ett projektkontrakt uppdateras statusen från **Utkast** till **Aktiv** och statusorsaken är **Bekräftat**. Ett aktivt eller stängt kontrakt kan inte redigeras eller öppnas på nytt. 
+Ett projektkontrakt i Dynamics 365 Project Operations kan vara aktivt på grund av **Bekräftad** eller stängs med orsaken **Förlorad**. När du bekräftar ett projektkontrakt uppdateras statusen från **Utkast** till **Aktiv** och statusorsaken är **Bekräftat**. Ett aktivt eller stängt kontrakt kan inte redigeras eller öppnas på nytt. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Ekonomiska följder av att bekräfta ett projektkontrakt
 
@@ -34,7 +34,7 @@ När du stänger ett projektkontrakt som förlorat uppdateras kontraktets status
 Om projektkontraktet som stängs som förlorat refererar ett projekt på dess rader markeras det projektet som stängt. Eventuella resursbokningar från den dagen framåt annulleras. Eventuella ofakturerade faktiska värden för försäljning i projektkontraktet som inte redan finns på en faktura återförs.
 
 > [!NOTE]
-> Om du stänger ett projektkontrakt som förlorat påverkas inte statusen för den associerade affärsmöjligheten i Dynamics 365 Project Operations. Affärsmöjligheten förblir öppen och måste stängas manuellt.
+> I Dynamics 365 Project Operations om du stänger ett projektkontrakt som förlorat påverkar inte detta status för den associerade affärsmöjligheten. Affärsmöjligheten förblir öppen och måste stängas manuellt.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Enheter och enhetsgrupper
-description: I den här ämne finns information om hur du skapar enheter och enhetsgrupper i Project Operations i Dynamics 365.
+description: Det här avsnittet innehåller information om hur du skapar enheter och enhetsgrupper i Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 162366f4b7aa678b4e39d9745a657037bf36cbe0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131050"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277360"
 ---
 # <a name="units-and-unit-groups"></a>Enheter och enhetsgrupper
 
