@@ -8,56 +8,59 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1589cf82626e744d35f31fef8e8437a5ad71360d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123805"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276145"
 ---
-# <a name="set-up-expense-categories"></a><span data-ttu-id="289c7-103">Konfigurera utgiftskategorier</span><span class="sxs-lookup"><span data-stu-id="289c7-103">Set up expense categories</span></span>
+# <a name="set-up-expense-categories"></a><span data-ttu-id="d186a-103">Konfigurera utgiftskategorier</span><span class="sxs-lookup"><span data-stu-id="d186a-103">Set up expense categories</span></span>
 
-<span data-ttu-id="289c7-104">_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_</span><span class="sxs-lookup"><span data-stu-id="289c7-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="d186a-104">_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_</span><span class="sxs-lookup"><span data-stu-id="d186a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="289c7-105">När medarbetarna skapar utgiftsrapporter måste varje utgiftspost vara associerad med en utgiftskategori.</span><span class="sxs-lookup"><span data-stu-id="289c7-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="289c7-106">Utgiftskategorier härleds från delade kategorier som kan delas av alla juridiska entiteter i organisationen.</span><span class="sxs-lookup"><span data-stu-id="289c7-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="289c7-107">Beroende på hur organisationen har definierats kan de här utgiftskategorierna även delas i andra områden.</span><span class="sxs-lookup"><span data-stu-id="289c7-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="289c7-108">Baserat på definitionen av din organisation och vägledning från implementeringsteamet måste du avgöra om kategorierna som används i utgiftshantering endast ska användas i utgifts hantering eller delas i andra områden.</span><span class="sxs-lookup"><span data-stu-id="289c7-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
+<span data-ttu-id="d186a-105">När medarbetarna skapar utgiftsrapporter måste varje utgiftspost vara associerad med en utgiftskategori.</span><span class="sxs-lookup"><span data-stu-id="d186a-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="d186a-106">Utgiftskategorier härleds från delade kategorier som kan delas av alla juridiska entiteter i organisationen.</span><span class="sxs-lookup"><span data-stu-id="d186a-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="d186a-107">Beroende på hur organisationen har definierats kan de här utgiftskategorierna även delas i andra områden.</span><span class="sxs-lookup"><span data-stu-id="d186a-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="d186a-108">Baserat på definitionen av din organisation och vägledning från implementeringsteamet måste du avgöra om kategorierna som används i utgiftshantering endast ska användas i utgifts hantering eller delas i andra områden.</span><span class="sxs-lookup"><span data-stu-id="d186a-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="289c7-109">Dessa kategorier kan delas mellan projekthantering och redovisnings- och utgiftshantering, eller mellan projekthantering och redovisning och produktion.</span><span class="sxs-lookup"><span data-stu-id="289c7-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="289c7-110">De kan emellertid inte delas mellan utgiftshantering och produktion.</span><span class="sxs-lookup"><span data-stu-id="289c7-110">However, they can't be shared between Expense management and Production.</span></span>
+> <span data-ttu-id="d186a-109">Dessa kategorier kan delas mellan projekthantering och redovisnings- och utgiftshantering, eller mellan projekthantering och redovisning och produktion.</span><span class="sxs-lookup"><span data-stu-id="d186a-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="d186a-110">De kan emellertid inte delas mellan utgiftshantering och produktion.</span><span class="sxs-lookup"><span data-stu-id="d186a-110">However, they can't be shared between Expense management and Production.</span></span>
 
-<span data-ttu-id="289c7-111">Innan du kan börja konfigurationsprocessen måste följande beslut göras för varje utgiftskategori:</span><span class="sxs-lookup"><span data-stu-id="289c7-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
+<span data-ttu-id="d186a-111">Innan du kan börja konfigurationsprocessen måste följande beslut göras för varje utgiftskategori:</span><span class="sxs-lookup"><span data-stu-id="d186a-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
 
-- <span data-ttu-id="289c7-112">Vilken är utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="289c7-112">What is the expense category?</span></span> <span data-ttu-id="289c7-113">Exempel är kategorier för flygningar, hotell och sträcka.</span><span class="sxs-lookup"><span data-stu-id="289c7-113">Examples include categories for flights, hotel, or mileage.</span></span>
-- <span data-ttu-id="289c7-114">Kan utgiftskategorin också användas i projekthantering och redovisning?</span><span class="sxs-lookup"><span data-stu-id="289c7-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="289c7-115">Om den kan det måste du också fatta följande beslut:</span><span class="sxs-lookup"><span data-stu-id="289c7-115">If it can, you must also make the following decisions:</span></span>
+- <span data-ttu-id="d186a-112">Vilken är utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="d186a-112">What is the expense category?</span></span> <span data-ttu-id="d186a-113">Exempel är kategorier för flygningar, hotell och sträcka.</span><span class="sxs-lookup"><span data-stu-id="d186a-113">Examples include categories for flights, hotel, or mileage.</span></span>
+- <span data-ttu-id="d186a-114">Kan utgiftskategorin också användas i projekthantering och redovisning?</span><span class="sxs-lookup"><span data-stu-id="d186a-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="d186a-115">Om den kan det måste du också fatta följande beslut:</span><span class="sxs-lookup"><span data-stu-id="d186a-115">If it can, you must also make the following decisions:</span></span>
 
-    - <span data-ttu-id="289c7-116">Vilka kostnadskonton ska användas för följande utgifter?</span><span class="sxs-lookup"><span data-stu-id="289c7-116">Which cost accounts will be used for the following expenses?</span></span>
+    - <span data-ttu-id="d186a-116">Vilka kostnadskonton ska användas för följande utgifter?</span><span class="sxs-lookup"><span data-stu-id="d186a-116">Which cost accounts will be used for the following expenses?</span></span>
 
-        - <span data-ttu-id="289c7-117">Kostnad</span><span class="sxs-lookup"><span data-stu-id="289c7-117">Cost</span></span>
-        - <span data-ttu-id="289c7-118">Löneallokering</span><span class="sxs-lookup"><span data-stu-id="289c7-118">Payroll allocation</span></span>
-        - <span data-ttu-id="289c7-119">PIA-kostnadsvärde</span><span class="sxs-lookup"><span data-stu-id="289c7-119">WIP-cost value</span></span>
-        - <span data-ttu-id="289c7-120">Kostnadsartikel</span><span class="sxs-lookup"><span data-stu-id="289c7-120">Cost-item</span></span>
-        - <span data-ttu-id="289c7-121">PIA-kostnad värdeartikel</span><span class="sxs-lookup"><span data-stu-id="289c7-121">WIP-cost value-item</span></span>
-        - <span data-ttu-id="289c7-122">Upplupen förlust</span><span class="sxs-lookup"><span data-stu-id="289c7-122">Accrued loss</span></span>
-        - <span data-ttu-id="289c7-123">PIA, upplupen förlust</span><span class="sxs-lookup"><span data-stu-id="289c7-123">WIP-accrued loss</span></span>
+        - <span data-ttu-id="d186a-117">Kostnad</span><span class="sxs-lookup"><span data-stu-id="d186a-117">Cost</span></span>
+        - <span data-ttu-id="d186a-118">Löneallokering</span><span class="sxs-lookup"><span data-stu-id="d186a-118">Payroll allocation</span></span>
+        - <span data-ttu-id="d186a-119">PIA-kostnadsvärde</span><span class="sxs-lookup"><span data-stu-id="d186a-119">WIP-cost value</span></span>
+        - <span data-ttu-id="d186a-120">Kostnadsartikel</span><span class="sxs-lookup"><span data-stu-id="d186a-120">Cost-item</span></span>
+        - <span data-ttu-id="d186a-121">PIA-kostnad värdeartikel</span><span class="sxs-lookup"><span data-stu-id="d186a-121">WIP-cost value-item</span></span>
+        - <span data-ttu-id="d186a-122">Upplupen förlust</span><span class="sxs-lookup"><span data-stu-id="d186a-122">Accrued loss</span></span>
+        - <span data-ttu-id="d186a-123">PIA, upplupen förlust</span><span class="sxs-lookup"><span data-stu-id="d186a-123">WIP-accrued loss</span></span>
 
-    - <span data-ttu-id="289c7-124">Vilka intäktskonton ska användas för följande intäktskällor?</span><span class="sxs-lookup"><span data-stu-id="289c7-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
+    - <span data-ttu-id="d186a-124">Vilka intäktskonton ska användas för följande intäktskällor?</span><span class="sxs-lookup"><span data-stu-id="d186a-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
 
-        - <span data-ttu-id="289c7-125">Fakturerad intäkt</span><span class="sxs-lookup"><span data-stu-id="289c7-125">Invoiced revenue</span></span>
-        - <span data-ttu-id="289c7-126">Upplupna intäkter – försäljningsvärde</span><span class="sxs-lookup"><span data-stu-id="289c7-126">Accrued revenue-sales value</span></span>
-        - <span data-ttu-id="289c7-127">Pia – försäljningsvärde</span><span class="sxs-lookup"><span data-stu-id="289c7-127">WIP-sales value</span></span>
-        - <span data-ttu-id="289c7-128">Upplupna intäkter – produktion</span><span class="sxs-lookup"><span data-stu-id="289c7-128">Accrued revenue-production</span></span>
-        - <span data-ttu-id="289c7-129">PIA – Produktion</span><span class="sxs-lookup"><span data-stu-id="289c7-129">WIP-production</span></span>
-        - <span data-ttu-id="289c7-130">Upplupna intäkter – vinst</span><span class="sxs-lookup"><span data-stu-id="289c7-130">Accrued revenue-profit</span></span>
-        - <span data-ttu-id="289c7-131">PIA – vinst</span><span class="sxs-lookup"><span data-stu-id="289c7-131">WIP-profit</span></span>
-        - <span data-ttu-id="289c7-132">Upplupna intäkter – prenumeration</span><span class="sxs-lookup"><span data-stu-id="289c7-132">Accrued revenue-subscription</span></span>
-        - <span data-ttu-id="289c7-133">PIA-prenumeration</span><span class="sxs-lookup"><span data-stu-id="289c7-133">WIP-subscription</span></span>
+        - <span data-ttu-id="d186a-125">Fakturerad intäkt</span><span class="sxs-lookup"><span data-stu-id="d186a-125">Invoiced revenue</span></span>
+        - <span data-ttu-id="d186a-126">Upplupna intäkter – försäljningsvärde</span><span class="sxs-lookup"><span data-stu-id="d186a-126">Accrued revenue-sales value</span></span>
+        - <span data-ttu-id="d186a-127">Pia – försäljningsvärde</span><span class="sxs-lookup"><span data-stu-id="d186a-127">WIP-sales value</span></span>
+        - <span data-ttu-id="d186a-128">Upplupna intäkter – produktion</span><span class="sxs-lookup"><span data-stu-id="d186a-128">Accrued revenue-production</span></span>
+        - <span data-ttu-id="d186a-129">PIA – Produktion</span><span class="sxs-lookup"><span data-stu-id="d186a-129">WIP-production</span></span>
+        - <span data-ttu-id="d186a-130">Upplupna intäkter – vinst</span><span class="sxs-lookup"><span data-stu-id="d186a-130">Accrued revenue-profit</span></span>
+        - <span data-ttu-id="d186a-131">PIA – vinst</span><span class="sxs-lookup"><span data-stu-id="d186a-131">WIP-profit</span></span>
+        - <span data-ttu-id="d186a-132">Upplupna intäkter – prenumeration</span><span class="sxs-lookup"><span data-stu-id="d186a-132">Accrued revenue-subscription</span></span>
+        - <span data-ttu-id="d186a-133">PIA-prenumeration</span><span class="sxs-lookup"><span data-stu-id="d186a-133">WIP-subscription</span></span>
 
-- <span data-ttu-id="289c7-134">Vilken är utgiftstypen?</span><span class="sxs-lookup"><span data-stu-id="289c7-134">What is the expense type?</span></span>
-- <span data-ttu-id="289c7-135">Vilken är standardbetalningsmetoden för utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="289c7-135">What is the default payment method for the expense category?</span></span>
-- <span data-ttu-id="289c7-136">Måste utgifter i utgiftskategorin specificeras?</span><span class="sxs-lookup"><span data-stu-id="289c7-136">Do expenses in the expense category have to be itemized?</span></span>
-- <span data-ttu-id="289c7-137">Vilken är det huvudsakliga standardkontot utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="289c7-137">What is the main default account for the expense category?</span></span>
-- <span data-ttu-id="289c7-138">Vad är standardmomsgruppen för utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="289c7-138">What is the default item sales tax group for the expense category?</span></span>
-- <span data-ttu-id="289c7-139">Är fler betalningsmetoder tillåtna i utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="289c7-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="289c7-140">Vilka är dessa i så fall?</span><span class="sxs-lookup"><span data-stu-id="289c7-140">If so, what are they?</span></span>
-- <span data-ttu-id="289c7-141">Finns det några underkategorier i den här utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="289c7-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="289c7-142">Om det finns underkategorier måste du också fatta följande beslut:</span><span class="sxs-lookup"><span data-stu-id="289c7-142">If there are subcategories, you must also make the following decisions:</span></span>
+- <span data-ttu-id="d186a-134">Vilken är utgiftstypen?</span><span class="sxs-lookup"><span data-stu-id="d186a-134">What is the expense type?</span></span>
+- <span data-ttu-id="d186a-135">Vilken är standardbetalningsmetoden för utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="d186a-135">What is the default payment method for the expense category?</span></span>
+- <span data-ttu-id="d186a-136">Måste utgifter i utgiftskategorin specificeras?</span><span class="sxs-lookup"><span data-stu-id="d186a-136">Do expenses in the expense category have to be itemized?</span></span>
+- <span data-ttu-id="d186a-137">Vilken är det huvudsakliga standardkontot utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="d186a-137">What is the main default account for the expense category?</span></span>
+- <span data-ttu-id="d186a-138">Vad är standardmomsgruppen för utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="d186a-138">What is the default item sales tax group for the expense category?</span></span>
+- <span data-ttu-id="d186a-139">Är fler betalningsmetoder tillåtna i utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="d186a-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="d186a-140">Vilka är dessa i så fall?</span><span class="sxs-lookup"><span data-stu-id="d186a-140">If so, what are they?</span></span>
+- <span data-ttu-id="d186a-141">Finns det några underkategorier i den här utgiftskategorin?</span><span class="sxs-lookup"><span data-stu-id="d186a-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="d186a-142">Om det finns underkategorier måste du också fatta följande beslut:</span><span class="sxs-lookup"><span data-stu-id="d186a-142">If there are subcategories, you must also make the following decisions:</span></span>
 
-    - <span data-ttu-id="289c7-143">Har någon av underkategorierna exkluderats från momsåterbetalning?</span><span class="sxs-lookup"><span data-stu-id="289c7-143">Are any of the subcategories excluded from tax recovery?</span></span>
-    - <span data-ttu-id="289c7-144">Vad är momsgruppen för underkategorierna?</span><span class="sxs-lookup"><span data-stu-id="289c7-144">What is the item sales tax group of the subcategories?</span></span>
+    - <span data-ttu-id="d186a-143">Har någon av underkategorierna exkluderats från momsåterbetalning?</span><span class="sxs-lookup"><span data-stu-id="d186a-143">Are any of the subcategories excluded from tax recovery?</span></span>
+    - <span data-ttu-id="d186a-144">Vad är momsgruppen för underkategorierna?</span><span class="sxs-lookup"><span data-stu-id="d186a-144">What is the item sales tax group of the subcategories?</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
