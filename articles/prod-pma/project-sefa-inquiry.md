@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288986"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Tidsplan för utgifter för en förfrågan om federala beviljanden
 
@@ -62,13 +62,13 @@ Du måste konfigurera de CFDA-nummer som kan läggas till i anslag och inkludera
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Ställ in anslag som ska rapporteras för tidsplanen för utgifter för en förfrågan om federala beviljanden
 
 1. Gå till **Projektledning och redovisning \> Anslag \> Anslag** och välj ett befintligt anslag.
-2. Under snabbfliken **Konfiguration** , i fältet **Katalog med federalt inhemskt stöd** , tilldelar du CFDA-numret. CFDA-numret för anslaget avgör CFDA-klustret för rapportering.
+2. Under snabbfliken **Konfiguration**, i fältet **Katalog med federalt inhemskt stöd**, tilldelar du CFDA-numret. CFDA-numret för anslaget avgör CFDA-klustret för rapportering.
 3. Under snabbfliken **Kontaktinformation** anger du information om tilldelaren genom att följa dessa steg:
 
     1. I fältet **Anslagets kund** anger du den kund som är ansvarig för anslaget. För ett befintligt anslag kan den här informationen redan finnas.
     2. Ange om anslagskunden är finansiären. Om anslagskunden är finansiären lämnar du kryssrutan **Direkt** omarkerad. Om en annan kund är finansiär och anslagskunden ansvarar för utgifterna och spårning av pengarna, markerar du kryssrutan **Direkt**.
 
-4. Om du markerade kryssrutan **Direkt** i föregående steg anger du, i fältet **Tilldelande organ** , den kund som tillhandahöll anslaget. Det tilldelande organet och anslagskunden kan inte vara samma kund.
+4. Om du markerade kryssrutan **Direkt** i föregående steg anger du, i fältet **Tilldelande organ**, den kund som tillhandahöll anslaget. Det tilldelande organet och anslagskunden kan inte vara samma kund.
 
 Här är ett exempel på ett direkt anslag:
 
@@ -79,8 +79,8 @@ Den federala regeringen finansierade ett infrastrukturprojekt för en delstat. D
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Exkludera anslag från SEFA-rapportering utifrån anslagstypen
 
-1. Gå till **Projektledning och redovisning \> Konfiguration \> Anslag \> Anslagstyper**.
-2. Under snabbfliken **Standardinformation** markerar du kryssrutan **Exkludera från tidsplan för utgifter för federala beviljanden**.
+1. Gå till **Projektledning och redovisning \> Konfiguration \> Anslag \> Anslagstyper**.
+2. Under snabbfliken **Standardinformation** markerar du kryssrutan **Exkludera från tidsplan för utgifter för federala beviljanden**.
 3. Välj **Spara** för att spara dina ändringar.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Kör Tidsplan för utgifter för en förfrågan om federala beviljanden

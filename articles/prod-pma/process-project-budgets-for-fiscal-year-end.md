@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085673"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289751"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Överför projektbudgetar vid räkenskapsårsslut
 
@@ -36,8 +36,8 @@ När du arbetar med ett projekt för flera år kanske du har resterande budget i
 Följ stegen nedan om du vill granska budgetbeloppen för årets slut för projekt, men inte föra beloppen framåt.
 
 1. Gå till **Projekthantering och redovisning** > **Periodisk** > **Budget** > **För budget framåt**. 
-2. På sidan **Process för att föra projektbudget framåt** , under fliken **Alternativ för årsslut** , kontrollerar du att **För återstående budgetbelopp framåt** inte har aktiverats.
-3. Under fliken **Parametrar** , i fältet **Projektbudgetår** , väljer du det räkenskapsår som du vill visa återstående budgetbelopp för. 
+2. På sidan **Process för att föra projektbudget framåt**, under fliken **Alternativ för årsslut**, kontrollerar du att **För återstående budgetbelopp framåt** inte har aktiverats.
+3. Under fliken **Parametrar**, i fältet **Projektbudgetår**, väljer du det räkenskapsår som du vill visa återstående budgetbelopp för. 
 4. I fältet **Inledande räkenskapsår** väljer du det räkenskapsår som du vill visa återstående budgetbelopp för. 
 5. I fältet **Från prognosmodell** väljer du **Återstående budget**. 
 6. Om du vill ta med projekt som uppfyller de valda villkoren och inte har någon resterande budget väljer du **Visa noll kvar**.  
@@ -57,12 +57,12 @@ När du bearbetar resterande budgetbelopp kan du skapa transaktioner i redovisni
 
 1.  Välj **Projekthantering och redovisning** > **Periodisk** > **Budget** > **För budget framåt**. 
 2. På sidan **Process för att föra projektbudget framåt** väljer du **Årsslut** och aktiverar sedan **För återstående budgetbelopp framåt** och **Skapa budgetregisterposter i redovisningen**. 
-3. Under fliken **Parametrar** , i fältgruppen **Projektparametrar** , väljer du följande:
+3. Under fliken **Parametrar**, i fältgruppen **Projektparametrar**, väljer du följande:
 
-   - **Projektbudgetår** : Välj början av räkenskapsåret för vilket du vill visa återstående budgetbelopp. 
-   - **Vinst och förlust** : Skapa vinst- och förlusttransaktioner i redovisningen. 
-   -  **PIA** : Skapa PIA-transaktioner (pågående arbete) i redovisningen.
-   -  **Lön** : Skapa löneallokeringskonton i redovisningen. 
+   - **Projektbudgetår**: Välj början av räkenskapsåret för vilket du vill visa återstående budgetbelopp. 
+   - **Vinst och förlust**: Skapa vinst- och förlusttransaktioner i redovisningen. 
+   -  **PIA**: Skapa PIA-transaktioner (pågående arbete) i redovisningen.
+   -  **Lön**: Skapa löneallokeringskonton i redovisningen. 
 
 5. I fältgruppen **Redovisning** anger du följande information: 
 
@@ -87,8 +87,8 @@ När du bearbetar resterande budgetbelopp kan du skapa transaktioner i redovisni
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Föra budgetbelopp framåt utan att skapa redovisningstransaktioner
 
 1. Gå till **Projekthantering och redovisning** > **Periodisk** > **Budget** > **För budget framåt**.
-2. På sidan **Process för att föra projektbudget framåt** , i fältet **Alternativ för årsslut** , väljer du **För återstående budgetbelopp framåt**.
-3. I gruppen **Parametrar** , i fältet **Projektbudgetår** , väljer du det räkenskapsår som du vill visa återstående budgetbelopp för.
+2. På sidan **Process för att föra projektbudget framåt**, i fältet **Alternativ för årsslut**, väljer du **För återstående budgetbelopp framåt**.
+3. I gruppen **Parametrar**, i fältet **Projektbudgetår**, väljer du det räkenskapsår som du vill visa återstående budgetbelopp för.
 4. I gruppen **Kopiera från/till** anger du följande information:
 
    - I fältet **Från prognosmodell** väljer du den prognosmodell för projektbudget som är kopplad till de resterande budgetbelopp som du vill överföra för projekten. 

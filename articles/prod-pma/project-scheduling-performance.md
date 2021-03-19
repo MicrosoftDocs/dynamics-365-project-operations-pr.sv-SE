@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289031"
 ---
 # <a name="project-resource-scheduling-performance"></a>Resultat av projektresursschemaläggning
 
@@ -54,7 +54,7 @@ Följ stegen nedan om du vill aktivera prestandaförbättringar för resursschem
  > [!NOTE]
  > Detta innebär att allmänna data distribueras till tabellen **ResCalendarCapacity** i alla företag i din miljö, så att batch-jobbet endast behöver köras i en juridisk person. Data i det här batch-jobbet behövs för att beräkna resurskapacitet via den associerade kalendern.
 
-8. Gå till **Projektledning och redovisning** > **Periodiskt** > **Projektresurser** > **Fylla i projektresurser över alla företag** och välj sedan **OK**. Detta är datauppgraderingsskriptet för allmänna data i tabellerna **ResProjectResource** , **ResCalendarDateTimeRange** och **ResEffectiveDateTimeRange**. Värden för fältet **PSAPRojSchedRole.RootActivity** uppdateras också. Om det inte körs får du en varning när du försöker köra resursplaneringsåtgärder.
+8. Gå till **Projektledning och redovisning** > **Periodiskt** > **Projektresurser** > **Fylla i projektresurser över alla företag** och välj sedan **OK**. Detta är datauppgraderingsskriptet för allmänna data i tabellerna **ResProjectResource**, **ResCalendarDateTimeRange** och **ResEffectiveDateTimeRange**. Värden för fältet **PSAPRojSchedRole.RootActivity** uppdateras också. Om det inte körs får du en varning när du försöker köra resursplaneringsåtgärder.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Inaktivera förbättrad prestanda hos resursschemaläggning
 
@@ -68,7 +68,7 @@ Följ stegen nedan om du vill aktivera prestandaförbättringar för resursschem
 8. Välj **OK**.
 
 > [!NOTE]
-> Detta innebär att allmänna data distribueras till tabellen **ResRollup** i alla företag i din miljö, så att batch-jobbet endast behöver köras i en juridisk person. Det här batch-jobbet krävs för alla vyer i **Resurstillgänglighet**. Om det här batch-jobbet inte körs kommer **ResRollup** -data att skapas i farten, vilket kan ta tid.
+> Detta innebär att allmänna data distribueras till tabellen **ResRollup** i alla företag i din miljö, så att batch-jobbet endast behöver köras i en juridisk person. Det här batch-jobbet krävs för alla vyer i **Resurstillgänglighet**. Om det här batch-jobbet inte körs kommer **ResRollup**-data att skapas i farten, vilket kan ta tid.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

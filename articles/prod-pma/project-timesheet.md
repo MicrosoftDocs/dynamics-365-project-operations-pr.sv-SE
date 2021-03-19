@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288851"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilapp för projekt tidsrapport
 
@@ -39,7 +39,7 @@ Hämta och installera Microsoft Dynamics 365 Project Timesheet mobilappen för A
 
 ## <a name="enable-the-app"></a>Aktivera appen 
 
-I Finance måste mobilappen för projekt tidrapport vara aktiverad. För att aktivera funktionaliteten, gå till **Projektledning och redovisningsparametrar \> Tidsrapport** och välj **Aktivera Microsoft Dynamics 365 Project Timesheet** -parameter.
+I Finance måste mobilappen för projekt tidrapport vara aktiverad. För att aktivera funktionaliteten, gå till **Projektledning och redovisningsparametrar \> Tidsrapport** och välj **Aktivera Microsoft Dynamics 365 Project Timesheet**-parameter.
 
 ## <a name="sign-in-to-the-app"></a>Logga in på appen
 
@@ -53,10 +53,10 @@ I Finance måste mobilappen för projekt tidrapport vara aktiverad. För att akt
 
 ## <a name="submit-a-project-timesheet"></a>Skicka ett projekttidrapport
 
-Du kan skapa och skicka en projekttidrapport i appen. Du kan basera en ny tidrapport på information från en tidigare tidrapport, sparade rader eller projekttilldelningar. Om du är utsedd till ombud kan du även ange en tidrapport för en annan arbetare. Om du vill skapa en tidrapport som ombud väljer du **meny** -knappen och väljer sedan ett resursnamn.
+Du kan skapa och skicka en projekttidrapport i appen. Du kan basera en ny tidrapport på information från en tidigare tidrapport, sparade rader eller projekttilldelningar. Om du är utsedd till ombud kan du även ange en tidrapport för en annan arbetare. Om du vill skapa en tidrapport som ombud väljer du **meny**-knappen och väljer sedan ett resursnamn.
 
 På tidrapport sidan skapas en ny tidrapport för tidrapport perioden utifrån det aktuella datumet. Arbetsveckan är det namn som visas. Om tidrapport perioden omfattar flera veckor kan du välja en annan arbetsvecka från flikarna arbetsvecka.
-Om det finns en tidrapport för det innevarande datumet visas den. Om du behöver skapa en ny tidrapport i en annan tidrapport period markerar du **meny** -knappen och väljer sedan **ny tidrapport**.
+Om det finns en tidrapport för det innevarande datumet visas den. Om du behöver skapa en ny tidrapport i en annan tidrapport period markerar du **meny**-knappen och väljer sedan **ny tidrapport**.
 
 Du kan ange projektinformation genom att klicka på åtgärden **Lägg till tid** eller **Kopiera tid från**. Med åtgärden **Kopiera tid från** kopieras projektrad information men inte från timmarna. Menyn **Kopiera tid** innehåller följande alternativ:
 
@@ -76,7 +76,7 @@ I fältet **Projekt** välj det projekt som du anger tid för. Fältet **Kund** 
 
 Med sökningarna för kund och projekt kan du aktivera sökning i både kunder och projekt.
 
-Välj information i fältet **kategori** , **aktivitet** , **radegenskap** , **momsgrupp** och **artikelmomsgrupp** efter behov. Fälten kan åsidosättas.
+Välj information i fältet **kategori**, **aktivitet**, **radegenskap**, **momsgrupp** och **artikelmomsgrupp** efter behov. Fälten kan åsidosättas.
 
 Värdet **Radegenskap** kommer att ställas in till ett standardvärde baserat på projektledning och redovisningsparametrar. När parametrarna projekt/kategori och kategori/resurs har aktiveras ändras värdet **radegenskap** till det standardvärde som du har angett för valideringen. När projekt/kategori och kategori/resursparametrar inte är aktiverade värdet **Radegenskap** egenskapen radegenskap i fält **Aktivera standardradegenskap** sidan **Projektledning och redovisningsparametrar**. Värdet **Line egenskapen** kan åsidosättas.
 
@@ -95,7 +95,7 @@ Klicka på **Skicka** för att skicka tid rapporten till godkännande arbetsflö
 
 ## <a name="review-timesheets"></a>Granska tidrapporter
 
-En lista över de tidrapporter som måste granskas visas på menyn. Det här alternativet är bara tillgängligt om du har angetts som godkännande för arbetsflödet. Både rubrik och rad godkännande stöds. Med godkännande av radnivå kan du markera en eller flera rader för godkännande. När du har granskat tid rapport informationen klickar du på **godkänn** , **delegera** eller **återgå** för att fortsätta arbetsflödet.
+En lista över de tidrapporter som måste granskas visas på menyn. Det här alternativet är bara tillgängligt om du har angetts som godkännande för arbetsflödet. Både rubrik och rad godkännande stöds. Med godkännande av radnivå kan du markera en eller flera rader för godkännande. När du har granskat tid rapport informationen klickar du på **godkänn**, **delegera** eller **återgå** för att fortsätta arbetsflödet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

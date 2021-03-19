@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085721"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289391"
 ---
 # <a name="project-grants"></a>Projektanslag
 
@@ -42,7 +42,7 @@ Du kan skapa ett anslag genom att ange alla detaljer i en ny post, eller så kan
 
 1. Gå till **Projektledning och redovisning** \> **Anslag** \> **Anslag**.
 2. Välj **Nytt** \> **Anslag**.
-3. På sidan med anslagsinformation, under snabbfliken **Allmänt** , i fältet **Anslags-ID** , ange en alfanumerisk identifierare för anslaget.
+3. På sidan med anslagsinformation, under snabbfliken **Allmänt**, i fältet **Anslags-ID**, ange en alfanumerisk identifierare för anslaget.
 4. I fältet **Anslagsnamn** anger du ett namn på anslaget.
 5. I fälet **Beskrivning** lägger du till information om det nya anslaget.
 

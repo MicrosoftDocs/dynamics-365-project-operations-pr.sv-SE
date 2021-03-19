@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122365"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287755"
 ---
 # <a name="manage-the-billing-backlog"></a>Hantera faktureringen som släpat efter
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Dynamics 365 Project Operations har två dedikerade vyer som hjälper dig att arbeta med och hantera faktureringseftersläpning. De är **Milstolpar med fast pris** och **Eftersläpad fakturering av tid och material**. För att välja en vy går du till området **Försäljning** i Project Operations och väljer **Fakturering** i vänster navigeringsfönster. Länkar för faktureringseftersläpning lagras här.
+Dynamics 365 Project Operations innehåller två dedikerade vyer för att hjälpa dig att arbeta med och hantera förväntad fakturering. De är **Milstolpar med fast pris** och **Eftersläpad fakturering av tid och material**. För att välja en vy går du till området **Försäljning** i Project Operations och väljer **Fakturering** i vänster navigeringsfönster. Länkar för faktureringseftersläpning lagras här.
 
 ## <a name="fixed-price-milestones"></a>Milstolpar med fast pris
 

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b16ed50584b2b4535d1c61fe7069708182a4820e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288356"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigurera standardkostnader för arbete och utgifter
 
@@ -38,7 +38,7 @@ I det här ämnet beskrivs hur du skapar standardkostnader för arbete och utgif
 6. I navigeringsfönstret går du till **moduler > projektledning och redovisning > inställning > pris > försäljningskostnad (timme)**.
 7. Välj **Nytt**.
 8. I fältet **Effektivt datum** anger du ett datum.
-9. I fältet **Giltig för** , välj ett alternativ.
+9. I fältet **Giltig för**, välj ett alternativ.
 10. I fältet **Prissättning** anger du ett nummer. Du kan ange ett standard försäljningspris för timtransaktioner eller för en projektkategori. Du kan också ange försäljningspriser efter arbetsnummer, projektnummer, kategori, transaktionsdatum eller någon kombination av dessa. Det faktiska försäljningspriset, som används när en arbetare registrerar en transaktion i timjournalen, är försäljningspriset på den högsta detaljnivån. Om t.ex. både ett allmänt försäljningspris och ett arbetar försäljningspris är inställda används det arbetsspecifika försäljningspriset.  
 11. Välj **Spara**.
 12. Stäng sidan.
@@ -50,7 +50,7 @@ I det här ämnet beskrivs hur du skapar standardkostnader för arbete och utgif
 18. I navigeringsfönstret går du till **moduler > projektledning och redovisning > inställning > pris > försäljningspris (utgift)**.
 19. Välj **Nytt**.
 20. I fältet **Effektivt datum** anger du ett datum.
-21. I fältet **Giltig för** , välj ett alternativ.
+21. I fältet **Giltig för**, välj ett alternativ.
 22. I fältet **Prissättning** anger du ett nummer. Det faktiska försäljningspriset, som används när en arbetare registrerar transaktioner i en utgiftsjournal, är försäljningspriset på den högsta detaljnivån. Om t.ex. både ett allmänt och ett arbetar försäljningspris är inställda används det arbetsspecifika försäljningspriset.  
 23. Välj **Spara**.
 

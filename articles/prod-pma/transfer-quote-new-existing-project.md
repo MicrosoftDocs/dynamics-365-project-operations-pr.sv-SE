@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288115"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Överföra en offert till ett projekt
 
@@ -34,7 +34,7 @@ När en projektoffert har statusen **Bekräftad** kan du överföra vissa eller 
 Följ stegen nedan för att använda guiden.
 
 1. Gå till **Projektledning och redovisning** > **Offerter** > **Projektofferter**.
-2. Välj den offert du vill överföra och under fliken **Följa upp** , i gruppen **Ändra** , välj **Överför till projekt**.
+2. Välj den offert du vill överföra och under fliken **Följa upp**, i gruppen **Ändra**, välj **Överför till projekt**.
 3. Följ guiden **Överför offert till projekt** för att koppla och överföra offerten till ett projekt.
 
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288625"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurera och använd betalning av leverantör vid betalning
 
@@ -56,8 +56,8 @@ När du ställer in PWP-villkor för ett projekt måste du ange i procent det mi
     - **Grupp** – PWP-villkor gäller för alla leverantörer i en leverantörsgrupp.
     - **Alla** – PWP-villkor gäller för alla leverantörer.
 
-4. Om du valde **Tabell** eller **Grupp** i föregående steg väljer du, i fältet **Leverantör/leverantörsgrupp** , den leverantör eller leverantörsgrupp som PWP-villkoren gäller för. Om du valde **Alla** i föregående steg går det inte att redigera fältet **Leverantör/leverantörsgrupp**.
-5. Om villkoren för leverantörskvarhållande har konfigurerats för leverantören i projektet väljer du , i fältet **Villkor för leverantörskvarhållning** , ID för regeln för kvarhållningsvillkoren.
+4. Om du valde **Tabell** eller **Grupp** i föregående steg väljer du, i fältet **Leverantör/leverantörsgrupp**, den leverantör eller leverantörsgrupp som PWP-villkoren gäller för. Om du valde **Alla** i föregående steg går det inte att redigera fältet **Leverantör/leverantörsgrupp**.
+5. Om villkoren för leverantörskvarhållande har konfigurerats för leverantören i projektet väljer du , i fältet **Villkor för leverantörskvarhållning**, ID för regeln för kvarhållningsvillkoren.
 6. I fältet **Tröskelprocentsats för PWP** anger du tröskelprocentsatsen för projektet. Procentsatsen som du anger för projektet anger det minsta belopp som kunden måste betala innan du ska betala leverantören.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Skapa en inköpsorder som innehåller PWP-villkor
@@ -69,7 +69,7 @@ När du bokför en faktura från en leverantör och leverantören omfattas av PW
 
     Alternativt kan du öppna en befintlig inköpsorder på listsidan **Alla inköpsordrar**.
 
-4. På sidan **Inköpsorder** , under snabbfliken **Inköpsorderrader** , går du igenom informationen på inköpsorderraden för leverantören. Alternativet **Betala vid betalning** väljs automatiskt och värdet i fältet **Tröskelprocentsats för PWP** kopieras automatiskt från fältet **Tröskelprocentsats för PWP** på sidan **Projekt**.
+4. På sidan **Inköpsorder**, under snabbfliken **Inköpsorderrader**, går du igenom informationen på inköpsorderraden för leverantören. Alternativet **Betala vid betalning** väljs automatiskt och värdet i fältet **Tröskelprocentsats för PWP** kopieras automatiskt från fältet **Tröskelprocentsats för PWP** på sidan **Projekt**.
 6. Om du inte vill använda PWP-villkor för leverantören för en inköpsorderrad avmarkerar du alternativet **Betala vid betalning**. I det här fallet återställs fältet **Tröskelprocentsats för PWP** på inköpsorderraden till 0 (noll).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Uppdatera en kundbetalning och betala leverantören
@@ -77,7 +77,7 @@ När du bokför en faktura från en leverantör och leverantören omfattas av PW
 När en leverantör har avslutat arbetet med ett projekt och skickar en faktura till dig måste du granska projektstatus och kundfakturor för att avgöra om PWP-villkoren har uppfyllts för projektet. Om PWP-villkoren för leverantören uppfylls kan du avgöra vilka rader på leverantörsfakturan som ska betalas, utifrån kundbetalningarna för projektet. Om du bestämmer dig för att betala leverantören även om PWP-villkoren inte uppfylls kan du åsidosätta PWP-villkoren på sidan **Leverantörsfaktura med betala vid betalning**.
 
 1. Gå till **Projektledning och redovisning** \> **Frågor och rapporter** \> **Frågor om kvarhållning** \> **Leverantörsfaktura med betala vid betalning**.
-2. På sidan **Leverantörsfaktura med betala vid betalning** , i sökfältet, anger du värden för att söka efter den leverantörsfaktura du vill granska, och väljer sedan **Sök**.
+2. På sidan **Leverantörsfaktura med betala vid betalning**, i sökfältet, anger du värden för att söka efter den leverantörsfaktura du vill granska, och väljer sedan **Sök**.
 3. Under snabbfliken **Leverantörsfakturarader** väljer du de rader du vill ändra.
 4. Om villkoren för **Betala vid betalning** uppfylls för fakturaraden väljer du **Släpp leverantörsbetalning**. Alternativet **Betala vid betalning** rensas och värdet i fältet **Klar för betalning** ändras till **Ja**.
 

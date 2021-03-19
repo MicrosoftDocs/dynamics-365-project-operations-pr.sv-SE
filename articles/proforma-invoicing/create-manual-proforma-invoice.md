@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128080"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287800"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Skapa en manuell proforma-faktura
 
@@ -60,7 +60,7 @@ Följ stegen nedan om du vill skapa fakturor i bulk.
 
 2. Stäng meddelanderutan genom att välja **OK**.
 
-    En faktura skapas för alla transaktioner på en kontraktsrad som har statusvärdet **klart att fakturera**. Dessa transaktioner inkluderar tid, utgifter, milstolpar och produktbaserade kontraktrader.
+    En faktura skapas för alla transaktioner på en kontraktrad som har statusvärdet **klart att fakturera**. Dessa transaktioner inkluderar tid, utgifter, milstolpar och produktbaserade kontraktrader.
 
 3. Om du vill visa fakturorna som genereras går du till **försäljning** \> **fakturering** \> **fakturor**. En faktura visas för varje projektkontrakt.
 
@@ -82,7 +82,7 @@ Följ stegen nedan om du vill konfigurera en automatisk fakturakörning.
 
     Du kan också välja **ProcessRunner** i steg 5. När du sedan väljer **OK**, följs arbetsflödet **Process** av arbetsflödet **Vila**.
 
-Arbetsflödena **ProcessRunCaller** och **ProcessRunner** skapar fakturor. **ProcessRunCaller** anropar **ProcessRunner**. **ProcessRunner** är det arbetsflöde som verkligen skapade fakturorna. Det går igenom alla kontraktrader som fakturorna måste skapas för och fakturor för dessa rader skapas. För att fastställa vilka kontraktsrader som fakturor ska skapas tittar jobbet på körningsdatum för faktura för kontraktsraderna. Om kontraktsrader som tillhör ett kontrakt har samma datum för fakturakörning kombineras transaktionerna till en faktura med två fakturarader. Om det inte finns några transaktioner för att skapa fakturor hoppar jobbet över skapandet av fakturan.
+Arbetsflödena **ProcessRunCaller** och **ProcessRunner** skapar fakturor. **ProcessRunCaller** anropar **ProcessRunner**. **ProcessRunner** är det arbetsflöde som verkligen skapade fakturorna. Det går igenom alla kontraktrader som fakturorna måste skapas för och fakturor för dessa rader skapas. För att fastställa vilka kontraktrader som fakturor ska skapas tittar jobbet på körningsdatum för faktura för kontraktraderna. Om kontraktrader som tillhör ett kontrakt har samma datum för fakturakörning kombineras transaktionerna till en faktura med två fakturarader. Om det inte finns några transaktioner för att skapa fakturor hoppar jobbet över skapandet av fakturan.
 
 När **ProcessRunner** har körts klart anropas **ProcessRunCaller**, anger sluttiden och är stängd. **ProcessRunCaller** startar sedan en timer som körs i 24 timmar från den angivna sluttiden. **ProcessRunCaller** stängs i slutet av timern.
 
@@ -97,7 +97,7 @@ När du skapar ett utkast till en projektfaktura skickas alla ej fakturerade fö
 
 - Ta bort eller redigera information om fakturarader.
 - Redigera och justera kvantitet och faktureringstyp.
-- Lägg direkt till tid, utgifter och avgifter som transaktioner på fakturan. Du kan använda den här funktionen om fakturaraden är mappad till en kontraktsrad som tillåter dessa transaktionsklasser.
+- Lägg direkt till tid, utgifter och avgifter som transaktioner på fakturan. Du kan använda den här funktionen om fakturaraden är mappad till en kontraktrad som tillåter dessa transaktionsklasser.
 
 Välj **bekräfta** om du vill bekräfta en faktura. Åtgärden Bekräfta är en enkelriktad åtgärd. När du väljer **bekräfta** blir fakturan skrivskyddad och verkliga värden för fakturerad försäljning skapas utifrån varje fakturaradinformation för varje fakturarad. Om fakturaradinformationen refererar till en ofakturerad faktisk försäljning återförs även den ofakturerade faktiska försäljningen. (All information på fakturaraden som skapades från en tidpunkt eller utgiftspost refererar till en ofakturerad faktisk försäljning.) Integreringssystemen för redovisning kan använda den här återföringen för att omvända pågående pågående projekt (WIP) i redovisningssyfte.
 

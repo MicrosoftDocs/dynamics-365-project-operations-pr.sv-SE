@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085669"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289526"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Skapa avancerade kontrakt för fakturering baserad på förlopp
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ Budgetansvarig skapar en budget för projektkategorierna. Mängden färdigt arbe
 Innan du skapar ett projekt som använder faktureringsregler måste du ange nummerserier för faktureringsregler och en avgiftsjournal som används för att bokföra förloppsfaktureringar.
 
 1. Gå till **Projektledning och redovisning** \> **Konfiguration** \> **Parametrar för projektledning och redovisning**.
-2. På sidan **Parametrar för projektledning och redovisning** , under fliken **Nummerserier** , konfigurerar du nummerserier som du vill använda när faktureringsregler skapas.
+2. På sidan **Parametrar för projektledning och redovisning**, under fliken **Nummerserier**, konfigurerar du nummerserier som du vill använda när faktureringsregler skapas.
 3. Gå till **Projektledning och redovisning** \> **Journaler** \> **Avgift**.
 4. På sidan **Avgiftsjournal** väljer du **Ny** och anger journalnamnet.
 
@@ -77,7 +77,7 @@ Följ stegen nedan om du vill skapa ett projekt och eventuella delprojekt som ä
 
 1. Gå till **Projektledning och redovisning** \> **Projekt** \> **Alla projekt**.
 2. På sidan **Alla projekt** väljer du **Nytt**.
-3. I dialogrutan **Nytt projekt** , i fältet **Projekttyp** , väljer du **Tid och material**.
+3. I dialogrutan **Nytt projekt**, i fältet **Projekttyp**, väljer du **Tid och material**.
 4. Välj en projektgrupp. En projektgrupp definierar bokföringsinformationen för de projekt som är tilldelade till gruppen.
 5. Välj **Skapa projekt**.
 6. När projektet har skapats ställer du in projektstadiet på **Pågår**.
@@ -88,20 +88,20 @@ Budgetkategorier används för att automatiskt beräkna fakturabeloppen för den
 
 1. Gå till **Projektledning och redovisning** \> **Projekt** \> **Alla projekt**.
 2. På sidan **Alla projekt** markerar du och öppnar önskat projekt.
-3. På sidan **Projekt** , i åtgärdsrutan, under fliken **Plan** , i gruppen **Budget** , välj **Projektbudget**.
+3. På sidan **Projekt**, i åtgärdsrutan, under fliken **Plan**, i gruppen **Budget**, välj **Projektbudget**.
 4. På sidan **Projektbudget** anger du en uppskattad kostnad för varje kategori i projektet.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Skapa faktureringsregler för förloppsfakturering
 
 1. Gå till **Projektledning och redovisning** \> **Projekt** \> **Projektkontrakt**.
 2. På sidan **Projektkontrakt** markerar du och öppnar ett projektkontrakt.
-3. På projektkontraktsidan, under snabbfliken **Faktureringsregler** , väljer du **Lägg till**.
-4. På sidan **Faktureringsregel** , i fältet **Radtyp** , väljer du **Förlopp**.
-5. Under snabbfliken **Information om rad för faktureringsregel** , i fältet **Kontraktvärde** , anger du det totala värdet för kontraktet.
+3. På projektkontraktsidan, under snabbfliken **Faktureringsregler**, väljer du **Lägg till**.
+4. På sidan **Faktureringsregel**, i fältet **Radtyp**, väljer du **Förlopp**.
+5. Under snabbfliken **Information om rad för faktureringsregel**, i fältet **Kontraktvärde**, anger du det totala värdet för kontraktet.
 6. I fältet **Kategori** väljer du den kategori som avgiftstransaktionen ska bokföras i.
 7. I fältet **Projekt** väljer du det projekt som använder den här faktureringsregeln.
-8. Valfritt: tilldela faktureringsregeln till ytterligare projekt. Under snabbfliken **Projekt** , i avsnittet **Tillgängliga projekt** , väljer du ett projekt och sedan högerpilen för att lägga till projektet i avsnittet **Valda projekt**.
-9. Valfritt: beräkna procentsatsen som kunden håller inne från betalningar på en faktura. Under snabbfliken **Villkor för innehållen betalning** väljer du finansieringskälla och sedan, i fältet **Innehållen procentsats** , anger du innehållen procentsats.
+8. Valfritt: tilldela faktureringsregeln till ytterligare projekt. Under snabbfliken **Projekt**, i avsnittet **Tillgängliga projekt**, väljer du ett projekt och sedan högerpilen för att lägga till projektet i avsnittet **Valda projekt**.
+9. Valfritt: beräkna procentsatsen som kunden håller inne från betalningar på en faktura. Under snabbfliken **Villkor för innehållen betalning** väljer du finansieringskälla och sedan, i fältet **Innehållen procentsats**, anger du innehållen procentsats.
 10. Upprepa stegen för att skapa ytterligare faktureringsregler för projektkontraktet.
 
 

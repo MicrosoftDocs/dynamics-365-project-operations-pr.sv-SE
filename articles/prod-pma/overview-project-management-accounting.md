@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085683"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289796"
 ---
 # <a name="project-management-and-accounting-overview"></a>Översikt över projektledning och redovisning
 
@@ -205,7 +205,7 @@ Du kan beställa artiklar från företagets lager för förbrukning i ett projek
 
 Hur du beställer artiklar beror på varifrån du beställer dem:
 
--   Om du vill beställa artiklar från företagets lager måste du ange ordern som ett artikelkrav. Om du använder sidan **artikelkrav** kan du ange behovet så att du får artiklarna som delleveranser.Därför kan du skjuta upp förbrukningen av ett antal artiklar tills artiklarna är obligatoriska.
+-   Om du vill beställa artiklar från företagets lager måste du ange ordern som ett artikelkrav. Om du använder sidan **artikelkrav** kan du ange behovet så att du får artiklarna som delleveranser. Därför kan du skjuta upp förbrukningen av ett antal artiklar tills artiklarna är obligatoriska.
 -   Om du vill beställa artiklar från en extern leverantör måste du skapa ordern som en inköpsorder på sidan **inköpsorder**.
 
 > [!NOTE] 
@@ -300,7 +300,7 @@ Beroende på vilken inställning du har kan du prognostisera kassainflödet för
 -   **Projektdatum:** 5 mars 2012.
 -   **Fakturadatum:** 31 mars 2012. Datumet bestäms utifrån fakturafrekvensen. I det här exemplet anger du fakturafrekvensen till den aktuella månaden. Därför faktureras alla transaktioner som är bokförda i mars månad den sista dagen i månaden.
 -   **Förfallodatum:** 14 April 2012. Datumet bestäms utifrån de betalningsvillkor som har ställts in för projektet. I det här exemplet valde du betalningsvillkoren 14 dagar. Därför läggs 14 dagar till i fakturadatumet till förfallodatumet 14 april 2012.
--   **Förväntat betalningsdatum:** 27 April 2012. Det här datumet beräknas genom att addera antalet dagar i fältet **Allmänna buffertdagar** på sidan **Projektlednings- och redovisningsparametrar** till antal dagar i fältet **Individuella buffertdagar** på sidan **Projektkontrakt** och sedan lägga till summan till antalet dagar i fältet **Förfallodatum**. I det här exemplet angav du **3** i fältet **Allmänna buffertdagar** och **10** i fältet **Individuella buffertdagar**. Därför läggs 13 dagar till i förfallodatumet för att komma till förväntat betalningsdatum för försäljning den 27 april 2012.
+-   **Förväntat betalningsdatum:** 27 April 2012. Det här datumet beräknas genom att addera antalet dagar i fältet **Allmänna buffertdagar** på sidan **Projektlednings- och redovisningsparametrar** till antal dagar i fältet **Individuella buffertdagar** på sidan **Projektkontrakt** och sedan lägga till summan till antalet dagar i fältet **Förfallodatum**. I det här exemplet angav du **3** i fältet **Allmänna buffertdagar** och **10** i fältet **Individuella buffertdagar**. Därför läggs 13 dagar till i förfallodatumet för att komma till förväntat betalningsdatum för försäljning den 27 april 2012.
 
 De allmänna buffertdagarna kan antingen ersätta de enskilda buffertdagarna eller läggas till i de enskilda buffertdagarna:
 
@@ -323,9 +323,9 @@ Baserat på de dagar som har definierats kan kostnadsbetalningsdatumet skilja si
 
 Projektdatumet för transaktionen är till exempel 5 mars 2012 och följande betalningsvillkor har ställts in:
 
--   **Timmar:** aktuell månad ( **M** )
--   **Utgifter:** 14 dagar ( **D14** )
--   **Artiklar:** 30 dagar ( **D30** )
+-   **Timmar:** aktuell månad (**M**)
+-   **Utgifter:** 14 dagar (**D14**)
+-   **Artiklar:** 30 dagar (**D30**)
 
 Baserat på dessa inställningar är betalningsdatumet för kostnaden för varje transaktionstyp:
 
@@ -381,7 +381,7 @@ På sidan **Kostnadskontroll** på fliken **Avvikelse** kan du visa en jämföre
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Visa de totala budgeterade beloppen
 
-Om **Total budget** väljs som kostnads kontrollmetod på sidan **Projektledning och redovisningsparametrar** , sidan **Kostnadskontroll** beräknar de faktiska kostnaderna och de totala kostnaderna för projektet för att hjälpa dig att upptäcka någon skillnad mellan de två. Särskilt på sidan **Kostnadskontroll** beräknas beloppen i kolumnerna i den nedre rutan på fliken **Allmänt** på följande sätt:
+Om **Total budget** väljs som kostnads kontrollmetod på sidan **Projektledning och redovisningsparametrar**, sidan **Kostnadskontroll** beräknar de faktiska kostnaderna och de totala kostnaderna för projektet för att hjälpa dig att upptäcka någon skillnad mellan de två. Särskilt på sidan **Kostnadskontroll** beräknas beloppen i kolumnerna i den nedre rutan på fliken **Allmänt** på följande sätt:
 
 -   **Total budgeterad kostnad** – det totala budgeterade beloppet för den valda kostnadsraden.
 -   **Faktisk kostnad** – Det totala kostnaden för projektet hittills för de valda kostnadsraderna.
@@ -432,7 +432,7 @@ Du kan skapa ett projektutdrag för att visa en snabb bild av förloppet av ett 
 -   Projektdatum/redovisningsdatum
 -   Data
 
-När utdraget har beräknats kan du visa följande information på de olika flikarna på sidan **Projektutdrag** :
+När utdraget har beräknats kan du visa följande information på de olika flikarna på sidan **Projektutdrag**:
 
 -   **Allmänt** – allmän information om projektets grundläggande struktur för vinst och förlust.
 -   **Vinst och förlust** – information om upplupna intäkter.
