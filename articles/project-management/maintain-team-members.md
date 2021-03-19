@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286855"
 ---
 # <a name="maintain-team-members"></a>Underhålla teammedlemmar
 
@@ -21,7 +21,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Du kan lägga till en namngiven resurs i projektteamet genom att boka dem direkt på teamet.
 
-1. I Dynamics 365 Project Operations, gå till **Projekt** och välj de öppna projekt du bokar för.
+1. I Dynamics 365 Project Operations, gå till **projekt** och välj de öppna projekt du bokar för.
 2. På sidan **Projekt** under fliken **Team**, välj **Ny**. 
 3. I dialogrutan **Snabbregistrering av projektteammedlem** väljer du den bokningsbara resursen. Fältet **Roll** fylls i med resursens standardroll om de har en tilldelad. Du kan ändra rollen. 
 4. Välj de från- och till-datum som resursen behövs och välj allokeringsmetod för resursens kapacitet. 

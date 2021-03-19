@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131725"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287080"
 ---
 # <a name="expense-estimates"></a>Utgiftsberäkningar
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Tillsammans med att definiera resursbaserade uppskattningar kan projektledare med hjälp av Dynamics 365 Project Operations definiera projektbaserade utgifter för varje projekt. Varje utgiftspost kan kopplas till en specifik projektuppgift eller utgiftskategori. Utgiftskategorier definieras vanligtvis på organisationsnivå. Prissättning för varje utgiftskategori definieras vanligtvis i följande hierarki:
+När du definierar resursbaserad verksamhet låter Dynamics 365 Project Operations projektansvariga definiera projektbaserade utgifter för varje projekt. Varje utgiftspost kan kopplas till en specifik projektuppgift eller utgiftskategori. Utgiftskategorier definieras vanligtvis på organisationsnivå. Prissättning för varje utgiftskategori definieras vanligtvis i följande hierarki:
 
 - Organisation
 - Kund

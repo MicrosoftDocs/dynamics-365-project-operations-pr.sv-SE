@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287665"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurera redovisning för fakturerbara projekt
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Dynamics 365 Project Operations har stöd för olika redovisningsalternativ för fakturerbara projekt som omfattar transaktioner gällande tid och material samt fast pris.
+Dynamics 365 Project Operations har stöd för olika redovisningsalternativ för fakturerbara projekt som omfattar transaktioner med tid och material och fast pris.
 
 - **Tids- och materialtransaktioner**: dessa transaktioner faktureras allt eftersom arbetet fortskrider utifrån förbrukningen av timmar, utgifter, artiklar eller avgifter i projektet. Dessa transaktionskostnader kan matchas med omsättningen för varje transaktion och projektet faktureras allt eftersom arbetet fortskrider. Projektintäkter kan även påföras när transaktionen utförs. Under faktureringen registreras intäkter och i tillämpliga fall återförs upplupna intäkter.
 - **Fastpristransaktioner**: dessa transaktioner faktureras enligt en faktureringsplan som baseras på projektkontraktet. Intäkter för fastpristransaktioner kan registreras vid fakturering eller beräkning och bokföras med jämna mellanrum, enligt metoderna **Slutfört kontrakt** eller **Slutförd procent**.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286630"
 ---
 # <a name="project-tracking-overview"></a>Översikt över projektspårning
 
@@ -23,7 +23,7 @@ Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa
 
 ## <a name="effort-tracking-view"></a>Insatsspårningsvy
 
-I vyn **Spåra insats** spåras förloppet för uppgifterna i schemat genom att jämföra de faktiska arbetsinsatstimmarna som ägnats åt en uppgift med uppgiftens planerade arbetsinsatstimmar. I Dynamics 365 Project Operations används följande formler för att beräkna spårningsmått:
+I vyn **Spåra insats** spåras förloppet för uppgifterna i schemat genom att jämföra de faktiska arbetsinsatstimmarna som ägnats åt en uppgift med uppgiftens planerade arbetsinsatstimmar. Dynamics 365 Project Operations använder följande formler för att beräkna spårningsmått:
 
 - **Förloppsprocent**: Den faktiska insatsen hittills ÷ Uppskattning vid slutfört (EAC) 
 - **Uppskattning för att slutföra (ETC)**: planerad insats – den faktiska insatsen hittills 

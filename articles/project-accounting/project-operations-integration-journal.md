@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133456"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287260"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal i Project Operations
 
@@ -28,9 +28,9 @@ Tid- och utgiftsposter skapa **Faktisk** transaktioner som representerar den ope
 Poster i Project Operations integrationsjournalen skapas med periodisk process, **import från testtabell**. Du kan köra den här processen genom att gå till **Dynamics 365 Finance** > **Projektledning och redovisning** > **Periodisk** > **Project Operations-integrering** > **Importera från testtabell**. Du kan köra processen interaktivt eller konfigurera processen så att den körs i bakgrunden efter behov.
 
 När den periodiska processen körs, hittas alla verkliga värden som ännu inte har lagts till i Project Operations-integreringsjournale. En journalrad för varje aktuell transaktion skapas.
-Systemet grupperar journalrader i separata journaler baserat på det värde som valts i fältet **Periodenhet på Project Operations-integrationsjournal** (**Finance** > **Projektledning och redovisning** > **Konfiguration** > **Projektledning och redovisningsparametrar**, **Project Operations på fliken Dynamics 365 Customer Engagement** _). Möjliga värden för det här fältet är:
+Systemet grupperar journalrader i separata journaler baserat på det värde som valts i fältet **Periodenhet på Project Operations-integrationsjournal** (**Finance** > **Projektledning och redovisning** > **Konfiguration** > **Projektledning och redovisningsparametrar**, **Project Operations på fliken Dynamics 365 Customer Engagement**). Möjliga värden för det här fältet är:
 
-  - _*Dagar**: faktiska värden grupperas efter transaktionsdatum. En separatjournal skapas för varje dag.
+  - **Dagar**: faktiska värden grupperas efter transaktionsdatum. En separatjournal skapas för varje dag.
   - **Månader**: faktiska värden grupperas efter kalendermånad. En separat journal skapas för varje månad.
   - **År**: faktiska värden grupperas efter kalenderår. En separatjournal skapas för varje år.
   - **Alla**: alla faktiska transaktioner ingår i samma integrationsjournal. Om journalen inte är tillgänglig när den periodiska processen körs, till exempel om journalen är under bokföring av transaktioner, skapas en ny journal.
