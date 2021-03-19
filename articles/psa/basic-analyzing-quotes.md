@@ -18,45 +18,48 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d1b79a61147bfccf13b0a33179464af91b45121e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145245"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291281"
 ---
-# <a name="analysis-of-project-quotes"></a><span data-ttu-id="7f783-103">Analys av projektofferter</span><span class="sxs-lookup"><span data-stu-id="7f783-103">Analysis of project quotes</span></span>
+# <a name="analysis-of-project-quotes"></a><span data-ttu-id="7bd7c-103">Analys av projektofferter</span><span class="sxs-lookup"><span data-stu-id="7bd7c-103">Analysis of project quotes</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="7f783-104">Dynamics 365 Project Service Automation analyserar projektofferter för uppskattning av lönsamheten.</span><span class="sxs-lookup"><span data-stu-id="7f783-104">Dynamics 365 Project Service Automation analyzes project quotes to estimate profitability.</span></span> <span data-ttu-id="7f783-105">Den analyserar även hur väl offerten är justerad mot kundförväntningarna om leveransdatum eller slutdatum och om budget.</span><span class="sxs-lookup"><span data-stu-id="7f783-105">It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.</span></span>
+<span data-ttu-id="7bd7c-104">Dynamics 365 Project Service Automation analyserar projektofferter för uppskattning av lönsamheten.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-104">Dynamics 365 Project Service Automation analyzes project quotes to estimate profitability.</span></span> <span data-ttu-id="7bd7c-105">Den analyserar även hur väl offerten är justerad mot kundförväntningarna om leveransdatum eller slutdatum och om budget.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-105">It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.</span></span>
 
-## <a name="profitability-analysis"></a><span data-ttu-id="7f783-106">Lönsamhetsanalys</span><span class="sxs-lookup"><span data-stu-id="7f783-106">Profitability analysis</span></span>
+## <a name="profitability-analysis"></a><span data-ttu-id="7bd7c-106">Lönsamhetsanalys</span><span class="sxs-lookup"><span data-stu-id="7bd7c-106">Profitability analysis</span></span>
 
-<span data-ttu-id="7f783-107">Project Service Automation analyserar lönsamheten med hjälp av bruttomarginalen och den justerade bruttomarginalen.</span><span class="sxs-lookup"><span data-stu-id="7f783-107">Project Service Automation analyzes profitability by using the gross margin and the adjusted gross margin.</span></span>
+<span data-ttu-id="7bd7c-107">Project Service Automation analyserar lönsamheten med hjälp av bruttomarginalen och den justerade bruttomarginalen.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-107">Project Service Automation analyzes profitability by using the gross margin and the adjusted gross margin.</span></span>
 
-- <span data-ttu-id="7f783-108">Bruttomarginaler beräknas med hjälp av följande formel:</span><span class="sxs-lookup"><span data-stu-id="7f783-108">Gross margins are calculated by using the following formula:</span></span>
+- <span data-ttu-id="7bd7c-108">Bruttomarginaler beräknas med hjälp av följande formel:</span><span class="sxs-lookup"><span data-stu-id="7bd7c-108">Gross margins are calculated by using the following formula:</span></span>
 
   `
     (Sum of estimated chargeable sales value – Sum of estimated chargeable costs) x 100
   `
-- <span data-ttu-id="7f783-109">Den justerade bruttomarginalen beräknas med hjälp av följande formel:</span><span class="sxs-lookup"><span data-stu-id="7f783-109">The adjusted gross margin is calculated by using the following formula:</span></span>
+- <span data-ttu-id="7bd7c-109">Den justerade bruttomarginalen beräknas med hjälp av följande formel:</span><span class="sxs-lookup"><span data-stu-id="7bd7c-109">The adjusted gross margin is calculated by using the following formula:</span></span>
 
   `
     (Sum of estimated chargeable sales value – Sum of all estimated costs) x 100
   `
 
-<span data-ttu-id="7f783-110">Om värdena för bruttomarginal och justerad bruttomarginal skiljer sig åt med en bred marginal, klassificeras mycket av arbetet i offerten som icke debiterbart.</span><span class="sxs-lookup"><span data-stu-id="7f783-110">If the values for gross margin and adjusted gross margin differ by a wide margin, much of the work in the quote is classified as non-chargeable.</span></span>
+<span data-ttu-id="7bd7c-110">Om värdena för bruttomarginal och justerad bruttomarginal skiljer sig åt med en bred marginal, klassificeras mycket av arbetet i offerten som icke debiterbart.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-110">If the values for gross margin and adjusted gross margin differ by a wide margin, much of the work in the quote is classified as non-chargeable.</span></span>
 
-## <a name="analysis-of-customer-expectations"></a><span data-ttu-id="7f783-111">Analys av kundens förväntningar</span><span class="sxs-lookup"><span data-stu-id="7f783-111">Analysis of customer expectations</span></span>
+## <a name="analysis-of-customer-expectations"></a><span data-ttu-id="7bd7c-111">Analys av kundens förväntningar</span><span class="sxs-lookup"><span data-stu-id="7bd7c-111">Analysis of customer expectations</span></span>
 
-<span data-ttu-id="7f783-112">Du kan analysera offerter och skapa diagram för kundförväntningar om schemat och budgeten om du anger värden för följande fält:</span><span class="sxs-lookup"><span data-stu-id="7f783-112">You can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:</span></span>
+<span data-ttu-id="7bd7c-112">Du kan analysera offerter och skapa diagram för kundförväntningar om schemat och budgeten om du anger värden för följande fält:</span><span class="sxs-lookup"><span data-stu-id="7bd7c-112">You can analyze quotes and generate charts for customer expectations about the schedule and budget if you enter values for the following fields:</span></span>
 
-- <span data-ttu-id="7f783-113">Fältet **begärt leveransdatum** i offerthuvudet.</span><span class="sxs-lookup"><span data-stu-id="7f783-113">The **Requested delivery date** field on the quote header.</span></span>
-- <span data-ttu-id="7f783-114">Fältet **Kundbudget** för varje offertrad (för projektbaserade rader och produktbaserade rader).</span><span class="sxs-lookup"><span data-stu-id="7f783-114">The **Customer budget** field for each quote line (for project-based lines and product-based lines).</span></span>
+- <span data-ttu-id="7bd7c-113">Fältet **begärt leveransdatum** i offerthuvudet.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-113">The **Requested delivery date** field on the quote header.</span></span>
+- <span data-ttu-id="7bd7c-114">Fältet **Kundbudget** för varje offertrad (för projektbaserade rader och produktbaserade rader).</span><span class="sxs-lookup"><span data-stu-id="7bd7c-114">The **Customer budget** field for each quote line (for project-based lines and product-based lines).</span></span>
 
-<span data-ttu-id="7f783-115">Analys av kundens förväntningar om schemat görs genom att jämföra det senaste slutdatumet för offertraddetaljerna med begärt leveransdatum för alla offertrader i offerten.</span><span class="sxs-lookup"><span data-stu-id="7f783-115">Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.</span></span>
+<span data-ttu-id="7bd7c-115">Analys av kundens förväntningar om schemat görs genom att jämföra det senaste slutdatumet för offertraddetaljerna med begärt leveransdatum för alla offertrader i offerten.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-115">Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.</span></span>
 
-<span data-ttu-id="7f783-116">Analys av kundförväntningar för budgeten sker genom att summan av den totala kundbudgeten jämförs med det offererade beloppet över alla offertrader.</span><span class="sxs-lookup"><span data-stu-id="7f783-116">Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.</span></span>
+<span data-ttu-id="7bd7c-116">Analys av kundförväntningar för budgeten sker genom att summan av den totala kundbudgeten jämförs med det offererade beloppet över alla offertrader.</span><span class="sxs-lookup"><span data-stu-id="7bd7c-116">Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

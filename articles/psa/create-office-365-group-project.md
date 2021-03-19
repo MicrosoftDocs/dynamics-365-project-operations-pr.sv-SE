@@ -18,28 +18,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c6b4fbff2f67c7c57d5973489e343cb8bc5025e9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144795"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290471"
 ---
-# <a name="create-an-office-365-group-for-a-project-project-service"></a><span data-ttu-id="bbdb0-103">Skapa en Office 365-grupp för ett projekt (Project Service)</span><span class="sxs-lookup"><span data-stu-id="bbdb0-103">Create an Office 365 Group for a project (Project Service)</span></span>
+# <a name="create-an-office-365-group-for-a-project-project-service"></a><span data-ttu-id="1ed71-103">Skapa en Office 365-grupp för ett projekt (Project Service)</span><span class="sxs-lookup"><span data-stu-id="1ed71-103">Create an Office 365 Group for a project (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="bbdb0-104">Tillhandahåller ett utrymme där teammedlemmar för ett projekt kan samarbeta om projektdokument, visa gruppens kalender och ha gruppkonversationer genom att skapa en Office 365-grupp för projektet.</span><span class="sxs-lookup"><span data-stu-id="bbdb0-104">Provide a space where team members for a project can collaborate on project documents, view the team’s calendar, and have group conversations by creating an Office 365 Group for that project.</span></span>  
+<span data-ttu-id="1ed71-104">Tillhandahåller ett utrymme där teammedlemmar för ett projekt kan samarbeta om projektdokument, visa gruppens kalender och ha gruppkonversationer genom att skapa en Office 365-grupp för projektet.</span><span class="sxs-lookup"><span data-stu-id="1ed71-104">Provide a space where team members for a project can collaborate on project documents, view the team’s calendar, and have group conversations by creating an Office 365 Group for that project.</span></span>  
   
-1.  <span data-ttu-id="bbdb0-105">Gå till **Project Service > Projekt**.</span><span class="sxs-lookup"><span data-stu-id="bbdb0-105">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="1ed71-105">Gå till **Project Service > Projekt**.</span><span class="sxs-lookup"><span data-stu-id="1ed71-105">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="bbdb0-106">Klicka på projektet du vill arbeta med.</span><span class="sxs-lookup"><span data-stu-id="bbdb0-106">Click the project you want to work on.</span></span>  
+2.  <span data-ttu-id="1ed71-106">Klicka på projektet du vill arbeta med.</span><span class="sxs-lookup"><span data-stu-id="1ed71-106">Click the project you want to work on.</span></span>  
   
-3.  <span data-ttu-id="bbdb0-107">Välj nedpilen bredvid projektnamnet i fältet överst på skärmen och klicka på **grupper i Office 365**.</span><span class="sxs-lookup"><span data-stu-id="bbdb0-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Office 365 Groups**.</span></span>  
+3.  <span data-ttu-id="1ed71-107">Välj nedpilen bredvid projektnamnet i fältet överst på skärmen och klicka på **grupper i Office 365**.</span><span class="sxs-lookup"><span data-stu-id="1ed71-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Office 365 Groups**.</span></span>  
   
-4.  <span data-ttu-id="bbdb0-108">Klicka på **Skapa Office 365-grupp**.</span><span class="sxs-lookup"><span data-stu-id="bbdb0-108">Click **Create Office 365 Group**.</span></span> <span data-ttu-id="bbdb0-109">Du får ett e-postmeddelande när gruppen är klar.</span><span class="sxs-lookup"><span data-stu-id="bbdb0-109">You’ll receive an email when your group is ready.</span></span>  
+4.  <span data-ttu-id="1ed71-108">Klicka på **Skapa Office 365-grupp**.</span><span class="sxs-lookup"><span data-stu-id="1ed71-108">Click **Create Office 365 Group**.</span></span> <span data-ttu-id="1ed71-109">Du får ett e-postmeddelande när gruppen är klar.</span><span class="sxs-lookup"><span data-stu-id="1ed71-109">You’ll receive an email when your group is ready.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="bbdb0-110">Se även</span><span class="sxs-lookup"><span data-stu-id="bbdb0-110">See Also</span></span>  
- [<span data-ttu-id="bbdb0-111">Guiden för projektledare</span><span class="sxs-lookup"><span data-stu-id="bbdb0-111">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="1ed71-110">Se även</span><span class="sxs-lookup"><span data-stu-id="1ed71-110">See Also</span></span>  
+ [<span data-ttu-id="1ed71-111">Guiden för projektledare</span><span class="sxs-lookup"><span data-stu-id="1ed71-111">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
