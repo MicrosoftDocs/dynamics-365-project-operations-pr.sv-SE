@@ -1,9 +1,9 @@
 ---
 title: Ny typ av utgiftsrapporter
-description: I det här ämnet finns information om den omdesignade erfarenheten för utgiftsrapportspost.
+description: Detta ämne beskriver den omdesignade och nya upplevelsen för posten i utgiftsrapporten.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122828"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499738"
 ---
 # <a name="expense-reports-reimagined"></a>Ny typ av utgiftsrapporter
 
@@ -59,25 +59,22 @@ Videon [Utgiftsupplevelse i Dynamics 365 for Finance and Operations](https://you
 | Färre meddelanden i meddelandefältet| Antalet meddelanden i informationsloggen minskades och en insats gjordes för att förhindra att dubbla meddelanden visas i många fall. |
 | Grupperade vanliga åtgärder | Gränssnittet rensades med tillägget av en ny åtgärdsknapp för de flesta vanliga åtgärder på radnivå och en ellipsknapp (...) för rubrik och andra mindre frekventa åtgärder. |
 | Ny arbetsyta för att öka synligheten | En ny arbetsyta förenar funktioner och länkar som gör att användarna kan flytta till olika områden. |
-| Lägg till befintliga utgifter och kvitton under utgiftsskapande | När du skapar utgiftsrapporter kan du lägga till alla eller valda utgifter och kvitton. |
+| Lägg till befintliga utgifter och kvitton under utgiftsskapande | När du skapar utgiftsrapporter kan du lägga till alla utgifter eller välja ej kopplade utgifter. Ej kopplade utgifter är utgifter som har importerats från företagets kreditkortsflöden eller utgifter som har skapats manuellt av användaren men inte har kopplats till en utgiftsrapport.|
 | Kalkylator av valutakurs | En kalkylator av valutakurs läggs till, som gör att du kan beräkna valutakursen för transaktioner i flera valutor. |
 | Spara och lägg till nya utgiftsrader | Knapparna **Spara** och **Ny** är tillgängliga när nya utgifter läggs till för att göra det enklare för dig att snabbt lägga till utgiftsrader. |
 | Bättre insyn i delade och specificerade rader | Specificerade och uppdelade rader läggs till direkt i listan över utgifter för att öka synligheten och hjälpa dig att enkelt avgöra om det finns några fel. |
 | Visa kvitton under specifikation | Kvitton kan visas under specifikation. |
+| Val av förskott | Välj en eller flera förskott som ska uppfylla en enda utgiftstransaktion. |
+| Saldo av förskott | Granska förskottssaldot i realtid när du skapar en utgiftspost mot godkända och betalda förskott. |
 
 Den första versionen är inriktad på scenarier för utgiftsposter. Scenarier med granskning eller godkännande av utgiftsrapporter fortsätter att använda den befintliga sidan för utgiftsposter.
 
-Följande funktioner finns på den befintliga sidan, men finns ännu inte på den nya sidan. De här funktionerna kommer att återinföras under de kommande versionerna:
+Följande funktioner stöds inte på den nya arbetsytan för utgifter:
 
-- Godkännanden
-- Godkännanden av leverantörsreskontra och möjligheten att redigera redovisningen
-- Flera postpunkter
 - Integrering av reserekvisition
-- Dataentitet för synlighet av utgiftsfält
-- Post för traktamentsutgifter
-- Arbetsflöde på radnivå
+- Utgiftspost per dag
 - Stöd för interimistiska godkännanden
-- Avancerad specifikation
+- Möjlighet att visa arbetsflödeshistorik
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: UI-funktioner för tidspost
 description: I det här ämnet finns information om beteendet hos gränssnittet för tidspost.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124525"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499636"
 ---
 # <a name="time-entry-ui-behavior"></a>UI-funktioner för tidspost
 
@@ -21,6 +21,19 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 
 Rutnätet **Veckovis tidspost** är en anpassad kontroll som har två huvudområden: **Dimensioner** och **Varaktighet**.
+
+## <a name="keyboard-shortcuts"></a>Kortkommandon
+| Åtgärd        | Genväg                  |
+|------------   |------------------------   |
+| Skapa           | Alt + Shift + n           |
+| Kopiera rad      | Alt + Shift + c           |
+| Redigera tredje post    | Alt + Shift + e           |
+| Redigera rad      | Alt + Shift + Ctrl + e    |
+| Öppna tredje post    | Alt + Shift + o           |
+| Skicka in        | Alt + Shift + s           |
+| Återkalla        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopiera vecka     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensioner
 Avsnittet **Dimensioner** visar alla dimensioner som det går att ange tid för. Följande medföljande dimensioner stöds:

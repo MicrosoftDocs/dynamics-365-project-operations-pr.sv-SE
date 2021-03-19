@@ -1,19 +1,19 @@
 ---
 title: Kopiera ett projekt
-description: I det här ämnet finns information om kopiering av projekt i Dynamics 365 Project Operations.
+description: I det här ämnet finns information om att kopiera projekt i Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131815"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479541"
 ---
 # <a name="copy-a-project"></a>Kopiera ett projekt
 
@@ -21,7 +21,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Med Dynamics 365 Project Operations kan du snabbt skapa nya projekt genom att välja **Kopiera projekt** i formuläret **Projekt**. Om du vill kopiera ett projekt öppnar du projektet du vill kopiera och väljer **Kopiera projekt**. Åtgärden kommer att kopiera:
 
-- Projektegenskaper
+- Projektegenskaper (Det uppskattade startdatumet kopieras från källprojektet)
 - Uppdelad arbetsstruktur
 - Projektets teammedlemmar
 - Projektberäkningar
