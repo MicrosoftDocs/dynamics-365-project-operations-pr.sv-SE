@@ -18,26 +18,29 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 016c1691c9005953cc24de7630436923931097e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283075"
 ---
-# <a name="resource-management-home-page"></a><span data-ttu-id="55d7c-103">Startsida för resurshantering</span><span class="sxs-lookup"><span data-stu-id="55d7c-103">Resource management home page</span></span>
+# <a name="resource-management-home-page"></a><span data-ttu-id="7de6f-103">Startsida för resurshantering</span><span class="sxs-lookup"><span data-stu-id="7de6f-103">Resource management home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="55d7c-104">Resurser är den viktigaste tillgången i en tjänstebaserad organisation.</span><span class="sxs-lookup"><span data-stu-id="55d7c-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="55d7c-105">Möjligheten att söka efter och boka rätt resurser när du behöver dem och för att hålla dem använda, hjälper organisationen till att uppfylla omsättningsmål och kundtillfredsställelsemål.</span><span class="sxs-lookup"><span data-stu-id="55d7c-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="55d7c-106">Följande ämnen är inriktade på resurshanteringsfunktionerna i Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="55d7c-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
+<span data-ttu-id="7de6f-104">Resurser är den viktigaste tillgången i en tjänstebaserad organisation.</span><span class="sxs-lookup"><span data-stu-id="7de6f-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="7de6f-105">Möjligheten att söka efter och boka rätt resurser när du behöver dem och för att hålla dem använda, hjälper organisationen till att uppfylla omsättningsmål och kundtillfredsställelsemål.</span><span class="sxs-lookup"><span data-stu-id="7de6f-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="7de6f-106">Följande ämnen är inriktade på resurshanteringsfunktionerna i Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="7de6f-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
 
-- [<span data-ttu-id="55d7c-107">Hantera resurser</span><span class="sxs-lookup"><span data-stu-id="55d7c-107">Manage resources</span></span>](manage-resources.md)
-- [<span data-ttu-id="55d7c-108">Nyckelbegrepp</span><span class="sxs-lookup"><span data-stu-id="55d7c-108">Key concepts</span></span>](reports-key-concepts.md)
-- [<span data-ttu-id="55d7c-109">Uppfylla resursförfrågningar</span><span class="sxs-lookup"><span data-stu-id="55d7c-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
-- [<span data-ttu-id="55d7c-110">Föreslå resurser</span><span class="sxs-lookup"><span data-stu-id="55d7c-110">Proposing resources</span></span>](resource-management-propose-resources.md)
-- [<span data-ttu-id="55d7c-111">Bokningsresurser</span><span class="sxs-lookup"><span data-stu-id="55d7c-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="55d7c-112">Preliminärboka krav</span><span class="sxs-lookup"><span data-stu-id="55d7c-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
-- [<span data-ttu-id="55d7c-113">Modeller för färdigheter och kompetens</span><span class="sxs-lookup"><span data-stu-id="55d7c-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
-- [<span data-ttu-id="55d7c-114">Vanliga frågor om resurshantering</span><span class="sxs-lookup"><span data-stu-id="55d7c-114">Resource management FAQ</span></span>](resource-management-faq.md)
+- [<span data-ttu-id="7de6f-107">Hantera resurser</span><span class="sxs-lookup"><span data-stu-id="7de6f-107">Manage resources</span></span>](manage-resources.md)
+- [<span data-ttu-id="7de6f-108">Nyckelbegrepp</span><span class="sxs-lookup"><span data-stu-id="7de6f-108">Key concepts</span></span>](reports-key-concepts.md)
+- [<span data-ttu-id="7de6f-109">Uppfylla resursförfrågningar</span><span class="sxs-lookup"><span data-stu-id="7de6f-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
+- [<span data-ttu-id="7de6f-110">Föreslå resurser</span><span class="sxs-lookup"><span data-stu-id="7de6f-110">Proposing resources</span></span>](resource-management-propose-resources.md)
+- [<span data-ttu-id="7de6f-111">Bokningsresurser</span><span class="sxs-lookup"><span data-stu-id="7de6f-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="7de6f-112">Preliminärboka krav</span><span class="sxs-lookup"><span data-stu-id="7de6f-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
+- [<span data-ttu-id="7de6f-113">Modeller för färdigheter och kompetens</span><span class="sxs-lookup"><span data-stu-id="7de6f-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
+- [<span data-ttu-id="7de6f-114">Vanliga frågor om resurshantering</span><span class="sxs-lookup"><span data-stu-id="7de6f-114">Resource management FAQ</span></span>](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
