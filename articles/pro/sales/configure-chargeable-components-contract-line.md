@@ -1,5 +1,5 @@
 ---
-title: Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad - lite
+title: Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad
 description: I det här ämnet finns information om hur du lägger till debiterbara komponenter i kontraktrader i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273940"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858495"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad - lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurera debiteringsbara komponenter på en projektbaserad kontraktrad
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
 En projektrelaterad kontraktrad har *inkluderade* komponenter och *debiterbara* komponenter.
 
@@ -34,7 +34,7 @@ En delmängd av de inkluderade komponenterna kan markeras som debiterbar med hj�
 
 Debiterbara komponenter kan definieras för uppgifter, roller och transaktionskategorier.
 
-Debiteringsbarhet anges för uppgifter för en projektkontraktrad och gäller alla transaktionsklasser som finns på raden. Om fältet **Inkludera uppgifter** på en kontraktrad är tomt eller har värdet ***Hela projektet*** är fliken **Debiterbara uppgifter** inte tillgänglig.
+Debiteringsbarhet anges för uppgifter för en projektkontraktrad och gäller alla transaktionsklasser som finns på raden. Om fältet **Inkludera uppgifter** på en kontraktrad är tomt eller har värdet **Hela projektet** är fliken **Debiterbara uppgifter** inte tillgänglig.
 
 Debiteringsbarhet som definieras på roller för en projektkontraktsrad gäller endast för transaktionsklassen **Tid**. Om fältet **Inkludera tid** på en kontraktrad är angiven till **Nej**, är fliken **Debiterbara roller** inte tillgänglig.
 
@@ -62,23 +62,582 @@ En transaktions faktureringstyp kan konfigureras under fliken **Debiterbara kate
 
 ### <a name="resolve-chargeability"></a>Åtgärda debiteringsbarhet
 
-En uppskattning eller ett faktiskt värde som skapats för tid anses endast vara debiterbart om **Tid** finns på kontraktraden och om **Uppgift** och **Roll** har konfigurerats som debiterbara på kontraktraden.
+En beräkning eller faktisk beräkning för tiden kommer endast att anses vara debiterbar om:
 
-En uppskattning eller ett faktiskt värde som skapats för utgift anses endast vara debiterbart om **Utgift** finns på kontraktraden och om kategorierna **Uppgift** och **Transaktion** har konfigurerats som debiterbara på kontraktraden.
+   - **Tid** finns med på kontraktraden.
+   - **Roll** konfigureras som debiterbar på kontraktraden.
+   - **Uppgifter som ingår** anges till **Markerade uppgifter** på kontraktraden.
+ 
+ Om de här tre sakerna stämmer konfigureras uppgiften som debiterbar. 
+
+En beräkning eller faktisk beräkning för utgift kommer endast att anses vara debiterbar om:
+
+   - **Utgift** finns med på kontraktraden
+   - **Transaktionskategori** konfigureras som debiterbar på kontraktraden
+   - **Uppgifter som ingår** anges till **Markerad uppgift** på kontraktraden
+  
+ Om de här tre sakerna stämmer konfigureras **uppgiften** som debiterbar. 
+
+En beräkning eller faktisk beräkning för material kommer endast att anses vara debiterbar om:
+
+   - **Material** finns med på kontraktraden
+   - **Uppgifter som ingår** anges till **Markerade uppgifter** på kontraktraden
+
+Om de här två sakerna stämmer konfigureras **uppgiften** som debiterbar. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inkluderar tid</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inkluderar utgift</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Ta med material</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Uppgifter som ingår</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Roll</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategori</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Uppgift</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Påverkan av debiterbarhet</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för Tid: <strong>Debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde för Utgift: <strong>Debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt material: <strong>Debiterbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Endast valda uppgifter </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för Tid: <strong>Debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde för Utgift: <strong>Debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt material: <strong>Debiterbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Endast valda uppgifter </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde för Utgift: Debiterbart </p>
+                <p>
+Faktureringstyp för faktiskt material: Debiterbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Endast valda uppgifter </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av utgift: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av material: <strong>Ej debiterbart</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Endast valda uppgifter </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av utgift: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av material: <strong>Ej debiterbart</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Endast valda uppgifter </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av utgift: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt material: Debiterbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inga</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Debiterbart</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Inte tillgängligt</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde för Utgift: Debiterbart </p>
+                <p>
+Faktureringstyp för faktiskt material: Debiterbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inga</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Inte tillgängligt</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av utgift: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt material: Debiterbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inga</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för Tid: Debiterbart </p>
+                <p>
+Faktureringstyp för faktiskt värde för utgift:<strong> Inte tillgängligt</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt material: Debiterbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inga</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde för utgift:<strong> Inte tillgängligt</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt material: Debiterbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Inga</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Debiterbart </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för Tid: Debiterbart </p>
+                <p>
+Faktureringstyp för faktiskt värde för Utgift: Debiterbart </p>
+                <p>
+Faktureringstyp för faktiskt värde för material:<strong> Inte tillgängligt</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Inga</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hela projektet </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ej debiterbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan inte anges </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fakturering för faktiskt värde för tid: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde av utgift: <strong>Ej debiterbart</strong>
+                </p>
+                <p>
+Faktureringstyp för faktiskt värde för material: <strong>Inte tillgängligt</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Inkluderar tid | Inkluderar utgift | Inkluderar uppgifter | Roll           | Kategori       | Uppgift                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Ja           | Ja              | Hela projektet | Debiterbart     | Debiterbart     | Fakturering för faktiskt värde för Tid: **Debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Debiterbart**           |
-| Ja           | Ja              | Valda uppgifter | Debiterbart     | Debiterbart     | Fakturering för faktiskt värde för Tid: **Debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Debiterbart**           |
-| Ja           | Ja              | Valda uppgifter | Ej debiterbar | Debiterbart     | Fakturering för faktiskt värde för Tid: **Ej debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Debiterbart**       |
-| Ja           | Ja              | Valda uppgifter | Debiterbart     | Debiterbart     | Fakturering för faktiskt värde för Tid: **Ej debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Ej debiterbart** |
-| Ja           | Ja              | Valda uppgifter | Ej debiterbar | Debiterbart     | Fakturering för faktiskt värde för Tid: **Ej debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Ej debiterbart** |
-| Ja           | Ja              | Valda uppgifter | Ej debiterbar | Ej debiterbar | Fakturering för faktiskt värde för Tid: **Ej debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Ej debiterbart** |
-| Inga            | Ja              | Hela projektet | Kan inte anges   | Debiterbart     | Fakturering för faktiskt värde för Tid: **Inte tillgängligt**</br>Faktureringstyp för faktiskt värde för Utgift: **Debiterbart**          |
-| Inga            | Ja              | Hela projektet | Kan inte anges   | Ej debiterbar | Fakturering för faktiskt värde för Tid: **Inte tillgängligt**</br> Faktureringstyp för faktiskt värde för Utgift: **Ej debiterbart**     |
-| Ja           | Inga               | Hela projektet | Debiterbart     | Kan inte anges   | Fakturering för faktiskt värde för Tid: **Debiterbart** </br> Faktureringstyp för faktiskt värde för Utgift: **Inte tillgängligt**        |
-| Ja           | Inga               | Hela projektet | Ej debiterbar | Kan inte anges   | Fakturering för faktiskt värde för Tid: **Ej debiterbart** </br>Faktureringstyp för faktiskt värde för Utgift: **Inte tillgängligt**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

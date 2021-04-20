@@ -1,39 +1,52 @@
 ---
-title: Resursberäkningar
-description: I det här ämnet finns information om hur resursuppskattningar beräknas i Project Operations.
-author: ruhercul
+title: Ekonomisk kalkyl för resurstid på projekt
+description: Den ämne information om hur ekonomiska resurser för tid beräknas.
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286540"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701848"
 ---
-# <a name="resource-estimates"></a>Resursberäkningar
+# <a name="financial-estimates-for-resource-time-on-projects"></a>Ekonomisk kalkyl för resurstid på projekt
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Resursuppskattningar kommer från tidsfasade arbetsinsatser som har definierats i den uppdelade arbetsstrukturen tillsammans med tillämpliga prissättningsdimensioner. Vanligtvis är beräkningen **taxa/timme för varje roll x timmar.** Den tidsfasade arbetsinsatsen för varje resurs lagras i resurstilldelningsposten. Prissättningen lagras i en fördefinierad prislista. Enhetskonvertering används på grundval av tillämplig prislista.
+Ekonomisk kalkyl för tid beräknas utifrån tre faktorer: 
+
+- Typ av generisk eller namngiven teammedlem som har tilldelats varje uppgift i noden i projektplan. 
+- Arbetets typ eller komplexitet.
+- Spridningen av insats för resursens tilldelning för uppgiften. 
+
+De första två faktorerna påverkar enhetskostnaden eller faktureringstakten för en resurstilldelning. Enhetskostnaden eller fakturataxan för en resurstilldelning fastställs av attributen för den tilldelade resursen. Attributen omfattar den organisationsenhet resursen tillhör och standardrollen för resursen. Du kan också lägga till anpassade attribut som är relevanta för ditt företag för resursen, som standardtitel eller erfarenhetsnivå och få dem att påverka enhetskostnaden eller faktureringsgraden för uppdraget.
+Förutom resursens attribut kan attribut för arbete, såsom uppgiften även påverka enhetens faktureringskurs eller kostnadstaxa. Till exempel, när vissa uppgifter är mer komplexa, resulterar resursens tilldelning till dessa specifika uppgifter i en högre enhetskostnad eller faktureringsgrad än uppgifter som är mindre komplexa.   
+
+Den tredje faktorn är antalet timmar i den takten. I fall där en uppgift täcker två prisperioder är det troligt att den första delen av resurstilldelningen för den uppgiften kostar och prissätts annorlunda än den andra delen av uppgiften. Insatsberäkningen för varje resurstilldelning är ett komplext värde som lagras med den dagliga fördelningen av insats per dag.
+
+För detaljerade instruktioner om hur du ställer in anpassade attribut för arbete och resurser som pris- och kostnadsdimensioner, se [Översikt över prisdimensioner](../pricing-costing/pricing-dimensions-overview.md).
+
+Den ekonomiska uppskattningen för varje resurstilldelning beräknas som **hastighet/timmar för uppgiften multiplicerat med antalet timmar.**  I likhet med ansträngningsuppskattningen är den ekonomiska uppskattningen för kostnader och intäkter för varje resurstilldelning ett komplext värde som lagras med den dagliga fördelningen av det monetära beloppet per dag. 
+
+## <a name="summarizing-financial-estimates-for-time"></a>Sammanfatta ekonomiska resultat för tid
+En ekonomisk beräkning för tid för en uppgift i noden är summan av de ekonomiska kostnaderna för alla resurstilldelningar för den uppgiften.
+
+En ekonomisk uppskattning för tid på en sammanfattning eller överordnad uppgift är summan av de ekonomiska uppskattningarna för alla dess underordnade uppgifter. Detta är den beräknade arbetskostnaden för projektet. 
 
 ![Resursuppskattningar](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Standardvärden för självkostnad och kostnadsvaluta
 
-Självkostnader används som standard från organisationsenheten.
+Standardkostnadspriset kommer från de prislistor som är kopplade till projektets kontraktenhet. Projektets kostnadsvaluta är den kontrakterande enhetens valuta på projektet. Vid en resurstilldelning lagras den ekonomiska kostnadsberäkningen i projektkostnadsvalutan. Ibland skiljer sig valutan som kostnadskostnaden ställs in i prislistan i från projektets kostnadsvaluta. I så fall konverterar programmet valutan som kostnadspriset är inställt i för valutan i projektet. Rutnätet **Beräkningar**, alla kostnadsberäkningar visas och sammanfattas i projektets kostnadsvaluta. 
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Standardvärden för fakturataxan och försäljningsvaluta
 
-Försäljningspriser tillämpas en gång per affär. Hierarkin för försäljningsprislista är som standard följande:
-
-1. Organisation
-2. Kund
-3. Offert/kontrakt
-
+Standardförsäljningspriset kommer från projektprislistorna som bifogas det relaterade projektavtalet om affären har vunnits, eller från det relaterade projektofferten om affären fortfarande befinner sig i förförsäljningsstadiet. Projektets försäljningsvaluta är alltid valutan för projektofferten eller projektavtalet. Vid en resurstilldelning lagras den ekonomiska beräkningen för försäljning i projektförsäljningsvalutan. Till skillnad från kostnad kan försäljningspriset som ställs in i prislistan aldrig skilja sig från projektets försäljningsvaluta. Det finns inget scenario där valutakonvertering behövs. Rutnätet **Beräkningar**, alla försäljningsberäkningar visas och sammanfattas i projektets försäljningsvaluta. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

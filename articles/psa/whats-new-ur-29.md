@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 711255ab66f84fe46d0f16fa72e5a10fe0360394
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
+ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499693"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664665"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Nyheter och ändringar i Project Service Automation, uppdateringsversion 29, version 3
 
@@ -30,7 +30,7 @@ ms.locfileid: "5499693"
 
 Vi är glada att kunna presentera den senaste uppdateringen för programmet Project Service Automation för Dynamics 365. Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet. Den här versionen är kompatibel med Dynamics 365 9.x. Om du vill uppdatera till den här versionen går du till administrationscenter för Dynamics 365 online och går till sidan Lösningar för att installera uppdateringen. Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-I det här ämne finns funktioner och korrigeringar som är nya eller ändrade för Project Service Automation V3, uppdatering version 29. Denna version har versionsnummer V3.10.45.98 och är allmänt tillgänglig via en självuppdatering i februari 2021.
+I det här ämne finns funktioner och korrigeringar som är nya eller ändrade för Project Service Automation V3, uppdatering version 29. Denna version har versionsnummer V3.10.47.7 och är allmänt tillgänglig via en självuppdatering i februari 2021.
 
 ## <a name="update-release-29"></a>Uppdatering version 29
 

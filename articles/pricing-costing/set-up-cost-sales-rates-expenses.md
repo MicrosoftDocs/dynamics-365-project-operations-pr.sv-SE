@@ -3,17 +3,17 @@ title: Konfigurera kostnads- och försäljningstaxa för utgifter
 description: I det här ämnet finns information om hur du konfigurerar kostnads- och försäljningstaxor för transaktions- och utgiftskategorier.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274930"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877242"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurera kostnads- och försäljningstaxa för utgifter
 
@@ -23,9 +23,10 @@ Du kan ange kostnad och försäljningspriser för transaktionskategorier i Dynam
 
 Följ stegen nedan om du vill ange kostnadstaxa och försäljningstaxa för transaktionskategorier. 
 
-1. Skapa en prislista utifrån prislistans huvud. 
-2. I **kategoripriser** i underrutnätet väljer du **+ Nytt kategoripris**. 
-3. På sidan **Snabbskapa** anger du transaktionskategori och enhet som du skapar det nya priset för.
+1. Gå till **Sales** > **Kunder** > **Prislistor**.
+2. Välj **Ny** om du vill skapa en ny prislista. 
+3. I **kategoripriser** i underrutnätet väljer du **Nytt kategoripris**. 
+4. På sidan **Snabbskapa** anger du transaktionskategori och enhet som du skapar det nya priset för.
 
 I följande tabell visas fälten i fliken **Allmänt** och sidan **Snabbskapa** för en kategoriprisrad som du bör ha i åtanke när du skapar kategoripriser i en försäljnings- eller kostnadsprislista.
 

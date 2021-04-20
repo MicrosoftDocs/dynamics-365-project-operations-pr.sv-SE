@@ -1,6 +1,6 @@
 ---
-title: Hantera faktureringen som släpat efter - lite
-description: I det här ämnet finns information om de olika vyer som kan användas för att hantera förväntad fakturering.
+title: Hantera eftersläpad projektfakturering
+description: Den ämne innehåller information om de olika vyer som är tillgängliga för hantering av eftersläpande fakturering för projekt.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274120"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867018"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Hantera faktureringen som släpat efter - lite
+# <a name="manage-project-billing-backlog"></a>Hantera eftersläpad projektfakturering 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 

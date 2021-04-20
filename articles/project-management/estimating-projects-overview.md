@@ -1,31 +1,41 @@
 ---
-title: Översikt över projektberäkning
-description: I det här ämnet finns information om beräkningar i Dynamics 365 Project Operations.
-author: ruhercul
+title: Begrepp för ekonomisk kalkyl
+description: Den ämne information om hur ekonomiska uppskattningar av projekt i Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286900"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701758"
 ---
-# <a name="estimate-projects-overview"></a>Översikt över projektberäkning
+# <a name="financial-estimation-concepts"></a>Begrepp för ekonomisk kalkyl
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
+I Dynamics 365 Project Operations kan du göra en ekonomisk beräkning av dina projekt i två steg: 
+1. Under förförsäljningsstadiet innan affären vunnits. 
+2. Under körningsfasen efter att projektkontraktet har skapats. 
+
+Du kan skapa en ekonomisk beräkning för projektbaserat arbete på någon av följande tre sidor:
+- Sidan **Offertrad** med hjälp av information om offertraden.  
+- Sidan **Projektkontraktrad** med hjälp av information om kontraktraden. 
+- Sidan **Projekt** med fliksidorna **Uppgifter** eller **Utgiftsberäkningar**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Skapa en beräkning med hjälp av en projektoffert
 I en projektrelaterad offert kan du använda entiteten **offertradinformation** för att beräkna det arbete som krävs för att leverera ett projekt. Du kan sedan dela denna beräkning med kunden.
 
 Projektbaserade offertrader kan ha noll till många uppgifter om offertrader. Offertraddetaljer används för att beräkna tid, utgifter eller avgifter. Microsoft Dynamics 365 Project Operations tillåter inte materialberäkningar på offertraddetaljer. Dessa kallas för transaktionsklasser. Beräknade momsbelopp kan också anges i en transaktionsklass.
 
 Utöver transaktionsklasser har offertraddetaljer en transaktionstyp. Två transaktionstyper har stöd för information om offertrader: **kostnad** och **projektkontrakt**.
 
-## <a name="estimate-by-using-a-contract"></a>Beräkning med hjälp av ett kontrakt
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Skapa en beräkning med hjälp av ett projektkontrakt
 
 Om du använde en offert när du skapade ett projektbaserat kontrakt kopieras den beräkning som du har gjort för varje offertrad i offerten till projektkontraktet. Strukturen på projektkontraktets fungerar som strukturen för projektofferter med rader, raddetaljer och fakturascheman.
 
@@ -35,27 +45,21 @@ Kontraktraddetaljer kan användas för att beräkna tid, utgifter eller avgifter
 
 Uppskattningar av material är inte tillåtna på kontraktraddetaljer.
 
-De processer som stöds i ett projektkontrakt är skapande och bekräftelse av fakturor. När du skapar en faktura skapas ett utkast av en projektbaserade faktura som innehåller alla fakturerade faktiska försäljningsvärden till det aktuella datumet.
+## <a name="use-a-project-to-create-an-estimate"></a>Skapa en beräkning med hjälp av ett projekt 
 
-Bekräftelse gör kontraktet skrivskyddat och ändrar dess status från **utkast** till **bekräftat**. När du har utfört den här åtgärden kan du inte ångra den. Eftersom åtgärden är permanent är det en god idé att hålla kontraktet i status **utkast**.
-
-De enda skillnaderna mellan kontraktutkast och bekräftade kontrakt är deras status och det faktum att utkastkontrakt kan redigeras, men att det inte går att ändra bekräftade kontrakt. Det går att skapa och spåra verkliga värden i både utkastkontrakt och bekräftade kontrakt.
-
-Project Operations stöder inte ändringsorder i kontrakt eller projekt.
-
-## <a name="estimating-projects"></a>Beräknar projekt
-
-Du kan beräkna tid och utgifter i projekt. Project Operations tillåter inte uppskattning av material eller avgifter i projekt.
+Du kan beräkna tid och utgifter i projekt. Project Operations stöder inte förseningar av material eller avgifter för projekt.
 
 Tidsuppskattningar skapas när du skapar en uppgift och identifierar attributen för en allmän resurs som krävs för att utföra uppgiften. Tidsuppskattningar skapas från schemaläggning av uppgifter. Tidsuppskattningar skapas inte om du skapar allmänna teammedlemmar utanför schemats sammanhang.
 
-Utgiftsberäkningar anges i rutnätet på sidan **beräkningar**.
+Utgiftsberäkningar anges i rutnätet på sidan **Utgiftsberäkningar**.
 
-## <a name="understanding-estimation"></a>Förstå beräkningar
+Att skapa en uppskattning för ett projekt anses vara en bästa praxis eftersom du kan bygga detaljerade uppskattningar nedifrån och upp för arbete eller tid och kostnader för varje uppgift i projektplanen. Du kan sedan använda denna detaljerade uppskattning för att skapa uppskattningar för varje offertrad och bygga en mer trovärdig offert för kunden. När du importerar eller skapar en detaljerad uppskattning på offertraden med hjälp av projektplanen importerar Project Operations försäljningsvärdena och kostnadsvärdena för dessa uppskattningar. Efter importen kan du visa måtten för lönsamhet, marginaler och resultat i projektofferten.
+
+## <a name="understanding-estimates"></a>Förstå beräkningar
 
 Använd tabellen nedan som vägledning för att förstå affärslogiken i beräkningsfasen.
 
-| Situation                                                                                                                                                                                                                                                                                                                                          | Entitetspost                                                                                                                                                                                                       | Transaktionstyp | Transaktionsklass | Ytterligare information                                                            |
+| Scenario                                                                                                                                                                                                                                                                                                                                          | Entitetspost                                                                                                                                                                                                       | Transaktionstyp | Transaktionsklass | Ytterligare information                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | När du behöver beräkna försäljningsvärde för tid i en offert                                                                                                                                                                                                                                                                                    | En post för offertraddetalj (QLD) skapas                                                                                                                                                                               | Projektkontrakt | Time        | I fältet transaktionsursprung på försäljningssidan QLD-raden står referenser till kostnadssidan QLD |
 |                                                                                                                                                                                                                                                                                     | En andra QLD-post skapas av systemet för att lagra motsvarande kostnadsvärden. Alla icke-monetära fält kopieras från försäljnings-QLD till den kostnads-QLD som systemet har.                                                                                                                                                                               | Kostnad | Time        | I fältet transaktionsursprung på försäljningssidan för information om offertrader refererar (QLD)-raden till kostnadssidan QLD |

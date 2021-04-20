@@ -1,23 +1,23 @@
 ---
-title: Korrigeringsprojektfakturor
-description: Detta ämne ger information om hur du skapar och bekräftar korrigeringsfakturor i Project Operations.
+title: Skapa projektbaserade fakturor för korrigering
+description: Detta ämne ger information om korrigeringsfakturor i Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866613"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788902"
 ---
-# <a name="corrective-project-invoices"></a>Korrigeringsprojektfakturor
+# <a name="create-corrective-project-based-invoices"></a>Skapa projektbaserade fakturor för korrigering 
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
 En bekräftad projektfaktura kan korrigeras för att bearbeta förändringar eller krediter som har förhandlats med kunden och projektledaren.
 
@@ -26,18 +26,17 @@ Om du vill göra ändringar i en bekräftad faktura öppnar du den bekräftade f
 > [!NOTE]
 > Det här alternativet är endast tillgängligt om projektfakturan är bekräftad.
 
-Ett nytt utkast till faktura skapas från den bekräftade fakturan. All fakturaradsinformation från den tidigare bekräftade fakturan kopieras till det nya utkastet. Nedan följer några av de viktigaste begreppen som du bör förstå om radinformation på den nya korrigerade fakturan:
+Ett nytt utkast till faktura skapas från den bekräftade fakturan. All fakturaradsinformation från den tidigare bekräftade fakturan kopieras till det nya utkastet. Nedan följer några viktiga punkter som hjälper dig att förstå mer om radinformationen för den nya korrigerade fakturan:
 
-- Alla kvantiteter uppdateras till noll. Programmet antar att alla fakturerade artiklar är helt krediterade. Om det behövs kan du manuellt uppdatera dessa kvantiteter för att återspegla den kvantitet som faktureras och inte den kvantitet som krediteras. Beroende på vilken kvantitet du anger beräknar programmet det krediterade antalet. Det här beloppet återspeglas i de faktiska värdena som skapas när den korrigerade fakturan bekräftas. Om du gör ändringar i momsbeloppet måste du ange rätt momsbelopp och inte det momsbelopp som ska krediteras.
-- Tidigare bekräftade produktbaserade kontraktrader kopieras inte över. Bearbetning av korrigeringar på en produktbaserad projektfaktura stöds inte.
+- Alla kvantiteter uppdateras till noll. Detta förutsätter att alla fakturerade objekt krediteras helt. Om det behövs kan du manuellt uppdatera dessa kvantiteter för att återspegla den kvantitet som faktureras och inte den kvantitet som krediteras. Beroende på vilken kvantitet du anger beräknar programmet det krediterade antalet. Det här beloppet återspeglas i de faktiska värdena som skapas när den korrigerade fakturan bekräftas. Om du gör ändringar i momsbeloppet måste du ange rätt momsbelopp och inte det momsbelopp som ska krediteras.
 - Ändringar av milstolpar bearbetas alltid som fulla krediter.
 - Behållare eller förskott kan korrigeras om kunden fakturerades för ett felaktigt belopp.
 - Det går att korrigera avstämningar av behållare och förskott om ett felaktigt belopp användes för att stämma av mot avgifterna på en tidigare bekräftad faktura.
 
 > [!IMPORTANT]
-> Fakturaradsinformation som är korrigeringar av andra redan fakturerade avgifter har fältet **Korrigering** värdet **Ja**. Fakturor med korrigerad fakturaradsinformation har ett fält med namnet **Har korrigeringar** som också har värdet **Ja**.
+> Fakturaradsinformation som är korrigeringar för andra redan fakturerade debiteringar har fältet **Korrigering** angett till **Ja**. Fakturor med korrigerad fakturaradsinformation har ett fält med namnet **Har korrigeringar** som också har värdet **Ja**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Fakta som skapas när en korrigerande faktura bekräftas
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Faktiska värden som skapas vid bekräftelse av en korrigeringsfaktura
 
 I följande tabell visas de faktiska värden som skapas när en korrigeringsfaktura bekräftas.
 
@@ -214,51 +213,6 @@ Ett nytt ej fakturerat faktiskt värde för försäljning som debiteras för åt
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Fakturera hela krediten för en tidigare fakturerad materialtransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En fakturerad försäljning för kvantitet och belopp på det ursprungliga fakturadetalj för material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny ofakturerad faktisk försäljning för kvantitet och belopp på det ursprungliga fakturadetalj för material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturera delkrediten för en materialtransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En fakturerad försäljning för kvantitet och fakturerat belopp på det ursprungliga fakturadetalj för material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En ny faktisk ofakturerad försäljning som är debiterbar för kvantitet och belopp på den redigerade fakturaradsdetaljen, en siffra som motsvarar den faktiska faktureringen.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ett nytt ej fakturerat faktiskt värde för försäljning som debiteras för återstående kvantitet och belopp efter avdrag för de korrigerade siffrorna i fakturaradsinformationen.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Fakturering av hela krediten för en tidigare fakturerad avgiftstransaktion.
                 </p>
             </td>
@@ -319,20 +273,9 @@ Fakturering av delkrediten för en tidigare fakturerad milstolpe.
                 <p>
 Stöds inte </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Kredit och korrigeringar av en tidigare fakturerad produktbaserad kontraktrad.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Stöds inte </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

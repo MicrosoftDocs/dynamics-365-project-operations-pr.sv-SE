@@ -1,42 +1,27 @@
 ---
-title: Skapa en manuell proforma-faktura
-description: I det här ämne finns information om hur du skapar en proforma-faktura.
+title: Proforma-fakturor
+description: Detta ämne ger information om proforma-fakturor i Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287800"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866883"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Skapa en manuell proforma-faktura
+# <a name="proforma-invoices"></a>Proforma-fakturor
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-Fakturering ger projektledarna en annan godkännandenivå innan de skapar fakturor för kunder. Den första godkännandenivån slutförs när tids- och utgiftsposter som skickats från projektteammedlemmar har godkänns.
+Proforma-fakturering ger projektledarna en annan godkännandenivå innan de skapar fakturor för kunder. Den första godkännandenivån slutförs när tids- och utgifts- och materialposter som skickats från projektteammedlemmar har godkänns. Bekräftade proforma-fakturor finns tillgängliga i projektredovisningsmodulen för Project Operations. Projektrevisorer kan utföra ytterligare uppdateringar, t.ex. moms, redovisning och fakturalayout.
 
-Dynamics 365 Project Operations har inte utformats för att skapa kundfakturor, av följande orsaker:
-
-- Den innehåller inte skatteinformation.
-- Det går inte att konvertera andra valutor till faktureringsvalutan med hjälp av korrekt konfigurerade valutakurser.
-- Det går inte att formatera fakturor korrekt så att de kan skrivas ut.
-
-I stället kan du använda ett finans- eller bokföringssystem för att skapa kundfakturor som använder informationen från fakturaförslag som genereras.
 
 ## <a name="creating-project-invoices"></a>Skapa projektfakturor
 
@@ -50,7 +35,7 @@ Följ det här steget om du vill skapa en faktura för ett specifikt projektkont
 
 - På listsidan **projektkontrakt**, öppna ett projektkontrakt och välj sedan **skapa faktura**.
 
-    En faktura skapas för alla transaktioner för det valda projektkontraktet som har statusvärdet **klart att fakturera**. Dessa transaktioner inkluderar tid, utgifter, milstolpar och produktbaserade kontraktrader.
+    En faktura skapas för alla transaktioner för det valda projektkontraktet som har statusvärdet **klart att fakturera**. Dessa transaktioner omfattar tid, utgifter, material, milstolpar och andra ofakturerade försäljningsrader.
 
 Följ stegen nedan om du vill skapa fakturor i bulk.
 
@@ -60,7 +45,7 @@ Följ stegen nedan om du vill skapa fakturor i bulk.
 
 2. Stäng meddelanderutan genom att välja **OK**.
 
-    En faktura skapas för alla transaktioner på en kontraktrad som har statusvärdet **klart att fakturera**. Dessa transaktioner inkluderar tid, utgifter, milstolpar och produktbaserade kontraktrader.
+    En faktura skapas för alla transaktioner på en kontraktrad som har statusvärdet **klart att fakturera**. Dessa transaktioner omfattar tid, utgifter, material, milstolpar och andra ofakturerade försäljningsrader.
 
 3. Om du vill visa fakturorna som genereras går du till **försäljning** \> **fakturering** \> **fakturor**. En faktura visas för varje projektkontrakt.
 
@@ -93,11 +78,10 @@ Batchprocessjobbet för att skapa fakturor är ett återkommande jobb. Om batchp
  
 ### <a name="edit-a-draft-invoice"></a>Redigera ett utkast till en faktura
 
-När du skapar ett utkast till en projektfaktura skickas alla ej fakturerade försäljningstransaktioner som skapades när utgiftsposterna godkändes. Du kan göra följande justeringar medan fakturan är i ett utkaststadium:
+När du skapar ett utkast till en projektfaktura skickas alla ej fakturerade försäljningstransaktioner som skapades när posterna för utgifter och materialanvändning godkändes. Du kan göra följande justeringar medan fakturan är i ett utkaststadium:
 
 - Ta bort eller redigera information om fakturarader.
 - Redigera och justera kvantitet och faktureringstyp.
-- Lägg direkt till tid, utgifter och avgifter som transaktioner på fakturan. Du kan använda den här funktionen om fakturaraden är mappad till en kontraktrad som tillåter dessa transaktionsklasser.
 
 Välj **bekräfta** om du vill bekräfta en faktura. Åtgärden Bekräfta är en enkelriktad åtgärd. När du väljer **bekräfta** blir fakturan skrivskyddad och verkliga värden för fakturerad försäljning skapas utifrån varje fakturaradinformation för varje fakturarad. Om fakturaradinformationen refererar till en ofakturerad faktisk försäljning återförs även den ofakturerade faktiska försäljningen. (All information på fakturaraden som skapades från en tidpunkt eller utgiftspost refererar till en ofakturerad faktisk försäljning.) Integreringssystemen för redovisning kan använda den här återföringen för att omvända pågående pågående projekt (WIP) i redovisningssyfte.
 

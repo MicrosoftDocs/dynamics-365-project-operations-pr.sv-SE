@@ -1,29 +1,27 @@
 ---
-title: Konfigurera automatiskt fakturaskapande - lite
-description: I det här ämnet finns information om hur du konfigurerar automatiskt skapande av proforma-fakturor.
+title: Konfigurera automatiskt fakturaskapande
+description: Detta ämne innehåller information om hur du konfigurerar och konfigurerar automatisk generering av proforma-fakturor.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274345"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866839"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurera automatiskt fakturaskapande - lite
+# <a name="set-up-automatic-invoice-creation"></a>Konfigurera automatiskt fakturaskapande 
  
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
 Du kan konfigurera automatiskt fakturaskapande i Dynamics 365 Project Operations. Systemet skapar ett utkast till en proforma-faktura utifrån faktureringsschemat för varje projektkontrakt och kontraktrad. Faktureringsscheman konfigureras på kontraktradsnivå. Varje rad i ett kontrakt kan ha en särskild faktureringsplan, eller så kan samma faktureringsschema tas med på alla rader i kontraktet.
 
-När du skapar en faktura skapas alltid minst en faktura per projektkontrakt. I vissa fall kan flera fakturor skapas.
-
-Om kontraktet till exempel har flera kunder skapas samma antal fakturor som antalet kunder som har fakturerbara transaktioner att fakturera på det projektkontraktet.
+När du skapar en faktura skapas alltid minst en faktura per projektkontrakt. I vissa fall kan flera fakturor skapas. Om kontraktet till exempel har flera kunder skapas samma antal fakturor som antalet kunder som har fakturerbara transaktioner att fakturera på det projektkontraktet.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Förstå hur transaktioner tas med på en faktura 
 

@@ -1,21 +1,21 @@
 ---
-title: Hantera en proforma-faktura - Lite
-description: I det här ämnet finns information om hur du arbetar med proforma-fakturor.
+title: Hantera en proforma projektfaktura
+description: Detta ämne ger information om hur du arbetar med proforma-projektfakturor.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274075"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866928"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Hantera en proforma-faktura - Lite
+# <a name="manage-a-proforma-project-invoice"></a>Hantera en proforma projektfaktura 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -69,9 +69,9 @@ I Project Operations finns det alltid en faktura rad för varje projektkontraktr
 
 Varje fakturarad i en projektfaktura inkluderar fakturaraddetaljer. Dessa raddetaljer är relaterade till fakturerad faktisk försäljning och milstolparna som relaterar till den kontraktrad som fakturaraden refererar till. Alla dessa transaktioner är markerade som **Klara för fakturering**.
 
-För raden **Tid- och materialfaktura** grupperas fakturaraddetaljer i **debiterbar**, **icke-debiterbar** och **kostnadsfri** på sidan **Fakturarad**. Informationen i **debiterbar fakturarad** läggs till summan för fakturaraden. **Kostnadsfritt** och **Faktiskt icke debiterbart** läggs inte till i fakturaradens summa.
+För raden **Tid- och materialfaktura** grupperas fakturaradinformationen på sidan **Debiterbar**, **Ej debiterbar** och **Kostnadsfritt** på **Fakturarad**. Informationen i **debiterbar fakturarad** läggs till summan för fakturaraden. **Kostnadsfria** och **Ej debiterbart faktiskt värde** läggs inte summan av fakturaraden till.
 
-För raden **Faktura med fast pris** skapas fakturaraddetaljer från milstolpar som är markerade som **klara för fakturering** på den relaterade kontraktraden. När fakturaradinformationen har skapats från en milstolpe uppdateras faktureringsstatusen på milstolpen till **kundfakturan som skapats**.
+För en rad för **Fast prisfaktura** skapas fakturadetaljer från milstolpar som är markerade som **Klar att fakturera** på den relaterade kontraktraden. När fakturaradinformationen har skapats från en milstolpe uppdateras faktureringsstatusen på milstolpen till **kundfakturan som skapats**.
 
 ### <a name="edit-invoice-line-details"></a>Redigera information om fakturarad
 
@@ -98,8 +98,12 @@ Följande fält är tillgängliga på fakturaraddetaljer som backas upp av faktu
 | **Moms** | Anges som standard från faktiska källan. Det här fältet kan redigeras av användaren | Fältet kan redigeras av användaren när du skapar en ny fakturaraddetalj utan att behöva säkerhetskopiera. |
 | **Utökat belopp** | Ett beräknat fält, beräknat som **belopp + moms**. Ett skrivskyddat fält som är låst för redigering. | &nbsp; |
 | **Faktureringstyp** | Anges som standard från faktiska källan. Det här fältet kan redigeras av användaren. | Om du väljer **debiterbar** läggs raden till i total summan för fakturaraden. **Kostnadsfritt** och **icke-debiterbar** tas de bort från fakturaradens totala summa. |
+| **Välj produkt** | Det här fältet är skrivskyddad som standard från källan. | När du skapar en ny fakturaradsdetalj utan att det finns någon faktisk säkerhetskopiering kan fältet redigeras. |
+| **Produkt** | Det här fältet är skrivskyddad som standard från källan. | När du skapar en ny fakturaraddetalj utan en faktisk säkerhetskopiering kan detta fält redigeras om **Välj produkt** anges till **Befintlig produkt**. |
+| **Produktnamn** | Det här fältet är skrivskyddad som standard från källan. | På en ny fakturaradsdetalj, där produkt-ID väljs från katalogen, anges det här fältet till produktnamnet. För en oregistrerad produkt anges fältet till oregistrerat namn. |
+| **Beskrivning av oregistrerad** | Det här fältet är skrivskyddad som standard från källan. | När du skapar en ny fakturaradsdetalj utan att det finns någon faktisk säkerhetskopiering kan du lägga till en beskrivning av produkten. |
 | **Transaktionstyp** | Anges som standard från faktiska källan. Ett skrivskyddat fält som är låst för redigering. | Ange som standard till **fakturerad försäljning** och låst när du skapar en ny **fakturaraddetalj** utan att behöva säkerhetskopiera.  |
-| **Transaktionsklass** | Anges som standard från faktiska källan. Ett skrivskyddat fält som är låst för redigering. | Ange som standard baserat på om användaren väljer att skapa en fakturraddetalj **Tid**, **Utgift** eller **Avgift** samtidigt som du också skapar en ny **fakturraddetalj** utan en faktisk uppbackning. Låst från redigering. |
+| **Transaktionsklass** | Anges som standard från faktiska källan. Ett skrivskyddat fält som är låst för redigering. | Ställ in som standard baserat på om användaren väljer att skapa en fakturaraddetalj för **Tid**, **Utgift**, **Material** eller **Avgift** samtidigt som man skapar en ny **Information om fakturarad** utan en faktisk säkerhetskopia. Låst från redigering. |
 
 Följande fält är tillgängliga på fakturaraddetaljer som backas upp av en milstolpe:
 

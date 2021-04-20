@@ -1,21 +1,21 @@
 ---
-title: Lös försäljningspriser för beräkningar och utfall – Lite
-description: I det här ämnet finns information om hur du löser försäljningspriser för uppskattningar och faktiska värden.
+title: Lös försäljningspriser för projektberäkningar och utfall
+description: Det här avsnittet innehåller information om lösa försäljningspriser på projektberäkningar och utfall.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274525"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877378"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Lös försäljningspriser för beräkningar och utfall – Lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Lös försäljningspriser för projektberäkningar och utfall
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -55,5 +55,14 @@ När en prislista för försäljning har lösts slutför systemet följande steg
 
 4. Om systemet inte kan matcha värdena i fälten **Kategori** och **Enhet** blir försäljningstaxan som standard noll (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Lösa försäljningstaxa på faktiska rader och beräkningsrader för material
+
+I Project Operations, beräkningsrader för material används till att ange offert- och kontraktradsinformation för material och de materialberäkningsrader som finns i ett projekt.
+
+När en prislista för försäljning har lösts slutför systemet följande steg för att standardisera styckpriset.
+
+1. Systemet använder kombinationen av fälten **produkt** och **enhet** på beräkningsraden för material för att matcha mot prislisteobjektraderna i den prislista som löstes.
+2. Om systemet hittar en prislista artikelrad som har en försäljningsgrad för fälten **Produkt** och **Enhet** kombination och prissättning är **Valutabelopp**, det försäljningspris som anges på prislistan används.
+3. Om värdena i fältet **Produkt** och **Enhet** inte matchar standardvärdet noll.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

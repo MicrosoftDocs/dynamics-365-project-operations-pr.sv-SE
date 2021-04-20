@@ -3,17 +3,17 @@ title: Hantera projektprislistor i projektkontrakt
 description: I det här ämnet finns information om hur du hanterar projektprislistor i projektkontrakt.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278620"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858585"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Hantera projektprislistor i projektkontrakt
 
@@ -21,13 +21,13 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Projektkontrakt i Dynamics 365 Project Operations är utformade för att stödja flera prislistor för försäljningsdatum i ett kontrakt. I Project Operations finns det en ny associerad entitet som kallas **projektprislistor**. Entiteten har en 1:n-relation till ett projektkontrakt.
 
-Projektprislistor används för att visa pris-, tids- och utgiftstransaktioner för ett projekt. När ett kontrakt har en eller flera projekt prislistor används de här prislistorna som priser för uppskattningar av tid och utgifter och faktiska värden för projekt som är associerade med kontraktet via kontraktraden.
+Projektprislistor används för pristransaktioner med tid, material och utgifter för ett projekt. När ett kontrakt offert har en eller flera projektprislistor används dessa prislistor för pristid, material, kostnader och faktiska värden för projekt som är associerade med kontraktet via kontraktraden.
 
-Om det inte finns några projekt prislistor i ett projektkontrakt visas ett varnings meddelande om att det inte finns några projektprislistor och att uppskattningar, projektarbete och utgifter inte ska vara prissatta. Det kommer inte att finnas något pris för försäljningsvärden.
+När det inte finns några projektprislistor på ett projektavtal ser du ett varningsmeddelande om att det inte finns några projektprislistor och dina uppskattningar, faktiska projektarbete, material och inloggade kostnader kommer inte att prissättas. Det kommer inte att finnas något pris för försäljningsvärden.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Associera eller ta bort associationen för en projekt prislista till ett projektkontrakt
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Skapa eller associera en specifik prislista för uppskattning av projektbaserade resurser och utgifter
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Skapa eller associera en specifik prislista för projektbaserat arbete, material och utgifter
 
 1. I projektkontraktet, välj fliken **Projektprislistor**.
 2. Välj i delnätet **+ Lägg till ny projektprislista**.
@@ -52,7 +52,7 @@ Om det inte finns några projekt prislistor i ett projektkontrakt visas ett varn
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Ange automatisk standard av projekt prislistor för ett kontrakt
 
-Du kan ställa in en projekt prislista som standardlista i ett projektkontrakt. Med hjälp av den här installationen kan du se till att alla kontrakt i organisationen alltid startas med en standard prislista för den prisperioden.
+En projektprislista kan anges som standardprislista för projekt. Med den här inställningen kan du se till att alla kontrakt i organisationen alltid börjar med en standardprislista för projekt för den prisperioden.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Konfigurera organisationens standard för projekt prislistor
 

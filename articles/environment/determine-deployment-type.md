@@ -3,17 +3,17 @@ title: Fastställa din distributionstyp
 description: I det här ämnet finns information som gör det lättare för dig att fastställa korrekt distributionstyp av Project Operations för ditt företag.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479586"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663616"
 ---
 # <a name="determine-your-deployment-type"></a>Fastställa din distributionstyp
 
@@ -44,9 +44,9 @@ Vår [distributionsenkät](https://aka.ms/provisionprojectoperations) hjälper d
 - [Project Operations för resursscenarier/icke lagerbaserade scenarier](#integrated)
 - [Project Operations för lagerbaserade/produktionsorderbaserade scenarier](#pma)
 
-Project Operations har stöd för lagerbaserade/produktionsorderbaserade scenarier och icke lagerbaserade/resursbaserade scenarier i samma miljö via konfigurationer på en juridisk enhetsnivå. Contoso kan t. ex. använda funktionerna för lager-/produktionsorder i en amerikansk tillverkningsanläggning (juridisk person = Contoso Manufacturing United States). Contoso kan använda icke-lagerförda och resursbaserade funktioner i Contoso Robotics Arms serviceanläggning i Storbritannien (juridisk person = Contoso Robotics United Kingdom).
+Project Operations har stöd för lagerbaserade/produktionsorderbaserade scenarier och icke lagerbaserade/resursbaserade scenarier i samma miljö via konfigurationer på en juridisk enhetsnivå. Kan till exempel, Contoso kan använda lager-/produktionsorderfunktionerna i deras tillverkningsanläggning i USA (juridisk entitet = Contoso tillverkning USA). Contoso kan använda den icke-lagerförda/resursbaserade kapaciteten i Contoso sin robotteknikarm serviceanläggning i Storbritannien (Juridisk entitet = Contoso Robotteknik Storbritannien).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Enkel distribution – avtal till proforma-fakturering
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-distribution – avtal till proforma-fakturering
 
 Den enkla distributionen omfattar följande funktioner:
 
@@ -56,7 +56,7 @@ Den enkla distributionen omfattar följande funktioner:
 - Enhetlig resurshantering
 - Tidsspårning
 - Grundläggande utgift
-- Proforma och kundorienterade fakturering 
+- Proforma-fakturering för projektledarens granskning och redigeringar 
 
 #### <a name="deployment-steps"></a>Instruktioner för distribution
 Bestäm den bästa distributionsmodellen för Project Operations med hjälp av [distributionsenkäten](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ Om du vill använda distributionen läser du [Registrera dig för förhandsversi
 - Fullständig fakturering
 - Intäktsredovisning
 - Produktionsorder
-- Stöd för material
+- Stöd för lagermaterial med lager
 
 #### <a name="deployment-steps"></a>Instruktioner för distribution
 Bestäm den bästa distributionsmodellen för Project Operations med hjälp av [distributionsenkäten](https://aka.ms/provisionprojectoperations).

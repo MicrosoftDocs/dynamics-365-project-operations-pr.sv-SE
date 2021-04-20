@@ -1,27 +1,27 @@
 ---
-title: Hantera projektprislistor i projektofferter - lite
-description: I det här ämnet finns information om hur du arbetar med projektprislistor i offerter. (Sales)
+title: Hantera projektprislistor i projektofferter
+description: I det här ämnet finns information om hur du arbetar med projektprislistor i offerter.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273040"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858630"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Hantera projektprislistor i projektofferter - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Hantera projektprislistor i projektofferter 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 Projektofferter har utformats för att stödja flera datumeffektiva försäljningsprislistor. Med Dynamics 365 Project Operations läggs en ny associerad entitet med namnet **Projektprislistor**. Entiteten har förhållandet 1-till-många till en projektoffert.
 
-Projektprislistor används för att visa pris-, tids- och utgiftstransaktioner för ett projekt. När en offert har en eller flera projektprislistor används de här prislistorna som uppskattningar och faktiska värden av pris, tid och utgifter för projekt som associeras med offerten via offertraden.
+Projektprislistor används för pristransaktioner med tid, material och utgifter för ett projekt. När en offert har en eller flera projektprislistor används dessa prislistor för pristid, material, kostnader och faktiska värden för projekt som är associerade med offerten via offertraden.
 
 Om det inte finns några projektprislistor på en projektoffert visas ett varningsmeddelande. Meddelandet anger att eftersom det inte finns några projektprislistor blir inte uppskattade och faktiska värden för arbete och utgifter i projektet prissatta. De kommer i stället att ha noll (0) pris för försäljningsvärden.
 

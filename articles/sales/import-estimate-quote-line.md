@@ -1,6 +1,6 @@
 ---
-title: Importera uppskattningar för ett projekt till en projektbaserad offertrad
-description: I det här ämnet finns information om hur du importerar uppskattningar från ett projekt till en offertrad.
+title: Importera beräkningar för ett projekt till en projektoffertrad
+description: Det här ämnet ger information om hur du importerar produkter från ett projekt till en projektoffertrad.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278350"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858765"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importera uppskattningar för ett projekt till en projektbaserad offertrad
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importera beräkningar för ett projekt till en projektoffertrad
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 

@@ -3,7 +3,7 @@ title: Värden
 description: Den ämne innehåller information om hur du arbetar med faktiska värden i Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291821"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852566"
 ---
 # <a name="actuals"></a>Utfall 
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller till:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Faktiska värden är den mängd arbete som har slutförts i ett projekt. De skapas som ett resultat av tids- och utgiftsposter samt journalposter och fakturor.
+Faktiska värden representerar den granskade och godkända ekonomiska förloppet och schemalägger förloppet för ett projekt. De skapas som ett resultat av godkännande av tid, utgifter, materialanvändningsposter och aktivitetsposter och fakturor.
 
 ## <a name="journal-lines-and-time-submission"></a>Journalrader och tidsöverföring
 
@@ -45,7 +45,7 @@ När en tidspost som skickas är kopplad till ett projekt som är mappat till en
 
 Logiken för att skapa standardpriser finns på journalraden. Fältvärdet från tidsposten kopieras till journalraden. Värdena innehåller datumet för transaktionen, kontraktsraden som projektet är mappat till och valutaresultatet i rätt prislista.
 
-De fält som påverkar standardpriser, t.ex. **Roll** och **Organisationsenhet** används för att fastställa korrekt pris på journalraden. Du kan lägga till ett anpassat fält i tidsposten. Om du vill att fältvärdet ska spridas till faktiska värden, skapar du fältet på entiteten Faktiska värden och använder fältmappningar för att kopiera fältet från tidsposten till det faktiska värdet.
+De fält som påverkar standardpriser, t.ex. **Roll** och **Resursenhet** används för att bestämma lämpligt pris på journalraden. Du kan lägga till ett anpassat fält i tidsposten. Om du vill att fältvärdet ska spridas ut till faktiska värden skapar du fältet i tabellerna **Faktiska värden** och **Journalrad**. Använd anpassad kod om du vill föra över det valda fältvärdet från Tidspost till Faktiska värden via raden med hjälp av transaktioners ursprung. Mer information om transaktioners ursprung och anslutningar finns i [Länka faktiska värden till ursprungliga poster](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Journalrader och grundläggande kostnadsöverföring
 
@@ -57,24 +57,42 @@ När en post för grundläggande utgift som skickas är länkad till ett projekt
 
 ### <a name="fixed-price"></a>Fast pris
 
-När en post för grundläggande utgift som skickas är kopplad till ett projekt som är mappat till en kontraktrad för fast pris skapar systemet en journalrad för kostnad.
+När en inlämnad grundläggande utgiftspost är länkad till ett projekt som är mappat till en fast prisavtal, skapar systemet en journalrad för kostnad.
 
 ### <a name="default-pricing"></a>Standardprissättning
 
-Logiken för att ange standardpriser för utgifter baseras på utgiftskategorin. Datumet för transaktionen, kontraktsraden som projektet är mappat till och valutan används för att bestämma rätt prislista. För själva priset anges emellertid som standard det belopp som har angetts direkt på de relaterade utgiftsjournalraderna för kostnad och försäljning.
+Logiken för att ange standardpriser för utgifter baseras på utgiftskategorin. Datumet för transaktionen, kontraktraden som projektet är mappat till och valutan används för att bestämma rätt prislista. De fält som påverkar standardpriser, t.ex. **Transaktionskategori** och **Resursenhet** används för att bestämma lämpligt pris på journalraden. Detta fungerar emellertid endast om prismodellen i prislistan är **Pris per enhet**. Om prismodellen är **Vid kostnad** eller **Pålägg på kostnad** används det pris som anges när kostnadsposten skapas för kostnad och priset på försäljningsjournalraden beräknas baserat på prissättningsmetoden. 
 
-Kategoribaserade poster av standardpriser per enhet på utgiftposter är inte tillgängliga.
+Du kan lägga till ett anpassat fält i utgiftsposten. Om du vill att fältvärdet ska spridas ut till faktiska värden skapar du fältet i tabellerna **Faktiska värden** och **Journalrad**. Använd anpassad kod om du vill föra över det valda fältvärdet från Tidspost till Faktiska värden via raden med hjälp av transaktioners ursprung. Mer information om transaktioners ursprung och anslutningar finns i [Länka faktiska värden till ursprungliga poster](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Journalrader och inlämning av materialförbrukningslogg
+
+Mer information om utgiftspost finns i [materialförbrukningslogg](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Tid och material
+
+När en inskickad användningsloggpost för material länkas till ett projekt som är mappat till en tids- och materialkontraktrad skapas två faktureringsrader, en för kostnad och en för ofakturerad försäljning.
+
+### <a name="fixed-price"></a>Fast pris
+
+När en inlämnad post för materialförbrukningslogg är länkad till ett projekt som är mappat till en fast prisavtal, skapar systemet en journalrad för kostnad.
+
+### <a name="default-pricing"></a>Standardprissättning
+
+Logiken för att ange standardpriser för material baseras på produkten och enhetskombinationen. Datumet för transaktionen, kontraktraden som projektet är mappat till och valutan används för att bestämma rätt prislista. De fält som påverkar standardpriser, t.ex. **Produkt-ID** och **Enhet** används för att bestämma lämpligt pris på journalraden. Detta fungerar emellertid endast för katalogprodukter. För inskrivningsprodukter används priset som angavs när posten för materialanvändningslogg skapades för kostnad och försäljningspris på journalraderna. 
+
+Du kan lägga till ett anpassat fält i posten **Materialförbrukningslogg**. Om du vill att fältvärdet ska spridas ut till faktiska värden skapar du fältet i tabellerna **Faktiska värden** och **Journalrad**. Använd anpassad kod om du vill föra över det valda fältvärdet från Tidspost till Faktiska värden via raden med hjälp av transaktioners ursprung. Mer information om transaktioners ursprung och anslutningar finns i [Länka faktiska värden till ursprungliga poster](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Använda postjournaler för att registrera kostnader
 
 Du kan använda postjournaler för att registrera kostnader eller intäkter i transaktionsklasserna material, avgift, tid, utgift eller moms. Journaler kan användas för följande ändamål:
 
-- Registrera materialets faktiska kostnader och försäljning i ett projekt.
 - Flytta transaktionsdata från ett annat system till Microsoft Dynamics 365 Project Operations.
 - Registrera kostnader som har inträffat i ett annat system. Kostnaderna kan vara anskaffnings- eller underleverantörskostnader.
 
 > [!IMPORTANT]
 > Programmet verifierar inte journalradtypen eller den relaterade prissättningen som har angetts på journalraden. Därför bör endast en användare som är helt medveten om redovisningseffekten som faktiska värden har på projektet använda sig av postjournaler för att skapa verkliga värden. På grund av den här journaltypens inverkan bör du noggrant välja vem som har åtkomst till att skapa postjournaler.
+
 ## <a name="record-actuals-based-on-project-events"></a>Registrera faktiska värden baserat på projekthändelser
 
 Project Operations registrerar ekonomiska transaktioner som inträffar under ett projekt. Dessa transaktioner registreras som faktiska värden. I följande tabell visas de olika typerna av faktiska värden som skapas, beroende på om projektet är ett tids- och materiallager, fast pris-projekt eller om det är i stadiet för försäljning eller ett internt projekt.

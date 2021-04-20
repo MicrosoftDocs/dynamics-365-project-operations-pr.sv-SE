@@ -1,9 +1,9 @@
 ---
 title: Konfigurera kreditkortsintegration
-description: I det här ämnet beskrivs hur du importerar och underhåller utgifter för kreditkortstransaktioner.
+description: Den ämne förklarar hur du arbetar med utgiftsrelaterade kreditkortstransaktioner.
 author: suvaidya
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd60d338e2b2a2d74d4d7f55bb5a1723f10c29ab
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276190"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866705"
 ---
 # <a name="set-up-credit-card-integration"></a>Konfigurera kreditkortsintegration
 
@@ -30,23 +30,32 @@ Utgift som är relaterade kreditkortstransaktioner kan ställas in så att de im
 
 ## <a name="import-credit-card-transactions"></a>Importera kreditkortstransaktioner
 
+Importera kreditkortstransaktioner genom att följa stegen nedan:
+
 1. På sidan **Kreditkortstransaktioner** väljer du **importera transaktioner**. Om du öppnar datahantering för första gången måste du uppdatera listan med dataentiteter i systemet innan du kan fortsätta.
-2. I fältet **Namn** ange en unik beskrivning av import jobbet.
+2. I fältet **Namn** ange en unik beskrivning för importjobbet.
 3. I fältet **Källdataformat** väljer du formatet för den fil som innehåller de kreditkortstransaktioner som ska importeras.
 4. Välj **överför** välj sedan den fil du vill importera.
 5. När filen har överförts kontrollerar du mappningen av kreditkortstransaktionsfilen och kolumnerna i dataentiteten för kreditkortstransaktioner genom att välja länken **Visa karta** på panelen. Om det uppstår mappningsfel eller om du måste ändra mappningen gör du mappningsändringarna antingen från fliken **Mappningsvisualisering** eller **Mappningsinformation**.
 6. Om du vill automatisera kreditkortstransaktionerna väljer du **Skapa återkommande datajobb**. Du kan ange en återkommande tid som anger hur ofta kreditkortstransaktioner ska importeras. När du är klar väljer du **OK**.
 7. Välj importera om du vill importera den valda filen nu **Import**.
-8. Om det uppstår fel under importen kan du visa körningsloggen eller mellanlagringsmappen för att se de fel du måste åtgärda för att kunna garantera en lyckad import.
+8. Om det uppstår fel under importen kan du visa körningsloggen eller testdata och se vilka fel du måste åtgärda för att importen ska lyckas.
 
 > [!NOTE]
-> Om du måste importera fler än ett fil format måste du skapa separata importjobb för varje formattyp.
+> Om du måste importera fler än ett filformat måste du skapa separata importjobb för varje formattyp.
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Tilldela om kreditkortstransaktionerna för avslutade medarbetare
 
-När en anställds post har avslutats inaktiveras den anställdes konto Active Directory Domain Services (AD DS) är inaktiverat. Det kan dock finnas aktiva kreditkortstransaktioner som fortfarande måste vara utgifter och ersättas. På sidan **Kreditkortstransaktioner** kan du omtilldela medarbetaren för en kreditkortstransaktion där den associerade medarbetaren har avslutas.
+När en anställds post har avslutats inaktiveras den anställdes konto Active Directory Domain Services (AD DS) är inaktiverat. Det kan dock finnas aktiva kreditkortstransaktioner som fortfarande måste vara utgifter och ersättas. På sidan **Kreditkortstransaktioner** kan du tilldela om den anställde för alla kreditkortstransaktioner där den associerade medarbetaren har avslutats.
 
 Välj en eller flera kreditkortstransaktioner och välj sedan **tilldela om transaktioner**. Du kan sedan välja en annan medarbetare att tilldela kreditkortstransaktionerna till. När kreditkortstransaktionerna har omtilldelats kan de väljas för en utgiftsrapport och betalas i den normala processen för återbetalning av utgiftsrapporter.
 
+## <a name="delete-credit-card-transactions"></a>Ta bort kreditkortstransaktioner 
+
+Ibland, efter att kreditkortstransaktioner har importerats, kan vissa transaktioner behöva raderas. Det kan beror på att transaktionerna är dubbletter eller på att data kanske inte är korrekta. Administratörer kan använda funktionen **"Ta bort kreditkortstransaktioner"** för att välja och ta bort kreditkortstransaktioner som **inte är bifogad** till en utgiftsrapport. 
+
+1. Gå till **Periodiska uppgifter** > **Ta bort kreditkortstransaktioner**.
+2. Välj **Filter** och tillhandahåll information om vilka poster som ska ingå.
+3. Välj **OK** för att ta bort posterna. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

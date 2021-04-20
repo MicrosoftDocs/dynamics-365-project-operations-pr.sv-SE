@@ -1,22 +1,22 @@
 ---
-title: Lös självkostnader för beräkningar och utfall – Lite
-description: I det här ämnet finns information om hur du löser självkostnader för uppskattningar och faktiska värden.
+title: Lös självkostnader för projektberäkningar och utfall
+description: Det här avsnittet innehåller information om hur kostnadspriser på projektberäkningar och utfall löses.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274571"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877287"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Lös självkostnader för beräkningar och utfall – Lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Lös självkostnader för projektberäkningar och utfall 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -36,6 +36,12 @@ När en kostnadsprislista har lösts matchas fälten **Roll** och **Resursenhet*
 Uppskattningsrader för utgift refererar till offert- och kontraktradsinformation för rader för utgift och utgiftsuppskattning i ett projekt.
 
 När en självkostnadslista har lösts använder systemet en kombination av fälten **Kategori** och **Enhet** på utgiftsuppskattningsraden för att matcha mot raderna **Kategoripris** i den lösta prislistan. Om systemet hittar en kategoriprisrad som har en kostnadstaxa för kombinationen av fälten **Kategori** och **Enhet** används kostnadstaxan som standard. Om systemet inte kan matcha värdena **Kategori** och **Enhet**, eller om det går att hitta en matchande kategoriprisrad, men prismodellen inte är **Pris per enhet**, kommer standardkostnaden att nollställas.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Lösa kostnadstaxa på faktiska rader och beräkningsrader för material
+
+Beräkningsrader för material refererar till offert- och kontraktradsinformation för material och de materialberäkningsrader som finns i ett projekt.
+
+Efter att en kostnadsprislista har lösts använder systemet en kombination av fälten **Produkt** och **Enhet** på uppskattningsraden för att en materiell uppskattning ska matcha mot raderna **Prislisteposter** i den stängda prislistan. Om systemet hittar en produktprisrad med en kostnadsnivå för fältkombinationen **Produkt** och **Enhet** blir kostnadstaxan standard. Om systemet inte kan matcha värdena för **Produkt** och **Enhet** eller om den kan hitta en matchande rad i prislistan men prissättningsmetoden baseras på standardkostnad eller aktuell kostnad och ingen av dem definieras på produkten, är enhetskostnaden som standard noll.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

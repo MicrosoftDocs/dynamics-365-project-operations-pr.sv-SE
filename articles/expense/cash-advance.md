@@ -3,19 +3,19 @@ title: Förskott
 description: I det här ämnet finns information om förskott.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276730"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715582"
 ---
 # <a name="cash-advance"></a>Förskott
 
@@ -60,7 +60,22 @@ Följande procedur slutförs vanligen av en revisor eller en användare med redo
 
 När du skapar och skickar en utgiftsrapport för det förskott som du redan har fått, justeras utgifterna automatiskt mot det förskottet. Om förskottet är större än utgiftsbeloppet måste du returnera saldot till företaget med hjälp av utgiftskategorin **Returnera kontanter**. Om förskottet som betalas av företaget är mindre än det belopp du har lagt ut för, måste företaget ersätta dig för detta. 
 
-### <a name="example"></a>Exempel
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Välj förskott som ska användas för dina utgifter
+Innan du skickar en utgiftsrapport kan du välja ett förskott som justeras mot utgiftstransaktionerna i rapporten. Om du vill använda den här funktionen måste följande två funktioner aktiveras från arbetsytan för **funktionshantering**:
+
+  - Ny typ av utgiftsrapporter
+  - Möjlighet att mappa kostnader till utgiftsrader
+ 
+ När de här funktionerna har aktiverats:
+ 
+  - Du kan ta bort en eller flera pengar för varje utgiftsrad.
+  - Det tillgängliga saldot för ett förskott visas i realtid när en utgiftsrapport sparas. På så sätt kan du bearbeta utgiftstransaktioner och returnera en kassatransaktion samtidigt.
+  - Du kan välja flera förskott för en kostnadstransaktion.
+  - Information om förskottsavstämning kan fås med hjälp av en fråga. 
+ 
+Om du inte använder dessa funktioner kommer funktionen att förbli densamma, med befintliga kassar automatiskt reducerade efter det att en utlägg skickas in.
+
+### <a name="example"></a>Exempel 
 Du planerar att resa från Seattle till New York City för en konferens. Du skapar en förskottsförfrågan för 3 000 USD utifrån den beräknade kostnaden för konferensbiljetten, flyg, hotell, måltider och taxiresor. Du kommer inte att få betalt om inte din chef godkänner denna förfrågan. Efter att chefen har godkänt betalningen betalas det begärda förskottet på 30 000 kr till ditt bankkonto. Du ska sedan delta i konferensen. När resan är klar upptäcker du att endast de totala utgifterna var 27 900 kr. Välj **Kontant** i fältet **Betalsätt** och skicka in dina utgifter uppgående till 2 790 USD. Det inskickade utgiftsbeloppet justeras automatiskt mot förskottet för de 30 000 kronorna som lånades ut till dig. Du får nu ett saldo på 210 USD (3 000 - 2 790) som du kan återföra tiull företaget med hjälp av utgiftskategorin **Returnera medel**.
 
 

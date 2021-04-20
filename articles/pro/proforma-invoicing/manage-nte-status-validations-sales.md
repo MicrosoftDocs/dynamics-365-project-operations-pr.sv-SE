@@ -3,17 +3,17 @@ title: Hantera undre status och valideringar
 description: I det här ämnet finns information om kontroller av undre gränser som har utförts i Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274058"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866749"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Hantera undre status och valideringar 
 
@@ -21,7 +21,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 ## <a name="not-to-exceed-on-approvals"></a>Undre gräns vid godkännanden
 
-När en tid eller utgiftspost skickas skapas en godkännandepost. Om godkännandet är debiterbart och mappar till en kontrraktrad för tid och material, slutför systemet en undre gräns för valideringskontroll på följande nivåer:
+När en tid, en kostnad eller en materialanvändningspost skickas, skapas en godkännandepost. Om godkännandet är debiterbart och mappar till en kontrraktrad för tid och material, slutför systemet en undre gräns för valideringskontroll på följande nivåer:
 
   - Kontrollera mot den gräns som har ställts in för kunden på projektkontraktraden
   - Kontrollera mot den gräns på kontraktraden
@@ -34,11 +34,11 @@ Om kontrollen lyckas får godkännandet en valideringsstatus som **lyckats**.
 
 Om kontrollen misslyckas får godkännandet en valideringsstatus som **misslyckats**. Den undre gränsen för verifieringsinformationen meddelar användaren vid vilken nivå verifieringen misslyckades.
 
-När den inskickade tiden eller utgiftsposten inte betraktas som debiterbar är undre gränsen för valideringsstatusen inställd på **inte tillämpligt** med valideringsinformationen lika med **inte tillämpligt**.
+När den angivna tids-, kostnad- eller materialanvändningsposten betraktas som icke-avgiftsbelagd är valideringsstatusen som inte överstiger inställningen till **Gäller inte** med verifieringsdetaljen samma som **Gäller inte**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Undre gräns på ej fakturerade försäljningsvärden
 
-När en tids- eller utgiftspost godkänns skapas endast verkliga och utgående försäljningsposter. Om ofakturerade faktiska försäljningen som skapats är debiterbar och mappar till en kontraktrad för tid och material utför appen en undre gräns för valideringskontroll på följande nivåer:
+När en post för tid, utgifter eller materialanvändning godkänns skapas faktiska poster för kostnader och oföränderlig försäljning. Om ofakturerade faktiska försäljningen som skapats är debiterbar och mappar till en kontraktrad för tid och material utför appen en undre gräns för valideringskontroll på följande nivåer:
 
   - Kontrollera mot den gräns som har ställts in för kunden på projektkontraktraden
   - Kontrollera mot den gräns på kontraktraden
@@ -55,9 +55,9 @@ När det ej fakturerade försäljningsvärdet beaktas som debiterbar eller ingå
 
 ## <a name="reset-the-not-to-exceed-status"></a>Återställ till status Överskrid inte
 
-Du kan göra en massåterställning av statusen Överskrid inte. Detta gör det möjligt för projektledarna att justera Överskrid inte-validering för att prioritera fakturering av en viss del av arbetet, tiden eller kostnaderna över andra som redan har beställts från det tillgängliga beloppet för Överskrid inte.
+Du kan göra en massåterställning av statusen Överskrid inte. Projektansvariga kan anpassa valideringen så att de prioriterar fakturering för ett visst arbets-, tids-, utgifts- eller materialutnyttjande framför andra som redan har åtagit sig från det tillgängliga icke-överstigande beloppet.
 
-När statusen för Överskrid inte-status har återställts för faktiska fakturerade försäljningsvärden minskas utfäst belopp. Projektledaren kan välja en annan del av arbetet, tid eller utgifter som tidigare inte kunde överskrida valideringen och utvärdera dem på nytt. Med minskningen av det utfästa beloppet godkänns de här värdena i automatiskt valideringen. Detta hjälper projektledaren att utöva större inflytande och styra de fakturerade transaktionerna för perioden.
+När statusen för Överskrid inte-status har återställts för faktiska fakturerade försäljningsvärden minskas utfäst belopp. Projektledaren kan välja en annan arbets-, tids-, utgifts- eller materialanvändningspost som tidigare inte kunde valideras och utvärdera igen. Med reduktionen av bekräftat belopp passerar dessa faktiska värden nu valideringen som hjälper projektledaren att få större inflytande och kontroll över de fakturerade transaktionerna för den perioden.
 
 Om du vill återställa statusen till Överskrid inte väljer du en eller flera värden från någon av vyerna **Eftersläpad fakturering av tid och material** eller **Faktiska värden** och väljer sedan **Återställ till status Överskrid inte**.
 
