@@ -32,8 +32,24 @@
               href: environment/resource-provision-new-environment.md
             - name: Säkerhetsmodell
               href: environment/security-model.md
-            - name: Konfigurera Project Operations-integrering efter juridisk entitet
+            - name: Konfigurera Project Operations-integration efter juridisk entitet
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Konfigurera integration för dubbelriktad skrivning
+          items:
+            - name: Integration för dubbelriktad skrivning – översikt
+              href: environment/resource-dual-write-overview.md
+            - name: Mappningsversioner för dubbelriktad skrivning för Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Inställningar och konfiguration för dataintegrering för Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integration med uppskattningar och utfall för projekt
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integration med projektfaktura
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integration med utgiftshantering
+              href: environment/resource-dual-write-expense.md
+            - name: Integration med leverantörsfaktura
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
         - name: April 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Definiera projektkalendrar
           href: project-management/define-project-calendars.md
+        - name: Schemaläggningslägen
+          href: project-management/scheduling-modes.md
         - name: Uppdatera ett projekt
           href: project-management/update-project.md
         - name: Kopiera ett projekt
@@ -404,6 +422,12 @@
           items:
             - name: Skapa och bekräfta korrigeringsjournaler
               href: actuals/create-confirm-correction-journals.md
+    - name: Anskaffning
+      items:
+        - name: Konfigurera icke lagerfört material och väntande leverantörsfakturor
+          href: procurement/configure-materials-nonstocked.md
+        - name: Anskaffa icke lagerfört material för projekt med hjälp av väntande leverantörsfakturor
+          href: procurement/pending-vendor-invoices.md
     - name: Fakturering
       items:
         - name: Översikt av faktureringsprocess
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurera automatisering av projektbaserade fakturor
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Hantera projektfakturaförslag
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projektredovisning
       items:
         - name: Standardvärden för ekonomisk dimension
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Definiera projektkalendrar
           href: project-management/define-project-calendars.md
+        - name: Schemaläggningslägen
+          hreF: project-management/scheduling-modes.md
         - name: Uppdatera ett projekt
           href: project-management/update-project.md
         - name: Kopiera ett projekt
@@ -848,6 +876,8 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter i april 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheter i mars 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Nyheter i januari 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
@@ -871,9 +901,9 @@
     - name: Konfigurera och använd betalning av leverantör vid betalning
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Projektkostnadsperiodisering av inköpsinleveranser
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projektfakturering
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Prestanda för projektfakturaförslag
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektkontrakt
@@ -998,6 +1028,8 @@
       items:
         - name: Uppdatering av tidsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 29.5 Hotfix, V3'
@@ -1327,7 +1359,7 @@
             - name: Visa resursutnyttjande
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Guide för projektansvarig
           items:
             - name: Guide för projektansvarig (Project Service)
