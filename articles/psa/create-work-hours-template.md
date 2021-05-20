@@ -1,6 +1,6 @@
 ---
 title: Skapa en ny mall för arbetstid
-description: Skapa en mall för arbetstimmar i Project Service
+description: Ämnet beskriver hur du skapar en mall för arbetstid i Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285055"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981277"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Skapa en mall för arbetstid (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Innan du kan skapa projektscheman, måste du lägga upp en projektkalender som definierar antalet arbetstimmar per dag i schemat och alla öppettider för företaget. Det gör du med en mall för arbetstider, som innehåller information om arbetstid per dag, lediga dagar och företagets öppettider.  
-  
- När du skapar ett projekt kan associera du en mall för arbetet med projektkalendern för att tillämpa schemat för projektet.  
-  
- Det finns två sätt att skapa en mall för arbetstid:  
-  
--   Skapa en mall för arbetstid baserat på en resurskalender.  
-  
--   Skapa en ny mall för arbetstid.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Skapa en mall för arbetstid baserat på en resurskalender  
-  
-1.  Gå till **Project Service > Resurser**.  
-  
-2.  Välj den resurs som du vill basera din arbetstid på.  
-  
-3.  Klicka på **Spara kalendee som**, ange ett namn för mallen arbetstid och klicka sedan på **Spara**.  
-  
-4.  När du är klar med ändringarna klickar du på **Spara och stäng**.  
-  
-5.  Klicka på knappen **Spara** längst ned till höger på skärmen.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Skapa en ny mall för arbetstid  
-  
-1.  Gå till **Project Service > Arbetstidsmall**.  
-  
-2.  Klicka på **Nytt**.  
-  
-3.  Ange ett namn för arbetstidsmallen.  
-  
-4.  Välj en resurs att basera arbetstid på och klicka sedan på **Spara**.  
-  
+För att skapa och hantera ett projekt måste du använda en kalendermall för projektet. Kalendermallen definierar följande projektattribut:
+
+- Arbetstider, inklusive start- och sluttid
+- Arbetsdagar
+- Kalenderundantag, som lediga dagar
+
+Kalendermallen som används för ett projekt är en kopia av kalendermallen som har definierats i organisationens inställningar.
+
+> [!NOTE]
+> Om du ändrar kalendermallen överförs inte ändringarna till projektets arbetstider. För att ändra projektets arbetstider måste en ny mall användas.
+
+Det finns två viktiga krav om du vill skapa en kalendermall för organisationen:
+
+- Ange mallens önskade arbetstider med hjälp av en ny eller befintlig bokningsbar resurs.
+- Skapa en ny kalendermall och associera mallen med den bokningsbara resursen.
+
+**Definiera arbetstider i mallen**
+
+1. Gå till **Resurser** \> **Resurser**.
+2. Skapa en ny resurs att referera till i kalendermallen eller välj en befintlig resurs.
+3. Välj resursens flik **Arbetstider** och följ instruktionerna i [Ange arbetstider för en resurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) för att konfigurera kalenderreglerna.
+
+**Skapa en ny kalendermall**
+
+1. Gå till **Inställningar** \> **Kalendermall**.
+2. Välj **Ny** och ange namn, beskrivning och mallresurs.
+
+
+> [!NOTE]
+> När en resurs refereras till i en kalendermall associeras en kopia av resursens kalender med kalendermallen. Om du ändrar arbetstider i den kopierade mallen överförs inte ändringarna till kalendermallen.
+
+
 ### <a name="see-also"></a>Se även  
  [Konfigurera resurser](../psa/set-up-resources.md)
 

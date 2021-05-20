@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281770"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951366"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Uppgraderingshänsyn för uppdelad arbetsstruktur
 
@@ -34,20 +34,20 @@ I det här ämnet finns information om hur du uppgraderar uppdelad arbetsstruktu
 ## <a name="key-entities"></a>Nyckelentiteter
 Följande entiteter krävs för att du ska kunna utföra en korrekt uppdelad arbetsstruktur som redan har laddats med resurser:
 
-- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektuppgift](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Resurstilldelningar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Beroende för projektuppgift](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Bokningsbara resurser](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektuppgift](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Resurstilldelningar](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Beroende för projektuppgift](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Bokningsbara resurser](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Om du vill definiera en resursinläst uppdelad arbetsstruktur som ska användas måste du utföra följande steg:
 
-1. Skapa ett nytt projekt. Mer information om hur du skapar ett nytt projekt finns i [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Skapa en eller flera uppgifter. Mer information om hur du skapar en ny uppgift finns i [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definiera uppgiftberoenden Mer information finns i [Beroende för projektuppgift](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Tilldela projektets teammedlemmar till projektet. Mer information finns i [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Tilldela projektets teammedlemmar till uppgifter. Mer information finns i [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Skapa ett nytt projekt. Mer information om hur du skapar ett nytt projekt finns i [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Skapa en eller flera uppgifter. Mer information om hur du skapar en ny uppgift finns i [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definiera uppgiftberoenden Mer information finns i [Beroende för projektuppgift](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Tilldela projektets teammedlemmar till projektet. Mer information finns i [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Tilldela projektets teammedlemmar till uppgifter. Mer information finns i [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projektteamrelationer
 

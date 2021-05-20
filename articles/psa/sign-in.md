@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282310"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951411"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Logga in på Project Service Automation
 
@@ -39,7 +39,7 @@ När du loggar in på Dynamics 365-appar måste du följande information redo fr
   
 - Ditt lösenord  
   
-  Du har förmodligen fått denna information via e-post från din administratör. Om du inte har all information, eller om du har problem med att logga in, [kontakta din administratör eller supportperson](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Du har förmodligen fått denna information via e-post från din administratör. Om du inte har all information, eller om du har problem med att logga in, [kontakta din administratör eller supportperson](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Ange personliga alternativ för att tillåta e-post  
  Du måste konfigurera dina e-postinställningar i syfte att låta andra skicka e-post å dina vägnar, så att [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kan skicka e-postmeddelanden åt dig när du har tid och utgifter att godkänna eller registrera för projekt.  

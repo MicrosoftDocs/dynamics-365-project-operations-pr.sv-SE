@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282670"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951456"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Schemalägg resurser för ett projekt (Project Service)
 
@@ -35,7 +35,7 @@ Du kan kontrollera resurstillgänglighet för att få en övergripande bild av h
   
 Schematavlan visar en lista över resurser och deras tillgänglighet. Välj ett visningsläge för att visa tillgänglighet efter **Timmar**, **Dag**, **Vecka** eller **Månad**.  
   
-Det är viktigt att ställa in schematavlan innan du använder den. Mer information finns i [Konfigurera schemaläggningstavlan (Field Service eller Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Det är viktigt att ställa in schematavlan innan du använder den. Mer information finns i [Konfigurera schemaläggningstavlan (Field Service eller Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Om du använder en äldre version och vill se resurstillgängligheten, se då [Visa resurstillgänglighet](../psa/view-resource-availability.md).  
 

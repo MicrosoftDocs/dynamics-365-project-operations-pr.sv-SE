@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275110"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950601"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installationen av exempeldata data för Project Service-programmet
 
@@ -149,7 +149,7 @@ Demonstrationsdatapaketet kräver sex användare. För att uppdateringen ska ins
 
 5. Den första användarens kalender (i etiketten **userstocreateandconfigure**) används för att fylla arbetstimmarna för alla bokningsbara resurser på import av demodata. Gå till **inställningar** > **säkerhet** > **användare**, hitta användaren ”Spencer Low” och öppna alternativet ”arbetstimmar”. Redigera befintliga arbetstimmar genom att välja alternativet **hela återkommande veckoschema från början till slut**. Kontrollera att **arbetstid anges till 8:00 - 17:00 (9 timmar) måndag till fredag och den tidszon som har angetts till Pacific Time (USA och Kanada)**. Detta görs för att säkerställa att alla projekt och schematavlor visas som förväntat.
 
-**Rekommendation:** Överväg att skapa en säkerhetskopia av organisationen nu, om du skulle behöva återställa till en utgångspunkt om något går fel under installationen av exempeldata. Mer information finns i [Säkerhetskopiera och återställ instanser](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekommendation:** Överväg att skapa en säkerhetskopia av organisationen nu, om du skulle behöva återställa till en utgångspunkt om något går fel under installationen av exempeldata. Mer information finns i [Säkerhetskopiera och återställ instanser](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Kör Package Deployer
 

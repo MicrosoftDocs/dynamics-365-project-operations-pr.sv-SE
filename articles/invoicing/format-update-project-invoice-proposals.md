@@ -3,17 +3,17 @@ title: Hantera projektfakturaförslag
 description: Detta ämne innehåller information om hur du bearbetar kundriktade fakturor med Project Operations för resurs- eller icke-lagerbaserade scenarier.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275875"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950736"
 ---
 # <a name="manage-project-invoice-proposals"></a>Hantera projektfakturaförslag
 
@@ -80,7 +80,8 @@ Värdena **Momsgrupp** och **Momsgrupp för artikelförsäljning** återställs 
     - **Kund** kommer alltid att återställa till momsgruppen för fakturering från kunden.
     - **Sök** söker igenom alla entiteter i listan och väljer det första tillgängliga värdet. Sökningen startar med entiteten **Projekt**, därefter entiteten **Projektkontrakt**, och sedan entiteten **Kund**.
 
-- **Momsgruppen för milstolpe-artiklar med fast pris** används för att återställa standardvärdet i fältet **Artikelmomsgrupp**.
+- **Artikelmomsgruppens fastprismilstolpe** används som standardvärde i fältet **Artikelmomsgrupp** för faktureringsmilstolpen. Redovisaren kan granska och modifiera värdet på sidan **Kontotransaktioner**. Systemet använder värdet från kontotransaktionen när en projektfakturaförslagsrad skapas.
+ 
 
 ### <a name="financial-dimensions"></a>Ekonomiska dimensioner
 
@@ -132,7 +133,7 @@ På sidan **Formatera fakturaförslag** kan anpassade grupperingstransaktioner v
 
 För utskriftshantering används olika rapportfiler för att skriva ut, ange mål och anpassa sidfotstext för fakturan. Utskriftshantering kan konfigureras på modulnivå, men inställningarna kan åsidosättas för en viss kund, ett visst kontrakt eller ett visst fakturaförslag. Om du vill få åtkomst till denna funktion går du till sidan **Projektfakturaförslag** och väljer **Skriv ut** > **Utskriftshantering**.
 
-Utskriftshanteringskonfigurationen visas som en trädvy där varje nodnivå visar tillgängliga dokument att justera. Du kan tilldela anpassade utskrifter på dokumentnivån för modul, kund, kontrakt eller fakturaförslag. Om du vill ändra utskriften för det ursprungliga dokumentet expanderar du den önskade noden och väljer **Ursprunglig artikel**. I fältet **Rapportformat** väljer du det rapportformat som ska användas för utskrift. Du kan använda anpassade rapportformat med hjälp av [Ramverk för dokumenthantering för företag](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Utskriftshanteringskonfigurationen visas som en trädvy där varje nodnivå visar tillgängliga dokument att justera. Du kan tilldela anpassade utskrifter på dokumentnivån för modul, kund, kontrakt eller fakturaförslag. Om du vill ändra utskriften för det ursprungliga dokumentet expanderar du den önskade noden och väljer **Ursprunglig artikel**. I fältet **Rapportformat** väljer du det rapportformat som ska användas för utskrift. Du kan använda anpassade rapportformat med hjälp av [Ramverk för dokumenthantering för företag](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Bokför fakturaförslag
 

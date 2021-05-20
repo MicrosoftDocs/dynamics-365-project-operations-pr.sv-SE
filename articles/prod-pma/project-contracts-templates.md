@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289616"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950421"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkronisera projektkontrakt och projekt direkt från Project Service Automation till Finance 
 
@@ -109,8 +109,8 @@ När integreringslösningen för Project Service Automation till Finance integra
 ## <a name="prerequisites-and-mapping-setup"></a>Krav och mappningsinställningar
 
 - Innan synkronisering av projektkontrakt och projekt kan ske måste du synkronisera konton.
-- I din anslutningsuppsättning lägger du till en fältmappning för integrationsnyckel för **msdyn\_organizationalunits** till **msdyn\_name \[namn\]**. Du kanske först måste lägga till ett projekt i anslutningsuppsättningen. Mer information finns i [integrera data i Common Data Service för appar](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- I din anslutningsuppsättning lägger du till en fältmappning för integrationsnyckel för **msdyn\_projekts** till **msdynce\_projectnumber \[projektnummer\]**. Du kanske först måste lägga till ett projekt i anslutningsuppsättningen. Mer information finns i [integrera data i Common Data Service för appar](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- I din anslutningsuppsättning lägger du till en fältmappning för integrationsnyckel för **msdyn\_organizationalunits** till **msdyn\_name \[namn\]**. Du kanske först måste lägga till ett projekt i anslutningsuppsättningen. Mer information finns i [integrera data i Common Data Service för appar](/powerapps/administrator/data-integrator).
+- I din anslutningsuppsättning lägger du till en fältmappning för integrationsnyckel för **msdyn\_projekts** till **msdynce\_projectnumber \[projektnummer\]**. Du kanske först måste lägga till ett projekt i anslutningsuppsättningen. Mer information finns i [integrera data i Common Data Service för appar](/powerapps/administrator/data-integrator).
 - **SourceDataID** för projektkontrakt och projekt kan uppdateras till ett annat värde eller tas bort från mappningen. Standardmallens värde är **Project Service Automation**.
 - Mappningen **PaymentTerms** måste uppdateras så att den visar giltiga betalningsvillkor i en Finance. Du kan också ta bort mappningen från projektuppgiften. Standardvärdes mappning har standardvärden för demonstrationsdata. I följande tabell visas värdena i Project Service Automation.
 
@@ -131,7 +131,7 @@ Använd Microsoft Power Query för Excel för att filtrera data om följande vil
 Om du måste använda Power Query följer du dessa riktlinjer:
 
 - Mallen projekt och kontrakt (PSA till Fin and Ops) har ett standardfilter som endast innehåller försäljningsorder av typen **Arbetsobjekt (msdyn\_ordertype = 192350001)**. Filtret hjälper till att garantera att projektkontrakt inte skapas för försäljningsorder i Finance. Om du skapar en egen mall måste du lägga till filtret.
-- Skapa ett Power Query-filter som endast innehåller de kontraktorganisationer som ska synkroniseras med den juridiska personen i integrationsanslutningen. Projektkontrakt som du har med kontraktets organisationsenhet för Contoso US ska synkroniseras till USSI juridiska personen, men projektkontrakt som du har med organisationsenheten organisationsstruktur för Contoso Global ska synkroniseras med USMF juridiska personen. Om du inte lägger till filtret i din uppgiftsmappning synkroniseras alla projektkontrakt med den juridiska personen som har definierats för anslutningsuppsättningen oavsett organisationsenhet.
+- Skapa ett Power Query-filter som endast innehåller de kontraktorganisationer som ska synkroniseras med den juridiska personen i integrationsanslutningen. Exempelvis ska projektkontrakt som du har med kontraktorganisationsenheten i Contoso USA synkroniseras med USSI juridiska entitet, men projektkontrakt som du har med kontraktorganisationsenheten i Contoso Global ska synkroniseras med USMF juridiska entitet. Om du inte lägger till filtret i din uppgiftsmappning synkroniseras alla projektkontrakt med den juridiska personen som har definierats för anslutningsuppsättningen oavsett organisationsenhet.
 
 ## <a name="template-mapping-in-data-integration"></a>Mallgrupp i dataintegrering
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288070"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950916"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nyheter och ändringar i Project Operations för januari 2021 för lagerbaserade/produktionsbaserade scenarier
 
@@ -144,7 +144,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Resor och utgifter                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | I Project Operations går det inte att skapa eller godkänna tid med koncerninterna uppgifter i Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

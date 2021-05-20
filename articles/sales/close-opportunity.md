@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278800"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949926"
 ---
 # <a name="close-an-opportunity"></a>Stänga en affärsmöjlighet
 
@@ -23,7 +23,7 @@ Projektmöjligheter kan stängas som vunna eller Förlorade. I dialogrutan **St�
 
 Du får inte stänga möjligheten om några aktiva offerter är associerade med den. Du kan stänga alla aktiva offerter och utkast till offerter som associeras med en möjlighet på samma gång. Sedan får du möjlighet att stänga möjligheten.
 
-Mer allmän information om att stänga möjligheter finns i [Stänga möjligheter som vunna eller förlorade](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Mer allmän information om att stänga möjligheter finns i [Stänga möjligheter som vunna eller förlorade](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

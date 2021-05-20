@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 108fc9b25b112e7af69147a151929fb2c2d887a6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275920"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950692"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -30,17 +30,17 @@ Microsoft Dynamics 365 Project Operations kopplar samman försäljnings-, resurs
 
 -   **Ledare får affärsinsikter** för att öka synligheten för alla team, data och processer samt AI-funktioner för bättre och snabbare affärsbeslut.
 -   **Försäljning har aktiverats** för att ta hem fler affärer och påskynda försäljningscykeln med snabba och korrekta offerter, flexibla priser och sömlösa övergångar från uppskattning till körning.
--   **Resurser har konfigurerats för att optimera** resursanvändningen genom att få rätt personer med rätt kompetens till rätt projekt. Detta förbättrar kvaliteten och hjälper till att behålla de bäst presterande.
+-   **Resurser har konfigurerats för att optimera** resursanvändningen genom att få rätt personer med rätt kompetens till rätt projekt. Anpassningen förbättrar kvaliteten och bidrar till att behålla de bäst presterande.
 -   **Projektledarna kan påskynda** projektleveransen med den moderna, inbyggda projekthanteringen som använder välkända och lättanvända Microsoft Project-funktioner.
 -   **Teammedlemmar kan förbättra produktiviteten**, samarbetet och synligheten genom integration med Microsoft Teams och skicka tid och utgifter från valfri plats.
 -   **Med finansiering kan du förenkla projektredovisning** med styrning av tids- och utgiftsspårning, projektkostnader, budgetering, fakturering, intäktsredovisning, efterlevnad och insyn i viktiga affärshälsomått.
 
-Project Operations är kraftfullt i sig, men kan utökas av våra kunder som behöver ytterligare funktioner från Dynamics 365. Detta omfattar bland annat marknadsföring, personal och kundtjänst. Oavsett om du vill använda fler funktioner i ett annat Dynamics 365-program eller om du vill lägga till i ett anpassat program som är byggt med Power Apps, fungerar allting tillsammans och fungerar som du förväntar dig eftersom de har en gemensam grund för en säker, privat och kompatibel molnlösning.
+Project Operations är kraftfullt på egen hand, men kan expanderas av våra kunder som behöver fler funktioner från Dynamics 365. Funktionerna omfattar bland annat marknadsföring, personal, kundtjänst med mera. Oavsett om du vill lägga till funktioner i ett annat Dynamics 365-program eller lägga till i ett anpassat program som skapats med Power Apps, fungerar allt tillsammans och fungerar som förväntat eftersom de har gemensam grund som ger en säker, privat och standardiserad molnlösning.
 
 Mer information finns i:
 
 - [Översikt över Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Översikt över Dynamics 365 Project Operations 2020 utgivningscykel 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Översikt över Dynamics 365 Project Operations 2020 utgivningscykel 1](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

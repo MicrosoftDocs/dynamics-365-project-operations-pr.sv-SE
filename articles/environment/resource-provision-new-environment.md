@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276910"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950556"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
@@ -36,7 +36,7 @@ Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för P
 
 ## <a name="provision-a-project-operations-environment"></a>Etablera en Project Operations-miljö
 
-1. Öppna en ny Dynamics 365 Finance [demomiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
+1. Öppna en ny Dynamics 365 Finance [demomiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
 2. Gå igenom guiden **Miljöetablering**. 
 
 > [!IMPORTANT]
@@ -183,7 +183,7 @@ Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den �
 | **Milstolpar för kontraktrad för Project Operations-integration (msdyn\_contractlinesscheduleofvalues)** | Inga | Inga | N\A | Inga | N\A |
 | **Entitet för Project Operations-integration för utgiftsuppskattningar (msdyn\_estimateslines)** | Inga | Inga | N\A | Inga | N\A |
 | **Entitet för export av projektutgiftkategorier i Project Operations-integration (msdyn\_expensecategories)** | Inga | Inga | N\A | Inga | N\A |
-| **Entitet för export av projektutgifter i Project Operations-integration (msdyn\_expenses)** | Ja | Inga | N\A | Inga | N\A |
+| **Entitet för export av projektutgifter i Project Operations-integrering (msdyn\_expenses)** | Ja | Inga | N\A | Inga | N\A |
 | **Entitet för Project Operations-integration för tidsuppskattningar (msdyn\_resourceassignments)** | Ja | Inga | N\A | Inga | N\A |
 
 

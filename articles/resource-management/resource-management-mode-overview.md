@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279475"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949971"
 ---
 # <a name="resource-management-modes-overview"></a>Resurshanteringslägen – Översikt
 
@@ -29,11 +29,11 @@ För organisationer som centraliserar tilldelningen för resurser till projekt, 
 
 Information om hur du hanterar resurser med centralt läge finns i:
 
-- [Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Boka namngivna resurser från resurskrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Skicka en resursbegäran](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Uppfyll en resursförfrågning](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Acceptera eller avvisa en föreslagen projektresurs från en resursförfrågan](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Boka namngivna resurser från resurskrav](/dynamics365/project-service/book-named-resource)
+- [Skicka en resursbegäran](/dynamics365/project-service/submit-resource-request)
+- [Uppfyll en resursförfrågning](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Acceptera eller avvisa en föreslagen projektresurs från en resursförfrågan](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hybridläge
 För organisationer som behöver flexibilitet i tilldelningen av resurser innebär hybridläget att både projektledarna och resursansvariga kan boka resurser.
@@ -43,11 +43,11 @@ För organisationer som behöver flexibilitet i tilldelningen av resurser inneb�
 Utöver den centrallägesprocess som stöds, se följande avsnitt för att hantera alla andra bokningsflöden som stöds i hybridläget:
 
 Boka en resurs direkt till ett projekt:
-- [Boka namngivna bokningsbara resurser till ett projektgrupp och tilldela dem uppgifter](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Boka namngivna bokningsbara resurser till ett projektgrupp och tilldela dem uppgifter](/dynamics365/project-service/assign-named-bookable-resource)
 
 Boka en resurs från ett resurskrav:
-- [Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Boka namngivna resurser från resurskrav](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Tilldela generiska bokningsbara resurser en uppgift och generera resursbehov](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Boka namngivna resurser från resurskrav](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
