@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 95a9251707de3699322471535aa93070ba4fb2ae
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500047"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948081"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i mars 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 
@@ -50,7 +50,7 @@ För mer information, se [Nyheter i januari 2021 - Project Operations för resur
 
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

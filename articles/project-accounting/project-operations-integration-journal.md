@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287260"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948352"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal i Project Operations
 
@@ -38,7 +38,7 @@ Systemet grupperar journalrader i separata journaler baserat på det värde som 
 Journalrader skapas utifrån projektets faktiska värden. Följande lista innehåller några av de mest bevarade standard- och omvandlingsreglerna:
 
   - Varje projekt faktiska transaktion har en rad i integrationsjournalen för Project Operations. Kostnads- och ofakturerade försäljningstransaktioner för tid och material faktureringstyp visas på separata rader.
-  - Fältet **Datum** representerar datumet för transaktionen. Fältet **bokföringsdatum** representerar det datum då transaktionen registreras i redovisningsmodulen. Om redovisningsdatumet infaller i en [stängd finansiell period](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) och parametern **ställ automatiskt in redovisningsdatum för att öppna redovisningsperiod** anges på fliken **finans** på sidan **Projektledning och redovisningsparametrar**, justeras redovisningsdatumet för transaktionen till det första datumet i nästa öppna redovisningsperiod.
+  - Fältet **Datum** representerar datumet för transaktionen. Fältet **bokföringsdatum** representerar det datum då transaktionen registreras i redovisningsmodulen. Om redovisningsdatumet infaller i en [stängd finansiell period](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) och parametern **ställ automatiskt in redovisningsdatum för att öppna redovisningsperiod** anges på fliken **finans** på sidan **Projektledning och redovisningsparametrar**, justeras redovisningsdatumet för transaktionen till det första datumet i nästa öppna redovisningsperiod.
   - I fältet **verifikation** visas verifikationsnumret för varje aktuell transaktion. Verifikations nummer serien definieras på fliken **nummerserier** på sidan **projektledning och redovisningsparametrar**. Varje rad tilldelas ett nytt nummer. När verifikationen har bokförts kan du visa hur kostnaden och den fakturerade försäljningstransaktionen är relaterade genom att välja **relaterad verifikation** på sidan **verifikationstransaktion**.
   - Fältet **kategori** representerar en projekttransaktion och standardvärden baserat på transaktionskategorin för det relaterade projektet.
     - Om en **transaktionskategori** ställs in i projektets faktiska och en relaterad **projektkategori** finns i en viss juridisk person får kategorin standardvärden för projektkategorin.

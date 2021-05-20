@@ -3,18 +3,18 @@ title: Nyheter i april 2021 – Project Operations för resursscenarier/icke lag
 description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i april 2021-versionen av Project Operations för resurs-/ej lagerbaserade scenarier.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868015"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935496"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i april 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
 
@@ -33,8 +33,26 @@ Följande funktioner ingår i denna version:
   - Uppskatta och prissätta icke lagrade material under försäljningscykeln för ett projekt. För mer information, se [Konfigurera kostnads- och försäljningstaxa för katalogprodukter – Lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Spåra användning av icke-lagermaterial under projektleveransen. För mer information, se [Registrera materialanvändning för projekt och projektuppgifter](../material/material-usage-log.md).
   - Fakturera kostnader för använt icke-lagermaterial. Mer information finns i [Hantera eftersläpad fakturering](../proforma-invoicing/manage-billing-backlog.md).
+  - Information om hur du konfigurerar den här funktionen finns [i Konfigurera icke-lagerbaserade material och väntande leverantörsfakturor](../procurement/configure-materials-nonstocked.md)
 - Uppgiftsbaserad fakturering: Lagt till möjligheten att associera projektuppgifter till projektkontraktsrader och därigenom utsätta dem för samma faktureringsmetod, fakturafrekvens och kunder som de på kontraktsraden. Denna förening säkerställer korrekt fakturering, redovisning, intäktsuppskattning och erkännande för att arbeta i enlighet med denna inställning för projektuppgifter.
 - Nya API:er i Dynamics 365 Dataverse tillåter att åtgärder skapas, uppdateras och tas bort med **Schemaläggningsentiteter**. För mer information, se [Använd schema-API:er för att utföra åtgärder med schemaläggningsentiteter](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Uppdateringar av Project Operations mappningar med dubbelriktad skrivning
+
+Följande lista visar de mappningar med dubbelriktad skrivning som har ändrats eller lagts till i Project Operations-versionen april 2021.
+
+| **Entitetsmappning** | **Uppdaterad version** | **Kommentarer** |
+| --- | --- | --- |
+| Project Operations-integration av faktiska värden (msdyn\_actuals) | 1.0.0.14 | Mappning redigerad för att synkronisera faktiska värden för projektmaterial. |
+| Project Operations-integration för entitet för utgiftsberäkningar (msdyn\_estimateslines) | 1.0.0.2 | Lade till projektkontraktradsynkronisering i Finance and Operations-appar för uppgiftsbaserat faktureringsstöd. |
+| Project Operations-integration för entitet för tidsberäkningar (msdyn\_resourceassignments) | 1.0.0.5 | Lade till projektkontraktradsynkronisering i Finance and Operations-appar för uppgiftsbaserat faktureringsstöd. |
+| Project Operations integrationstabell för materialberäkningar (msdyn\_estimatelines) | 1.0.0.0 | Ny tabellmappning för att synkronisera materialberäkningar från Dataverse till Finance and Operations-appar. |
+| Project Operations-integration för entitet för export av projektleverantörsfaktura (msdyn\_projectvendorinvoices) | 1.0.0.0 | Ny tabellmappning för att synkronisera leverantörsfakturarubriker från Finance and Operations till Dataverse-appar. |
+| Project Operations-integration för entitet för export av projektleverantörsfakturarad (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Ny tabellmappning för att synkronisera leverantörsfakturarader från Finance and Operations till Dataverse-appar. |
+
+Du bör alltid köra den senaste versionen av mappningen i din miljö och aktivera alla relaterade tabellmappningar när du uppdaterar Project Operations Dataverse-lösningen och Finance and Operations-lösningsversion. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av mappningen visas i kolumnen **Version** på sidan **Dubbelriktad skrivning**. Du kan aktivera en ny version av mappningen genom att välja **Tabellmappningsversioner**, välja senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Om du har problem med att starta mappningen följer du instruktionerna i avsnittet [Problem med saknade tabellkolumner i mappningar](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i felsökningsguiden för dubbelriktad skrivning.
 
 ## <a name="quality-updates"></a>Kvalitetsuppdateringar
 
@@ -67,7 +85,7 @@ Följande funktioner ingår i denna version:
 
 | **Funktionsområde** | **Referensnummer** | **Kvalitetsuppdatering** |
 | --- | --- | --- |
-| Projektledning och redovisning | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminering av omvänd uppskattning fungerar inte i **regelbundet**.  |
+| Projektledning och redovisning | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Den omvända beräkningselimineringen fungerar inte i avsnittet **Periodiskt**.  |
 | Projektledning och redovisning | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Med funktionen **Justering av redovisning** skapar ett problem med storbokskonton som har markerats **Tillåt inte manuell inmatning**. |
 | Projektledning och redovisning | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Lade till affärslogik för att bearbeta korrigeringsfakturor, inklusive kvarhållarbelopp eller tillämpat kvarhållarbelopp. |
 | Projektledning och redovisning | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bokföringen av PIA-försäljningsvärde i koncernintern projektfakturering väljer ett oväntat konto. |

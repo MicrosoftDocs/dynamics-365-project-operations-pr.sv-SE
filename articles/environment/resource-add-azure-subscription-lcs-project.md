@@ -3,17 +3,17 @@ title: Lägg till en Azure-prenumeration i ett LCS-projekt
 description: I det här ämnet finns information om hur du ansluter din Azure-prenumeration till ett LCS-projekt.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289931"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880560"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Lägg till en Azure-prenumeration i ett LCS-projekt
 
@@ -62,7 +62,7 @@ Auktoriseringen har slutförts.
 3. I fältet **Konfigurera för att använda Azure Resource Manager** väljer du **Ja**.
 4. Kontrollera att AAD-klientorganisationens domän för Azure-prenumerationen stämmer överens med den domänägande Azure-prenumerationen som du använder och välj **Nästa**.
 5. På skärmen **Microsoft Azure-konfiguration** väljer du **Nästa** för att bekräfta. Om du får ett felmeddelande på den här sidan går du tillbaka till avsnittet [Tillhandahåll Dynamics Deployment Services åtkomst till Azure-prenumerationen](#provide) i det här ämnet och kontrollera att du har slutfört alla steg.
-6. Hämta Azure-hanteringscertifikatet till en lokal mapp på datorn och överför det sedan till Azure-hanteringsportalen genom att gå till **Inställningar** > **Hanteringscertifikat**. Med det här certifikatet kan LCS kommunicera med Azure åt dig. Du kan hoppa över det här steget om din användare har åtkomst till prenumerationen.
+6. Ladda ner Azure Management Certificate till en lokal mapp på din dator. Be administratören av din Azure-prenumeration att överföra certifikatet till Azure-hanteringsportalen genom att välja prenumerationen och gå till **Inställningar** > **Hantering av certifikat**. Certifikatet gör att LCS kan kommunicera med Azure för din räkning. Du kan hoppa över det här steget om din användare har åtkomst till prenumerationen.
 7. Välj **Nästa**.
 8. Välj Azure-regionen som du vill distribuera i och välj ett datacenter som är nära det ställe där du vill använda systemet.
 9.  Välj **Anslut**.

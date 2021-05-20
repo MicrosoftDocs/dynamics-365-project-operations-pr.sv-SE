@@ -3,17 +3,17 @@ title: Skapa koncerninterna transaktioner
 description: Detta ämne innehåller information om hur du skapar koncerninterna transaktioner.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287440"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880470"
 ---
 # <a name="create-intercompany-transactions"></a>Skapa koncerninterna transaktioner
 
@@ -62,7 +62,7 @@ Molly Clark, utvecklare anställd inom GBPM, registrerar 10 timmars arbete mot e
     4. Ange valutan som **USD**.
     5. Spara posten.
 3. Gå till **Försäljning** > **Projektkontrakt** och skapa ett nytt projektkontrakt för Adventure Works.
-    1. Ställ in det egna företaget som **USPM** och entreprenadenheten som **Contoso Robotics US**.
+    1. Ange ägande företag som **USPM** och den kontrakterande enheten som **Contoso Robotics US**.
     2. Välj Adventure Works som kund.
     3. Välj en produktprislista och spara posten.
     4. Skapa en ny kontraktrad i fliken **Kontraktrader**. Ange valfritt namn och välj **Tid och material** som faktureringsmetod.
@@ -94,7 +94,7 @@ Molly Clark, utvecklare anställd inom GBPM, registrerar 10 timmars arbete mot e
     Denna icke-fakturerade försäljning är nu redo för fakturering. Fakturan för kunden Adventure Works kan bokföras ekonomiskt när så behövs.
 
 10. Logga in som **GBPM**-revisor. Öppna Finance-instansen av Project Operations och öppna företaget **GBPM**. 
-11. Gå till **Projektledning och redovisning** > **Periodisk** > **Project Operations för Customer Engagement** > **Importera från mellanlagring** och kör den periodiska processen för att fylla i integrationsjournalen för Project Operations.
+11. Gå till **Projekthantering och redovisning** > **Regelbundet** > **Project Operations-integration** > **Importera från mellanlagring** och kör den regelbundna processen för att fylla i Project Operations-integrationsjournal.
 12. Gå till **Projektledning och redovisning** > **Journaler** > **Integrationsjournal för Project Operations** och granska raderna. Systemet skapar följande rader.
 
     | **Transaktionstyp** | **Pris** | **Transaktionsvaluta** | **Belopp** |

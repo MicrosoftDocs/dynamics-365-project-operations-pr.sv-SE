@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285235"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948216"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Skapa en affärsmöjlighet för projekt (Project Service)
 
@@ -39,7 +39,7 @@ Affärsmöjligheter är varma leads från kunder som är intresserade av att kon
   
 3.  I området **sammanfattning**, ange din affärsmöjlighetens företag och annan information.  
   
-4.  Lägg till alla anteckningar och aktiviteter (till exempel telefonsamtal eller e-post) för leadet. Mer information om att lägga till anteckningar och aktiviteter finns i [hålla ordning på anteckningar, uppgifter, telefonsamtal eller e-postmeddelande med aktiviteter](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Lägg till alla anteckningar och aktiviteter (till exempel telefonsamtal eller e-post) för leadet. Mer information om att lägga till anteckningar och aktiviteter finns i [hålla ordning på anteckningar, uppgifter, telefonsamtal eller e-postmeddelande med aktiviteter](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Om du vill lägga till intressenter klickar du på **Intressenter**, klicka på **+**.  
   

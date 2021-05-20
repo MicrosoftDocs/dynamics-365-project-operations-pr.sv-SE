@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284335"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947946"
 ---
 # <a name="install-and-customize-project-service"></a>Installera och anpassa (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284335"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Installera Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] är en prioriterad lösning. Det finns flera sätt att köpa lösningen. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Få igång din organisation och dina användare](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] är en prioriterad lösning. Det finns flera sätt att köpa lösningen. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Få igång din organisation och dina användare](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Anpassa [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-formulär och -rapporter  
  Om du vill anpassa någon av [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-formulären, -instrumentpanelerna eller -rapporterna, så hittar du mer information om anpassning via följande länkar:  
   
-- [Kom igång med att skapa och anpassa program](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Kom igång med att skapa och anpassa program](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Skapa och utforma formulär](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Skapa och utforma formulär](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Skapa och redigera instrumentpaneler](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Skapa och redigera instrumentpaneler](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Skapa och redigera processer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Skapa och redigera processer](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Introduktion till rapportering och analyser](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Introduktion till rapportering och analyser](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Se även  
  [Administratörshandbok](../psa/admin-guide.md)   

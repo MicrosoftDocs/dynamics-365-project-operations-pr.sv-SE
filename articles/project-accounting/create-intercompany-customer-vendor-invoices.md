@@ -3,17 +3,17 @@ title: Skapa koncerninterna kund- och leverantörsfakturor
 description: Detta ämne innehåller information om hur du skapar koncerninterna kund- och leverantörsfakturor.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287485"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948417"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Skapa koncerninterna kund- och leverantörsfakturor
 
@@ -25,7 +25,9 @@ Projektrevisorn för den utlånande juridiska personen kan ställa in en batchpr
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Skapa en koncernintern kundfaktura manuellt för projekttransaktioner 
 
-Använd denna procedur för att skapa en koncernintern kundfaktura manuellt för projekttransaktioner. Sök efter timmar som bokförts av anställda på projekt i de låntagande juridiska personerna och för utgifter som uppstått på grund av din juridiska person på uppdrag av låntagande juridiska personer. Du kan söka efter den juridiska personens namn, projektkontraktsnummer, projektnummer, datumintervall eller valfri kombination av dessa alternativ. I sökresultatet väljer du de transaktioner som ska läggas till i en koncernintern faktura.
+Använd denna procedur för att skapa en koncernintern kundfaktura manuellt för projekttransaktioner. Sök efter timmar som bokförts av anställda på projekt i de låntagande juridiska personerna och för utgifter som uppstått på grund av din juridiska person på uppdrag av låntagande juridiska personer. Du kan söka efter den juridiska personens namn, projektkontraktsnummer, projektnummer, datumintervall eller valfri kombination av dessa alternativ. I sökresultatet väljer du de transaktioner som ska läggas till i en koncernintern faktura. 
+
+Följande steg måste utföras i den juridiska entitet som lånar ut. 
 
 1. I Dynamics 365 Finance går du till **Projektledning och redovisning** > **Projektfakturor** > **Koncerninterna kundfakturor**. På listsidan **Koncerninterna kundfakturor** anger du **Ny** i åtgärdsfönstret.
 2. På sidan **Skapa koncernintern faktura** väljer du en låntagande juridisk person i fältet **Juridisk person**.
@@ -35,9 +37,9 @@ Använd denna procedur för att skapa en koncernintern kundfaktura manuellt för
 6. Välj de transaktioner som ska ingå i det koncerninterna fakturaförslaget i sökresultatet och välj sedan **OK**.
 7. På sidan **Koncernintern kundfaktura** visas de koncerninterna projekttransaktioner som du har valt bland sökresultaten. Gör så här om du vill ändra transaktionerna innan du skickar fakturan till den låntagande juridiska personen:
   
-    1. Öppna sidan **Skapa fakturaförslag**. Välj ytterligare koncerninterna transaktioner för den aktuella fakturan och välj sedan **Lägg till rad**.
+    1. På sidan **Koncernintern kundfaktura** öppnar du fakturainformationen och väljer sedan **Lägg till rad**.
     2. Om du vill ta bort en rad markerar du den och klickar sedan på **Ta bort**.
-    3. Visa kommentarer, orsaker, ekonomiska dimensioner och annan information om en vald rad på snabbfliken **Fakturarader**.
+    3. Visa kommentarer, orsaker, ekonomiska mått och annan information om en vald rad i fakturaradinformationen.
     
 8. Välj **Bokför** i åtgärdsfönstret om du vill bokföra den koncerninterna kundfakturan.
 
@@ -52,7 +54,7 @@ Du kan skapa flera koncerninterna fakturor samtidigt för alla låntagande jurid
 2. På sidan **Skapa koncerninterna kundfakturor** väljer du den juridiska person du vill fakturera i fältet **Företag**. Om du inte väljer ett företag visas alla transaktioner som uppfyller sökkriterierna för alla låntagande juridiska personer.
 3. Under **Skapa en faktura per** väljer du om du vill skapa en faktura för koncerninterna transaktioner baserat på ett projekt eller baserat på en låntagande juridisk person.
 4. Valfritt: Om du vill välja ett visst projekt och ett visst projektkontrakt som koncerninterna fakturor ska skapas för klickar du på **Välj**. På sidan **Fråga**, i fältet **Kriterier**, väljer du projektkontrakt, projektnummer eller båda, och klickar sedan på **OK**.
-5. På fliken **Batch** skapar du en batchprocess för att skapa koncerninterna fakturor på återkommande basis. Mer information finns i [Skicka in ett batchbearbetningsjobb från ett formulär](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. På fliken **Batch** skapar du en batchprocess för att skapa koncerninterna fakturor på återkommande basis. Mer information finns i [Skicka in ett batchbearbetningsjobb från ett formulär](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Välj **Bokför** i åtgärdsfönstret om du vill bokföra de koncerninterna kundfakturorna.
 
 > [!NOTE]
