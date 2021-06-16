@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: Maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mars 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurera utgiftskategorier
               href: expense/set-up-expense-categories.md
+            - name: Ställa in körsträcka utifrån kostnadsnivåer för körsträcka
+              href: expense/set-up-mileage.md
         - name: Personliga utgifter
           href: expense/personal-expenses-expense-report.md
         - name: Koncerninterna utgifter
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Vad är nytt i maj 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Vad är nytt i april 2021 – Lite-distribution
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Vad är nytt i mars 2021 – Lite-distribution
@@ -1026,8 +1032,10 @@
       href: psa/overview.md
     - name: Nyheter
       items:
-        - name: Uppdatering av tidsplan för Project Service 3.x
+        - name: Uppdatera tidsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 30, V3'
@@ -1264,8 +1272,10 @@
               href: psa/time-entries.md
             - name: Tidspostkalender
               href: psa/time-entry-calendar.md
-            - name: Anpassa tidsposter för en vecka
+            - name: Anpassa tidsposter för vecka
               href: psa/time-entry-extensibility-v3.md
+            - name: Godkännandeuppsättningar
+              href: psa/approval-set.md
     - name: Vanliga frågor och svar och felsökning (3.x)
       items:
         - name: Varför återställs priset till standardvärdet noll för faktiska utgiftskostnader?
