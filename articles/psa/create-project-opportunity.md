@@ -2,8 +2,6 @@
 title: Skapa projekt för affärsmöjlighet
 description: Skapa en affärsmöjlighet för projekt i Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,43 +16,43 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d8a879df6fc1b1c85ba5d856ab1df02ae55cec1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948216"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997353"
 ---
-# <a name="create-a-project-opportunity-project-service"></a><span data-ttu-id="5e56b-103">Skapa en affärsmöjlighet för projekt (Project Service)</span><span class="sxs-lookup"><span data-stu-id="5e56b-103">Create a project opportunity (Project Service)</span></span>
+# <a name="create-a-project-opportunity-project-service"></a><span data-ttu-id="4f3c6-103">Skapa en affärsmöjlighet för projekt (Project Service)</span><span class="sxs-lookup"><span data-stu-id="4f3c6-103">Create a project opportunity (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="5e56b-104">Affärsmöjligheter är varma leads från kunder som är intresserade av att kontraktera dina tjänster.</span><span class="sxs-lookup"><span data-stu-id="5e56b-104">Opportunities are warm leads from customers who are interested in contracting your services.</span></span> [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]<span data-ttu-id="5e56b-105">-funktioner i [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guidar dig genom stegen för att skapa en möjlighet för ett av dina konton, förbereda en projektoffert samt utarbeta ett projektavtal med din kund.</span><span class="sxs-lookup"><span data-stu-id="5e56b-105">capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer.</span></span> <span data-ttu-id="5e56b-106">Börja med att lägga till en affärsmöjlighet.</span><span class="sxs-lookup"><span data-stu-id="5e56b-106">Start by adding an opportunity.</span></span> <span data-ttu-id="5e56b-107">Du kan även lägga till beräkningar för produkter och tjänster för affärsmöjligheten.</span><span class="sxs-lookup"><span data-stu-id="5e56b-107">You can add estimates for services and products to the opportunity, as well.</span></span> <span data-ttu-id="5e56b-108">När du lägger till en affärsmöjlighet befinner du dig i fasen **Kvalificera** av projektet.</span><span class="sxs-lookup"><span data-stu-id="5e56b-108">When you add an opportunity, you’re in the **Qualify** phase of your project.</span></span>  
+<span data-ttu-id="4f3c6-104">Affärsmöjligheter är varma leads från kunder som är intresserade av att kontraktera dina tjänster.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-104">Opportunities are warm leads from customers who are interested in contracting your services.</span></span> [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]<span data-ttu-id="4f3c6-105">-funktioner i [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guidar dig genom stegen för att skapa en möjlighet för ett av dina konton, förbereda en projektoffert samt utarbeta ett projektavtal med din kund.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-105">capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer.</span></span> <span data-ttu-id="4f3c6-106">Börja med att lägga till en affärsmöjlighet.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-106">Start by adding an opportunity.</span></span> <span data-ttu-id="4f3c6-107">Du kan även lägga till beräkningar för produkter och tjänster för affärsmöjligheten.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-107">You can add estimates for services and products to the opportunity, as well.</span></span> <span data-ttu-id="4f3c6-108">När du lägger till en affärsmöjlighet befinner du dig i fasen **Kvalificera** av projektet.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-108">When you add an opportunity, you’re in the **Qualify** phase of your project.</span></span>  
   
-1.  <span data-ttu-id="5e56b-109">Gå till **Project Service > Affärsmöjligheter**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-109">Go to **Project Service > Opportunities**.</span></span>  
+1.  <span data-ttu-id="4f3c6-109">Gå till **Project Service > Affärsmöjligheter**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-109">Go to **Project Service > Opportunities**.</span></span>  
   
-2.  <span data-ttu-id="5e56b-110">Klicka på **Nytt**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-110">Click **New**.</span></span>  
+2.  <span data-ttu-id="4f3c6-110">Klicka på **Nytt**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-110">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="5e56b-111">I området **sammanfattning**, ange din affärsmöjlighetens företag och annan information.</span><span class="sxs-lookup"><span data-stu-id="5e56b-111">In the **Summary** area, enter your opportunity's company and other information.</span></span>  
+3.  <span data-ttu-id="4f3c6-111">I området **sammanfattning**, ange din affärsmöjlighetens företag och annan information.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-111">In the **Summary** area, enter your opportunity's company and other information.</span></span>  
   
-4.  <span data-ttu-id="5e56b-112">Lägg till alla anteckningar och aktiviteter (till exempel telefonsamtal eller e-post) för leadet.</span><span class="sxs-lookup"><span data-stu-id="5e56b-112">Add any notes and activities (for example, phone calls or emails) related to this lead.</span></span> <span data-ttu-id="5e56b-113">Mer information om att lägga till anteckningar och aktiviteter finns i [hålla ordning på anteckningar, uppgifter, telefonsamtal eller e-postmeddelande med aktiviteter](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span><span class="sxs-lookup"><span data-stu-id="5e56b-113">To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span></span>  
+4.  <span data-ttu-id="4f3c6-112">Lägg till alla anteckningar och aktiviteter (till exempel telefonsamtal eller e-post) för leadet.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-112">Add any notes and activities (for example, phone calls or emails) related to this lead.</span></span> <span data-ttu-id="4f3c6-113">Mer information om att lägga till anteckningar och aktiviteter finns i [hålla ordning på anteckningar, uppgifter, telefonsamtal eller e-postmeddelande med aktiviteter](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span><span class="sxs-lookup"><span data-stu-id="4f3c6-113">To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span></span>  
   
-5.  <span data-ttu-id="5e56b-114">Om du vill lägga till intressenter klickar du på **Intressenter**, klicka på **+**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-114">To add stakeholders, in the **Stakeholders** area, click **+**.</span></span>  
+5.  <span data-ttu-id="4f3c6-114">Om du vill lägga till intressenter klickar du på **Intressenter**, klicka på **+**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-114">To add stakeholders, in the **Stakeholders** area, click **+**.</span></span>  
   
-6.  <span data-ttu-id="5e56b-115">Om du vill lägga till säljteammedlemmar klickar du på **Säljteam** och klickar på **+**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-115">To add sales team members, in the **Sales Team** area, click **+**.</span></span>  
+6.  <span data-ttu-id="4f3c6-115">Om du vill lägga till säljteammedlemmar klickar du på **Säljteam** och klickar på **+**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-115">To add sales team members, in the **Sales Team** area, click **+**.</span></span>  
   
-7.  <span data-ttu-id="5e56b-116">Om du vill lägga till konkurrenter klickar du i området **Konkurrenter** på **+**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-116">To add competitors, in the **Competitors** area, click **+**.</span></span>  
+7.  <span data-ttu-id="4f3c6-116">Om du vill lägga till konkurrenter klickar du i området **Konkurrenter** på **+**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-116">To add competitors, in the **Competitors** area, click **+**.</span></span>  
   
-8.  <span data-ttu-id="5e56b-117">Om du vill lägga till en produkt i affärsmöjligheten klickar du på **Ny** under **Produktbaserade rader** i området **Affärsmöjlighetsrader**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-117">To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="5e56b-118">Markera ett objekt under **Produktnamn**, och ange kvantitet, försäljningspris och kundbudget.</span><span class="sxs-lookup"><span data-stu-id="5e56b-118">Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.</span></span>  
+8.  <span data-ttu-id="4f3c6-117">Om du vill lägga till en produkt i affärsmöjligheten klickar du på **Ny** under **Produktbaserade rader** i området **Affärsmöjlighetsrader**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-117">To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="4f3c6-118">Markera ett objekt under **Produktnamn**, och ange kvantitet, försäljningspris och kundbudget.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-118">Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.</span></span>  
   
-9. <span data-ttu-id="5e56b-119">Om du vill lägga till en projektberäkning i affärsmöjligheten klickar du på **+** under **Projektbaserade rader** i området **Affärsmöjlighetsrader**.</span><span class="sxs-lookup"><span data-stu-id="5e56b-119">To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="5e56b-120">Ange namn, budgetbelopp och projekt, om tillgängligt.</span><span class="sxs-lookup"><span data-stu-id="5e56b-120">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="5e56b-121">Om du behöver skapa ett projekt med en uppdelad arbetsstruktur för att göra en uppskattning, se [Skapa ett projekt](../psa/create-project.md).</span><span class="sxs-lookup"><span data-stu-id="5e56b-121">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
+9. <span data-ttu-id="4f3c6-119">Om du vill lägga till en projektberäkning i affärsmöjligheten klickar du på **+** under **Projektbaserade rader** i området **Affärsmöjlighetsrader**.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-119">To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="4f3c6-120">Ange namn, budgetbelopp och projekt, om tillgängligt.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-120">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="4f3c6-121">Om du behöver skapa ett projekt med en uppdelad arbetsstruktur för att göra en uppskattning, se [Skapa ett projekt](../psa/create-project.md).</span><span class="sxs-lookup"><span data-stu-id="4f3c6-121">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
   
-10. <span data-ttu-id="5e56b-122">Klicka på knappen **Spara** i skärmens nedre högra hörn när du är klar med redigeringen.</span><span class="sxs-lookup"><span data-stu-id="5e56b-122">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
+10. <span data-ttu-id="4f3c6-122">Klicka på knappen **Spara** i skärmens nedre högra hörn när du är klar med redigeringen.</span><span class="sxs-lookup"><span data-stu-id="4f3c6-122">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="5e56b-123">Se även</span><span class="sxs-lookup"><span data-stu-id="5e56b-123">See Also</span></span>  
- [<span data-ttu-id="5e56b-124">Guide för kontohanteraren</span><span class="sxs-lookup"><span data-stu-id="5e56b-124">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="4f3c6-123">Se även</span><span class="sxs-lookup"><span data-stu-id="4f3c6-123">See Also</span></span>  
+ [<span data-ttu-id="4f3c6-124">Guide för kontohanteraren</span><span class="sxs-lookup"><span data-stu-id="4f3c6-124">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
