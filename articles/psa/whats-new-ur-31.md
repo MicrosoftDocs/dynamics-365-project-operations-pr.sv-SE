@@ -2,8 +2,6 @@
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 31, V3
 description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Project Service Automation, uppdateringsversion 31, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/26/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a595c0a129ac35d3416984e57908e73e1eaef2fd
-ms.sourcegitcommit: 6e1498502461e86cff722ccaf8795ff11c7c47ad
+ms.openlocfilehash: 160187ba7b96547e85a7a4ec4bf84c86d8fd8257
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5945557"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999153"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-31-v3"></a>Nyheter och ändringar i Project Service Automation, uppdateringsversion 31, V3
 

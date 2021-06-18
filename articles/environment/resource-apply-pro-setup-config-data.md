@@ -2,18 +2,16 @@
 title: Ställ in och använd konfigurationsdata i Common Data Service
 description: I det här ämnet finns information om hur du konfigurerar och tillämpar konfigurationsdata i Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289841"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001313"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Ställ in och använd konfigurationsdata i Common Data Service 
 
@@ -33,7 +31,7 @@ Innan du börjar konfigurera data i Common Data Service (CDS) måste följande k
 
 ## <a name="install-setup-and-configuration-data"></a>Installationsinställning och konfigurationsdata
 
-1. Hämta, avblockera och packa upp paketet [Inställnings- och konfigurationsdata](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Hämta, avblockera och packa upp paketet [Inställnings- och konfigurationsdata](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Navigera till den uppackade mappen och kör den körbara filen *DataMigrationUtility*.
 3. På sidan 1 i guiden Common Data Service Configuration Migration (CMT) väljer du **Importera data** och sedan **Fortsätt**.
 
@@ -57,13 +55,20 @@ Innan du börjar konfigurera data i Common Data Service (CDS) måste följande k
 ![Importera data](./media/5ImportData.png)
 
 10. Importen körs i ungefär två–tio minuter beroende på nätverkets hastighet. När importen är klar stänger du guiden för CMT. 
-11. Kontrollera om organisationen har data i följande 19 entiteter:
+11. Kontrollera om organisationen har data i följande 26 entiteter:
 
   - Valuta
+  - Kontolista
+  - Kalender för räkenskapsår
+  - Typer av valutakurser
+  - Betalningsdag
+  - Betalningsschema
+  - Betalningsvillkor
   - Organisationsenhet
   - Kontaktperson
   - Momsgrupp
   - Kundgrupp
+  - Leverantörsgrupp
   - Enhet
   - Enhetsgrupp
   - Prislista
