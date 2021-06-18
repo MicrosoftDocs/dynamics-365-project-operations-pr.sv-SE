@@ -2,8 +2,6 @@
 title: Konfigurera inställningar för ytterligare parametrar
 description: Konfigurera ytterligare parameterinställningar i Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,55 +16,55 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bac484e29f1a0578042f350b1657a42e80b48cb4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4e883e71beacffb6e2b0b56967046c3f38f7d50
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290786"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001133"
 ---
-# <a name="configure-additional-parameter-settings-project-service"></a><span data-ttu-id="d00ce-103">Konfigurera ytterligare parameterinställningar (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d00ce-103">Configure additional parameter settings (Project Service)</span></span>
+# <a name="configure-additional-parameter-settings-project-service"></a><span data-ttu-id="71670-103">Konfigurera ytterligare parameterinställningar (Project Service)</span><span class="sxs-lookup"><span data-stu-id="71670-103">Configure additional parameter settings (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="d00ce-104">När du har konfigurerat artiklarna i föregående avsnitt, måste du ange ytterligare projektparametrar som ska användas till dina projekt.</span><span class="sxs-lookup"><span data-stu-id="d00ce-104">Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects.</span></span> <span data-ttu-id="d00ce-105">När du först installerade [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] så skapade du en parameterinställning för att först skapa alla poster som krävs för [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] att fungera.</span><span class="sxs-lookup"><span data-stu-id="d00ce-105">When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work.</span></span> <span data-ttu-id="d00ce-106">Nu är det dags att gå tillbaka och konfigurera ytterligare fält för de här inställningarna.</span><span class="sxs-lookup"><span data-stu-id="d00ce-106">Now it’s time to go back and configure additional fields for these settings.</span></span>  
+<span data-ttu-id="71670-104">När du har konfigurerat artiklarna i föregående avsnitt, måste du ange ytterligare projektparametrar som ska användas till dina projekt.</span><span class="sxs-lookup"><span data-stu-id="71670-104">Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects.</span></span> <span data-ttu-id="71670-105">När du först installerade [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] så skapade du en parameterinställning för att först skapa alla poster som krävs för [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] att fungera.</span><span class="sxs-lookup"><span data-stu-id="71670-105">When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work.</span></span> <span data-ttu-id="71670-106">Nu är det dags att gå tillbaka och konfigurera ytterligare fält för de här inställningarna.</span><span class="sxs-lookup"><span data-stu-id="71670-106">Now it’s time to go back and configure additional fields for these settings.</span></span>  
   
- <span data-ttu-id="d00ce-107">Du måste ha konfigurerat följande inställningar:</span><span class="sxs-lookup"><span data-stu-id="d00ce-107">You’ll need to have configured the following settings:</span></span>  
+ <span data-ttu-id="71670-107">Du måste ha konfigurerat följande inställningar:</span><span class="sxs-lookup"><span data-stu-id="71670-107">You’ll need to have configured the following settings:</span></span>  
   
--   <span data-ttu-id="d00ce-108">Organisationsenhet</span><span class="sxs-lookup"><span data-stu-id="d00ce-108">Organizational unit</span></span>  
+-   <span data-ttu-id="71670-108">Organisationsenhet</span><span class="sxs-lookup"><span data-stu-id="71670-108">Organizational unit</span></span>  
   
--   <span data-ttu-id="d00ce-109">Faktureringsfrekvens</span><span class="sxs-lookup"><span data-stu-id="d00ce-109">Invoice frequency</span></span>  
+-   <span data-ttu-id="71670-109">Faktureringsfrekvens</span><span class="sxs-lookup"><span data-stu-id="71670-109">Invoice frequency</span></span>  
   
--   <span data-ttu-id="d00ce-110">Arbetstidsmall</span><span class="sxs-lookup"><span data-stu-id="d00ce-110">Work hours template</span></span>  
+-   <span data-ttu-id="71670-110">Arbetstidsmall</span><span class="sxs-lookup"><span data-stu-id="71670-110">Work hours template</span></span>  
   
--   <span data-ttu-id="d00ce-111">Prislista</span><span class="sxs-lookup"><span data-stu-id="d00ce-111">Price list</span></span>  
+-   <span data-ttu-id="71670-111">Prislista</span><span class="sxs-lookup"><span data-stu-id="71670-111">Price list</span></span>  
  
-<span data-ttu-id="d00ce-112">I det här steget ska du också ange vilken typ av resursallokering som du vill använda:</span><span class="sxs-lookup"><span data-stu-id="d00ce-112">In this step, you’ll also indicate what type of resource allocation you want:</span></span>  
+<span data-ttu-id="71670-112">I det här steget ska du också ange vilken typ av resursallokering som du vill använda:</span><span class="sxs-lookup"><span data-stu-id="71670-112">In this step, you’ll also indicate what type of resource allocation you want:</span></span>  
   
-- <span data-ttu-id="d00ce-113">**Central**.</span><span class="sxs-lookup"><span data-stu-id="d00ce-113">**Central**.</span></span> <span data-ttu-id="d00ce-114">Bara resursansvariga kan fördela resurser till projekt.</span><span class="sxs-lookup"><span data-stu-id="d00ce-114">Only resource managers can allocate resources to projects.</span></span>  
+- <span data-ttu-id="71670-113">**Central**.</span><span class="sxs-lookup"><span data-stu-id="71670-113">**Central**.</span></span> <span data-ttu-id="71670-114">Bara resursansvariga kan fördela resurser till projekt.</span><span class="sxs-lookup"><span data-stu-id="71670-114">Only resource managers can allocate resources to projects.</span></span>  
   
-- <span data-ttu-id="d00ce-115">**Hybrid**.</span><span class="sxs-lookup"><span data-stu-id="d00ce-115">**Hybrid**.</span></span> <span data-ttu-id="d00ce-116">Resursansvariga, projektledare och kontoansvariga kan fördela resurser till projekt.</span><span class="sxs-lookup"><span data-stu-id="d00ce-116">Resource managers, project managers, and account managers can allocate resources to projects.</span></span>  
+- <span data-ttu-id="71670-115">**Hybrid**.</span><span class="sxs-lookup"><span data-stu-id="71670-115">**Hybrid**.</span></span> <span data-ttu-id="71670-116">Resursansvariga, projektledare och kontoansvariga kan fördela resurser till projekt.</span><span class="sxs-lookup"><span data-stu-id="71670-116">Resource managers, project managers, and account managers can allocate resources to projects.</span></span>  
   
  
-<span data-ttu-id="d00ce-117">Om du vill konfigurera projektparametrar:</span><span class="sxs-lookup"><span data-stu-id="d00ce-117">To set project parameters:</span></span>  
+<span data-ttu-id="71670-117">Om du vill konfigurera projektparametrar:</span><span class="sxs-lookup"><span data-stu-id="71670-117">To set project parameters:</span></span>  
   
-1. <span data-ttu-id="d00ce-118">Gå till **Project Service > Parametrar**.</span><span class="sxs-lookup"><span data-stu-id="d00ce-118">Go to **Project Service > Parameters**.</span></span>  
+1. <span data-ttu-id="71670-118">Gå till **Project Service > Parametrar**.</span><span class="sxs-lookup"><span data-stu-id="71670-118">Go to **Project Service > Parameters**.</span></span>  
   
-2. <span data-ttu-id="d00ce-119">Klicka på den parameterinställning som du vill konfigurera (den som du skapade när du först installerade [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), eller klicka på **Ny** för att skapa en ny.</span><span class="sxs-lookup"><span data-stu-id="d00ce-119">Click the parameters setting you want to configure (the one you created when you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), or click **New** to create a new one.</span></span>  
+2. <span data-ttu-id="71670-119">Klicka på den parameterinställning som du vill konfigurera (den som du skapade när du först installerade [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), eller klicka på **Ny** för att skapa en ny.</span><span class="sxs-lookup"><span data-stu-id="71670-119">Click the parameters setting you want to configure (the one you created when you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), or click **New** to create a new one.</span></span>  
   
-3. <span data-ttu-id="d00ce-120">I området **Allmänt** anger du alla alternativ för dina projektparametrar.</span><span class="sxs-lookup"><span data-stu-id="d00ce-120">In the **General** area, set all the options for your project parameters.</span></span>  
+3. <span data-ttu-id="71670-120">I området **Allmänt** anger du alla alternativ för dina projektparametrar.</span><span class="sxs-lookup"><span data-stu-id="71670-120">In the **General** area, set all the options for your project parameters.</span></span>  
   
-4. <span data-ttu-id="d00ce-121">I området **Prislista**, klicka på **+** om du vill lägga till en prislista, väljer en prislista i listrutan **Prislista för projektparameter** och klickar sedan på **Spara**.</span><span class="sxs-lookup"><span data-stu-id="d00ce-121">In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.</span></span>  
+4. <span data-ttu-id="71670-121">I området **Prislista**, klicka på **+** om du vill lägga till en prislista, väljer en prislista i listrutan **Prislista för projektparameter** och klickar sedan på **Spara**.</span><span class="sxs-lookup"><span data-stu-id="71670-121">In the **Price List** area, click **+** to add a price list, select a price list in the **Project Parameter Price List** drop-down list, and then click **Save**.</span></span>  
   
-5. <span data-ttu-id="d00ce-122">Klicka på knappen **Spara** längst ned till höger på skärmen.</span><span class="sxs-lookup"><span data-stu-id="d00ce-122">Click the **Save** button in the bottom right corner of the screen.</span></span>  
+5. <span data-ttu-id="71670-122">Klicka på knappen **Spara** längst ned till höger på skärmen.</span><span class="sxs-lookup"><span data-stu-id="71670-122">Click the **Save** button in the bottom right corner of the screen.</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="d00ce-123">Projektparameterposten måste finnas kvar för att Project Service ska fungera korrekt.</span><span class="sxs-lookup"><span data-stu-id="d00ce-123">The project parameter record must be maintained for Project Service to function correcly.</span></span> <span data-ttu-id="d00ce-124">Den här posten bör inte tas bort.</span><span class="sxs-lookup"><span data-stu-id="d00ce-124">This record should not be deleted.</span></span>
+> <span data-ttu-id="71670-123">Projektparameterposten måste finnas kvar för att Project Service ska fungera korrekt.</span><span class="sxs-lookup"><span data-stu-id="71670-123">The project parameter record must be maintained for Project Service to function correcly.</span></span> <span data-ttu-id="71670-124">Den här posten bör inte tas bort.</span><span class="sxs-lookup"><span data-stu-id="71670-124">This record should not be deleted.</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="d00ce-125">Se även</span><span class="sxs-lookup"><span data-stu-id="d00ce-125">See Also</span></span>  
- [<span data-ttu-id="d00ce-126">Konfigurera resurser</span><span class="sxs-lookup"><span data-stu-id="d00ce-126">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="71670-125">Se även</span><span class="sxs-lookup"><span data-stu-id="71670-125">See Also</span></span>  
+ [<span data-ttu-id="71670-126">Konfigurera resurser</span><span class="sxs-lookup"><span data-stu-id="71670-126">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
