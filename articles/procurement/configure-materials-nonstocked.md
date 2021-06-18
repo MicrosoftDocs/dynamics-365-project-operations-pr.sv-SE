@@ -2,19 +2,17 @@
 title: Konfigurera icke-lagerbaserade material och väntande leverantörsfakturor
 description: I ämnet beskrivs hur du aktiverar icke-lagerbaserade material och väntande leverantörsfakturor.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880691"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993933"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurera icke-lagerbaserade material och väntande leverantörsfakturor
 
@@ -61,11 +59,11 @@ Om du använder standarddemodata kan du också behöva stoppa och starta om föl
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivera arbetsflöde för att skapa konton baserat på leverantörsentitet
 
-Lösningen dubbelriktad skrivningsorkestrering ger [Masterintegration av leverantörer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Som en förutsättning för den här funktionen måste leverantörsdata skapas i entiteten **Konton**. Aktivera en mall för arbetsflödesprocess för att skapa leverantörer i tabellen **Konton** enligt beskrivningen i [Växla mellan leverantörsdesigner](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Lösningen dubbelriktad skrivningsorkestrering ger [Masterintegration av leverantörer](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Som en förutsättning för den här funktionen måste leverantörsdata skapas i entiteten **Konton**. Aktivera en mall för arbetsflödesprocess för att skapa leverantörer i tabellen **Konton** enligt beskrivningen i [Växla mellan leverantörsdesigner](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Ange produkter som ska skapas som aktiva
 
-Icke-lagerbaserade material måste konfigureras som **Släppta produkter** i Ekonomi. Lösningen dubbelriktad skrivningsorkestrering ger en helt ny [Integration av släppta produkter i Dataverse produktkatalog](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Som standard synkroniseras produkter från Ekonomi till Dataverse som utkast. För att synkronisera produkten med ett aktivt tillstånd så att den kan användas direkt i materialförbrukningsdokument eller väntande leverantörsfakturor går du till **System** > **Administration** > **Systemadministration** > **Systeminställningar** och på fliken **Försäljningar** ställer du in **Skapa produkter i aktivt tillstånd** som **Ja**.
+Icke-lagerbaserade material måste konfigureras som **Släppta produkter** i Ekonomi. Lösningen dubbelriktad skrivningsorkestrering ger en helt ny [Integration av släppta produkter i Dataverse produktkatalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Som standard synkroniseras produkter från Ekonomi till Dataverse som utkast. För att synkronisera produkten med ett aktivt tillstånd så att den kan användas direkt i materialförbrukningsdokument eller väntande leverantörsfakturor går du till **System** > **Administration** > **Systemadministration** > **Systeminställningar** och på fliken **Försäljningar** ställer du in **Skapa produkter i aktivt tillstånd** som **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurera krav i Ekonomi
 
