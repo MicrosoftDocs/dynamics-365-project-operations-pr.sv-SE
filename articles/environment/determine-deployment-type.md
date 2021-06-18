@@ -2,18 +2,16 @@
 title: Fastställa din distributionstyp
 description: I det här ämnet finns information som gör det lättare för dig att fastställa korrekt distributionstyp av Project Operations för ditt företag.
 author: stsporen
-manager: Annbe
 ms.date: 03/15/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ad700a84edd6c39609bc5b4f09ca74af3059a0dd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948143"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997128"
 ---
 # <a name="determine-your-deployment-type"></a>Fastställa din distributionstyp
 
