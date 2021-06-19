@@ -2,18 +2,16 @@
 title: Använd schema-API:er för att utföra åtgärder med schemaläggningsentiteter
 description: Detta ämne innehåller information och exempel för användning av schemaläggnings-API:er.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950826"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116819"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Använd schema-API:er för att utföra åtgärder med schemaläggningsentiteter
 
@@ -268,7 +266,6 @@ Följande är en lista med begränsningar och kända problem:
 - Varje användare kan bara ha högst 10 öppna **OperationSets**.
 - Project Operations stöder för närvarande maximalt 500 totala uppgifter för ett projekt.
 - **OperationSet** felstatus och felloggar är för närvarande inte tillgängliga.
-- Schemaläggnings-API:er är i offentlig förhandsversion. Microsoft har inte stöd för att använda dessa API:er i en produktionsmiljö.
 - [Gränser för projekt och uppgifter](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Felhantering
