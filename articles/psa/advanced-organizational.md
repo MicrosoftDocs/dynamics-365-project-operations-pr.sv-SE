@@ -2,8 +2,6 @@
 title: Organisationsenheter
 description: I det här ämnet finns information om organisationsenheter i Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291686"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009638"
 ---
 # <a name="organizational-units"></a>Organisationsenheter 
 
@@ -79,7 +77,7 @@ När du implementerar Dynamics 365 optimerar du säkerheten för hierarkin av af
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exempel på organisationsenheter och affärsenheter
 
-Contoso, Ltd. har en blomstrande metod för Microsoft-teknik. Joel och Hillevi är båda C\#-utvecklare, men Hillevi är i USA och Joel är i Indien. De flesta projekt åtaganden kräver resurser från Contoso Indien och Contoso US, och Joel och Hillevi kräver samma nivå av säkerhets åtkomst till projekt i det här området. Kostnaden för utvecklare från Contoso Indien skiljer sig emellertid avsevärt från dina utvecklares kostnader från Contoso US.
+Contoso, Ltd. har en blomstrande metod för Microsoft-teknik. Joel och Hillevi är båda C\#-utvecklare, men Hillevi är i USA och Joel är i Indien. De flesta projektåtaganden kräver resurser från Contoso Indien och Contoso US, och Joel och Hillevi kräver samma nivå av säkerhetsåtkomst till projekt i det här området. Kostnaden för utvecklare från Contoso Indien skiljer sig emellertid avsevärt från dina utvecklares kostnader från Contoso US.
 
 Här är ett optimalt sätt att utforma för det här scenariot med hjälp av Dynamics 365 och PSA.
 
@@ -98,7 +96,7 @@ En organisationsenhet är en intern grupp eller avdelning i företaget som spår
 
 Contoso, Ltd. har två utvecklingscenter: Contoso US och Contoso Indien. Kostnader för resurser varierar kraftigt mellan dessa två utvecklingscenter.
 
-Contoso säljer sina IT-tjänster på många internationella marknader, t.ex. Latinamerika, Nordamerika, Asien, Stilla havet, Västeuropa och Mellanöstern. Faktureringskurserna för samma projektroller kan variera mycket över dessa marknader.
+Contoso säljer sina IT-tjänster på många internationella marknader, t.ex. Latinamerika, Nordamerika, Asien-Stillahavsregionen, Västeuropa och Mellanöstern. Faktureringskurserna för samma projektroller kan variera mycket över dessa marknader.
 
 Contoso US och Contoso Indien bör upprättas som organisationsenheter och varje organisationsenhet bör ha en egen självkostnadslista. Asien och Stilla havet, Latinamerika, Nordamerika, Västeuropa och Mellanöstern ska vara inställda på försäljningsområden och varje försäljningsområde bör ha en egen försäljningsprislista.
 
@@ -124,7 +122,7 @@ Nr I den aktuella versionen av PSA är organisationsenheterna inte hierarkiska. 
 När du har en komplex hierarki med kostnadsställen, avdelningar, faktureringskontor osv, ställer du in de lövnoder som är distinkta organisationsenheter.
 I följande exempel visas en typisk hierarki:
 
-**Contoso India**
+**ContosoIndien**
 
   - SAP-praxis 
 
@@ -156,7 +154,7 @@ Om hierarkin är snarlik måste du konfigurera den som en platt lista, som visas
 - Contoso US - SAP-praxis – tekniska konsulter  
 - Contoso US - SAP-praxis – funktionella konsulter  
 - Contoso US - Microsoft-teknikpraxis - tekniska konsulter 
-- Contoso US - Microsoft-teknikpraxis - funktionella konsulter
+- Contoso US - Microsoft-teknikpraxis – funktionella konsulter
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Vi är ett litet företag som bara arbetar med en avdelning. Hur kan vi bäst använda organisationsenhetskonceptet i den aktuella versionen av PSA?
 

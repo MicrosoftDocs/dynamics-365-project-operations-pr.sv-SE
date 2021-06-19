@@ -2,12 +2,10 @@
 title: Lägg till nya anpassade entitetsformulär (Project Service Automation 2.x)
 description: I det här ämnet finns information om hur du lägger till anpassade entitetsformulär för affärsmöjligheter, offerter, order i Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9e31dc6d4d5a8ad5cc568f2d7d673c8703936d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284875"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008018"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Lägg till nya anpassade entitetsformulär (Project Service Automation 2.x)
 

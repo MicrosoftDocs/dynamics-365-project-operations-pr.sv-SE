@@ -2,18 +2,16 @@
 title: Spårning av projektansträngning
 description: I det här ämnet finns information om hur du spårar projektarbete och framsteg i arbetet.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710962"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010898"
 ---
 # <a name="project-effort-tracking"></a>Spårning av projektansträngning
 
