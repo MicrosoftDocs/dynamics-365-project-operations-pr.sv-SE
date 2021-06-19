@@ -2,18 +2,16 @@
 title: Använd transaktionskategori som prissättningsdimension
 description: I det här ämnet finns information om hur du använder fältet Transaktionskategori som prissättningsdimension.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c84d3aaf7cd7577dcd15311f225c82b538586445
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d956545e1ad38fb09660f107e085f38d099c2207
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274615"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004463"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Använd transaktionskategori som prissättningsdimension
 

@@ -2,11 +2,9 @@
 title: Konfigurera anpassade fält som prissättningsdimensioner
 description: I det här ämnet finns information om hur du ställer in prissättningsdimensioner med anpassade fält.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274885"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004733"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner
 
@@ -75,12 +73,12 @@ Det finns två typer av prissättningsdimensioner:
   
 | Roll        | Organisationsenhet    |Arbetsplats      |Standardrubrik      |Arbetstid för resurs      |  Pålägg|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|På plats            |                    |Övertid                 |15     |
-|             | Contoso India|Lokal             |                    |Övertid                 |10     |
+|             | Contoso Indien|På plats            |                    |Övertid                 |15     |
+|             | Contoso Indien|Lokal             |                    |Övertid                 |10     |
 |             | Contoso US   |Lokal             |                    |Övertid                 |20     |
 
 
-Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbundet och 2 timmar övertid i tidsposten använder baspriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
+Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbunden tid och 2 timmar övertid i tidsposten använder prissättningsmotorn grundpriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gäller för kostnad 
 Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när kostnads- och påläggspriserna hämtas.

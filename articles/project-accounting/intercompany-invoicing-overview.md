@@ -2,18 +2,16 @@
 title: Koncernintern fakturering – Översikt
 description: Detta ämne innehåller information och exempel om konfigurering av koncernintern fakturering av projekt.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287350"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002663"
 ---
 # <a name="intercompany-invoicing-overview"></a>Koncernintern fakturering – Översikt
 
@@ -21,7 +19,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 Organisationen kan ha flera avdelningar, dotterbolag och andra juridiska enheter som överför produkter och tjänster till varandra för projekt. Den juridiska person som tillhandahåller tjänsten eller produkten kallas den *långivande juridiska personen*. Den juridiska person som erhåller tjänsten eller produkten kallas den *låntagande juridiska personen*.
 
-Följande bild visar ett typiskt scenario där två juridiska personer, Contoso Robotics USA (den låntagande juridiska personen) och Contoso Robotics UK (den utlånande juridiska personen) delar resurser för att leverera ett projekt åt kunden, Adventure Works. För detta scenario är Contoso Robotics USA kontrakterat att leverera arbetet till Adventure Works.
+Följande illustration visar ett typiskt scenario där två juridiska entiteter, Contoso Robotics USA (den lånande juridiska entiteten) och Contoso Robotics UK (den utlånande juridiska entiteten), delar resurser för att leverera ett projekt till kunden, Adventure works. För detta scenario har Contoso Robotics USA ingått ett avtal om att leverera arbetet till Adventure Works.
 
 ![Koncernintern fakturering](./media/IntercompanyScenario.png) 
 
