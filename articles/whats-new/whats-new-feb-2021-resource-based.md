@@ -2,19 +2,17 @@
 title: Nyheter i februari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för februari 2021 för resursscenarier/icke-lagerbaserade scenarier.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 73be15d4d58531e6e181df92eaee2b4d7b924382
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948036"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012653"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i februari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 
