@@ -2,8 +2,6 @@
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 17, version 3
 description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Project Service Automation, uppdateringsversion 17, version 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2b27582a401e41da0a9e60c8f2f32dcdd1944c2
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 364a64e0ea501ac5b7faaf254c7af3648cfe1f9b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949251"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006713"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation uppdateringsversion 17, V3
 
