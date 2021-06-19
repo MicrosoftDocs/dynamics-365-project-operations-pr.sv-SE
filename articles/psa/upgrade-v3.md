@@ -1,9 +1,7 @@
 ---
 title: Uppgraderingöverväganden - Microsoft Dynamics 365 Project Service Automation version 2.x eller 1.x till version 3
 description: I det här ämnet finns information om hur du uppgraderar från Project Service Automation version 2.x eller 1.x till version 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281680"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014917"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Att tänka på när du uppgraderar - PSA-version 2.x eller 1.x till version 3
 
@@ -83,15 +81,15 @@ Innan du börjar uppgraderingen rekommenderar vi att du återskapar teamet för 
 
 För uppgifter som är tilldelade till generiska teammedlemmar och som genererats med **generera team** lämnar uppgraderingen den generiska resursen i teamet och lämnar tilldelningen till den generiska teammedlemmen. Vi rekommenderar att du skapar resurskravet för den generiska teammedlemmen efter uppgraderingen, men innan du bokför eller skickar en resursbegäran. Eventuella tilldelningar av organisationsenhet bevaras i de generiska teammedlemmar som skiljer sig från projektets avtalade organisationsenhet.
 
-I projektets Z-projekt är till exempel den upphandlande organisationsenhet Contoso US. I projektplanen har testuppgifterna i implementeringsfasen tilldelats rollen teknisk konsult och den tilldelade organisationsenheten är Contoso India.
+I projektet Project Z är till exempel den upphandlande organisationsenheten Contoso US. I projektplanen har testuppgifterna i implementeringsfasen tilldelats rollen Teknisk konsult och den tilldelade organisationsenheten är Contoso India.
 
 ![Implementeringsfas för organisationstilldelning](media/org-unit-assignment-09.png)
 
-Efter implementeringsfasen tilldelas integrationstestaktiviteten till rollen teknisk konsult, men organisationen anges till Contoso US.  
+Efter implementeringsfasen tilldelas integrationstestaktiviteten till rollen Teknisk konsult, men organisationen anges till Contoso US.  
 
 ![Integrering av testaktivitet för organisationstilldelning](media/org-unit-generate-team-10.png)
 
-När du skapar ett team för projektet skapas två generiska teammedlemmar på grund av de olika organisationsenheterna i uppgifterna. Teknisk konsult 1 tilldelas de Contoso India-uppgifterna och teknisk konsult 2 tilldelas Contoso US-uppgifterna.  
+När du skapar ett team för projektet skapas två generiska teammedlemmar på grund av de olika organisationsenheterna i uppgifterna. Teknisk konsult 1 tilldelas Contoso India-uppgifterna och Teknisk konsult 2 tilldelas Contoso US-uppgifterna.  
 
 ![Genererade generiska teammedlemmar](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,7 @@ Du kan se organisationsenheten i vyn uppskattningar.
  
 När uppgraderingen är klar läggs organisationsenheten för den raduppgift som motsvarar den generiska teammedlemmen till i den generiska teammedlemmen och raduppgiften tas bort. Innan du uppgraderar rekommenderar vi att du genererar eller återskapar teamet i varje projekt som innehåller generiska resurser.
 
-För uppgifter som tilldelas en roll med en organisationsenhet som skiljer sig från organisationsenhet i det avtalade projektet och ett team inte har genererats, skapar uppgraderingen en generisk teammedlem för rollen, men kommer att använda den upphandlande enheten för projektmedlemmens organisationsenheter. Om du refererar tillbaka till exemplet med Project Z innebär detta att den upphandlande organisationsenheten Contoso US och projektplanen har tilldelats rollen "teknisk konsult" med den organisationsenhet som tilldelats Contoso India. Integrering av testaktivitet som slutförs efter att implementeringsfasen har tilldelats rollen teknisk konsult. Organisationsenheten är Contoso US och ett team har inte skapats. Uppgradering skapar en generisk teammedlem, en teknisk konsult som har tilldelade timmar av alla tre aktiviteter och en organisationsenhet för Contoso US som är projektets upphandlande organisationsenhet.   
+För uppgifter som tilldelas en roll med en organisationsenhet som skiljer sig från organisationsenhet i det avtalade projektet och ett team inte har genererats, skapar uppgraderingen en generisk teammedlem för rollen, men kommer att använda den upphandlande enheten för projektmedlemmens organisationsenheter. Om du refererar tillbaka till exemplet med Project Z har den upphandlande organisationsenheten Contoso US och projektplanen tilldelats rollen Teknisk konsult med den organisationsenhet som tilldelats Contoso India. Integrering av testaktivitet som slutförs efter att implementeringsfasen har tilldelats rollen teknisk konsult. Organisationsenheten är Contoso US och ett team har inte skapats. Uppgradering skapar en generisk teammedlem, en teknisk konsult som har tilldelade timmar av alla tre aktiviteter och en organisationsenhet för Contoso US som är projektets upphandlande organisationsenhet.   
  
 Om du ändrar standardvärdet för de olika organisationsenheterna för resurser på icke-genererade teammedlemmar rekommenderar vi att du genererar eller återskapar teamet i varje projekt som innehåller generiska resurser innan du uppgraderar, så att tilldelningen av organisationsenhet inte bortfaller.
 

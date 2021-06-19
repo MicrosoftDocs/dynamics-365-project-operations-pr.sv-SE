@@ -2,8 +2,6 @@
 title: Scenarier med flera valutor (version 3.x)
 description: I den här ämnet finns information om scenarier med flera valutor.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291731"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014813"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flera valutor
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 har två koncept av valutor:
 - **Transaktionsvaluta** – valutan som en transaktion inträffar i. 
 - **Basvaluta** - valutan för Dynamics 365-instansen. Den här valutan konfigureras när en Dynamics 365-instans etableras. Den kan inte ändras.
 
-Exempel: Contoso US sålde 100 t-shirts till en kund i Sverige för 15 GPB. Följande tabell visar hur den här transaktionen registreras i entiteten orderprodukt.
+Exempel: Contoso US sålde 100 t-shirts till en kund i Storbritannien för 15 pund (GBP) styck. Följande tabell visar hur den här transaktionen registreras i entiteten orderprodukt.
 
 | Produkt | Kvantitet | Pris per enhet | Valuta | Belopp | Växelkurs | Pris per enhet (bas)| Belopp (bas)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|

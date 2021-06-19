@@ -2,18 +2,16 @@
 title: Periodtyper
 description: Detta ämne innehåller information om hur du konfigurerar periodtyper för intäktsuppskattning.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 107cecbc1dabdf13147d847bf1816f44cc2703c5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 07cc9cde5fab10accb1fd6efede58926918f614c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287305"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013508"
 ---
 # <a name="period-types"></a>Periodtyper
 
