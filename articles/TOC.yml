@@ -24,15 +24,17 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Använda demodata
           items:
-            - name: Tillämpa konfigurationsdata i Common Data Service
+            - name: Använda konfigurationsdata i Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuera miljöer
           items:
+            - name: Distribuera appen Project Operations Dataverse manuellt med stöd för dubbelriktad skrivning
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Etablera en ny miljö
               href: environment/resource-provision-new-environment.md
             - name: Säkerhetsmodell
               href: environment/security-model.md
-            - name: Konfigurera Project Operations-integration efter juridisk entitet
+            - name: Konfigurera Project Operations-integration efter juridisk person
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Konfigurera integration för dubbelriktad skrivning
           items:
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: Juli 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juni 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -282,7 +288,7 @@
           items:
             - name: Ta fram projektmallar med Kopiera projekt
               href: project-management/dev-copy-project.md
-            - name: 'Använda schema-API:er (offentlig förhandsversion)'
+            - name: 'Använda projektschema-API:er (allmänt tillgänglig förhandsversion)'
               href: project-management/schedule-api-preview.md
     - name: Resurshantering
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Översikt av faktureringsprocess
           href: invoicing/post-project-invoices.md
-        - name: Hantera projektfakturaförslag
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma-fakturering
           items:
             - name: Hantera eftersläpad projektbaserad fakturering
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurera automatisering av projektbaserade fakturor
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Hantera projektfakturaförslag
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Kundfakturering
+          items:
+            - name: Hantera projektfakturaförslag
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Korrigera redovisning i utkast till projektfakturaförslag
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Koncernintern fakturering
+          items:
+            - name: Koncernintern fakturering – Översikt
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurera koncernintern fakturering
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Skapa koncerninterna transaktioner
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Skapa koncerninterna kund- och leverantörsfakturor
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projektredovisning
       items:
         - name: Standardvärden för ekonomisk dimension
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integrationsjournal i Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Koncernintern fakturering
-          items:
-            - name: Koncernintern fakturering – Översikt
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurera koncernintern fakturering
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Skapa koncerninterna transaktioner
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Skapa koncerninterna kund- och leverantörsfakturor
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Intäktsredovisning
       items:
         - name: Intäktsredovisning – Översikt
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Vad är nytt i juli 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Vad är nytt i juni 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Vad är nytt i maj 2021 – Lite-distribution
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Vad är nytt i april 2021 – Lite-distribution
@@ -762,7 +774,7 @@
           items:
             - name: Ta fram projektmallar med Kopiera projekt
               href: project-management/dev-copy-project.md
-            - name: 'Använda schema-API:er (offentlig förhandsversion)'
+            - name: 'Använda projektschema-API:er (allmänt tillgänglig förhandsversion)'
               href: project-management/schedule-api-preview.md
     - name: Resurshantering
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter i juli 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Nyheter i maj 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nyheter i april 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheter i mars 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
@@ -1032,8 +1048,12 @@
       href: psa/overview.md
     - name: Nyheter
       items:
-        - name: Uppdatera tidsplan för Project Service 3.x
+        - name: Uppdatering av utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 31, V3'

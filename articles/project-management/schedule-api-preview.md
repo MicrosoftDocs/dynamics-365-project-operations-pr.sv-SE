@@ -1,19 +1,19 @@
 ---
-title: Använd schema-API:er för att utföra åtgärder med schemaläggningsentiteter
-description: Detta ämne innehåller information och exempel för användning av schemaläggnings-API:er.
+title: Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter
+description: Detta ämne innehåller information och exempel för användning av API:er för Projektschema.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116819"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293249"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Använd schema-API:er för att utföra åtgärder med schemaläggningsentiteter
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
@@ -22,9 +22,9 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 ## <a name="scheduling-entities"></a>Schemaläggningsentiteter
 
-Schemalägg API:er så att du kan skapa, uppdatera och ta bort åtgärder med **schemaläggningsentiteter**. Dessa entiteter hanteras med schemaläggningsmotorn i Projekt för webben. Skapa, uppdatera och ta bort operationer med **Schemaläggningsentiteter** begränsades i tidigare versioner av Dynamics 365 Project Operations.
+API:er för projektschemaläggning gör det möjligt att skapa, uppdatera och ta bort åtgärder med **Schemaläggningsentiteter**. Dessa entiteter hanteras med schemaläggningsmotorn i Projekt för webben. Skapa, uppdatera och ta bort operationer med **Schemaläggningsentiteter** begränsades i tidigare versioner av Dynamics 365 Project Operations.
 
-I följande tabell visas en fullständig lista över **Schemaläggningsentiteterna**.
+I följande tabell visas en fullständig lista över entiteterna i projektschemat.
 
 | Entitetsnamn  | Entitetens logiska namn |
 | --- | --- |
@@ -39,19 +39,19 @@ I följande tabell visas en fullständig lista över **Schemaläggningsentiteter
 
 OperationSet är ett enhetsmönster som kan användas när flera schemapåverkande förfrågningar måste bearbetas inom en transaktioner.
 
-## <a name="schedule-apis"></a>Schemaläggning-API:er
+## <a name="project-schedule-apis"></a>Projekttidsplan-API
 
-Följande är en lista med aktuella schemaläggning-API:er.
+Följande är en lista med aktuella API:er för Projektschema.
 
 - **msdyn_CreateProjectV1**: Detta API kan användas för att skapa ett projekt. Projekt och standardprojektgrupp skapas direkt.
 - **msdyn_CreateTeamMemberV1**: Detta API kan användas för att skapa en projektteammedlem. Teammedlemsposten skapas direkt.
 - **msdyn_CreateOperationSetV1**: Detta API kan användas för att schemalägga flera förfrågningar som måste utföras inom en transaktionen.
-- **msdyn_PSSCreateV1**: Det här API:et kan användas för att skapa en entitet. Entiteten kan vara någon av de schemaläggningsentiteter som har stöd för åtgärden skapa.
-- **msdyn_PSSUpdateV1**: Det här API:et kan användas för att uppdatera en entitet. Entiteten kan vara någon av de schemaläggningsentiteter som har stöd för åtgärden uppdatera.
-- **msdyn_PSSDeleteV1**: Det här API:et kan användas för att ta bort en entitet. Entiteten kan vara någon av de schemaläggningsentiteter som har stöd för åtgärden ta bort.
+- **msdyn_PSSCreateV1**: Det här API:et kan användas för att skapa en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden skapa.
+- **msdyn_PSSUpdateV1**: Det här API:et kan användas för att uppdatera en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden uppdatera.
+- **msdyn_PSSDeleteV1**: Det här API:et kan användas för att ta bort en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden ta bort.
 - **msdyn_ExecuteOperationSetV1**: Detta API används för att köra alla åtgärder inom den angivna åtgärdsuppsättningen.
 
-## <a name="using-schedule-apis-with-operationset"></a>Använda schemaläggnings-API:er med OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Använda API:er för Projektscheman med OperationSet
 
 Eftersom poster med både **CreateProjectV1** och **CreateTeamMemberV1** skapas direkt kan dessa API:er inte användas direkt i **OperationSet**. Men du kan använda API för att skapa nödvändiga poster, skapa en **OperationSet** och sedan använda dessa förskapade poster i **OperationSet**.
 
@@ -257,7 +257,7 @@ I följande tabeller definieras fälten som är begränsade från **Skapa** och 
 ## <a name="limitations-and-known-issues"></a>Begränsningar och kända problem
 Följande är en lista med begränsningar och kända problem:
 
-- Schema-API:er kan endast användas av **Användare med Microsoft Project License.** De kan inte användas av:
+- API:er för projektscheman kan endast användas av **användare med Microsofts projektlicens**. De kan inte användas av:
     - Programanvändare
     - Systemanvändare
     - Integrationsanvändare
@@ -271,7 +271,7 @@ Följande är en lista med begränsningar och kända problem:
 ## <a name="error-handling"></a>Felhantering
 
    - Om du vill granska fel som uppstått från Åtgärdsuppsättningar går du till **Inställningar** \> **Schemalägg integration** \> **Åtgärdsuppsättningar**.
-   - Om du vill granska fel som uppstått från tjänsten Projektschemaläggning går du till **Inställningar** \> **Schemalägg integration** \> **PSS-felloggar**.
+   - Om du vill granska fel som genererats från projektplaneringstjänsten, gå till **Inställningar** \> **Schemaläggningsintegrering** \> **PSS felloggar**.
 
 ## <a name="sample-scenario"></a>Exempelscenario
 
