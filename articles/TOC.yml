@@ -832,6 +832,16 @@
           items:
             - name: Resursutnyttjande – Översikt
               href: resource-management/resource-utilization-overview.md
+    - name: Hantering av underkontrakt i Project Operations
+      items:
+        - name: Hantera underkontrakt – Översikt
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Viktiga begrepp för underkontrakt
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Hantera leverantörer och projektprislistor
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Underleverantörer som bokningsbara resurser
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Tid
       items:
         - name: Tid – Översikt
@@ -1048,8 +1058,10 @@
       href: psa/overview.md
     - name: Nyheter
       items:
-        - name: Uppdatering av utgivningsplan för Project Service 3.x
+        - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 32.5, V3'
