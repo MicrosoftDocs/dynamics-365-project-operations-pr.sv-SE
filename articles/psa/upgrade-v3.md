@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000103"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Att tänka på när du uppgraderar - PSA-version 2.x eller 1.x till version 3
 
@@ -35,7 +35,7 @@ Både Dynamics 365 Project Service Automation och Dynamics 365 Field Service anv
 ## <a name="resource-assignments"></a>Resurstilldelningar
 I Project Service Automation version 2 och version 1, sparades uppgiftstilldelningar som underordnade uppgifter (kallas även raduppgifter) i **uppgiftsentiteten** och relaterade indirekt till entiteten **Resurstilldelning**. Raduppgiften visas i popup-fönstret för tilldelning i strukturen för Work Breakdown Structure (WBS).
 
-![Raduppgifter i WBS i Project Service Automation version 2 och version 1](media/upgrade-line-task-01.png)
+![Raduppgifter i WBS i Project Service Automation version 2 och version 1.](media/upgrade-line-task-01.png)
 
 I version 3 av Project Service Automation har det underliggande schemat för tilldelning av bokningsbara resurser till aktiviteter ändrats. Raduppgiften är inaktuell och det finns en direkt 1:1-relation mellan uppgiften i **uppgiftsentiteten** och teammedlemmen i entiteten **resurstilldelning**. Uppgifter som tilldelas en projektmedlem lagras nu direkt i entiteten resurstilldelning.  
 
@@ -46,26 +46,26 @@ Med hjälp av den underliggande uppgiftsentiteten får uppgifter i version 2 och
 
 Om du har tilldelat en resurs till en uppgift utanför sin standardroll i version 2 och version 1, tilldelas den namngivna resursen standardrollen för alla aktivitetstilldelningar när du uppgraderar, oavsett rolltilldelning i version 2. En tilldelning resulterar i skillnader i beräknade uppskattningar från version 2 eller version 1 till version 3, detta eftersom uppskattningar beräknas utifrån resursens roll och inte tilldelningen av raduppgifter. Exempel: i version 2 har två uppgifter tilldelats Greta Andreasson. Rollen för raduppgift för uppgift 1 är utvecklare och för uppgift 2, programhanterare. Greta Andreasson har standardrollen programhanterare.
 
-![Flera roller som har tilldelats en resurs](media/upgrade-multiple-roles-02.png)
+![Flera roller som har tilldelats en resurs.](media/upgrade-multiple-roles-02.png)
 
 Eftersom rollerna för utvecklare och programhanterare skiljer sig åt är kostnads- och försäljningsberäkningarna följande:
 
-![Kostnadsuppskattningar för resursroller](media/upggrade-cost-estimates-03.png)
+![Kostnadsuppskattningar för resursroller.](media/upggrade-cost-estimates-03.png)
 
-![Försäljningsuppskattningar för resursroller](media/upgrade-sales-estimates-04.png)
+![Försäljningsuppskattningar för resursroller.](media/upgrade-sales-estimates-04.png)
 
 När du uppgraderar till version 3 ersätts raduppgifter med resurstilldelningar för uppgiften för den bokningsbara resursteammedlemmen. Tilldelningen kommer att använda standardrollen för den bokningsbara resursen. I följande bild är Greta Andreasson som har rollen programhanterare resursen.
 
-![Resurstilldelningar](media/resource-assignment-v2-05.png)
+![Resurstilldelningar.](media/resource-assignment-v2-05.png)
 
 Eftersom uppskattningarna bygger på standardrollen för resursen kan det hända att uppskattningar av försäljning och kostnad ändras. I följande bild visas inte längre rollen **Utvecklare** eftersom rollen numera tas från den bokningsbara resursens standardroll.
 
-![Kostnadsuppskattningar för standardroller](media/resource-assignment-cost-estimate-06.png)
-![Försäljningsuppskattningar för standardroller](media/resource-assignment-sales-estimate-07.png)
+![Cost estimates for default roles.](media/resource-assignment-cost-estimate-06.png)
+![Försäljningsuppskattningar för standardroller.](media/resource-assignment-sales-estimate-07.png)
 
 När uppgraderingen är klar kan du redigera en teammedlems roll som någon annan än den tilldelade standarden. Om du ändrar en roll för en teammedlem ändras rollen emellertid i alla dennes tilldelade uppgifter, detta eftersom teammedlemmar inte får tilldelas flera roller i version 3.
 
-![Uppdatera en resursroll](media/resource-role-assignment-08.png)
+![Uppdatera en resursroll.](media/resource-role-assignment-08.png)
 
 Detta gäller även för raduppgifter som tilldelats till namngivna resurser när du ändrar resursens organisationsenhet från standardenheten till en annan organisationsenhet. När uppgraderingen av version 3 har slutförts använder tilldelningen resursens standardorganisationsenhet i stället för den som har angetts för raduppgiften.
 
@@ -83,24 +83,24 @@ För uppgifter som är tilldelade till generiska teammedlemmar och som genererat
 
 I projektet Project Z är till exempel den upphandlande organisationsenheten Contoso US. I projektplanen har testuppgifterna i implementeringsfasen tilldelats rollen Teknisk konsult och den tilldelade organisationsenheten är Contoso India.
 
-![Implementeringsfas för organisationstilldelning](media/org-unit-assignment-09.png)
+![Implementeringsfas för organisationstilldelning.](media/org-unit-assignment-09.png)
 
 Efter implementeringsfasen tilldelas integrationstestaktiviteten till rollen Teknisk konsult, men organisationen anges till Contoso US.  
 
-![Integrering av testaktivitet för organisationstilldelning](media/org-unit-generate-team-10.png)
+![Integrering av testaktivitet för organisationstilldelning.](media/org-unit-generate-team-10.png)
 
 När du skapar ett team för projektet skapas två generiska teammedlemmar på grund av de olika organisationsenheterna i uppgifterna. Teknisk konsult 1 tilldelas Contoso India-uppgifterna och Teknisk konsult 2 tilldelas Contoso US-uppgifterna.  
 
-![Genererade generiska teammedlemmar](media/org-unit-assignments-multiple-resources-11.png)
+![Genererade generiska teammedlemmar.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > I Project Service Automation version 2 och version 1 innehåller teammedlemmen inte organisationsenheten som underhålls på raduppgiften.
 
-![Version 2 och version 1 raduppgifter i Project Service Automation](media/line-tasks-12.png)
+![Version 2 och version 1 raduppgifter i Project Service Automation.](media/line-tasks-12.png)
 
 Du kan se organisationsenheten i vyn uppskattningar. 
 
-![Organisationsenhetens uppskattningar](media/org-unit-estimates-view-13.png)
+![Organisationsenhetens uppskattningar.](media/org-unit-estimates-view-13.png)
  
 När uppgraderingen är klar läggs organisationsenheten för den raduppgift som motsvarar den generiska teammedlemmen till i den generiska teammedlemmen och raduppgiften tas bort. Innan du uppgraderar rekommenderar vi att du genererar eller återskapar teamet i varje projekt som innehåller generiska resurser.
 

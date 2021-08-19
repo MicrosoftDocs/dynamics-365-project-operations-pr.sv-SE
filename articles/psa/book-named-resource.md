@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013418"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000508"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Boka namngivna resurser från resursbehov
 
@@ -35,29 +35,29 @@ Du kan boka en namngiven resurs och ersätta den generiska resurs som har ett re
 2. Markera den generiska resurs som har ett resurskrav i listan och klicka på **boka**. Du kan också öppna resurskravet och klicka på **boka**.
 
 
-![Boka en generisk teammedlem](media/RM-how-to-14.png)
+![Boka en generisk teammedlem.](media/RM-how-to-14.png)
 
 
 3. På sidan **schemaassistenten** markerar du en namngiven resurs som du vill boka i projektteamet och klickar sedan på **boka**.
 
-![Boka en generisk teammedlem med hjälp av schemaassistenten](media/RM-how-to-15.png)
+![Boka en generisk teammedlem med hjälp av schemaläggningsassistenten.](media/RM-how-to-15.png)
 
 När bokningen är klar och uppfylls av en namngiven resurs, ersätts den generiska resursen med den namngivna resursen.
 
-![Namngiven teammedlem ersätter ett generisk teammedlem](media/RM-how-to-16.png)
+![Namngiven teammedlem ersätter ett generisk teammedlem.](media/RM-how-to-16.png)
 
 Tilldelningarna i schemat uppdateras också med den namngivna resursen.
 
-![Namngiven teammedlem har tilldelats till projektuppgifter](media/RM-how-to-17.png)
+![Namngiven teammedlem har tilldelats till projektuppgifter.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Utföra en generisk resurs med flera namngivna resurser
 Att uppfylla ett krav för en generisk resurs med flera namngivna resurser påminner om att tilldela en enskild namngiven resurs. Det finns till exempel en aktivitet med en varaktighet på fem dagar och 120 timmar. Den här uppgiften kan inte slutföras av en resurs som fungerar på en typisk åtta timmars dag över en vecka på fem dagar. 
 
-![En uppgift som kräver 120 timmars arbete under fem dagar](media/RM-how-to-21.png)
+![En uppgift som kräver 120 timmars arbete under fem dagar.](media/RM-how-to-21.png)
 
 Kravet är 120 timmar av robotteknik över fem dagar, vilket är 24 timmar per dag.
 
-![Krav per dag](media/RM-how-to-22.png)
+![Krav per dag.](media/RM-how-to-22.png)
 
 Det här är ett exempel på när flera namngivna resurser behövs för att utföra en generisk resursbegäran. Du måste boka flera resurser för att uppfylla kravet.
 

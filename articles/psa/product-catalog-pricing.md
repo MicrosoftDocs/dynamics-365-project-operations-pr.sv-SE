@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009233"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000193"
 ---
 # <a name="product-catalog-pricing"></a>Prissättning för produktkatalog 
 
@@ -44,7 +44,7 @@ Du kan lägga till produkter från en produktkatalog i olika prislistor. Prislis
 
 PSA stöder olika avrundningsalternativ när priser konfigureras som en funktion i listpriset, standardkostnad eller aktuell kostnad. Förutom att använda flera prissättningsmetoder och avrundningsalternativ kan du associera rabattlistor med prislisteposter. 
 
-> ![Du kan lägga till produkter från en katalog i olika prislistor](media/basic-guide-16.png)
+> ![Du kan lägga till produkter från en katalog i olika prislistor.](media/basic-guide-16.png)
 
 När du skapar en ny anpassad prislista för en offert genom att **Skapa anpassad prissättning** på sidan **Projektoffert** skapas en kopia av prislistan och fältet **Entitet** i rubriken på den nya prislistan anges till **försäljningsentitet**. Namnet på den nya prislistan läggs till med namnet på offerten och tidstämpeln. Du kan även använda namnet på den nya prislistan och namnet på offerten i anpassade arbetsflöden om du vill utlösa ytterligare granskning och godkännanden för offerter som använder anpassad prissättning.
 
