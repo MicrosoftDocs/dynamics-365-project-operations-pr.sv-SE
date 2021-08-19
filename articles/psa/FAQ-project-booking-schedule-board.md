@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992988"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987638"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Skapa en projektbokning från schemaläggningstavlan
 
@@ -43,7 +43,7 @@ Du kan skapa en generisk resurs och tilldela den en eller flera aktiviteter i et
 
 1.  På schemaläggningstavlan visas denna resurs i fliken **Öppna krav** fliken. Du kan behöva använda kolumnfilter i rutnätet om du har många öppna krav. 
 
-    ![Öppna en kravflik på schemaläggningstavlan](media/FAQ-Project-Booking-Schedule-Board-1.png "Skärmbild på tabell för bokningar och tilldelningar")
+    ![Öppna en kravflik på schemaläggningstavlan.](media/FAQ-Project-Booking-Schedule-Board-1.png "Skärmbild på tabell för bokningar och tilldelningar")
 
 2. Välj krav. Fliken **Sök tillgänglighet** visas högst upp på den valda raden.
  
@@ -53,7 +53,7 @@ Du kan skapa en generisk resurs och tilldela den en eller flera aktiviteter i et
 
     Om du väljer **Boka** bokas resursen till projektteamet.
 
-![Skapa resursbokningspanel](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Skapa resursbokningspanel.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Boka från primärt krav
@@ -62,7 +62,7 @@ Om du skapar ett projekt i Project Service skapas automatiskt ett resurskrav kal
 
 1. För att boka en resurs med det primära kravet markerar du fliken **Projekt** på schemaläggningstavlan. Du kan komma att behöva använda kolumnfiltret på kolumnen **Projekt** om du har många projekt.
 
-   ![Kolumnfilter på schemaläggningstavlan](media/FAQ-Project-Booking-Schedule-Board-2.png "Skärmbild på tabell för bokningar och tilldelningar")
+   ![Kolumnfilter på schemaläggningstavlan.](media/FAQ-Project-Booking-Schedule-Board-2.png "Skärmbild på tabell för bokningar och tilldelningar")
 
 2. Välj det krav som bara har projektnamnet som namn och som har en varaktighet på noll (0).
 

@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997758"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988718"
 ---
 # <a name="manage-time-zones"></a>Hantera flera tidszoner
 
@@ -32,13 +32,13 @@ För korrekta och förutsägbara resultat när du använder **Utöka bokning** f
 
 - Användaren måste konfigurera tidszonen för sina enheter så att den motsvarar den tidszon som har angetts i systemets **anpassningsinställningar**.
  
-  ![Tidszonsinställningar i Windows 10](media/reconcile-assignments-03.png)
+  ![Tidszonsinställningar i Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Tidszonsinställningar i inställningar för personliga alternativ](media/reconcile-assignments-04.png)
+  ![Tidszonsinställningar i inställningar för personliga alternativ.](media/reconcile-assignments-04.png)
  
 - Den bokningsbara resursen måste innehålla minst en minuts arbetstid som överlappar med de profiler som används för att definiera det begärda tillägget. Till exempel följande resurser med arbetstider som faller mellan 9:00 och 19:00. 
 
-  ![Jämförelse av resursprofiler](media/reconcile-assignments-05.png)
+  ![Jämförelse av resursprofiler.](media/reconcile-assignments-05.png)
 
 Följande tabell visar:
 
@@ -47,25 +47,25 @@ Följande tabell visar:
 - Resurs B: den här resursen finns i en annan tidszon än projektet och startar klockan 7:00 i sin tidszon. Bokningarna kan emellertid börja klockan 9:00 eftersom det är den tidigaste starttiden för tilldelningens profil.
 - Resurser C och D: resurserna finns i olika tidszoner, de skiljer sig från varandra och projektet och deras bokningar startas inte tidigare än deras respektive tillgängliga starttider.
 
-|Entitet  |Kalender  |
+|Entity  |Kalender  |
 |-|-|
-|Projektkalendermall   | ![projektkalender](media/reconcile-assignments-06.png) |
-|Resurs A  | ![Resurs A kalendern](media/reconcile-assignments-06.png) |
-|Resurs B  |  ![Resurs B kalendern](media/reconcile-assignments-07.png) |
-|Resurs C  |  ![Resurs C kalendern](media/reconcile-assignments-08.png) |
-|Resurs D  | ![Resurs D kalendern](media/reconcile-assignments-09.png)  |
+|Projektkalendermall   | ![projektkalender.](media/reconcile-assignments-06.png) |
+|Resurs A  | ![Resurs A kalendern.](media/reconcile-assignments-06.png) |
+|Resurs B  |  ![Resurs B kalendern.](media/reconcile-assignments-07.png) |
+|Resurs C  |  ![Resurs C kalendern.](media/reconcile-assignments-08.png) |
+|Resurs D  | ![Resurs D kalendern.](media/reconcile-assignments-09.png)  |
  
 När du navigerar till vyn **Avstämning** visas resurstilldelningarna och tillhörande bokningsunderskott.
 
-![Vyn avstämning före tillägg](media/reconcile-assignments-10.png)
+![Vyn avstämning före tillägg.](media/reconcile-assignments-10.png)
 
 När funktionen för att utöka bokning har använts för varje resurs utökas bokningarna för varje resurs eftersom arbetstiderna för varje resurs överlappar profilen för underskottet.
 
-![Vyn avstämning efter bokningstillägget](media/reconcile-assignments-11.png) 
+![Vyn avstämning efter bokningstillägget.](media/reconcile-assignments-11.png) 
 
 Observera att informationen i bokningarna visar olikheter i starttiden för bokningarna. Bokningarna börjar inte tidigare än starttiden för tilldelningens profil och tidigast den tillgängliga starttiden för resursen.
 
-![Nya bokningar av de resurser som har schemaläggningstavlan](media/reconcile-assignments-12.png)
+![Nya bokningar av resurserna på schemaläggningstavlan.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

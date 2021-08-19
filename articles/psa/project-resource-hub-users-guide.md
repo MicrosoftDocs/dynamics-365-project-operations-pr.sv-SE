@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009098"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987278"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Användarguide för projektresursnav
 
@@ -49,14 +49,14 @@ Innan du kan börja använda appen Projektresurshubben måste du installera mobi
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installera Dynamics 365 for phones och tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets) surfplattor
 
 ## <a name="basic-navigation"></a>Grundläggande navigering
-1.  När du loggar in på mobilappen ser du sidan Mina appar med en lista över de appar som du har åtkomst till. 
+1.  När du loggar in på mobilappen ser du sidan MyApps med en lista över de appar som du har åtkomst till. 
 2.  Välj **Projektresurshubben**.
 
-![Välj en app](media/chooseApp_1.png "Välj en app")
+![Välj en app.](media/chooseApp_1.png "Välj en app")
 
 **Navigeringsfältet**
 
-Använd navigeringsfältet för att komma till ditt arbetsområde, skapa en ny post, söka eller utföra andra uppgifter. Om du vill få åtkomst till fler kommandon, tryck på ![knappen Mer](media/MoreButton.png "Knappen Fler")
+Använd navigeringsfältet för att komma till ditt arbetsområde, skapa en ny post, söka eller utföra andra uppgifter. Om du vill få åtkomst till fler kommandon, tryck på ![knappen Mer.](media/MoreButton.png "Knappen Fler")
 
 ![Navigeringsfält](media/NavBar_2.png "Navigeringsfält")
 
@@ -64,7 +64,7 @@ Använd navigeringsfältet för att komma till ditt arbetsområde, skapa en ny p
 
 Favoriter och senast använda avsnitt ger snabb åtkomst till dina poster, vyer och instrumentpaneler. 
 
-- Öppna dessa avsnitt genom att trycka på knappen **Meny** ![knappen meny](media/MenuButton.png "Menyknapp") i navigeringsfältet och sedan trycka på knappen **Favoriter och senaste** ![knappen Favoriter](media/FavButton.png "Fav-knappen").
+- Om du vill komma åt dessa avsnitt trycker du på knappen **Meny** ![knappen Meny.](media/MenuButton.png "Menyknapp") i navigeringsfältet och trycker sedan på knappen **Favoriter och senast använda** ![knappen Fav](media/FavButton.png "Fav-knappen").
 
 - Du kan fästa ett objekt som en favorit, i listan med **Senast använda** objekt, tryck på nålen. Detta fäster och flyttar objektet till Favoriter.
 
@@ -73,7 +73,7 @@ Favoriter och senast använda avsnitt ger snabb åtkomst till dina poster, vyer 
 ## <a name="enter-time"></a>Ange tid
 Ange dina timmar minst varje vecka, eller med den frekvens som begärts av dina chefer, så att kunderna faktureras och du är krediteras på rätt sätt.
 
-1. Tryck på meny ![knappen Meny](media/MenuButton.png "Menyknapp") och tryck sedan på **Tidsposter**. Din kalender visas.
+1. Tryck på knappen Meny ![knappen Meny.](media/MenuButton.png "Menyknapp") och tryck sedan på **Tidsposter**. Din kalender visas.
 
 2. Om du vill se din kalender för föregående eller nästa vecka trycker du på knappen **Föregående** eller **Nästa**. Tryck på **Idag** för att komma tillbaka till den aktuella veckan.
 

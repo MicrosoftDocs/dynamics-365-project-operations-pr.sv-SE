@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007298"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985568"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installationen av exempeldata data för Project Service-programmet
 
@@ -86,7 +86,7 @@ Du bör planera för datorn att vara ansluten till ett nätverk och för att ins
 Datorn bör ha funktionen skärmsläckare avstängd. I annat fall kan sessionens autentiseringsuppgifter för installationen förloras när skärmsläckaren aktiveras (såvida inte du håller sessionen aktiv).
 
 > [!div class="mx-imgBorder"]
-> ![Bild på inställningar för skärmsläckare med skärmsläckaren avstängd](media/sample-data-1.png)
+> ![Bild på inställningar för skärmsläckare med skärmsläckaren avstängd.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Hämta och packa upp
 
@@ -142,7 +142,7 @@ Demonstrationsdatapaketet kräver sex användare. För att uppdateringen ska ins
 3. Öppna **PkgFolder** och sök efter och öppna **ImportUserMapFile.xml**. Uppdatera fälten **ny=** till e-postadresser för motsvarande användare i systemet.
 
    > [!div class="mx-imgBorder"]
-   > ![Skärmbild av UserMapFile](media/sample-data-7.png)
+   > ![Skärmbild av UserMapFile.](media/sample-data-7.png)
 
 4. Om användarens fullständiga namn ”Spencer Low” har en annan användare än **”spencerl”** måste du uppdatera en ytterligare fil. Öppna **DemoDataPreImportConfig.xml** och sök **userstocreateandconfigure**-etiketten. Uppdatera etiketten **\<login\>** med loginId (skiftlägeskänsligt). 
 
@@ -172,7 +172,7 @@ Demonstrationsdatapaketet kräver sex användare. För att uppdateringen ska ins
 5. Välj **nästa** tills du ser dialogrutan **Inställning av demonstrationsdata**.
 
    > [!div class="mx-imgBorder"]
-   > ![Bild på statusfönstret för installation av demonstrationsdata](media/sample-data-3.png)
+   > ![Bild på statusfönstret för installation av demonstrationsdata.](media/sample-data-3.png)
 
 6. Innan du fortsätter, observera att installera exempeldata kan ta upp till en timme (normalt ~ 10 minuter). Du måste se till att datorn fortfarande är på och ansluten till ett nätverk under installationsprocessen och att sessionen är fortfarande aktiv.   
 
@@ -191,10 +191,10 @@ När dina exempeldata helt laddats, logga in som användaren Spencer Low och kon
 - Om Field Service-programmet är installerat, går du till **Project Service** > **inställningar** > **prislistor**. Kontrollera att faktureringstariffer och kostnader finns. Gå till **Field Service** > **inställningar** > **prislistor** och kontrollera att det finns fakturataxa och kostnader med rätt valuta, för varje land/region i datauppsättningen.
 
   > [!div class="mx-imgBorder"]
-  > ![Bild på aktiva prislistor](media/sample-data-4.png)
+  > ![Bild på aktiva prislistor.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Bild på aktiva organisationsenheter](media/sample-data-5.png)
+  > ![Bild på aktiva organisationsenheter.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tekniska anteckningar
 
@@ -295,7 +295,7 @@ Om du behöver ändra arbetstider/drifttider för exempelbokningsbara resurser g
 Välj en användare (till exempel Spencer Low) och ändra Spencers arbetstider till de timmar som du vill koppla till flera användare. Gå till **Universal Resource Scheduling** > **inställningar** > **arbetstidsmallar** och redigera posten **standardarbetsmall**. I fältet **mallresurs** väljer du en användare med arbetstimmar som du vill koppla till andra resurser. Gå till **Universal Resource Scheduling** > **schemaläggning** > **resurser** > **aktiva bokningsbara resurser**. Markera de resurser som du vill ändra och välj sedan **ange kalender**. På listrutan **arbetsmall**, välj mallen **standardarbetstid** eller en annan mall med korrekt mallresurs. När du börjar schemaläggningstavlan bör du kunna se att resurserna nu har uppdaterat dina arbetstider.
 
 > [!div class="mx-imgBorder"]
-> ![Bild på aktiva bokningsbara resurser](media/sample-data-6.png)
+> ![Bild på aktiva bokningsbara resurser.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

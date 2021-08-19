@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988808"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Uppdatera plugin-attribut för att inkludera nya prissättningsdimensioner
 
@@ -42,25 +42,25 @@ Nedan förklaras hur du registrerar plugin-programmen.
 1. Öppna **PluginRegistrationTool** och anslut till din online-instans.
 2. Klicka på **Sök** och sök efter det plugin-program som du vill uppdatera.
 
- ![Skärmbild av sökträdet](media/PRT-1.png)
+ ![Skärmbild av sökträdet.](media/PRT-1.png)
 
 3. När du har hittat plugin-programmet markerar du det och klickar på **Välj på huvudformulär**.
 
 4. Markera steget för det plugin-program som ska uppdateras, högerklicka och välj sedan **uppdatera**.
 
- ![Skärmbild av det plugin-program som ska uppdateras](media/PRT-2.png)
+ ![Skärmbild av det plugin-program som ska uppdateras.](media/PRT-2.png)
  
 5. I uppdateringsfönstret, klicka på ellipsen (**...**) i filtreringsattributen.
 
- ![Skärmbild av Uppdatera befintlig stegkonfigurationsinformation](media/PRT-3.png)
+ ![Skärmbild av Uppdatera befintlig stegkonfigurationsinformation.](media/PRT-3.png)
  
 6. Markera kryssrutorna för prissättningsattribut.
 
- ![Skärmbild som visar markeringen i kryssrutan för prissättningsattribut](media/PRT-4.png)
+ ![Skärmbild som visar markeringen i kryssrutan för prissättningsattribut.](media/PRT-4.png)
 
 7. Klicka på **OK** för att stänga sidan och välj sedan **Updatera steg**.
 
- ![Skärmbild som visar knappen "Uppdatera steg"](media/PRT-5.png)
+ ![Skärmbild som visar knappen "Uppdatera steg".](media/PRT-5.png)
  
 8. Upprepa den här processen för det andra plugin-programmet **PreOperationQuoteLineDetail - uppdatera msdyn_quotelinetransaction**.
 

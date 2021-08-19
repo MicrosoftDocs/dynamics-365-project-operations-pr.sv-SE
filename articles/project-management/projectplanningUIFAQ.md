@@ -2,17 +2,17 @@
 title: Felsöka arbete i uppgiftsrutnätet
 description: Detta ämne ger felsökningsinformation som behövs när du arbetar i uppgiftsrutnätet.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213422"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989123"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Felsöka arbete i uppgiftsrutnätet 
 
@@ -24,7 +24,7 @@ Detta ämne beskriver hur du åtgärdar problem som kan uppstå när du arbetar 
 
 För Project Operations krävs att tredjeparts-cookies aktiveras för att den uppdelade arbetsstrukturen ska kunna återges. När cookies från tredje part inte är aktiverade visas en tom sida i stället för uppgifter när du väljer fliken **Uppgifter** på sidan **Projekt**.
 
-![Tom flik när cookies från tredje part inte är aktiverade](media/blankschedule.png)
+![Tom flik när cookies från tredje part inte är aktiverade.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Lösning
@@ -52,11 +52,22 @@ För Microsoft Edge eller Google Chrome-webbläsare beskriver följande förfara
 För Project Operations krävs att en projektparameter refererar till PEX-slutpunkten. Denna slutpunkt krävs för att kommunicera med den tjänst som används för att återge den uppdelade arbetsstrukturen. Om parametern inte är aktiverad visas felmeddelandet "Projektparametern är inte giltig". 
 
 ### <a name="workaround"></a>Lösning
- ![Fältet för PEX-slutpunkt i projektparametern](media/projectparameter.png)
 
 1. Lägg till fältet **PEX-slutpunkt** på sidan **Projektparametrar**.
-2. Uppdatera fältet med följande värde: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Ta bort fältet från sidan **Projektparametrar**.
+2. Identifiera vilken typ av produkt du använder. Det här värdet används när PEX-slutpunkt anges. Vid hämtningen är produkttypen redan definierad i PEX-slutpunkten. Behåll det värdet. 
+   
+    ![Fältet för PEX-slutpunkt i projektparametern.](media/pex-endpoint.png)
+
+3. Uppdatera fältet med följande värde: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produkttyp                         | Typparameter |
+   |--------------------------------------|----------------|
+   | Project for the Web i standardorganisation   | type=0         |
+   | Project for the Web i namngiven CDS-organisation | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Ta bort fältet från sidan **Projektparametrar**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegier för projekt för webben
 
@@ -67,7 +78,7 @@ Project Operations förlitar sig på en extern schemaläggningstjänst. Tjänste
 
 1. Gå till **Inställning > Säkerhet > Användare > Programanvändare**.  
 
-   ![Programläsare](media/applicationuser.jpg)
+   ![Programläsare.](media/applicationuser.jpg)
    
 2. Dubbelklicka på programanvändarposten för att bekräfta följande:
 
@@ -76,7 +87,7 @@ Project Operations förlitar sig på en extern schemaläggningstjänst. Tjänste
  
 3. Om denna användare inte finns kan du skapa en ny användarpost. Välj **Ny användare**. Ändra postformuläret till **Programanvändare** och lägg sedan till **Program-ID**.
 
-   ![Information om programanvändare](media/applicationuserdetails.jpg)
+   ![Information om programanvändare.](media/applicationuserdetails.jpg)
 
 4. Kontrollera att användaren har tilldelats rätt licens och att tjänsten är aktiverad i serviceplaninformationen för licensen.
 5. Kontrollera att användaren kan öppna project.microsoft.com.

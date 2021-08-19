@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985163"
 ---
 # <a name="manage-resource-requests-project-service"></a>Hantera resursförfrågningar (Project Service)
 
@@ -43,7 +43,7 @@ Kontoansvariga och projektledare begär regelbundet resurser för sina projekt. 
   
    -   Klicka på **Filter** för att visa rutan **Filter** som gör att du kan filtrera resultatet efter organisationsenhet, roll, färdighet eller andra attribut.  
   
-       ![Skärmen Project Service Resursförfrågningar](../psa/media/project-service-resource-request-screen.png "Skärmen Project Service Resursförfrågningar")  
+       ![Skärmen Project Service Resursförfrågningar.](../psa/media/project-service-resource-request-screen.png "Skärmen Project Service Resursförfrågningar")  
   
 3. I kalendern för resursen som du vill boka, välj tidsperiod för att boka resursen och klicka på **Boka** för att boka resursen, eller på **Föreslå bokning** för att föreslå bokningen och låta frågeställaren godkänna den. När du bokar en resurs kan du göra en preliminär eller fast bokning.  
   

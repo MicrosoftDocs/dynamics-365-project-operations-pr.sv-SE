@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011078"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986783"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Uppdatera Project Operations i din Finance-miljö
 
@@ -33,7 +33,7 @@ I detta ämne finns information om hur du uppdaterar Dynamics 365 Project Operat
 4. Kontrollera att miljön körs. Starta miljön om den inte redan körs.
 5. I avsnittet **Ny version**, under **Tillgängliga uppdateringar**, väljer du **Visa uppdatering** för 10.0.15.
 
-![Visa uppdateringsknappen](media/view-update.png)
+![Visa uppdateringsknappen.](media/view-update.png)
 
 6. På sidan **Binära uppdateringar** väljer du **Spara paket**.
 7. På sidan **Granska och spara uppdateringar** väljer du **Spara paket**.
@@ -47,11 +47,11 @@ I detta ämne finns information om hur du uppdaterar Dynamics 365 Project Operat
 2. Välj det paket du sparade tidigare i listan och välj Sedan **Verkställ**.
 3. Markera **Ja** om du vill bekräfta att du vill distribuera paketet.
 
-![Dialogrutan Bekräfta paketdistribution](media/confirm-package-deployment.png)
+![Dialogrutan Bekräfta paketdistribution.](media/confirm-package-deployment.png)
 
 4. Markera **Ja** om du vill bekräfta att du vill uppdatera programmet.
 
-![Dialogrutan Bekräfta programuppdatering](media/confirm-application-update.png)
+![Dialogrutan Bekräfta programuppdatering.](media/confirm-application-update.png)
 
 Distributionen och programuppdateringen startar. 
 
@@ -84,7 +84,7 @@ Följande uppdateringar av säkerhetsprivilegier för entiteter krävs som en de
 
 1. I din Dataverse-miljö går du till **Inställningar**. I gruppen **System** väljer du **Säkerhet**.
 
-![Inställningar för Dataverse-miljö](media/Picture21.png)
+![Dataverse-miljöinställningar.](media/Picture21.png)
 
 2. Välj **säkerhetsroller**
 3. I listan över roller väljer du **Användare av appar för dubbelriktad skrivning** och sedan fliken **Anpassade entiteter**. 
@@ -121,7 +121,7 @@ Följande uppdateringar av säkerhetsprivilegier för entiteter krävs som en de
 6. I mappningslistan väljer du mappningen **Huvudbok (msdyn_ledgers)** med alla obligatoriska delar och väljer sedan kryssrutan **Initial synkc**. 
 7. I fältet **Master för initial synk** väljer du **Finance and Operations-appar** och sedan **Kör**.
  
- ![Synkronisering av huvudboksmappning](media/DW6.png)
+ ![Synkronisering av transaktionsregistermappning.](media/DW6.png)
  
 
 

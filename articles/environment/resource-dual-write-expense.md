@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000008"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986603"
 ---
 # <a name="expense-management-integration"></a>Integration av utgiftshantering
 
@@ -28,7 +28,7 @@ I en fullständig utgiftsdistribution skapas och hanteras utgiftskategorier i Fi
 2. I Ekonomi går du till **Utgiftshantering** > **Inställning** > **Delade kategorier** och väljer en delad kategori med transaktionsklass **Utgift**. Ställ in parametern **Kan användas i utgift** som **True** och definiera den utgiftstypen som ska användas.
 3. Med den här delade kategoriposten kan du skapa en ny utgiftskategori genom att gå till **Utgiftshantering** > **Inställning** > **Utgiftskategorier** och välja **Ny**. När posten sparas använder dubbelriktad skrivning tabellmappningen **Project Operations-integration av entitet för export av projektutgiftskategorier (msdyn\_expensecategories)** för att synkronisera posten med Dataverse.
 
-  ![Integration av utgiftskategorier](./media/DW6ExpenseCategories.png)
+  ![Integration av utgiftskategorier.](./media/DW6ExpenseCategories.png)
 
 Utgiftskategorier i Finance and Operations-appar är specifika för företag eller juridiska entiteter. Det finns separata, motsvarande, juridisk enhets-specifika poster i Dataverse. När en projektansvarig beräknar utgifter kan hen inte välja utgiftskategorier som skapats för ett projekt som ägs av ett annat företag än det företag som äger projektet hen arbetar med. 
 
@@ -40,7 +40,7 @@ Utgiftsrapporter skapas och godkänns i Finance and Operations-appar. Mer inform
   - Dubbelriktad skrivning synkroniseras med Dataverse med tabellmappningen **Entitet för export av projektutgifter i Project Operations-integration (msdyn \_expenses)**.
   - Momsreskontra, leverantörsreskontra och andra ekonomiska poster registreras som tillämpligt vid tidpunkten för utgiftsrapportregistrering.
 
-  ![Integration av utgiftsrapporter](./media/DW6ExpenseReports.png)
+  ![Integration av utgiftsrapporter.](./media/DW6ExpenseReports.png)
 
 När en post skrivs till entiteten **Utgift** i Dataverse utlöser systemet den automatiska godkännandeprocessen för posten. Vid behov kan du granska status för den automatiska godkännandeprocessen i Dataverse. Gå till **Avancerade inställningar** > **System** > **Systemjobb**. När godkännande är klart skapas poster för utgiftstransaktionsklassen i entiteten **Faktiska värden**.
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012113"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988988"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Använda bokningsbar resurs som prissättningsdimension
 
@@ -62,18 +62,18 @@ För den bokningsbara resursen **Projektteammedlemmar** något annorlunda fältn
 1. Det gör du genom att dubbelklicka på raden i rutnätet **prisdimensioner** för att öppna dimensionssidan med **msdyn_bookableresource**.
 2. På dimensionssidan på fliken **Relaterad**, klicka på **Fältnamn för prissättningsdimensioner**.
 
- ![Fliken fältnamn för prissättningsdimensionerr](media/PD-fieldname.png)
+ ![Fliken Fältnamn för prissättningsdimensioner.](media/PD-fieldname.png)
 
 4. Klicka på **Lägg till fältnamn på ny prissättningsdimensionen** i den associerade vyn som öppnas.
 
- ![Lägg till nya fältnamn för prissättningsdimensioner](media/Add-NewPD-fieldname.png)
+ ![Lägg till nya fältnamn för prissättningsdimensioner.](media/Add-NewPD-fieldname.png)
 
 
 Då öppnas sidan **nya prissättningsdimensioner** för **msdyn_bookableresource**. 
 
 5. Lägg till **msdyn_projectteam** till fältet **entiteten logiskt namn** och **msdyn_bookableresourceid** till fältet **fältnamn**. Spara posten.
 
- ![Formulär för fältnamn för prissättningsdimensioner](media/PD-fieldname-Added.png)
+ ![Formulär för fältnamn för prissättningsdimensioner.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
