@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001993"
 ---
 # <a name="pricing-dimensions-overview"></a>Prissättningsdimensioner – Översikt
 
@@ -33,7 +33,7 @@ Därför finns det två typer av dimensionsvärden för prissättning tillgängl
 
 Med Dynamics 365 Project Operations följer standarduppsättning med prissättningsdimensioner. Du kan visa dessa prissättningsdimensioner genom att gå till **Project Operations** > **parametrar**. I parameterposten, på fliken **Beloppsbaserad prissättningsdimension** ska du kontrollera att rollen **msdyn_resourcecategory** och resursorganisationsenheten **msdyn_organizationalunit** har fälten **Gäller för försäljning** och **Gäller för kostnad** inställd på **Ja**. Med dessa fält aktiverade kan du ange pris och kostnad för varje kombination av roll och organisationsenheter.
 
-![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad](media/PS-OOB-parameters.png)
+![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad.](media/PS-OOB-parameters.png)
 
 Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande ämnen: 
   

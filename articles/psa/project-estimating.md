@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009188"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002578"
 ---
 # <a name="project-costs-and-revenue"></a>Projektkostnader och intäkter
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009188"
 
 Projektberäkningar ger den ekonomiska vyn för det beräknade och schemalagda arbetet i projektets schema. Fliken **Beräkningar** på sidan **projekt** visar utgifts- och intäktseffekten för det arbete som du planerar. Den innehåller också information om många fördefinierade dimensioner. 
 
-> ![Fliken Beräkningar](media/project-5.png)
+> ![Fliken Beräkningar.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kostnad och försäljningsvärden för projektet
 
@@ -66,13 +66,13 @@ Om systemet inte hittar ett pris för rollen, måste försäljningspriset vara p
 
 Fliken **Beräkningar** innehåller en rutnätsvy som visar beräknade rader. I rutnätet finns kolumner för enheten, total självkostnad och totalt försäljningspris, som du ser på följande bild. 
 
-> ![Rutnätsvy på fliken Beräkningar](media/project-6.png)
+> ![Rutnätsvy på fliken Beräkningar.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tidsfasad vy över projektberäkningar
 
 I vyn tidsfaser i projektberäkningar visar beräkningsdata från rutnätsvy över tidslinjen i en tidsskala som du har valt. Som standard pivoteras beräkningsdata i dimensionen **roll**.
 
-> ![Tidsfasad vy för projektberäkningar](media/project-7.png)
+> ![Tidsfasad vy för projektberäkningar.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Allokering av beräknad insats utifrån uppgiftsläge
 

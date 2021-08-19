@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003793"
 ---
 # <a name="invoicing-process-overview"></a>Översikt över faktureringsprocessen
 
@@ -20,7 +20,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 Project Operations för resurs-/icke-lagerbaserade scenarier erbjuder omfattande funktioner som är skräddarsydda för både projektansvarig och kundreskontra-/projektrevisor. För faktureringsprocessen hanterar projektledaren eftersläpningen (backlogg) för projektfakturering och kundreskontra-/projektrevisorn skapar ett kompatibelt och korrekt kundriktat fakturadokument.
 
-![Diagram över faktureringsflöde](./media/invoicing-flow.png)
+![Diagram över faktureringsflöde.](./media/invoicing-flow.png)
 
 På projektkontraktraden definieras faktureringsmetoden för associerade projekttransaktioner. När projektledaren godkänner tids- och utgiftstransaktioner registrerar systemet transaktionerna i entiteten **Faktiska projektvärden** och skickar informationen till modulen **Projekthantering och redovisning** i Dynamics 365 Finance. Projektrevisorn granskar och publicerar sedan posterna med hjälp av [integrationsjournalen för Project Operations](../project-accounting/project-operations-integration-journal.md). Denna artikel innehåller viktiga redovisningsuppgifter för projektets faktiska värden, till exempel fakturering, momsgrupp, momsgrupp för faktureringsobjekt och ekonomiska mått.
 

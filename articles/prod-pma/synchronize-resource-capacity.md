@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997533"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005638"
 ---
 # <a name="synchronize-resource-capacity"></a>Synkronisera resurskapacitet
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997533"
 
 Med hjälp av processerna för synkronisering av resurser kan du garantera att informationen för kalendern och baskalendern rinner ned i projektresursens schemaläggning. Om kalendern ändras gör processerna de nödvändiga uppdateringarna till schemaläggning av projektresurser. Processerna bidrar också till att förbättra prestanda eftersom kalenderns resursinformation synkroniseras i förväg. Uppdateringarna av resursplaneringsinformationen kan därför snabbare uppdateras. Vi rekommenderar att du schemalägger processerna som en batch i stället för en i taget. I annat fall kommer någon att glömma bort de ingående datumen när informationen senast synkroniserades. Om ingående datum inte används kan luckor uppstå vid synkronisering av datum.
 
-![Synkronisering av kalender](./media/projectresourcing04-1024x471.jpg)
+![Synkronisering av kalender.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Synkronisering av resurskapacitets sammanslagningar
 
@@ -46,7 +46,7 @@ Vi rekommenderar att du använder en batch. Alternativen är tillgängliga under
     | Startdatum  | Ange startdatum för synkroniseringsprocessen för resurskapacitets sammanslagning. |
     | Slutdatum    | Ange slutdatum för synkroniseringsprocessen för resurskapacitets sammanslagning. |
 
-[![Synkroniseringsprocess](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Synkroniseringsprocess.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

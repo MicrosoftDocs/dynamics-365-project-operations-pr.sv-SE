@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002353"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner 
 
@@ -41,11 +41,11 @@ För att ett fält ska bli en prissättningsdimension måste det vara:
 - Skapat som ett fält i entiteterna **Rollpris** och **Pålägg för rollpris**. Mer information om hur du gör detta finns i [lägga till anpassade fält i prisinställningar och transaktionella entiteter](field-references.md).
 - Skapad som en rad i tabellen **prisdimension**. Du kan till exempel lägga till prisdimensionsrader som de visas i följande bild. 
 
-![Beloppsbaserade prissättningsrader](media/Amt-based-PD.png)
+![Beloppsbaserade prissättningsrader.](media/Amt-based-PD.png)
 
 Observera att that resursens arbetstider (**msdyn_resourceworkhours**) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
 
-![Påläggsbaserade prissättningsdimensionsrader](media/Markup-based-PD.png)
+![Påläggsbaserade prissättningsdimensionsrader.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Alla ändringar av dimensionsdata för prissättning i den här tabellen, befintlig eller ny, sprids till Project Service affärslogik för prissättnings först efter att cacheminnet har uppdaterats. Det kan ta upp till 10 minuter att uppdatera cacheminnet. Tillåt den här tidsperioden för att se de ändringar i prisstandardlogik som måste uppkomma från ändringar i data för prissättningsdimension.

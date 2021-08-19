@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993168"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002983"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Hur anpassar jag affärsprocessflödet för projektstadier?
 
@@ -60,11 +60,11 @@ Om uppgradering inte utgör ett alternativ kan du anpassa affärsprocessflödet 
 1. Lägg till fler stadier i standardkonfigurationen samtidigt som du behåller de engelska stadienamnen **Quote**, **Plan** och **Close**.
 
 
-![Skärmbild på hur du lägger till stadier i standardkonfiguration](media/FAQ-Customize-BPF-1.png)
+![Skärmbild på hur du lägger till stadier i standardkonfiguration.](media/FAQ-Customize-BPF-1.png)
  
 2. Skapa ett eget affärsprocessflöde och gör det till primärt affärsprocessflöde för projektentiteten projekt, vilket gör att du kan få alla stadienamn du vill. Om du emellertid vill använda samma standardprojektstadier (**Quote**, **Plan** och **Close**) måste du göra vissa anpassningar som baseras på dina anpassade stadienamn. Den mer komplexa logiken finns i nedstängningen av projektet, något som du fortfarande kan utlösa genom att helt enkelt inaktivera projektposten.
 
-![BPF-anpassning](media/FAQ-Customize-BPF-2.png)
+![BPF-anpassning.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Ytterligare överväganden programmet Project Service i version 2.4.4.30 eller tidigare på plattformen 9.0
 
@@ -80,11 +80,11 @@ För att skapa ditt eget affärsprocessflöde för projektentiteten, gör följa
 
 1. Gå till **Inställningar** > **Processcenter**. Kopiera inte affärsprocessflödet för projektstadier eftersom affärslogiken för Project Service då kopieras.
 
-  ![Skapa process](media/FAQ-Customize-BPF-3.png)
+  ![Skapa process.](media/FAQ-Customize-BPF-3.png)
 
 2. Använd processdesignern för att skapa de stadienamn du vill. Om du vill ha samma funktioner som standardstadierna för **Quote**, **Plan** och **Stäng** måste du skapa detta utifrån stadienamnen på dina anpassade affärsprocessflöden.
 
-   ![Skärmbild av den processdesigner som används för att anpassa BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Skärmbild av den processdesigner som används för att anpassa BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. I processdesignern klickar du på **Processflöde för order** att göra det anpassade affärsprocessflödet till primärt affärsprocessflöde för projektentiteten genom att flytta den ovanför affärsprocessflödet för projektstadier och överst i listan.
 
@@ -95,15 +95,15 @@ För att skapa ditt eget affärsprocessflöde för projektentiteten, gör följa
 
 4. Lägg till ett nytt anpassat fält till projektentiteten för att registrera anpassade stadier i ditt anpassade affärsprocessflöde. Du måste lägga till affärslogik (insticksprogram eller arbetsflöden) om du vill uppdatera fältet när stadiet i det anpassade affärsprocessflödet uppdateras.
 
-   ![Skärmbild på anpassning av entitet för projekt](media/FAQ-Customize-BPF-6-720.png)
+   ![Skärmbild på anpassning av entitet för projekt.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Ändra diagrammet **Projekt efter stadium** om du vill använda ditt nya anpassade fält för stadier.
 
-   ![Skärmbild på användning av diagrammet Projekt efter stadium](media/FAQ-Customize-BPF-7-720.png)
+   ![Skärmbild på användning av diagrammet Projekt efter stadium.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Ändra alla vyer för projektentiteten för att ta med dina nya anpassade fält för stadier.
 
-   ![Skärmbild på ändring av vyer i entiteten för projekt](media/FAQ-Customize-BPF-8-720.png)
+   ![Skärmbild på ändring av vyer i entiteten för projekt.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025796"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003838"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations mappningsversioner för dubbelriktad skrivning
 
@@ -32,7 +32,7 @@ Följande mappningar är obligatoriska för lösningen Project Operations. Kör 
 
 1. I mappningslistan väljer du mappningen Huvudbok **(msdyn\_ledgers)** med alla obligatoriska delar och väljer sedan kryssrutan **Initial synkning**. I fältet **Master för initial synkning** väljer du **Finance and Operations-appar** för både huvudboksmappning och obligatoriska mappningar. Markera **Kör**.
 
-![Synkronisering av huvudboksmappning](media/DW6.png)
+![Synkronisering av transaktionsregistermappning.](media/DW6.png)
 
 2. Följ samma steg för alla återstående tabellmappningar som visas i tabellen ovan. Markera inte kryssrutan **Initial synkning** när dessa mappningar körs.
 
@@ -65,7 +65,7 @@ Kör de listade mappningar genom att följa stegen nedan.
 
 1. Aktivera projektresursrollerna för tabellmappningen **Alla företag (bookableresourcecategories)** eftersom denna mappning kräver första synkronisering. I fältet **Master för första synkning** väljer du **Gemensam datatjänst**. 
 
- ![Mappningssynkning av resursrolltabell](media/6ResourceInitialSync.jpg)
+ ![Mappningssynkning av resursrolltabell.](media/6ResourceInitialSync.jpg)
 
  Vänta tills mappningen status är **Körs** innan du tar nästa steg.
 
