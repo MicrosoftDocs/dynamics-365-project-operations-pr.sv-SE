@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997983"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995063"
 ---
 # <a name="propose-project-resources"></a>Föreslå projektresurser
 
@@ -32,17 +32,17 @@ Resursansvariga kan föreslå en resurs till projektledaren genom att använda e
 1. Från rutnätet för begäran eller själva begäran, välj **Hitta resurser**.
 2. På sidan **schemaassistent** markerar du resursen och väljer rutan **Skapa resursbokning** i fältet **bokningsstatus** och väljer **boka**.
 
-    ![Föreslagen resurs vald](media/Resource-Management-image62.png)
+    ![Föreslagen resurs vald.](media/Resource-Management-image62.png)
 
 Följande statusuppdateringar inträffar:
 
 - På sidan **schemaläggningsassistent** uppdateras statusindikatorerna för att indikera att bokningen är föreslagen, inte en fast bokade.
 
-    ![Statusindikatorer för föreslagen bokning på sidan schemaläggningsassistenten](media/Resource-Management-image63.png)
+    ![Statusindikatorer för föreslagen bokning på sidan Schemaläggningsassistenten.](media/Resource-Management-image63.png)
 
 - I resursbegäran ändras status till **måste granskas**.
 
-    ![Resursbegärans status ändrad till måste granskas.](media/Resource-Management-image64.png)
+    ![Resursbegärans status ändrad till Måste granskas.](media/Resource-Management-image64.png)
 
 - På fliken **team** i projektet ändras värdet för den allmänna teammedlemmens **Status för begäran** till **måste granskas**.
 
@@ -70,7 +70,7 @@ Följande formler används för att beräkna användningen:
 
 Du hittar vyn **Resursutnyttjande** i fönstret **Resurser**.
 
-![Vy för resursutnyttjande](media/Resource-Management-image65.png)
+![Vyn Resursutnyttjande.](media/Resource-Management-image65.png)
 
 Varje cell i rutnätet representerar resursens fakturerbara användningsprocent i en period, t.ex. dag, vecka eller månad. Följande formler används för att färglägga cellerna:
 
@@ -84,7 +84,7 @@ Rutnätet kräver att du anger ett utnyttjandemål för antingen rollen eller de
 
 Dessutom måste en standardroll tilldelas varje bokningsbar resurs. Gå till **Resurser** \> **Resurser**. På fliken **Project Service** kontrollera att en resursroll är definierad och att fältet **är standard** anges till **ja**. Du kan lägga till ytterligare roller där **är standard = nej**. Rollen där **är standard = ja** används för att utvärdera resursutnyttjande för resursen mot målet för rollen.
 
-![Standardrolluppsättning](media/Resource-Management-image67.png)
+![Standardrolluppsättning.](media/Resource-Management-image67.png)
 
 På fliken **Project Service** kan du också ange ett enskilt målutnyttjande för resursen. Utnyttjandeberäkningen använder då målutnyttjande för att utvärdera resursens mål i stället för resursens standardroll.
 
@@ -96,21 +96,21 @@ Det är viktigt att resursansvariga kan visa tillgängligheten till resurser och
 
 Resursens arbetstider används som grund för att beräkna resursens tillgänglighet. Resursbokningarna förbrukar kapaciteterna för resurserna.
 
-![Schemaläggningstavla](media/Resource-Management-image68.png)
+![Schemaläggningstavla.](media/Resource-Management-image68.png)
 
 I schemaläggningstavlan används färger och fyllning för att visa bokningar, tillgänglighet och förbokningar samt även status för bokningar. En inställning i schemaläggningstavlan gör att du kan visa en förklaring.
 
 Om en högerriktad pil visas bredvid en enskild bokningsbar resurs på schemaläggningstavlan kan resursen expanderas så att den innehåller information om det arbete som resursen är bokad på.
 
-![Bokningsbar resurs visas på schemaläggningstavlan](media/Resource-Management-image69.png)
+![Bokningsbar resurs visas på schemaläggningstavlan.](media/Resource-Management-image69.png)
 
 Eftersom Dynamics 365 Project Service Automation använder Universal Resource Scheduling-motorn, om du även har Dynamics 365 Field Service installerat kan du visa information om resursbokningar för projekt, arbetsorder och andra entiteter som du har utvidgat schemaläggning till.
 
-![Information om resursbokningar för projekt och arbetsorder](media/Resource-Management-image70.png)
+![Information om resursbokningar för projekt och arbetsorder.](media/Resource-Management-image70.png)
 
 Om du vill visa mer information om en enskild resurs högerklickar du på den så att resurskortet öppnas.
 
-![Resurskort](media/Resource-Management-image71.png)
+![Resurskort.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

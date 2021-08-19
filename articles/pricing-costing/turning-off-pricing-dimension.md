@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994523"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Inaktivera en prissättningsdimension
 
@@ -32,7 +32,7 @@ Inaktivera en prissättningsmodell, oavsett om den är slut eller anpassad kan g
 
 Men när du gör detta kan felmeddelandet visas, **prisdimensionen kan inte uppdateras eller tas bort om det finns associerade prisposter.**
 
-![Affärsprocessfel som uppstår när en prissättningsdimension stängs av](media/Business-Process-Error.png)
+![Affärsprocessfel som uppstår när en prissättningsdimension stängs av.](media/Business-Process-Error.png)
 
 Det här felmeddelandet anger att det finns prissättningsposter som har ställts in tidigare för den dimension som ska stängas av. Alla poster för **Rollpris** och **Pålägg för rollpris** som refererar till en dimension måste tas bort innan dimensionens tillämpbarhet kan ställas in på **Nej**. Den här regeln gäller både för medföljande prissättningsdimensioner och för de prissättningsdimensioner som du har skapat. Anledningen till att validera är att varje post för **rollpris** måste ha en unik kombination av dimensioner. Till exempel en prislista med namnet **amerikansk kostnadstaxan 2018** har du följande rader för **rollpris**. 
 

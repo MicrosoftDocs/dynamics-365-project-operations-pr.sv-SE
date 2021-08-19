@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014948"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995468"
 ---
 # <a name="quotes-and-quote-lines"></a>Offerter och offertrader
 
@@ -84,7 +84,7 @@ Professionella tjänsteorganisationer brukar citera och fakturera sina kunder ge
 
 En eller flera av dessa transaktionsklassificeringar kan associeras med varje offertrad. När en offert har vunnits överförs mappningen mellan transaktionsklassificering och offertrad till kontraktraden.
  
-> ![Skärmbild av mappning av transaktionstyper till offert och kontraktrader](media/basic-guide-5.png)
+> ![Skärmbild av mappning av transaktionstyper till offert och kontraktrader.](media/basic-guide-5.png)
   
 En offert kan till exempel innehålla följande två offertrader: 
 - Konsultarbete som använder en metod för tids- och materialfakturering där klassificeringar av tid och avgifter gäller. Till exempel är alla tids- och avgiftstransaktioner för exempelprojekten **Dynamics AX Implementering** fakturerade till kunden utifrån den tid och de material som används. 
