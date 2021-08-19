@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008248"
 ---
 # <a name="resource-management-modes-overview"></a>Resurshanteringslägen – Översikt
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations har stöd för två lägen för att du ska kunna
 ## <a name="central-mode"></a>Centralt läge
 För organisationer som centraliserar tilldelningen för resurser till projekt, kan du med hjälp av centralläget se till att projektledarna kan definiera resurskrav på projektnivå. Uppfyllelse av resurskraven delegeras till en resursansvarig. Projektledarna kan acceptera eller avvisa resurser som föreslås av den resursansvariga.
 
-![Centralt läge](./media/resource-management-central.png)
+![Centralt läge.](./media/resource-management-central.png)
 
 Information om hur du hanterar resurser med centralt läge finns i:
 
@@ -37,7 +37,7 @@ Information om hur du hanterar resurser med centralt läge finns i:
 ## <a name="hybrid-mode"></a>Hybridläge
 För organisationer som behöver flexibilitet i tilldelningen av resurser innebär hybridläget att både projektledarna och resursansvariga kan boka resurser.
 
-![Hybridläge](./media/resource-management-hybrid.png)
+![Hybridläge.](./media/resource-management-hybrid.png)
 
 Utöver den centrallägesprocess som stöds, se följande avsnitt för att hantera alla andra bokningsflöden som stöds i hybridläget:
 

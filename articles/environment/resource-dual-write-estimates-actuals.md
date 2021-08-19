@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006313"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektberäkningar och integration med faktiska värden
 
@@ -30,7 +30,7 @@ För att skapa beräkningar krävs en giltig redovisningskonfiguration för proj
 
 Arbetsberäkningar skapas av projektledaren eller resursadministratören som också tilldelar en allmän eller namngiven resurs till projektuppgiften. Resurstilldelningsposter kan granskas på fliken **Resurstilldelningar** på sidan **Projektinformation** i Dataverse. Resurstilldelningsposter i Dataverse skapar timprognosposter i Finance and Operations-appar med entiteter för **Project Operations-integration för tidsberäkningar (msdyn\_resourceassignments)**.
 
-   ![Integration av arbetsberäkningar](./Media/DW4LaborEstimates.png)
+   ![Integration av arbetsberäkningar.](./Media/DW4LaborEstimates.png)
 
 Dubbelriktad skrivning synkroniserar resurstilldelningsposter till mellanlagringstabellen (**ProjCDSEstimateHoursImport**) och affärslogiken används sedan för att skapa och uppdatera timprognosposter (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Projektredovisaren granskar poster för prognostiserad tid som har skapats i Fin
 
 Kostnadsberäkningar skapas av projektledaren på fliken **Kostnadsberäkningar** på sidan **Projektinformation** i Dataverse. Kostnadsberäkningsposter lagras i entiteten **Beräkningsrad** i Dataverse. Dessa beräkningsposter har transaktionsklassen **Utgift** och synkroniseras med kostnadsprognosposter i Finance and Operations-appar med entiteten **Project Operations-integrationsentitet för kostnadsberäkningar (msdyn\_estimatelines)**.
 
-   ![Integration av kostnadsberäkningar](./Media/DW4ExpenseEstimates.png)
+   ![Integration av kostnadsberäkningar.](./Media/DW4ExpenseEstimates.png)
 
 Dubbelriktad skrivning synkroniserar kostnadsberäkningsposter till mellanlagringstabellen **(ProjCDSEstimateExpenseImport)** och affärslogiken används sedan för att skapa och uppdatera kostnadsprognosposter (**ProjForecastCost**). Beräkningsrader lagrar försäljningsberäknings- och kostnadsberäkningsposter separat. Affärslogiken i Finance and Operations-apparna fyller i en enskild kostnadsprognospost med hjälp av den här uppgiften i mellanlagringstabellen.
 
@@ -50,7 +50,7 @@ Projektredovisaren kan granska kostnadsprognosposter i Finance and Operations-ap
 
 Materialberäkningar skapas av projektledaren på fliken **Materialberäkningar** på sidan **Projektinformation** i Dataverse. Materialberäkningsposter lagras i entiteten **Beräkningsrad** i Dataverse. Dessa beräkningsposter har transaktionsklassen **Material** och synkroniseras med artikelprognosposter i Finance and Operations-appar med entiteten **Project Operations-integrationstabell för materialberäkningar (msdyn\_estimatelines)**.
 
-   ![Integration av materialberäkningar](./Media/DW4MaterialEstimates.png)
+   ![Integration av materialberäkningar.](./Media/DW4MaterialEstimates.png)
 
 Dubbelriktad skrivning synkroniserar materialberäkningsposter till mellanlagringstabellen **ProjForecastSalesImpor** och affärslogiken används sedan för att skapa och uppdatera artikelprognosposter (**ForecastSales**). Beräkningsrader lagrar försäljningsberäknings- och kostnadsberäkningsposter separat. Affärslogiken i Finance and Operations-apparna fyller i en enskild artikelprognospost med hjälp av den här uppgiften i mellanlagringstabellen.
 
@@ -60,7 +60,7 @@ Projektredovisaren kan granska artikelprognosposter i Finance and Operations-app
 
 Faktiska värden för projekt skapas i Dataverse baserade på tid, kostnader, material och faktureringsaktivitet. Alla verksamhetsattribut för dessa transaktioner, inklusive kvantitet, självkostnad, försäljningspris och projekt, fångas upp i den här Dataverse-entiteten. Mer information finns i [Faktiska värden](../actuals/actuals-overview.md). Faktiska poster synkroniseras med Finance and Operations-appar med tabellmappningen dubbelriktad skrivning **Faktiska värden för Project Operations-integration (msdyn\_actuals)** för nedströms redovisning.
 
-   ![Integration av faktiska värden](./Media/DW4Actuals.png)
+   ![Integration av faktiska värden.](./Media/DW4Actuals.png)
 
 Tabellmappningen **Faktiska värden för Project Operations-integration** synkroniserar alla poster från entiteten **Faktiska värden** i Dataverse som har attributet **Hoppa över synkronisering (endast intern användning)** inställt som **False**. Attributvärdet anges automatiskt i Dataverse när posten skapas. Exempel på när attributet har angetts som **True** är:
 
