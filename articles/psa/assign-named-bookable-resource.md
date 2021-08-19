@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009368"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998663"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Boka namngivna bokningsbara resurser till ett projektgrupp och tilldela dem uppgifter 
 
@@ -34,36 +34,36 @@ Du kan lägga till en namngiven resurs i projektteamet genom att boka dem direkt
 1. I Project Service Automation, gå till **projekt** och välj de öppna projekt du bokar för.
 2. På sidan **Projekt** på fliken **Team**, klicka på **Ny**. 
 
-![Lägga till en teammedlem från fliken team](media/RM-how-to-1.png)
+![Lägga till en teammedlem från fliken team.](media/RM-how-to-1.png)
 
 3. I dialogrutan **Snabbregistrering av projektteammedlem** väljer du den bokningsbara resursen. Fältet **Roll** fylls i med resursens standardroll om de har en tilldelad. Du kan ändra rollen vid behov. 
 4. Välj de från- och till-datum som resursen behövs och välj allokeringsmetod för resursens kapacitet. 
 5. Om du vill att teammedlemmen ska vara en projektgodkännare väljer du **Ja** i fältet **projektgodkännare**. Detta innebär att teammedlemmen kan godkänna skickade tid- och utgiftsposter för det här projektet. 
 6. Klicka på **Spara**.
 
-![Lägga till en teammedlem i formuläret snabbregistrering](media/RM-how-to-2.png)
+![Lägga till en teammedlem i formuläret snabbregistrering.](media/RM-how-to-2.png)
 
 
 Du kan nu tilldela den bokade resursen till aktiviteter i projektet. PÅ sidan **projekt** klickar du på fliken **schema** för att tilldela uppgifter till den nya resursen. Resursväljaren som startas från fältet **resurser** i uppgiftsrutnätet visar de team medlemmar som du kan välja.
 
-![Tilldela en teammedlem till en uppgift på fliken schema](media/RM-how-to-3.png)
+![Tilldela en teammedlem till en uppgift på fliken schema.](media/RM-how-to-3.png)
 
 I version 3 av Project Service Automation (PSA), är inte resursbokningar och uppgiftstilldelningar tätt kopplade. Det innebär att när du använder resursväljaren i schemat kan du tilldela uppgifter till teammedlemmar så att de blir fler timmar än de som ingår i projektet.
 Du kan se skillnaderna mellan bokningar av teammedlemmar och tilldelningar på fliken **Team** eller på fliken **resursavstämningar**. Du kan även stämma av skillnaderna mellan bokningar och tilldelningar för resurser på en mer detaljerad nivå.
 
-![Fliken Resursavstämning](media/RM-how-to-4.png)
+![Fliken Resursavstämning.](media/RM-how-to-4.png)
 
 Du kan även använda resursväljaren på fliken **schema** om du vill söka efter och välja bokningsbara resurser som inte redan ingår i projektteamet. De visas i resursväljaren som **andra resurser**.
 
-![Tilldela en uppgift till en icke-teammedlemresurs](media/RM-how-to-5.png)
+![Tilldela en icke-teammedlemresurs en uppgift.](media/RM-how-to-5.png)
 
 När du gör detta läggs resursen till i projektteamet och tilldelas uppgiften, men inga bokningar skapas.
 
-![Teammedlem med tilldelningar och inga bokningar](media/RM-how-to-6.png)
+![Teammedlem med tilldelningar och inga bokningar.](media/RM-how-to-6.png)
 
 Du kan använda den utökade bokningsfunktionen på fliken **avstämning** eller **Schemaläggningstavla** för att boka resursens kapacitet på projektet.
 
-![Utöka bokningar för en teammedlem på fliken resursavstämning](media/RM-how-to-7.png)
+![Utöka bokningar för en teammedlem på fliken resursavstämning.](media/RM-how-to-7.png)
 
 När en teammedlem är bokad i projektet kan du använda underhåll bokningar eller använda schemaläggningstavlan direkt för att hantera deras bokningar.
 

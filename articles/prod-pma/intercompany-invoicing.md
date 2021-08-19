@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995828"
 ---
 # <a name="intercompany-invoicing"></a>Koncernintern fakturering
 
@@ -33,7 +33,7 @@ Organisationen kan ha flera avdelningar, dotterbolag och andra juridiska enheter
 
 Följande illustration visar ett typiskt scenario där två juridiska enheter, SI FR (den låntagande juridiska personen) och SI USA (den långivande juridiska personen) delar resurser för att leverera ett projekt för kund A. I det här scenariot kontrakteras SI FR för att leverera arbetet till kund A. 
 
-[![Exempel koncernintern fakturering](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exempel koncernintern fakturering.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Målet är att göra kostnadskontrollen, intäktsredovisning, moms och överföringspris för koncerninterna projekttransaktioner mer flexibla och kraftfullt. Dessutom tillhandahålls följande funktioner:
 

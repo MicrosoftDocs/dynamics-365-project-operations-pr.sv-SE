@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368903"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998483"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startsida för prissättnings- och kostnadsdimensioner
 
@@ -41,7 +41,7 @@ Med tanke på att de olika attrubuten av arbete och de personer som krävs för 
 
 PSA levererar en standarduppsättning med prisdimensioner. Du kan visa dessa genom att gå till **Project Service** > **parametrar**. I parameterposten, på fliken **Beloppsbaserad prissättningsdimension** ska du kontrollera att rollen **msdyn_resourcecategory** och resursorganisationsenheten **msdyn_organizationalunit** har fälten **Gäller för försäljning** och **Gäller för kostnad** inställd på **Ja**. På så sätt kan du ange pris och kostnad för varje kombination av roll och organisationsenheter.
 
-![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad](media/PS-OOB-parameters.png)
+![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Om du har använt de här fälten som roll- och organisationsenhet som prissättningsdimensioner före version 3 av PSA-versionen kommer det inte att finnas någon observerbar förändring. Du kan fortsätta att använda Project Service som vanligt. 

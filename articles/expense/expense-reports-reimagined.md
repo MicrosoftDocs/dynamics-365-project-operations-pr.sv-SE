@@ -2,7 +2,7 @@
 title: Ny typ av utgiftsrapporter
 description: Detta ämne beskriver den omdesignade och nya upplevelsen för posten i utgiftsrapporten.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251026"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997853"
 ---
 # <a name="expense-reports-reimagined"></a>Ny typ av utgiftsrapporter
 
@@ -57,12 +57,13 @@ För att aktivera den nya upplevelsen, använd arbetsytan **Funktionshantering**
 | Kalkylator av valutakurs | En kalkylator av valutakurs läggs till, som gör att du kan beräkna valutakursen för transaktioner i flera valutor. |
 | Spara och lägg till nya utgiftsrader | Knapparna **Spara** och **Ny** är tillgängliga när nya utgifter läggs till för att göra det enklare för dig att snabbt lägga till utgiftsrader. |
 | Bättre insyn i delade och specificerade rader | Specificerade och uppdelade rader läggs till direkt i listan över utgifter för att öka synligheten och hjälpa dig att enkelt avgöra om det finns några fel. |
-| Visa underkategoriinformation på objekterade rader | I detaljerade rader för en överordnad kostnad visas underkategorietiketterna i utgiftsrapporten, så att du enkelt kan granska den detaljerade informationen.|
+| Visa underkategoriinformation på objekterade rader | I specificerade rader för en överordnad kostnad visas underkategorietiketterna i utgiftsrapporten. Med hjälp av specifikation kan du få en översikt över den detaljerade informationen.|
 | Visa kvitton under specifikation | Kvitton kan visas under specifikation. |
 | Val av förskott | Välj en eller flera förskott som ska uppfylla en enda utgiftstransaktion. |
 | Saldo av förskott | Granska förskottssaldot i realtid när du skapar en utgiftspost mot godkända och betalda förskott. |
 
 Den första versionen är inriktad på scenarier för utgiftsposter. Scenarier med granskning eller godkännande av utgiftsrapporter fortsätter att använda den befintliga sidan för utgiftsposter.
+
 
 Följande funktioner stöds inte på arbetsytan för utgiftsrapporter, men är planerade för framtida versioner: 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998028"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996863"
 ---
 # <a name="fulfilling-resource-requests"></a>Uppfylla resursförfrågningar
 
@@ -33,15 +33,15 @@ Resurskrav kan skickas som resursförfrågningar till den resursansvarige som an
 
 Resursförfrågningar visas som en lista i vyn **Aktiva resursförfrågningar**.
 
-> ![Lista resursförfrågningar](media/Resource-Management-image59.png)
+> ![Lista resursförfrågningar.](media/Resource-Management-image59.png)
 
 Om du vill slutföra en förfrågan markerar du den i listan och väljer **hitta resurser**. Alternativt kan du dubbelklicka på en rad för att öppna begäran. Därefter kan du välja fliken **Resurskrav** för att visa kraven för förfrågan. Du börjar med att slutföra förfrågan genom att välja **Sökresurser**.
 
-> ![Information om resurskrav](media/Resource-Management-image60.png)
+> ![Information om resurskrav.](media/Resource-Management-image60.png)
 
 Schemaassistenten visas och filtreras efter kraven. Välj resursen och sedan **Boka**.
 
-> ![Vald resurs](media/Resource-Management-image61.png)
+> ![Vald resurs.](media/Resource-Management-image61.png)
 
 Den allmänna teammedlemmen ersätts med den resurs som har beteckningen projektteam i projektgruppen och aktivitetstilldelningarna i projektschemat.
 
