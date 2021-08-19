@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993308"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Använda demoinställning och konfigurationsdata Project Operations - Lite 
 
@@ -30,24 +30,24 @@ Innan du påbörjar konfigurationen måste du ha installerat en Common Data Serv
 2. Navigera till mappen *ProjOpsSampleSetupData – CE endast CMT* och kör den körbara filen *DataMigrationUtility*.
 3. På sidan 1 i guiden Common Data Service Configuration Migration (CMT) väljer du **Importera data** och sedan **Fortsätt**.
 
-    ![Configuration Migration](./media/1ConfigurationMigration.png)
+    ![Konfigurationsmigrering.](./media/1ConfigurationMigration.png)
 
 4. På sidan 2 i guiden CMT väljer du **Microsoft 365** som **Distributionstyp**.
 5. Markera kryssrutorna **Visa en lista över tillgängliga organisationer** och **Visa avancerat**.
 6. Välj region för klientorganisationen, ange autentiseringsuppgifter och välj sedan **Logga in**.
 
-   ![Konfigurationsinloggning](./media/2ConfigurationSignin.png)
+   ![Konfigurationsinloggning.](./media/2ConfigurationSignin.png)
 
 7. På sidan 3 väljer du den organisation som du vill importera demodata till i listan över organisationer i klientorganisationen och väljer sedan **Logga in**.
 8. På sidan 4 väljer du zip-filen *SampleSetupAndConfigData* från den uppackade mappen *ProjOpsSampleSetupData - CE endast CMT*.
 
-   ![ZIP-fil](./media/3ZipFile.png)
+   ![ZIP-fil.](./media/3ZipFile.png)
 
-   ![Välj en fil](./media/4SelectAFile.png)
+   ![Välj en fil.](./media/4SelectAFile.png)
 
 9. När du har markerat zip-filen väljer du **Importera data**.
 
-   ![Importera data](./media/5ImportData.png)
+   ![Importera data.](./media/5ImportData.png)
 
 10. Importen körs i ungefär två–tio minuter beroende på nätverkets hastighet. När den är klar stänger du guiden för CMT. 
 11. Kontrollera om organisationen har data i följande 18 entiteter:
@@ -71,7 +71,7 @@ Innan du påbörjar konfigurationen måste du ha installerat en Common Data Serv
     -   Association för bokningsbar resurskategori
     -   Egenskap för bokningsbar resurs
 
-    ![Slutför import](./media/6CompleteImport.png)
+    ![Slutför import.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

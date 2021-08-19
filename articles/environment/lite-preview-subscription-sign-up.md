@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334804"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991553"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrera dig för förhandsversionsprenumeration 
 
@@ -52,16 +52,16 @@ Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med anv
 
 1. Tillhandahåll en ny distributionsmiljö för Project Operations Dataverse-distribution genom att följa anvisningarna i ämnet [Dataverse-distributionsmodell](lite-deployment.md). När du väljer miljötyp ska du se till att använda **Utvärdering (prenumerationsbaserad)**.
 
-  ![Ny miljö](./media/19CreateEnvironment.png)
+  ![Ny miljö.](./media/19CreateEnvironment.png)
 
 2. Välj inställningen **Aktivera Dynamics 365-appar** och låt **Distribuera dessa appar automatiskt** vara tomt.  
 3. Välj **Spara** för att skapa miljön.
 
-  ![Lägg till databas](./media/20CreateEnvironment1.png)
+  ![Lägg till databas.](./media/20CreateEnvironment1.png)
 
 4. När miljön har skapats installerar du **Microsoft Dynamics 365 Project Operations**-lösningen. 
 
-![Installera lösning](./media/21InstallSolution.png)
+![Installera lösning.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installera en CDS-konfiguration och konfigurera demodata
 

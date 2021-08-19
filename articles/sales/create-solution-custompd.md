@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010358"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992228"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Skapa en lösning för anpassade prissättningsdimensioner
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010358"
 2.  Namnge lösningen *<your organization name>-prissättningsdimensioner*.
 3. Ange återstående information som krävs och klicka sedan på **Spara**.
 
-  ![Skapa en anpassad lösning för prissättningsdimension](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Skapa en anpassad lösning för prissättningsdimension.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Lägg till alla obligatoriska entiteter och relaterade komponenter i prisdimensionslösningen
 
@@ -49,19 +49,19 @@ Lägg till följande Project Service-entiteter i din prissättningslösning för
    - **Pris för roll**
    - **Tidspost**
  
-   ![Lägg till lösning för anpassade prissättningsdimensioner](./media/Existing-entities-to-PD-solution.png)
+   ![Lägg till lösning för anpassade prissättningsdimensioner.](./media/Existing-entities-to-PD-solution.png)
  
  4. För varje entitet granskar du de komponenter som läggs till och den slutliga listan över entitetstillgångar för respektive entitet. 
 
    >[!NOTE]
    > Inkludera alla formulär och vyer för samtliga valda entiteter.
 
-  ![Tillagda entiteter](./media/solution-component-selection.png)
+  ![Tillagda entiteter.](./media/solution-component-selection.png)
 
 
 5.  När du uppmanas att inkludera eventuella beroende entiteter för de valda entiteterna väljer du **Nej, inkludera inte nödvändiga komponenter.**
 
-    ![Inkludera beroende enheter](./media/Do-not-include-required.png)
+    ![Inkludera beroende entiteter.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007523"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990822"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Hitta nästa projekt med Project Finder Mobile-appen (Project Service)
 
@@ -38,12 +38,12 @@ Med Project Finder Mobile-appen på din [!INCLUDE[tn_iphone](../includes/tn-ipho
   
  Tryck på pilen till höger om det projekt som du är intresserad av att se mer information om och registrera dig.  
   
- ![Lista över projekt som matchar kunskaper i appen Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Lista över projekt som matchar kunskaper i appen Project Finder Mobile")  
+ ![Lista över projekt som matchar kunskaper i appen Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista över projekt som matchar kunskaper i appen Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Uppdatera dina färdigheter  
  Tryck på profilknappen längst ner till höger på skärmen om du vill uppdatera dina kunskaps- och färdighetsnivåer.  
   
- ![Profilknappen i appen Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Profilknappen i appen Project Finder Mobile")  
+ ![Profilknappen i appen Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Profilknappen i appen Project Finder Mobile")  
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)

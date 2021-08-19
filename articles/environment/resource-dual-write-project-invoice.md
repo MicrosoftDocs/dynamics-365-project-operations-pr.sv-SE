@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996588"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993263"
 ---
 # <a name="project-invoice-integration"></a>Projektfaktura-integration
 
@@ -20,7 +20,7 @@ ms.locfileid: "5996588"
 
 I Project Operations hanterar projektansvarig eftersläpande projektfakturering och skapar en proformafaktura för kunden i Microsoft Dataverse. Baserat på proformafakturan skapar ansvarig för kundreskontra eller projektredovisaren en faktura för kund. Integrering med dubbelriktad skrivning säkerställer att proformafakturainformation synkroniseras med Finance and Operations-appar. När fakturan för kund har registrerats uppdaterar systemet relevanta projekts faktiska värden i Dataverse med redovisningsinformationen. Följande bild ger en översikt på hög nivå över integrationen.
 
-   ![Projektfaktura-integration](./media/DW5Invoicing.png)
+   ![Projektfakturaintegration.](./media/DW5Invoicing.png)
 
 När projektansvarig bekräftar proformafakturan i Dataverse synkroniseras proformafakturarubrikens information med Finance and Operations-apparna med tabellmappning med dubbelriktad skrivning, **Projektfakturaförslag V2 (invoices)**. Det här är en enkelriktad integration från Dataverse till Finance and Operations-appar. Det finns inte stöd för att skapa eller radera projektfakturaförslag direkt i Finance and Operations-appar.
 
