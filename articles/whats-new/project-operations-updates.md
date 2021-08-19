@@ -2,17 +2,17 @@
 title: Uppdateringar av Project Operations
 description: I det här ämnet finns information om släppta versioner av Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433585"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024805"
 ---
 # <a name="project-operations-updates"></a>Uppdateringar av Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations består av två komponenter:
 
 | Project Operations i Dataverse-miljö | Projektledning och redovisning i Finance and Operations-appmiljöer | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 För Project Operations Resource/icke lagerbaserade scenarier rekommenderar vi att du använder orkestrering för dubbelriktad skrivning och 2.2.2.83 eller senare.
 
@@ -45,27 +45,29 @@ För Project Operations Resource/icke lagerbaserade scenarier rekommenderar vi a
 Uppdateringar för Project Operations i Dataverse-miljö är tillgängliga varje månad. 
 
 | Station | Region | Aktuellt versionsnummer | Automatiska uppdateringar för Lite-distribution | Automatiska uppdateringar för distribution av resurser/icke-lager | Nästa versionsnummer | Nästa version är vanligtvis tillgänglig |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Första utgivning         |  4.12.0.148     | Slutför     | 09-juli-21          | TBD                 | 06-augusti-21        |
-| Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sydamerika         |  4.12.0.148     | 09-juli-21   | 16-juli-21          | TBD                 | 06-augusti-21        |
-|    &nbsp; | Kanada                |  4.12.0.148     | 09-juli-21   | 16-juli-21          | TBD                 | 06-augusti-21        |
-|   &nbsp;  | Indien                 |  4.12.0.148     | 09-juli-21   | 16-juli-21          | TBD                 | 06-augusti-21        |
-|   &nbsp;  | Frankrike                |  4.12.0.148     | 09-juli-21   | 16-juli-21          | TBD                 | 06-augusti-21        |
-|   &nbsp;  | Förenade Arabemiraten  |  4.12.0.148     | 09-juli-21   | 16-juli-21          | TBD                 | 06-augusti-21        |
-|   &nbsp;  | Sydafrika          |  4.12.0.148     | 09-juli-21   | 16-juli-21          | TBD                 | 06-augusti-21        |
-| Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.11.0.164     | Slutför     | Slutför            | 4.12.0.148          | 09-juli-21          |
-|   &nbsp;  | Asien och stillahavsområdet          |  4.11.0.164     | Slutför     | Slutför            | 4.12.0.148          | 09-juli-21          |
-|   &nbsp;  | Storbritannien         |  4.11.0.164     | Slutför     | Slutför            | 4.12.0.148          | 09-juli-21          |
-|   &nbsp;  | Oceanien               |  4.11.0.164     | Slutför     | Slutför            | 4.12.0.148          | 09-juli-21          |
-| Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.11.0.164     | Slutför     | Slutför            | 4.12.0.148          | 16-juli-21          |
-| Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.11.0.164     | Slutför     | 09-juli-21          | 4.12.0.148          | 23-juli-21          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Första utgivning         |  4.13.0.152     | Slutför           | 13 augusti 2021     | TBD                 | 27 augusti 2021     |
+| Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Sydamerika         |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+|    &nbsp; | Kanada                |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+|   &nbsp;  | Indien                 |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+|   &nbsp;  | Frankrike                |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+|   &nbsp;  | Förenade Arabemiraten  |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+|   &nbsp;  | Sydafrika          |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+| Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japan                 |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
+|   &nbsp;  | Asien och stillahavsområdet          |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
+|   &nbsp;  | Storbritannien         |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
+|   &nbsp;  | Oceanien               |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
+| Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.12.0.152     | Slutför           | Slutför            | 4.13.0.152          | 20 augusti 2021     |
+| Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Nordamerika         |  4.12.0.152     | 13 augusti 2021    | 20 augusti 2021     | 4.13.0.152          | 27 augusti 2021     |
 
 
+> [!NOTE]
+> Den automatiska distributionen har slutförts för 4.12.0.148. Ingen automatisk distribution planeras för den uppdaterade versionen av versionen juli 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Utgivningsplan för projektledning och redovisning i Finance and Operations-appmiljön
 
@@ -73,16 +75,16 @@ Uppdateringar för projektledning och redovisning publiceras åtta gånger per �
 
 |          Version som stöds          | Tillgänglighet i förhandsversion (PEAP) | Allmänt tillgänglig (automatisk uppdatering) | Startdatum för schema för automatisk uppdatering (via LCS-uppdateringsinställningar) |   Slut på tjänsten   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         28 maj 2021        |           16 juli 2021           |                             30 juli 2021                             |  22 oktober 2021  |
 |          10.0.19          |        23 april 2021       |            18 juni 2021           |                             2 juli 2021                             | 17 september 2021 |
-|          10.0.18          |        5 mars 2021        |           16 april 2021          |                            30 april 2021                            |    16 juli 2021   |
+
 
 
 Målinriktade utgivningsdatum kan ändras. Mer information finns i [Tjänstuppdatering tillgänglig](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Målversion          | Tillgänglighet i förhandsversion (PEAP) | Allmänt tillgänglig (automatisk uppdatering) | Startdatum för schema för automatisk uppdatering (via LCS-uppdateringsinställningar) |   Slut på tjänsten   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28 maj 2021        |           16 juli 2021           |                             30 juli 2021                             |  22 oktober 2021  |
 |          10.0.21          |         02 augusti 2021     |           17 september 2021      |                             1 oktober 2021                           |  10 december 2021  |
-
+|          10.0.22          |      3 september 2021      |          22 oktober 2021         |                           5 november 2021                           |  14 januari 2022  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
