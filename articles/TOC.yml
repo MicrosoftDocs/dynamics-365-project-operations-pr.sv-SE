@@ -1,9 +1,11 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Kom i gång
+- name: Kom igång
   items:
     - name: Fastställ din distributionstyp
       href: environment/determine-deployment-type.md
+    - name: Registrera dig för utvärderingsversion av Project Operations
+      href: environment/admin-trials.md
     - name: Uppdateringar av Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: Augusti 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juni 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -418,6 +422,8 @@
       items:
         - name: Godkännanden – Översikt
           href: approvals/approvals-overview.md
+        - name: Godkännandeuppsättningar
+          href: approvals/approval-sets.md
         - name: Anteckningar från utvecklare
           items:
             - name: Utvecklingsanteckningar för godkännanden
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
+        - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Vad är nytt i augusti 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Vad är nytt i juli 2021 – Lite-distribution
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Vad är nytt i juni 2021 – Lite-distribution
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Hantering av underkontrakt i Project Operations
       items:
-        - name: Hantera underkontrakt – Översikt
+        - name: Hantering av underkontrakt i Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Underkontraktering i oktober 2021 – Tidig åtkomst
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Viktiga begrepp för underkontrakt
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Hantera leverantörer och projektprislistor
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Underleverantörer som bokningsbara resurser
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Rubrikinformation för underkontrakt
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underkontraktrader för tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underkontraktrader för utgift
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underkontraktrader för produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Underkontraktradresurser
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milstolpar för underkontraktrad
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Tid
       items:
         - name: Tid – Översikt
@@ -868,6 +892,8 @@
       items:
         - name: Godkännanden – Översikt
           href: approvals/approvals-overview.md
+        - name: Godkännandeuppsättningar
+          href: approvals/approval-sets.md
         - name: Anteckningar från utvecklare
           items:
             - name: Utvecklingsanteckningar för godkännanden
@@ -1060,6 +1086,8 @@
       items:
         - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Anpassa tidsposter för vecka
               href: psa/time-entry-extensibility-v3.md
-            - name: Godkännandeuppsättningar
+            - name: Godkännandeuppsättningar i Project Service Automation
               href: psa/approval-set.md
     - name: Vanliga frågor och svar och felsökning (3.x)
       items:
