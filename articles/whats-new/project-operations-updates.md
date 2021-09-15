@@ -7,16 +7,16 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024805"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474535"
 ---
 # <a name="project-operations-updates"></a>Uppdateringar av Project Operations
 
-_**Gäller till:** Project Operations för resursscenarier/icke lagerbaserade scenarier, Lite-distribution - avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_
+_**Gäller till:** Project Operations för resursscenarier/icke lagerbaserade scenarier, Lite-distribution – avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations består av två komponenter:
 - Projektledning och redovisning i Dynamics 365 Finance-miljön behandlar hanteringsfunktioner för utgifter, projektredovisning och intäktsredovisning. Finance and Operations-appmiljön används i Project Operations för resursscenarier/icke lagerbaserade scenarier och Project Operations för lagerbaserade/produktionsbaserade scenarier.
 
 ## <a name="project-operations-release-notes"></a>Viktig information om Project Operations
-- Den senaste viktig informationen om Project Operations för [Resursbaserade/icke-lagerbaserade](whats-new-july-2021-resource-based.md) scenarier.
-- Den senaste viktig informationen om Project Operations för [Lite-distribution](../pro/whats-new/whats-new-july-2021-lite.md) scenarier.
+- Den senaste viktig informationen om Project Operations för [Resursbaserade/icke-lagerbaserade](whats-new-august-2021-resource-based.md) scenarier.
+- Den senaste viktig informationen om Project Operations för [Lite-distribution](../pro/whats-new/whats-new-august-2021-lite.md) scenarier.
 - Den senaste viktig informationen om Project Operations för [lagerbaserade/produktionsbaserade](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenarier.
 
 ## <a name="project-operations-latest-version"></a>Project Operations senaste version
 
 | Project Operations i Dataverse-miljö | Projektledning och redovisning i Finance and Operations-appmiljöer | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 För Project Operations Resource/icke lagerbaserade scenarier rekommenderar vi att du använder orkestrering för dubbelriktad skrivning och 2.2.2.83 eller senare.
 
@@ -47,27 +47,24 @@ Uppdateringar för Project Operations i Dataverse-miljö är tillgängliga varje
 | Station | Region | Aktuellt versionsnummer | Automatiska uppdateringar för Lite-distribution | Automatiska uppdateringar för distribution av resurser/icke-lager | Nästa versionsnummer | Nästa version är vanligtvis tillgänglig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Första utgivning         |  4.13.0.152     | Slutför           | 13 augusti 2021     | TBD                 | 27 augusti 2021     |
+|   &nbsp;  | Första utgivning         |  4.14.0.99      | Slutför           | 10 september 2021  | TBD                 | 01 oktober 2021    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sydamerika         |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
-|   &nbsp;  | Indien                 |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
-|   &nbsp;  | Frankrike                |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
-|   &nbsp;  | Förenade Arabemiraten  |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
-|   &nbsp;  | Sydafrika          |  4.13.0.152     | 13 augusti 2021    | 20 augusti 2021     | TBD                 | 27 augusti 2021     |
+|   &nbsp;  | Sydamerika         |  4.14.0.152     | 10 september 2021 | 17 september 2021  | TBD                 | 01 oktober 2021    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 10 september 2021 | 17 september 2021  | TBD                 | 01 oktober 2021    |
+|   &nbsp;  | Indien                 |  4.14.0.152     | 10 september 2021 | 17 september 2021  | TBD                 | 01 oktober 2021    |
+|   &nbsp;  | Frankrike                |  4.14.0.152     | 10 september 2021 | 17 september 2021  | TBD                 | 01 oktober 2021    |
+|   &nbsp;  | Förenade Arabemiraten  |  4.14.0.152     | 10 september 2021 | 17 september 2021  | TBD                 | 01 oktober 2021    |
+|   &nbsp;  | Sydafrika          |  4.14.0.152     | 10 september 2021 | 17 september 2021  | TBD                 | 01 oktober 2021    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
-|   &nbsp;  | Asien och stillahavsområdet          |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
-|   &nbsp;  | Storbritannien         |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
-|   &nbsp;  | Oceanien               |  4.12.0.152     | Slutfört*          | Slutför            | 4.13.0.152          | 13 augusti 2021     |
+|   &nbsp;  | Japan                 |  4.13.0.152     | Slutför           | Slutför            | 4.14.0.152          | 10 september 2021  |
+|   &nbsp;  | Asien och stillahavsområdet          |  4.13.0.152     | Slutför           | Slutför            | 4.14.0.152          | 10 september 2021  |
+|   &nbsp;  | Storbritannien         |  4.13.0.152     | Slutför           | Slutför            | 4.14.0.152          | 10 september 2021  |
+|   &nbsp;  | Oceanien               |  4.13.0.152     | Slutför           | Slutför            | 4.14.0.152          | 10 september 2021  |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Slutför           | Slutför            | 4.13.0.152          | 20 augusti 2021     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Slutför           | 03 september 2021  | 4.14.0.152          | 17 september 2021  |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.12.0.152     | 13 augusti 2021    | 20 augusti 2021     | 4.13.0.152          | 27 augusti 2021     |
+|   &nbsp;  | Nordamerika         |  4.13.0.152     | 03 september 2021 | 10 september 2021  | 4.14.0.152          | 24 september 2021  |
 
-
-> [!NOTE]
-> Den automatiska distributionen har slutförts för 4.12.0.148. Ingen automatisk distribution planeras för den uppdaterade versionen av versionen juli 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Utgivningsplan för projektledning och redovisning i Finance and Operations-appmiljön
 
