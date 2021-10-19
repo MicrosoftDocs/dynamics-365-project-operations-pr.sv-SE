@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nyheter
       items:
+        - name: Oktober 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Augusti 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -292,7 +296,7 @@
           items:
             - name: Ta fram projektmallar med Kopiera projekt
               href: project-management/dev-copy-project.md
-            - name: 'Använda projektschema-API:er (allmänt tillgänglig förhandsversion)'
+            - name: 'Använda API:er för projektscheman'
               href: project-management/schedule-api-preview.md
     - name: Resurshantering
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Anskaffa icke lagerfört material för projekt med hjälp av väntande leverantörsfakturor
           href: procurement/pending-vendor-invoices.md
+        - name: Beställa ej lagerfört material för projekt som använder projektinköpsorder
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Kvarhållning av leverantörer
+          items:
+            - name: Översikt över kvarhållning av leverantörer
+              href: procurement/vendor-retention-overview.md
+            - name: Ställa kvarhållning av leverantörer
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturering
       items:
         - name: Översikt av faktureringsprocess
@@ -528,6 +540,10 @@
       items:
         - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Vad är nytt i oktober 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Vad är nytt i september 2021 – Lite-distribution
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Vad är nytt i augusti 2021 – Lite-distribution
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Vad är nytt i juli 2021 – Lite-distribution
@@ -784,7 +800,7 @@
           items:
             - name: Ta fram projektmallar med Kopiera projekt
               href: project-management/dev-copy-project.md
-            - name: 'Använda projektschema-API:er (allmänt tillgänglig förhandsversion)'
+            - name: 'Använda API:er för projektscheman'
               href: project-management/schedule-api-preview.md
     - name: Resurshantering
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Underkontraktrader för tid
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Underkontraktrader för utgift
+        - name: Underkontraktrader för utgiftskategorier
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Underkontraktrader för produkter
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 34, V3'
