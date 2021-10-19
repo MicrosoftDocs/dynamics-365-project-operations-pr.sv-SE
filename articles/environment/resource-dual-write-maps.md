@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003838"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547131"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations mappningsversioner för dubbelriktad skrivning
 
@@ -49,8 +49,8 @@ Följande mappningar krävs för en Project Operations-lösning. Mappningsversio
 | Project Operations integrationstabell för materialberäkningar (msdyn\_estimatelines) | 1.0.0.0 | Krävs inte för etablering. |
 | Projektfakturaförslag V2 (invoices) | 1.0.0.3 | Krävs inte för etablering. |
 | Faktiska värden för Project Operations-integration (msdyn_actuals) | 1.0.0.14 | Krävs inte för etablering. |
-| Milstolpar för kontraktrad för Project Operations-integration (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Krävs inte för etablering. |
-| Entitet för Project Operations-integration för utgiftsuppskattningar (msdyn_estimateslines) | 1.0.0.2 | Krävs inte för etablering. |
+| Project Operations-integrering för milstolpar för kontraktrad (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Krävs inte för etablering. |
+| Entitet för Project Operations-integrering för utgiftsberäkningar (msdyn_estimatelines) | 1.0.0.2 | Krävs inte för etablering. |
 | Entitet för Project Operations-integration för tidsuppskattningar (msdyn_resourceassignments) | 1.0.0.5 | Krävs inte för etablering. |
 | Project Operations-integration för entitet för export av projektleverantörsfaktura (msdyn_expensecategories) | 1.0.0.1 | Krävs inte för etablering. |
 | Entitet för export av projektutgifter i Project Operations-integration (msdyn_expenses) | 1.0.0.2 | Krävs inte för etablering. |

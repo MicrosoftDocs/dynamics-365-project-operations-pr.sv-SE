@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323798"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558524"
 ---
 # <a name="subcontract-line-milestones"></a>Milstolpar för underavtalsrad
 
@@ -50,15 +50,15 @@ Milstolpar med fast pris på en underavtalsrad kan skapas manuellt när de inte 
 3. På fliken **Milstolpar för underavtalsrad** i underrutnätet väljer du **+ Ny milstolpe för underavtalsrad**.
 4. På sidan **Ny milstolpe för underavtalsrad** anger du erforderlig information baserat på följande tabell.
 
-    | Fält | Beskrivning |
-    | --- | --- |
-    | Milstolpens namn | Namnet på milstolpen. |
-    | Beskrivning | En beskrivning av milstolpen.  |
-    | Milstolpens datum | Datumet när processen för automatisk fakturagenerering ska söka efter statusen för denna milstolpen i syfte att överväga den för fakturering. Detta värde tas med på leverantörens fakturarad vid fakturering för denna underleverantör. |
-    | Antal | Beloppet eller värdet för den milstolpe som ska faktureras kunden. Detta värde tas med på leverantörens fakturarad vid fakturering för denna underleverantör. |
-    | Moms | Momsbeloppet som används på milstolpen. Detta värde tas med på leverantörens fakturarad vid fakturering för denna underleverantör. |
-    | Belopp efter skatt | Detta skrivskyddade fält som beräknas som Belopp + Moms. Detta värde tas med på leverantörens fakturarad vid fakturering för denna underleverantör. |
-    | Fakturastatus | När milstolpen skapas anges denna status alltid som **Inte redo att faktureras**.  När statusen är **Klar att fakturera** inkluderar skapandet av leverantörsfakturan denna milstolpe på leverantörsfakturan. |
+    | Fält | Beskrivning |Funktionellt påverkan|
+    | --- | --- |----------------------|
+    | Milstolpens namn | Namnet på milstolpen. |Detta visas som den första kolumnen i alla uppslag baserat på underkontraktradens milstolpe. Den leverantörsfakturarad som skapas utifrån den här milstolpen använder också namnet på underkontraktradens milstolpe som standardnamn för leverantörens fakturarad.|
+    | Beskrivning | En beskrivning av milstolpen. |Den leverantörsfakturarad som skapas utifrån den här milstolpen använder också beskrivningen på underkontraktradens milstolpe som standardbeskrivning för leverantörens fakturarad.|
+    | Milstolpens datum | Datumet när processen för automatisk fakturagenerering ska söka efter statusen för denna milstolpen i syfte att överväga den för fakturering.| Värdet används som standarddatum för leverantörsfakturaraden vid fakturering för den här underkontraktraden. |
+    | Antal | Beloppet eller värdet för den milstolpe som ska faktureras kunden. |Värdet används som standardbelopp på leverantörsfakturaraden vid fakturering för den här underkontraktraden. |
+    | Moms | Momsbeloppet som används på milstolpen.| Värdet används som standardmomsbelopp på leverantörsfakturaraden vid fakturering för den här underkontraktraden. |
+    | Belopp efter skatt | Det här skrivskyddade fältet beräknas som Belopp + Moms.|Värdet används som standard på leverantörsfakturaraden vid fakturering för den här underkontraktraden. |
+    | Fakturastatus | När milstolpen skapas anges denna status alltid som **Inte redo att faktureras**.|  När statusen är **Klar att fakturera** inkluderar skapandet av leverantörsfakturan denna milstolpe på leverantörsfakturan. |
 
 5. Välj **Spara och stäng**.
 

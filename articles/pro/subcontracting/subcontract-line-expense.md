@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323843"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506121"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Underavtalsrader för utgiftskategorier
 
@@ -29,23 +29,23 @@ Följ dessa steg för att skapa en underavtalsrad för utgiftskategorier i Proje
 
 Följande tabell innehåller information om fälten på detaljsidan **Underavtalsrad** och sidan **Snabbregistrering**.
 
-| **Fält** |  **Beskrivning** |
-| ----------| ---------------- |
-| Namn | Namn på underavtalsraden. |
-| Beskrivning | En kort beskrivning av de tjänste- eller produktkategorier som köps på underavtalsraden. |
-| Radtyp | Detta fält har standardvärdet **Kvantitetsbaserad**.  |
-| Faktureringsmetod | Faktureringsmetod för underavtalsraden. Utifrån radens faktureringsmetod är ett milstolpebaserat fakturaschema tillgängligt för faktureringsmetoden med fast pris.  |
-| Transaktionsklass | Detta fält har standardvärdet **Tid**. Om du vill skapa underavtalsrader för inköp av produkter anger du fältet **Transaktionsklass** som **Utgift**. Detta fältvärde anger att underavtalsraden används för att registrera ett köp av en produkt- eller tjänstekategorier som ska användas för projekt. |
-| Transaktionskategori | Välj transaktionskategorin. |
-| Begärd start | Det datum då inköpskategorierna måste vara tillgängliga från leverantören. Den begärda starten används för att välja en projektprislista från de projektprislistor som bifogas underavtalet. Kostnaden för kategorin på underleverantörsraden kommer från den prislistan. |
-| Begärt slut | Det datum då inköpskategorierna inte längre behövs. Detta datum avger en varning när en projektledare associerar denna underavtalsrad med specifika utgiftsprognoser för de projekt som är daterade efter detta datum. |
-| Beställd kvantitet | Kvantiteten för den kategori som köps från leverantören. Om en projektledare tar ut för mycket av den inköpta kvantiteten visas en varning.  |
-| Enhetsgrupp | Detta fältvärde baseras på den standardenhetsgrupp som har ställts in för den valda kategorin. |
-| Enhet | Detta fältvärde återfår sitt standardvärde baserat på den standardenhetskonfiguration som har ställts in för den valda kategorin. Kombinationen av kategori och enhet används för att återställa enhetspriset för underavtalsraden till dess standardvärde. |
-| Enhetspris | Fältvärdet för enhetspris återgår till standardvärdet genom att använda kombinationen av kategori och enhet från de kategoripriser som relaterar till den projektprislista som gäller för begärd start för underavtalsraden.  |
-| Delsumma | Detta skrivskyddade fält beräknas automatiskt som kvantitetens enhetspris om värden för såväl kvantitets- som enhetspris anges. Om någotdera eller båda fält är tomma kan du ange ett värde manuellt i detta fält.  |
-| Moms | Ange momsbeloppet.  |
-| Totalbelopp | Totalbelopp för underavtalsraden inklusive moms. Detta fält beräknas som delsumma + moms.  |
+| **Fält** | **Beskrivning** | **Funktionellt påverkan** |
+| --- | --- | --- |
+| Namn | Namn på underleverantörsraden för identifiering. | Detta visas som den första kolumnen i alla uppslag baserat på underkonsekvensrader. |
+| Beskrivning | En kort beskrivning av de utgiftskategorier som köps på underleverantörsraden. | Nej |
+|Linjetyp | Detta fält har standardvärdet **Kvantitetsbaserad**. |Nej |
+| Faktureringsmetod | Detta är en tillvalssats som representerar de två huvudentreprenadmodeller som stöds av Project Operations: **Fast pris** och **Tid och material**. | Ett milstolpebaserat fakturaschema görs tillgängligt för underleverantörsrader om faktureringsmetoden Fast pris har valts. |
+| Transaktionsklass | Detta fält har standardvärdet **Tid**. Om du vill skapa underavtalsrader för inköp av produkter anger du fältet **Transaktionsklass** som **Utgift**.  | Detta indikerar att underleverantörsraden används för att registrera inköp av en kategoriutgifter som ska användas för projekt. |
+| Transaktionskategori | Visar en lista med aktiva transaktionskategorier i systemet. |Nej |
+| Begärd start | Ange det datum då kategorierna för inköp måste vara tillgängliga från leverantören. | Begärd start används för att välja en projektprislista från de projektprislistor som är kopplade till underleverantörslistan. Kostnaden för kategorin på underleverantörsraden kommer från den prislistan. |
+| Begärt slut | Ange det datum då köpkategorierna inte längre behövs. | Används för att visa varningar när en projektledare associerar denna underleverantör till specifika utgifter för det projekt som krävs efter detta datum. |
+| Beställd kvantitet | Kvantitet för den kategori som köps från leverantören. | Detta används för att visa varningar när en projektledare förser med för mycket information från den här kvantiteten.|
+| Enhetsgrupp | Standardvärdet baseras på den standardenhetsgrupp som har ställts in för den valda kategorin. |Nej |
+| Enhet | Standarden är baserad på standardenheten som är inställd för den valda kategorin.  | Kombinationen av **Kategori** och **Enhet** används som standard eller beräknas för enhetspriset för underleverantörsraden.  |
+| Enhetspris | Standardvärdet använder kombinationen av **Kategori** och **Enhet** från de kategoripriser som är relaterade till projektprislistan, som gäller vid den begärda starten av underleverantörsraden. |Nej |
+| Delsumma | Det här är ett skrivskyddat fält som beräknas som enhetspris för kvantitet X om både kvantitets- och enhetsprisvärden anges. Om något av eller båda fälten är tomma kan du ange ett värde i det här fältet. |Nej |
+| Moms | Ange momsbeloppet. |Nej |
+| Totalbelopp | Totalbelopp för underavtalsraden inklusive moms. Detta fält beräknas som delsumma + moms. |Nej |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Detaljerad sidhuvudinformation för underavtal
 description: Detta ämne förklarar de funktioner som tillhandahålls i underavtalshuvudet i Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323663"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501348"
 ---
 # <a name="header-details-for-subcontracts"></a>Detaljerad sidhuvudinformation för underavtal
 
@@ -28,26 +28,24 @@ Skapa ett underavtal genom att följa stegen nedan.
 1. I navigeringsfönstret väljer du **Underavtal**, innan du på sidan **Underavtal** väljer **Ny**.
 2. Ange information som krävs och klicka sedan på **Spara**.
 
-    Följande tabell innehåller information om fälten på sidan Underavtalshuvud.
+    Följande tabell innehåller information om fälten på sidan **Underavtalshuvud**.
 
-    | **Fält** | **Beskrivning** |
-    | --- | --- | 
-    | Namn | Namnet på underavtalet. |
-    | Beskrivning | En kort beskrivning av tjänster produkter som köps i underavtalet. |
-    | Leverantör | Namnet på det företag som produkterna och tjänsterna köps från. Denna kontopost har relationstypen **Säljare** eller **Leverantör**. |
-    | underavtalsdatum | Det datum då underavtalet skapades. |
-    | Statusorsak | Status för underavtalet. |
-    | Valuta | Den valuta som produkter och tjänster köps i. Värdet i detta fält kommer från som standard från leverantörskontot, men kan ändras. Projektprislistor som används för prissättning av produkter och tjänster i underavtalet ska vara i den här valutan. Prislistor i andra valutor kan inte associeras med underavtalet. Kostnaden för produkter och tjänster somd etta underavtal medför registreras i denna valuta för projektet. |
-    | Kontrakteringsenhet | Den avdelning i företaget som ingår ett köpekontrakt eller ett underavtal med leverantören. |
-    | Betalningsvillkor | Betalningsvillkoren för leverantörsfakturor som utfärdas för denna underleverantör. Värdet i detta fält kommer från som standard från leverantörskontoposten. |
-    | Betalningsadress | Adressen där betalningen på leverantörsfakturor skickas. Värdet i detta fält kommer från som standard från leverantörskontoposten. |
-    | Fakturera till namn | Namnet på den person eller avdelning i det leverantörsföretag som ska skicka fakturan. Värdet i det här fältet kommer från leverantörskontoposten och används som namnet på den primära kontakten på leverantörsfakturor som skapas för detta underavtal. |
-    | Faktureringsadress | Den adress som används på fakturor från denna leverantör. Värdet i detta fält kommer från som standard från leverantörskontoposten. Denna adress används också som faktureringsadress på leverantörsfakturor som skapas för den här underleverantören. |
-    | Delsumma | Om ett underavtal inte har några rader anger du ett värde i det här fältet som anger orderns delsumma före moms. Om underavtalet har rader är det här fältet skrivskyddat. Det belopp som visas är delsummans belopp från alla rader i underavtalet. |
-    | Total moms | Om ett underavtal inte har några rader anger du ett värde i det här fältet som anger momsen i detta underavtal. Om underavtalet har rader är det här fältet skrivskyddat. Det belopp som visas är summan av momsbeloppet från alla rader i underavtalet. |
-    | Totalbelopp |  Detta beräknade fält visar totalbeloppet för underavtalet efter det att moms har inkluderats.  |
-    | Bekräftelsedatum | Det datum då underavtalet bekräftades.  |
-    | Begärd av | Standardvärdet för detta fält är namnet på den användare som skapar underavtalet. Detta värde kan ändras av den som skapade underavtalet i syfte att ange den person för vilken han eller hon skapar underavtalet.  |
-    | Leverantörens kontoansvariga | Namnet på den primära kontakten för leverantörskontot. Värdet i detta fält kommer från som standard från leverantörskontoposten. Detta fältvärde kan ändras av användaren om denne vill välja en annan kontakt som leverantörskontohanterare för underavtalet. E-postaviseringar och prisförseningar kan konfigureras och skickas av den här kontakten. |
-
-
+    | Fält | Beskrivning |Funktionellt påverkan |
+    |---|------|---| 
+    | Namn | Namnet på underavtalet. | I alla listrutan underleverantör visas namnet på undernamnet i den första kolumnen så att du kan identifiera underleverantörsnamnet. | 
+    | Beskrivning | En kort beskrivning av tjänster produkter som köps i underavtalet. | Nej |
+    | Leverantör | Namnet på det företag som produkterna och tjänsterna köps från. Denna kontopost har relationstypen **Säljare** eller **Leverantör**. | Standardvärden anges automatiskt för följande fält baserat på den leverantör som valts:<br/> **• Valuta** </br> **• Prislistor** </br> **• Betalningsvillkor**</br> **• Betalningsadress**</br> **• Fakturera till adress**</br> **• Fakturera till namn** </br>**• Leverantörens kontoansvariga**|
+    | Underkontraktsdatum | Det datum då underkonsekvensen skapas. | Underleverantörsdatum används för att välja rätt inköpsprislista antingen från de prislistor som är kopplade till den relaterade leverantören eller från projektparametrarna. |
+    | Statusorsak | Status för underavtalet. | Status avgör var underleverantör finns i affärsprocessen och om den kan redigeras. <br/>Exempel på värden:<br>• **Utkast**: Undermappen kan redigeras. Du kan endast redigera underleverantörer med status **Utkast**.<br/>• **Bekräftad**: Kontraktet med leverantören är slutfört och underleverantören är godkänd för leverans. <br/>• **Stängd**: Leveranserna i underkontraktet är slutförda.<br/>• **Annullerad**: Underentreprenaden avbröts och ingen leverans är planerad.  | 
+    | Valuta | Valuta som produkter och tjänster köps i. Standardvärdet anges automatiskt från leverantörskontot, men det kan ändras. | Delkontraktets valuta för att välja inköpsprislista antingen från de prislistor som är kopplade till den relaterade leverantören eller från projektparametrarna. Prislistor i en annan valuta kan inte associeras med undervalutan. Kostnaden för tid, utgifter och material som leverantörers resurser levererar från denna underleverantör registreras i den här valutan i projektet. När underleverantörsposten har sparats går det inte att ändra valutan på underleverantörsposten.|
+    | Kontrakteringsenhet | Den avdelning i företaget som ingår ett köpekontrakt eller ett underavtal med leverantören. | Nej |
+    | Betalningsvillkor | Betalningsvillkor för leverantörsfakturor som utfärdas för denna underleverantör. Standardvärdet anges automatiskt från leverantörskontot. | Betalningsvillkor från underleverantören kopieras till alla leverantörsfakturor som är relaterade till denna underleverantör. Betalningsvillkor kan uppdateras om underleverantör har statusen **Utkast**. | 
+    | Betalningsadress | Adressen till den leverantör som betalningar måste skickas till. Standardvärdet anges automatiskt från leverantörskontot. | Betalningsadressen från underleverantören kopieras som betalningsadress till alla leverantörsfakturor som skapas för den här underleverantören. Betalningsadressen kan uppdateras om underleverantör har statusen **Utkast**.|
+    | Fakturera till namn | Namnet på den person eller avdelning i det leverantörsföretag som ska skicka fakturan. Standardvärdet anges automatiskt från leverantörskontot. | **Fakturera till namn** från underleverantören kopieras till alla leverantörsfakturor som är relaterade till denna underleverantör. Detta fält kan uppdateras om underleverantör har statusen **Utkast**.|
+    | Faktureringsadress | Adressen som används på fakturor från leverantören. Standardvärdet anges automatiskt från leverantörskontot. | Den här adressen är "faktura från"-adressen på leverantörsfakturor som skapas för den här underleverantören. |
+    | Delsumma | Om en underleverantör inte har några rader anger du ordern som delsumma före moms. Om underavtalet har rader är det här fältet skrivskyddat. Det belopp som visas är delsumma från alla raderna i underleverantörsbeloppet. | Nej |
+    | Total moms | Om en underleverantör inte har några rader, ange totala skatter på detta underentreprenad. Om underavtalet har rader är det här fältet skrivskyddat. Det belopp som visas är summan av skatten från alla raderna i underleverantörsbeloppet. | Nej |
+    | Totalbelopp | Detta beräknade fält visar totalbeloppet för underavtalet efter det att moms har inkluderats. | Nej |
+    | Bekräftelsedatum | Datum då underentreprenaden bekräftades. | Nej |
+    | Begärd av | Som standard anges det här fältet till namnet på användaren som skapar undernamnet. Men den som skapade underkontraktet kan ändra värdet för att ange den person som underkontraktet den skapar för. | Nej |
+    | Leverantörens kontoansvariga | Namnet på den primära kontakten för leverantörskontot. Standardvärdet anges automatiskt från leverantörskontot. Du kan välja en annan kontakt som leverantörskontohanterare för underleverantören. | Du kan konfigurera e-postaviseringar så att kontakten meddelas när ändringar görs i underkontakten till följd av prisförseningar. |

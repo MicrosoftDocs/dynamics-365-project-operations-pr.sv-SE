@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323708"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558569"
 ---
 # <a name="subcontract-lines-for-products"></a>Underavtalsrader för produkter
 
@@ -30,25 +30,25 @@ Skapa en underavtalsrad för produkter i Project Operations genom att följa ste
 
 Följande tabell innehåller information om fälten på sidorna för **Detaljinformation för underavtalsrader** och **Snabbregistrering** eftersom dessa är relevanta för inköp av produkter.
 
-| Fält | Beskrivning |
-| ----- | ----------- |
-| Namn | Namn på underavtalsraden. |
-| Beskrivning | En kort beskrivning av produkter som beställs på underavtalsraden. |
-| Radtyp | Detta fältvärde har standardvärdet **Kvantitetsbaserad**. |
-| Faktureringsmetod |  Faktureringsmetod för underavtalsraden. För faktureringsmetoder med fast pris finns ett milstolpebaserat fakturaschema. |
-| Transaktionsklass | Detta fältvärde har standardvärdet **Tid**. Om du vill skapa underavtalsrader för inköp av produkter gå du till fältet **Transaktionsklass** och väljer **Material**. Detta val anger att underavtalsraden används för att registrera ett köp av produkter som ska användas i projekt. |
-| Välj produkt | Välj om produkten som köps bibehållss i produktkatalogen eller om den är en oregistrerad produkt. |
-| Produkt | Välj en aktiv produkt från katalogen. Detta fält är endast tillgängligt när **Välj produkt** har angetts som **Befintlig**. |
-| Produkt ej i register | Ange namnet på den oregistrerade produkten. Detta fält är endast tillgängligt när **Välj produkt** har angetts som **Oregistrerad**.  |
-| Begärt leveransdatum | Välj erforderligt leveransdatum för produkterna. Detta datum används också för att välja en projektprislista bland de projektprislistor som bifogas underavtalet. Kostnaden för produkten på underavtalsraden hämtar sitt standardvärde från den prislistan. |
-| Kontrakterat leveransdatum | Välj det datum då produkterna ska levereras enligt avtal.  |
-| Beställd kvantitet | Ange kvantiteten för den produkt som köps från leverantören. Om en projektledare tar ut för mycket av denna kvantitet visas en varning. |
-| Enhetsgrupp | Detta värde återfår sitt standardvärde endast för katalogprodukter. När både **Produkt** och **Begärt leveransdatum** har valts väljer systemet tillämpbar prislista baserat på leveransdatum. De relaterade prislisteposterna genomsöks efter den matchande produkten. Värdena för enhet och enhetsgrupp återgår till sina standardvärden i samband med installationen av posten för prislistepost. |
-| Enhet | Detta värde återgår till enhetskonfigurationen för posten för prislisteobjekt. Du kan ändra detta till en annan enhet vid behov. Kombinationen av produkt och enhet används för att återställa enhetspriset för underavtalsraden för befintliga katalogprodukter. |
-| Enhetspris | Enhetspriset återgår till standardvärdet genom att använda kombinationen av produkt och enhet från de prislisteposter som gäller för det begärda leveransdatumet för underavtalsraden.  |
-| Delsumma | Detta skrivskyddade fält beräknas som Kvantitet x enhetspris om båda fälten har angetts. Om antingen fältet **Kvantitet** eller fältet **Enhetspris** - eller båda - är tomma, kan du ange ett värde manuellt.  |
-| Moms | Ange värdet för momsbelopp. |
-| Totalbelopp | Detta beräknade fält visar totalbeloppet för underavtalsraden efter det att moms har inkluderats. Värdet i detta fält beräknas som delsumma + moms. |
+| Fält | Beskrivning | Funktionellt påverkan|
+| ----- | ----------- | ----------- |
+| Namn | Namn på underleverantörsraden för identifiering. |Detta visas som den första kolumnen i alla uppslag baserat på underkonsekvensrader.
+| Beskrivning | En kort beskrivning av produkter som beställs på underavtalsraden. | Nej |
+| Linjetyp | Detta fält har standardvärdet **Kvantitetsbaserad**. |Nej |
+| Faktureringsmetod | Detta är en tillvalssats som representerar de två huvudentreprenadmodeller som stöds av Project Operations: **Fast pris** och **Tid och material**. | Baserat på den valda faktureringsmetoden milstolpebaserat fakturaschema görs tillgängligt för underleverantörsrader om faktureringsmetoden Fast pris har valts. |
+| Transaktionsklass |Detta fält har standardvärdet **Tid**. Om du vill skapa underavtalsrader för inköp av produkter anger du fältet **Transaktionsklass** som **Material**.  | Detta indikerar att underleverantörsraden används för att registrera inköp av produkter som ska användas i projekt. |
+| Välj produkt | Välj om produkten som köps bibehållss i produktkatalogen eller om den är en oregistrerad produkt. |Nej |
+| Produkt | Välj en aktiv produkt från katalogen. Detta fält är endast tillgängligt när **Välj produkt** har angetts som **Befintlig**. |Kombinationen av **Produkt** och **Enhet** används som standard eller beräknas för enhetspriset för underleverantörsraden.
+| Produkt ej i register | Ange namnet på den oregistrerade produkten. Detta fält är endast tillgängligt när **Välj produkt** har angetts som **Oregistrerad**.  |Inköpspriset fylls inte i automatiskt för inskrivningsprodukter.|
+| Begärt leveransdatum | Ange det leveransdatum som krävs för produkterna.| Detta datum används också för att välja en projektprislista bland de projektprislistor som bifogas underavtalet. Kostnaden för produkten på underavtalsraden hämtar sitt standardvärde från den prislistan. |
+| Kontrakterat leveransdatum | Ange det datum då produkterna har avtalats om att levereras.  |Nej|
+| Beställd kvantitet | Ange kvantiteten för den produkt som köps från leverantören.| Detta används för att visa varningar när en projektledare förser med för mycket information från den här kvantiteten.|
+| Enhetsgrupp | Detta värde återfår sitt standardvärde endast för katalogprodukter. |När både **Produkt** och **Begärt leveransdatum** har valts väljer systemet tillämpbar prislista baserat på leveransdatum. De relaterade prislisteposterna genomsöks efter den matchande produkten. Värdena för enhet och enhetsgrupp återgår till sina standardvärden i samband med installationen av posten för prislistepost. |
+| Enhet | Det här värdet är standardvärdet för enheten som angetts för posten för prislisteobjekt. Du kan ändra detta till en annan enhet vid behov.| Kombinationen av produkt och enhet används för att återställa enhetspriset för underavtalsraden för befintliga katalogprodukter. |
+| Enhetspris | Enhetspriset återgår till standardvärdet genom att använda kombinationen av produkt och enhet från de prislisteposter som gäller för det begärda leveransdatumet för underavtalsraden.  |Nej |
+| Delsumma | Detta skrivskyddade fält beräknas som Kvantitet x enhetspris om båda fälten har angetts. Om antingen fältet **Kvantitet** eller fältet **Enhetspris** - eller båda - är tomma, kan du ange ett värde manuellt.  |Nej |
+| Moms | Ange värdet för momsbelopp. |Nej |
+| Totalbelopp | Detta beräknade fält visar totalbeloppet för underavtalsraden efter det att moms har inkluderats. Värdet i detta fält beräknas som delsumma + moms. |Nej |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

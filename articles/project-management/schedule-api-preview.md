@@ -2,23 +2,22 @@
 title: Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter
 description: Detta ämne innehåller information och exempel för användning av API:er för Projektschema.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008788"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487707"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-> [!IMPORTANT] 
-> Vissa eller alla funktioner som anges i det här ämnet är tillgängliga som en del av en förhandsversion. Innehållet och funktionerna kan komma att ändras. 
+
 
 ## <a name="scheduling-entities"></a>Schemaläggningsentiteter
 

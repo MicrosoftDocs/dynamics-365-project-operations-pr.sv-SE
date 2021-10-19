@@ -2,16 +2,16 @@
 title: Registrera dig för utvärderingsversioner av Project Operations
 description: I detta ämne finns information om hur du distribuerar en utvärderingsversion av Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418479"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599235"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrera dig för utvärderingsversioner av Project Operations 
 
@@ -85,15 +85,9 @@ Innan du börjar loggar du in i en webbläsare med användarkontot i den kliento
 
    När etableringen har startat omdirigeras du till miljölistan i administrationscentret för Power Platform. Medan etablering pågår är statusen för din miljö **PreparingInstance**.
  
-  När etableringen är klar är statusen för din miljö **Klar**.
+  När etableringen är klar är tillståndet för miljön **klar**. Etablering av miljön omfattar distribution av demodata.
  
-4.  När etableringen är klar väljer du respektive Microsoft Dataverse-URL och webbadresserna för Finance and Operations-appen för att validera distributionen.
-
-## <a name="demo-data-installation"></a>Installation av demonstrationsdata
-
-Använd följande länkar om du vill få tillgång till demodatapaket för både icke-lagrat material och lite-distributionsscenarier. 
-- [Demodata för ej lagerförda material](resource-apply-pro-setup-config-data.md)
-- [Lite-demodata](lite-apply-demo-setup-config-data.md)
+4.  Välj respektive Microsoft Dataverse URL och de Finance and Operations apps-URL:er som ska verifiera distributionen.
 
 ## <a name="configuring-dual-write"></a>Konfigurera dubbelriktad skrivning
 Konfigurera dina mappningar för dubbelriktad skrivning endast för distributioner av ej lagerförda material. Mer information finns i [Project Operations-versioner med dubbelriktad skrivning](resource-dual-write-maps.md).
