@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003883"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679231"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juni 2021 – Project Operations för resurs/icke lagerbaserade scenarier
 
@@ -30,6 +30,7 @@ Följande funktioner ingår i denna version:
 - Möjlighet att ta bort [förslagsrader i Projektfaktura för justeringsscenarier](../invoicing/correct-project-invoice-proposals.md).
 - Objekterade utgiftsrader återspeglar underkategorinamn i utgiftsrapporten [Utgiftsrapporter – Nya funktioner](../expense/expense-reports-reimagined.md#new-features).
 - Betalningsmetod är tillgänglig i den nya utgiftsrutan när en ny kostnad skapas.
+- Allmän API-tillgänglighet för projektscheman. Med den här nya funktionen kan kunderna programmässigt skapa, uppdatera och ta bort åtgärder för projektuppgifter, resurstilldelningar, aktivitetsberoenden och medlemsposter i projektteamet. Mer information finns i [Använda API i projektschemat för att utföra åtgärder med planeringsentiteter](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Uppdateringar av Project Operations mappningar med dubbelriktad skrivning
 
@@ -54,10 +55,10 @@ Om du stöter på ett problem som startar kartan, följ instruktionerna i avsnit
 | Administrering av affärsmöjligheter | 2277528 | Beräkning av fast milstolpe för fakturering för projektkontraktrader med flera kunder. |
 | Projektplanering och spårning | 2226110 | Åtgärdade problemet med funktionen **Generera krav** i rutnätet **projektteam**. |
 | Projektplanering och spårning | 2208109 | Användare kan inte skapa ett projekt i en valuta med relaterade uppgifter i en annan valuta. |
-| Projektplanering och spårning | 2258228 | Listan över fält som tillåts ändra med entiteter **schemaläggning** med hjälp av Schema-API har uppdaterats. |
+| Projektplanering och spårning | 2258228 | Listan över fält som tillåts ändra med entiteter **planering** med hjälp av Schema-API har uppdaterats. |
 | Projektplanering och spårning | 2293989 | Rätt språkinställningar och nationella inställningar måste skickas till rutnätet **Projektuppgifter**. |
 | Resurshantering | 2220493 | Åtgärdade användarupplevelsen i rutnätet **Uppgift** när en resursbegäran snabbt markerades som slutförd. |
-| Resurshantering | 2330496 | Åtgärdade problemet med inläsningen av **schemaläggningstavlan**. (Kvalitetsuppdatering finns i version 4.11.0.164) |
+| Resurshantering | 2330496 | Åtgärdade problemet med inläsningen av **planeringstavlan**. (Kvalitetsuppdatering finns i version 4.11.0.164) |
 | Tid och utgift | 2194431 | Rutnätet **Tidspost** måste hedra början på veckan som anges i **Systeminställningar**. |
 | Tid och utgift | 2277311 | När du har tagit bort värdet i en cell i rutnätet **tidspost** blir markören kvar i rutnätet. |
 

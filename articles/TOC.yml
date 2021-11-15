@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integration med leverantörsfaktura
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Avinstallera Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
         - name: Oktober 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: 'Använda API:er för projektscheman'
               href: project-management/schedule-api-preview.md
+            - name: Projektplanera API-resultat
+              href: project-management/project-schedule-api-performance.md
     - name: Resurshantering
       items:
         - name: Nyckelbegrepp
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: 'Använda API:er för projektscheman'
               href: project-management/schedule-api-preview.md
+            - name: Projektplanera API-resultat
+              href: project-management/project-schedule-api-performance.md
     - name: Resurshantering
       items:
         - name: Nyckelbegrepp
@@ -1102,6 +1108,8 @@
       items:
         - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 35, V3'
