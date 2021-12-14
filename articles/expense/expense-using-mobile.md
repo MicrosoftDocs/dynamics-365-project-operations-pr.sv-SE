@@ -2,7 +2,7 @@
 title: Mobil utgiftsapp
 description: I det här ämnet finns information om hur du använder mobil arbetsyta för utgiftshantering.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993218"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818205"
 ---
 # <a name="mobile-expense-app"></a>Mobil utgiftsapp
 
@@ -47,42 +47,9 @@ Du kan också använda dessa funktioner:
 - Skicka en utgiftsrapport för godkännande och återbetalning.
 - Godkänn eller avvisa utgiftsrapporter som du är tilldelad godkännare för.
 
-## <a name="prerequisites"></a>Förutsättningar
-Förutsättningarna varierar beroende på vilken version av som har distribuerats för organisationen.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Krav om du använder Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Krav om du använder Dynamics 365 Finance 
 Om Finance har distribuerats för organisationen måste systemadministratör publicera mobilarbetsytan **utgiftshantering**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Förutsättningar om du använder version 1611 med plattformsuppdatering 3 eller senare
-Om version 1611 med plattformsuppdatering 3 eller senare har distribuerats för organisationen måste systemadministratör uppfylla följande krav. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Förutsättningar</th>
-<th>Roll</th>
-<th>Beskrivning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementera KB 4019015.</td>
-<td>Systemadministratör</td>
-<td>KB 4019015 är en X++ uppdatering eller en snabb korrigering för mobil arbetsyta <strong>utgiftshantering</strong>. Innan du implementerar KB 4019015 måste systemadministratör följa stegen nedan.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Hämta uppdateringar från Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installera snabbkorrigeringen för metadata</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Skapa ett distribuerbart paket</a> som innehåller modellerna <strong>ApplicationSuite</strong> och <strong>ExpenseMobile</strong> och överför sedan det distributionsbara paketet till LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Använd det distributionsbara paketet</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publicera mobila ytan för <strong>utgiftshantering</strong>.</td>
-<td>Systemadministratör</td>
-<td>Se <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publicerar en mobil arbetsyta</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Hämta och installera mobilappen Dynamics 365 Unified Ops
 Hämta och installera mobilappen Dynamics 365 Unified Ops:
@@ -103,11 +70,11 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 3. Välj **Ta foto** eller **Välj bild**.
 4. Följ ett av de här stegen:
 
-   - Om du valde **Ta foto** följer du stegen nedan:
+    - Om du valde **Ta foto** följer du stegen nedan:
 
-      1. Du är på kameran på den mobila enheten så att du kan ta ett foto av kvittot. 
-      2. När du är klar med fotot väljer du **OK** för att godkänna fotot.
-      3. Valfritt: Ange ett namn på fotot och skriv eventuella anteckningar.
+        1. Du är på kameran på den mobila enheten så att du kan ta ett foto av kvittot. 
+        2. När du är klar med fotot väljer du **OK** för att godkänna fotot.
+        3. Valfritt: Ange ett namn på fotot och skriv eventuella anteckningar.
 
     - Om du valde **Välj bild** följer du stegen nedan:
 
@@ -133,20 +100,20 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
 10. Välj **Utfört**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Godkänn en utgiftsrapport med hjälp av mobila arbetsytan utgiftshantering (om du använder uppdateringen från juli 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Godkänn en utgiftsrapport genom att använda mobil arbetsyta för utgiftshantering
 
 1. På din mobila enhet, öppna arbetsytan **Utgiftshantering**.
 2. **Utgiftsgodkännanden** visar antalet utgiftsrapporter som har tilldelats dig för godkännande. Antalet uppdateras ungefär var trettionde minut. Välj **utgiftsgodkännanden**.
 
     Listan över utgiftsrapporter som har tilldelats dig för godkännande visas.
-    
+
 3. Välj en utgiftsrapport om du vill visa utgiftsdetaljer för den.
 4. Välj en utgift om du vill visa detaljer för den. I informationen som visas för en utgift ingår all information om kvitto, gäst och specificering.
 5. Sidan **Utgiftsrapport** väljer du om du vill godkänna eller avvisa utgiftsrapporten.
 6. Ange kommentarer för godkännande åtgärden.
 7. Välj **Utfört**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Skapa en ny utgiftsrapport och skicka in det för godkännande med hjälp av mobila arbetsytan utgiftshantering (om du använder uppdateringen från juli 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Skapa en ny utgiftsrapport och skicka den för godkännande med hjälp av den mobila arbetsytan för utgiftshantering
 
 1. På din mobila enhet, öppna arbetsytan **Utgiftshantering**.
 2. Välj **Utgiftspost**.
@@ -184,12 +151,12 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
                     1. Välj en bild i listan.
                     2. Valfritt: Ange ett namn på bilden och skriv eventuella anteckningar.
 
-            3.  Välj **Utfört**.
+            3. Välj **Utfört**.
 
         - Om du valde **bifoga kvitto** följer du stegen nedan:
 
-            1.  Välj en eller flera bilder i listan.
-            2.  Välj **Utfört**.
+            1. Välj en eller flera bilder i listan.
+            2. Välj **Utfört**.
 
     3. Välj **Tillbaka** för att återgå till utgiftsinformationen.
 
@@ -235,5 +202,30 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 23. Ange kommentarer för godkännare.
 24. Välj **Utfört**.
 
+## <a name="frequently-asked-questions"></a>Vanliga frågor och svar
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Varför anger inte mobilappen Utgifter betalningsmetoden som standard?
+
+Organisationer kan anpassa inställningen för **Standardbetalningsmetod** för respektive utgiftskategori när denna skapas. När du anger betalningsmetoder kan du även ange fältet **Standardbetalningsmetod** som **Endast import**.
+
+När **Endast import** har aktiverats för en betalningsmetod, anges inte betalningsmetoden som standard. Fältet blir tomt i utgiftskategorier där betalningsmetoden är konfigurerad. Detta beteende är konsekvent både i webbupplevelsen och i mobilupplevelsen.
+    
+När **Endast import** inte har aktiverats för en betalningsmetod anges det angivna värdet som standard för utgiftskategorier där denna betalningsmetod har konfigurerats. Det finns emellertid ett känt problem där standardvärdet inte anges i mobilappen Utgifter. Du kan lösa problemet genom att manuellt välja en betalningsmetod innan du sparar utgiftsrapporten. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Varför kan jag inte lägga till eller redigera ekonomiska mått i mobilappen Utgifter?
+
+Det finns inte stöd för att ange mått och distributioner. Du kan kringgå denna begränsning genom att ange dessa fält som standard i mobilappen, detta genom att ange ekonomiska standardmått per projekt eller anställd.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Varför visas ibland ett synkroniseringsfel i mobilappen Utgifter?
+
+Om utgiftsraderna inte uppfyller policykraven och användaren skickar utgiftsrapporten utan att beakta policyvarningen synkroniseras inte mobildata med servern, och ett synkroniseringsfel uppstår. Alla utgiftsrapporter som skickas efter att synkroniseringen har misslyckats får statusen "misslyckades" och orsakar ytterligare synkroniseringsfel. Det enda sättet att åtgärda problemet är att manuellt ta bort synkroniseringsmeddelandena. Detta problem har åtgärdats genom att stoppa inskick av utgiftsrapporter när policyvarningar inte har åtgärdats, vilket gör att synkroniseringsfelen undviks.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Varför återspeglas inte projekt- och kategorivalideringen korrekt i mobilappen Utgifter?
+
+Denna validering stöds för närvarande inte. Stöd för densamma kan emellertid komma att läggas till i framtiden. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Vilka dokumenttyper stöds i mobilappen Utgifter?
+
+I mobilappen Utgifter finns endast stöd för bilder. Den har för närvarande inte stöd för PDF-filer eller andra dokument.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

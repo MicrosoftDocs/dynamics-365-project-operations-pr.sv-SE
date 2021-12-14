@@ -2,17 +2,17 @@
 title: Uppdateringar av Project Operations
 description: I det här ämnet finns information om släppta versioner av Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783445"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892228"
 ---
 # <a name="project-operations-updates"></a>Uppdateringar av Project Operations
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations består av två komponenter:
 - Projektledning och redovisning i Dynamics 365 Finance-miljön behandlar hanteringsfunktioner för utgifter, projektredovisning och intäktsredovisning. Finance and Operations-appmiljön används i Project Operations för resursscenarier/icke lagerbaserade scenarier och Project Operations för lagerbaserade/produktionsbaserade scenarier.
 
 ## <a name="project-operations-release-notes"></a>Viktig information om Project Operations
-- Den senaste viktig informationen om Project Operations för [Resursbaserade/icke-lagerbaserade](whats-new-oct-2021-resource-based.md) scenarier.
-- Den senaste viktig informationen om Project Operations för [Lite-distribution](../pro/whats-new/whats-new-oct-2021-lite.md) scenarier.
-- Den senaste viktig informationen om Project Operations för [lagerbaserade/produktionsbaserade](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenarier.
+- Den senaste viktig informationen om Project Operations för [Resursbaserade/icke-lagerbaserade](whats-new-nov-2021-resource-based.md) scenarier.
+- Den senaste viktig informationen om Project Operations för [Lite-distribution](../pro/whats-new/whats-new-nov-2021-lite.md) scenarier.
+- Den senaste viktig informationen om Project Operations för [lagerbaserade/produktionsbaserade](../prod-pma/whats-new/whats-new-oct-2021-stocked.md) scenarier.
 
 ## <a name="project-operations-latest-version"></a>Project Operations senaste version
 
 | Project Operations i Dataverse-miljö | Projektledning och redovisning i Finance and Operations-appmiljöer | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-För Project Operations Resource/icke lagerbaserade scenarier rekommenderar vi att du använder orkestrering för dubbelriktad skrivning och 2.2.2.83 eller senare.
+För Project Operations Resource/icke-lagerbaserade scenarier rekommenderar vi att du använder Orchestration för dubbelriktad skrivning version 2.3.1.15 eller senare.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Utgivningsplan för Project Operations i Dataverse-miljö
 
@@ -47,23 +47,23 @@ Uppdateringar för Project Operations i Dataverse-miljö är tillgängliga varje
 | Station | Region | Aktuellt versionsnummer | Automatiska uppdateringar för Lite-distribution | Automatiska uppdateringar för distribution av resurser/icke-lager | Nästa versionsnummer | Nästa version är vanligtvis tillgänglig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Första utgivning         |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 03 december 2021   |
+|   &nbsp;  | Första utgivning         |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 06 december 2021   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sydamerika         |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 03 december 2021   |
-|   &nbsp;  | Kanada                |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 03 december 2021   |
-|   &nbsp;  | Indien                 |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 03 december 2021   |
-|   &nbsp;  | Frankrike                |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 03 december 2021   |
-|   &nbsp;  | Sydafrika          |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 03 december 2021   |
+|   &nbsp;  | Sydamerika         |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 06 december 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 06 december 2021   |
+|   &nbsp;  | Indien                 |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 06 december 2021   |
+|   &nbsp;  | Frankrike                |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 06 december 2021   |
+|   &nbsp;  | Sydafrika          |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 06 december 2021   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 10 december 2021   |
-|   &nbsp;  | Asien och stillahavsområdet          |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 10 december 2021   |
-|   &nbsp;  | Storbritannien         |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 10 december 2021   |
-|   &nbsp;  | Oceanien               |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 10 december 2021   |
-|   &nbsp;  | Förenade Arabemiraten  |  4.26.0.145     | 12 november 2021  | 19 november 2021   | TBD                 | 10 december 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 10 december 2021   |
+|   &nbsp;  | Asien och stillahavsområdet          |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 10 december 2021   |
+|   &nbsp;  | Storbritannien         |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 10 december 2021   |
+|   &nbsp;  | Oceanien               |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 10 december 2021   |
+|   &nbsp;  | Förenade Arabemiraten  |  4.26.0.150     | Slutförd           | Slutförd            | TBD                 | 10 december 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Slutför           | Slutför            | 4.26.0.145          | 12 november 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Slutförd           | 10 december 2021   | TBD                 | 17 december 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.25.0.91      | Slutför           | Slutför            | 4.26.0.145          | 19 november 2021   |
+|   &nbsp;  | Nordamerika         |  4.26.0.150     | 10 december 2021  | 17 december 2021   | TBD                 | 07 januari 2022    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Utgivningsplan för projektledning och redovisning i Finance and Operations-appmiljön

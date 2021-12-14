@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
+        - name: November 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projektplanera API-resultat
               href: project-management/project-schedule-api-performance.md
+            - name: Loggar för projektplanering
+              href: project-management/schedule-api-logs.md
     - name: Resurshantering
       items:
         - name: Nyckelbegrepp
@@ -544,6 +548,8 @@
       items:
         - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Vad är nytt i november 2021 – lite-distribution
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Vad är nytt i oktober 2021 – Lite-distribution
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Vad är nytt i september 2021 – Lite-distribution
@@ -952,6 +958,10 @@
   items:
     - name: Nyheter
       items:
+        - name: Nyheter i oktober 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Nyheter i september 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Nyheter i juli 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Nyheter i maj 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
@@ -1108,6 +1118,8 @@
       items:
         - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 36, V3'
