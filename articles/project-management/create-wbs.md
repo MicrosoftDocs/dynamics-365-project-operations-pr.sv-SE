@@ -2,16 +2,16 @@
 title: Skapa en uppdelad arbetsstruktur
 description: Detta ämne förklarar hur du skapar en uppdelad arbetsstruktur (WBS) inklusive enkel kontroll i det nya planeringsgränssnittet.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655439"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928637"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Skapa en uppdelad arbetsstruktur (WBS)
 
@@ -95,7 +95,7 @@ Som en administratör kan du definiera anpassade fält för uppgiftsentiteten. F
 
 ## <a name="staffing-attributes"></a>Bemanningsattribut
 
-Du når attribut för personal via fältet **resurser** i schemat. Du kan antingen söka efter en befintlig resurs eller välja **Skapa**. I fönstret **Snabbregistrering** lägger du sedan till en projektteammedlem som en ny resurs.
+Du når attribut för personal via fältet **resurser** i schemat. Du kan antingen söka efter en befintlig resurs eller välja **Skapa**. I fönstret **Snabbregistrering** lägger du sedan till en projektteammedlem som en ny resurs.  När du söker efter en resurs med resursväljaren i uppgiftsrutnätet, vyn för schemaläggningstavlan eller Gantt-vyn returneras antingen befintliga projektteammedlemmar eller aktiva bokningsbara resurser.
 
 Fälten **roll**, **resursenhet** och **befattningsnamn** används för att beskriva personalkraven för uppgiften. Dessa personalattribut används tillsammans med uppgiftsschemat för att hitta tillgängliga resurser för att utföra den här uppgiften.
 
@@ -127,6 +127,7 @@ Om du använder den uppdelade arbetsstrukturen i Project Operations bör du kän
 | Maximalt antal resurser för ett projekt              | 150                  |
 | Maximalt antal länkar (endast efterföljare) för ett projekt | 600                  |
 | Maximalt antal anpassade fält för ett projekt          | 10                   |
+| Maximalt antal punkter i checklistan per uppgift                   | 20                   |
 
 **Uppgiftsbegränsningar**
 

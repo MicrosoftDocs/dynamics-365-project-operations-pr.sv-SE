@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892224"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940956"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Uppdatera tidsplaner för lanseringar för Project Service 3.x
 
@@ -37,36 +37,36 @@ ms.locfileid: "7892224"
 
 | Lösning  | Senaste versionen |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Project Service Automation-skrivbordstillägg                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation-skrivbordstillägg                | 3.60          |
 
 För information om andra uppdateringar av Project Service, se [Dynamics 365 utgivningsplaner](/dynamics365/release-plans/). 
 
 | Station  | Region | Aktuell version | Nästa version |  Schemalagt datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Första utgivning</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 03 december 2021
+| | <i>Första utgivning</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14 januari 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Sydamerika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
-| | <i>Kanada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
-| | <i>Indien</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
-| | <i>Frankrike</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
-| | <i>Sydafrika</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
-| | <i>Tyskland</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
-| | <i>Schweiz</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 december 2021
+| | <i>Sydamerika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Kanada</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Indien</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Frankrike</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Sydafrika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Tyskland</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Schweiz</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 december 2021
-| | <i>Asien/Stillahavsområdet</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 december 2021
-| | <i>Storbritannien</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 december 2021
-| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 december 2021
-| | <i>Förenade Arabemiraten</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 december 2021
+| | <i>Japan</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
+| | <i>Asien/Stillahavsområdet</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
+| | <i>Storbritannien</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
+| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
+| | <i>Förenade Arabemiraten</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07 januari 2022
+| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 januari 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Nordamerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 januari 2022
+| | <i>Nordamerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 januari 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 januari 2022
-| | <i>Dedikerade skalgrupper</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 december 2021
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 januari 2022
+| | <i>Dedikerade skalgrupper</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21 januari 2022
 
 
 

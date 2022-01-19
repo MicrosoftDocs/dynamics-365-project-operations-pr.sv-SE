@@ -2,16 +2,16 @@
 title: Standardvärden för ekonomisk dimension
 description: I det här ämnet finns information om hur du ställer in standardvärden för ekonomiska dimensioner.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005458"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922960"
 ---
 # <a name="financial-dimension-defaults"></a>Standardvärden för ekonomisk dimension
 
@@ -60,6 +60,15 @@ Projekt skapas och underhålls i CDS. Redovisningsproviders för projekt anges i
 4. Ange standardvärden för ekonomisk dimension. Observera att de ekonomiska dimensionerna standard från kundkontot. Om projektet är associerat med en kontraktrad med flera projektkontraktkunder används den primära kunden för att standardisera ekonomiska dimensioner.
 
 Projektets ekonomiska standarddimensioner används för att ange standard för journalrader för tid-, utgifts- och avgiftstransaktioner i **Project Operations integrationsjournalen** och på relaterade projekt fakturarader.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Använda ekonomiska mått för projekttidsposter
+Om du vill använda ekonomiska mått för projekttidsposter ska du tänka på att standardvärdet baseras på följande ordning:
+
+1. Resurs
+2. Project
+3. Finansieringskälla
+
+Om standardvärdena anges för en resurs tillämpas den över en standard som anges för projektet. På samma sätt tillämpas ett standardprojektvärde över standardvärdet som anges i finansieringskällan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

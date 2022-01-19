@@ -1,8 +1,8 @@
 ---
-title: Ny typ av utgiftsrapporter
+title: Ny typ av utgiftsrapporter (innehåller video)
 description: Detta ämne beskriver den omdesignade och nya upplevelsen för posten i utgiftsrapporten.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997853"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941039"
 ---
 # <a name="expense-reports-reimagined"></a>Ny typ av utgiftsrapporter
 
@@ -58,6 +58,7 @@ För att aktivera den nya upplevelsen, använd arbetsytan **Funktionshantering**
 | Spara och lägg till nya utgiftsrader | Knapparna **Spara** och **Ny** är tillgängliga när nya utgifter läggs till för att göra det enklare för dig att snabbt lägga till utgiftsrader. |
 | Bättre insyn i delade och specificerade rader | Specificerade och uppdelade rader läggs till direkt i listan över utgifter för att öka synligheten och hjälpa dig att enkelt avgöra om det finns några fel. |
 | Visa underkategoriinformation på objekterade rader | I specificerade rader för en överordnad kostnad visas underkategorietiketterna i utgiftsrapporten. Med hjälp av specifikation kan du få en översikt över den detaljerade informationen.|
+|Specificera återkommande utgifter snabbt | Den nya arbetsytan för utgifter gör det möjligt att enkelt specificera återkommande utgifter genom att lägga till underkategori, startdatum och kvantitet. Kvantiteten avser antalet gånger debiteringen upprepas under en kontinuerlig period. |
 | Visa kvitton under specifikation | Kvitton kan visas under specifikation. |
 | Val av förskott | Välj en eller flera förskott som ska uppfylla en enda utgiftstransaktion. |
 | Saldo av förskott | Granska förskottssaldot i realtid när du skapar en utgiftspost mot godkända och betalda förskott. |
