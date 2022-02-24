@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007168"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992856"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Visa debiterbar användning för resurser
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007168"
  
 **Vyn för resursutnyttjande** på sidan **resursutnyttjande i Project Service** visar debiterbar användning för varje bokningsbar resurs. Eftersom vyn bygger på schemaläggningstavlan och innehåller därför många av de funktioner.
 
-> ![Bild på vyn Utnyttjande.](media/FAQ-utilization-1.png)
+> ![Bild på vyn för resursutnyttjande](media/FAQ-utilization-1.png)
  
 
 Det debiterbara resursutnyttjandet beräknas så här:
@@ -48,7 +48,7 @@ Målet för resursutnyttjandet kan anges på antingen resursens standardroll ell
 2. Markera en resurs för att öppna posten. 
 3. På fliken **Project Service** kan du ange hur målanvändningen av resursen ska vara.
 
-> ![Bild på användning av fliken Project Service för att ange mål för utnyttjande.](media/FAQ-utilization-2.png)
+> ![Bild på användning av fliken Project Service för att ange mål för resursutnyttjande](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Ange målutnyttjande för en roll
 
@@ -56,7 +56,7 @@ Målet för resursutnyttjandet kan anges på antingen resursens standardroll ell
 2. Markera en roll och öppna posten. 
 3. Ange målutnyttjandet för rollen.
 
-> ![Bild på användning av resursroller för att ange målutnyttjande.](media/FAQ-utilization-3.png)
+> ![Bild på användning av resursroller för att ange målutnyttjande](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Beräkna debiterbar användning för en resurs
 

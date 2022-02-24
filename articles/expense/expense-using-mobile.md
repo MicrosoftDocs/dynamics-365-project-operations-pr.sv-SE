@@ -2,9 +2,11 @@
 title: Mobil utgiftsapp
 description: I det här ämnet finns information om hur du använder mobil arbetsyta för utgiftshantering.
 author: suvaidya
-ms.date: 11/15/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818205"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499918"
 ---
 # <a name="mobile-expense-app"></a>Mobil utgiftsapp
 
@@ -47,9 +49,42 @@ Du kan också använda dessa funktioner:
 - Skicka en utgiftsrapport för godkännande och återbetalning.
 - Godkänn eller avvisa utgiftsrapporter som du är tilldelad godkännare för.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Krav om du använder Dynamics 365 Finance
+## <a name="prerequisites"></a>Förutsättningar
+Förutsättningarna varierar beroende på vilken version av som har distribuerats för organisationen.
 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Krav om du använder Dynamics 365 Finance 
 Om Finance har distribuerats för organisationen måste systemadministratör publicera mobilarbetsytan **utgiftshantering**. 
+
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Förutsättningar om du använder version 1611 med plattformsuppdatering 3 eller senare
+Om version 1611 med plattformsuppdatering 3 eller senare har distribuerats för organisationen måste systemadministratör uppfylla följande krav. 
+
+<table>
+<thead>
+<tr class="header">
+<th>Förutsättningar</th>
+<th>Roll</th>
+<th>Beskrivning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Implementera KB 4019015.</td>
+<td>Systemadministratör</td>
+<td>KB 4019015 är en X++ uppdatering eller en snabb korrigering för mobil arbetsyta <strong>utgiftshantering</strong>. Innan du implementerar KB 4019015 måste systemadministratör följa stegen nedan.
+<ol>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Hämta uppdateringar från Lifecycle Services</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installera snabbkorrigeringen för metadata</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Skapa ett distribuerbart paket</a> som innehåller modellerna <strong>ApplicationSuite</strong> och <strong>ExpenseMobile</strong> och överför sedan det distributionsbara paketet till LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Använd det distributionsbara paketet</a>.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>Publicera mobila ytan för <strong>utgiftshantering</strong>.</td>
+<td>Systemadministratör</td>
+<td>Se <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publicerar en mobil arbetsyta</a>.</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Hämta och installera mobilappen Dynamics 365 Unified Ops
 Hämta och installera mobilappen Dynamics 365 Unified Ops:
@@ -70,11 +105,11 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 3. Välj **Ta foto** eller **Välj bild**.
 4. Följ ett av de här stegen:
 
-    - Om du valde **Ta foto** följer du stegen nedan:
+   - Om du valde **Ta foto** följer du stegen nedan:
 
-        1. Du är på kameran på den mobila enheten så att du kan ta ett foto av kvittot. 
-        2. När du är klar med fotot väljer du **OK** för att godkänna fotot.
-        3. Valfritt: Ange ett namn på fotot och skriv eventuella anteckningar.
+      1. Du är på kameran på den mobila enheten så att du kan ta ett foto av kvittot. 
+      2. När du är klar med fotot väljer du **OK** för att godkänna fotot.
+      3. Valfritt: Ange ett namn på fotot och skriv eventuella anteckningar.
 
     - Om du valde **Välj bild** följer du stegen nedan:
 
@@ -87,11 +122,11 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
 1. På din mobila enhet, öppna arbetsytan **Utgiftshantering**.
 2. Välj **Post för snabbutgift**.
-3. Välj utgiftens kategori. Du ser en lista över utgiftskategorier som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om kategorin inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter utgiftskategori eller växla till att söka efter utgiftstyp.
+3. Välj utgiftens kategori. Du ser en lista över utgiftskategorier som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om kategorin inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter utgiftskategori eller växla till att söka efter utgiftstyp.
 4. Ange transaktionsdatum för utgiften.
 5. Valfritt: Ange en återförsäljare för utgiften.
 6. Ange belopp för utgiften.
-7. Välj valuta för utgiften. Du ser en lista valutakoder som har lästs in i din app för användning offline. Som standard laddas 400 valutor, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om valutan inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter valuta eller växla till att söka efter namn.
+7. Välj valuta för utgiften. Du ser en lista valutakoder som har lästs in i din app för användning offline. Som standard laddas 400 valutor, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om valutan inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter valuta eller växla till att söka efter namn.
 8. Välj **Ta foto** eller **Välj bild**.
 9. Följ ett av de här stegen:
 
@@ -100,20 +135,20 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
 10. Välj **Utfört**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Godkänn en utgiftsrapport genom att använda mobil arbetsyta för utgiftshantering
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Godkänn en utgiftsrapport med hjälp av mobila arbetsytan utgiftshantering (om du använder uppdateringen från juli 2017)
 
 1. På din mobila enhet, öppna arbetsytan **Utgiftshantering**.
 2. **Utgiftsgodkännanden** visar antalet utgiftsrapporter som har tilldelats dig för godkännande. Antalet uppdateras ungefär var trettionde minut. Välj **utgiftsgodkännanden**.
 
     Listan över utgiftsrapporter som har tilldelats dig för godkännande visas.
-
+    
 3. Välj en utgiftsrapport om du vill visa utgiftsdetaljer för den.
 4. Välj en utgift om du vill visa detaljer för den. I informationen som visas för en utgift ingår all information om kvitto, gäst och specificering.
 5. Sidan **Utgiftsrapport** väljer du om du vill godkänna eller avvisa utgiftsrapporten.
 6. Ange kommentarer för godkännande åtgärden.
 7. Välj **Utfört**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Skapa en ny utgiftsrapport och skicka den för godkännande med hjälp av den mobila arbetsytan för utgiftshantering
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Skapa en ny utgiftsrapport och skicka in det för godkännande med hjälp av mobila arbetsytan utgiftshantering (om du använder uppdateringen från juli 2017)
 
 1. På din mobila enhet, öppna arbetsytan **Utgiftshantering**.
 2. Välj **Utgiftspost**.
@@ -124,11 +159,11 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 7. Markera en eller flera användare i listan.
 8. Välj **Utfört**.
 9. Om du vill lägga till en ny utgift i utgiftsrapporten väljer du **ny utgift**.
-10. Välj kategorin för utgiften. Du ser en lista över utgiftskategorier som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om kategorin inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter utgiftskategori eller växla till att söka efter utgiftstyp.
+10. Välj kategorin för utgiften. Du ser en lista över utgiftskategorier som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om kategorin inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter utgiftskategori eller växla till att söka efter utgiftstyp.
 11. Valfritt: Ange en återförsäljare för utgiften.
 12. Ange transaktionsdatum för utgiften.
 13. Ange belopp för utgiften.
-14. Välj valuta för utgiften. Du ser en lista valutakoder som har lästs in i din app för användning offline. Som standard laddas 400 valutor, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om valutan inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter valuta eller växla till att söka efter namn.
+14. Välj valuta för utgiften. Du ser en lista valutakoder som har lästs in i din app för användning offline. Som standard laddas 400 valutor, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om valutan inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter valuta eller växla till att söka efter namn.
 15. Välj **Utfört**.
 16. Om du vill lägga till fler detaljer i utgiften väljer du **Lägg till fler detaljer**. Vilka fält som är tillgängliga beror på konfigurationen av utgiftshantering för ditt företag.
 17. Om företagspolicyn kräver ett kvitto för utgiften markerar du **inleveranser** och följer sedan stegen nedan:
@@ -151,12 +186,12 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
                     1. Välj en bild i listan.
                     2. Valfritt: Ange ett namn på bilden och skriv eventuella anteckningar.
 
-            3. Välj **Utfört**.
+            3.  Välj **Utfört**.
 
         - Om du valde **bifoga kvitto** följer du stegen nedan:
 
-            1. Välj en eller flera bilder i listan.
-            2. Välj **Utfört**.
+            1.  Välj en eller flera bilder i listan.
+            2.  Välj **Utfört**.
 
     3. Välj **Tillbaka** för att återgå till utgiftsinformationen.
 
@@ -174,12 +209,12 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
         - Om du valde **Tidigare gäster** följer du stegen nedan:
 
-            1. Välj en eller flera tidigare gäster i listan. Du ser en lista över tidigare gäster som du har lagt till i tidigare utgiftsrapporter som läses in i din app för offlineanvändning. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om din tidigare gäster inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter namn eller byt till sökning efter organisation, land eller titel.
+            1. Välj en eller flera tidigare gäster i listan. Du ser en lista över tidigare gäster som du har lagt till i tidigare utgiftsrapporter som läses in i din app för offlineanvändning. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om din tidigare gäster inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter namn eller byt till sökning efter organisation, land eller titel.
             2. Välj **Utfört**.
 
         - Om du valde **medarbetare** följer du stegen nedan:
 
-            1. Välj en eller flera medarbetare i listan. Du ser en lista över medarbetare som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om medarbetare inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter namn eller byt till sökning efter land eller titel.
+            1. Välj en eller flera medarbetare i listan. Du ser en lista över medarbetare som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om medarbetare inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter namn eller byt till sökning efter land eller titel.
             2. Välj **Utfört**.
 
     3. Välj **Tillbaka** för att återgå till utgiftsinformationen.
@@ -188,7 +223,7 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 
     1. Välj det första datum som ska specificeras.
     2. Välj **Lägg till specificera**.
-    3. Välj underkategorin för kostnadsspecificering. Du ser en lista över underkategorier för utgifter som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om underkategorin inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter utgiftens underkategorinamn.
+    3. Välj underkategorin för kostnadsspecificering. Du ser en lista över underkategorier för utgifter som har lästs in i din app för användning offline. Som standard laddas 50 objekt, men en utvecklare kan ändra antalet. För information bör utvecklare läsa [mobil plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Om underkategorin inte finns med i listan väljer du **Sök** för att göra en sökning online. Sök efter utgiftens underkategorinamn.
     4. Ange transaktionsbeloppet för specificering.
     5. Redigera transaktionsdatumet om det behövs.
     6. Välj **Utfört**.
@@ -202,30 +237,5 @@ Hämta och installera mobilappen Dynamics 365 Unified Ops:
 23. Ange kommentarer för godkännare.
 24. Välj **Utfört**.
 
-## <a name="frequently-asked-questions"></a>Vanliga frågor och svar
-
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Varför anger inte mobilappen Utgifter betalningsmetoden som standard?
-
-Organisationer kan anpassa inställningen för **Standardbetalningsmetod** för respektive utgiftskategori när denna skapas. När du anger betalningsmetoder kan du även ange fältet **Standardbetalningsmetod** som **Endast import**.
-
-När **Endast import** har aktiverats för en betalningsmetod, anges inte betalningsmetoden som standard. Fältet blir tomt i utgiftskategorier där betalningsmetoden är konfigurerad. Detta beteende är konsekvent både i webbupplevelsen och i mobilupplevelsen.
-    
-När **Endast import** inte har aktiverats för en betalningsmetod anges det angivna värdet som standard för utgiftskategorier där denna betalningsmetod har konfigurerats. Det finns emellertid ett känt problem där standardvärdet inte anges i mobilappen Utgifter. Du kan lösa problemet genom att manuellt välja en betalningsmetod innan du sparar utgiftsrapporten. 
-
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Varför kan jag inte lägga till eller redigera ekonomiska mått i mobilappen Utgifter?
-
-Det finns inte stöd för att ange mått och distributioner. Du kan kringgå denna begränsning genom att ange dessa fält som standard i mobilappen, detta genom att ange ekonomiska standardmått per projekt eller anställd.
-
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Varför visas ibland ett synkroniseringsfel i mobilappen Utgifter?
-
-Om utgiftsraderna inte uppfyller policykraven och användaren skickar utgiftsrapporten utan att beakta policyvarningen synkroniseras inte mobildata med servern, och ett synkroniseringsfel uppstår. Alla utgiftsrapporter som skickas efter att synkroniseringen har misslyckats får statusen "misslyckades" och orsakar ytterligare synkroniseringsfel. Det enda sättet att åtgärda problemet är att manuellt ta bort synkroniseringsmeddelandena. Detta problem har åtgärdats genom att stoppa inskick av utgiftsrapporter när policyvarningar inte har åtgärdats, vilket gör att synkroniseringsfelen undviks.
-
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Varför återspeglas inte projekt- och kategorivalideringen korrekt i mobilappen Utgifter?
-
-Denna validering stöds för närvarande inte. Stöd för densamma kan emellertid komma att läggas till i framtiden. 
-
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Vilka dokumenttyper stöds i mobilappen Utgifter?
-
-I mobilappen Utgifter finns endast stöd för bilder. Den har för närvarande inte stöd för PDF-filer eller andra dokument.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

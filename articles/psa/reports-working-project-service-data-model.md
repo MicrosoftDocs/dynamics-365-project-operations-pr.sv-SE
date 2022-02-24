@@ -2,6 +2,8 @@
 title: Arbeta med datamodellen Project Service Automation
 description: I det här ämnet finns information om hur du arbetar med datamodellen.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002443"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147675"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeta med datamodellen Project Service Automation
 
@@ -53,7 +55,7 @@ PSA lägger också till nya entiteter som är relaterade till datamodellen Dynam
 
 Andra entiteter som PSA lägger till i offerter är **Prislista för projekt för offertrad**, **Resurskategori för offertrad** och **Transaktionskategori för offertrad**.
 
-![Diagram som visar offert, offertrad och projektrelationer.](media/PS-Reporting-image2.png "Diagram som visar citat, en offertrad och projektrelationer")
+![Diagram som visar citat, en offertrad och projektrelationer](media/PS-Reporting-image2.png "Diagram som visar citat, en offertrad och projektrelationer")
 
 ## <a name="reporting-on-project-contracts"></a>Rapportering om projektkontrakt
 
@@ -69,7 +71,7 @@ PSA lägger också till nya entiteter som är utformade för projektkontrakt. H�
 
 Andra entiteter som PSA lägger till i kontrakt är **Prislista för projektkontraktrad**, **Resurskategori för projektkontraktrad** och **Transaktionskategori för projektkontraktrad**.
 
-![Diagram som visar order, orderrad och projektrelationer.](media/PS-Reporting-image3.png "Diagram som visar order, orderrad och projektrelationer")
+![Diagram som visar order, orderrad och projektrelationer](media/PS-Reporting-image3.png "Diagram som visar order, orderrad och projektrelationer")
 
 ## <a name="reporting-on-projects"></a>Rapportering om projekt
 
@@ -81,7 +83,7 @@ Entiteten **projekt** och den relaterade entiteten är exklusiva till PSA. **Pro
 - **Resurskrav** – den här entiteten innehåller krav för alla generiska resursgruppmedlemmar.
 - **Beräkna** och **Beräkna rad** – de här entiteterna har ett huvud/rad-förhållande och innehåller utgiftsberäkningar för projektet. Uppgiftsberäkningar lagras i entiteten **resursberäkning**.
 
-![Diagram som visar resurskrav och projektrelationer.](media/PS-Reporting-image4.png "Diagram som visar resurskrav och projektrelationer")
+![Diagram som visar resurskrav och projektrelationer](media/PS-Reporting-image4.png "Diagram som visar resurskrav och projektrelationer")
 
 ## <a name="reporting-on-resources"></a>Rapportering av resurser
 
@@ -92,7 +94,7 @@ Projektresurser använder entiteten **Bokningsbar resurs** från Universal Resou
 - **Kategori för bokningsbar resurs** – entiteten representerar den bokningsbara resursens roll.
 - **Bokningar för bokningsbar resurs** – entiteten motsvarar den tid som har bokats på projekt för resursen. Varje bokning har både en huvudentitet och radentiteter och varje rad har en status som representerar bokningens status.
 
-![Diagram som visar relationer mellan bokningsbara resursegenskaper.](media/PS-Reporting-image5.png "Diagram som visar bokningsbara resurser och egenskapsrelationer")
+![Diagram som visar bokningsbara resurser och egenskapsrelationer](media/PS-Reporting-image5.png "Diagram som visar bokningsbara resurser och egenskapsrelationer")
 
 ## <a name="reporting-on-actual-transactions"></a>Rapportering av faktiska transaktioner
 
@@ -120,7 +122,4 @@ När du arbetar med den **faktiska** entiteten är det viktigt att du förstår 
 
 Entitetsposten **Transaktionsursprung** registrerar ursprunget för **faktiska** posten och entiteten **Transaktionskoppling** registrerar relaterade poster för **faktisk** post. Dessutom innehåller den **faktiska** posten refererar till projektet, projektkontraktet (ordern), bokningsbar resurs och kunden.
 
-![Diagram över transaktionsanslutning, ursprung och faktiska relationer.](media/PS-Reporting-image6.png "Diagram över transaktionsanslutning, ursprung och faktiska relationer")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagram över transaktionsanslutning, ursprung och faktiska relationer](media/PS-Reporting-image6.png "Diagram över transaktionsanslutning, ursprung och faktiska relationer")

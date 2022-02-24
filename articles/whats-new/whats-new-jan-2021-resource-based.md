@@ -2,17 +2,19 @@
 title: Nyheter i januari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för januari 2021 för resursscenarier/icke-lagerbaserade scenarier.
 author: sigitac
+manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008113"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958957"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i januari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 
@@ -86,7 +88,4 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.

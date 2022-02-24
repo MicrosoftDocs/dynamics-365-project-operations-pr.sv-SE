@@ -1,24 +1,26 @@
 ---
-title: Bekräfta en proforma projektfaktura
-description: Den ämne information om hur du bekräftar projektbaserade proforma-fakturor i Project Operations.
+title: Bekräfta en proforma-faktura - Lite
+description: I det här ämnet finns information om hur du bekräftar proforma-fakturor i Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992993"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176543"
 ---
-# <a name="confirm-a-proforma-project-invoice"></a>Bekräfta en proforma projektfaktura 
+# <a name="confirm-a-proforma-invoice---lite"></a>Bekräfta en proforma-faktura - Lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 
-När en proforma-faktura har bekräftats uppdateras statusen på projektfakturan till **Bekräftad**. När en faktura har bekräftats blir den skrivskyddad. Framöver kan fakturan endast korrigeras om det finns några korrigeringar eller krediter som initierats av kunden.
+När en proforma-faktura har bekräftats uppdateras statusen på projektfakturan till **Bekräftad**. När en faktura har bekräftats blir den skrivskyddad. I framtiden går det bara att korrigera en faktura om korrigering eller kreditering har inletts av kunden, eller om fakturan har markerats som betald.
 
 I följande tabell visas de faktiska värden som har skapats av systemet. Dessa faktiska värden skapas när vissa operationer utförs i utkastet av projektfakturan innan den bekräftas.
 
@@ -229,70 +231,6 @@ Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Fakturera en materialtransaktion utan att redigera utkastfakturan.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En ofakturerad försäljning för kvantitet och belopp på det ursprungliga godkännandet av materialanvändningen.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-En fakturerad faktisk försäljning för kvantitet och belopp på det ursprungliga godkännandet av materialanvändningen.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturera en materialtransaktion som redigerats för att minska kvantiteten.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En ofakturerad försäljning för kvantitet och belopp på det ursprungliga godkännandet av tidsanvändningen.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som inte är debiterbart för återstående kvantitet och belopp efter att de korrigerade siffrorna har dragits av på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fakturera en materialtransaktion som redigerats för att öka kvantiteten.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-En ofakturerad försäljning för kvantitet och belopp på det ursprungliga godkännandet av materialanvändningen.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Fakturering av en avgift.
                 </p>
             </td>
@@ -335,6 +273,3 @@ Ett fakturerat faktiskt värde för försäljning för produktraden med kvantite
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

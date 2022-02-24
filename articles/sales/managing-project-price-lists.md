@@ -2,9 +2,11 @@
 title: Hantera projektprislistor i en offert
 description: I det här ämne finns information om entiteten för projektets prislista.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003928"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177218"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Hantera projektprislistor i en offert
 
@@ -118,6 +120,3 @@ På samma sätt som med faktureringskostnader är kostnadstariffer för personal
     1. Prislista för självkostnad är kopplad till organisationsenheten.
     2. Prislista för självkostnad är kopplad till Project Operations-parametrarna. Eftersom prislista för självkostnad i många olika valutor kan kopplas till parametrar, slutförs en valutamatchning mellan valutan i den upphandlande organisationsenheten för projektet, kontraktet eller offerten och valutan i prislistan för självkostnad.
     3. För utgifter gäller prissättningsmetoderna Vid kostnad och Pålägg på kostnad inte prislistor för självkostnad. Även om de här prissättningsmetoderna används på rader för prislista för självkostnad för att konfigurera kostnaderna för en transaktionskategori ignoreras de och ingen standardsjälvkostnad anges.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

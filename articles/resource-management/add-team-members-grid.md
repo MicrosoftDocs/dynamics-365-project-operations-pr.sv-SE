@@ -2,16 +2,18 @@
 title: Lägga till teammedlemmar från rutnätet med teammedlemmar
 description: I det här ämnet finns information om hur du hanterar resurser i form av teammedlemmar.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008428"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121555"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Lägga till teammedlemmar från rutnätet med teammedlemmar
 
@@ -198,6 +200,3 @@ När du visar högre tidsnivåer visar har celler i fliken **avstämning** har e
 I situationer där du har uppgiftstilldelningar för en resurs men inga bokningar, på formuläret **Projekt** under fliken **Avstämning**, välj underskott för bokningen och sedan **Utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Dialogrutan visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utanför sin kapacitet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

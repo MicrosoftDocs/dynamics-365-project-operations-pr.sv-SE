@@ -2,17 +2,19 @@
 title: Kostnads- produktbaserade kontraktrader - lite
 description: I det här ämnet finns information om hur du skapar
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997358"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764481"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Kostnads- produktbaserade kontraktrader - lite
 
@@ -28,6 +30,3 @@ När en produktbaserad kontraktrad skapas för en katalogprodukt utgår radkostn
 Syftet med en styckkostnad på en produktbaserad kontraktrad är att det ska vara möjligt att använda olika kostnader för en produkt för varje försäljning av en enhet. Om du inte alltid behöver det finns vissa scenarier där kostnaden för produkten kan rabatteras av leverantören. Föreställ dig följande scenario:
 
 Fabrikam Robotics installerar robotarmar på Adatum Corporations monteringslinjer. Fabrikam tillhandahåller installationstjänster, men robotarmarna är från Trey Research. Om installationen av robotarmar på Adatum Corporation öppnar en ny bransch vertikalt för Trey Research, kan de ge Fabrikam en särskild rabatt för den här affären. I det här fallet skapar Fabrikam en produktbaserad kontraktrad för Robotic Arms. En kostnad per enhet anges för detta kontrakt. Kostnaden skiljer sig från kostnaden för robotarmar från Trey Research.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

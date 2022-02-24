@@ -2,16 +2,18 @@
 title: Hantera flera kunder i projektkontrakt
 description: I det här ämnet finns information om hur du hanterar flera kunder i ett projektkontrakt.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992093"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643195"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Hantera flera kunder i projektkontrakt
 
@@ -45,6 +47,3 @@ Du kan skapa, uppdatera eller radera en kontraktskund från fliken **Kontraktsku
 Du kan redigera faktureringsdelningsprocenten i rutnätet. När den totala faktureringsdelningsprocenten inte uppgår till 100 procent genereras ett felmeddelande. När du har redigerat faktureringsdelningsprocenten uppdaterar du sidan **Projektkontrakt** för att avlägsna felet.
 
 Du kan också välja **Fördela jämnt** i underrutnätet för projektkontraktskunder. Faktureringsdelningar allokeras till samtliga kunder i projektkontraktet. Om det finns någon avrundningsfaktor kommer denna att läggas till i den avrundade kunden. En av kontraktskunderna har alltid flaggan **Avrundning** inställd på **Ja**. Den kunden är avrundningskunden. Vanligtvis är avrundningskunden också den primära kunden i kontraktet, men detta krävs inte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Projektmallar
 description: I det här ämnet finns information om hur du använder projektmallar för att snabbkonfigurera projekt.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002533"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148080"
 ---
 # <a name="project-templates"></a>Projektmallar 
 
@@ -47,7 +49,7 @@ Det finns flera sätt att skapa ett projekt från en projektmall:
 
 - När du skapar ett projekt från en offert kan du välja en projektmall i dialogrutan **Snabbregistrering: projekt**.
 
-> ![Snabbregistrering: dialogrutan Projekt.](media/project-11.png)
+> ![Snabbregistrering: dialogrutan Projekt](media/project-11.png)
 
 - När du skapar ett projekt genom att välja **Nytt projekt**, visas sidan **Projekt** innan posten sparas. I fältet **Välj en mall** väljer du en av de fördefinierade projektmallarna i organisationen.
 - Använd **Skapa projekt från en mall** på sidan **Mallentitet**.
@@ -67,6 +69,3 @@ När du kopierar över beräkningsrader för projekt uppdateras prislistorna. F�
 ### <a name="copying-a-project-team"></a>Kopiera ett projektteam
 
 När ett projektgrupp kopieras från en projektmall till ett projekt, kopieras de generiska resurserna tillsammans med de färdigheter och färdigheter som definieras i mallen. Allmänna resurstilldelningar hanteras också i projektmallen. Namngivna resurser stöds inte i projektmallar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

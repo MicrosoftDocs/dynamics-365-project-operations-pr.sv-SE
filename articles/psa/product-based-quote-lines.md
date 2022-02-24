@@ -2,6 +2,8 @@
 title: Produktbaserade offertrader
 description: I det här ämnet finns information om produktbaserade offertrader.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008608"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151275"
 ---
 # <a name="product-based-quote-lines"></a>Produktbaserade offertrader
 
@@ -58,7 +60,7 @@ Om du anger det här fältet till **Åsidosätt prissättning** anger Dynamics 3
 
 När du har installerat PSA anges standardförsäljningspriserna på de produktbaserade raderna i en offert. Fältet **Prissättning** anges sedan till **åsidosätta prissättning** så att du kan redigera standardpriset på offertraderna.
 
-> ![Ställa in åsidosätta prissättning.](media/basic-guide-10.png)
+> ![Ställa in åsidosätta prissättning](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Kvantitetsfaktorer för produkter
 
@@ -78,8 +80,5 @@ Dynamics 365 kan till exempel ha följande egenskaper:
 
 Egenskaperna **Antal användare** och **Antal för månader** kan flaggas som kvantitetsrapporter genom att egenskaperna för produktraden redigeras. 
 
-> ![Flagga antalet användare och månader som kvalitetsfaktorer.](media/basic-guide-11.png)
+> ![Flaggantalet användare och inga månader som kvalitetsfaktorer](media/basic-guide-11.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

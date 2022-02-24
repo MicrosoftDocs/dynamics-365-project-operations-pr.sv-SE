@@ -2,16 +2,18 @@
 title: Standardvärden för ekonomisk dimension
 description: I det här ämnet finns information om hur du ställer in standardvärden för ekonomiska dimensioner.
 author: sigitac
-ms.date: 12/14/2021
+manager: Annbe
+ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922960"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642385"
 ---
 # <a name="financial-dimension-defaults"></a>Standardvärden för ekonomisk dimension
 
@@ -19,7 +21,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations använder ramverket [finansiella dimensioner](/dynamics365/finance/general-ledger/financial-dimensions) i Dynamics 365 Finance i syfte att ge ytterligare insikter i projektredovisning och redovisningstransaktioner.
+Dynamics 365 Project Operations använder ramverket [finansiella dimensioner](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) i Dynamics 365 Finance i syfte att ge ytterligare insikter i projektredovisning och redovisningstransaktioner.
 
 Det går att ange ekonomiska standarddimensioner för en kund, projektfinansieringskälla, milstolpe, projektkontraktrad eller projekt.
 
@@ -60,15 +62,3 @@ Projekt skapas och underhålls i CDS. Redovisningsproviders för projekt anges i
 4. Ange standardvärden för ekonomisk dimension. Observera att de ekonomiska dimensionerna standard från kundkontot. Om projektet är associerat med en kontraktrad med flera projektkontraktkunder används den primära kunden för att standardisera ekonomiska dimensioner.
 
 Projektets ekonomiska standarddimensioner används för att ange standard för journalrader för tid-, utgifts- och avgiftstransaktioner i **Project Operations integrationsjournalen** och på relaterade projekt fakturarader.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Använda ekonomiska mått för projekttidsposter
-Om du vill använda ekonomiska mått för projekttidsposter ska du tänka på att standardvärdet baseras på följande ordning:
-
-1. Resurs
-2. Project
-3. Finansieringskälla
-
-Om standardvärdena anges för en resurs tillämpas den över en standard som anges för projektet. På samma sätt tillämpas ett standardprojektvärde över standardvärdet som anges i finansieringskällan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

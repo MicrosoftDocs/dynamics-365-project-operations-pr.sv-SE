@@ -2,22 +2,24 @@
 title: Konfigurera Project Operations-integrering efter juridisk person
 description: I det här ämnet finns information om hur du konfigurerar integrering efter juridisk person i Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999428"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122905"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurera Project Operations-integrering efter juridisk person 
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-Det ämne genom stegen som krävs för att konfigurera Dynamics 365 Project Operations per juridisk entitet.
+I det här ämnet får du stegvisa anvisningar om hur du konfigurerar Dynamics 365 Project Operations per juridisk person.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Aktivera funktionsnycklar i Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Varje juridisk person som använder Project Operations i Dynamics 365 Customer E
   - **Standard för faktureringstyp**: Project Operations använder en fast uppsättning standardfaktureringstyper som måste mappas till egenskaper i Finance. Skapa en post för varje faktureringstyp: **Inte angiven**, **Debiterbar**, **Inte debiterbar**, **Kostnadsfri** och **Ej tillgänglig**.
   - **Standardprojektkategori**: Välj de projektkategorier som ska användas som standard för varje transaktionstyp. De här standardvärdena används i **Project Operations integreringsjournal** och i uppskattningar där ingen transaktionskategori har angetts för projektets faktiska värden.
   - **Prognoser**: Välj vilken prognosmodell som ska användas för uppskattning av tid och utgifter.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

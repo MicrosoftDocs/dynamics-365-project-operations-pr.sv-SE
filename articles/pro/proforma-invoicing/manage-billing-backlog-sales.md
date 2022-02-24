@@ -1,19 +1,21 @@
 ---
-title: Hantera eftersläpad projektfakturering
-description: Den ämne innehåller information om de olika vyer som är tillgängliga för hantering av eftersläpande fakturering för projekt.
+title: Hantera faktureringen som släpat efter - lite
+description: I det här ämnet finns information om de olika vyer som kan användas för att hantera förväntad fakturering.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988313"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176993"
 ---
-# <a name="manage-project-billing-backlog"></a>Hantera eftersläpad projektfakturering 
+# <a name="manage-the-billing-backlog---lite"></a>Hantera faktureringen som släpat efter - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -58,6 +60,3 @@ Ej fakturerade försäljningsvärden med statusen **Undre gräns** som **Misslyc
 Om kontraktrader för flera kunder har en faktureringsmetod för tid och material, när tid och utgifter godkänns, skapas en ofakturerad faktisk försäljning för varje kund på kontraktraden enligt den faktureringsdelningsprocent som angetts för varje kund. I vyn **Eftersläpad fakturering av tid och material**, kommer du att se dessa individuella kundspecifika, ej fakturerade försäljningsvärden. Vart och ett av dessa ofakturerade faktiska värden för försäljning kan markeras som **Klart att fakturera** separat från den här vyn.
 
 Ett ej fakturerat försäljningsvärde som finns på ett utkast till en faktura visas i den här vyn med faktureringsstatus för **kundfakturan har skapats**. När utkastfakturan bekräftas uppdateras faktureringsstatusen för den här posten till **Kundfaktura har bokförts**. Uppdatera inte det här statusvärdet med hjälp av anpassad kod. Project Operations fungerar inte korrekt när dessa statusvärden uppdateras med anpassad kod.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

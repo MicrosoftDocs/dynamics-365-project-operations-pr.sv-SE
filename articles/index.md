@@ -2,43 +2,43 @@
 title: Dynamics 365 Project Operations
 description: I det här ämne finns information om Dynamics 365 i projektåtgärder.
 author: stsporen
+manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.search.scope: ''
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988403"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120835"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations kopplar samman försäljnings-, resurs-, projektledning- och ekonomiteam i en enda app för att vinna fler erbjudanden, påskynda projektleverans och maximera lönsamheten.
+Microsoft Dynamics 365 Project Operations kopplar samman team för försäljning, resurser, projektledning och ekonomi i ett enda program för att ta hem fler affärer, snabba på projektleveransen och maximera lönsamheten.
 
 -   **Ledare får affärsinsikter** för att öka synligheten för alla team, data och processer samt AI-funktioner för bättre och snabbare affärsbeslut.
 -   **Försäljning har aktiverats** för att ta hem fler affärer och påskynda försäljningscykeln med snabba och korrekta offerter, flexibla priser och sömlösa övergångar från uppskattning till körning.
--   **Resurser har konfigurerats för att optimera** resursanvändningen genom att få rätt personer med rätt kompetens till rätt projekt. Anpassningen förbättrar kvaliteten och bidrar till att behålla de bäst presterande.
+-   **Resurser har konfigurerats för att optimera** resursanvändningen genom att få rätt personer med rätt kompetens till rätt projekt. Detta förbättrar kvaliteten och hjälper till att behålla de bäst presterande.
 -   **Projektledarna kan påskynda** projektleveransen med den moderna, inbyggda projekthanteringen som använder välkända och lättanvända Microsoft Project-funktioner.
 -   **Teammedlemmar kan förbättra produktiviteten**, samarbetet och synligheten genom integration med Microsoft Teams och skicka tid och utgifter från valfri plats.
 -   **Med finansiering kan du förenkla projektredovisning** med styrning av tids- och utgiftsspårning, projektkostnader, budgetering, fakturering, intäktsredovisning, efterlevnad och insyn i viktiga affärshälsomått.
 
-Project Operations är kraftfullt på egen hand, men kan expanderas av våra kunder som behöver fler funktioner från Dynamics 365. Funktionerna omfattar bland annat marknadsföring, personal, kundtjänst med mera. Oavsett om du vill lägga till funktioner i ett annat Dynamics 365-program eller lägga till i ett anpassat program som skapats med Power Apps, fungerar allt tillsammans och fungerar som förväntat eftersom de har gemensam grund som ger en säker, privat och standardiserad molnlösning.
+Project Operations är kraftfullt i sig, men kan utökas av våra kunder som behöver ytterligare funktioner från Dynamics 365. Detta omfattar bland annat marknadsföring, personal och kundtjänst. Oavsett om du vill använda fler funktioner i ett annat Dynamics 365-program eller om du vill lägga till i ett anpassat program som är byggt med Power Apps, fungerar allting tillsammans och fungerar som du förväntar dig eftersom de har en gemensam grund för en säker, privat och kompatibel molnlösning.
 
 Mer information finns i:
 
 - [Översikt över Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Översikt över Dynamics 365 Project Operations 2020 utgivningscykel 1](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Översikt över Dynamics 365 Project Operations 2020 utgivningscykel 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

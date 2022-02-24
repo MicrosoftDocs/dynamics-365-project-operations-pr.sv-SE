@@ -2,22 +2,24 @@
 title: Importera en beräkning till en projektbaserad kontraktrad - lite
 description: I det här ämnet finns information om hur du importerar ekonomiska uppskattningar från ett projekt till en kontraktrad.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997268"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177488"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importera en beräkning till en projektbaserad kontraktrad - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-I Dynamics 365 Project Operations kan du importera beräkningar från ett projekt till en projektbaserad kontraktrad.
+I Dynamics 365 Project Operations kan du importera uppskattningar från ett projekt till en projektbaserad kontraktrad.
 
 1. Kontrollera att fältet **Projekt** på den projektbaserade kontraktraden är ifyllt.
 2. Under fliken **Kontraktradsinformation** i underrutnätet väljer du **Importera från projektuppskattning**. En dialogruta med sammanfattningsalternativ öppnas. De tillgängliga alternativen för sammanfattning är **Transaktionsklass**, **Kategori**, **Roll** och **Projektuppgift**.
@@ -58,6 +60,3 @@ När användaren väljer att sammanfatta efter **Transaktionsklass**, **Kategori
 | Uppgift A | Flyg | 10/1/2020 | 4 | 400 | 1600 |
 | Uppgift B | Hotell | 10/1/2020 | 4 | 200 | 800 |
 | Uppgift C | Hotell | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

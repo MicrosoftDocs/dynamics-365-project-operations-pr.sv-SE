@@ -2,6 +2,8 @@
 title: Hantera resurser
 description: I det här ämnet finns information om hur du hanterar resurser.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998528"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151365"
 ---
 # <a name="manage-resources"></a>Hantera resurser
 
@@ -58,34 +60,34 @@ Följ stegen nedan för att ange vilka kunskaper som krävs på en generisk resu
 
 1. På sidan **projekt** på fliken **team** väljer du **ny** för att boka en generisk resurs.
 
-    ![Allmänna resurser bokade i teamet.](media/Resource-Management-image9.png)
+    ![Allmänna resurser bokade i teamet](media/Resource-Management-image9.png)
 
 2. I vyn **Alla teammedlemmar** i kolumnen **Resurskrav** väljer du länk om du vill lägga till obligatoriska kunskaper för den generiska resursen.
 
-    ![Kravlänk.](media/Resource-Management-image10.png)
+    ![Kravlänk](media/Resource-Management-image10.png)
 
 3. På sidan **Resurskrav** som visas i rutnätet **Färdigheter** välj sedan ellipsen (**...**) och sedan **Lägg till ny kravegenskap** för att lägga till nödvändiga färdigheter för din utvecklare.
 
-    ![Kommandot Lägg till ny kravegenskap.](media/Resource-Management-image11.png)
+    ![Kommandot Lägg till ny kravegenskap](media/Resource-Management-image11.png)
 
 4. I dialogrutan **Snabbregistrering: Kravegenskap** som visas väljer du önskad färdighet i fältet **egenskap**. I fältet **värderingsvärde** väljer du sedan önskad kompetensnivå för den färdigheten. Slutligen, i fältet **Resurskrav** anger du behovet av källresurser från organisationsenheter eller till och med namngivna resurser. När du är klar väljer du **Spara**.
 
-    ![Snabbregistrering: dialogrutan Kravegenskap.](media/Resource-Management-image12.png)
+    ![Snabbregistrering: dialogrutan kravegenskap](media/Resource-Management-image12.png)
 
 5. På sidan **Resurskrav**, välj **Boka** för att uppfylla resursbehovet.
 
-    ![Knappen Boka på sidan Resurskrav.](media/Resource-Management-image13.png)
+    ![Knappen Boka på sidan Resurskrav](media/Resource-Management-image13.png)
 
     Du kan också markera den allmänna resursen i rutnätet **alla teammedlemmar** och väljer sedan **boka**.
 
-    ![Knappen Boka ovanför rutnätet Alla teammedlemmar.](media/Resource-Management-image14.png)
+    ![Knappen Boka ovanför rutnätet Alla teammedlemmar](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > I det här exemplet finns 40 obligatoriska timmar men inga egentliga timmar eftersom allmänna resurser inte har några bokningar. Det finns inte heller några tilldelade timmar eftersom den allmänna resursen lades till direkt i teamet. Du lades inte till med hjälp av tilldelning av uppgifter.
 
     På sidan **schemaläggningsassistent** kan du filtrera tillgängliga resurser utifrån de krav som anges i resursbehovet. Resurserna sorteras enligt de sorteringsparametrar som anges på schemaläggningstavlan.
 
-    ![Sidan Schemaläggningsassistenten.](media/Resource-Management-image15.png)
+    ![Sidan Schemaläggningsassistenten](media/Resource-Management-image15.png)
 
     Här följer några filter som ofta används:
 
@@ -95,23 +97,23 @@ Följ stegen nedan för att ange vilka kunskaper som krävs på en generisk resu
 
 6. Om du inte är nöjd med resultatet av den första kravsökningen kan du ändra filtervillkoren. Expandera rutan **filtervy** till vänster och välj sedan **Sök** efter ytterligare resurser.
 
-    ![Fönstret Filtervy.](media/Resource-Management-image16.png)
+    ![Fönstret Filtervy](media/Resource-Management-image16.png)
 
 7. Om du vill ändra hur resultatet sorteras väljer du **sortera**.
 
-    ![Kommandot Sortera.](media/Resource-Management-image17.png)
+    ![Kommandot Sortera](media/Resource-Management-image17.png)
 
 8. Välj resurser enligt den begäran som anges på kravet, som anges längst upp på rutnätet. Du kan radera urvalet av celler i rutnätet och låta den öppna resurskapaciteten vara öppen. Det går bara att markera en resurs åt gången som bokad.
 
 9. Välj **boka** om du vill boka den valda resursen och låta schemaläggningstavlan vara öppen så att du kan välja ytterligare resurser. Du kan också välja **Boka och avsluta** om du vill boka den valda resursen och stänga schemaläggningstavlan.
 
-    ![Resurs att boka.](media/Resource-Management-image19.png)
+    ![Resurs att boka](media/Resource-Management-image19.png)
 
     Du får ett meddelande om bokade timmar. Begäranindikatorerna illustrerar hur mycket av bokningskravet som är uppfyllt och hur mycket som återstår. Du kan också se hur mycket av den valda resurskapaciteten som förbrukas. Välj **expandera** om du vill visa mer information om resursbokningar.
 
 9. Gå tillbaka till vyn **Alla teammedlemmar**. Observera att den allmänna resursen i rutnätet har ersatts av den namngivna resursen och 40 timmar har ställts in som bokad för resursen.
 
-    ![Uppdaterat rutnät för Alla teammedlemmar.](media/Resource-Management-image20.png)
+    ![Uppdaterat rutnätet för alla teammedlemmar](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Inga timmar visas eftersom de har bokats direkt i teamet. De har inte bokats med hjälp av tilldelning av uppgifter.
@@ -122,15 +124,15 @@ Du kan skapa uppgifter i PSA och sedan tilldela dem allmänna resurser. På det 
 
 1. På sidan **projekt** på fliken **schema** väljer du **lägg till** för att skapa en uppgift.
 
-    ![Ny uppgift skapad.](media/Resource-Management-image21.png)
+    ![Ny uppgift skapad](media/Resource-Management-image21.png)
 
 2. I fältet **Resurser**, välj symbolen **Resursväljare**. Resursväljaren visas och visar befintliga teammedlemmar för projektet.
 
-    ![Resursväljare.](media/Resource-Management-image22.png)
+    ![Resursväljare](media/Resource-Management-image22.png)
 
 3. Ange namnet på den nya generiska resursen och välj sedan **skapa**.
 
-    ![Namnet på en ny generisk resurs angavs.](media/Resource-Management-image23.png)
+    ![Namnet på en ny generisk resurs angavs](media/Resource-Management-image23.png)
 
 4. I dialogrutan **Snabbregistrering: Projektteammedlem** som visas väljer du roll för generisk resurs i fältet **roll**. I fältet **Resursenhet** väljer du organisationsenhet för den generiska resursen. Välj sedan **Spara**.
 
@@ -138,56 +140,56 @@ Du kan skapa uppgifter i PSA och sedan tilldela dem allmänna resurser. På det 
 
     Den generiska teammedlemmen har nu tilldelats till aktiviteten.
 
-    ![Den generiska teammedlemmen som har tilldelats aktiviteten.](media/Resource-Management-image25.png)
+    ![Den generiska teammedlemmen har tilldelats till aktiviteten.](media/Resource-Management-image25.png)
 
     På fliken **team** visas den nya generiska teammedlemmen. Observera att det endast har tilldelats timmar. De här timmarna är summan av alla uppgifter som är tilldelade till den generiska teammedlemmen. Den generiska teammedlemmen har ännu inte krävt några timmar eller ett resurskrav.
 
-    ![Generisk teammedlem på fliken Team.](media/Resource-Management-image26.png)
+    ![Generisk teammedlem på fliken team](media/Resource-Management-image26.png)
 
 5. Du kan nu tilldela den generiska teammedlemmen till andra uppgifter med hjälp av resursväljaren.
 
-    ![Generisk teammedlem i Resursväljaren.](media/Resource-Management-image27.png)
+    ![Generisk team medlem i resursväljaren](media/Resource-Management-image27.png)
 
     När du har tilldelat generisk resurs till uppgiften kan du skapa ett resurskrav för den generiska resursen.
 
 5. På fliken **Team**, välj den generiska resursen och välj sedan **generera krav**.
 
-    ![Kommandot Generera krav.](media/Resource-Management-image28.png)
+    ![Kommandot Generera krav](media/Resource-Management-image28.png)
 
     När kravet skapas får den generiska teammedlemmen obligatoriska timmar och en länk för resurskravet.
 
-    ![Länk för resurskrav.](media/Resource-Management-image29.png)
+    ![Länk för resurskrav](media/Resource-Management-image29.png)
 
     När du har bokat en namngiven resurs tas den allmänna resursen bort från teamet och ersätts av den namngivna resursen.
 
-    ![Den generiska resursen som ersätts av den namngivna resursen.](media/Resource-Management-image30.png)
+    ![Den generiska resursen ersätts av den namngivna resursen](media/Resource-Management-image30.png)
 
     På fliken **Schema** tas den generiska resurstilldelningar och ersätts av den namngivna resursen på fliken schema.
 
-    ![Generiska resurstilldelningar som ersätts av den namngivna resursen på fliken Schema.](media/Resource-Management-image31.png)
+    ![Generiska resurstilldelningar som ersätts av den namngivna resursen på fliken schema.](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > Det här problemet uppstår endast när en namngiven resurs är helt bokad för generiska resurskrav. När en namngiven resurs delvis ersätter det generiska resurs behovet eller flera namngivna resurser ersätter det allmänna resurs behovet, förblir den allmänna resursen tilldelad aktiviteten.
 
     I följande bild har en 80-timmars uppgift planerats för en varaktighet på fem dagar (16 timmar per dag över fem dagar) och tilldelats den generiska resurs som kallas **funktionell**.
 
-    ![80-timmars, fem dagars uppgift tilldelad den generiska resursen Funktionell.](media/Resource-Management-image32.png)
+    ![80-timmars, fem dagars uppgift tilldelad till den funktionella generiska resursen](media/Resource-Management-image32.png)
 
     När du genererar kravet är det för 80 timmar i fem dagar.
 
-    ![Krav som genereras för 80 timmar i fem dagar.](media/Resource-Management-image33.png)
+    ![Krav som genereras för 80 timmar i fem dagar](media/Resource-Management-image33.png)
 
     Eftersom tillgängliga resurser endast arbetar åtta timmar per dag krävs det två resurser för att uppfylla kravet.
 
-    ![Andra resursen.](media/Resource-Management-image35.png)
+    ![Andra resursen](media/Resource-Management-image35.png)
 
     På fliken **team** kan du nu se att den allmänna resursen inte har några obligatoriska timmar, men att de tilldelade timmarna fortfarande visas tillsammans med de två namngivna resurser som utgör uppfyllandet.
 
-    ![Två namngivna resurser på fliken Team.](media/Resource-Management-image36.png)
+    ![Två namngivna resurser på fliken Team](media/Resource-Management-image36.png)
 
     På fliken **schema** har den allmänna resursen fortfarande tilldelats uppgiften.
 
-    ![Generiska resurser på fliken Schema.](media/Resource-Management-image37.png)
+    ![Generiska resurser på fliken Schema](media/Resource-Management-image37.png)
 
 PSA tilldelar inte båda resurserna till uppgiften eftersom det kan ge ett mindre förutsägbart schema. I det här enkla exemplet är det enkelt att fördela timmarna lika mellan två resurser. I mer komplexa scenarier med flera uppgifter och flera resurser måste PSA emellertid göra antagandet om hur den bör allokera de bokningar som tas emot för flera resurser i flera olika uppgifter.
 
@@ -219,13 +221,13 @@ När du har lagt till en allmän eller namngiven resurs i ett projektteam kan du
 
 1. På sidan **Projekt** på fliken **Team** väljer du en teammedlem och sedan **Underhåll bokningar**.
 
-    ![Schemaläggningstavlan öppnas för den valda teammedlemmen.](media/Resource-Management-image40.png)
+    ![Schemaläggningstavlan öppnas för den valda teammedlemmen](media/Resource-Management-image40.png)
 
     Schemaläggningstavla visas och visar projektmedlemmens bokningar. Expandera teammedlemmens post om du vill visa vilka tider som har bokats i projektet och andra projekt som konsumerar teammedlemmens kapacitet.
 
 2. Välj och dra bokningen för att utöka eller förkorta den. Dialogrutan **Skapa resursbokning** öppnas där du kan justera bokningen.
 
-    ![Dialogrutan Skapa resursbokning.](media/Resource-Management-image41.png)
+    ![Dialogrutan Skapa resursbokning](media/Resource-Management-image41.png)
 
 3. Högerklicka på bokningen. Sedan kan du använda snabbmenyn för att utföra följande åtgärder:
 
@@ -237,7 +239,7 @@ När du har lagt till en allmän eller namngiven resurs i ett projektteam kan du
 
 Du kan ändra vilken status som helst för alla standard- eller anpassade bokningar.
 
-![Kommandot Ändra status.](media/Resource-Management-image42.png)
+![Kommandot Ändra status](media/Resource-Management-image42.png)
 
 Följande statusar ingår i PSA:
 
@@ -257,25 +259,25 @@ Resursbegäran används för att bära en begäran (resurskrav) som måste uppfy
 
 När ett resurskrav skapas kan en projektledare skicka en resursbegäran för en generisk resurs genom att välja resursen och sedan välja **skicka begäran**.
 
-![Knappen Skicka begäran.](media/Resource-Management-image45.png)
+![Knappen Skicka begäran](media/Resource-Management-image45.png)
 
 Kommentarer om resursen kan ges till den resursansvarige som uppfyller begäran. När begäran har skickats ändras fältet **status** för teammedlemmen till **skickad**.
 
-![Ange valfria kommentarer.](media/Resource-Management-image46.png)
+![Ange valfria kommentarer](media/Resource-Management-image46.png)
 
 När resursansvarig fullföljer begäran ersätts den generiska teammedlemmen av den namngivna resursen i rutnätet **alla teammedlemmar**.
 
-![En generisk teammedlem som ersatts av den namngivna resursen i rutnätet Alla teammedlemmar.](media/Resource-Management-image47.png)
+![En generisk teammedlem som ersatts av den namngivna resursen i rutnätet alla teammedlemmar](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Använda ett resursförslag för resursbegäran
 
 I stället för att direkt boka en resurs i en resursbegäran kan en resursansvarig föreslå projektresurs till projektledare. En resursansvarig kan använda det här alternativet om en exakt matchning för kraven inte är tillgänglig. När en resursansvarig föreslår en resurs ser projektledare fältet **status** för den allmänna teammedlemmen ändras till **Måste granskas**.
 
-![Den generiska teammedlemmens status ändras till Måste granskas.](media/Resource-Management-image48.png)
+![Den generiska teammedlemmens status ändras till Måste granskas](media/Resource-Management-image48.png)
 
 Om du vill visa den föreslagna resursen tillsammans med en visualisering av effekten av förslagets bokning, dubbelklickar du på den teammedlem som har statusvärdet **Måste granskas**. Välj sedan fliken **föreslagna resurser**.
 
-![Fliken Föreslagna resurser.](media/Resource-Management-image49.png)
+![Fliken Föreslagna resurser](media/Resource-Management-image49.png)
 
 Markera **acceptera alla förslag** för att acceptera alla föreslagna resurser eller **avvisa alla förslag** för att avvisa dem. Om du accepterar de föreslagna resurserna är de fast bokade i projektet som teammedlemmar och ersätter generiska resurser.
 
@@ -289,26 +291,26 @@ Ibland måste en projektledare ersätta en teammedlem i ett projekt.
 1. På sidan **Projekt** på fliken **Team** väljer du den resurs som behöver en ersättning och sedan **Underhåll bokningar**.
 2. Expandera resursen om du vill visa de projekt som den är tilldelad till.
 
-    ![Resurs utökad för att visa tilldelade projekt.](media/Resource-Management-image50.png)
+    ![Resurs utökad för att visa tilldelade projekt](media/Resource-Management-image50.png)
 
 3. Högerklicka på projektet och välj sedan **Ersättningsresurs**.
 4. Om du känner till den resurs du vill ersätta den aktuella resursen med markerar du eller skriver namnet och väljer sedan **tilldela igen**.
 
-    ![Ange en ersättningsresurs.](media/Resource-Management-image51.png)
+    ![Ange en ersättningsresurs](media/Resource-Management-image51.png)
 
     Du kan också söka efter en resurs genom att följa stegen nedan:
 
     1. Välj **Sök ersättning**.
 
-        ![Söka efter en ersättningsresurs.](media/Resource-Management-image52.png)
+        ![Söka efter en ersättningsresurs](media/Resource-Management-image52.png)
 
         Schemaassistenten visar en lista över tillgängliga ersättningar. I schemaläggningsassistenten kan du ytterligare filtrera tillgängliga resurser för att hitta en lämplig ersättare.
 
-        ![Lista över tillgängliga ersättare.](media/Resource-Management-image53.png)
+        ![Lista över tillgängliga ersättare](media/Resource-Management-image53.png)
 
     2. För att ersätta resursen, välj resursen och välj **ersättare**.
 
-        ![Vald ersättningsresurs.](media/Resource-Management-image54.png)
+        ![Vald ersättningsresurs](media/Resource-Management-image54.png)
 
     Bokningarna och tilldelningarna ersätts med den nya resursen.
 
@@ -320,7 +322,7 @@ För teammedlemmar kombineras inte bokningar och tilldelningar är löst kopplad
 
 PSA har fliken **avstämning** låter projektledarna avstämma teammedlemmarnas bokningar och deras tilldelningar för sina projektteam.
 
-![Fliken Avstämning.](media/Resource-Management-image56.png)
+![Fliken Avstämning](media/Resource-Management-image56.png)
 
 Fliken **avstämning** visar bokningar och tilldelningar ned till nivån för enskilda uppgiftstilldelningen för varje teammedlem. Den visar antalet timmar i celler som kan representera tidsperioder från månader ned till dagar.
 
@@ -335,13 +337,10 @@ I vissa fall kan du se en nettoskillnad i noll för en resurs (t.ex. månadsniv�
 
 När du visar högre tidsnivåer visar har celler i fliken **avstämning** har en indikator som meddelar att det finns olikheter på lägre nivåer. Genom att dubbelklicka i en cell kan du zooma in för att visa skillnaden. Du kan sedan högerklicka för att zooma ut. Genom att välja en resurs och sedan använda kontrollen **nästa skillnad** i verktygsfältet i rutnätet kan du gå vidare till nästa skillnad mellan bokningar och tilldelningar för resursen. Därefter kan du använda kontrollen **föregående skillnad** för att gå tillbaka. Du kan också inaktivera skillnadsindikator och navigeringsbeteende under **inställningar**.
 
-![Skillnadsindikator.](media/Resource-Management-image57.png)
+![Skillnadsindikator](media/Resource-Management-image57.png)
 
 I situationer där du har aktivitetstilldelningar för en resurs men inga bokningar, på sidan **Projekt** på fliken **Avstämning**, välj underskott för bokningen och sedan **utöka bokning**. I dialogrutan **utöka bokning** visas och visar den bokning som behövs för att lösa resursens underskott. Den visar även resursens befintliga bokningar för alla projekt eller andra schemalagda entiteter. Om du väljer **OK** för att skapa bokningen för resursen, oavsett resursens tillgänglighet, kan det leda till överbokning.
 
-![Dialogrutan Utöka bokning.](media/Resource-Management-image58.png)
+![Dialogrutan utöka bokning](media/Resource-Management-image58.png)
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utanför sin kapacitet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

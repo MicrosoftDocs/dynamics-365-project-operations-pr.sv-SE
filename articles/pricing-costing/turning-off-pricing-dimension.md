@@ -2,9 +2,11 @@
 title: Inaktivera en prissättningsdimension
 description: I det här ämnet finns information om hur du inaktiverar prissättningsdimensioner.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994523"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650071"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Inaktivera en prissättningsdimension
 
@@ -32,17 +34,14 @@ Inaktivera en prissättningsmodell, oavsett om den är slut eller anpassad kan g
 
 Men när du gör detta kan felmeddelandet visas, **prisdimensionen kan inte uppdateras eller tas bort om det finns associerade prisposter.**
 
-![Affärsprocessfel som uppstår när en prissättningsdimension stängs av.](media/Business-Process-Error.png)
+![Affärsprocessfel som uppstår när en prissättningsdimension stängs av](media/Business-Process-Error.png)
 
 Det här felmeddelandet anger att det finns prissättningsposter som har ställts in tidigare för den dimension som ska stängas av. Alla poster för **Rollpris** och **Pålägg för rollpris** som refererar till en dimension måste tas bort innan dimensionens tillämpbarhet kan ställas in på **Nej**. Den här regeln gäller både för medföljande prissättningsdimensioner och för de prissättningsdimensioner som du har skapat. Anledningen till att validera är att varje post för **rollpris** måste ha en unik kombination av dimensioner. Till exempel en prislista med namnet **amerikansk kostnadstaxan 2018** har du följande rader för **rollpris**. 
 
 | Standardrubrik         | Organisationsenhet    |Enhet   |Pris  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Systemtekniker|Contoso US|timme| 100|USD|
-| Senior systemtekniker|Contoso US|timme| 150| USD|
+| Systemtekniker|Contoso US|Timme| 100|USD|
+| Senior systemtekniker|Contoso US|Timme| 150| USD|
 
 
-När du stänger av **Standardrubrik** som prissättningsdimension och prissättningsmotor söker efter ett pris används endast värdet för **organisationsenhet** från inmatningskontexten. Om **Org.enhet** i inmatningskontexten är “Contoso US”, blir resultatet inte entydigt eftersom båda raderna överensstämmer. För att undvika det här scenariot när du skapar posten **Rollpris** bekräftar systemet att kombinationen av dimensioner är unik. Om dimensionen inaktiveras efter att posten **Rollpris** har skapats kan den här begränsningen brytas. Därför är det nödvändigt att innan du stänger av en dimension, tar bort alla rader för **Rollpris** och **Rollprispålägg** som har det dimensionsvärdet ifyllt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+När du stänger av **Standardrubrik** som prissättningsdimension och prissättningsmotor söker efter ett pris används endast värdet för **organisationsenhet** från inmatningskontexten. Om **organisationsenhet** i inmatningskontexten är "Contoso US" är resultatet inte entydigt eftersom båda raderna överensstämmer. För att undvika det här scenariot när du skapar posten **Rollpris** bekräftar systemet att kombinationen av dimensioner är unik. Om dimensionen inaktiveras efter att posten **Rollpris** har skapats kan den här begränsningen brytas. Därför är det nödvändigt att innan du stänger av en dimension, tar bort alla rader för **Rollpris** och **Rollprispålägg** som har det dimensionsvärdet ifyllt.

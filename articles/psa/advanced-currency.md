@@ -2,6 +2,8 @@
 title: Scenarier med flera valutor (version 3.x)
 description: I den här ämnet finns information om scenarier med flera valutor.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005144"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145695"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flera valutor
 
@@ -34,7 +36,7 @@ Microsoft Dynamics 365 har två koncept av valutor:
 - **Transaktionsvaluta** – valutan som en transaktion inträffar i. 
 - **Basvaluta** - valutan för Dynamics 365-instansen. Den här valutan konfigureras när en Dynamics 365-instans etableras. Den kan inte ändras.
 
-Exempel: Contoso US sålde 100 t-shirts till en kund i Storbritannien för 15 pund (GBP) styck. Följande tabell visar hur den här transaktionen registreras i entiteten orderprodukt.
+Exempel: Contoso US sålde 100 t-shirts till en kund i Sverige för 15 GPB. Följande tabell visar hur den här transaktionen registreras i entiteten orderprodukt.
 
 | Produkt | Kvantitet | Pris per enhet | Valuta | Belopp | Växelkurs | Pris per enhet (bas)| Belopp (bas)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -103,6 +105,3 @@ I Dynamics 365 hanterar automatiskt sammanslagning av belopp i olika valutor. H�
 | Expense           | Ofakturerad försäljning   | 17 juni | Joel  | Biluthyrning           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Om du vill beräkna det totala fakturerade försäljningsvärdet i projektet kan du skapa ett fält för sammanslagning för fältet **belopp** i alla relaterade, ej fakturerade försäljningsvärden. Sammanslagningsfältet är en konstruktion av Dynamics 365 som gör det enkelt att skapa formler för relaterade poster.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

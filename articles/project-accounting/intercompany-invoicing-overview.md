@@ -2,17 +2,18 @@
 title: Koncernintern fakturering – Översikt
 description: Detta ämne innehåller information och exempel om konfigurering av koncernintern fakturering av projekt.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005413"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595563"
 ---
 # <a name="intercompany-invoicing-overview"></a>Koncernintern fakturering – Översikt
 
@@ -20,9 +21,9 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 Organisationen kan ha flera avdelningar, dotterbolag och andra juridiska enheter som överför produkter och tjänster till varandra för projekt. Den juridiska person som tillhandahåller tjänsten eller produkten kallas den *långivande juridiska personen*. Den juridiska person som erhåller tjänsten eller produkten kallas den *låntagande juridiska personen*.
 
-Följande illustration visar ett typiskt scenario där två juridiska entiteter, Contoso Robotics USA (den lånande juridiska entiteten) och Contoso Robotics UK (den utlånande juridiska entiteten), delar resurser för att leverera ett projekt till kunden, Adventure works. För detta scenario har Contoso Robotics USA ingått ett avtal om att leverera arbetet till Adventure Works.
+Följande bild visar ett typiskt scenario där två juridiska personer, Contoso Robotics USA (den låntagande juridiska personen) och Contoso Robotics UK (den utlånande juridiska personen) delar resurser för att leverera ett projekt åt kunden, Adventure Works. För detta scenario är Contoso Robotics USA kontrakterat att leverera arbetet till Adventure Works.
 
-![Koncernintern fakturering.](./media/IntercompanyScenario.png) 
+![Koncernintern fakturering](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations använder följande flöde för att bearbeta koncerninterna transaktioner:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations använder följande flöde för att bearbeta kon
 
 Följande diagram illustrerar koncernintern fakturering eftersom denna avser redovisningshändelser och förväntade bokföringar i redovisningen.
 
-![Koncerninternt flöde.](./media/IntercompanyFlow.png)
+![Koncerninternt flöde](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Ytterligare resurser
 
 - [Konfigurera koncernintern fakturering](configure-intercompany-invoicing.md)
 - [Registrera koncerninterna transaktioner](create-intercompany-transactions.md)
 - [Skapa koncerninterna kund- och leverantörsfakturor](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

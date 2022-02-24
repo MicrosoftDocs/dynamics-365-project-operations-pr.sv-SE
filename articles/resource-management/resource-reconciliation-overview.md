@@ -2,25 +2,27 @@
 title: Resursavstämning – Översikt
 description: Detta ämne innehåller information som hjälper dig att se till att resursbokningar och tilldelningar för projekt justeras.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994793"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849646"
 ---
 # <a name="resource-reconciliation-overview"></a>Resursavstämning – Översikt
 
@@ -46,6 +48,3 @@ I situationer där du har uppgiftstilldelningar för en resurs men inga bokninga
 Bokningar som skapas genom åtgärden **Utöka bokning** associeras med det primära projektkravet. När ett tillägg initieras går det inte att fastställa det specifika kravet som måste utökas, detta eftersom resursen kan vara associerad med mer än ett krav för projektet.
 
 Projektledaren eller resursansvarig kan sedan använda schemaläggningstavlan för att hantera alla situationer där en resurs har blivit överbokad utöver sin kapacitet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

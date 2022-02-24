@@ -2,9 +2,11 @@
 title: Projektförsäljningsorder för tids- och materialprojekt
 description: I det här ämnet beskrivs hur du skapar projektbaserade försäljningsorder för tids- och materialprojekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085525"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektförsäljningsorder för tids- och materialprojekt
 
@@ -39,6 +41,3 @@ Du kan skapa projektbaserade försäljningsorder på två sätt:
 - Gå till själva projektet. I åtgärdsrutan väljer du **hantera > artikeluppgifter > försäljningsorder**. Projektinformationen används som standard för försäljningsordern från projektet. Om projektkontraktet har fler än en finansieringskälla måste du välja finansieringskällan för att ange kunden för försäljningsordern. Om det bara finns en finansieringskälla för projektet kommer kunden att ställas in automatiskt.
 - Gå till listsidan **Alla försäljningsorder** och skapa en ny försäljningsorder. Du måste välja projektet för försäljningsordern. När du har valt projektet kommer kunden att ställas in från finansieringskällan, eller så måste du välja finansieringskälla om projektkontraktet har flera finansieringskällor.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

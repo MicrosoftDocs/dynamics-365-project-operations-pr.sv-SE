@@ -2,22 +2,24 @@
 title: Nyheter i november 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
 description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan november 2020 för Project Operations för resursscenarier/icke lagerbaserade scenarier.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007978"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367288"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i november 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Det här ämnet gäller för följande komponenter och versioner i Dynamics 365 Project Operations:
 
 - Project Operations i CDS-miljö version 4.4.0.70
 - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.14
@@ -65,7 +67,4 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Projektredovisning  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Det går inte att aktivera funktionen eftersom flera kontraktrader inte är möjliga utan integrering av CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.

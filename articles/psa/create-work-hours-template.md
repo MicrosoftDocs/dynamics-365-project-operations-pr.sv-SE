@@ -2,6 +2,8 @@
 title: Skapa en ny mall för arbetstid
 description: Ämnet beskriver hur du skapar en mall för arbetstid i Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987413"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981277"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Skapa en mall för arbetstid (Project Service)
 
@@ -49,7 +51,7 @@ Det finns två viktiga krav om du vill skapa en kalendermall för organisationen
 
 1. Gå till **Resurser** \> **Resurser**.
 2. Skapa en ny resurs att referera till i kalendermallen eller välj en befintlig resurs.
-3. Välj resursens flik **Arbetstider** och följ instruktionerna i [Ange arbetstider för en resurs](/dynamics365/field-service/set-work-hours-resource.md) för att konfigurera kalenderreglerna.
+3. Välj resursens flik **Arbetstider** och följ instruktionerna i [Ange arbetstider för en resurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) för att konfigurera kalenderreglerna.
 
 **Skapa en ny kalendermall**
 

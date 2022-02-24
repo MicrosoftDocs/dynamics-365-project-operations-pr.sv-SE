@@ -2,6 +2,8 @@
 title: Logga in på Project Service Automation
 description: Logga in i Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990473"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150285"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Logga in på Project Service Automation
 
@@ -37,7 +39,7 @@ När du loggar in på Dynamics 365-appar måste du följande information redo fr
   
 - Ditt lösenord  
   
-  Du har förmodligen fått denna information via e-post från din administratör. Om du inte har all information, eller om du har problem med att logga in, [kontakta din administratör eller supportperson](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Du har förmodligen fått denna information via e-post från din administratör. Om du inte har all information, eller om du har problem med att logga in, [kontakta din administratör eller supportperson](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Ange personliga alternativ för att tillåta e-post  
  Du måste konfigurera dina e-postinställningar i syfte att låta andra skicka e-post å dina vägnar, så att [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kan skicka e-postmeddelanden åt dig när du har tid och utgifter att godkänna eller registrera för projekt.  
@@ -54,6 +56,3 @@ När du loggar in på Dynamics 365-appar måste du följande information redo fr
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

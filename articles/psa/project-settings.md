@@ -2,6 +2,8 @@
 title: Projektinställningar
 description: I det här ämnet finns information om inställningar för projekthantering.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996953"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148170"
 ---
 # <a name="project-settings"></a>Projektinställningar
 
@@ -47,7 +49,7 @@ För att skapa ett projektschema skapar du en projektkalendermall som definierar
   - Arbetsschema för en dag
   - Ledig tid
 
-> ![Ange alternativ.](media/project-13.png)
+> ![Ange alternativ](media/project-13.png)
 
 4. Välj **Nytt veckoschema** och ange alternativen för det här resursschemat. Du kan ange ett återkommande veckoschema, dagliga timparametrar, företagets öppettider och mycket annat.
 5. Ange datumintervall, välj **Spara** och klicka på **Stäng**. 
@@ -66,6 +68,3 @@ Varje organisation måste skapa de här rollerna på sidan **Aktiva resurskatego
 ## <a name="price-lists"></a>Prislistor
 
 Prislistor låter dig ställa in självkostnads- och försäljningspriser, utgiftskategorier, produkter och andra element i en organisation. Innan du anger ekonomiska uppskattningar för arbetet som måste levereras för ett projekt måste du skapa en bakomliggande utgifts- och prislista. I avsnittet parametrar bör du även ange en standardkostnads- och försäljningsprislista som gäller alla projekt som skapas i organisationen. På sidan **Aktiva projektparametrar** ser du till att du anger en standardkostnads- och försäljningsprislista.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

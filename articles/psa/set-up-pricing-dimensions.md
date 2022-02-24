@@ -2,10 +2,12 @@
 title: Konfigurera anpassade fält som prissättningsdimensioner
 description: I det här ämnet finns information om hur du ställer in anpassade prissättningsdimensioner.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002353"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150375"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner 
 
@@ -41,11 +43,11 @@ För att ett fält ska bli en prissättningsdimension måste det vara:
 - Skapat som ett fält i entiteterna **Rollpris** och **Pålägg för rollpris**. Mer information om hur du gör detta finns i [lägga till anpassade fält i prisinställningar och transaktionella entiteter](field-references.md).
 - Skapad som en rad i tabellen **prisdimension**. Du kan till exempel lägga till prisdimensionsrader som de visas i följande bild. 
 
-![Beloppsbaserade prissättningsrader.](media/Amt-based-PD.png)
+![Beloppsbaserade prissättningsrader](media/Amt-based-PD.png)
 
 Observera att that resursens arbetstider (**msdyn_resourceworkhours**) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
 
-![Påläggsbaserade prissättningsdimensionsrader.](media/Markup-based-PD.png)
+![Påläggsbaserade prissättningsdimensionsrader](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Alla ändringar av dimensionsdata för prissättning i den här tabellen, befintlig eller ny, sprids till Project Service affärslogik för prissättnings först efter att cacheminnet har uppdaterats. Det kan ta upp till 10 minuter att uppdatera cacheminnet. Tillåt den här tidsperioden för att se de ändringar i prisstandardlogik som måste uppkomma från ändringar i data för prissättningsdimension.
@@ -71,12 +73,12 @@ Det finns två typer av prissättningsdimensioner:
   
 | Roll        | Organisationsenhet    |Arbetsplats      |Standardrubrik      |Arbetstid för resurs      |  Pålägg|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indien|På plats            |                    |Övertid                 |15     |
-|             | Contoso Indien|Lokal             |                    |Övertid                 |10     |
+|             | Contoso India|På plats            |                    |Övertid                 |15     |
+|             | Contoso India|Lokal             |                    |Övertid                 |10     |
 |             | Contoso US   |Lokal             |                    |Övertid                 |20     |
 
 
-Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbunden tid och 2 timmar övertid i tidsposten använder Project Service grundpriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
+Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbundet och 2 timmar övertid i tidsposten använder Project Service baspriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gäller för kostnad 
 Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när kostnads- och påläggspriserna hämtas.
@@ -92,6 +94,3 @@ Genom att ange dimensionsprioriteten kan Project Service producera ett pris äve
 
 - **Kostnadsprioritet**: värdet för dimensionens kostnadsprioritet anger vikten av dimensionen när den matchas mot inställningarna av självkostnader. Värdet för **kostnadsprioritet** måste vara unikt mellan de dimensioner som **gäller för kostnaden**.
 - **Försäljningsprioritet**: värdet för dimensionens försäljningsprioritet anger vikten av dimensionen när den matchas mot inställningarna av försäljningspris eller faktureringskostnader. Värdet för **försäljningsprioritet** måste vara unikt mellan de dimensioner som **gäller för försäljning**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

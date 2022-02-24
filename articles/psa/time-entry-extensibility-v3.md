@@ -2,6 +2,8 @@
 title: Anpassa veckovis tidspost
 description: I det här ämnet finns information om hur du implementerar anpassade affärsregler som stöder organisationens praxis.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002308"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149655"
 ---
-# <a name="customize-weekly-time-entry"></a>Anpassa tidsposter för en vecka 
+# <a name="customize-weekly-time-entry"></a>Anpassa veckovis tidspost 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -130,6 +132,3 @@ Du bör använda plugin-valideringar för alla valideringar som kräver mer kont
 
 > [!IMPORTANT] 
 > För närvarande hindrar ett känt problem på TBX-sidorna användarna från att korrigera information och sedan välja Klart när en uppdatering misslyckas med en verifiering av plugin-program. Du kan lösa problemet genom att konfigurera affärsregelvalideringar för att förhindra situationen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Projektkostnader och intäkter
 description: I det här ämnet finns information om hur du uppskattar projektkostnader och intäkter.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002578"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148350"
 ---
 # <a name="project-costs-and-revenue"></a>Projektkostnader och intäkter
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002578"
 
 Projektberäkningar ger den ekonomiska vyn för det beräknade och schemalagda arbetet i projektets schema. Fliken **Beräkningar** på sidan **projekt** visar utgifts- och intäktseffekten för det arbete som du planerar. Den innehåller också information om många fördefinierade dimensioner. 
 
-> ![Fliken Beräkningar.](media/project-5.png)
+> ![Fliken Beräkningar](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kostnad och försäljningsvärden för projektet
 
@@ -66,13 +68,13 @@ Om systemet inte hittar ett pris för rollen, måste försäljningspriset vara p
 
 Fliken **Beräkningar** innehåller en rutnätsvy som visar beräknade rader. I rutnätet finns kolumner för enheten, total självkostnad och totalt försäljningspris, som du ser på följande bild. 
 
-> ![Rutnätsvy på fliken Beräkningar.](media/project-6.png)
+> ![Rutnätsvy på fliken Beräkningar](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tidsfasad vy över projektberäkningar
 
 I vyn tidsfaser i projektberäkningar visar beräkningsdata från rutnätsvy över tidslinjen i en tidsskala som du har valt. Som standard pivoteras beräkningsdata i dimensionen **roll**.
 
-> ![Tidsfasad vy för projektberäkningar.](media/project-7.png)
+> ![Tidsfasad vy för projektberäkningar](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Allokering av beräknad insats utifrån uppgiftsläge
 
@@ -95,6 +97,3 @@ I både rutnätsvy och vyn med tidsfaser kan du välja vilka fält som ska visas
 ## <a name="expense-estimates"></a>Utgiftsberäkningar
 
 Knappen **Lägg till en ny utgiftsberäkning** i rutnätsvyn låter dig registrera alla utgifter som påförts i projektet, men som inte är direkt relaterade till arbete. Du kan registrera utgiftsberäkningar för en specifik uppgift eller för hela projektet. Välj utgiftskategorier och preliminärt datum då du förväntar dig utgiften. Om den associerade självkostnadslistan och försäljningsprislistan har standardpriser (eller påläggsprocentsatser definierade för utgiftskategorier) och anges automatiskt på beräkningsraden vid associeringen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

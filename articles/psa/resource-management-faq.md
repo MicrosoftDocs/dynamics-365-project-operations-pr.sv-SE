@@ -2,6 +2,8 @@
 title: Vanliga frågor om resurshantering
 description: Det här ämnet innehåller svar på vanliga frågor om resurshantering.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002398"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144390"
 ---
 # <a name="resource-management-faq"></a>Vanliga frågor om resurshantering
 
@@ -52,6 +54,3 @@ När du har bokat resurser väljer du **Underhåll bokningar** för att göra n�
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Vad är det för skillnad på en tilldelning och en bokning?
 
 Tilldelningar är tilldelningen av resurser till projektuppgifter i projektschemat. Resurserna kan antingen vara riktiga eller generiska resurser. Bokningar är en fast eller preliminär allokering av resurser till ett projekt. Fasta bokningar förbrukar en resurs kapacitet. För verkliga resurser bör bokningarna och tilldelningarna godkännas eftersom de inte skiljer sig åt. PSA tvingar emellertid inte detta avtal. I vyn avstämning visas en projektledare där resursens bokningar och tilldelningar inte godkänner varandra.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

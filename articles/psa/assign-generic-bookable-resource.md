@@ -2,6 +2,8 @@
 title: Tilldela allmänna bokningsbara resurser till en uppgift och ett projektteam
 description: I det här ämnet finns information om bokning av generiska resurser till aktivitets- och projektgrupper.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 684167f0a68872ef871fbaa06c5161e78045c9a5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007123"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145425"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Tilldela allmänna bokningsbara resurser till en uppgift och generera resurskrav 
 
@@ -33,21 +35,21 @@ Utöver att boka och tilldela namngivna och verkliga resurser i projektet kan du
 
 1. I Project Service Automation (PSA), öppna sidan **projekt** och på fliken **schema** anger du positionsnamnet för den generiska resursen i cellen **Resurs** i schemat. Du kan också klicka på **Resurs** i cellen för att öppna resursväljaren och sedan ange namnet på den generiska resurs som du vill skapa.
 
-![Skapa och tilldela en generisk teammedlem.](media/RM-how-to-9.png)
+![Skapa och tilldela en generisk teammedlem](media/RM-how-to-9.png)
 
 Detta öppnar panelen **Snabbregistrering: Projektteammedlem**. 
 
 2. Ange roll och organisationsenhet för den allmänna resursteammedlemmen och klicka sedan på **Spara**.
 
-![Snabb skapande av generisk teammedlem.](media/RM-how-to-10.png)
+![Snabb skapande av generisk teammedlem](media/RM-how-to-10.png)
 
 3. När du har skapat en ny generisk resursteammedlem tilldelas den aktiviteten. Du kan fortsätta att tilldela den allmänna resursen till andra uppgifter i aktivitetsschemat.
 
-![Tilldela befintlig generisk teammedlem uppgifter.](media/RM-how-to-11.png)
+![Tilldela befintlig generisk teammedlem till uppgifter](media/RM-how-to-11.png)
 
 4. När du har tilldelat den generiska resursen kan du skapa ett resurskrav och utföra den genom att direkt boka eller skicka en resursförfrågan till en resursansvarig.
 
-![Skapa ett krav för en generisk teammedlem.](media/RM-how-to-12.png)
+![Skapa ett krav för en generisk teammedlem](media/RM-how-to-12.png)
 
 Förutom att använda resursväljaren som nämnts ovan kan du lägga till allmänna resurser direkt i rutnätet med den generiska teammedlemmen. Resurserna läggs till med ett resurskrav som baseras på start- och slutdatumen och allokeringsmetoden som anges i panelen **Snabbregistrering: Projektteammedlem**.
 
@@ -55,8 +57,5 @@ Du kan se en skillnad om du lägger till den allmänna teammedlemmen direkt och 
 
 Du kan också klicka på länken **resurskrav** i teamets rutnät för att öppna kravet och lägga till kunskaper, önskade resurser etc.
 
-![Resurskrav.](media/RM-how-to-13.png)
+![Resurskrav](media/RM-how-to-13.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

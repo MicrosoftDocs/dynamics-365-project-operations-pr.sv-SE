@@ -2,9 +2,11 @@
 title: Uppdatera plugin-attribut för att inkludera nya prissättningsdimensioner
 description: I den här ämnet finns information om hur du uppdaterar plugin-attribut för prissättningsdimensioner.
 author: Rumant
+manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988808"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147090"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Uppdatera plugin-attribut för att inkludera nya prissättningsdimensioner
 
@@ -42,30 +44,27 @@ Nedan förklaras hur du registrerar plugin-programmen.
 1. Öppna **PluginRegistrationTool** och anslut till din online-instans.
 2. Klicka på **Sök** och sök efter det plugin-program som du vill uppdatera.
 
- ![Skärmbild av sökträdet.](media/PRT-1.png)
+ ![Skärmbild av sökträdet](media/PRT-1.png)
 
 3. När du har hittat plugin-programmet markerar du det och klickar på **Välj på huvudformulär**.
 
 4. Markera steget för det plugin-program som ska uppdateras, högerklicka och välj sedan **uppdatera**.
 
- ![Skärmbild av det plugin-program som ska uppdateras.](media/PRT-2.png)
+ ![Skärmbild av det plugin-program som ska uppdateras](media/PRT-2.png)
  
 5. I uppdateringsfönstret, klicka på ellipsen (**...**) i filtreringsattributen.
 
- ![Skärmbild av Uppdatera befintlig stegkonfigurationsinformation.](media/PRT-3.png)
+ ![Skärmbild av Uppdatera befintlig stegkonfigurationsinformation](media/PRT-3.png)
  
 6. Markera kryssrutorna för prissättningsattribut.
 
- ![Skärmbild som visar markeringen i kryssrutan för prissättningsattribut.](media/PRT-4.png)
+ ![Skärmbild som visar markeringen i kryssrutan för prissättningsattribut](media/PRT-4.png)
 
 7. Klicka på **OK** för att stänga sidan och välj sedan **Updatera steg**.
 
- ![Skärmbild som visar knappen "Uppdatera steg".](media/PRT-5.png)
+ ![Skärmbild som visar knappen "Uppdatera steg"](media/PRT-5.png)
  
 8. Upprepa den här processen för det andra plugin-programmet **PreOperationQuoteLineDetail - uppdatera msdyn_quotelinetransaction**.
 
 9. Stäng registrering av plugin-program.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,19 @@
 ---
 title: Skapa en uppdelad arbetsstruktur
-description: Detta ämne förklarar hur du skapar en uppdelad arbetsstruktur (WBS) inklusive enkel kontroll i det nya planeringsgränssnittet.
+description: Detta ämne förklarar hur du skapar en uppdelad arbetsstruktur (WBS) inklusive enkel kontroll i det nya schemaläggningsgränssnittet.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928637"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841409"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Skapa en uppdelad arbetsstruktur (WBS)
 
@@ -34,7 +36,7 @@ Det första steget när du skapar ett projekt är att bryta ned arbetet till han
 
 ### <a name="summary-tasks"></a>Sammanfattande uppgifter
 
-Sammanfattningsuppgifter kan lagra andra sammanfattningsuppgifter eller lövnodsuppgifter. De har ingen egen arbetsinsats eller egen kostnad. I stället är deras arbetsinsats och kostnad en sammanslagning av arbetsinsatsen och kostnaden för behållaruppgifter. Sammanfattningsuppgifternas startdatum är startdatum för behållaruppgifter och slutdatum är slutdatum för behållaruppgifter. Namnet på en sammanfattningsuppgift kan redigeras, men det går inte att redigera egenskaper för planering (inklusive arbete, datum och varaktighet). Om du tar bort en sammanfattningsuppgift tas även alla dess behållaruppgifter bort.
+Sammanfattningsuppgifter kan lagra andra sammanfattningsuppgifter eller lövnodsuppgifter. De har ingen egen arbetsinsats eller egen kostnad. I stället är deras arbetsinsats och kostnad en sammanslagning av arbetsinsatsen och kostnaden för behållaruppgifter. Sammanfattningsuppgifternas startdatum är startdatum för behållaruppgifter och slutdatum är slutdatum för behållaruppgifter. Namnet på en sammanfattningsuppgift kan redigeras, men det går inte att redigera egenskaper för schemaläggning (inklusive arbete, datum och varaktighet). Om du tar bort en sammanfattningsuppgift tas även alla dess behållaruppgifter bort.
 
 ### <a name="leaf-node-tasks"></a>Lövnodsuppgifter.
 
@@ -91,11 +93,9 @@ I följande tabell visas ytterligare schemaattribut.
 | Namn | Uppgiftens namn. |
 | ID | ID:t för uppgiften i den uppdelade arbetsstrukturen. |
 
-Som en administratör kan du definiera anpassade fält för uppgiftsentiteten. Fälten kan dock inte visas i schemarutnätet. För att se dina anpassade fält, lägg till dem i informationssidan **Projektuppgift**.
-
 ## <a name="staffing-attributes"></a>Bemanningsattribut
 
-Du når attribut för personal via fältet **resurser** i schemat. Du kan antingen söka efter en befintlig resurs eller välja **Skapa**. I fönstret **Snabbregistrering** lägger du sedan till en projektteammedlem som en ny resurs.  När du söker efter en resurs med resursväljaren i uppgiftsrutnätet, vyn för schemaläggningstavlan eller Gantt-vyn returneras antingen befintliga projektteammedlemmar eller aktiva bokningsbara resurser.
+Du når attribut för personal via fältet **resurser** i schemat. Du kan antingen söka efter en befintlig resurs eller välja **Skapa**. I fönstret **Snabbregistrering** lägger du sedan till en projektteammedlem som en ny resurs.
 
 Fälten **roll**, **resursenhet** och **befattningsnamn** används för att beskriva personalkraven för uppgiften. Dessa personalattribut används tillsammans med uppgiftsschemat för att hitta tillgängliga resurser för att utföra den här uppgiften.
 
@@ -105,7 +105,7 @@ Fälten **roll**, **resursenhet** och **befattningsnamn** används för att besk
 
 Fältet **resurser** innehåller befattningsnamnet för den generiska resursen eller resursen när en hittas.
 
-Fältet **kategori** innehåller värden som visar en bredare typ av arbete som uppgiften kan grupperas till. Det här fältet påverkar inte planering eller bemanning. Fältet används i stället endast för rapportering.
+Fältet **kategori** innehåller värden som visar en bredare typ av arbete som uppgiften kan grupperas till. Det här fältet påverkar inte schemaläggning eller bemanning. Fältet används i stället endast för rapportering.
 
 ## <a name="task-dependencies"></a>Beroenden mellan uppgifter
 
@@ -116,28 +116,3 @@ Uppgiftsläget påverkar inte uppdateringar som görs av start- och slutdatum f�
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och tangentbordsgenvägar
 
 Rutnätet **Schema** är fullt åtkomligt och kan användas med skärmläsare som Berättare, JAWS eller NVDA. Du kan förflytta dig i rutnätsområdet med hjälp av piltangenterna (som i Microsoft Excel), men du kan använda tabbtangenten för att gå igenom de interaktiva användargränssnittselementen, och du kan använda nedåtpil, Retur eller blanksteg för att välja och öppna listrutemenyerna.
-
-## <a name="project-limitations"></a>Projektbegräsningar 
-Om du använder den uppdelade arbetsstrukturen i Project Operations bör du känna till följande begränsningar: Begränsningarna gäller projekt och uppgifter. Mer information finns i [Begränsningar och gränser för Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Fält**                                          |  **Gräns**           |
-|----------------------------------------------------|----------------------|
-| Maximalt antal uppgifter för ett projekt                  | 500                  |
-| Längsta varaktighet för ett projekt               | 3 650 dagar (10 år) |
-| Maximalt antal resurser för ett projekt              | 150                  |
-| Maximalt antal länkar (endast efterföljare) för ett projekt | 600                  |
-| Maximalt antal anpassade fält för ett projekt          | 10                   |
-| Maximalt antal punkter i checklistan per uppgift                   | 20                   |
-
-**Uppgiftsbegränsningar**
-
-| **Fält**                               |   **Gräns**           |
-|-----------------------------------------|-----------------------|
-| Maximal hierarkinivå                 | 10 nivåer             |
-| Maximalt antal länkar (efterföljare + föregångare) | 20                    |
-| Längsta varaktighet för lövuppgift           | 1250 dagar             |
-| Längsta varaktighet för en sammanfattningsuppgift      | 3 650 dagar (10 år)  |
-| Maximalt antal resurser tilldelade till en uppgift    | 20 resurser          |
-| Datumintervall som stöds för en uppgift         | 2000-01-01 - 2149-12-31 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

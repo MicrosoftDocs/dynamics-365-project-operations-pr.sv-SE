@@ -1,23 +1,23 @@
 ---
-title: Skapa och uppdatera en projektmall
+title: Uppdatera ett projekt
 description: I det här ämnet finns information om uppdatering av projekt i Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678371"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993393"
 ---
-# <a name="create-and-update-a-project"></a>Skapa och uppdatera en projektmall
+# <a name="update-a-project"></a>Uppdatera ett projekt
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Följande är en sammanfattning av fälten som kan uppdateras för ett projekt efter att det har skapats. Detta omfattar även eventuella tillämpliga effekter som bygger på dessa uppdateringar.
+Nedan visas en sammanfattning av de fält som kan uppdateras i ett projekt efter att det har skapats och alla relevanta effekter av uppdateringarna.
 
 ## <a name="project-detail-fields"></a>Projektinformationsfält
 
@@ -25,8 +25,8 @@ Följande är en sammanfattning av fälten som kan uppdateras för ett projekt e
 - **Beskrivning**: En översikt över projektet.
 - **Kund**: Företaget som projektet ska levereras till.
 - **Kalendermall**: Arbetstimmarna för projektet. När fältet ändras beräknas hela schemat om.
-- **Valuta**: Valutan för projektet. Standardvärdet för det här fältet baseras på valutan som definierats i kontraktenheten. När kontrakteringsenheten uppdateras uppdateras även fältet.
-- **Kontrakteringsenhet**: Den organisationsenhet som representerar den företagsgrupp eller avdelning som framför allt är ansvarig för att ta hem försäljningen och hantera leveransen av arbetet och tjänsterna till kunden.  När projektledarens organsationsenhet inte är definierad använder detta fält det värde som definierats i projektparametrarna som standarvärde.
+- **Valuta**: Valutan för projektet. Det här fältet hämtas baserat på valutan som definieras i kontrakteringsenheten. När kontrakteringsenheten uppdateras uppdateras även fältet.
+- **Kontrakteringsenhet**: Den organisationsenhet som representerar den företagsgrupp eller avdelning som framför allt är ansvarig för att ta hem försäljningen och hantera leveransen av arbetet och tjänsterna till kunden. 
 - **Projektledare**: Den medlem i projektteamet som har behörighet att granska och godkänna tidsposter och utgifter.
 
 ## <a name="estimate-fields"></a>Uppskattningsfält

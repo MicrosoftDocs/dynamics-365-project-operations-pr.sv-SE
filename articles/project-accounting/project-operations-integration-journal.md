@@ -2,16 +2,18 @@
 title: Integrationsjournal i Project Operations
 description: I det här ämnet finns information om hur du arbetar med integrations journalen i Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987953"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948352"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal i Project Operations
 
@@ -19,7 +21,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 Tid- och utgiftsposter skapa **Faktisk** transaktioner som representerar den operativa vyn för arbete som slutförts mot ett projekt. Dynamics 365 Project Operations tillhandahåller revisorer ett verktyg för att granska transaktioner och justera redovisningsinformationen efter behov. När granskningen och justeringen har slutförts bokförs transaktionerna i projektredovisningen och redovisningen. En revisor kan utföra dessa aktiviteter med hjälp av journalen **Project Operations-integrering** **Dynamics 365 Finance** > **Projektledning och redovisning** > **Journaler** > **Project Operations-integrering** journal.
 
-![Integrationsjournalflöde.](./media/IntegrationJournal.png)
+![Integrationsjournalflöde](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Skapa poster i integrationsjournal för Project Operations
 

@@ -2,6 +2,8 @@
 title: Analys av projektofferter
 description: I det här ämnet finns information om hur du analyserar projektofferter.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002848"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145245"
 ---
 # <a name="analysis-of-project-quotes"></a>Analys av projektofferter
 
@@ -58,6 +60,3 @@ Du kan analysera offerter och skapa diagram för kundförväntningar om schemat 
 Analys av kundens förväntningar om schemat görs genom att jämföra det senaste slutdatumet för offertraddetaljerna med begärt leveransdatum för alla offertrader i offerten.
 
 Analys av kundförväntningar för budgeten sker genom att summan av den totala kundbudgeten jämförs med det offererade beloppet över alla offertrader.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

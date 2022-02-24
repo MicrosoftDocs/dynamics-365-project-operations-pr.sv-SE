@@ -2,16 +2,18 @@
 title: Fakturera arvode eller förskott
 description: I det här ämnet finns information om hur du fakturerar ett arvode eller förskott i Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997493"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596214"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturera arvode eller förskott
 
@@ -49,6 +51,3 @@ Detta kan du se i rutnätet **Tillämpade arvoden och förskott** på sidan **Fa
 | Använt belopp | Rutnätet **Tillämpade förskott och arvoden** på sidan **Projektfaktura**  | Det här skrivskyddade fältet innehåller det beräknade värdet som sammanfattar hur mycket av arvodet eller förskottet som har använts. | Fältet kan visas för kunden på den utskrivna fakturan för att ange beloppet av arvodet eller förskottet som redan använts. |
 | Utökat belopp | Rutnätet **Tillämpade förskott och arvoden** på sidan **Projektfaktura**  | Det här redigerbara fältet innehåller beloppet för arvodet eller förskottet som används på projektfakturan. Det här beloppet får inte vara mer än vad som är tillgängligt i förskottet. Systemet beräknar detta automatiskt som skillnaden mellan fälten **Belopp** och **Använt belopp** i rutnätet. Du kan minska det här beloppet om du vill använda mindre än vad som är tillgängligt, men du kan inte öka beloppet som ska användas till mer än vad som är tillgängligt. | Fältet kan visas för kunden på den utskrivna fakturan för att ange beloppet av arvodet eller förskottet som används på fakturan. |
 | Saldo för arvodesbelopp. | Rutnätet **Tillämpade förskott och arvoden** på sidan **Projektfaktura**  | I det här skrivskyddade fältet visas värdet för hur mycket av arvodet eller förskottet som är kvar efter det att fakturan bekräftas. | Fältet kan visas för kunden på den utskrivna fakturan för att ange beloppet som är kvar av arvodet eller förskottet efter det att fakturan bekräftas och betalas. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

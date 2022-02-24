@@ -2,16 +2,18 @@
 title: Importera beräkningar för ett projekt till en projektoffertrad
 description: Det här ämnet ger information om hur du importerar produkter från ett projekt till en projektoffertrad.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993533"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858765"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Importera beräkningar för ett projekt till en projektoffertrad
 

@@ -2,26 +2,28 @@
 title: Startsida för Projektresurser
 description: I det här ämnet finns information om resurshantering för projekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085526"
 ---
 # <a name="project-resourcing-home-page"></a>Startsida för Projektresurser
 
@@ -38,7 +40,7 @@ En utmaning för projektledarna och resurshanterare under projektplaneringsfasen
 - Uppskatta antalet resurser som krävs under hela livscykeln för ett projekt.
 - Skapa ett utkast till en uppdelad arbetsstruktur med hjälp av de första resurstilldelningarna.
 
-[![Projektets livscykel.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Projektets livscykel](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 När projektplaneringen fortsätter kan planerade resurser ersättas med personalresurser. Projektledaren kan också gå tillbaka och uppdatera resurshanteringsreservationerna under alla projektstadier.
 
@@ -53,6 +55,3 @@ I följande avsnitt finns information om de uppgifter som måste utföras när d
 - [Resultat av projektresursschemaläggning](project-scheduling-performance.md)
 - [Konfigurera roller i mallar för uppdelad arbetsstruktur](set-up-roles-wbs-template.md)
 - [Resursuppfyllelse för planerade resurser](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

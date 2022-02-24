@@ -2,16 +2,18 @@
 title: Distribuera Project Operations – Lite
 description: I det här ämnet finns information om hur du installerar Project Operations enkel distribution – avtal till proforma-fakturering.
 author: stsporen
+manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991598"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642205"
 ---
 # <a name="deploy-project-operations---lite"></a>Distribuera Project Operations – Lite
 
@@ -32,16 +34,13 @@ Project Operations har stöd för flera distributionsmodeller. Information om hu
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Installera Project Operations i en ny CDS-miljö
 
-1. Som [Global eller Power Platform-administratör](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens skapar du en ny CDS-miljö i [PowerPlatforms administratörscenter](https://admin.powerplatform.com). Kontrollera att **CDS-databasen** och **Dynamics 365-apparna** är aktiverade. Mer information finns i [Skapa och hantera miljöer i Power Platforms administratörscenter](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Som [Global eller Power Platform-administratör](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens skapar du en ny CDS-miljö i [PowerPlatforms administratörscenter](https://admin.powerplatform.com). Kontrollera att **CDS-databasen** och **Dynamics 365-apparna** är aktiverade. Mer information finns i [Skapa och hantera miljöer i Power Platforms administratörscenter](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Välj **Microsoft Dynamics 365 Project Operations** i distributionslistan för Dynamics 365-appar.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Installera Project Operations i en befintlig CDS-miljö
 
-1. Som [Global eller Power Platform-administratör](/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens letar du upp miljön i [PowerPlatforms administratörscenter](https://admin.powerplatform.com) där du vill installera Project Operations.
-2. Installera **Microsoft Dynamics 365 Project Operations** i distributionslistan för Dynamics 365-appar. Mer information finns i [Hantera Dynamics 365-appar](/power-platform/admin/manage-apps).
+1. Som [Global eller Power Platform-administratör](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) med en Project Operations-licens letar du upp miljön i [PowerPlatforms administratörscenter](https://admin.powerplatform.com) där du vill installera Project Operations.
+2. Installera **Microsoft Dynamics 365 Project Operations** i distributionslistan för Dynamics 365-appar. Mer information finns i [Hantera Dynamics 365-appar](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

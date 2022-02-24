@@ -2,16 +2,18 @@
 title: Skapa ett ad hoc-förskott i ett kontrakt
 description: I det här ämnet finns information om hur du skapar ett förskott på ett kontrakt efter behov.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999158"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596034"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Skapa ett ad hoc-förskott i ett kontrakt
 
@@ -37,6 +39,3 @@ Följ stegen nedan om du vill fakturera kunden för ett förskott.
     | **Fakturastatus** | Det här är en alternativ inställning som anger om detta förskott läggs till i en utkastfaktura för den här kunden. Möjliga värden är:</br>- **Inte klar att fakturera**</br>- **Klar att fakturera** | När ett förskott eller en förskottsbetalningen markeras som **klar för fakturering**, läggs det till som en radtid i utkastfakturan. Endast ett helt fakturerat förskott kan användas för att stämma av mot projektkostnader för nästa fakturaperiod. |
 
 4. Välj **Spara och stäng** i dialogrutan snabbregistrering för att registrera förskottet eller förskottsbetalningen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

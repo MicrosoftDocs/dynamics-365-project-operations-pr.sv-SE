@@ -2,9 +2,11 @@
 title: Skapa anpassade fält och entiteter som prissättningsdimensioner
 description: I det här ämnet finns information om hur du skapar anpassade alternativuppsättningar eller entiteter.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003658"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642835"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Skapa anpassade fält och entiteter som prissättningsdimensioner
 
@@ -44,7 +46,7 @@ Skapa entitetsbaserade dimensioner genom att följa dessa steg:
 3. Klicka på **Ny** om du vill skapa en ny entitet som heter **standardrubrik**. 
 4. Ange återstående information som krävs och klicka sedan på **Spara**.
 
-> ![Definition av entiteten standardrubrik.](media/Standard-Title-entity-definition.png)
+> ![Entiteten standardrubrik](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Alternativuppsättningsbaserade dimensioner 
 Du kan skapa två alternativbaserade dimensioner. 
@@ -54,11 +56,11 @@ Du kan skapa två alternativbaserade dimensioner.
 
 Följande grafik ger en vy över dimensionen **Arbetsplats för resurs**. 
 
-> ![Alternativuppsättningsbaserad prissättningsdimension med namnet Resursens arbetsplats.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Alternativuppsättningsbaserad prissättningsdimension med namnet Resursens arbetsplats](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Följande grafik ger en vy över dimensionen **Arbetstider för resurs**. 
 
-> ![Alternativuppsättningsbaserad prissättningsdimension med namnet Resursens arbetstimmar.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Alternativuppsättningsbaserad prissättningsdimension med namnet Resursens arbetstimmar](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Gå till **inställningar** > **lösningar** och dubbelklickar på **\<your organization name> prissättningsdimensioner**. 
 2. I det vänstra navigeringsfönstret i lösningsutforskaren väljer du **Alternativuppsättningar**. 
@@ -74,7 +76,4 @@ Du kan skapa data för entitetsbaserade dimensioner manuellt, eller genom att an
 4. Stäng sidan. 
 5. Skapa en ny standardrubrik för "senior systemteknikern" genom att upprepa steg 1-3.
 
-> ![Exempeldata för entiteten Standardrubrik.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Exempeldata för entiteten Standardrubrik](media/ST-data.png)

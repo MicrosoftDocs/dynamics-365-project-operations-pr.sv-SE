@@ -2,16 +2,18 @@
 title: Konfigurera parametrar för utgiftshantering
 description: I det här ämnet beskrivs parametrar som styr det allmänna beteendet i utgiftshanteringen.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007798"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121060"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurera parametrar för utgiftshantering
 
@@ -81,6 +83,3 @@ I det här ämnet beskrivs parametrar som styr det allmänna beteendet i utgifts
 | Visa attestering för anti-korruption   | Välj det här alternativet om du vill visa anti-korruptionstexten när en utgiftsrapport skapas. Särskilda utgiftskategorier kan sedan aktiveras som kräver att attesteringen för anti-korruption väljs i utgiftsrapporten. En presentkategori som är relaterad till en statlig officiell kostnad kan till exempel kräva att medarbetaren bekräftar att utgiften uppfyller företagets policy vad gäller myndighetstjänstemän. |
 | Anti-korruptionsmeddelande för avsändare | Ange den text som ska visas för en anställd som skapar en utgiftsrapport. Om du vill ange språkspecifik text som ska visas baserat på användarspråket väljer du **Översättningar**. |
 | Anti-korruptionsmeddelande för godkännare  | Ange den text som ska visas för godkännaren när en utgiftsrapport skapas. Om du vill ange språkspecifik text som ska visas baserat på användarspråket väljer du **Översättningar**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

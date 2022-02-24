@@ -2,6 +2,8 @@
 title: Beräkningar
 description: I det här ämnet finns information om beräkningar i Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992408"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151455"
 ---
 # <a name="estimates"></a>Beräkningar
 
@@ -83,27 +85,24 @@ Om du har lagt till ett anpassat fält på offertradinformationen och vill att f
 1. Öppna PluginRegistrationTool och anslut till din online-instans.
 2. Välj **Sök** och sök efter det plugin-program som du vill uppdatera.
 
-    ![Dialogrutan Sökträd.](media/basic-guide-19.png)
+    ![Dialogrutan Sökträd](media/basic-guide-19.png)
 
 3. Markera plugin-programmet och välj sedan **Välj** på huvudsidan.
 4. Markera steget för det plugin-program som ska uppdateras, högerklicka och välj sedan **uppdatera**.
 
-    ![Välja ett steg i plugin-programmet.](media/basic-guide-20.png)
+    ![Välja ett steg i plugin-programmet](media/basic-guide-20.png)
 
 5. I dialogrutan **Uppdatera befintliga steg** i fältet **filtrera attribut** väljer du ellips-knappen (**...**):
  
-    ![Dialogrutan Uppdatera befintlig åtgärd.](media/basic-guide-21.png)
+    ![Dialogrutan Uppdatera befintlig åtgärd](media/basic-guide-21.png)
 
 6. I dialogrutan **Välj attribut** markerar du kryssrutor för anpassade attribut.
 
-    ![Dialogrutan Välj attribut.](media/basic-guide-22.png)
+    ![Markera dialogrutan Attribut.](media/basic-guide-22.png)
 
 7. Välj **OK** för att stänga dialogrutan och välj sedan **Uppdatera steg**.
  
-    ![Knappen Uppdatera steg.](media/basic-guide-23.png)
+    ![Knappen Uppdatera steg](media/basic-guide-23.png)
 
 8. Upprepa steg 1 till och med 7 för det andra plugin-programmet.
 9. Stäng PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

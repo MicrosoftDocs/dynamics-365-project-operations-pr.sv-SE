@@ -2,6 +2,8 @@
 title: Granska förhandsgranskningen av faktureringen i projekt och projektkontrakt
 description: I det här ämnet finns information om hur du granskar tids-, utgifts- och produkteftersläpningar och hur du markerar dem som klara för fakturering.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006988"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150510"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Granska förhandsgranskningen av faktureringen i projekt och projektkontrakt
 
@@ -40,7 +42,7 @@ Fakturerade försäljningsvärden representerar eftersläpad fakturering och der
 
 Om du vill granska eftersläpad fakturering för tid och material, gå till **försäljning** \> **fakturering** \> **Eftersläpad fakturering av tid och material**. Markera alla faktiska värden för ofakturerad försäljning som är klara för fakturering och välj sedan **klar för fakturering**. Faktureringsstatusen för dessa verkliga värden ändras till **klart för fakturering**.
 
-![Eftersläpad fakturering av tid och material.](media/TMBacklog.png)
+![Eftersläpad fakturering av tid och material](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Granska eftersläpad produktfakturering
 
@@ -48,7 +50,7 @@ När ett projektkontrakt har produktbaserade kontraktrader beaktas de i PSA för
 
 Om du vill granska eftersläpad fakturering av produkter, gå till **Försäljning** \> **Fakturering** \> **Eftersläpad produktfakturering**. Markera alla produktbaserade kontraktrader som är klara för fakturering och välj sedan **klar för fakturering**. Faktureringsstatusen för dessa rader ändras till **klart för fakturering**.
 
-![Eftersläpad produktfakturering.](media/ProductBacklog.png)
+![Eftersläpad produktfakturering](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Granska faktureringsmilstolpar i kontrakt med fast pris
 
@@ -56,7 +58,4 @@ Varje projektkontraktrad som har faktureringsmetod med fast pris måste definier
 
 Om du vill granska faktureringsmilstolpar går du **försäljning** \> **fakturering** \> **milstolpar med fast pris**. Markera alla milstolpar för ofakturerad försäljning som är klara för fakturering och välj sedan **klar för fakturering**. Faktureringsstatusen för dessa milstolpar ändras till **klart för fakturering**.
 
-![Milstolpar med fast pris.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Milstolpar med fast pris](media/FPBacklog.png)

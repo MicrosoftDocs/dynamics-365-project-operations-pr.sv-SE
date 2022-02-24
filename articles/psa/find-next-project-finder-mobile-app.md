@@ -2,6 +2,8 @@
 title: Hitta nästa projekt med Project Finder Mobile-appen
 description: Hitta nästa projekt med Project Finder Mobile-appen för Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990822"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149295"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Hitta nästa projekt med Project Finder Mobile-appen (Project Service)
 
@@ -38,15 +40,12 @@ Med Project Finder Mobile-appen på din [!INCLUDE[tn_iphone](../includes/tn-ipho
   
  Tryck på pilen till höger om det projekt som du är intresserad av att se mer information om och registrera dig.  
   
- ![Lista över projekt som matchar kunskaper i appen Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista över projekt som matchar kunskaper i appen Project Finder Mobile")  
+ ![Lista över projekt som matchar kunskaper i appen Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Lista över projekt som matchar kunskaper i appen Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Uppdatera dina färdigheter  
  Tryck på profilknappen längst ner till höger på skärmen om du vill uppdatera dina kunskaps- och färdighetsnivåer.  
   
- ![Profilknappen i appen Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Profilknappen i appen Project Finder Mobile")  
+ ![Profilknappen i appen Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Profilknappen i appen Project Finder Mobile")  
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

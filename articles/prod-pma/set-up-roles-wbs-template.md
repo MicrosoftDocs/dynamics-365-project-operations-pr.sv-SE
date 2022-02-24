@@ -2,9 +2,11 @@
 title: Konfigurera roller i mallar för uppdelad arbetsstruktur
 description: I det här ämnet finns information om hur du konfigurerar rollinformation i mallar för uppdelad arbetsstruktur.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085520"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Konfigurera roller i mallar för uppdelad arbetsstruktur
 
@@ -89,7 +91,7 @@ Ytterligare alternativ har lagts till i strukturen för att bättre använda fun
 
 4. Ange datum och tid (timmar) enligt illustrationen nedan.
 
-    [![Ange datum och insats.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Ange datum och ansträngning](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Välj aktivitetsrad **initiering** och sedan i fältet **roll** välj **chefsprojektledare**.
 6. Välj **Publicera**.
@@ -105,6 +107,3 @@ Ytterligare alternativ har lagts till i strukturen för att bättre använda fun
     > Du får ingen varning om att den angivna resursen nu är 2 eftersom antalet resurser fortfarande är 1.
 
 14. På sidan **Uppdelad arbetsstruktur** validerar du resurstilldelningen i WBS och väljer sedan **Spara**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Mobilapp för projekt tidsrapport
 description: I den här ämnet finns information om Microsoft Dynamics 365 Project Timesheet mobilapp. Mobilappen tidsrapport låter användarna skicka och godkänna tidsrapporter för projekt på deras mobila enhet.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085713"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilapp för projekt tidsrapport
 
@@ -94,6 +96,3 @@ Klicka på **Skicka** för att skicka tid rapporten till godkännande arbetsflö
 ## <a name="review-timesheets"></a>Granska tidrapporter
 
 En lista över de tidrapporter som måste granskas visas på menyn. Det här alternativet är bara tillgängligt om du har angetts som godkännande för arbetsflödet. Både rubrik och rad godkännande stöds. Med godkännande av radnivå kan du markera en eller flera rader för godkännande. När du har granskat tid rapport informationen klickar du på **godkänn**, **delegera** eller **återgå** för att fortsätta arbetsflödet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

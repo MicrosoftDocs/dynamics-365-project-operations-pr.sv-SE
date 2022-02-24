@@ -2,18 +2,19 @@
 title: Översikt över prissättningsdimensioner
 description: I det här ämnet finns information om prissättningsdimensioner i Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001993"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650235"
 ---
 # <a name="pricing-dimensions-overview"></a>Prissättningsdimensioner – Översikt
 
@@ -33,7 +34,7 @@ Därför finns det två typer av dimensionsvärden för prissättning tillgängl
 
 Med Dynamics 365 Project Operations följer standarduppsättning med prissättningsdimensioner. Du kan visa dessa prissättningsdimensioner genom att gå till **Project Operations** > **parametrar**. I parameterposten, på fliken **Beloppsbaserad prissättningsdimension** ska du kontrollera att rollen **msdyn_resourcecategory** och resursorganisationsenheten **msdyn_organizationalunit** har fälten **Gäller för försäljning** och **Gäller för kostnad** inställd på **Ja**. Med dessa fält aktiverade kan du ange pris och kostnad för varje kombination av roll och organisationsenheter.
 
-![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad.](media/PS-OOB-parameters.png)
+![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad](media/PS-OOB-parameters.png)
 
 Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande ämnen: 
   
@@ -60,16 +61,13 @@ I följande exempel visas faktureringskostnader som är inställda utifrån den 
 
 | Roll        | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvecklare   | Contoso US  |timme | 200|USD     |
-| Utvecklare   | Contoso Indien |timme|   112|USD     |
+| Utvecklare   | Contoso US  |Timme | 200|USD     |
+| Utvecklare   | Contoso India |Timme|   112|USD     |
 
 
 **Exempelkostnadstariffer**
 
 | Löneband     | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt företag_Band1 | Contoso US  |timme | 145|USD     |
-| Mitt företag_Band2 | Contoso Indien |timme|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mitt företag_Band1 | Contoso US  |Timme | 145|USD     |
+| Mitt företag_Band2 | Contoso India |Timme|   67|USD     |

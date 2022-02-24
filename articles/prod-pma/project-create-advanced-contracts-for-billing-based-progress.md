@@ -2,9 +2,11 @@
 title: Skapa avancerade kontrakt för fakturering baserad på förlopp
 description: I det här ämnet beskrivs hur du skapar projektkontrakt så att du kan skapa fakturor för kunder, baserat på en procent färdigt arbete.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085669"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Skapa avancerade kontrakt för fakturering baserad på förlopp
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Budgetkategorier används för att automatiskt beräkna fakturabeloppen för den
 8. Valfritt: tilldela faktureringsregeln till ytterligare projekt. Under snabbfliken **Projekt**, i avsnittet **Tillgängliga projekt**, väljer du ett projekt och sedan högerpilen för att lägga till projektet i avsnittet **Valda projekt**.
 9. Valfritt: beräkna procentsatsen som kunden håller inne från betalningar på en faktura. Under snabbfliken **Villkor för innehållen betalning** väljer du finansieringskälla och sedan, i fältet **Innehållen procentsats**, anger du innehållen procentsats.
 10. Upprepa stegen för att skapa ytterligare faktureringsregler för projektkontraktet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

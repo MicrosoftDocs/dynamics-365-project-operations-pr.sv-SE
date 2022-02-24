@@ -2,9 +2,11 @@
 title: Koncernintern fakturering
 description: Den här artikeln innehåller information och exempel på koncernintern fakturering för projekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995828"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270790"
 ---
 # <a name="intercompany-invoicing"></a>Koncernintern fakturering
 
@@ -33,7 +35,7 @@ Organisationen kan ha flera avdelningar, dotterbolag och andra juridiska enheter
 
 Följande illustration visar ett typiskt scenario där två juridiska enheter, SI FR (den låntagande juridiska personen) och SI USA (den långivande juridiska personen) delar resurser för att leverera ett projekt för kund A. I det här scenariot kontrakteras SI FR för att leverera arbetet till kund A. 
 
-[![Exempel koncernintern fakturering.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exempel koncernintern fakturering](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Målet är att göra kostnadskontrollen, intäktsredovisning, moms och överföringspris för koncerninterna projekttransaktioner mer flexibla och kraftfullt. Dessutom tillhandahålls följande funktioner:
 

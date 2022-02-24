@@ -2,9 +2,11 @@
 title: Resursuppfyllelse för planerade resurser
 description: I det här ämnet finns information om planerade resurser för ett projekt.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085711"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Resursuppfyllelse för planerade resurser
 
@@ -38,6 +40,3 @@ En projektledare kan planera nödvändiga resursroller för ett projekt. Resursh
 7. Välj en arbetare och sedan **Tilldela**.
 8. Kontrollera att raden för **programvaruutvecklare 1** har tagits bort för projektet **XYZ uppgradering projektfas 2**.
 9. På fliken **Projektteam och schemaläggning** för projekt **XYZ uppgradera fas 2**, kontrollera att arbetaren som du valde i föregående steg har lagts till som **Programvaruutvecklare**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

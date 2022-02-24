@@ -2,9 +2,11 @@
 title: Bokföra utgiftsrapporter
 description: I det här ämnet beskrivs hur du bokför utgiftsrapporter.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007708"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124300"
 ---
 # <a name="post-expense-reports"></a>Bokföra utgiftsrapporter
 
@@ -29,6 +31,3 @@ Om utgifter i en utgiftsrapport debiteras ett företag som inte är samma föret
 Om du vill bokföra en utgiftsrapport på sidan **Godkända utgiftsrapporter** väljer du utgiftsrapport och sedan, i åtgärdsfönstret, väljer du **Bokför**.
 
 Du kan också bokföra alla utgiftsrapporter i listan på samma gång. Välj alla utgiftsrapporter och välj sedan **Bokför**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Schemaläggningslägen
 description: I det här ämnet finns information om schemaläggningslägen.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987773"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981457"
 ---
 # <a name="scheduling-modes"></a>Schemaläggningslägen
 
@@ -23,12 +25,12 @@ Dynamics 365 Project Operations gör att organisationer kan definiera hur de han
 Det finns tre tillgängliga schemaläggningslägen i Project Operations:
 
   - Fast varaktighet (det här är standardläget)
-  - Fast insats (*Arbete*)
+  - Fast arbete
   - Fasta enheter
 
 Värdena som påverkas av definitionen i ett visst schemaläggningsläge bestäms av följande formel:
 
-  Insats = Varaktighet x enheter
+  Insats (*Arbete*) = Varaktighet x enheter
 
 När du definierar ett projekts schemaläggningsläge ställer du in ett av dessa värden som sedan inte kan ändras. Om du har värdet som en konstant prioriteras det, vilket meddelar systemet att det inte ska ändras när de två andra värdena ändras. Följande tabell innehåller information om effekten av att välja ett visst läge.
 

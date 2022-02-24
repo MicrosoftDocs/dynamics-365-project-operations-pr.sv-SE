@@ -2,9 +2,11 @@
 title: Konfigurera anpassade fält som prissättningsdimensioner
 description: I det här ämnet finns information om hur du ställer in prissättningsdimensioner med anpassade fält.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003613"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650250"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner
 
@@ -42,11 +44,11 @@ För att ett fält ska bli en prissättningsdimension måste det vara:
 
 - Skapad som en rad i tabellen **prisdimension**. Du kan till exempel lägga till prisdimensionsrader som de visas i följande bild. 
 
-![Beloppsbaserade prissättningsrader.](media/Amt-based-PD.png)
+![Beloppsbaserade prissättningsrader](media/Amt-based-PD.png)
 
 Resursens arbetstider (**msdyn_resourceworkhours**) har lagts till som en kodtyp och att de har lagts till i rutnätet på fliken **Påläggsbaserad prissättningsdimension**.
 
-![Påläggsbaserade prissättningsdimensionsrader.](media/Markup-based-PD.png)
+![Påläggsbaserade prissättningsdimensionsrader](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,12 +75,12 @@ Det finns två typer av prissättningsdimensioner:
   
 | Roll        | Organisationsenhet    |Arbetsplats      |Standardrubrik      |Arbetstid för resurs      |  Pålägg|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indien|På plats            |                    |Övertid                 |15     |
-|             | Contoso Indien|Lokal             |                    |Övertid                 |10     |
+|             | Contoso India|På plats            |                    |Övertid                 |15     |
+|             | Contoso India|Lokal             |                    |Övertid                 |10     |
 |             | Contoso US   |Lokal             |                    |Övertid                 |20     |
 
 
-Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbunden tid och 2 timmar övertid i tidsposten använder prissättningsmotorn grundpriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
+Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbundet och 2 timmar övertid i tidsposten använder baspriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gäller för kostnad 
 Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när kostnads- och påläggspriserna hämtas.
@@ -94,6 +96,3 @@ Genom att ange dimensionsprioriteten kan producera ett pris även om det inte g�
 
 - **Kostnadsprioritet**: värdet för dimensionens kostnadsprioritet anger vikten av dimensionen när den matchas mot inställningarna av självkostnader. Värdet för **kostnadsprioritet** måste vara unikt mellan de dimensioner som **gäller för kostnaden**.
 - **Försäljningsprioritet**: värdet för dimensionens försäljningsprioritet anger vikten av dimensionen när den matchas mot inställningarna av försäljningspris eller faktureringskostnader. Värdet för **försäljningsprioritet** måste vara unikt mellan de dimensioner som **gäller för försäljning**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

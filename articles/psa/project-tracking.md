@@ -2,6 +2,8 @@
 title: Projektstatus och kostnadsförbrukning
 description: I det här ämnet finns information om hur du spårar projektstatus och kostnadsförbrukning.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987188"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148035"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektstatus och kostnadsförbrukning
 
@@ -96,6 +98,3 @@ Spåra data i **Insatsspårning** och **Kostnadsspårning** visas förloppet och
 Fältet **övergripande projektstatus** är ett redigerbart fält som visar projektets övergripande status. Det använder färgkodning, t.ex. grön, gul och röd för att indikera ökande risker. I fältet **kommentarer** kan projektledaren ange kommentarer om statusen. Fältet **status uppdaterad för** är inte redigerbart och värdet är en tidstämpel som anger när status senast uppdaterades.
 
 Fälten **Schemalägg resultat** och **Kostnadsresultat** anges utifrån spårningsdatumet. När schema och kostnadsavvikelse för rotnoden i vyn **Insatsspårning** är positiva kan du ange att dessa fält till **Före**. När schema och kostnadsavvikelse för rotnoden är negativa kan du ange dem till **Efter**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

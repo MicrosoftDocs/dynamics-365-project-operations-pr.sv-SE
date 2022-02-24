@@ -1,17 +1,11 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Kom igång
+- name: Kom i gång
   items:
     - name: Fastställ din distributionstyp
       href: environment/determine-deployment-type.md
-    - name: Registrera dig för utvärderingsversion av Project Operations
-      href: environment/admin-trials.md
     - name: Uppdateringar av Project Operations
       href: whats-new/project-operations-updates.md
-    - name: Borttagna eller inaktuella funktioner
-      items:
-        - name: Borttagna eller inaktuella funktioner i Project Operations
-          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations för resursscenarier/icke lagerbaserade scenarier
   items:
     - name: Kom igång
@@ -30,17 +24,15 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Använda demodata
           items:
-            - name: Använda konfigurationsdata i Common Data Service
+            - name: Tillämpa konfigurationsdata i Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuera miljöer
           items:
-            - name: Distribuera appen Project Operations Dataverse manuellt med stöd för dubbelriktad skrivning
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Etablera en ny miljö
               href: environment/resource-provision-new-environment.md
             - name: Säkerhetsmodell
               href: environment/security-model.md
-            - name: Konfigurera Project Operations-integration efter juridisk person
+            - name: Konfigurera Project Operations-integration efter juridisk entitet
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Konfigurera integration för dubbelriktad skrivning
           items:
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integration med leverantörsfaktura
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Avinstallera Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: December 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: November 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Oktober 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: September 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Augusti 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Juli 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Juni 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mars 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -306,12 +280,8 @@
           items:
             - name: Ta fram projektmallar med Kopiera projekt
               href: project-management/dev-copy-project.md
-            - name: 'Använda API:er för projektscheman'
+            - name: 'Använda schema-API:er (offentlig förhandsversion)'
               href: project-management/schedule-api-preview.md
-            - name: Projektplanera API-resultat
-              href: project-management/project-schedule-api-performance.md
-            - name: Loggar för projektplanering
-              href: project-management/schedule-api-logs.md
     - name: Resurshantering
       items:
         - name: Nyckelbegrepp
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurera utgiftskategorier
               href: expense/set-up-expense-categories.md
-            - name: Konfigurera körsträcka utifrån kostnadsnivåer för körsträcka
-              href: expense/set-up-mileage.md
-        - name: Utgiftsspecificering
-          href: prod-exp/expense-itemization.md
         - name: Personliga utgifter
           href: expense/personal-expenses-expense-report.md
         - name: Koncerninterna utgifter
@@ -442,8 +408,6 @@
       items:
         - name: Godkännanden – Översikt
           href: approvals/approvals-overview.md
-        - name: Godkännandeuppsättningar
-          href: approvals/approval-sets.md
         - name: Anteckningar från utvecklare
           items:
             - name: Utvecklingsanteckningar för godkännanden
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Anskaffa icke lagerfört material för projekt med hjälp av väntande leverantörsfakturor
           href: procurement/pending-vendor-invoices.md
-        - name: Beställa ej lagerfört material för projekt som använder projektinköpsorder
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Kvarhållning av leverantörer
-          items:
-            - name: Översikt över kvarhållning av leverantörer
-              href: procurement/vendor-retention-overview.md
-            - name: Ställa kvarhållning av leverantörer
-              href: procurement/set-up-vendor-retention.md
     - name: Fakturering
       items:
         - name: Översikt av faktureringsprocess
           href: invoicing/post-project-invoices.md
+        - name: Hantera projektfakturaförslag
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma-fakturering
           items:
             - name: Hantera eftersläpad projektbaserad fakturering
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurera automatisering av projektbaserade fakturor
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Kundfakturering
-          items:
-            - name: Hantera projektfakturaförslag
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Korrigera redovisning i utkast till projektfakturaförslag
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Koncernintern fakturering
-          items:
-            - name: Koncernintern fakturering – Översikt
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konfigurera koncernintern fakturering
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Skapa koncerninterna transaktioner
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Skapa koncerninterna kund- och leverantörsfakturor
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Hantera projektfakturaförslag
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projektredovisning
       items:
         - name: Standardvärden för ekonomisk dimension
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integrationsjournal i Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Koncernintern fakturering
+          items:
+            - name: Koncernintern fakturering – Översikt
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurera koncernintern fakturering
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Skapa koncerninterna transaktioner
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Skapa koncerninterna kund- och leverantörsfakturor
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Intäktsredovisning
       items:
         - name: Intäktsredovisning – Översikt
@@ -538,15 +492,9 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Hantera intäktsberäkningar
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Felsökning
-      items:
-        - name: Projektförsäljningsprocess
-          items:
-            - name: 'Valutamatchningsfel när projekt, kontrakt, offerter eller bokningsbara resurser skapas'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lite-distribution – avtal till proforma-fakturering
   items:
-    - name: Kom i gång
+    - name: Kom igång
       items:
         - name: Lite-distribution – Översikt
           href: pro/project-operations-overview-lite.md
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Vad är nytt i december 2021 – lite-distribution
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Vad är nytt i november 2021 – lite-distribution
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Vad är nytt i oktober 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Vad är nytt i september 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Vad är nytt i augusti 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Vad är nytt i juli 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Vad är nytt i juni 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Vad är nytt i maj 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Vad är nytt i april 2021 – Lite-distribution
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Vad är nytt i mars 2021 – Lite-distribution
@@ -826,10 +756,8 @@
           items:
             - name: Ta fram projektmallar med Kopiera projekt
               href: project-management/dev-copy-project.md
-            - name: 'Använda API:er för projektscheman'
+            - name: 'Använda schema-API:er (offentlig förhandsversion)'
               href: project-management/schedule-api-preview.md
-            - name: Projektplanera API-resultat
-              href: project-management/project-schedule-api-performance.md
     - name: Resurshantering
       items:
         - name: Nyckelbegrepp
@@ -886,44 +814,6 @@
           items:
             - name: Resursutnyttjande – Översikt
               href: resource-management/resource-utilization-overview.md
-    - name: Hantering av underkontrakt i Project Operations
-      items:
-        - name: Hantering av underkontrakt i Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Underkontraktering i oktober 2021 – Tidig åtkomst
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Viktiga begrepp för underkontrakt
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Hantera leverantörer och projektprislistor
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Underleverantörer som bokningsbara resurser
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Rubrikinformation för underkontrakt
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Underkontraktrader för tid
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Underkontraktrader för utgiftskategorier
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Underkontraktrader för produkter
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Underkontraktradresurser
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Milstolpar för underkontraktrad
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Underkontraktering av projektteammedlemmar
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Alternativ för underkontraktering av projektteammedlemmar
-          href: pro/subcontracting/subcon-options.md
-        - name: Kostnadsuppskattning av underleverantörers resurstilldelningar
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Konfigurera schemaläggningstavlan så att kapaciteten för kontraktarbetare och underleverantörer visas
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Bemanna ett projekt med kapacitet för kontraktpersonal och underleverantörer
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Registrera tid, utgifter och materialanvändning för underleverantörskomponenter'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Tillståndsövergångar på ett underkontrakt
-          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Tid – Översikt
@@ -950,8 +840,6 @@
       items:
         - name: Godkännanden – Översikt
           href: approvals/approvals-overview.md
-        - name: Godkännandeuppsättningar
-          href: approvals/approval-sets.md
         - name: Anteckningar från utvecklare
           items:
             - name: Utvecklingsanteckningar för godkännanden
@@ -988,14 +876,6 @@
   items:
     - name: Nyheter
       items:
-        - name: Nyheter i oktober 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Nyheter i september 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Nyheter i juli 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Nyheter i maj 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nyheter i april 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nyheter i mars 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
@@ -1146,26 +1026,8 @@
       href: psa/overview.md
     - name: Nyheter
       items:
-        - name: Uppdatera utgivningsplan för Project Service 3.x
+        - name: Uppdatering av tidsplan för Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 38, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 37.5, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 37, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 36, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 35, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 34, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 33, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 32.5, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Nyheter och ändringar i uppdateringsutgåva 32, V3'
-          href: psa/whats-new-ur-32.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 30, V3'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guide för rapportering
           href: psa/implementation-guides/reporting-guide.md
-    - name: Uppgradera från Project Service Automation till Project Operations – lite
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Uppgradering av Project Service Automation (appversion 3.x)
       items:
         - name: Project Service Automation-uppgradering
@@ -1404,10 +1264,8 @@
               href: psa/time-entries.md
             - name: Tidspostkalender
               href: psa/time-entry-calendar.md
-            - name: Anpassa tidsposter för vecka
+            - name: Anpassa tidsposter för en vecka
               href: psa/time-entry-extensibility-v3.md
-            - name: Godkännandeuppsättningar i Project Service Automation
-              href: psa/approval-set.md
     - name: Vanliga frågor och svar och felsökning (3.x)
       items:
         - name: Varför återställs priset till standardvärdet noll för faktiska utgiftskostnader?

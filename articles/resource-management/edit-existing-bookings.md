@@ -2,16 +2,18 @@
 title: Redigera bokningar
 description: Detta ämne innehåller information om hur du uppdaterar och gör ändringar i bokningar.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008338"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841408"
 ---
 # <a name="edit-bookings"></a>Redigera bokningar
 
@@ -31,6 +33,3 @@ Via rutnätet **Teammedlem** kan en projektledare markera en specifik resurs och
 ## <a name="schedule-board"></a>Schemaläggningstavla
 
 Via **schematavlan** har resurshanteraren en portföljvy över samtliga en organisations bokningar. Från denna vy kan resurshanteraren utöka, förkorta eller flytta befintliga bokningar på samma sätt som via de funktioner som finns i **Bibehåll bokningar**. Resurshanteraren kan också ersätta befintliga resurser som har tilldelats en viss bokning genom att högerklicka på bokningsposten och välja **Ersättningsresurs**. Resursansvariga kan också redigera befintliga ändringar genom att högerklicka på bokningen och välja **Redigera**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

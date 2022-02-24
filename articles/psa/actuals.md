@@ -2,9 +2,10 @@
 title: Översikt över värden
 description: I det här ämnet finns information om projektets faktiska värden.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992498"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146145"
 ---
 # <a name="actuals-overview"></a>Översikt över värden
 
@@ -32,7 +33,7 @@ ms.locfileid: "6992498"
 
 Faktiska värden är den mängd arbete som har slutförts i ett projekt. Projektets faktiska värden kan spåras tillbaka till källdokumenten. Dessa källdokument innehåller både tid, utgift och journaltransaktioner samt fakturor.
 
-![Så här spåras projektets faktiska resultat till källdokument.](media/basic-guide-18.png)
+![Så här spåras projektets faktiska resultat till källdokument](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Skicka tidspost
 
@@ -329,6 +330,3 @@ PSA registrerar ekonomiska transaktioner som inträffar under ett projekt. Dessa
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

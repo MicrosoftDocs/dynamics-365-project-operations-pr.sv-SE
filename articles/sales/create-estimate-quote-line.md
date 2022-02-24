@@ -2,9 +2,11 @@
 title: Skapa beräkningar på en offertrad
 description: I det här ämnet finns information om hur du skapar en uppskattning på en offertrad för ett projekt.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996458"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122950"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Skapa beräkningar på en offertrad
 
@@ -86,6 +88,3 @@ Om du har lagt till ett anpassat fält på offertradinformationen och vill att f
 7. Välj **OK** för att stänga dialogrutan och välj sedan **Uppdatera steg**.
 8. Upprepa steg 1 till och med 7 för det andra plugin-programmet.
 9. Stäng PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

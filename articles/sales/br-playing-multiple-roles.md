@@ -2,16 +2,18 @@
 title: Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller i ett projekt
 description: I detta ämne förklaras hur du använder prissättningsdimensioner för att stödja pris- och kostnadsberäkningar för en resurs som fyller flera roller i ett projekt.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990158"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531571"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller i ett projekt 
 
@@ -104,6 +106,3 @@ När du expanderar raden för den gruppmedlemsposten kan du se distinkta tilldel
 ### <a name="estimates-grid"></a>Beräkningsrutnät 
 
 På rutnätet **Uppskattningar** prissätts båda tilldelningar för samma resurs på olika sätt. Tilldelningen för resursen tillhörande **Uppgift A** prissätts med hjälp av attributvärdet **Rådgivningslead** för **Roll**. Tilldelningen för samma resurs för **Uppgift B** prissätts med hjälp av attributvärdet **Nätverkstekniker** för **Roll**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

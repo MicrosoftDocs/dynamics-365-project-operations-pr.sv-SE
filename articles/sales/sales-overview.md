@@ -2,23 +2,24 @@
 title: Översikt över försäljningsprocessen
 description: I det här ämnet finns information om de grundläggande försäljningsprocesserna.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991868"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177623"
 ---
 # <a name="sales-process-overview"></a>Översikt över försäljningsprocessen
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-De försäljningsprocesser som används i en projektbaserad organisation skiljer sig från de försäljningsprocesser som används i en produktbaserad organisation. Detta beror på att försäljningscykler för projektbaserade organisationer är längre och kräver anpassad uppskattningsteknik för att analysera och skapa offerter för varje avtal. Dynamics 365 Project Operations använder några av följande funktioner som används i en försäljningsprocess:
+De försäljningsprocesser som används i en projektbaserad organisation skiljer sig från de försäljningsprocesser som används i en produktbaserad organisation. Detta beror på att försäljningscykler för projektbaserade organisationer är längre och kräver anpassad uppskattningsteknik för att analysera och skapa offerter för varje avtal. Dynamics 365 Project Operations använder en del av följande funktioner som används i försäljningsprocessen:
 
 - En leadpost används för att spåra försäljningsprocessen.
 - Kvalificera leads följs upp som affärsmöjligheter.
@@ -62,6 +63,3 @@ I Project Operations kan du inte följa upp ändringar i en offert. I stället m
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Spåra kommentarer och godkännanden av offerter och projektkontrakt
 Du kan hantera granskning och godkännande av offerter och projektkontrakt med hjälp av postväggar och inlägg. Din organisation kan skapa anpassade arbetsflöden och plugin-program för att tilldela, omdirigera, eskalera och hantera meddelanden om gransknings- och godkännandeuppgifter.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
