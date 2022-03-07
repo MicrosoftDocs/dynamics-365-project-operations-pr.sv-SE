@@ -2,8 +2,6 @@
 title: Prissättning av projekt
 description: I det här ämnet finns information om hur prissättning fungerar i Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148935"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000598"
 ---
 # <a name="project-pricing"></a>Prissättning av projekt 
 
@@ -48,7 +46,7 @@ Entiteten för prislista har tre relaterade tabeller som lagrar priser:
   - **Pris för transaktionskategori** - i den här tabellen lagras priser per transaktionskategori och används för att ställa in priser för utgiftskategorier.
   - **Prislisteobjekt** - i den här tabellen lagras priserna för katalogprodukter.
 
-> ![Konfigurera priser med hjälp av en prislista](media/basic-guide-12.png)
+> ![Konfigurera priser med hjälp av en prislista.](media/basic-guide-12.png)
  
 Prislista är en prislista. En prislista är en kombination av entiteten prislista och relaterade rader i tabellerna rollpris, transaktionskategoripris och prislisteobjekt.
 
@@ -60,7 +58,7 @@ Personaltider anges vanligtvis utifrån den roll som en resurs fyller i ett spec
 
 Enhetsgruppen **Tid** skapas när PSA installeras. Den har en standardenhet på **timme**. Du kan inte ta bort, byta namn på eller redigera attributen för enhetsgruppen **Tid** eller enheten **Timme**. Men du kan lägga till andra enheter i enhetsgruppen för **tid**. Om du försöker ta bort antingen enhetsgruppen **Tid** eller enheten **Timme** kan det leda till fel i PSA-affärslogiken.
 
-> ![Konfigurera priser efter roll](media/basic-guide-13.png)
+> ![Konfigurera priser efter roll.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transaktionskategorier och utgiftskategorier
 
@@ -70,7 +68,7 @@ Resekostnader och andra utgifter som ingår i projektkonsulter faktureras vanlig
 - **Påläggsprocent** - procentsatsen för den faktiska kostnaden faktureras till kunden. 
 - **Pris per enhet** - ett faktureringspris anges för varje enhet i utgiftskategorin. Det belopp som faktureras för kunden beräknas utifrån antalet utgiftsenheter som konsulterna rapporterar. Körsträcka använder prismodellen pris per enhet. Exempelvis kan utgiftskategorin körsträcka konfigureras för 30 USD per dag eller 2 USD per mil. När en konsult rapporterar körsträcka i ett projekt beräknas faktureringsbeloppet utifrån det antal mil som konsulten rapporterat.
 
-> ![Konfigurera prissättning för utgiftskategorier](media/basic-guide-14.png)
+> ![Konfigurera prissättning för utgiftskategorier.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prissättning för projektförsäljning och åsidosättningar
 
@@ -116,7 +114,7 @@ I en offert kan du emellertid använda en huvudsaklig prislista. Du kan också k
 
 När du skapar en anpassad projektprislista kopieras endast projektkomponenterna för prislistan. Med andra ord skapas en ny prislista som skapas som en kopia av den befintliga projektprislistan som är kopplad till offerten, och den nya prislistan har endast relaterade rollpriser och transaktionskategoripriser.
 
-> ![Visa och konfigurera anpassad prissättning för ett projektkontrakt](media/basic-guide-15.png)
+> ![Visa och konfigurera anpassad prissättning för ett projektkontrakt.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Spåra kostnader
 
@@ -131,3 +129,6 @@ På samma sätt som med faktureringskostnader är kostnadstariffer för personal
     1. Prislista för självkostnad är kopplad till organisationsenheten.
     2. Prislista för självkostnad är kopplad till Project Service-parametrarna. Eftersom prislista för självkostnad i många olika valutor kan kopplas till Project Service-parametrar, gör PSA en valutamatchning mellan valutan i den upphandlande organisationsenheten för projektet, kontraktet eller offerten och valutan i prislistan för självkostnad.
     3. För utgifter gäller prissättningsmetoderna Vid kostnad och Pålägg på kostnad inte prislistor för självkostnad. Även om de här prissättningsmetoderna används på rader för prislista för självkostnad för att konfigurera kostnaderna för en transaktionskategori ignoreras de och ingen standardsjälvkostnad anges.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

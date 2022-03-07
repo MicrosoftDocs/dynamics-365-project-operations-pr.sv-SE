@@ -2,24 +2,22 @@
 title: Konfigurera fakturataxa för arbete – Lite
 description: I det här ämnet finns information om hur du konfigurerar fakturataxa för arbete i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 26c3743283dd9032e044071b3127a2885ad5ae49
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181204"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004283"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Konfigurera fakturataxa för arbete – Lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Varje prislista har en uppsättning rollpriser, eller arbetstaxor, som gäller för det samband och datum som anges på prislistans huvud. Fakturataxa för tid i Dynamics 365 Project Operations kan endast konfigureras i en valuta, vilket är valutan i prislistans huvud.
+Varje prislista har en uppsättning rollpriser, eller arbetstaxor, som gäller för det samband och datum som anges på prislistans huvud. Fakturataxa för tid i Dynamics 365 Project Operations kan endast anges i en valuta, vilket är valutan i sidhuvudet Prislista.
 
 1. Om du vill konfigurera fakturataxor för arbete i en försäljningsprislista, skapar du en prislista baserad på prislistans huvud. 
 2. Under fliken **Rollpriser**, in underrutnätet, väljer du **+ Nytt rollpris**. 
@@ -55,3 +53,6 @@ Exempel: En utvecklare från Fabrikam India som arbetar på ett USA-projekt fakt
     | Developer | Fabrikam US | 150 USD |
 
 3. Bifoga försäljningsprislistan, **Fakturataxa för Fabrikam US** till projektprislistan för projektkontraktet eller till ett visst konto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

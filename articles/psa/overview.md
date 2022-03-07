@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150555"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949656"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Vad är Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ I syfte att hjälpa dig övervaka och kontrollera utgifter för projektbaserat a
 ## <a name="whats-new-in-psa"></a>Nyheter i PSA
 Vi i teamet är glada över att kunna meddela våra senaste uppdateringar! Allt från förbättringar i användargränssnittet till att åtgärda buggar och lägga till viktiga nya funktioner. Ni efterfrågade, vi lyssnade.
 
-Ta en titt på [Viktig information i oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) för mer information om våra senaste förbättringar och nyheter.
+Ta en titt på [Viktig information i oktober 2019](/dynamics365-release-plan/2019wave2/index) för mer information om våra senaste förbättringar och nyheter.
 
 ### <a name="in-development"></a>Under utveckling
-För att se vad vi har planerat inom kort, gå till [Dynamics 365: 2020 lanseringsvåg 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+För att se vad vi har planerat inom kort, gå till [Dynamics 365: 2020 lanseringsvåg 1 plan](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Få hjälp med PSA version 3.x
 Letar du efter resurser för att planera implementeringen? Lär dig mer om dessa hämtningsbara guider.
@@ -86,3 +86,6 @@ Letar du efter resurser för att planera implementeringen? Lär dig mer om dessa
  <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

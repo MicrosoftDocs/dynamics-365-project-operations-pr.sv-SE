@@ -2,18 +2,16 @@
 title: Konfigurera kostnadstaxa för arbete – Lite
 description: I det här ämnet finns information om hur du konfigurerar kostnadstaxa för arbete i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180753"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006133"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Konfigurera kostnadstaxa för arbete – Lite
 
@@ -38,7 +36,7 @@ Följande tabell innehåller några av de fält som är viktiga när det gäller
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Överföra priser och kostnader för resurser utanför din avdelning eller juridiska person
 
-I projektbaserade företag är det vanligt att använda anställda från olika juridiska personer eller avdelningar i projekt. Ett projekt kan utföras av en juridisk person, men de medarbetare eller konsulter som arbetar på projektet kan komma från samma juridiska person eller från en annan, eller så kan det finnas en kombination av båda. I Dynamics 365 Project Operations är den juridiska personen som äger leveransen av projektet det **ägande företaget** och den avdelning som äger leveransen är den **kontrakterande enheten**. Andra juridiska personer som tillhandahåller resurser är **resursföretag** och avdelningar som tillhandahåller resurser är **resursenheter**. I de flesta länder krävs ett företag för att säkerställa att den juridiska personen eller avdelningen för resurser debiterar det ägande företaget och den kontrakterande enheten för användningen av resurser.
+I projektbaserade företag är det vanligt att använda anställda från olika juridiska personer eller avdelningar i projekt. Ett projekt kan utföras av en juridisk person, men de medarbetare eller konsulter som arbetar på projektet kan komma från samma juridiska person eller från en annan, eller så kan det finnas en kombination av båda. I Dynamics 365 Project Operations är den juridiska entitet som äger leverans av projektet är **Ägande företag** och den avdelning som äger leverans **uppslagsenhet**. Andra juridiska personer som tillhandahåller resurser är **resursföretag** och avdelningar som tillhandahåller resurser är **resursenheter**. I de flesta länder krävs ett företag för att säkerställa att den juridiska personen eller avdelningen för resurser debiterar det ägande företaget och den kontrakterande enheten för användningen av resurser.
 
 Företaget Fabrikam måste exempelvis se till att Fabrikam India-Robotics har förhandlat en kostnadsprislista med Fabrikam US-Robotics eller Fabrikam UK-Robotics.
 
@@ -82,3 +80,6 @@ I kostnadsprislistan för Fabrikam UK-Robotics kan kostnadstaxan uttryckas enlig
 | Developer | Fabrikam UK | 115 GBP |
 
 Kostnadsprislistan kan ge arbetstaxor i flera olika valutor. När du genererar en kostnadsuppskattning i projektet konverterar Project Operations de här kostnadstaxorna till projektvalutan och visar dessa för användaren. När en tidspost godkänns och en faktisk kostnad skapas prissätts den faktiska kostnaden i valutan på den motsvarande rollprisraden i kostnadsprislistan. Faktiska kostnader för tid i ett enskilt projekt kan registreras i flera olika valutor. När de faktiska arbetskostnaderna på projektnivå slås samman eller summeras kommer dock Project Operations att konvertera alla arbetskostnadsbelopp till projektvalutan, som användaren kan visa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

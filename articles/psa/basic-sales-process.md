@@ -2,8 +2,6 @@
 title: Försäljningsprocesser
 description: I det här ämnet finns information om de grundläggande försäljningsprocesserna.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000553"
 ---
 # <a name="sales-processes"></a>Försäljningsprocesser
 
@@ -41,7 +39,7 @@ De försäljningsprocesser som används i en projektbaserad organisation skiljer
 
 I följande illustration visas en typisk försäljningsprocess i en projektbaserad organisation.
 
-> ![Försäljningsprocess i en projektbaserad organisation](media/basic-guide-1.png)
+> ![Försäljningsprocess i en projektbaserad organisation.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Beräkna en försäljning
 Försäljningsvärdet kan beräknas på grundval av projekt som tidigare har levererats och projektets komplexitet. För projekt som involverar tillägg för tidigare projekt, eller projekt där leverantörens expertis är hög och välkända arbetsmallar används, kan du använda en enklare beräkningsprocess. Mer komplexa projekt har ofta en längre inköpsprocess. Därför finns det fler stadier i försäljningsberäkningsprocessen. Tidigt i processen använder försäljningsteamet indata från kontoansvariga och ämnesexperter (SMF) för att skapa en beräkning på hög nivå för varje enskild del av det arbete som offereras. Dessa arbetskomponenter representeras av offertrader. 
@@ -52,7 +50,7 @@ Du kan skapa flera offerter för ett projekt och gruppera dem under en enskild t
 
 Du kan också skapa alternativa offerter under ett affärsmöjlighets entitetstyp eller ställa in systemet så att ett projektkontrakt skapas när en offert har vunnits. I det här fallet kan du bifoga ett Word-dokument som representerar SOW för projektkontraktposten.
 
-![Stänga en offert för att skapa ett projektkontrakt](media/basic-guide-2.png)
+![Stänga en offert för att skapa ett projektkontrakt.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfigurera försäljningsprocessen
 Du kan använda affärsprocessflöden (BPF) i Microsoft Dynamics 365 för att konfigurera försäljningsprocessen. BPF ger din försäljningspersonal ett guidat visuellt gränssnitt som de kan använda för att flytta framåt mellan de stadier som är typiska för ditt företag.
@@ -68,7 +66,7 @@ Företaget kan till exempel ha följande sex steg i försäljningsprocessen:
 
 Dessa sex steg representeras av (\>) som du väljer att visa i varje affärsmöjlighets entitetstyp du skapar.
 
-![Konfiguration av affärsprocess i Dynamics 365](media/basic-guide-3.png)
+![Konfiguration av affärsprocess i Dynamics 365.](media/basic-guide-3.png)
  
 Din organisation kan använda olika entiteter för att representera samma avtal som de utvecklas. Tidigt i försäljningsprocessen representeras en affär av entiteten för affärsmöjlighet. När tiden passerar och mer information uppstår kan du använda beräkningar på hög nivå för att skapa en eller flera offerter. Om en av dessa offerter ses över av interna och kundens intressenter, representerar den offertentiteten affären. När kunden har accepterat offerten representerar ett projektkontrakt eller ett SOW affären. För att stödja detta beteende är BPF strukturerade så att varje stadium i processen länkas till en annan databastabell.
 
@@ -79,7 +77,7 @@ När du går igenom faserna uppmanas du att skapa rätt entitetsposter för att 
 > [!NOTE]
 > PSA har specifika sidor för entiteterna affärsmöjlighet, offert, order och faktura. Du måste skapa affärsmöjligheter, offerter, order och fakturor för Projekt Service med projektinformationssidorna för dessa entiteter. Om du använder en annan sida för att skapa en post kan du inte öppna posten från sidan **projektinformation**. Om du vill öppna en post från sidan **projektinformation** måste du ta bort posten och skapa den på nytt på sidan **projektinformation**. På sidan **projektinformation** säkerställer affärslogiken för var och en av de här entitetstyperna att fältet **Typ** är korrekt inställt och alla obligatoriska koncept är korrekt initierade.
 
-> ![Projektinformation för en ny order](media/basic-guide-4.png)
+> ![Projektinformation för en ny order.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Skillnader mellan Project Service Automation och Sales
 Även om försäljnings processen i PSA använder de grundläggande funktionerna i försäljningsprocessen i Sales, har den vissa viktiga skillnader på grund av variationer i affärspraxis i projektbaserade organisationer. Här följer några exempel:
@@ -93,3 +91,6 @@ Du kan inte följa upp ändringar i en offert i PSA. I stället måste du marker
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Spåra kommentarer och godkännanden av offerter och projektkontrakt
 Du kan hantera granskning och godkännande av offerter och projektkontrakt med hjälp av postväggar och inlägg. Din organisation kan skapa anpassade arbetsflöden och plugin-program för att tilldela, omdirigera, eskalera och hantera meddelanden om gransknings- och godkännandeuppgifter.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

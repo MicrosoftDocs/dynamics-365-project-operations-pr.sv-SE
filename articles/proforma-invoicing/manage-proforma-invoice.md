@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287710"
 ---
 # <a name="manage-a-proforma-invoice"></a>Hantera en proforma-faktura
 
@@ -135,3 +135,6 @@ Om du har verkliga värden som följde efter att fakturan skapades kan du ta med
 2. Öppna proforma-utkastfakturan och i menyfliksområdet **Åtgärder** klicka på **Uppdatera transaktioner på fakturaraden**.
 
   Detta skapar fakturaradinformation för alla faktiska som är tidigare daterade och markerade som **Klar att fakturera** men som inte ingår i fakturan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

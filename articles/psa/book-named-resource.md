@@ -3,7 +3,7 @@ title: Boka namngivna resurser från resursbehov
 description: I det här ämnet finns information om hur du bokar namngivna resurser för ett generiskt resursbehov.
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7a6370bde434b74d05e342240abd9bba84d34d8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145132"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085745"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Boka namngivna resurser från resursbehov
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

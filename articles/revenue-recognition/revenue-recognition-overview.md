@@ -2,18 +2,16 @@
 title: Intäktsredovisning – Översikt
 description: I det här ämnet finns information om vyn intäktsredovisning i Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531566"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013778"
 ---
 # <a name="revenue-recognition-overview"></a>Intäktsredovisning – Översikt
 
@@ -60,3 +58,6 @@ I Dynamics 365 Project Operations varierar principerna för intäktsredovisning 
 [Hantera intäktsberäkningar](rev-rec-completed-contract-method.md)
 
 [Kostnad för slutförandemetoder](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

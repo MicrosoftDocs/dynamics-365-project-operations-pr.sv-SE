@@ -2,17 +2,17 @@
 title: Konfigurera icke-lagerbaserade material och väntande leverantörsfakturor
 description: I ämnet beskrivs hur du aktiverar icke-lagerbaserade material och väntande leverantörsfakturor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993933"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003253"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurera icke-lagerbaserade material och väntande leverantörsfakturor
 
@@ -59,11 +59,11 @@ Om du använder standarddemodata kan du också behöva stoppa och starta om föl
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivera arbetsflöde för att skapa konton baserat på leverantörsentitet
 
-Lösningen dubbelriktad skrivningsorkestrering ger [Masterintegration av leverantörer](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Som en förutsättning för den här funktionen måste leverantörsdata skapas i entiteten **Konton**. Aktivera en mall för arbetsflödesprocess för att skapa leverantörer i tabellen **Konton** enligt beskrivningen i [Växla mellan leverantörsdesigner](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Lösningen dubbelriktad skrivningsorkestrering ger [Masterintegration av leverantörer](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Som en förutsättning för den här funktionen måste leverantörsdata skapas i entiteten **Konton**. Aktivera en mall för arbetsflödesprocess för att skapa leverantörer i tabellen **Konton** enligt beskrivningen i [Växla mellan leverantörsdesigner](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Ange produkter som ska skapas som aktiva
 
-Icke-lagerbaserade material måste konfigureras som **Släppta produkter** i Ekonomi. Lösningen dubbelriktad skrivningsorkestrering ger en helt ny [Integration av släppta produkter i Dataverse produktkatalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Som standard synkroniseras produkter från Ekonomi till Dataverse som utkast. För att synkronisera produkten med ett aktivt tillstånd så att den kan användas direkt i materialförbrukningsdokument eller väntande leverantörsfakturor går du till **System** > **Administration** > **Systemadministration** > **Systeminställningar** och på fliken **Försäljningar** ställer du in **Skapa produkter i aktivt tillstånd** som **Ja**.
+Icke-lagerbaserade material måste konfigureras som **Släppta produkter** i Ekonomi. Lösningen dubbelriktad skrivningsorkestrering ger en helt ny [Integration av släppta produkter i Dataverse produktkatalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Som standard synkroniseras produkter från Ekonomi till Dataverse som utkast. För att synkronisera produkten med ett aktivt tillstånd så att den kan användas direkt i materialförbrukningsdokument eller väntande leverantörsfakturor går du till **System** > **Administration** > **Systemadministration** > **Systeminställningar** och på fliken **Försäljningar** ställer du in **Skapa produkter i aktivt tillstånd** som **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurera krav i Ekonomi
 
@@ -88,7 +88,7 @@ I Project Operations kan du registrera materialberäkningar och förbrukning fö
 2. I fältet **Produkttyp** väljer du **Artikel** och i fältet **Produktundertyp** väljer du **Produkt**.
 3. Ange produktnumret (WRITEIN) och produktnamnet (Oregistrerad produkt).
 4. Välj artikelmodellgrupp. Kontrollera att artikelmodellgruppen du väljer har fältet **Lagerpolicy produkt i lager** inställt på **False**.
-5. Välj värden i fälten **Artikelgrupp**, **Lagerdimensionsgrupp** och **Spårningsdimensionsgrupp**. Använd **Lagerdimension** för **Plats** och ställ inte in spårningsdimensioner.
+5. Välj värden i fälten **Artikelgrupp**, **Lagerdimensionsgrupp** och **Spårningsdimensionsgrupp**. Använd **Lagringsplatsen** för **Webbplats** och i fältet **Spårningsmått**, välj **Inga**.
 6. Välj värden i fältet **Lagerenhet**, **Inköpsenhet** och **Försäljningsenhet** och spara sedan ändringarna.
 7. Ange standardorderinställningar på fliken **Plan** och ange standardplats och distributionslager på fliken **Lager**.
 8. Gå till **Projektledning och redovisning** > **Inställning** > **Projekthanterings- och redovisningsparametrar** och öppna **Project Operations i Dynamics 365 Dataverse**. 

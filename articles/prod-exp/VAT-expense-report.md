@@ -2,9 +2,11 @@
 title: Momsåtervinning
 description: I det här ämnet förklaras hur du får återbetalning av momstransaktioner.
 author: saraschi2
+manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -14,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085582"
 ---
 # <a name="vat-recovery"></a>Momsåtervinning 
+
+[!include [banner](../includes/banner.md)]
 
 För att få berättigade momstransaktioner återbetalda måste ett företag identifiera, samla in, verifiera och skicka in korrekt information. Den här processen omfattar flera uppgifter och kan, beroende på företagets storlek, innehålla flera medarbetare eller roller.
 
@@ -39,25 +43,25 @@ När förutsättningarna har uppfyllts ska medarbetare följa dessa steg för at
 4. Skicka momsåterbetalningsdata till tredjepartsleverantören för att registrera internationella återbetalningar.
 5. Bearbeta utgifter för inhemsk momsåterbetalning.
 
-Följande avsnitt innehåller exempel på hur Contoso-anställda slutför varje steg.
+I följande avsnitt finns exempel som visar hur Contoso-anställda slutför varje steg.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>I en utgiftsrapport anger du momsinformation för kreditkortstransaktioner för att identifiera berättigade momsåterbetalningar
 
-Nancy, en Contoso-säljare med bas i USA, kommer nyligen tillbaka från en försäljningsresa till Storbritannien. Under resan ådrog hon sig några personliga utgifter på kreditkortet för måltider. Nancy måste nu skapa en utgiftsrapport för att kunna stämma av utgifterna.
+Nancy, en säljare hos Contoso som är baserad i USA och som nyligen kom tillbaka från en säljresa till Storbritannien. Under resan ådrog hon sig några personliga utgifter på kreditkortet för måltider. Nancy måste nu skapa en utgiftsrapport för att kunna stämma av utgifterna.
 
 När Nancy anger information i utgiftsrapporten väljer hon **Storbritannien** i fältet **Land/region** på sidan **Redigera utgiftsrapport**. Listan över momsgrupper filtreras sedan så att den endast visar de grupper som gäller för Storbritannien. Nancy väljer momsgruppen **Storbritannien 001** och väljer sedan momsgruppen för artikelförsäljning **Måltider**. Härnäst lägger Nancy till en ny transaktion för logi. Eftersom det endast finns en momsgrupp och momsgrupp för artikelförsäljning för logi i Storbritannien fylls informationen i automatiskt på Nancys utgiftsrapport.
 
-Enligt Contoso-policyn måste alla utgifter ha motsvarande kostnader. Därför får Nancy ett meddelande som anger att hon måste bifoga ett kvitto för varje transaktion som hon noterade i utgiftsrapporten när hon sparar utgiftsrapporten. Nancy kontrollerar att hon har bifogat en digital bild av varje transaktionskvitto till utgiftsrapporten och skickar rapporten för godkännande. Hon skickar sedan papperskvitton till backoffice-gruppen för behandling.. Det här teamet skickar momsåterställningsdata till den tredjepartsleverantör som skickar in internationella momsåterställningsreturer för Contoso.
+Enligt Contoso-policyn måste alla utgifter ha ett matchande kvitto. Därför får Nancy ett meddelande som anger att hon måste bifoga ett kvitto för varje transaktion som hon noterade i utgiftsrapporten när hon sparar utgiftsrapporten. Nancy kontrollerar att hon har bifogat en digital bild av varje transaktionskvitto till utgiftsrapporten och skickar rapporten för godkännande. Hon skickar sedan papperskvitton till backoffice-gruppen för behandling.. Det här teamet skickar momsåterbetalningsdata till den tredjepartsleverantör som registrerar internationella momsåterbetalningar för Contoso.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Se till att all momsinformation är fullständig och skicka sedan utgiftsrapporten
 
-April, koordinator av leverantörsreskontra för Contoso, måste ange skatteinformation som saknas i en utgiftsrapport innan rapporten kan läggas upp. Hon öppnar sidan **Utgiftsrapportinformation** och ser Nancys godkända utgiftsrapport. April öppnar sedan utgiftsrapporten för att visa information om transaktionerna. Hon ser att Nancy inte angav någon momsgrupp för artikelförsäljning för en av transaktionerna. Eftersom den här informationen inte har angetts kan April inte bokföra utgiftsrapporten. Därför tittar April på sidan **Momskonfiguration** i utgiftshanteringen och söker efter rätt momsgrupp för artikelförsäljning för landet/regionen och transaktionstypen. April kan nu bokföra utgiftsrapporten i huvudboken.
+April, koordinatorn av leverantörsreskontra för Contoso, måste hon ange eventuell momsinformation som saknas i en utgiftsrapport innan hon kan bokföra rapporten. Hon öppnar sidan **Utgiftsrapportinformation** och ser Nancys godkända utgiftsrapport. April öppnar sedan utgiftsrapporten för att visa information om transaktionerna. Hon ser att Nancy inte angav någon momsgrupp för artikelförsäljning för en av transaktionerna. Eftersom den här informationen inte har angetts kan April inte bokföra utgiftsrapporten. Därför tittar April på sidan **Momskonfiguration** i utgiftshanteringen och söker efter rätt momsgrupp för artikelförsäljning för landet/regionen och transaktionstypen. April kan nu bokföra utgiftsrapporten i huvudboken.
 
 När utgiftsrapporten har bokförts av April skapas en arbetsuppgift med momsåterbetalning. Den här arbetsuppgiften tilldelas en medlem i backoffice-gruppen för behandling. April får ett meddelande som bekräftar att bokföringen har slutförts. I det här meddelandet visas även antalet momstransaktioner som identifierades för återbetalningen.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Bearbeta utgifter som är relevanta för internationell momsåterbetalning
 
-Arnie, medlem i Contosos back-office-bearbetningsteam, ansvarar för att bekräfta att all nödvändig information för momsåterställning ingår i utgiftsrapporter. Han öppnar sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som Nancy skickat. Arnie verifierar att alla begärda kvitton har bifogats och att rätt momsgrupp och momskoder har angetts.
+Arnie, medlem i Contosos backoffice-grupp för behandling, ansvarar för att bekräfta att all nödvändig information för momsåterbetalning ingår i utgiftsrapporter. Han öppnar sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som Nancy skickat. Arnie verifierar att alla begärda kvitton har bifogats och att rätt momsgrupp och momskoder har angetts.
 
 När Arnie tar emot papperskvitton från Nancy verifierar han dem mot de digitala kvittona och ändrar sedan statusen på utgiftsrapporten till **Klar för återbetalning**.
 
@@ -70,6 +74,3 @@ När Arnie är redo att skicka utgiftsrapportdata till den tredje part som ska r
 Arnie måste kontrollera att transaktionerna i utgiftsrapporten är berättigade till momsåterbetalning och att de digitala kvittona har bifogats till rapporterna. För att börja bearbeta utgifter som är berättigade till inhemsk återbetalning öppnar Arnie sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som kräver verifiering. Han bekräftar att kvitton finns i företagets namn i stället för i medarbetarens. Vid momsåterbetalning måste kvitton vara i företagets namn. Arnie bekräftar då att rätt momsgrupp och momskoder har tillämpats.
 
 När Arnie tar emot papperskvitton ändrar han status för utgiftsrapporten till **Klar för återbetalning**. Han kan sedan registrera återbetalningen hos rätt skattemyndighet. I det här fallet är rätt skattemyndighet i USA Internal Revenue Service (IRS).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

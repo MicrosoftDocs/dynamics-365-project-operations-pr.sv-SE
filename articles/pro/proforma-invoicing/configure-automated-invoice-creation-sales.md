@@ -1,29 +1,27 @@
 ---
-title: Konfigurera automatiskt fakturaskapande - lite
-description: I det här ämnet finns information om hur du konfigurerar automatiskt skapande av proforma-fakturor.
+title: Konfigurera automatiskt fakturaskapande
+description: Detta ämne innehåller information om hur du konfigurerar och konfigurerar automatisk generering av proforma-fakturor.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176588"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866839"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurera automatiskt fakturaskapande - lite
+# <a name="set-up-automatic-invoice-creation"></a>Konfigurera automatiskt fakturaskapande 
  
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
 Du kan konfigurera automatiskt fakturaskapande i Dynamics 365 Project Operations. Systemet skapar ett utkast till en proforma-faktura utifrån faktureringsschemat för varje projektkontrakt och kontraktrad. Faktureringsscheman konfigureras på kontraktradsnivå. Varje rad i ett kontrakt kan ha en särskild faktureringsplan, eller så kan samma faktureringsschema tas med på alla rader i kontraktet.
 
-När du skapar en faktura skapas alltid minst en faktura per projektkontrakt. I vissa fall kan flera fakturor skapas.
-
-Om kontraktet till exempel har flera kunder skapas samma antal fakturor som antalet kunder som har fakturerbara transaktioner att fakturera på det projektkontraktet.
+När du skapar en faktura skapas alltid minst en faktura per projektkontrakt. I vissa fall kan flera fakturor skapas. Om kontraktet till exempel har flera kunder skapas samma antal fakturor som antalet kunder som har fakturerbara transaktioner att fakturera på det projektkontraktet.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Förstå hur transaktioner tas med på en faktura 
 
@@ -83,7 +81,7 @@ Slutför stegen nedan om du vill konfigurera en automatisk fakturakörning.
 > [!NOTE]
 > Du kan också välja **ProcessRunner** i steg 5. När du sedan väljer **OK**, följs arbetsflödet **Process** av arbetsflödet **Vila**.
 
-Arbetsflödena **ProcessRunCaller** och **ProcessRunner** skapar fakturor. **ProcessRunCaller** anropar **ProcessRunner**. **ProcessRunner** är det arbetsflöde som verkligen skapade fakturorna. Arbetsflödet går igenom alla kontraktrader som fakturorna måste skapas för och fakturor för dessa rader skapas. För att fastställa vilka kontraktsrader som fakturor ska skapas tittar jobbet på körningsdatum för faktura för kontraktsraderna. Om kontraktsrader som tillhör ett kontrakt har samma datum för fakturakörning kombineras transaktionerna till en faktura med två fakturarader. Om det inte finns några transaktioner att skapa fakturor för hoppar jobbet över skapandet av fakturan.
+Arbetsflödena **ProcessRunCaller** och **ProcessRunner** skapar fakturor. **ProcessRunCaller** anropar **ProcessRunner**. **ProcessRunner** är det arbetsflöde som verkligen skapade fakturorna. Arbetsflödet går igenom alla kontraktrader som fakturorna måste skapas för och fakturor för dessa rader skapas. För att fastställa vilka kontraktsrader som fakturor ska skapas tittar jobbet på körningsdatum för faktura för kontraktsraderna. Om kontraktrader som tillhör ett kontrakt har samma datum för fakturakörning kombineras transaktionerna till en faktura med två fakturarader. Om det inte finns några transaktioner att skapa fakturor för hoppar jobbet över skapandet av fakturan.
 
 När **ProcessRunner** har körts klart anropas **ProcessRunCaller**, anger sluttiden och är stängd. **ProcessRunCaller** startar sedan en timer som körs i 24 timmar från den angivna sluttiden. **ProcessRunCaller** stängs i slutet av timern.
 
@@ -91,3 +89,6 @@ Batchprocessjobbet för att skapa fakturor är ett återkommande jobb. Om batchp
 
 > [!NOTE]
 > Batchfakturering i Project Operations körs endast för projektkontraktrader som konfigurerats av fakturascheman. En kontraktrad med en fast pris faktureringsmetod måste ha milstolpar konfigurerad. En projekts kontraktrad med en tids- och material faktureringsmetod måste ha en datumbaserad fakturauppställning.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

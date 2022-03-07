@@ -2,8 +2,6 @@
 title: Försäljningsberäkningar och projekt
 description: I det här ämnet finns information om hur du kan dra nytta av schemat och uppskattningarna i försäljningsprocessen.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995198"
 ---
 # <a name="sales-estimates-and-projects"></a>Försäljningsberäkningar och projekt
 
@@ -37,11 +35,11 @@ Under försäljningsprocessen kan du skapa försäljningsuppskattningar genom at
 
 När du skapar en projektbaserad offertrad kan du skapa ett nytt projekt eller associera ett befintligt projekt med sidan **offertrad**. 
 
-> ![Offertradsformulär](media/project-8.png)
+> ![Offertradsformulär.](media/project-8.png)
  
 När du skapar ett nytt projekt från offertradsinformationen kan du dra nytta av projektmallar. Projektmallar är modellprojekt som representerar vanliga projektplaner och ekonomiska uppskattningar som är typiska i en organisation. De kan också representera kopior av projektplaner och uppskattningar från tidigare projekt.
 
-> ![Information om offertrad](media/project-9.png)
+> ![Information om offertrad.](media/project-9.png)
   
 När du skapar projektet från offerten associeras projektet automatiskt med på offertraden.
 
@@ -54,3 +52,6 @@ Du kan ange arbetsinsats och schemauppskattningar med hjälp av fälten på flik
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importera uppskattningar från ett projekt till en offert
 
 När du har definierat projektuppskattningar kan du importera dem till offertraden. På sidan **Information om offertrad**, välj **Importera från uppskattningar** i menyfliksområdet för att sammanfatta projektuppskattningar efter transaktionstyp, roll eller aktivitetsnivå.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

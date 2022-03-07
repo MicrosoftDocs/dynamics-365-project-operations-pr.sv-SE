@@ -2,19 +2,17 @@
 title: Nyheter eller ändringar i Project Operations, mars 2021 för lagerbaserade/produktionsbaserade scenarier
 description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i mars 2021-versionen av Project Operations för lagerbaserade/produktionsbaserade scenarier.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701979"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997038"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller ändringar i Project Operations, mars 2021 för lagerbaserade/produktionsbaserade scenarier
 
@@ -123,7 +121,7 @@ Följande funktioner ingår i denna version:
 | Projektledning och redovisning | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Den klassiska metoden för uppdelad arbetsstruktur (WBS) **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** är inaktuell.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates.md). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

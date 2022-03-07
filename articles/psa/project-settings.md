@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c55d0f4c8f8db231a995d91a46a582bca2e1e6e3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148170"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283750"
 ---
 # <a name="project-settings"></a>Projektinställningar
 
@@ -68,3 +68,6 @@ Varje organisation måste skapa de här rollerna på sidan **Aktiva resurskatego
 ## <a name="price-lists"></a>Prislistor
 
 Prislistor låter dig ställa in självkostnads- och försäljningspriser, utgiftskategorier, produkter och andra element i en organisation. Innan du anger ekonomiska uppskattningar för arbetet som måste levereras för ett projekt måste du skapa en bakomliggande utgifts- och prislista. I avsnittet parametrar bör du även ange en standardkostnads- och försäljningsprislista som gäller alla projekt som skapas i organisationen. På sidan **Aktiva projektparametrar** ser du till att du anger en standardkostnads- och försäljningsprislista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Inköpsorder för ett projekt
 description: I den här artikeln beskrivs olika metoder som du kan använda för att skapa inköpsorder för ett projekt. Vilken metod du ska använda beror på inköpsorderns syfte och när de inköpta artiklarna förbrukas och debiteras ett projekt.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085528"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999378"
 ---
 # <a name="purchase-orders-for-a-project"></a>Inköpsorder för ett projekt
 
@@ -76,3 +74,6 @@ Du kan använda någon av följande metoder för att skapa en inköpsorder i pro
 
 Mer information finns i [Ta emot varor på inköpsordern från artikelkravet](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

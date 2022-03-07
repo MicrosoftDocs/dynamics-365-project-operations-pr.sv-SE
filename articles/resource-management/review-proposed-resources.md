@@ -2,11 +2,9 @@
 title: Granska föreslagna resurser
 description: I det här ämnet finns information om hur du föreslår projektresurser.
 author: ruhercul
-manager: AnnBe
-ms.date: 11/05/2020
+ms.date: 08/18/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
+ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401195"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403817"
 ---
 # <a name="review-proposed-resources"></a>Granska föreslagna resurser
 
@@ -30,35 +28,44 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Resursansvariga kan föreslå en resurs till projektledaren genom att använda en resursbegäran.
 
-1. Från rutnätet för begäran eller själva begäran, välj **Hitta resurser**.
-2. På sidan **schemaassistent** markerar du resursen och väljer rutan **Skapa resursbokning** i fältet **bokningsstatus** och väljer **boka**.
+Granska föreslagna resurser genom att följa dessa steg:
 
-Följande statusuppdateringar inträffar:
+1. I rutnätet **Förfrågan** eller i själv förfrågan väljer du **Hitta resurser**.
+2. På sidan **Schemaassistent** väljer du resursen och bekräftar sedan att samtliga föreslagna tider har inkluderats i föreslagen bokning.
+3. I fönstret **Sakpa resursbokning** anger du fältet **Bokningsstatus** som **Föreslaget** och sedan **Boka**.
 
-- På sidan **schemaläggningsassistent** uppdateras statusindikatorerna för att indikera att bokningen är föreslagen, inte en fast bokade.
-- I resursbegäran ändras status till **måste granskas**.
-- På fliken **team** i projektet ändras värdet för den allmänna teammedlemmens **Status för begäran** till **måste granskas**.
+    > [!NOTE]
+    > Att ange **Bokningsstatus** som **Föreslaget** definitivbokar inte resursen och ersätter inte den generiska resursen hos namngiven teammedlem.
 
-Projektledaren kan antingen acceptera eller avvisa förslaget.
+    Följande statusuppdateringar inträffar:
+
+    - På sidan **schemaläggningsassistent** uppdateras statusindikatorerna i syfte att indikera att bokningen är föreslagen, inte definitivbokad.
+    - I resursbegäran ändras status till **måste granskas**.
+    - På fliken **team** i projektet ändras värdet för den allmänna teammedlemmens **Status för begäran** till **måste granskas**.
+
+Projektledaren kan godkänna eller avvisa förslaget.
 
 När resursansvariga behandlar resursbegäranden kan de använda någon av följande metoder:
 
 - Föreslå flera resurser för att uppfylla behovet om ingen enskild resurs är tillgänglig för att uppfylla de timmar som krävs. Föreslagna timmar delas sedan mellan flera resurser som kan uppfylla de begärda timmarna. I det här scenariot kan timmarna inte överlappas.
-- Föreslå färre resurser än vad som krävs. I det här scenariot är den föreslagna resurskapaciteten mindre än de timmar som begärdes av den begärande. När den som beställt accepterar de föreslagna resurserna skapas därför ett ouppfyllt resursbehov som fångar upp det återstående behovet.
+- Föreslå färre resurser än vad som krävs. I det här scenariot är den föreslagna resurskapaciteten mindre än de timmar som begärdes av den begärande. När beställaren godkänner föreslagna resurser skapas ett ouppfyllt resursbehov i syfte att fånga upp det återstående behovet.
 - Boka flera resurser för att uppfylla behovet om ingen enskild resurs är tillgänglig för att slutföra arbetet.
-- Boka färre resurser än vad som krävs. I det här scenariot är bokade timmar färre än de timmar som krävs. Systemet hjälper dig att föreslå resurser i stället för bokningar, så att den som gör en förfrågan kan verifiera och hålla ordning på återstående efterfrågan.
+- Boka färre resurser än vad som krävs. I det här scenariot är bokade timmar färre än de timmar som krävs. Systemet hjälper dig att föreslå resurser istället för bokningar, detta så att den som gör en förfrågan kan verifiera och hålla ordning på återstående förfrågan.
 
 ## <a name="resource-availability"></a>Resurstillgänglighet
 
-Det är viktigt att resursansvariga kan visa tillgängligheten till resurser och uppdatera bokningar. I vissa fall finns ingen formell efterfrågan (resursbegäran), men en resursansvarig måste svara på en oplanerad efterfrågan som sker via kanaler som e-post, telefonsamtal eller snabbmeddelanden. Resursansvariga kan uppdatera resurser och bokningar med hjälp av schemaläggningstavlan.
+Resursansvariga måste kunna visa tillgängligheten för resurser och uppdatera bokningar. I vissa fall finns ingen formell begäran (resursbegäran). En resursansvarig måste emellertid svara på en oplanerad begäran som kommer via andra kanaler, till exempel e-postmeddelanden, telefonsamtal eller snabbmeddelanden. Resursansvariga kan använda **schemaläggningstavlan** för att uppdatera resurser och bokningar.
 
 Resursens arbetstider används som grund för att beräkna resursens tillgänglighet. Resursbokningarna förbrukar kapaciteterna för resurserna.
 
-I schemaläggningstavlan används färger och fyllning för att visa bokningar, tillgänglighet och förbokningar samt även status för bokningar. En inställning i schemaläggningstavlan gör att du kan visa en förklaring.
+**Schemaläggningstavlan** använder färger och skuggning för att visa bokningar, tillgänglighet och överbokningar, samt även status för bokningar. En inställning på **schemaläggningstavlan** gör att du kan visa en förklaring.
 
-Om en högerriktad pil visas bredvid en enskild bokningsbar resurs på schemaläggningstavlan kan resursen expanderas så att den innehåller information om det arbete som resursen är bokad på.
+Om en högerriktad pil visas bredvid en enskild bokningsbar resurs på **schemaläggningstavlan** kan resursen expanderas så att den innehåller information om det arbete som resursen är bokad på.
 
-Eftersom Dynamics 365 Project Operation använder Universal Resource Scheduling-motorn, om du även har Dynamics 365 Field Service installerat kan du visa information om resursbokningar för projekt, arbetsorder och andra entiteter som du har utvidgat schemaläggning till.
+Eftersom Dynamics 365 Project Operations använder Universal Resource Scheduling-motorn, om du även har Dynamics 365 Field Service installerat kan du visa information om resursbokningar för projekt, arbetsorder och andra entiteter som du har utvidgat schemaläggning till.
 
-Om du vill visa mer information om en enskild resurs högerklickar du på den så att resurskortet öppnas.
+Om du vill visa ytterligare information om en enskild resurs högerklickar du på den så att resurskortet öppnas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

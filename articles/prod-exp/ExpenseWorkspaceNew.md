@@ -1,10 +1,12 @@
 ---
 title: Nydesignade utgiftsrapporter
-description: I det här ämnet finns information om den omdesignade erfarenheten för utgiftsrapportspost.
+description: I det här ämnet finns information om den omdesignade upplevelsen för utgiftsrapportspost i Microsoft Dynamics 365 Finance. Den nya upplevelsen förenklar och påskyndar genomförandet av utgiftsrapporter.
 author: ryansandness
+manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -13,14 +15,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bd334d3404e9baae4f8314173834d9fbb708d574
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993720"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650161"
 ---
 # <a name="redesigned-expense-reports"></a>Nydesignade utgiftsrapporter
+[!include[banner](../includes/banner.md)]
 
 Utgiftsrapportposten har omdesignats för att förenkla och påskynda genomförandet av utgiftsrapporter. Här är de viktigaste komponenterna i den nya utgiftsupplevelsen:
 
@@ -38,6 +41,12 @@ Om du vill aktivera den nya upplevelsen kan du använda arbetsytan **Funktionsha
 - Ett nytt menyobjekt för synlighet för utgiftsfält läggs till.
 - Inga befintliga menyalternativ för utgiftsrapporter (befintlig sida) eller utgiftsrapportfält tas bort.
 - Arbetsflöden och eventuella godkännanden går fortfarande till sidan befintliga utgiftsrapporter.
+
+## <a name="getting-started-video-for-new-users"></a>Kom igång-video för nya användare
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
+
+Videon [Utgiftsupplevelse i Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ovan) ingår i [spellistan Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) som är tillgänglig på YouTube.
 
 ## <a name="new-features"></a>Nya funktioner
 
@@ -70,6 +79,3 @@ Följande funktioner finns på den befintliga sidan, men finns ännu inte på de
 - Arbetsflöde på radnivå
 - Stöd för interimistiska godkännanden
 - Avancerad specifikation
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

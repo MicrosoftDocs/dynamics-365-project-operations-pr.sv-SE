@@ -2,18 +2,16 @@
 title: Kopiera projektbaserade offerter
 description: I det här ämnet finns information om hur du kopierar projektbaserade offerter i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4e9009391d33c5dd5988ae65e13ca1ca1ec398bc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181834"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999108"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiera projektbaserade offerter
 
@@ -45,3 +43,6 @@ När du väljer **OK** i dialogrutan skapas en kopia av projektofferten utifrån
 > - Projektreferens för projektbaserade offertrader – kundens budgetinformation
 >
 >Eftersom informationen är mycket specifik för varje offert kopieras inte dessa fält och poster. Offertrader för projekt och produkter, uppskattningar av offertradsinformation och värden som inte ska överskridas på offertnivån kopieras. Pris- och kostnadstaxa varierar beroende på vilket alternativ för **kopiering av prissättning** som väljs i dialogrutan **Kopiera parametrar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

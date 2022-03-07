@@ -2,8 +2,6 @@
 title: Visa ditt schema
 description: Visa ditt schema i Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 902254394ecd7c1aa9ec16af6cfce81a347d7022
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 265c6ffb1f466e2b833ae8ad397623b273b02255
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151050"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002483"
 ---
 # <a name="view-your-schedule-project-service"></a>Visa ditt schema (Project Service)
 
@@ -45,3 +43,6 @@ Ta en titt på ditt schema när du vill se vad du arbetar med under veckan.
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

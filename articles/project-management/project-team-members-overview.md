@@ -2,18 +2,16 @@
 title: Projektets teammedlemmar
 description: I det här ämnet finns information om hur du arbetar med information om medlemmar i projektteam, attribut och schemaläggning.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127450"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010943"
 ---
 # <a name="project-team-members"></a>Projektets teammedlemmar
 
@@ -60,3 +58,6 @@ Från rutnätet med projektmedlemmar kan du utföra följande åtgärder:
 
 - **Ny**: förutom att lägga till resurser direkt från schemat kan projektledarna lägga till nya namngivna eller generiska teammedlemmar från rutnätet med teammedlemmar.
 - **Ta bort**: genom att välja en eller flera teammedlemmar kan projektledarna ta bort resurser som inte längre ska ingå i projektet. Om du tar bort en teammedlem tas även alla associerade resurstilldelningar bort och alla befintliga bokningar avbryts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,17 @@
 title: Project Operations för lagerbaserade/produktionsbaserade scenarier – Distributionsöversikt
 description: I det här ämnet finns information om distributionstypen, Project Operations för lagerbaserade scenarier med lager/produktionsprocesser.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: 71fd9d3ae30147c3c03202a54f74477a95838eb9
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365639"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369533"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations för lagerbaserade/produktionsbaserade scenarier – Distributionsöversikt
 
@@ -43,3 +42,6 @@ Välj den här distributionstypen om du vill använda Dynamics 365 Project Opera
 - En motor för moms och valutakurs för företag i företagsklass som genererar kundfakturor för projekt.
 - En internationell finansiell rapporteringsstandard (IFRS)-kompatibelt projektredovisnings- och intäktsredovisningssystem.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

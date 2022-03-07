@@ -2,18 +2,16 @@
 title: Nyckelkoncept för resurshantering
 description: I det här ämnet finns information om resurshanteringsfunktioner i Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994838"
 ---
 # <a name="resource-management-key-concepts"></a>Nyckelkoncept för resurshantering
 
@@ -35,3 +33,6 @@ Resurser är den viktigaste tillgången i en tjänstebaserad organisation. Förm
 
 
 Du kan bemanna ditt projekt med ett team av generiska eller namngivna resurser i Project Operations. Du kan använda olika metoder för att lägga till och tilldela teammedlemmar och för att hantera deras bokningar och uppdrag. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

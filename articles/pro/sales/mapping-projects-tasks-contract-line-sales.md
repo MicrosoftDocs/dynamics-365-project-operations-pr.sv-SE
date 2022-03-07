@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272815"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mappa projekt och uppgifter till en projektbaserad kontraktrad 
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mappa projekt och uppgifter till en projektbaserad kontraktrad - lite
 
-_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 På projektbaserade kontraktrader kan du mappa specifika uppgifter i ett projekt till kontraktraden.
 

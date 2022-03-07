@@ -2,11 +2,9 @@
 title: Definiera utgiftspolicyer
 description: Du kan definiera utgiftspolicyer som medarbetarna måste följa när de registrerar och skickar utgiftsrapporter och reserekvisitioner.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128440"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986378"
 ---
 # <a name="define-expense-policies"></a>Definiera utgiftspolicyer
 
@@ -53,3 +51,6 @@ Här följer några förslag som kan hjälpa dig när du skapar nya policyer fö
 ## <a name="when-to-evaluate-policies"></a>När policyer utvärderas
 
 I parametrar för utgiftshantering kan du välja om du vill utvärdera policyer för utgiftshantering när en rad sparas eller när en utgiftsrapport skickas. Om du väljer att utvärdera när en rad sparas får användarna tidigare insyn i vad de behöver göra för att slutföra sina utgiftsrapporter samtidigt. Annars kan du försena utvärdering av policyer och spara tid genom att validera i slutet, under överföringen till arbetsflödet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,26 @@
 title: Översikt över projektledning och redovisning
 description: Funktionerna för projektledning och redovisning kan användas i flera branscher för att tillhandahålla tjänster, producera produkter och få resultat.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085683"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369713"
 ---
 # <a name="project-management-and-accounting-overview"></a>Översikt över projektledning och redovisning
 
@@ -205,7 +203,7 @@ Du kan beställa artiklar från företagets lager för förbrukning i ett projek
 
 Hur du beställer artiklar beror på varifrån du beställer dem:
 
--   Om du vill beställa artiklar från företagets lager måste du ange ordern som ett artikelkrav. Om du använder sidan **artikelkrav** kan du ange behovet så att du får artiklarna som delleveranser.Därför kan du skjuta upp förbrukningen av ett antal artiklar tills artiklarna är obligatoriska.
+-   Om du vill beställa artiklar från företagets lager måste du ange ordern som ett artikelkrav. Om du använder sidan **artikelkrav** kan du ange behovet så att du får artiklarna som delleveranser. Därför kan du skjuta upp förbrukningen av ett antal artiklar tills artiklarna är obligatoriska.
 -   Om du vill beställa artiklar från en extern leverantör måste du skapa ordern som en inköpsorder på sidan **inköpsorder**.
 
 > [!NOTE] 
@@ -227,7 +225,7 @@ Projekttypen bestämmer vilken faktureringsmetod som ska användas. Endast de tv
 Innan du skapar en kundfaktura för ett projekt kan du skapa en preliminär faktura eller ett fakturaförslag. I ett fakturaförslag kan du välja projekttransaktioner som ska tas med i en projektfaktura. Du kan sedan granska fakturadetaljerna innan du bokför projektfakturan och skicka den till kunden eller andra finansieringskällor. 
 
 
-Mer information om hur du bearbetar projektfakturor finns i [Fakturering av projekt](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Mer information om hur du bearbetar projektfakturor finns i [Fakturering av projekt](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Beräkna kostnaden för att slutföra ett projekt
@@ -300,7 +298,7 @@ Beroende på vilken inställning du har kan du prognostisera kassainflödet för
 -   **Projektdatum:** 5 mars 2012.
 -   **Fakturadatum:** 31 mars 2012. Datumet bestäms utifrån fakturafrekvensen. I det här exemplet anger du fakturafrekvensen till den aktuella månaden. Därför faktureras alla transaktioner som är bokförda i mars månad den sista dagen i månaden.
 -   **Förfallodatum:** 14 April 2012. Datumet bestäms utifrån de betalningsvillkor som har ställts in för projektet. I det här exemplet valde du betalningsvillkoren 14 dagar. Därför läggs 14 dagar till i fakturadatumet till förfallodatumet 14 april 2012.
--   **Förväntat betalningsdatum:** 27 April 2012. Det här datumet beräknas genom att addera antalet dagar i fältet **Allmänna buffertdagar** på sidan **Projektlednings- och redovisningsparametrar** till antal dagar i fältet **Individuella buffertdagar** på sidan **Projektkontrakt** och sedan lägga till summan till antalet dagar i fältet **Förfallodatum**. I det här exemplet angav du **3** i fältet **Allmänna buffertdagar** och **10** i fältet **Individuella buffertdagar**. Därför läggs 13 dagar till i förfallodatumet för att komma till förväntat betalningsdatum för försäljning den 27 april 2012.
+-   **Förväntat betalningsdatum:** 27 April 2012. Det här datumet beräknas genom att addera antalet dagar i fältet **Allmänna buffertdagar** på sidan **Projektlednings- och redovisningsparametrar** till antal dagar i fältet **Individuella buffertdagar** på sidan **Projektkontrakt** och sedan lägga till summan till antalet dagar i fältet **Förfallodatum**. I det här exemplet angav du **3** i fältet **Allmänna buffertdagar** och **10** i fältet **Individuella buffertdagar**. Därför läggs 13 dagar till i förfallodatumet för att komma till förväntat betalningsdatum för försäljning den 27 april 2012.
 
 De allmänna buffertdagarna kan antingen ersätta de enskilda buffertdagarna eller läggas till i de enskilda buffertdagarna:
 
@@ -440,3 +438,6 @@ När utdraget har beräknats kan du visa följande information på de olika flik
 -   **Förbrukning** – information om timmar, artiklar, utgifter och lönetransaktioner.
 -   **Faktura** – information om fakturor och à conto-fakturering.
 -   **Timtariff** – Timtariffer för timmar som har bokförts på intäkts- och kostnadskonton.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

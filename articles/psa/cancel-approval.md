@@ -2,8 +2,6 @@
 title: Avbryt tidigare godkända tids- och utgiftsposter
 description: I det här ämnet finns information om hur du avbryter en godkänd projekttid och utgiftstransaktion.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987458"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Avbryt tidigare godkända tids- eller utgiftsposter
 
@@ -62,3 +60,6 @@ Ett projekt påverkas också ekonomiskt när ett godkännande annulleras. Först
 Sedan skapas återföringsposter i tabellen faktiska värden. Om du vill skapa återföringsposter kopieras systemet över fältvärdena från de ursprungliga värdena. De enda värden som inte kopieras över är antalet värden. De här värdena återförs i stället. Återförda faktiska värden skapas både för **kostnad** och för **fakturerade försäljningsvärden**. Fältet **justeringsstatus** på de återförda verkliga värdena ställs till att värdet **inte justerat** och faktureringsstatus är **annullerad**.
 
 När ändringarna har gjorts bokförs det belopp som har registrerats som förbrukat i projektet och den totala förväntande omsättningen i projektet tar längre tid för de belopp som dessa faktiska värden representerar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

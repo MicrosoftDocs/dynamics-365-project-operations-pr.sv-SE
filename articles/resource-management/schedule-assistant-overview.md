@@ -2,18 +2,16 @@
 title: Översikt över schemaläggningsassistenten
 description: I det här ämnet finns information om hur du arbetar med schemaläggningsassistenten för att boka resurser.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d58f5f45ca54691b6e736dee5aab7b273a8e042
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085396"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014138"
 ---
 # <a name="schedule-assistant-overview"></a>Översikt över schemaläggningsassistenten
 
@@ -25,7 +23,7 @@ När lämpliga resurser identifieras kan resursen eller projektledaren boka resu
 
 ## <a name="prerequisites"></a>Förutsättningar
 
-Schemaläggningsassistenten ingår i lösningen Universal Resource Scheduling. Lösningen ingår i och installeras med Dynamics 365 Project Operations, Dynamics 365 Field Service och Dynamics 365 Customer Service.
+Schemaläggningsassistenten ingår i lösningen Universal Resource Scheduling. Den här lösningen ingår och installeras med Dynamics 365 Project Operations, Dynamics 365 Field Service och Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Matchningskrav och resurser
 
@@ -57,3 +55,6 @@ I filterrutan visas alternativen för arbete, t.ex.:
 -   Resursföretag
 -   Resurstyper
 -   Prioriterade resurser
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

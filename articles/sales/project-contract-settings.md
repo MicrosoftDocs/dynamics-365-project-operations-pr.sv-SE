@@ -2,18 +2,16 @@
 title: Inställningar för projektkontrakt
 description: I det här ämnet finns information om de fält som påverkar kontraktrader och information om kontraktet som summeras mot alla radposterna.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663886"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996323"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Rubrikinformation för projektbaserade kontrakt
 

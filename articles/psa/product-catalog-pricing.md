@@ -2,8 +2,6 @@
 title: Prissättning för produktkatalog
 description: I det här ämnet finns information om hur produktkatalogspris fungerar i Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151230"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000193"
 ---
 # <a name="product-catalog-pricing"></a>Prissättning för produktkatalog 
 
@@ -46,7 +44,7 @@ Du kan lägga till produkter från en produktkatalog i olika prislistor. Prislis
 
 PSA stöder olika avrundningsalternativ när priser konfigureras som en funktion i listpriset, standardkostnad eller aktuell kostnad. Förutom att använda flera prissättningsmetoder och avrundningsalternativ kan du associera rabattlistor med prislisteposter. 
 
-> ![Du kan lägga till produkter från en katalog i olika prislistor](media/basic-guide-16.png)
+> ![Du kan lägga till produkter från en katalog i olika prislistor.](media/basic-guide-16.png)
 
 När du skapar en ny anpassad prislista för en offert genom att **Skapa anpassad prissättning** på sidan **Projektoffert** skapas en kopia av prislistan och fältet **Entitet** i rubriken på den nya prislistan anges till **försäljningsentitet**. Namnet på den nya prislistan läggs till med namnet på offerten och tidstämpeln. Du kan även använda namnet på den nya prislistan och namnet på offerten i anpassade arbetsflöden om du vill utlösa ytterligare granskning och godkännanden för offerter som använder anpassad prissättning.
 
@@ -64,3 +62,6 @@ Entiteterna affärsmöjlighet, offert och projektkontrakt använder följande or
 Som standard listar fältet **produkt** på offertraden alla aktiva produkter i offertens produktprislista. Om en produkt har inaktiverats eller om det är en utkast produkt visas den inte, även om den är i prislistan. 
 
 Produktkatalograder läggs till som fakturarader på den första fakturan som skapas för ett projektkontrakt. På en utkastfaktura kan dessa fakturarader tas bort. I så fall visas raderna på en efterföljande faktura tills de har fakturerats, eller tills fakturan skickas till kunden. I PSA kan du inte fakturera en del av en produktfakturarad. När produktraderna från projektkontraktet faktureras skapas verkliga värden. De faktiska värdena länkas emellertid inte till den relaterade projektentiteten. Produkter som bygger på projektkontraktrader är med andra ord oberoende av projektbaserade användningstider. PSA spårar inte materialförbrukningen i projekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

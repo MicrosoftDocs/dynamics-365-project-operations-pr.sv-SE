@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176993"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274120"
 ---
 # <a name="manage-the-billing-backlog---lite"></a>Hantera faktureringen som släpat efter - lite
 
@@ -60,3 +60,6 @@ Ej fakturerade försäljningsvärden med statusen **Undre gräns** som **Misslyc
 Om kontraktrader för flera kunder har en faktureringsmetod för tid och material, när tid och utgifter godkänns, skapas en ofakturerad faktisk försäljning för varje kund på kontraktraden enligt den faktureringsdelningsprocent som angetts för varje kund. I vyn **Eftersläpad fakturering av tid och material**, kommer du att se dessa individuella kundspecifika, ej fakturerade försäljningsvärden. Vart och ett av dessa ofakturerade faktiska värden för försäljning kan markeras som **Klart att fakturera** separat från den här vyn.
 
 Ett ej fakturerat försäljningsvärde som finns på ett utkast till en faktura visas i den här vyn med faktureringsstatus för **kundfakturan har skapats**. När utkastfakturan bekräftas uppdateras faktureringsstatusen för den här posten till **Kundfaktura har bokförts**. Uppdatera inte det här statusvärdet med hjälp av anpassad kod. Project Operations fungerar inte korrekt när dessa statusvärden uppdateras med anpassad kod.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

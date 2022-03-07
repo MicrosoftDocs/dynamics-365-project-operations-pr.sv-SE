@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d9d208ebcef127062428afdadde2c54eb07ea505
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148080"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283615"
 ---
 # <a name="project-templates"></a>Projektmallar 
 
@@ -69,3 +69,6 @@ När du kopierar över beräkningsrader för projekt uppdateras prislistorna. F�
 ### <a name="copying-a-project-team"></a>Kopiera ett projektteam
 
 När ett projektgrupp kopieras från en projektmall till ett projekt, kopieras de generiska resurserna tillsammans med de färdigheter och färdigheter som definieras i mallen. Allmänna resurstilldelningar hanteras också i projektmallen. Namngivna resurser stöds inte i projektmallar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

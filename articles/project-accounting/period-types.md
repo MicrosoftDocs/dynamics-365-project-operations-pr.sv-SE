@@ -2,18 +2,16 @@
 title: Periodtyper
 description: Detta ämne innehåller information om hur du konfigurerar periodtyper för intäktsuppskattning.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531569"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998798"
 ---
 # <a name="period-types"></a>Periodtyper
 
@@ -34,3 +32,6 @@ Om du vill skapa och arbeta med periodtyper utför du följande steg:
 4. Välj periodtypposten och välj sedan **Generera perioder** för att skapa perioder för periodtypen. Baserat på periodfrekvensen som du har valt kanske du har möjlighet att ange ett startdatum eller antalet perioder som ska genereras.
 5. Välj **Perioder** för att granska genererade perioder.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

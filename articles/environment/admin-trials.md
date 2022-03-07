@@ -2,16 +2,16 @@
 title: Registrera dig för utvärderingsversioner av Project Operations
 description: I detta ämne finns information om hur du distribuerar en utvärderingsversion av Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901639"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599235"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrera dig för utvärderingsversioner av Project Operations 
 
@@ -90,8 +90,7 @@ Innan du börjar loggar du in i en webbläsare med användarkontot i den kliento
 4.  Välj respektive Microsoft Dataverse URL och de Finance and Operations apps-URL:er som ska verifiera distributionen.
 
 ## <a name="configuring-dual-write"></a>Konfigurera dubbelriktad skrivning
-- Information om hur du konfigurerar säkerhetsroller för dubbelriktad skrivning finns i [Uppdatera säkerhetsinställningar för Project Operations i Dataverse](resource-provision-new-environment.md).
-- Information om hur du konfigurerar mappningar för dubbelriktad skrivning finns i [Köra Project Operations-mappningar för dubbelriktad skrivning](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+Konfigurera dina mappningar för dubbelriktad skrivning endast för distributioner av ej lagerförda material. Mer information finns i [Project Operations-versioner med dubbelriktad skrivning](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>Tilldela licenser
 

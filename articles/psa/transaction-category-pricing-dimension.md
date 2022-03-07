@@ -2,12 +2,10 @@
 title: Använd transaktionskategori som prissättningsdimension
 description: I det här ämnet finns information om hur du använder en transaktionskategori som prissättningsdimension.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150780"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988897"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Använd transaktionskategori som prissättningsdimension
 
@@ -53,3 +51,6 @@ Följande tabell är en fullständig lista över de formulär och vyer som inte 
 2. På sidan **parametrar** på fliken **Beloppsbaserade prissättningsdimensioner** kan du notera att i rutnätet på fliken visas posterna i entiteten **prissättningsdimensioner**.
 3. Lägg till **transaktionskategori** i den här listan och ange värdet **Gäller för kostnad** och **Gäller för försäljning** till **Ja**.
 4. I fältet **Dimensionstyp** väljer du **Beloppsbaserad** och väljer sedan prioriteten för **transaktionskategori** som gäller för kostnad och försäljning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

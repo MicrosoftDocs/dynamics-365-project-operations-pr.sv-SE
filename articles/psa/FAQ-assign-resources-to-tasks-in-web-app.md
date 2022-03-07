@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993337"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987728"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hur tilldelar jag en bokningsbar resurs till en aktivitet i webbappen (programmet Project Service v2.x)
 
@@ -43,7 +43,7 @@ Med den här metoden kan du lägga till en resurs i projektteamet och sedan till
 3.  Välj **Från**- och **Till**-datum.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skärmbild av lägga till teammedlem](media/FAQ-Resources-to-Tasks2-1.png "Skärmbild av lägga till teammedlem")
+    > ![Skärmbild av lägga till teammedlem.](media/FAQ-Resources-to-Tasks2-1.png "Skärmbild av lägga till teammedlem")
  
 4.  Välj en av följande tilldelningsmetoder för bokning av resursen:
     - **Full kapacitet** bokar resursens fulla kapacitet för angivna från- och till-datum.
@@ -63,12 +63,12 @@ Med den här metoden kan du lägga till en resurs i projektteamet och sedan till
     3. Välj **OK**. Teammedlemmen har nu tilldelats till aktiviteten.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skärmbild av lägga till resurser med struktur](media/FAQ-Resources-to-Tasks2-2.png "Skärmbild av lägga till resurser med WBS")
+    > ![Skärmbild av lägga till resurser med WBS.](media/FAQ-Resources-to-Tasks2-2.png "Skärmbild av lägga till resurser med WBS")
  
 I rutnätet för teammedlem visas summan av resursens tilldelade timmar under Tilldelade timmar. Denna är mindre än eller lika med bokat antal timmar för resursen. 
 
 > [!div class="mx-imgBorder"] 
-> ![Skärmbild av tilldelade timmar för en resurs](media/FAQ-Resources-to-Tasks2-3.png "Skärmbild av tilldelade timmar för en resurs")
+> ![Skärmbild av tilldelade timmar för en resurs.](media/FAQ-Resources-to-Tasks2-3.png "Skärmbild av tilldelade timmar för en resurs")
  
 Om den aktivitet som du försöker tilldela till resursen startas efter resursbokningarnas slutdatum kommer resursen inte att visas i listrutan.
 
@@ -92,22 +92,22 @@ Denna metod garanterar att resurser har tillräckligt med bokningar för aktivit
 4. Välj **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Skärmbild av använda WBS för att lägga till resurser](media/FAQ-Resources-to-Tasks2-4.png "Skärmbild av använda WBS för att lägga till resurser")
+    > ![Skärmbild av använda WBS för att lägga till resurser.](media/FAQ-Resources-to-Tasks2-4.png "Skärmbild av använda WBS för att lägga till resurser")
  
 När du är klar med att tilldela roller för aktiviteterna i WBS markerar du **Skapa projektteam**. Project Service skapar det lägsta antalet generiske teammedlemmar utifrån rollerna, söker organisationsenheter och organiserar projektkalendern genom att samla in aktivitetens tilldelningar.
 
 > [!div class="mx-imgBorder"] 
-> ![Skärmbild på hur du skapar ett projektteam](media/FAQ-Resources-to-Tasks2-5.png "Skärmbild på hur du skapar ett projektteam")
+> ![Skärmbild på hur du skapar ett projektteam.](media/FAQ-Resources-to-Tasks2-5.png "Skärmbild på hur du skapar ett projektteam")
  
 I rutnätet Teammedlem ser du resurser av typen Allmän resurs, med namn på roll och befattning. Om två resurser behövs för att en roll ska kunna slutföra arbetet skapar funktionen Skapa team två teammedlemmar och avgränsar dessa med hjälp av befattningens namn.
 
 > [!div class="mx-imgBorder"] 
-> ![Skärmbild av att lägga till två allmänna resurser](media/FAQ-Resources-to-Tasks2-6.png "Skärmbild av att lägga till två allmänna resurser")
+> ![Skärmbild av att lägga till två allmänna resurser.](media/FAQ-Resources-to-Tasks2-6.png "Skärmbild av att lägga till två allmänna resurser")
  
 Du kan öppna kravet på underliggande resurs för allmän teammedlem genom att välja länken under Resurskrav.
 
 > [!div class="mx-imgBorder"] 
-> ![Skärmbild av öppna krav för underliggande resurs](media/FAQ-Resources-to-Tasks2-7.png "Skärmbild av öppna krav för underliggande resurs")
+> ![Skärmbild av öppna krav för underliggande resurs.](media/FAQ-Resources-to-Tasks2-7.png "Skärmbild av öppna krav för underliggande resurs")
 
 Välj **Boka** för den generiska resursen. Du kan sedan använda schemaläggningstavlan för att söka efter och boka en riktig resurs. Du kan också skicka in kravet för expediering av resursansvarig genom att välja **Skicka begäran**.
 

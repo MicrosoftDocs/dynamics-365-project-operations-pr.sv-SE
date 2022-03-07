@@ -1,23 +1,23 @@
 ---
-title: Projektbaserade offertrader – Översikt
-description: I det här ämnet finns information om hur du använder projektbaserade offertrader för projektarbete.
+title: Projektbaserade offertrader (Pro)
+description: I det här ämnet finns information om hur du använder projektbaserade offertrader för projektarbete. (Pro)
 author: rumant
 manager: Annbe
-ms.date: 03/30/2021
+ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085470"
 ---
-# <a name="project-based-quote-lines-overview"></a>Projektbaserade offertrader – Översikt 
+# <a name="project-based-quote-lines-pro"></a>Projektbaserade offertrader (Pro)
 
-_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 Projektbaserade offertrader har utformats för att hjälpa till att uppskatta projektarbetet för ett åtagande. Strukturen på en projektrelaterad offertrad utökas för projektuppskattningar med följande koncept:
 
@@ -31,21 +31,20 @@ Projektbaserade offertrader har utformats för att hjälpa till att uppskatta pr
 
 Följande tabell innehåller information om fälten under fliken **Allmänt** i den projektbaserade offertraden. Med hjälp av dessa fält kan du konfigurera grunden för en detaljerad uppskattning för projektarbete.
 
-| **Fält** | **Beskrivning** | **Inverkan nedströms** |
+| **Fält** | **Relevans, syfte och vägledning** | **Inverkan nedströms** |
 | --- | --- | --- |
-| Namn | Namnet på offertraden som gör det lättare att identifiera den diskreta komponenten i offerten som beräknas. | Kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
-| Faktureringsmetod | I en offert som skapats från en affärsmöjlighet kopieras värdet från motsvarande fält på affärsmöjlighetsraden. Fältet innehåller de två huvudkontraktsmodeller som stöds av Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid och material.| Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Project | Använd det här valfria fältet för att identifiera det projekt som ska användas för att leverera arbetet i det här åtagandet. När ett projekt är mappat till en offertrad bidrar det till att lägga till debiterbara uppgifter och till att i en projektbaserad uppskattning använda offertraden som offertradsinformation. När ett projekt inte är mappat till en projektrelaterad offertrad ska du skapa uppskattningen manuellt genom att skapa varje offertradsinformation. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns.|
-| Uppgifter som ingår | Anger om den här offertraden används för alla eller några av projektuppgifterna för det valda projektet. Fältet har följande möjliga värden:</br>- Alla projektuppgifter</br>- Endast valda projektuppgifter</br>Ett tomt värde i det här fältet motsvarar alternativet **Alla projektuppgifter**. | När **Endast markerade projektuppgifter** väljs på projektsidan låter fliken **Faktureringsinställningar för uppgift** dig välja specifika uppgifter för att associera dem till denna offertrad. Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Inkludera tid | Ett värde **Ja**/**Nej** anger om tidstransaktioner eller arbetskostnader för det valda projektet kommer att tas med i beräkningen på offertraden. Ett **Nej**-värde anger att tidstransaktionerna eller arbetskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att tidstransaktionerna eller arbetskostnaderna inkluderas i uppskattningen i offertraden. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Ta med utgift | Ett värde **Ja**/**Nej** anger om utgiftskostnader för det valda projektet kommer att tas med i beräkningen på offertraden. Ett **Nej**-värde anger att utgiftskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att utgiftskostnaderna inkluderas i uppskattningen i offertraden. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Ta med material | Ett värde **Ja**/**Nej** anger om materialkostnader för det valda projektet kommer att tas med i beräkningen på offertraden. Ett värde för **Nej** indikerar att materialkostnaderna inte kommer att inkluderas i uppskattningen på denna offertrad. Ett värde för **Ja** indikerar att materialkostnaderna kommer att inkluderas i uppskattningen på denna offertrad. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Inkludera avgift | Ett värde **Ja**/**Nej** anger om utgifter för det valda projektet kommer att tas med i beräkningen på offertraden. Ett **Nej**-värde anger att utgifterna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att utgifterna inkluderas i uppskattningen i offertraden. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Offererad belopp | Det här är det belopp som kunden ska beräknas för allt arbete som förutses på den projektbaserade offertraden. I en offert som skapats från en affärsmöjlighet kopieras värdet från fältet **Kundbudget** på affärsmöjlighetsraden. När en projektbaserad offertrad innehåller radinformation är det här fältet låst för redigering och sammanfattas utifrån beloppet i offertradsinformationen. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Beräknad skatt | Det här är ett redigerbart fält för användaren att lägga till det uppskattade momsbeloppet på offertraden. När en projektbaserad offertrad innehåller radinformation är det här fältet låst för redigering och sammanfattas utifrån momsbeloppet i offertradsinformationen. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Offererat belopp efter skatt | Fältet är offertradsbeloppet efter skatt och skrivskyddat. Beloppet i det här fältet beräknas som *Offererat belopp + moms*. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Undre gräns | Det här fältet är redigerbart och är endast tillgängligt på projektbaserade offertrader som har faktureringsmetoden **Tid och material**. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
-| Kundbudget | Det här fältet är redigerbart och kopieras från motsvarande fält på affärsmöjlighetsraden om offerten skapades från en affärsmöjlighet. | Värdet kopieras till projektkontraktraden som skapas från offertraden när offerten vanns. |
+| Namn | Namnet på en offertrad som kan hjälpa dig att identifiera den diskreta komponenten i offerten som uppskattas. | Kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Faktureringsmetod | I en offert som skapats från en affärsmöjlighet kopieras värdet från motsvarande fält på affärsmöjlighetsraden. Det här fältet innehåller de två huvudmodellerna för kontrakt som stöds av Dynamics 365 Project Operations:</br>- Fast pris</br>- Tid och material.| Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Project | Använd det här valfria fältet för att identifiera det projekt som ska användas för att leverera arbetet i det här åtagandet. När ett projekt är mappat till en offertrad bidrar det till att lägga till debiterbara uppgifter och till att i en projektbaserad uppskattning använda offertraden som offertradsinformation. När ett projekt inte är mappat till en projektrelaterad offertrad ska du skapa uppskattningen manuellt genom att skapa varje offertradsinformation. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits.|
+| Uppgifter som ingår | Anger om den här offertraden används för alla eller några av projektuppgifterna för det valda projektet. Fältet har följande möjliga värden:</br>- Alla projektuppgifter</br>- Endast valda projektuppgifter</br>Ett tomt värde i det här fältet motsvarar alternativet **Alla projektuppgifter**. | När **Endast valda projektuppgifter** har valts kan du på projektsidan, under fliken **Konfiguration av uppgiftsfakturering** välja specifika uppgifter för att associera dem med denna offertrad. Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Inkludera tid | En **Ja**/**Nej**-flagga anger om tidstransaktioner eller arbetskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att tidstransaktionerna eller arbetskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att tidstransaktionerna eller arbetskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Ta med utgift | En **Ja**/**Nej**-flagga anger om utgiftskostnader för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att utgiftskostnaderna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att utgiftskostnaderna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Inkludera avgift | En **Ja**/**Nej**-flagga anger om avgifter för det valda projektet ska tas med i uppskattningen på den här offertraden. Ett **Nej**-värde anger att avgifterna inte inkluderas i uppskattningen i offertraden. Ett **Ja**-värde anger att avgifterna inkluderas i uppskattningen i offertraden. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Offererad belopp | Det här är det belopp som är offererat till kunden för allt arbete som baseras på den projektbaserade offertraden. I en offert som skapats från en affärsmöjlighet kopieras värdet från fältet **Kundbudget** på affärsmöjlighetsraden. När en projektbaserad offertrad innehåller radinformation är det här fältet låst för redigering och sammanfattas utifrån beloppet i offertradsinformationen. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Beräknad skatt | Det här är ett redigerbart fält för användaren att lägga till det uppskattade momsbeloppet på offertraden. När en projektbaserad offertrad innehåller radinformation är det här fältet låst för redigering och sammanfattas utifrån momsbeloppet i offertradsinformationen. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Offererat belopp efter skatt | Fältet är offertradsbeloppet efter skatt och skrivskyddat. Beloppet i det här fältet beräknas som *Offererat belopp + moms*. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Undre gräns | Det här fältet är redigerbart och är endast tillgängligt på projektbaserade offertrader som har faktureringsmetoden **Tid och material**. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
+| Kundbudget | Det här fältet är redigerbart och kopieras från motsvarande fält på affärsmöjlighetsraden om offerten skapades från en affärsmöjlighet. | Detta fältvärde kopieras till projektkontraktraden som skapas från den här offertraden när offerten har vunnits. |
 
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Valideringsregler för fält under fliken Allmänt i projektbaserade offertrader
@@ -63,818 +62,752 @@ Följande tabell innehåller information om fälten under fliken **Allmänt** i 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
                     <strong>Affärsmöjlighet</strong>
                 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Offert</strong>
                 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
                     <strong>Offertrad</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
                     <strong>Inkluderade uppgifter</strong>
                 </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
                     <strong>Inkludera tid</strong>
                 </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
                     <strong>Ta med utgift</strong>
                 </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
-                    <strong>Ta med material</strong>
-                </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-                    <strong>Ta med</strong>
+                    <strong>Inkludera</strong>
                 </p>
                 <p>
                     <strong>Avgift</strong>
                 </p>
             </td>
-            <td width="49" valign="top">
+            <td width="54" valign="top">
                 <p>
                     <strong>Giltigt/ogiltigt</strong>
                 </p>
             </td>
-            <td width="200" valign="top">
+            <td width="308" valign="top">
                 <p>
                     <strong>Orsak</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="54" rowspan="2" valign="top">
                 <p>
 Ogiltigt </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="308" rowspan="2" valign="top">
                 <p>
-Överträdelse av regel 2. Tid, utgifter och avgifter på P1-projekt tas med på båda offertraderna, QL1 och QL2 </p>
+Överträdelse av regel 2. Tid, utgifter och avgifter på P1-projekt tas med på båda offertraderna, QL1 och QL2.
+                </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
-            </td>
-            <td width="39" valign="top">
-            </td>
-            <td width="40" valign="top">
+            <td width="61" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="77" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="45" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="46" valign="top">
+            <td width="90" valign="top">
             </td>
-            <td width="43" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="41" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="49" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Inga </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="54" rowspan="2" valign="top">
                 <p>
 Ogiltigt </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="308" rowspan="2" valign="top">
                 <p>
-Överträdelse av regel 2. Tid, material och avgifter på P1-projekt tas med på båda offertraderna, QL1 och QL2 </p>
+Överträdelse av regel 2. Tid och avgifter på P1-projekt tas med på offertraderna QL1 och QL2.
+                </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
-            </td>
-            <td width="39" valign="top">
-            </td>
-            <td width="40" valign="top">
+            <td width="61" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="77" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="45" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="46" valign="top">
+            <td width="90" valign="top">
             </td>
-            <td width="43" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="41" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="49" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="54" valign="top">
+            </td>
+            <td width="108" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Inga </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="54" rowspan="2" valign="top">
                 <p>
 Giltig </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
-                <p>
-Tid, material och avgifter på P1-projekt tas med i QL1 <br>
-Utgiften på P1-projektet ingår i QL2 <br>
-Ingen överlappar vad som ingår på varje offertrad och därför är giltigt.
+            <td width="308" rowspan="2" valign="top">
+                  <p>
+Tid och avgifter för P1-projekt ingår i QL1.
+Utgiften på P1-projektet ingår i QL2.
+Det finns ingen överlappning i vad som ska tas med på varje offertrad och är giltig.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Inga </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
-                <p>
-Inga </p>
-            </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 Inga </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
-            </td>
-            <td width="39" valign="top">
-            </td>
-            <td width="40" valign="top">
+            <td width="61" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="77" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="45" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="46" valign="top">
+            <td width="90" valign="top">
             </td>
-            <td width="43" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="41" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="49" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Endast valda uppgifter </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="54" rowspan="2" valign="top">
                 <p>
 Ogiltigt </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="308" rowspan="2" valign="top">
                 <p>
-Överträdelse av regel #2 </p>
+Överträdelse av regel 2 ovan </p>
                 <p>
-Q1 inkluderar tid, material, utgifter och avgifter för en delmängd av uppgifter i projekt P1 </p>
+I Q1 ingår tid, utgifter och avgifter för en deluppsättning av uppgifter i Project P1.
+                </p>
                 <p>
-QL2 omfattar tid, utgifter och avgifter för hela projektet P1 och därmed överlappar vad som ingår i Q1.
+QL2 omfattar tid, utgifter och avgifter för hela projektet P1 och överlappar med vad som ingår i Q1.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Tom </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
-            </td>
-            <td width="39" valign="top">
-            </td>
-            <td width="40" valign="top">
+            <td width="61" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="77" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="45" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="46" valign="top">
+            <td width="90" valign="top">
             </td>
-            <td width="43" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="41" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="49" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="54" valign="top">
+            </td>
+            <td width="108" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Endast valda uppgifter </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="54" rowspan="2" valign="top">
                 <p>
 Giltig </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="308" rowspan="2" valign="top">
                 <p>
-Per regel #3, </p>
+Per regel 3 ovan, </p>
                 <p>
-Q1 inkluderar tid, material, utgifter och avgifter för en delmängd av uppgifter i projekt P1.
+I Q1 ingår tid, utgifter och avgifter för en deluppsättning av uppgifter i Project P1.
                 </p>
                 <p>
-QL2 inkluderar tid, material, utgifter och avgifter för en delmängd av uppgifter i projekt P1.
+I QL2 ingår tid, utgifter och avgifter för en deluppsättning av uppgifter i Project P1.
                 </p>
                 <p>
-Den enda ytterligare valideringen är runt deluppsättningen av uppgifter på QL1, som skiljer sig från uppgiftsuppsättningen på QL2 för att säkerställa att ingen överlappar. Detta görs av systemet när uppgifter associeras.
+Den enda ytterligare valideringen sker runt den deluppsättning av uppgifter i QL1 som skiljer sig från deluppsättningen av uppgifter i QL2. Detta garanterar att det inte finns några överlappningar. Detta görs av systemet när uppgifter associeras.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL2 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Endast valda uppgifter </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
-            </td>
-            <td width="39" valign="top">
-            </td>
-            <td width="40" valign="top">
+            <td width="61" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="77" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="45" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="46" valign="top">
+            <td width="90" valign="top">
             </td>
-            <td width="43" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="41" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="49" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Alla projektuppgifter eller tomt </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
-            </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="54" valign="top">
                 <p>
 Giltig </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="308" rowspan="2" valign="top">
                 <p>
-Per regel #5, Q1 och Q2 är två offerter på samma möjlighet, så de kan båda uppskatta för samma delar av ett projekt.
+Baserat på regel 5 är Q1 och Q2 två offerter av samma affärsmöjlighet, så de båda kan uppskatta samma komponenter i ett projekt.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K2 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Alla projektuppgifter eller tomt </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
-                <p>
-Ja </p>
+            <td width="54" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
-            </td>
-            <td width="39" valign="top">
-            </td>
-            <td width="40" valign="top">
+            <td width="61" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="77" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="45" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="46" valign="top">
+            <td width="90" valign="top">
             </td>
-            <td width="43" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="41" valign="top">
+            <td width="48" valign="top">
             </td>
-            <td width="49" valign="top">
+            <td width="42" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="54" valign="top">
+            </td>
+            <td width="308" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O1 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Alla projektuppgifter eller tomt </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
+            <td width="54" valign="top">
                 <p>
-Ja </p>
+Giltig </p>
             </td>
-            <td width="49" rowspan="2" valign="top">
+            <td width="308" rowspan="2" valign="top">
                 <p>
-Ogiltigt </p>
-            </td>
-            <td width="200" rowspan="2" valign="top">
-                <p>
-Per regel #4, Q1 och Q2 är två offerter på olika möjligheter, så de kan båda uppskatta för samma delar av samma projekt.
+Baserat på regel 4 är Q1 och Q2 två offerter av olika affärsmöjligheter, så de kan inte uppskatta samma komponenter i samma projekt.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="59" valign="top">
+            <td width="61" valign="top">
                 <p>
 O2 </p>
             </td>
-            <td width="39" valign="top">
+            <td width="41" valign="top">
                 <p>
 K1 </p>
             </td>
-            <td width="40" valign="top">
+            <td width="42" valign="top">
                 <p>
 QL1 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="42" valign="top">
                 <p>
 P1 </p>
             </td>
-            <td width="77" valign="top">
+            <td width="90" valign="top">
                 <p>
 Alla projektuppgifter eller tomt </p>
             </td>
-            <td width="45" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="46" valign="top">
+            <td width="48" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="43" valign="top">
+            <td width="42" valign="top">
                 <p>
 Ja </p>
             </td>
-            <td width="41" valign="top">
+            <td width="54" valign="top">
                 <p>
-Ja </p>
+Ogiltigt </p>
             </td>
         </tr>
     </tbody>
 </table>
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

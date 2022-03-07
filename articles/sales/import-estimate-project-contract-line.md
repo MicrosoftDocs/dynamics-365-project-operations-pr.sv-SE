@@ -2,24 +2,22 @@
 title: Importera en uppskattning till en projektbaserad kontraktrad
 description: I det här ämnet finns information om hur du importerar uppskattningar från ett projekt till en kontraktrad.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4085775"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990113"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importera en uppskattning till en projektbaserad kontraktrad
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-I Dynamics 365 Project Operations kan du importera uppskattningar från ett projekt till en projektbaserad kontraktrad.
+I Dynamics 365 Project Operations kan du importera beräkningar från ett projekt till en projektbaserad kontraktrad.
 
 1. Kontrollera att fältet **Projekt** på den projektbaserade kontraktraden är ifyllt.
 2. Under fliken **Kontraktradsinformation** i underrutnätet väljer du **Importera från projektuppskattning**. En dialogruta med sammanfattningsalternativ öppnas. De tillgängliga alternativen för sammanfattning är **Transaktionsklass**, **Kategori**, **Roll** och **Projektuppgift**. Utifrån valen för sammanfattning val kopieras uppskattningen från projektet för alla transaktionsklasser som ingår i kontraktraden. 
@@ -59,3 +57,6 @@ När användaren väljer att sammanfatta efter **Transaktionsklass**, **Kategori
 | Uppgift A | Flyg | 10/1/2020 | 4 | 400 | 1600 |
 | Uppgift B | Hotell | 10/1/2020 | 4 | 200 | 800 |
 | Uppgift C | Hotell | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

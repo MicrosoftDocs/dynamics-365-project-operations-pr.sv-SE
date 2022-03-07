@@ -2,18 +2,16 @@
 title: Faktureringsscheman på projektbaserade offertrader
 description: I det här ämnet finns information om hur du skapar faktureringsscheman och milstolpar för offertrader.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180844"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988628"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Faktureringsscheman på projektbaserade offertrader
 
@@ -68,3 +66,6 @@ Milstolpar med fast pris kan också skapas manuellt när de inte delas periodisk
 | Fakturastatus | Snabbregistrering | När en milstolpe skapas är statusen alltid inställd på **Inte klar för fakturering**. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan. |
 | Radbelopp | Snabbregistrering | Beloppet eller värdet för den milstolpe som ska faktureras kunden. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan. |
 | Moms | Snabbregistrering | Momsbelopp som ska tillämpas på milstolpen. | Detta sprids till milstolpen i projektets kontraktrad och till fakturan. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

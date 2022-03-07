@@ -2,18 +2,16 @@
 title: Momsåterbetalning i utgiftshantering
 description: I det här ämnet förklaras hur du erhåller återbetalning av momstransaktioner.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999383"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Momsåterbetalning i utgiftshantering
 
@@ -35,25 +33,25 @@ När förutsättningarna har uppfyllts måste följande steg utföras för att b
 4. Skicka momsåterbetalningsdata till tredjepartsleverantören för att registrera internationella återbetalningar.
 5. Bearbeta utgifter för inhemsk momsåterbetalning.
 
-I följande avsnitt finns exempel som visar hur Contoso-anställda slutför varje steg.
+Följande avsnitt innehåller exempel på hur Contoso-anställda slutför varje steg.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Ange momsinformation för kreditkortstransaktioner för att identifiera berättigade momsåterbetalningar
 
-Nancy, en säljare hos Contoso som är baserad i USA och som nyligen kom tillbaka från en säljresa till Storbritannien. Under resan ådrog sig Nancy några personliga utgifter på kreditkortet för måltider. Nancy måste nu skapa en utgiftsrapport för att kunna stämma av utgifterna.
+Nancy, en Contoso-säljare med bas i USA, kommer nyligen tillbaka från en försäljningsresa till Storbritannien. Under resan ådrog sig Nancy några personliga utgifter på kreditkortet för måltider. Nancy måste nu skapa en utgiftsrapport för att kunna stämma av utgifterna.
 
 När Nancy anger information i utgiftsrapporten väljer hon **Storbritannien** i fältet **Land/region** på sidan **Redigera utgiftsrapport**. Listan över momsgrupper filtreras sedan så att den endast visar de grupper som gäller för Storbritannien. Nancy väljer momsgruppen **Storbritannien 001** och väljer sedan momsgruppen för artikelförsäljning **Måltider**. Härnäst lägger Nancy till en ny transaktion för logi. Eftersom det endast finns en momsgrupp och en momsgrupp för artikelförsäljning för logi i Storbritannien fylls informationen i automatiskt på Nancys utgiftsrapport.
 
-Enligt Contoso-policyn måste alla utgifter ha ett matchande kvitto. Därför får Nancy ett meddelande som anger att hon måste bifoga ett kvitto för varje transaktion som hon noterade i utgiftsrapporten när hon sparar utgiftsrapporten. Nancy kontrollerar att hon har bifogat en digital bild av varje transaktionskvitto till utgiftsrapporten och skickar rapporten för godkännande. Hon skickar sedan papperskvitton till backoffice-gruppen för behandling.. Det här teamet skickar momsåterbetalningsdata till den tredjepartsleverantör som registrerar internationella momsåterbetalningar för Contoso.
+Enligt Contoso-policyn måste alla utgifter ha motsvarande kostnader. Därför får Nancy ett meddelande som anger att hon måste bifoga ett kvitto för varje transaktion som hon noterade i utgiftsrapporten när hon sparar utgiftsrapporten. Nancy kontrollerar att hon har bifogat en digital bild av varje transaktionskvitto till utgiftsrapporten och skickar rapporten för godkännande. Hon skickar sedan papperskvitton till backoffice-gruppen för behandling.. Det här teamet skickar momsåterställningsdata till den tredjepartsleverantör som skickar in internationella momsåterställningsreturer för Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Kontrollera momsinformation och bokföra en utgiftsrapport
 
-Innan April, koordinatorn av leverantörsreskontra för Contoso, kan bokföra en utgiftsrapport måste hon ange eventuell momsinformation som saknas i den. Hon öppnar sidan **Utgiftsrapportinformation** och ser Nancys godkända utgiftsrapport. April öppnar sedan utgiftsrapporten för att visa information om transaktionerna. Hon ser att Nancy inte angav någon momsgrupp för artikelförsäljning för en av transaktionerna. Eftersom den här informationen inte har angetts kan April inte bokföra utgiftsrapporten. Därför tittar hon på sidan **Momskonfiguration** i utgiftshanteringen och söker efter rätt momsgrupp för artikelförsäljning för landet/regionen och transaktionstypen. April kan nu bokföra utgiftsrapporten i huvudboken.
+Innan April, koordinator av leverantörsreskontra för Contoso, kan publicera en utgiftsrapport måste hon ange skatteinformation som saknas i den. Hon öppnar sidan **Utgiftsrapportinformation** och ser Nancys godkända utgiftsrapport. April öppnar sedan utgiftsrapporten för att visa information om transaktionerna. Hon ser att Nancy inte angav någon momsgrupp för artikelförsäljning för en av transaktionerna. Eftersom den här informationen inte har angetts kan April inte bokföra utgiftsrapporten. Därför tittar hon på sidan **Momskonfiguration** i utgiftshanteringen och söker efter rätt momsgrupp för artikelförsäljning för landet/regionen och transaktionstypen. April kan nu bokföra utgiftsrapporten i huvudboken.
 
 När utgiftsrapporten har bokförts av April skapas en arbetsuppgift med momsåterbetalning. Den här arbetsuppgiften tilldelas en medlem i backoffice-gruppen för behandling. April får ett meddelande som bekräftar att bokföringen har slutförts. I det här meddelandet visas även antalet momstransaktioner som identifierades för återbetalningen.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Bearbeta utgifter som är relevanta för internationell momsåterbetalning
 
-Arnie, medlem i Contosos backoffice-grupp för behandling, ansvarar för att verifiera att all nödvändig information för momsåterbetalning ingår i utgiftsrapporter. Han öppnar sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som Nancy skickat. Arnie verifierar sedan att alla begärda kvitton har bifogats och att rätt momsgrupp och momskoder har angetts.
+Arnie, medlem i Contosos back-office-bearbetningsteam, ansvarar för att bekräfta att all nödvändig information för momsåterställning ingår i utgiftsrapporter. Han öppnar sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som Nancy skickat. Arnie verifierar sedan att alla begärda kvitton har bifogats och att rätt momsgrupp och momskoder har angetts.
 
 När Arnie tar emot papperskvitton från Nancy verifierar han dem mot de digitala kvittona och ändrar sedan statusen på utgiftsrapporten till **Klar för återbetalning**.
 
@@ -66,3 +64,6 @@ När Arnie är redo att skicka utgiftsrapportdata till den tredje part som ska r
 Arnie måste kontrollera att transaktionerna i utgiftsrapporten är berättigade till momsåterbetalning och att de digitala kvittona har bifogats till rapporterna. För att börja bearbeta utgifter som är berättigade till inhemsk återbetalning öppnar Arnie sidan **Återbetalning av utgiftsmoms** och väljer utgiftsrapporten som kräver verifiering. Han bekräftar att kvitton finns i företagets namn i stället för i medarbetarens. (För momsåterbetalning måste kvitton vara i företagets namn). Arnie verifierar sedan att alla begärda kvitton har bifogats och att rätt momsgrupp och momskoder har angetts.
 
 När Arnie tar emot papperskvitton ändrar han status för utgiftsrapporten till **Klar för återbetalning**. Han kan sedan registrera återbetalningen hos rätt skattemyndighet. I det här fallet är rätt skattemyndighet i USA Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

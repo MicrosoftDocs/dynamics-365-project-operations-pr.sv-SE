@@ -2,18 +2,16 @@
 title: Hantera flera kunder på projektbaserade offertrader - lite
 description: I det här ämnet beskrivs hur du hanterar flera kunder på projektbaserade offertrader.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001723"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Hantera flera kunder på projektbaserade offertrader - lite
 
@@ -43,3 +41,6 @@ I följande tabell visas fälten på kundposten för offertraden i en projektrel
 Du kan redigera delningsprocentför fakturering på raden. När delningsprocenten för fakturering inte är 100 % uppstår ett fel. När du har redigerat delningsprocenten för fakturering uppdaterar du offertradssidan för att ta bort felet.
 
 Använd åtgärden jämn distribution på offertradskunders underrutnät för att fördela faktureringsdelningar till alla offertradskunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundande kunden. En av offertradskundernas märks alltid som den avrundande kunden, vilket innebär att avrundningsflaggan har värdet **Ja** i posten för offertradskunden. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Startsida för Projektresurser
 description: I det här ämnet finns information om resurshantering för projekt.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085526"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009728"
 ---
 # <a name="project-resourcing-home-page"></a>Startsida för Projektresurser
 
@@ -55,3 +53,6 @@ I följande avsnitt finns information om de uppgifter som måste utföras när d
 - [Resultat av projektresursschemaläggning](project-scheduling-performance.md)
 - [Konfigurera roller i mallar för uppdelad arbetsstruktur](set-up-roles-wbs-template.md)
 - [Resursuppfyllelse för planerade resurser](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

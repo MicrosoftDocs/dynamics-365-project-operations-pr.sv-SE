@@ -1,21 +1,19 @@
 ---
-title: Hantera en proforma-faktura - Lite
-description: I det här ämnet finns information om hur du arbetar med proforma-fakturor.
+title: Hantera en proforma projektfaktura
+description: Detta ämne ger information om hur du arbetar med proforma-projektfakturor.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181564"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997448"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Hantera en proforma-faktura - Lite
+# <a name="manage-a-proforma-project-invoice"></a>Hantera en proforma projektfaktura 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
@@ -69,9 +67,9 @@ I Project Operations finns det alltid en faktura rad för varje projektkontraktr
 
 Varje fakturarad i en projektfaktura inkluderar fakturaraddetaljer. Dessa raddetaljer är relaterade till fakturerad faktisk försäljning och milstolparna som relaterar till den kontraktrad som fakturaraden refererar till. Alla dessa transaktioner är markerade som **Klara för fakturering**.
 
-För raden **Tid- och materialfaktura** grupperas fakturaraddetaljer i **debiterbar**, **icke-debiterbar** och **kostnadsfri** på sidan **Fakturarad**. Informationen i **debiterbar fakturarad** läggs till summan för fakturaraden. **Kostnadsfritt** och **Faktiskt icke debiterbart** läggs inte till i fakturaradens summa.
+För raden **Tid- och materialfaktura** grupperas fakturaradinformationen på sidan **Debiterbar**, **Ej debiterbar** och **Kostnadsfritt** på **Fakturarad**. Informationen i **debiterbar fakturarad** läggs till summan för fakturaraden. **Kostnadsfria** och **Ej debiterbart faktiskt värde** läggs inte summan av fakturaraden till.
 
-För raden **Faktura med fast pris** skapas fakturaraddetaljer från milstolpar som är markerade som **klara för fakturering** på den relaterade kontraktraden. När fakturaradinformationen har skapats från en milstolpe uppdateras faktureringsstatusen på milstolpen till **kundfakturan som skapats**.
+För en rad för **Fast prisfaktura** skapas fakturadetaljer från milstolpar som är markerade som **Klar att fakturera** på den relaterade kontraktraden. När fakturaradinformationen har skapats från en milstolpe uppdateras faktureringsstatusen på milstolpen till **kundfakturan som skapats**.
 
 ### <a name="edit-invoice-line-details"></a>Redigera information om fakturarad
 
@@ -98,8 +96,12 @@ Följande fält är tillgängliga på fakturaraddetaljer som backas upp av faktu
 | **Moms** | Anges som standard från faktiska källan. Det här fältet kan redigeras av användaren | Fältet kan redigeras av användaren när du skapar en ny fakturaraddetalj utan att behöva säkerhetskopiera. |
 | **Utökat belopp** | Ett beräknat fält, beräknat som **belopp + moms**. Ett skrivskyddat fält som är låst för redigering. | &nbsp; |
 | **Faktureringstyp** | Anges som standard från faktiska källan. Det här fältet kan redigeras av användaren. | Om du väljer **debiterbar** läggs raden till i total summan för fakturaraden. **Kostnadsfritt** och **icke-debiterbar** tas de bort från fakturaradens totala summa. |
+| **Välj produkt** | Det här fältet är skrivskyddad som standard från källan. | När du skapar en ny fakturaradsdetalj utan att det finns någon faktisk säkerhetskopiering kan fältet redigeras. |
+| **Produkt** | Det här fältet är skrivskyddad som standard från källan. | När du skapar en ny fakturaraddetalj utan en faktisk säkerhetskopiering kan detta fält redigeras om **Välj produkt** anges till **Befintlig produkt**. |
+| **Produktnamn** | Det här fältet är skrivskyddad som standard från källan. | På en ny fakturaradsdetalj, där produkt-ID väljs från katalogen, anges det här fältet till produktnamnet. För en oregistrerad produkt anges fältet till oregistrerat namn. |
+| **Beskrivning av oregistrerad** | Det här fältet är skrivskyddad som standard från källan. | När du skapar en ny fakturaradsdetalj utan att det finns någon faktisk säkerhetskopiering kan du lägga till en beskrivning av produkten. |
 | **Transaktionstyp** | Anges som standard från faktiska källan. Ett skrivskyddat fält som är låst för redigering. | Ange som standard till **fakturerad försäljning** och låst när du skapar en ny **fakturaraddetalj** utan att behöva säkerhetskopiera.  |
-| **Transaktionsklass** | Anges som standard från faktiska källan. Ett skrivskyddat fält som är låst för redigering. | Ange som standard baserat på om användaren väljer att skapa en fakturraddetalj **Tid**, **Utgift** eller **Avgift** samtidigt som du också skapar en ny **fakturraddetalj** utan en faktisk uppbackning. Låst från redigering. |
+| **Transaktionsklass** | Anges som standard från faktiska källan. Ett skrivskyddat fält som är låst för redigering. | Ställ in som standard baserat på om användaren väljer att skapa en fakturaraddetalj för **Tid**, **Utgift**, **Material** eller **Avgift** samtidigt som man skapar en ny **Information om fakturarad** utan en faktisk säkerhetskopia. Låst från redigering. |
 
 Följande fält är tillgängliga på fakturaraddetaljer som backas upp av en milstolpe:
 
@@ -144,3 +146,6 @@ Om du har verkliga värden som följde efter att fakturan skapades kan du ta med
 I Project Operations kan du skapa fakturarader för produkter som inte gäller för några projekt eller för alla projekt tillsammans med projektbaserade fakturarader. Dessa fakturarader skapas som produktbaserade kontraktrader och efter att de har markerats som klara för fakturering läggs de till som produktbaserade fakturarader.
 
 När du har lagt till produktbaserade fakturarader kan de inte ändras. De kan emellertid tas bort från proforma-utkastfaktura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

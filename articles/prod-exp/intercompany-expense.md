@@ -1,27 +1,25 @@
 ---
 title: Koncerninterna utgifter
 description: Detta ämne innehåller information om hur du använder koncerninterna utgifter för att tilldela en medarbetares utgifter till den juridiska person som arbetet utförts för.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271555"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001228"
 ---
 # <a name="intercompany-expenses"></a>Koncerninterna utgifter
 
@@ -36,5 +34,17 @@ Innan en anställd kan skapa och skicka in koncerninterna utgifter, måste du ak
 Innan du kan använda momsgrupper som är associerade med den utlånande (källrelaterade) juridiska entiteten i stället för den lånande juridiska personen (associerad med destination) i utgiftsrapporten måste du aktivera funktionen i momskonfigurationen för huvudboken. När parametern **Juridisk entitet för momsbokföring** har angetts som **Källa** och **Tillämpa momsregler** har angetts som **Nej** används momskombinationen för den lånande juridiska entiteten. När samma parameter anges till **Destination** används momskombinationen för lånande juridisk person. För juridiska personer i USA, när parametern är inställd på **Källa**, måste också fältet **Momsfordran** konfigureras på sidan **Bokföringsgrupper i transaktionsregister**. Redovisningsmotorn använder informationen från det här fältet för momsrelaterade redovisningsposter.   
 Beteendet är konsekvent för utgiftsrader som har bokförts med eller utan projekt.  
 
+## <a name="new-expense-expression-builder"></a>Nytt uttrycksverktyg för utgifter
+
+Den nya uttrycksverktyget löser problem med koncerninterna kostnadsscenarier som använder projekt. När du skapar en koncernintern utgift kan du använda den här funktionen för att säkerställa att utgiftspolicyn verifieras korrekt mot det projekt som valts på utgiftsraden och att utgiftsrapporten kan skickas korrekt.
+
+För att funktionen för uttrycksverktyget för utgifter ska fungera måste den vara aktiverad. Dessutom bör den utgiftspolicy som har ett projekt-ID konfigureras.
+
+Om du redan har konfigurerat principer som verifierar projekt-ID:t på utgiftsraden måste de principerna dras tillbaka. Sedan kan du aktivera funktionen och konfigurera om principerna.
+
+Aktivera funktionen genom att följa stegen nedan.
+
+1. Gå till **Arbetsytor** \> **Funktionshantering**.
+2. Välj **Nytt uttrycksverktyg som löser problem med koncerninterna kostnadsscenarier som använder projekt**. Välj sedan **Aktivera nu**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

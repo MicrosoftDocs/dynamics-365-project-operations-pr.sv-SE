@@ -3,7 +3,7 @@ title: Typer av projektstadier
 description: I det här ämnet finns information om projektstadier.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148125"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085591"
 ---
 # <a name="project-stage-types"></a>Typer av projektstadier 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

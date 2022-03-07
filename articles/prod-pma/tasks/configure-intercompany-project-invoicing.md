@@ -2,11 +2,9 @@
 title: Konfigurera koncernintern projektfakturering
 description: I det här ämne visas hur du konfigurerar projektfakturering mellan två företag i organisationen.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ad25aba492b7902ddd8955be87f88f96f6d4508f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085599"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001223"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurera koncernintern projektfakturering
 
@@ -64,3 +62,6 @@ I det här ämne visas hur du konfigurerar projektfakturering mellan två föret
 32. I fältet **Prissättning** anger du ett nummer.
 33. Välj **Spara**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,16 +16,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085731"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Resurshanteringsändringar (Project Service Automation 3.x)
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Avsnitten i det här ämne innehåller information om de ändringar som har gjorts i området resurshantering i Dynamics 365 Project Service Automation version 3.x.
 

@@ -3,7 +3,7 @@ title: Varför återställs priset till standardvärdet noll för tidsförsäljn
 description: Felsökning kring varför ett pris återställs till standardvärdet 0 för tidsförsäljningstillgångar.
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c886c4a53b4ba47e381b891fe22a565ad8fd1ac6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146235"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085664"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Varför återställs priset till standardvärdet noll för tidsförsäljningstillgångar?
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

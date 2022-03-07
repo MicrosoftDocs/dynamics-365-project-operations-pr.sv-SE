@@ -3,20 +3,28 @@ title: Översikt över prissättningsdimensioner
 description: I det här ämnet finns information om prissättningsdimensioner i Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 11/30/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650235"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085647"
 ---
-# <a name="pricing-dimensions-overview"></a>Prissättningsdimensioner – Översikt
+# <a name="pricing-dimensions-overview"></a>Översikt över prissättningsdimensioner
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
@@ -32,21 +40,9 @@ Därför finns det två typer av dimensionsvärden för prissättning tillgängl
 
 ## <a name="pricing-dimensions"></a>Prissättningsdimensioner
 
-Med Dynamics 365 Project Operations följer standarduppsättning med prissättningsdimensioner. Du kan visa dessa prissättningsdimensioner genom att gå till **Project Operations** > **parametrar**. I parameterposten, på fliken **Beloppsbaserad prissättningsdimension** ska du kontrollera att rollen **msdyn_resourcecategory** och resursorganisationsenheten **msdyn_organizationalunit** har fälten **Gäller för försäljning** och **Gäller för kostnad** inställd på **Ja**. Med dessa fält aktiverade kan du ange pris och kostnad för varje kombination av roll och organisationsenheter.
+Dynamics 365 Project Operations levereras med en standarduppsättning med prissättningsdimensioner. Du kan visa dessa prissättningsdimensioner genom att gå till **Project Operations** > **parametrar**. I parameterposten, på fliken **Beloppsbaserad prissättningsdimension** ska du kontrollera att rollen **msdyn_resourcecategory** och resursorganisationsenheten **msdyn_organizationalunit** har fälten **Gäller för försäljning** och **Gäller för kostnad** inställd på **Ja**. Med dessa fält aktiverade kan du ange pris och kostnad för varje kombination av roll och organisationsenheter.
 
-![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad](media/PS-OOB-parameters.png)
-
-Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande ämnen: 
-  
-  > [!NOTE]
-  > Procedurerna måste slutföras i den ordning de listas.
-
-1. [Skapa en lösning för anpassade prissättningsdimensioner](../sales/create-solution-custompd.md)
-2. [Skapa anpassade fält och entiteter](create-custom-fields-entities-pricing-dimensions.md)
-3. [Lägga till anpassade fält i prisinställningar och transaktionella entiteter](add-custom-fields-price-setup-transactional-entities.md)
-4. [Konfigurera anpassade fält som prissättningsdimensioner](set-up-custom-fields-pricing-dimensions.md)
-5. [Uppdatera plugin-attribut för att inkludera nya prissättningsdimensioner](update-plugin-attributes-pd.md)
-
+Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner.
 
 ## <a name="pricing-human-resource-time"></a>Prissättning av mänsklig resurs
 Hur en organisation prissätter mänsklig resurs är ofta ett viktigt strategiskt övervägande som påverkar organisationens lönsamhet direkt. Arbeta med ekonomiteamen och övningsrubriker när organisationen är klar att identifiera hur fakturering och kostnader för personaltid ska konfigureras.
@@ -61,13 +57,13 @@ I följande exempel visas faktureringskostnader som är inställda utifrån den 
 
 | Roll        | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvecklare   | Contoso US  |Timme | 200|USD     |
-| Utvecklare   | Contoso India |Timme|   112|USD     |
+| Utvecklare   | Contoso US  |Hour | 200|USD     |
+| Utvecklare   | Contoso India |Hour|   112|USD     |
 
 
 **Exempelkostnadstariffer**
 
 | Löneband     | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt företag_Band1 | Contoso US  |Timme | 145|USD     |
-| Mitt företag_Band2 | Contoso India |Timme|   67|USD     |
+| Mitt företag_Band1 | Contoso US  |Hour | 145|USD     |
+| Mitt företag_Band2 | Contoso India |Hour|   67|USD     |

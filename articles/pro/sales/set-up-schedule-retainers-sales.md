@@ -1,5 +1,5 @@
 ---
-title: Konfigurera ett kvarhållarschema
+title: Konfigurera en tidsplan för arvoden – Lite
 description: I det här ämnet finns information om hur du skapar ett kvarhållarschema i Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d90781407f11c93b9fb9e0cd2446e102e216b8db
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272319"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181294"
 ---
-# <a name="set-up-a-retainer-schedule"></a>Konfigurera ett kvarhållarschema
+# <a name="set-up-a-retainer-schedule---lite"></a>Konfigurera en tidsplan för arvoden – Lite
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Kvarhållarscheman konfigureras på sidan **Projektkontrakt** i Dynamics 365 Project Operations.
+Kvarhållarscheman ställs in på sidan **projektkontrakt** i Dynamics 365 Project Operations.
 
 1. På sidan **Projektkontrakt** på fliken **Förskott och kvarhållare**, välj **Ställ in kvarhållarschema**.
 2. På dialogsidan som öppnas visas fälten som visas i följande tabell. I tabellen kan du få en uppfattning om hur de angivna värdena påverkar eller påverkar det kvarhållarschema som kommer att skapas.
@@ -32,6 +32,3 @@ Kvarhållarscheman konfigureras på sidan **Projektkontrakt** i Dynamics 365 Pro
 | Antal kvarhållare att skapa | När du anger antalet kvarhållare som ska skapas använder systemet startdatum och frekvens för att skapa numret i det här fältet. | När fältet uppdateras manuellt ignoreras värdet i fältet **Slut för kvarhållarschema** och i stället skapas det specifika antalet kvarhållna eller förskott. |
 | Fakturafrekvens | Hur ofta programmet ska skapa balanserade och förskott. | Värdet påverkar direkt antalet kvarhållare och förskott samt de datum som skapats. |
 | Totalbelopp | Total beloppet är det belopp som är uppdelat i den individuella beställnings- eller förskottsbetalningen som ska skapas. | Det här fältet har ingen inverkan nedströms. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Organisationsenheter
 description: I det här ämnet finns information om organisationsenheter i Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145651"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005098"
 ---
 # <a name="organizational-units"></a>Organisationsenheter 
 
@@ -55,7 +53,7 @@ Organisationsenheten spelar två roller i PSA:
 - **Kontrakteringsenhet** – den organisationsenhet som representerar den företagsgrupp eller avdelning som framför allt är ansvarig för att försäljningen och hanteringen av arbetet och tjänsterna i levereras till kunden. Kontrakteringsenheten identifieras av fältet **Kontrakteringsenhet** i huvudavsnittet på sidorna **affärsmöjlighet**, **offert**, **projektkontrakt**, **projekt**.
 - **Resursenhet** – den organisationsenhet som en resurs tillhör eller tilldelas. Den här organisationsenheten kan ge resurser för vissa roller i verksamhetsredogörelsen (SOW) och projekt som ägs av den upphandlande enheten.
 
-> ![Upphandlande enheter och resursenheter](media/advanced-1.png)
+> ![Upphandlande enheter och resursenheter.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Vanliga frågor om organisationsenhet
 
@@ -79,7 +77,7 @@ När du implementerar Dynamics 365 optimerar du säkerheten för hierarkin av af
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exempel på organisationsenheter och affärsenheter
 
-Contoso, Ltd. har en blomstrande metod för Microsoft-teknik. Joel och Hillevi är båda C\#-utvecklare, men Hillevi är i USA och Joel är i Indien. De flesta projekt åtaganden kräver resurser från Contoso Indien och Contoso US, och Joel och Hillevi kräver samma nivå av säkerhets åtkomst till projekt i det här området. Kostnaden för utvecklare från Contoso Indien skiljer sig emellertid avsevärt från dina utvecklares kostnader från Contoso US.
+Contoso, Ltd. har en blomstrande metod för Microsoft-teknik. Joel och Hillevi är båda C\#-utvecklare, men Hillevi är i USA och Joel är i Indien. De flesta projektåtaganden kräver resurser från Contoso Indien och Contoso US, och Joel och Hillevi kräver samma nivå av säkerhetsåtkomst till projekt i det här området. Kostnaden för utvecklare från Contoso Indien skiljer sig emellertid avsevärt från dina utvecklares kostnader från Contoso US.
 
 Här är ett optimalt sätt att utforma för det här scenariot med hjälp av Dynamics 365 och PSA.
 
@@ -98,7 +96,7 @@ En organisationsenhet är en intern grupp eller avdelning i företaget som spår
 
 Contoso, Ltd. har två utvecklingscenter: Contoso US och Contoso Indien. Kostnader för resurser varierar kraftigt mellan dessa två utvecklingscenter.
 
-Contoso säljer sina IT-tjänster på många internationella marknader, t.ex. Latinamerika, Nordamerika, Asien, Stilla havet, Västeuropa och Mellanöstern. Faktureringskurserna för samma projektroller kan variera mycket över dessa marknader.
+Contoso säljer sina IT-tjänster på många internationella marknader, t.ex. Latinamerika, Nordamerika, Asien-Stillahavsregionen, Västeuropa och Mellanöstern. Faktureringskurserna för samma projektroller kan variera mycket över dessa marknader.
 
 Contoso US och Contoso Indien bör upprättas som organisationsenheter och varje organisationsenhet bör ha en egen självkostnadslista. Asien och Stilla havet, Latinamerika, Nordamerika, Västeuropa och Mellanöstern ska vara inställda på försäljningsområden och varje försäljningsområde bör ha en egen försäljningsprislista.
 
@@ -124,7 +122,7 @@ Nr I den aktuella versionen av PSA är organisationsenheterna inte hierarkiska. 
 När du har en komplex hierarki med kostnadsställen, avdelningar, faktureringskontor osv, ställer du in de lövnoder som är distinkta organisationsenheter.
 I följande exempel visas en typisk hierarki:
 
-**Contoso India**
+**ContosoIndien**
 
   - SAP-praxis 
 
@@ -156,7 +154,7 @@ Om hierarkin är snarlik måste du konfigurera den som en platt lista, som visas
 - Contoso US - SAP-praxis – tekniska konsulter  
 - Contoso US - SAP-praxis – funktionella konsulter  
 - Contoso US - Microsoft-teknikpraxis - tekniska konsulter 
-- Contoso US - Microsoft-teknikpraxis - funktionella konsulter
+- Contoso US - Microsoft-teknikpraxis – funktionella konsulter
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Vi är ett litet företag som bara arbetar med en avdelning. Hur kan vi bäst använda organisationsenhetskonceptet i den aktuella versionen av PSA?
 
@@ -167,3 +165,6 @@ Om företaget fungerar som en enhet som har en självkostnadsprislista behöver 
 När ett projekt skapas separat baseras den upphandlande standardenheten i projektet på den användare som skapar den. Den användaren är även standardprojektledare. Om projektet är mappat till en försäljningsenhet, t.ex. en offert eller ett projektkontrakt, baseras den upphandlande enheten i projektet på entiteten försäljning i stället. I det här fallet kan projektuppskattningar räknas om, eftersom självkostnadsprislistan används för att beräkna kostnadsuppskattningsändringarna om den upphandlande enheten ändras. Försäljningsprislistan används för att beräkna de försäljningsuppskattningar som ska ändras så att de synkroniseras med projektprislistan i offerten.
 
 Fälten **Kontrakteringsenhet** och **Valuta** i projektet är låsta för redigering eftersom de måste synkroniseras med värdena i försäljningsentiteten (offert eller projektkontrakt) som projektet är mappat till.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

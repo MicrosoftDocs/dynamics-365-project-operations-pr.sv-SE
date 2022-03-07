@@ -2,11 +2,9 @@
 title: Projektofferter
 description: Den här artikeln innehåller en introduktion till begreppet projektofferter som du kan använda för att skapa ett attraktivt erbjudande till en kund som det första steget i projektfasen. En projektoffert kan innehålla de artiklar och tjänster som offereras, grundläggande kontaktinformation, särskilda handelsavtal och rabatter samt möjliga skatter och tilläggsavgifter.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ffb8d4bfefac52f65245f4ed6e4be216f5dc10e7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085527"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009773"
 ---
 # <a name="project-quotations"></a>Projektofferter
 
@@ -41,3 +39,6 @@ Om kunden godkänner projektofferten kan du kopiera informationen i projektoffer
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

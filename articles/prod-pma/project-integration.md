@@ -2,11 +2,9 @@
 title: Integrering för Microsoft Project Client
 description: Det kan vara komplicerat att planera och underhålla ett projekt. Det innebär att projektledarna måste använda verktyg som hjälper dem att hantera den här uppgiften. Integrering med Microsoft Project Client tillhandahåller stöd för att öppna och hantera en uppdelad arbetsstruktur för projekt.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085601"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988043"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrering för Microsoft Project Client
 
@@ -127,3 +125,13 @@ Gör så här om du vill skapa en ny uppdelad arbetsstruktur av Microsoft Projec
 8.  Välj den **kalender** som ska användas för resurser.
 
 11. Klicka på **OK**.
+
+> [!NOTE]
+> Project Client-tillägget stöder inte följande tecken i projekt-ID-formatet:
+> 
+>   - Understreck
+>   - Punkt
+>   - Blanksteg
+>   - Snedstreck
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

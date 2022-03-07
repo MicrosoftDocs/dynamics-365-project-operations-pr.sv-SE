@@ -2,11 +2,9 @@
 title: Synkronisera projektets verkliga värden direkt från Project Service Automation till projekt integrationsjournalen för bokföring i Finance and Operations
 description: I det här ämne beskrivs de mallar och underliggande uppgifter som används för att synkronisera projektets verkliga värden direkt från Microsoft Dynamics 365 Project Service Automation till Finance and Operations.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085672"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988133"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisera projektets verkliga värden direkt från Project Service Automation till projekt integrationsjournalen för bokföring i Finance and Operations
 
@@ -44,7 +42,7 @@ Project Service Automation till Finance integreringslösning använder funktione
 
 Följande illustration visar hur datasynkroniseras mellan Project Service Automation och Finance.
 
-[![Dataflöde för Project Service Automation-integrering med Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Dataflöde för Project Service Automation-integrering med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projektets faktiska värden från Project Service Automation
 
@@ -95,9 +93,9 @@ Du uppdaterar den infogade villkorliga kolumnen i mallen genom att klicka på pi
 
 I följande illustration visas ett exempel på hur du mappar malluppgifter i dataintegrering. Mappningen visar fältinformationen som ska synkroniseras från Project Service Automation till Finance.
 
-[![Mallmappning – faktiska värden](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mallmappning – faktiska värden.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mallmappning – transaktionsanslutningar](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mallmappning – transaktionsanslutningar.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importera från mellanlagringstabellen efter integrering med Project Service Automation
 
@@ -137,6 +135,9 @@ I mallen projektets uppdatering av verkliga värden måste du använda Power Que
 
 I följande illustration visas exempel på hur du mappar malluppgifter i dataintegrering. Mappningen visar fältinformationen som ska synkroniseras från Finance till Project Service Automation.
 
-[![Mallmappning – uppdatering av faktiska värden](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mallmappning – uppdatering av faktiska värden.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mallmappning – transaktionsuppdatering](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mallmappning – transaktionsuppdatering.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145605"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291641"
 ---
 # <a name="unit-groups-and-units"></a>Enhetsgrupper och enheter
 
@@ -112,3 +112,6 @@ Nr Schemaberäkningen är för närvarande begränsad till timmar och kan inte �
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kan enheter och enhetsgrupper redigeras, tas bort och läggas till?
 Ja. Med undantag för enhetsgruppen **Tid** och enheten **timme** kan alla enheter tas bort och du kan lägga till nya enheter. I PSA kan enhetsgruppen **Tid** och enheten **Timme** inte tas bort. De kan emellertid uppdateras med översatt text för fältet **namn**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

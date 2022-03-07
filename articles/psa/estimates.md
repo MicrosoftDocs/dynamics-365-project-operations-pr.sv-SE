@@ -2,8 +2,6 @@
 title: Beräkningar
 description: I det här ämnet finns information om beräkningar i Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151455"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007613"
 ---
 # <a name="estimates"></a>Beräkningar
 
@@ -106,3 +104,6 @@ Om du har lagt till ett anpassat fält på offertradinformationen och vill att f
 
 8. Upprepa steg 1 till och med 7 för det andra plugin-programmet.
 9. Stäng PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

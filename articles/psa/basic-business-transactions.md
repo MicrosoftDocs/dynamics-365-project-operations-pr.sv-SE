@@ -2,8 +2,6 @@
 title: Affärstransaktioner
 description: I det här ämnet finns information om affärstransaktioner.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149925"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987548"
 ---
 # <a name="business-transactions"></a>Affärstransaktioner
 
@@ -90,7 +88,7 @@ Tillsammans kan du med hjälp av transaktionsursprunget och transaktionskoppling
 
 I följande exempel visas den vanligaste bearbetningen av tidsposter i en PSA projektlivscykel.
 
-> ![Bearbetning av hela tiden i en Project Service livscykel](media/basic-guide-17.png)
+> ![Bearbetning av hela tiden i en Project Service-livscykel.](media/basic-guide-17.png)
  
 1. Inlämning av en tidspost innebär att två journalrader skapas: en för kostnad och en för ofakturerad försäljning.
 2. Eventuellt godkännande av en tidspost innebär att två faktiska värden skapas: en för kostnad och en för ofakturerad försäljning.
@@ -149,3 +147,6 @@ I följande tabell visas posterna i entiteten för transaktionskoppling för fö
 | Korrigeringsfaktura, utkast       | Transaktion på fakturaraden GUID | Utbyte          | msdyn_invoicelinetransaction | Fakturerad försäljning GUID            | Ursprunglig           | msdyn_actual       |
 | Bekräfta fakturakorrigering     | Fakturerad återförd försäljning GUID    | Återföring          | msdyn_actual                 | Fakturerad försäljning GUID            | Ursprunglig           | msdyn_actual       |
 | Ny ofakturerad faktisk försäljning GUID | Utbyte                     | msdyn_actual       | Fakturerad försäljning GUID            | Ursprunglig                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

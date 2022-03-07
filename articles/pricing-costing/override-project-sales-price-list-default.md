@@ -2,19 +2,17 @@
 title: Åsidosätt projektförsäljningsprislistor
 description: I det här ämnet finns information om hur du skapar anpassade försäljningsprislistor.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009598"
 ---
 # <a name="override-project-sales-price-lists"></a>Åsidosätt projektförsäljningsprislistor
 
@@ -52,3 +50,6 @@ Du kan använda var och en av dessa prislistor och göra uppdateringar av arbete
 I ett projektkontrakt är projektpriset alltid standard som en anpassad prislista med namnet på kontraktet och datum-tidsstämpeln som läggs till i namnet. Detta gäller oavsett om kontraktet skapades när offerten vanns eller om kontraktet skapades från grunden. Om det behövs kan du ta bort kopplingen till den anpassade prislistan och associera en standardprislista till projektkontraktet i stället.
 
 När du associerar en standardprislista med projektprislistorna för en offert eller ett kontrakt påverkas alla eventuella ändringar av priserna i prislistan för alla offerter och kontrakt som använder prislistan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

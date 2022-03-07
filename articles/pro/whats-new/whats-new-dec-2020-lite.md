@@ -2,17 +2,19 @@
 title: Nyheter i december 2020 – Project Operations Lite-distribution – avtal till proforma-fakturering
 description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan för december 2020 för Project Operations Lite-distribution - avtal till proforma-fakturering.
 author: sigitac
+manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6a001cea56411865599a5c0a41fe47682dad35c2
+ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994068"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700838"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nyheter i december 2020 – Project Operations Lite-distribution – avtal till proforma-fakturering
 
@@ -22,7 +24,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 
   - Project Operations i Dataverse-miljöversion 4.5.0.134 
 
-I följande tabell visas uppdateringarna av Project Operations på Dataverse-miljö, version 4.5.0.134.
+I följande tabell visas uppdateringarna av Project Operations på Dataverse-miljö, version 4.4.0.70.
 
 | **Funktionsområde** | **Referensnummer** | **Kvalitetsuppdatering** |
 | --- | --- | --- |
@@ -55,6 +57,3 @@ I följande tabell visas uppdateringarna av Project Operations på Dataverse-mil
 | Tid och utgift | 2034882 | Knappen **Nytt** visas två gånger i kommandofältet för tidsposter när Dynamics 365 Field Service installeras. |
 | Tid och utgift | 2056028 | Uppdatera sidan **Tidsredigering** för att inkludera tid. |
 | Tid och utgift | 1983747 | Tidspostdiagrammet visar ytterligare data. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

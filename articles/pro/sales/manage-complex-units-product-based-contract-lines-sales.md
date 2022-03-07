@@ -2,24 +2,22 @@
 title: Hantera komplexa enheter för produktbaserade kontraktrader - lite
 description: I den här ämne finns information om hur du stöder försäljning av prenumerationsprodukter.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177398"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003388"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Hantera komplexa enheter för produktbaserade kontraktrader - lite
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-I Dynamics 365 Project Operations används kvantitetsfaktorer för att stödja försäljning av prenumerationsbaserade produkter. För prenumerationsbaserade produkter uttrycks kvantitet på kontrakt- eller projektkontraktraden som antalet användarmånader.
+Dynamics 365 Project Operations används kvantitetsfaktorer för att stödja försäljning av prenumerationsbaserade produkter. För prenumerationsbaserade produkter uttrycks kvantitet på kontrakt- eller projektkontraktraden som antalet användarmånader.
 
 Priset lagras på prenumerationsprogram i katalogen som priset per användare i månaden. Under försäljningsprocessen är priset på kontraktraden vanligtvis per användare, per månadspris som förhandlas fram och rabatteras av säljaren. Varje avtal har ett annat antal användare och ett annat antal prenumerationsmånader. Den kvantitet som används för att beräkna beloppet på kontraktraden är en produkt av antalet användare och antalet prenumerationsmånader.
 
@@ -46,3 +44,6 @@ Följ stegen nedan om du vill skapa kvantitetsfaktorer från produktegenskaper.
 7. Upprepa steg 2-6 för alla de egenskaper som tillsammans ska utgör kvantiteten för den produktbaserade kontraktraden.
 
 När en användare skapar en kontraktrad för den här produkten är antalet på kontraktraden låst. Antalet beräknas sedan som en produkt av egenskapsvärdena för den kontraktraden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

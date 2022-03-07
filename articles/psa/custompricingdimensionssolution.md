@@ -2,12 +2,10 @@
 title: Skapa en anpassad lösning för prissättningsdimensioner
 description: I det här ämnet beskrivs hur du skapar en anpassad lösning när du skapar anpassade prisdimensioner.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144661"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995288"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Skapa en anpassad lösning för prissättningsdimensioner
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144661"
 1. Välj **Inställningar** > **Lösningar** och välj sedan **Ny**. 
 2. Ge lösningen ett namn, **\<your organization name> prissättningsdimensioner**, ange den information som krävs och klicka sedan på **Spara**.
 
-> ![Skapa en anpassad lösning för prissättningsdimensioner](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Skapa en anpassad lösning för prissättningsdimensioner.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Lägg till alla obligatoriska entiteter och relaterade komponenter i prisdimensionslösningen
 Du måste lägga till följande Project Service-entiteter i din prissättningslösning. Slutför stegen i den här proceduren för att göra vissa viktiga schemaändringar i prissättningslösningen så att enheterna blir medvetna om de nya prissättningsdimensionerna.
@@ -56,15 +54,18 @@ Du måste lägga till följande Project Service-entiteter i din prissättningsl�
 - Pris för roll 
 - Tidspost 
 
-> ![Lägg till befintliga entiteter i lösningen för prissättningsdimensioner](media/Existing-entities-to-PD-solution.png)
+> ![Lägg till befintliga entiteter i lösningen för prissättningsdimensioner.](media/Existing-entities-to-PD-solution.png)
 
-> ![Välj lösningskomponenter](media/Dimension-Components.png)
+> ![Välj lösningskomponenter.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Se till att du tar med alla formulär och vyer för varje vald entitet.
 
 4. Klicka på **Nej** om du uppmanas att ta med alla beroende entiteter för de valda entiteterna.
 
-> ![Inkludera inte alla relaterade komponenter](media/Do-not-include-required.png)
+> ![Inkludera inte alla relaterade komponenter.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

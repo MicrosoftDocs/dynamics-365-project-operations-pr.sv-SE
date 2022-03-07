@@ -2,12 +2,10 @@
 title: Lägg till anpassade fält i prisinställning och transaktionella entiteter
 description: I det här ämnet finns information om hur du lägger till anpassade fält i prisinställningar och transaktionella entiteter.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985794"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Lägg till anpassade fält i prisinställning och transaktionella entiteter 
 
@@ -49,7 +47,7 @@ När en dimension för anpassad prissättning är alternativbaserad lägger du t
 > [!IMPORTANT]
 > När du lägger till ett fält till fler än en entitet använder du samma fältnamn i alla entiteter. 
 
-> ![Lägga till Resursens arbetsplats till Rollpris](media/RWL-Field.png)
+> ![Lägga till Resursens arbetsplats till Rollpris.](media/RWL-Field.png)
 
 I försäljnings- och beräkningsfaserna för ett projekt används beräkningar av den arbetsinsats som krävs för att slutföra arbetet **Lokal** och **På plats** i **Vanliga timmar** och **Övertid** används för att beräknat värdet på offert/projekt. Fälten **Resursens arbetsplats** och **Arbetstid för resurs** läggs till i uppskattningsentiteterna **Information om offertrad**, **Information om kontraktrad**, **Projektuppgift**, **Projektteammedlem** och **Beräkningsrad**.
 
@@ -61,7 +59,7 @@ I försäljnings- och beräkningsfaserna för ett projekt används beräkningar 
 6. Upprepa steg 1-5 för att lägga till det här fältet i entiteterna **Information om projektkontraktrad**,**Projektuppgift**, **Projektteammedlem** och **Beräkningsrad**.
 7. Upprepa steg 1-6 för alternativuppsättning **Arbetstid för resurs**. 
 
-> ![Lägga till Resursens arbetsplats till Beräkningsrad](media/RWL-Default-Value.png)
+> ![Lägga till Resursens arbetsplats till Beräkningsrad.](media/RWL-Default-Value.png)
 
 
 För leverans och fakturering måste färdigt arbete prissättas korrekt för att välja om det har utförts **Lokalt** eller **På plats** och om det har slutförts på **vanliga timmar** eller **övertid** på projektets faktiska värden. Fälten **Resursens arbetsplats** och **Resursens arbetstider** bör läggas till entiteterna **Tidspost**, **Faktisk**, **Information om fakturarad** och **Journalrad**.
@@ -74,7 +72,7 @@ För leverans och fakturering måste färdigt arbete prissättas korrekt för at
 6. Upprepa steg 1-5 om du vill lägga till entiteterna **Faktisk**, **Information om fakturarad** och **Journalrad**.
 7. Upprepa steg 1-6 för alternativuppsättning **Arbetstid för resurs**. 
 
-> ![Lägga till Resursens arbetsplats till Tidspost](media/RWL-time-entry.png)
+> ![Lägga till Resursens arbetsplats till Tidspost.](media/RWL-time-entry.png)
 
 Detta slutför de schemaändringar som krävs för alternativuppsättningsbaserade anpassade dimensioner.
 
@@ -87,7 +85,7 @@ När den anpassade prissättningsdimensionen är en entitet lägger du till 1:N-
 3. Expandera entiteten **Standardrubrik** och välj **1 till N-relationer**.
 4. Klicka på **Ny** om du vill skapa en ny 1 till N-relation som kallas **standardrubrik till bokningsbar resurs**. Ange information som krävs och klicka sedan på **Spara**.
 
-> ![Lägg till standardrubrik som ett referensfält i bokningsbar resurs](media/ST-BR.png)
+> ![Lägg till Standardrubrik som ett referensfält i Bokningsbar resurs.](media/ST-BR.png)
 
 Standardrubriken måste också läggas till i prissättningsentiteter för Project Service, **Rollpris** och **Pålägg för rollpris**. Detta slutförs också med hjälp av 1 till N-relationer mellan entiteterna **Standardrubrik** och **Rollpris** och **Standardrubrik** och **Pålägg för rollpris**.
 
@@ -106,13 +104,13 @@ I faserna försäljning och beräkning för projektet beräknas arbetsinsatsen f
 
 5. Upprepa steg 1 - 5 för att skapa 1 till N-relationer från **Standardrubrik** till **Information om offertrad**, **Information om projektkontraktrad**, **Projektuppgift**, **Projektteammedlem** och **Beräkningsrad**.
 
-> ![Lägg till standardrubrik som ett referensfält i Beräkningsrad](media/ST-Estimate-Line.png)
+> ![Lägg till Standardrubrik som ett referensfält i Beräkningsrad.](media/ST-Estimate-Line.png)
 
 I leverans- och faktureringsfaserna måste arbetet som slutförts av varje standardrubrik vara korrekt prissatt på projektets faktiska värden. Detta innebär att det måste vara 1 till N-relationer från entiteterna **Standardrubrik** till **Tidspost**, **Faktisk**, **Information om fakturarad** och **Journalrad**.
 
 6. Upprepa steg 1 - 6 för att skapa 1 till N-relationer från entiteterna **Standardrubrik** till **Tidspost**, **Faktisk**, **Information om fakturarad** och **Journalrad**.
 
-> ![Lägg till standardrubrik som ett referensfält i tidspost](media/ST-Mapping.png)
+> ![Lägg till Standardrubrik som ett referensfält i Tidspost.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Ange standardvärdet för dimensionsvärde med hjälp av mappningsfunktionerna i plattformen
 När det gäller tid kan det vara bra att se till att systemet är standardrubriken på tidspost från den bokningsbara resursen som registrerar tidsposten. Gör på följande sätt om du vill lägga till fältmappningar i 1 till N-relationen från **Bokningsbara resurser** till **Tidspost**.
@@ -122,7 +120,7 @@ När det gäller tid kan det vara bra att se till att systemet är standardrubri
 3. Dubbelklicka på **Bokningsbar resurs till tidspost**. På sidan **relation** klickar du på **Använd fältmappningar**. 
 4. Klicka på **Ny** om du vill skapa en ny fältmappning mellan fältet **Standardrubrik** på entiteten **Bokningsbar resurs** till referensfältet **Standardrubrik** på entiteten **Tidspost**. 
 
-> ![Ställ in fältmappningar för att tillåta standardrubrik från bokningsbar resurs till tidspost](media/ST-Mapping2.png)
+> ![Ställ in fältmappningar för att tillåta Standardrubrik från Bokningsbar resurs till Tidspost.](media/ST-Mapping2.png)
 
 
 Detta slutför de schemaändringar som krävs för entitetbaserade anpassade dimensioner.
@@ -150,3 +148,6 @@ Följande tabell ger en fullständig lista över de formulär och vyer som inte 
 |  Faktiskt|• Information<br>• Aktiva faktiska värden|• Associerad vy för faktiska värden|
 
 Anpassade fält kan också behöva läggas till i affärsregler beroende på vad du har definierat. Ett färdigt exempel är för affärsregeln **Redigering baserat på status för tidspost**. Den här regeln definierar vilka fält som måste låsas när tidsposten är i en icke redigerbar status, t.ex **godkänd**. Lägg till fält i den här affärsregeln så att fälten blir låsta för redigering när tidsposten är i en annan status än **utkast** eller **returnerad**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

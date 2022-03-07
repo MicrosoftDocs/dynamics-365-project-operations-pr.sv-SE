@@ -2,18 +2,16 @@
 title: Hantera flera kunder på projektbaserade kontraktrader
 description: I det här ämnet finns information om hur du arbetar med kontraktrader och kontrakt som innehåller flera kunder.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181924"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992138"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Hantera flera kunder på projektbaserade kontraktrader
 
@@ -44,3 +42,6 @@ Nedan visas fälten på kundposten för kontraktraden för en projektbaserad kon
 Faktureringsdelningsprocenten kan redigeras i rutnätet. När faktureringsdelningsprocenten inte är total till 100 procent får du ett felmeddelande. När du har redigerat faktureringsdelningsprocenten uppdaterar du sidan så att felmeddelandet stängs.
 
 Du kan också prova att välja **Fördela jämnt** i underrutnätet för kontraktsradkunden. Den här åtgärden tilldelar jämn faktureringsdelning till alla kontraktradkunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundade kunden. En kontraktradkund märks alltid som den **avrundande** kunden med **avrundning** inställd på **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

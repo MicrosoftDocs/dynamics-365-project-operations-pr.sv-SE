@@ -2,18 +2,16 @@
 title: Underhålla teammedlemmar
 description: I det här ämnet finns information om bokning av namngivna resurser till projektteam och tilldela dem till uppgifter.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131545"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997088"
 ---
 # <a name="maintain-team-members"></a>Underhålla teammedlemmar
 
@@ -21,7 +19,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Du kan lägga till en namngiven resurs i projektteamet genom att boka dem direkt på teamet.
 
-1. I Dynamics 365 Project Operations, gå till **Projekt** och välj de öppna projekt du bokar för.
+1. I Dynamics 365 Project Operations, gå till **projekt** och välj de öppna projekt du bokar för.
 2. På sidan **Projekt** under fliken **Team**, välj **Ny**. 
 3. I dialogrutan **Snabbregistrering av projektteammedlem** väljer du den bokningsbara resursen. Fältet **Roll** fylls i med resursens standardroll om de har en tilldelad. Du kan ändra rollen. 
 4. Välj de från- och till-datum som resursen behövs och välj allokeringsmetod för resursens kapacitet. 
@@ -42,3 +40,6 @@ När du gör ett val läggs resursen till i projektteamet och tilldelas uppgifte
 Du kan använda den utökade bokningsfunktionen på fliken **avstämning** eller **Schemaläggningstavla** för att boka resursens kapacitet på projektet.
 
 När en teammedlem är bokad i projektet kan du använda **Underhåll bokningar** eller **Schemaläggningstavlan** direkt för att hantera deras bokningar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

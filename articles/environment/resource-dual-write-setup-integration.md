@@ -2,19 +2,17 @@
 title: Inställning och konfiguration av Project Operations för dataintegration
 description: Avsnittet innehåller information om hur du ställer in och konfigurerar Project Operations-mappningar med dubbelriktad skrivning.
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939054"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986558"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Inställning och konfiguration av Project Operations för dataintegration
 
@@ -26,7 +24,7 @@ Detta avsnitt innehåller information om Project Operations-integration med dubb
 
 Projektkontrakt, kontraktrader och projekt skapas i Dataverse och synkroniseras med Finance and Operations-appar för ytterligare redovisning. Posterna i entiteterna kan endast skapas och raderas i Dataverse. Däremot kan redovisningsattribut som standardvärden för momsgrupp och ekonomiska mått läggas till för dessa poster i Finance and Operations-apparna.
 
-  ![Begrepp för projektkontraktintegration](./media/1ProjectContract.jpg)
+  ![Begrepp för projektkontraktintegration.](./media/1ProjectContract.jpg)
 
 Leads, affärsmöjligheter och offerter från försäljningsaktiviteter spåras i Dataverse och synkroniseras inte med Finance and Operations-appar eftersom det inte finns någon redovisning nedströms som är associerad med aktiviteten.
 
@@ -53,7 +51,7 @@ Projektkontraktrader kan granskas av projektredovisaren i Finance and Operations
 
 Projektkontraktrader med fastprisfaktureringsmetod faktureras via faktureringsmilstolpar. Faktureringsmilstolpar synkroniseras med projekt vid kontotransaktioner i Finance and Operations-appar med tabellmappningen **Kontraktradmilstolpar för Project Operations-integration (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integration av faktureringsmilstolpar](./media/2Milestones.jpg)
+  ![Integration av faktureringsmilstolpar.](./media/2Milestones.jpg)
 
 Redovisaren kan granska kontotransaktioner och justera redovisningsattribut för dessa transaktioner genom att gå till **Projektledning och redovisning** > **Projektkontrakt** > **Underhåll** > **Kontotransaktioner** eller **Projektledning och redovisning** > **Alla projekt** > **Underhåll** > **Kontotransaktioner**.
 
@@ -63,13 +61,13 @@ När du först skapar en faktureringsmilstolpe för en viss projektkontraktrad s
 
 Projektuppgifter synkroniseras med Finance and Operations-appar via tabellmappningen **Projektuppgifter (msdyn\_projecttasks)** enbart som referens. Åtgärder för att skapa, uppdatera och radera stöds inte i Finance and Operations-appar.
 
-  ![Integration med projektuppgifter](./media/3Tasks.jpg)
+  ![Integration med projektuppgifter.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektresurser
 
 Entiteten **Projektresursroller** synkroniseras med Finance and Operations-appar med tabellmappningen **Projektresursroller för alla företag (bookableresourcecategories)** enbart som referens. Eftersom resursroller i Dataverse inte är företagsspecifika skapar systemet automatiskt motsvarande företagsspecifika resursrollposter i Finance and Operations-apparna för alla juridiska entiteter som ingår i integrationen för dubbelriktad skrivning.
 
-![Integration av resursroller](./media/5Resources.jpg)
+![Integration av resursroller.](./media/5Resources.jpg)
 
 Projektresurser i Project Operations underhålls i Dataverse och synkroniseras inte med Finance and Operations-appar.
 
@@ -77,6 +75,6 @@ Projektresurser i Project Operations underhålls i Dataverse och synkroniseras i
 
 Transaktionskategorier underhålls i Dataverse och synkroniseras med Finance and Operations-appar med tabellmappningen **Projekttransaktionskategorier (msdyn\_transactioncategories)**. När posten för transaktionskategorin har synkroniserats skapas fyra poster för delad kategori automatiskt i systemet. Varje post motsvarar en transaktionstyp i Finance and Operations-appar och länkar dem till transaktionskategoriposten.
 
-![Integration av transaktionskategorier](./media/4TransactionCategories.jpg)
+![Integration av transaktionskategorier.](./media/4TransactionCategories.jpg)
 
 För att använda transaktionskategorier för beräkningar och faktiska värden krävs att projektredovisaren eller systemadministratören skapar motsvarande projektkategorier i alla juridiska entiteter. Mer information finns i [Konfigurera projektkategorier](../project-accounting/configure-project-categories.md).

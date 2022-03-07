@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513946"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4085772"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Skapa ett faktureringsschema för en projektbaserad kontraktrad 
 
@@ -49,7 +49,7 @@ Utför följande steg för att generera ett milstolpebaserat faktureringsschema 
 3. Öppna kontrakttraden **Fast pris** som du skapar ett milstolpeschema för. Under fliken **Faktureringsmilstolpar** väljer du faktureringsstartdatum och faktureringsfrekvens. 
 4. I underrutnätet väljer du **Generera periodiska milstolpar**. Faktureringsschemat skapas med fälten **Milstolpenamn**, **Milstolpedatum** och **Milstolpebelopp** enligt följande:
 
-    - **Milstolpens namn**: Detta namn bestäms av fakturafrekvensen.
+    - **Milstolpenamn**: Detta datum dikteras utifrån faktureringsfrekvensen.
     - **Milstolpedatum**: Detta datum dikteras utifrån faktureringsfrekvensen.
     - **Milstolpebelopp**: Detta belopp beräknas genom att dela kontraktbeloppet på kontraktraden med antalet milstolpar som styrs av frekvensen, faktureringsstarten och önskade leveransdatum.
 
@@ -64,7 +64,7 @@ Du kan generera milstolpar med fast pris manuellt när de inte delas periodiskt.
 1. Öppna kontraktraden för fast pris som du skapar en milstolpe för och gå till fliken **Faktureringsschema**, där du i underrutnätet väljer **+ Skapa ny milstolpe för kontraktrad**. 
 2. På sidan **Skapa milstolpe** anger du den nödvändiga informationen baserat på följande tabell.
 
-| Fält | Plats | Beskrivning | Inverkan nedströms |
+| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Milstolpens namn | Snabbregistrering | Textfält för milstolpens namn. | Detta förs över till milstolpen i projektets kontraktrad och till fakturan. |
 | Projektuppgift | Snabbregistrering | Om milstolpen är knuten till en projektuppgift använder du den här referensen för att lägga till anpassad logik och ange milstolpens status utifrån uppgiftens status. | Programmet har inte någon inverkan nedströms för den här referensen till en uppgift. |

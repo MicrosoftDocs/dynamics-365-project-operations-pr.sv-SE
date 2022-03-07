@@ -2,18 +2,16 @@
 title: Använd transaktionskategori som prissättningsdimension
 description: I det här ämnet finns information om hur du använder fältet Transaktionskategori som prissättningsdimension.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: d956545e1ad38fb09660f107e085f38d099c2207
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514030"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004463"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Använd transaktionskategori som prissättningsdimension
 
@@ -50,3 +48,6 @@ I följande tabell visas alla färdiga formulär och vyer efter entitet. Du komm
 2. På sidan **Parametrar**, på fliken **Beloppsbaserade prissättningsdimensioner**, bekräftar du att rutnätet visar posterna i entiteten **Prissättningsdimensioner**.
 3. Lägg till **Transaktionskategori** i den här listan och ange fälten **Gäller för kostnad** och **Gäller för försäljning** som **Ja**.
 4. I fältet **Dimensionstyp** väljer du **Beloppsbaserad** och väljer sedan prioriteten för **Transaktionskategori** som gäller för kostnad och försäljning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

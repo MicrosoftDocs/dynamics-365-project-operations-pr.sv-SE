@@ -2,11 +2,9 @@
 title: Projektkontrakt
 description: I det här ämnet finns exempel på de projektkontrakt som du kan skapa för olika typer av projekt och finansieringskällor och hur du kan hantera kontrakt och fakturera projektkunder.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085671"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999783"
 ---
 # <a name="project-contracts"></a>Projektkontrakt
 
@@ -344,3 +342,6 @@ Under den första månaden registreras sammanlagt 800 timmar av konsulterna i pr
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Hantera projekt och bokningar i din Office 365-kalender
 description: Så här hanterar du projekt och bokningar i din Office 365-kalender
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144480"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985456"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Hantera projekt och bokningar i din kalender (Project Service)
 
@@ -52,7 +50,7 @@ Visa personliga möten, projektarbetsbokningar och arbetsorder för Field Servic
   
 - Du måste ha autentiseringsuppgifter för [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] global administratör eller Dynamics 365-systemadministratör.  
   
-- Din administratör måste konfigurera e-postserverprofilen, och varje enskild användare måste konfigurera sin e-postlåda. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Ställa in e-postbearbetning via serversynkronisering](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Din administratör måste konfigurera e-postserverprofilen, och varje enskild användare måste konfigurera sin e-postlåda. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Ställa in e-postbearbetning via serversynkronisering](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Aktivera synkronisering för din organisation (administratörsuppgift)  
   
@@ -91,3 +89,6 @@ Visa personliga möten, projektarbetsbokningar och arbetsorder för Field Servic
   
 ### <a name="see-also"></a>Se även  
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

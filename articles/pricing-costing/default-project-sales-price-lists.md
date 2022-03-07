@@ -2,18 +2,16 @@
 title: Standardprislistor
 description: I det här ämnet finns information om standardprislistor och prislistor för självkostnad i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130960"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989888"
 ---
 # <a name="default-price-lists"></a>Standardprislistor
 
@@ -21,7 +19,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 ## <a name="sales-price-lists"></a>Försäljningsprislistor
 
-Alla projektofferter och projektkontrakt i Dynamics 365 projekt Operations innehåller en standardprislista för försäljning. 
+Varje projektoffert och kontrakt i Dynamics 365 Project Operations innehåller en standardprislista. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Standardprislista för projektofferter
 Systemet slutför följande process för att avgöra vilken prislista som ska vara standard för en projektoffert:
@@ -57,3 +55,6 @@ Prislistor för självkostnad hämtas inte från någon entitet i Project Operat
 5. Därefter kontrollerar systemet giltighetsdatumet för prislistor som överensstämmer med datumet på raden för inkommande uppskattning eller faktiskt värde. 
 6. Om det finns flera prislistor som är giltiga för datumet på den inkommande uppskattningen eller det faktiska värdet, väljs den prislista som skapades senast.
 7. Om inga prislistor för självkostnad är kopplade till de projektparametrar som överensstämmer med valutan och giltighetsdatumet är standardvärdet för kostnadstaxan noll (0) på raden för inkommande uppskattning eller faktiskt värde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

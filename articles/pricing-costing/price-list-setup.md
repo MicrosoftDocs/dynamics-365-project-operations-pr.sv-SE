@@ -2,24 +2,22 @@
 title: Konfigurera prislistor
 description: I det här ämnet finns information om hur du konfigurerar prislistor för kostnad och försäljning.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180214"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009508"
 ---
 # <a name="set-up-price-lists"></a>Konfigurera prislistor
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Prislistor i Dynamics 365 Project Operations representerar en katalog av priser. Priserna avser kostnad, försäljning och fakturering. Beroende på om prislistan avser kostnad eller försäljning och fakturering kan prislistans sammanhang vara **Försäljning** eller **Kostnad**.
+Prislistor i Dynamics 365 Project Operations representerar en katalog med priser. Priserna avser kostnad, försäljning och fakturering. Beroende på om prislistan avser kostnad eller försäljning och fakturering kan prislistans sammanhang vara **Försäljning** eller **Kostnad**.
 
 Följande tillägg är specifika för Project Operations och tillämpas på prislistor från Dynamics 365 Sales.
 
@@ -40,3 +38,6 @@ Följande tabell innehåller fält under fliken **Allmänt** i en prislista som 
 | Valuta | Fliken **Allmänt** och formulären **Snabbskapa** | Fältet används för att standardisera valutan för varje rad för roll, kategori eller prislistepost som rör prislistan. | I prislistor som är inställda på **Försäljning** går det inte att skapa roller, kategorier eller prislisteposter i någon annan valuta än denna valuta. I prislistor som är inställda på **Kostnad** kan du skapa en rollprisrad i valfri valuta. Den valuta som definieras här används som standard. Användarinställningarna som tillhör rollpriser kan åsidosätta det här värdet så att arbetskraftskostnad aktiveras i valfri valuta. Kategorikostnad och prislisteposters kostnad kan endast konfigureras i den valuta som definieras här. |
 | Tidsenhet | Fliken **Allmänt** och formulären **Snabbskapa** | Fältet används för att standardisera tidsenheten för varje rollrad som rör prislistan. | Det här fältvärdet används endast på relaterade rollprisinställningar. I prislistor som är inställda på **Kostnad** och **Försäljning** kan du skapa en rollprisrad i valfri tidsenhet. Den tidsenhet som definieras här används som standard. Användarinställningarna som tillhör rollpriser kan åsidosätta det här värdet så att arbetskraftskostnad och fakturakostnad aktiveras i valfri tidsenhet. |
 | Beskrivning | Fliken **Allmänt** och formulären **Snabbskapa** | Det här textfältet gör att du kan tillhandahålla en flerradig beskrivning av prislistan. | Det här fältet visas i **associerade** vyer för prislistan i olika entiteter som har relaterade prislistor. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

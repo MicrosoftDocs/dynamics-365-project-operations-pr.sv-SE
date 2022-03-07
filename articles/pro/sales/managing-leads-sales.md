@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272860"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949746"
 ---
 # <a name="manage-leads---lite"></a>Hantera leads - lite
 
@@ -55,7 +55,7 @@ Leads som har värdet **Typ** inställt på **Arbetsbaserat** kallas projektbase
 - En kontaktpost som är kopplad till kontot utifrån värdena i fälten **Förnamn** och **Efternamn** i leaden.
 - En projektbaserad affärsmöjlighet som har fältet **Typ** inställt på **Arbetsbaserad**.
 
-Mer detaljerad information om kvalificering av leads finns i [Kvalificera eller konvertera leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Mer detaljerad information om kvalificering av leads finns i [Kvalificera eller konvertera leads](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Affärsprocessflöde för projektbaserade affärer
 

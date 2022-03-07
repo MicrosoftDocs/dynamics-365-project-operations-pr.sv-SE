@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181744"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278125"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Arbeta med projektbaserade kontraktrader
 
@@ -57,3 +57,6 @@ Regel: ett projekt och en viss transaktionsklass kan endast tas med på en proje
 | C1       | CL2           | P1      | Inga           | Ja             | Inga          | Giltig           | Tid och avgifter för projekt P1 ingår på CL1. Utgiften på P1-projektet ingår i CL2. </br>   Det finns ingen överlappning i vad som ska tas med på varje kontraktrad och är därför giltigt.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Ogiltigt       | Bryter mot regeln. Tid, utgifter och avgifter i projekt P1 tas med på raderna på de två kontrakten.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Ogiltigt       | Bryter mot regeln. Tid, utgifter och avgifter i projekt P1 tas med på raderna på de två kontrakten.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

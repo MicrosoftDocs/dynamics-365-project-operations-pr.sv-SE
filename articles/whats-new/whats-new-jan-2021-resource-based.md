@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: 5e5bfd3c790dac51895cde04e08d1fa62f4457e8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958957"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5292091"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i januari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
 
@@ -89,3 +89,6 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
 Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
