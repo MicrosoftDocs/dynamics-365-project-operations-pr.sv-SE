@@ -2,10 +2,8 @@
 title: Masskorrigeringar av faktiska värden som skapats av godkända tid- och utgiftsposter
 description: I detta ämne förklaras hur en administratör kan göra enstaka eller masskorrigeringar av tidigare godkända tid- eller utgiftsposter om faktureringen inte är klar.
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 17d6648840e27a4e573985af2cdd74c4adf878e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995423"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Masskorrigeringar av faktiska värden som skapats av godkända tid- och utgiftsposter
 
@@ -64,7 +62,7 @@ Utför följande steg för att korrigera enstaka eller flera tidsposter för ett
 
 I följande bild finns till exempel två radobjekt med kvantiteten 8,00 som har debet förtecknade i kolumnen Belopp. Det finns också två radobjekt med kvantiteten -8,00 som visar krediterade belopp i kolumnen Belopp. Dessa korrigeringar ställer in värdet för kvantitet till noll.
 
-![Associerad vylista för faktiska värden](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Associerad vylista för faktiska värden.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Korrigera godkända utgiftsposter
 
@@ -89,7 +87,7 @@ Följ stegen nedan om du vill korrigera en eller flera utgiftsposter.
 
 8. I fliken **Faktiska värden** på projektsidan granskar du **Associerad vy för faktiska värden**. De ursprungliga posterna och de korrigerade posterna visas i listan. Följande bild illustrerar ursprungliga utgiftspostbelopp och motsvarande, korrigerade utgiftspostbelopp. 
 
-![Faktiska utgifter](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Faktiska utgifter.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

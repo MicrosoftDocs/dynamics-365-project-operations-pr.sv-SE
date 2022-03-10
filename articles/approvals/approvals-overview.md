@@ -2,51 +2,53 @@
 title: Översikt över godkännanden
 description: I det här ämne finns information om hur du arbetar med godkännanden i Project Operations.
 author: stsporen
-manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123850"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991733"
 ---
 # <a name="approvals-overview"></a>Översikt över godkännanden
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Tids-och utgiftsöverföringar rör sig genom ett arbetsflöde för godkännande. När posterna har godkänts registreras transaktioner i schemat med verkliga värden och tid.
+Skicka in tid, utgifter och materialanvändning passerar ett godkännandearbetsflöde. När posterna har godkänts registreras transaktioner i schemat med verkliga värden och tid.
 
 ## <a name="approvals-workflow"></a>Arbetsflöde för godkännande
-När du skapar och skickar en tid- eller utgiftspost skapas en godkännandepost. Projektgodkännaren eller din chef granskar och godkänner posten. Om posten är kopplad till ett projekt, skapas de faktiska värdena när den har godkänts. Det gör att kostnaden och faktureringen kan spåras. 
+När du skapar och skickar en tids-, kostnad- eller materialanvändningspost skapas en godkännandepost. Projektgodkännaren eller chefen granskar och godkänner posten. Om posten är relaterad till ett projekt skapas de faktiska värdet när den godkänns. Det gör att kostnaden och faktureringen kan spåras.
 
 ## <a name="approve-an-entry"></a>Godkänna en post
-Med formuläret **Godkännanden** kan du växla mellan olika vyer så att du kan visa olika typer av godkännanden.
+På sidan **Godkännanden** kan du växla mellan olika vyer så att du kan visa de olika typerna av godkännanden.
   
-1. Gå till formuläret **Godkännanden** och välj **Utgifter**, **Tid** eller **Återkallanden**.
+1. Gå till sidan **Godkännanden** och välj **Utgifter**, **Tid**, **Materialanvändning** eller **Återkallade**.
 2. Granska varje godkännande och markera de du vill godkänna.
 3. Välj **Godkänn** om du vill godkänna de markerade posterna.
-Posterna kommer att bearbetas och verkliga värden och bokningar skapas.
+Systemet bearbetar posterna och skapar faktiska värden.
 
 ## <a name="reject-an-entry"></a>Avvisa en post
 Som projektgodkännare kan du behöva skicka tillbaka en post till en användare för korrigering.
   
-1. Gå till formuläret **Godkännanden** och markera den post du vill avvisa. 
+1. Gå till sidan **Godkännanden** och välj den post som ska avvisas. 
 2. Välj **Avvisa**.
-3. Valfri – Lägg till en kommentar i dialogrutan **Avvisade kommentarer** om du vill meddela användaren varför posten har avvisats.
+3. Valfritt, lägg till en kommentar i dialogrutan **Kommentarer till avvisning** för att informera användaren om varför posten avvisas.
 4. Välj **OK**. Posten skickas tillbaka till användaren.
   
-## <a name="recall-entries"></a>Återkalla poster
-Du kan behöva återkalla en post som du har skickat. Om posten inte har godkänts returneras den omedelbart. En godkänd post kan emellertid ha en väsentlig inverkan. Projektgodkännaren måste godkänna återkallningen för att kunna återföra transaktionen i faktiska värden.
+## <a name="cancel-approval"></a>Avbryt godkännandet
+I vissa fall kan du behöva avbryta en post som godkänts tidigare. Om du avbryter en tidigare godkänd post får det ekonomiska effekter. 
+
+## <a name="approving-recall-requests"></a>Återkalla godkännandebegäran
+I vissa fall kan en konsult behöva godkänna en post som godkänts tidigare. Om du avbryter en tidigare godkänd post får det ekonomiska effekter. Projekt godkännaren krävs för att godkänna affären för att återställa transaktionen i Faktiska värden.
 
 ## <a name="specify-project-approvers"></a>Specificera projektgodkännare
 Varje projekt har ett antal projektteammedlemmar. Du kan ange vilka teammedlemmar som också är projektgodkännare.
 
-1. Gå till formuläret **Projekt** och öppna projektet från listan.
+1. Gå till sidan **Projekt** och öppna projektet från listan.
 2. Under fliken **Team** väljer du den teammedlem som ska vara projektgodkännare och trycker sedan på **Redigera**.
 3. Sätt fältet **Projektgodkännare** på **Ja**.
 4. Välj **Spara**.
@@ -59,3 +61,6 @@ Varje projekt har ett antal projektteammedlemmar. Du kan ange vilka teammedlemma
 3. Välj **Spara**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

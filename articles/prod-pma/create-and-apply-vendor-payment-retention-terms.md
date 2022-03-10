@@ -2,11 +2,9 @@
 title: Skapa och tillämpa villkor för innehållen leverantörsbetalning
 description: I det här ämnet finns information om hur du konfigurerar och upprätthåller villkor för innehållen leverantörsbetalning.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085677"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991238"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Skapa och tillämpa villkor för innehållen leverantörsbetalning
 
@@ -65,3 +63,6 @@ När du har skapat villkor för kvarhållande för en leverantör kan du tilläm
 6. Om projektet även har ställts in för betala vid betalning (PWP) för leverantören anger du tröskelvärdet i procent för projektet i fältet **Tröskelvärdesprocent för PWP**.
 
 Villkoren för leverantörskvarhållande visas även på inköpsorder som du skapar för leverantören.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

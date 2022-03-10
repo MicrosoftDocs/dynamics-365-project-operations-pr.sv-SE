@@ -2,18 +2,16 @@
 title: Importera en beräkning till en projektbaserad kontraktrad - lite
 description: I det här ämnet finns information om hur du importerar ekonomiska uppskattningar från ett projekt till en kontraktrad.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b6b017177e718110969363844d5db4c393949d28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273490"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997268"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importera en beräkning till en projektbaserad kontraktrad - lite
 

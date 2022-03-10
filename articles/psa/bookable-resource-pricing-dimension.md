@@ -2,12 +2,10 @@
 title: Använda bokningsbar resurs som prissättningsdimension
 description: I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d3f5ed7da5972cec5b22524bdcb3dc34a83eee28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290966"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988988"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Använda bokningsbar resurs som prissättningsdimension
 
@@ -64,18 +62,18 @@ För den bokningsbara resursen **Projektteammedlemmar** något annorlunda fältn
 1. Det gör du genom att dubbelklicka på raden i rutnätet **prisdimensioner** för att öppna dimensionssidan med **msdyn_bookableresource**.
 2. På dimensionssidan på fliken **Relaterad**, klicka på **Fältnamn för prissättningsdimensioner**.
 
- ![Fliken fältnamn för prissättningsdimensionerr](media/PD-fieldname.png)
+ ![Fliken Fältnamn för prissättningsdimensioner.](media/PD-fieldname.png)
 
 4. Klicka på **Lägg till fältnamn på ny prissättningsdimensionen** i den associerade vyn som öppnas.
 
- ![Lägg till nya fältnamn för prissättningsdimensioner](media/Add-NewPD-fieldname.png)
+ ![Lägg till nya fältnamn för prissättningsdimensioner.](media/Add-NewPD-fieldname.png)
 
 
 Då öppnas sidan **nya prissättningsdimensioner** för **msdyn_bookableresource**. 
 
 5. Lägg till **msdyn_projectteam** till fältet **entiteten logiskt namn** och **msdyn_bookableresourceid** till fältet **fältnamn**. Spara posten.
 
- ![Formulär för fältnamn för prissättningsdimensioner](media/PD-fieldname-Added.png)
+ ![Formulär för fältnamn för prissättningsdimensioner.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Skapa en projektoffert
 description: Skapa en projektoffert i Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06b84e155a60c574855d5a2509d16d67b8bceea4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8a7907ee4c85c2993e86abec11fc11d2fe82a3e0ca435b25c7a213bbce931e73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000373"
 ---
 # <a name="create-a-project-quote-project-service"></a>Skapa en projektoffert (Project Service)
 

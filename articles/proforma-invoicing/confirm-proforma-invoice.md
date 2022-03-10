@@ -1,39 +1,100 @@
 ---
-title: Bekräfta en proforma-faktura
-description: I det här ämne finns information om hur du bekräftar en proforma-faktura.
+title: Bekräfta en proforma projektbaserad faktura
+description: Den ämne information om hur du bekräftar en projektbaserad proforma-faktura.
 author: rumant
-manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 88dccb63247fe6937240921de7bc7a30a3737dad3f62c6c441d732c046aaddc3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128125"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985883"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Bekräfta en proforma-faktura
+# <a name="confirm-a-proforma-project-based-invoice"></a>Bekräfta en proforma projektbaserad faktura
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
-När en proforma-faktura har bekräftats uppdateras statusen på projektfakturan till **Bekräftad**. När en faktura har bekräftats blir den skrivskyddad. I framtiden går det bara att korrigera en faktura om korrigering eller kreditering har inletts av kunden, eller om fakturan har markerats som betald.
+När en proforma-faktura har bekräftats uppdateras statusen på projektfakturan till **Bekräftad**. När en faktura har bekräftats blir den skrivskyddad. Framöver kan fakturan endast korrigeras om det finns några korrigeringar eller krediter som initierats av kunden.
 
 I följande tabell visas de faktiska värden som har skapats av systemet. Dessa faktiska värden skapas när vissa operationer utförs i utkastet av projektfakturan innan den bekräftas.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Scenario</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Faktiska värden skapas vid bekräftelse</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturera ett förskott eller ett arvode </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Ett fakturerat faktiskt värde för försäljning av typen <strong>Arvode</strong> skapas för beloppet på förskottet eller arvodet.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+En ofakturerad försäljning med ett negativt belopp för den försäljare eller det förskott som ska användas för avstämning.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+När du har stämt av ett arvode eller ett förskott på en faktura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+En fakturerad återförd försäljning av arvodet eller förskottet som skapades för avstämning. Det här beloppet är positivt eftersom det är avsett att ta bort det negativ som skapades när arvodet eller förskottet fakturerades.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ett fakturerat faktiskt värde för försäljning för beloppet på den här fakturan.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+När du har delvis stämt av ett arvode eller ett förskott på en faktura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+En fakturerad återförd försäljning av arvodet eller förskottet som skapades för avstämning. Det här beloppet är positivt eftersom det är avsett att ta bort det negativ som skapades när arvodet eller förskottet fakturerades.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ett fakturerat faktiskt värde för försäljning för beloppet på den här fakturan.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ett negativt icke fakturerat faktiskt värde för försäljning av det kvarstående beloppet av arvodet eller förskottet som ska användas för avstämning på framtida fakturor.
                 </p>
             </td>
         </tr>
@@ -71,14 +132,14 @@ Fakturering av en tidstransaktion som redigerades för att minska antalet.
         <tr>
             <td width="408" valign="top">
                 <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för timmar och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
+Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för timmar och belopp på den redigerade fakturaraden, en återföring av det faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som inte är debiterbart för de återstående timmarna och det återstående beloppet efter att de korrigerade siffrorna har dragits av på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
+Ny icke fakturerad försäljning som är icke debiterbar för återstående timmar och belopp efter att ha dras av de korrigerade siffrorna i detalj på den redigerade fakturaraden, en jämförelse av den faktiska försäljningen och motsvarande faktiska fakturering.
                 </p>
             </td>
         </tr>
@@ -135,7 +196,7 @@ Fakturering av en utgiftstransaktion som redigerades för att minska antalet.
         <tr>
             <td width="408" valign="top">
                 <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning. 
+Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
                 </p>
             </td>
         </tr>
@@ -161,7 +222,71 @@ Fakturering av en utgiftstransaktion som redigerades för att öka antalet.
         <tr>
             <td width="408" valign="top">
                 <p>
-Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för återstående kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
+Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för återstående kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturera en materialtransaktion utan att redigera utkastfakturan.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+En ofakturerad försäljning för kvantitet och belopp på det ursprungliga godkännandet av materialanvändningen.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+En fakturerad faktisk försäljning för kvantitet och belopp på det ursprungliga godkännandet av materialanvändningen.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturera en materialtransaktion som redigerats för att minska kvantiteten.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+En ofakturerad försäljning för kvantitet och belopp på det ursprungliga godkännandet av tidsanvändningen.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ett nytt ofakturerat faktiskt värde för försäljning som inte är debiterbart för återstående kvantitet och belopp efter att de korrigerade siffrorna har dragits av på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturera en materialtransaktion som redigerats för att öka kvantiteten.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+En ofakturerad försäljning för kvantitet och belopp på det ursprungliga godkännandet av materialanvändningen.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ett nytt ofakturerat faktiskt värde för försäljning som är debiterbart för kvantitet och belopp på den redigerade fakturaraden, en återföring av det ofakturerade faktiska värdet för försäljning och ett motsvarande fakturerat faktiskt värde för försäljning.
                 </p>
             </td>
         </tr>
@@ -196,5 +321,8 @@ Ett fakturerat faktiskt värde för försäljning för milstolpens belopp på de
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

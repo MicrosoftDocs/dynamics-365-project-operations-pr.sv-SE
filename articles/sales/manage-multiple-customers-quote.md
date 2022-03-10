@@ -2,18 +2,16 @@
 title: Hantera flera kunder i en projektoffert
 description: I det här ämnet finns information om hur du arbetar med offerter som omfattar flera kunder som ska finansiera projektet.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182014"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992003"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Hantera flera kunder i en projektoffert
 
@@ -23,7 +21,7 @@ Projektofferter har stöd för scenariot där ett förslag omfattar flera kunder
 
 Alla offertkunder under fliken **Kunder** i projektofferten anges som offertradskunder på alla **nya** projektbaserade offertrader som skapas för offerten. Eventuella befintliga projektbaserade offertrader ärver inte nya offertkundposter som skapats efter dem.
 
-Du kan när som helst lägga till, uppdatera eller ta bort offertkunder och offertradskunder innan offerten har vunnits. En giltig kund i offerten måste vara inställd som en kund i det ägande företaget eller den juridiska entiteten på sidan **Kunder**. Juridiska entiteter konfigureras i modulen **Projektledning och redovisning** i Dynamics 365 Project Operations och görs tillgängliga som företag i modulen **Projektförsäljning och leverans** i Project Operations.
+Du kan när som helst lägga till, uppdatera eller ta bort offertkunder och offertradskunder innan offerten har vunnits. En giltig kund i offerten måste vara inställd som en kund i det ägande företaget eller den juridiska entiteten på sidan **Kunder**. Juridiska personer ställs in i modulen **Projektledning och redovisning** i Dynamics 365 Project Operations och finns att tillgå som företag i modulerna **Projektförsäljning och leverans** i Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Koncept för en primär kund
 
@@ -51,3 +49,6 @@ Du kan skapa, uppdatera eller ta bort en offertkund från fliken **Offertkunder*
 Du kan redigera procentandelarna för faktureringsdelning med hjälp av redigeringsfunktionen i rutnätet. När delningsprocenten för fakturering inte är 100 % uppstår ett fel. När du har uppdaterat delningsprocenten för fakturering uppdaterar du sidan för att ta bort felet.
 
 Du kan också prova att välja **Fördela jämnt** i underrutnätet för offertkunder. Med den här åtgärden tilldelas faktureringsdelningar till alla offertkunder. Om det finns en avrundningsfaktor kommer den att läggas till i den avrundande kunden. En av offertkunderna är alltid märkt som den avrundande kunden. detta innebär att offertkundposten har flaggan **Avrundning** inställd på **Ja**. Det är vanligtvis den primära kunden i offerten, men det kan ändras.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

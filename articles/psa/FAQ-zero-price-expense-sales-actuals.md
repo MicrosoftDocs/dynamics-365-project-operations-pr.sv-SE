@@ -2,8 +2,7 @@
 title: Varför återställs priset till standardvärdet noll för löpande löner?
 description: Följande tre kontroller hjälper dig att felsöka anledningen till att priset anges som standardvärdet 0 för löpande löner.
 author: rumant
-manager: kfend
-ms.service: project-operations
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e477b7d5973398d50c6be03469d1c0a792b1b3323522329bc33cba755104968
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122095"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000823"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Varför återställs priset till standardvärdet noll för löpande löner?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -47,7 +48,7 @@ För att Project Service ska beakta en prislista för standardprissättning bör
 - Börja med att kontrollera att start- och slutdatum på fliken Allmänt för bifogade prislistor inte är tomma. Om start- och slutdatum i ovanstående prislistor är tomma har du hittat problemet. 
 - Notera fältet för startdatum på din tidsförsäljningstillgång och kontrollera om någon av de prislistor som identifieras gäller för detta datum. Till exempel bör datumet för den tidsförsäljningstillgången hamna inom ramarna för start- och slutdatum i prislistan. 
     - Om det inte finns någon prislista som omfattar datumet i den tidsförsäljningstillgången har du hittat problemet. Ändra prislistans start- och slutdatum så att prislistan omfattar datumet för tidsförsäljningstillgången. 
-    - Om det finns mer än en prislista som omfattar datumet i tidsförsäljningstillgången har du hittat problemet. Du kan åtgärda detta genom att redigera start- och slutdatum i prislistan/-listorna så att det finns bara en enda prislista som omfattar datumet för tidsförsäljningstillgången. 
+    - Om det finns mer än en prislista som omfattar datumet i tidsförsäljningstillgången har du hittat problemet. Redigera start- och slutdatum i prislistan/-listorna så att det bara finns en enda prislista som omfattar datumet för utgiftstillgången. 
     - Om det bara finns en enda prislista som omfattar detta datum för tidsförsäljningstillgången går du vidare till Kontroll 3.
 När du har gjort nödvändiga korrigeringar, skapa då på nytt en utgiftspost, godkänn denna och bekräfta att den ofakturerade försäljningen anger ett giltigt pris.
 
@@ -55,7 +56,7 @@ När du har gjort nödvändiga korrigeringar, skapa då på nytt en utgiftspost,
 
 Om du har slutfört kontrollerna 1 och 2 bör du nu bara ha en enda projektprislista som gäller för datumet för tidsförsäljningstillgången. Öppna denna projektprislista och gå till fliken Kategoripriser. Kontrollera att det finns en rad i rutnätet för utgiftskategoritillgången
  
-- Finns ingen rad har du hittat problemet. Skapa en rad i rutnätet Kategoripris för kategorin i din utgiftstillgång. När detta är gjort, skapa då på nytt en utgiftspost, godkänn denna och bekräfta att den ofakturerade säljtillgången anger ett giltigt pris. 
+- Finns ingen rad har du hittat problemet. Skapa en rad i rutnätet Kategoripris för kategorin i din utgiftstillgång. Skapa sedan en utgiftspost på nytt, godkänn denna och bekräfta att den ofakturerade säljtillgången anger ett giltigt pris. 
 - Om det finns en rad för utgiftskategorin i rutnätet för kategoripriser kan du kontrollera om den har ett giltigt pris.
 
 För att förstå vad ett giltigt pris är, använd dessa metoder:
@@ -66,6 +67,9 @@ För att förstå vad ett giltigt pris är, använd dessa metoder:
 
 Om prisinställningen för utgiftskategorin är ogiltig har du hittat problemet. Lösningen är att redigera kategoriprisraden med ett pris som är giltigt för utgiftskategorin i enlighet med ovanstående regler. När detta är gjort, skapa då på nytt en utgiftspost, godkänn denna och kontrollera sedan att den ofakturerade säljtillgången får ett giltigt pris.
 
-Om du fortfarande inte ser något giltigt pris på säljtillgången Utgift efter att ha följt de tre kontrollerna ovan, vänligen skapa då ett supportärende.
+Om du fortfarande inte ser något giltigt pris på säljtillgången för Utgift efter att ha följt de tre kontrollerna ovan, skapa då ett supportärende.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Nyheter i december 2020 – Project Operations för lagerbaserade/produktionsbaserade scenarier
 description: I detta ämne finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan för december 2020 för Project Operations för lager-produktionsbaserade scenarier.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4728029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008833"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nyheter och ändringar i Project Operations för december 2020 för lagerbaserade/produktionsbaserade scenarier
 
@@ -141,4 +139,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
-Mer information om regelverksuppdateringar för Dynamics 365 Finance finns i [Regelverksuppdateringar](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på Lifecycle Services (LCS) och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Mer information om regelverksuppdateringar för Dynamics 365 Finance finns i [Regelverksuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på Lifecycle Services (LCS) och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

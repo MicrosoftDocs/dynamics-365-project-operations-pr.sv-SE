@@ -2,18 +2,16 @@
 title: Konfigurera debiterbara komponenter på en projektbaserad offertrad
 description: Detta ämne innehåller information om inkluderade, debiterbara och icke-debiterbara komponenter på projektbaserade offertrader.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5484c37181bc8a26a6dfe67807093cc83e53e703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278755"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004018"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurera debiterbara komponenter på en projektbaserad offertrad
 

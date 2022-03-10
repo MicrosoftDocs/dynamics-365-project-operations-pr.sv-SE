@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369713"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007528"
 ---
 # <a name="project-management-and-accounting-overview"></a>Översikt över projektledning och redovisning
 
@@ -34,14 +34,14 @@ Ett projekt är en grupp med aktiviteter som har utformats för att tillhandahå
 ## <a name="projects-across-industries"></a>Projekt mellan branscher
 Du kan använda funktionerna för projektledning och redovisning i flera branscher, som du ser på följande bild.
 
-[![Projekt mellan branscher](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekt mellan branscher.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 I ett callcenter kan en biljett användas för att beskriva den uppsättning åtgärder som krävs för att lösa ett samtal. Konsultbolag, t.ex. företagslednings- eller tekniska konsultorganisationer eller reklambyråer, avser deras verksamhet som projekt. I marknadsföring representerar en kampanj en uppsättning arbete som måste levereras. I projektbaserade tillverkningstyper relaterar en produktionsorder det arbete som måste utföras för att producera vissa färdiga varor. Vilket namn som används för dem omfattar projekten resurser, scheman och kostnader och projektlednings- och redovisningsfunktionerna kan hjälpa dig att planera, utföra och analysera de här projekten.
 
 ## <a name="project-phases"></a>Projektfaser
 Även om följande processflöde riktar sig mot externa projekt, eller projekt som har slutförts för en eller flera kunder, gäller funktionerna även för interna, kostnads projekt. 
 
-![Tre etapper av ett projekt](./media/3-stages-of-a-project.png) 
+![Tre etapper av ett projekt.](./media/3-stages-of-a-project.png) 
 
 Som framgår av illustrationen ovan kan projektledning och redovisning delas upp i tre faser:
 
@@ -50,7 +50,7 @@ Som framgår av illustrationen ovan kan projektledning och redovisning delas upp
 3.  Analysera
 
 ## <a name="initiate-the-project"></a>Initiera projektet
-Under projektets initiering sker flera viktiga processer. Du kan använda en projektoffert för att kommunicera det uppskattade arbetet, kostnaderna och materialet för kunden. Du kan registrera faktureringsvillkor, begränsningar och avtal i ett projektkontrakt. Du kan använda en struktur för att planera och beräkna arbetet. Du kan ställa in prognoser och budgetar för att guida projektkörningen. I följande illustration visas projektstrukturen.[![projektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Under projektets initiering sker flera viktiga processer. Du kan använda en projektoffert för att kommunicera det uppskattade arbetet, kostnaderna och materialet för kunden. Du kan registrera faktureringsvillkor, begränsningar och avtal i ett projektkontrakt. Du kan använda en struktur för att planera och beräkna arbetet. Du kan ställa in prognoser och budgetar för att guida projektkörningen. I följande illustration visas ett projekts struktur.[![projektstruktur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Skicka projektofferter
 

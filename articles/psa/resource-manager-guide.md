@@ -2,8 +2,6 @@
 title: Guide för resurshanterare
 description: En guide till resurshantering i Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984995"
 ---
 # <a name="resource-manager-guide-project-service"></a>Guide för resursansvariga (Project Service)
 
@@ -73,3 +71,6 @@ ms.locfileid: "5147360"
  [Guide för kontohanteraren](../psa/account-manager-guide.md)   
  [Guiden för projektledare](../psa/project-manager-guide.md)   
  [Guide för tid, utgifter och samarbete](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

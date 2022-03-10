@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012608"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991058"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurera redovisning för fakturerbara projekt
 
@@ -101,23 +101,23 @@ Följ stegen nedan om du vill skapa en ny projektkostnads- och intäktsprofil.
 
 Tid och material – ingen PIA
 
-![Kostnads- och intäktsprofil: tid och material – ingen PIA](media/time-material-no-wip.png)
+![Kostnads- och intäktsprofil: tid och material – ingen PIA.](media/time-material-no-wip.png)
 
 Tid och material – PIA (intäkt)
 
-![Kostnads- och intäktsprofil: tid och material – PIA](media/time-material-with-wip.png)
+![Kostnads- och intäktsprofil: tid och material – PIA.](media/time-material-with-wip.png)
 
 Fast pris – ingen PIA
 
-![Kostnads- och intäktsprofil: fast pris – ingen PIA](media/fixed-price-no-wip.png)
+![Kostnads- och intäktsprofil: fast pris – ingen PIA.](media/fixed-price-no-wip.png)
 
 Fast pris – slutfört kontrakt
 
-![Kostnads- och intäktsprofil: fast pris – slutfört kontrakt](media/fixed-price-completed-contract.png)
+![Kostnads- och intäktsprofil: fast pris – slutfört kontrakt.](media/fixed-price-completed-contract.png)
 
 Fast pris – procent färdigt
 
-![Kostnads- och intäktsprofil: fast pris – procent färdigt](media/fixed-price-completed-percentage.png)
+![Kostnads- och intäktsprofil: fast pris – procent färdigt.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Exempel på redovisningshändelser för exempel på projektkostnads- och intäktsprofiler.

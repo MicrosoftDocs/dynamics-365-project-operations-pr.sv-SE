@@ -2,8 +2,6 @@
 title: Projektinställningar
 description: I det här ämnet finns information om inställningar för projekthantering.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c55d0f4c8f8db231a995d91a46a582bca2e1e6e3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283750"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996953"
 ---
 # <a name="project-settings"></a>Projektinställningar
 
@@ -49,7 +47,7 @@ För att skapa ett projektschema skapar du en projektkalendermall som definierar
   - Arbetsschema för en dag
   - Ledig tid
 
-> ![Ange alternativ](media/project-13.png)
+> ![Ange alternativ.](media/project-13.png)
 
 4. Välj **Nytt veckoschema** och ange alternativen för det här resursschemat. Du kan ange ett återkommande veckoschema, dagliga timparametrar, företagets öppettider och mycket annat.
 5. Ange datumintervall, välj **Spara** och klicka på **Stäng**. 

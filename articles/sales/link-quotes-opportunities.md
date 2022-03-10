@@ -2,18 +2,16 @@
 title: Skapa projektofferter från affärsmöjligheter
 description: I det här ämnet finns information om hur man skapar en projektoffert från en affärsmöjlighet.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0327a2823490081b3718caf6530461dadf20bf4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999653"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Skapa projektofferter från affärsmöjligheter
 

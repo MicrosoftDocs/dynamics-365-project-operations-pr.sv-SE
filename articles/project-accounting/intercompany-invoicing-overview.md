@@ -6,12 +6,13 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002663"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005413"
 ---
 # <a name="intercompany-invoicing-overview"></a>Koncernintern fakturering – Översikt
 
@@ -21,7 +22,7 @@ Organisationen kan ha flera avdelningar, dotterbolag och andra juridiska enheter
 
 Följande illustration visar ett typiskt scenario där två juridiska entiteter, Contoso Robotics USA (den lånande juridiska entiteten) och Contoso Robotics UK (den utlånande juridiska entiteten), delar resurser för att leverera ett projekt till kunden, Adventure works. För detta scenario har Contoso Robotics USA ingått ett avtal om att leverera arbetet till Adventure Works.
 
-![Koncernintern fakturering](./media/IntercompanyScenario.png) 
+![Koncernintern fakturering.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations använder följande flöde för att bearbeta koncerninterna transaktioner:
 
@@ -34,7 +35,7 @@ Dynamics 365 Project Operations använder följande flöde för att bearbeta kon
 
 Följande diagram illustrerar koncernintern fakturering eftersom denna avser redovisningshändelser och förväntade bokföringar i redovisningen.
 
-![Koncerninternt flöde](./media/IntercompanyFlow.png)
+![Koncerninternt flöde.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Ytterligare resurser
 

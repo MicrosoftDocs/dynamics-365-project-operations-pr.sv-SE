@@ -2,18 +2,16 @@
 title: Kostnad för slutförandemetoder
 description: Detta ämne innehåller information om de metoder som används för att beräkna kostnaden för att slutföra ett projekt.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 837cb3abe33e6e74087b8aae8b072bf4a21dc933
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279070"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997988"
 ---
 # <a name="cost-to-complete-methods"></a>Kostnad för slutförandemetoder
 

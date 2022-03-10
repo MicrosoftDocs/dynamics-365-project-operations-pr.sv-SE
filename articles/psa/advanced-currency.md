@@ -2,8 +2,6 @@
 title: Scenarier med flera valutor (version 3.x)
 description: I den här ämnet finns information om scenarier med flera valutor.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123400"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005144"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarier med flera valutor
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 har två koncept av valutor:
 - **Transaktionsvaluta** – valutan som en transaktion inträffar i. 
 - **Basvaluta** - valutan för Dynamics 365-instansen. Den här valutan konfigureras när en Dynamics 365-instans etableras. Den kan inte ändras.
 
-Exempel: Contoso US sålde 100 t-shirts till en kund i Sverige för 15 GPB. Följande tabell visar hur den här transaktionen registreras i entiteten orderprodukt.
+Exempel: Contoso US sålde 100 t-shirts till en kund i Storbritannien för 15 pund (GBP) styck. Följande tabell visar hur den här transaktionen registreras i entiteten orderprodukt.
 
 | Produkt | Kvantitet | Pris per enhet | Valuta | Belopp | Växelkurs | Pris per enhet (bas)| Belopp (bas)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -73,7 +73,7 @@ I det här avsnittet beskrivs ett exempel på ett projekt som Contoso UK leverer
 3. En organisationsenhet med namnet **Contoso UK** har ställts in och GBP valts som valuta.
 4. Ett projektkontrakt skapas, där **Contoso UK** anges som den upphandlande enheten och **Fabrikam – Japan** anges som kund.
 5. Projektkontraktrader skapas utifrån fakturering för de olika transaktionsklasserna i projektet, t.ex. fakturering för tid jämfört med fakturering för utgifter.
-6. Ett projekt skapas där **Contoso UK** anges som den upphandlande enheten. Det här projektet skapas och mappas till projektkontraktsraderna.
+6. Ett projekt skapas där **Contoso UK** anges som den upphandlande enheten. Det här projektet skapas och mappas till projektkontraktraderna.
 
 
 När du använder en uppskattning som innehåller information om offertrader, projektkontraktradens information eller på uppskattningsraden i schemat skapas två poster alltid i entiteten. En post är för kostnad och den andra posten är för försäljning.
@@ -103,3 +103,6 @@ I Dynamics 365 hanterar automatiskt sammanslagning av belopp i olika valutor. H�
 | Expense           | Ofakturerad försäljning   | 17 juni | Joel  | Biluthyrning           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Om du vill beräkna det totala fakturerade försäljningsvärdet i projektet kan du skapa ett fält för sammanslagning för fältet **belopp** i alla relaterade, ej fakturerade försäljningsvärden. Sammanslagningsfältet är en konstruktion av Dynamics 365 som gör det enkelt att skapa formler för relaterade poster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

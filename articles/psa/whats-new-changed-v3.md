@@ -1,8 +1,6 @@
 ---
 title: Nyheter eller ändringar i Project Service Automation version 3
 description: I det här ämnet finns information om vad som är nytt och ändrat i Project Service Automation version 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150690"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987098"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheter eller ändringar i Project Service Automation version 3
 
@@ -38,7 +36,7 @@ I det här ämnet finns information om ändringar av användargränssnittet, fun
 ## <a name="project-scheduling"></a>Projektscheman
 Projektschemat som kallades den uppdelade arbetsstrukturen (WBS) i tidigare versioner har bytt namn till schema och tillgås genom att klicka på fliken **schema**. 
 
-![Projektschema](media/psa-schedule-01.png)
+![Projektschema.](media/psa-schedule-01.png)
 
 Nu har schemat en ny yta för interaktioner som både är moderna och tillgängliga. Den underliggande schemaläggningsmotorn för Project Service Automation har inte ändrats. Med kontrollknapparna i verktygsfältet på schemats rutnät kan du interagera med schemat som liknar den tidigare versionen av Project Service Automation. Ytterligare ändringar i schemat är:
 
@@ -97,22 +95,22 @@ När du flyttar schemat för ett befintligt projekt händer följande:
 ## <a name="estimates"></a>Beräkningar
 Beräkningar har delats upp i två flikar **Resurstilldelning** och **Beräkningar**. Fliken **resurstilldelning** innehåller en insatsberäkning och visar resurstilldelningarna för uppgifterna i en tidsfasad vy. Du kan redigera beräkningarna utifrån vad schemaläggningsmotorn har skapat.
 
-![Resurstilldelningar visar insatser och resurstilldelningar för uppgifter](media/resource-assignments-tab-02.png)
+![Fliken Resurstilldelningar visar insatsberäkningar och resurstilldelningar för uppgifter.](media/resource-assignments-tab-02.png)
 
 På fliken **Beräkningar** visas kostnads- och försäljningsbeloppen för resurstilldelningar. Beloppen är skrivskyddade. Kostnads- och försäljningsprissättning styrs nu från tilldelningar av gruppmedlemmar i schemat. Det innebär att om du har en uppgift utan tilldelning visas uppgiften under den icke tilldelade bucket. Detta innebär också att utan **roll**, som är en standarddimension för prissättning, visas ingen uppskattad kostnad eller försäljning om du har en kund eller ett kontrakt/offert som är associerad med projektet. 
 
-![Fliken Beräkningar visar kostnads- och försäljningsbelopp](media/estimates-tab-03.png)
+![Fliken Beräkningar visar kostnads- och försäljningsbelopp.](media/estimates-tab-03.png)
   
 Kategorin stöds även för uppgifter i schemaläggningsvyn. Gruppering efter kategori i tidsfasvyn av beräkningar ger en bättre upplevelse, särskilt när du också har beräkningar av utgifter i projektet. Utgiftsberäkningar anges med hjälp av ett rutnät på en separat flik. 
 
 Utgiftsberäkningar kan anges i rutnätet på fliken **Utgiftsberäkningar**. 
 
-![Fliken utgiftsberäkningar visar rutnät för utgiftsberäkningar](media/expense-estimates-tab-04.png)
+![Fliken Utgiftsberäkningar visar rutnät för utgiftsberäkningar.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resurshantering
 I Project Service Automation version 3 med det nya enhetliga gränssnittet för klient och förändringar i relationen mellan bokningar och tilldelningar, bemanna ett projekt med generiska eller verkliga resurser, har ändrats dramatiskt från version 2 och version 1. Begreppen för bokningsbara resurser, både **verkliga** och **generiska**, förblir emellertid samma, och även gruppmedlemmar, krav, tilldelningar och bokningar.   
 
-![Använda resursväljare](media/resource-management-05.png)
+![Använda resursväljare.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Tilldela en verklig bokningsbar resurs 
 I Project Service Automation version 3 är boknings- och uppgiftstilldelningar inte lika sammanlänkade som i tidigare versioner av Project Service Automation. Du kan använda grupprutnätet för att boka **verklig** gruppmedlem på samma sätt som på marknaden.
@@ -153,19 +151,19 @@ Det här avsnittet innehåller information om förändringar av tid, utgifter oc
 ### <a name="landing-page"></a>Landningssida
 Den icke-utökningsbara anpassade tidspostupplevelsen är inaktuell i version 3. I stället finns nu en utökningsbar och tillgänglig inbyggd rutnätsupplevelse. Du kan komma åt tidspostens funktion med hjälp av webbplatsöversikten till vänster. Med den här ändringen kan du inte längre ange tid för en vecka i taget. I stället måste du skapa en tidspost för varje dag i rutnätet. När några tidsposter har skapats kan användarna masskapa tidsposter med funktionen **kopiering** vilket förklaras senare i detta ämne. 
 
-![Landningssida för tidspost](media/time-entry-landing-page-07.png)
+![Landningssida för tidspost.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Skapa nya tidsposter 
 Klicka på **Nytt** i menyfliksområdet om du vill öppna en sida för att snabbregistrera tidspost där du anger varaktighet i minuter, timmar eller dagar. Det gör du genom att endast börja skriva in h, m eller d tillsammans med kvantiteten.  
 
-![Snabbregistrering för tidspost](media/quick-create-time-entry-08.png)
+![Snabbregistrering för tidspost.](media/quick-create-time-entry-08.png)
 
 Uppslagsfält säkerhetskopieras med systemvyer. När du t.ex. anger projektinformation anges fältet **projektuppgifter** som standard till vyn **Mina öppna projektuppgifter**. Om du vill skapa tidsposter för uppgifter som inte är tilldelade till användaren klickar du på **ändra vy** i uppslaget och markerar **Alla aktiva projektuppgifter**. När tidsposten har skapats och visas i rutnätet kan du redigera alla radvärden direkt i rutnätet.  
 
 ### <a name="bulk-createcopy"></a>Masskapa/kopiera 
 När du har skapat några tidsposter kan du använda kopieringsfunktionen för att masskapa ytterligare tidsposter. Klicka på **Kopiera** så att dialogrutan **Kopiera** öppnas. I **Från period: startdatum** anger du i vilket datumintervall som tidsperioder måste kopieras från. I **Till period: startdatum** anger du det datum då tidsposter ska skapas. Klicka på **kopiera** för att kopiera tidsposterna till motsvarande dag i veckan angivet i **Till-period**. Till exempel kommer måndagens tidspost från förra veckan att kopieras till måndag för den vecka som anges under **Till-period**. 
 
-![Kopiera många tidsposter samtidigt](media/bulk-copy-time-entry-09.png)
+![Kopiera många tidsposter samtidigt.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importera data 
 Tilldelningar och Exchange följer samma användargränssnittsmönster, vilket gör att användaren kan ange ett datumintervall från vilket bokningar behöver importeras. Du måste sedan uttryckligen välja de bokningar som ska kopieras till tidsposter **utkast**. I version 3 kan du inte längre se mönstret för **föreslagna** tidsposter i rutnätet och kalendern.  
@@ -181,7 +179,7 @@ I version 3 har vi flyttat från den anpassade kalenderkontrollen och använder 
 
 **Samla in data på anpassade fält i tid- och utgiftspost och sprida dem via entiteter som stöder inlämnings- och godkännandeflöden** – den vanligaste bearbetningen av tidsposterna visas i följande diagram.
 
-![Bearbetning av flöde för tidspost](media/process-time-entries-10.png)
+![Bearbetning av flöde för tidspost.](media/process-time-entries-10.png)
 
 Om affärskrav föreskriver att tids- och utgiftsentiteter måste hämta anpassade prissättningsdimensioner och sprida värden som anges med en tid och en postresurs i den anpassade dimensionen för prissättning via alla entiteter i föregående bild, se [Konfigurera anpassade fält som prissättningsdimensioner](set-up-pricing-dimensions.md)
 
@@ -238,7 +236,7 @@ I version 1 och 2 gjordes en debiterbar konfiguration för roller och kategorier
 
 Från och med version 3 görs en inställning av debiteringsalternativ per roll- och utgiftskategori på offert- eller kontraktradnivån. Prissättningsinställningar är separat från debiterbar konfiguration. Du kan söka efter **debiterbara roller** och **debiterbara kategorier**  som flikar på sidorna **offertrad** och  **kontraktrad** utan att behöva använda toppnavigering.
 
-![Debiterbara roller](media/chargeable-12.png)
+![Debiterbara roller.](media/chargeable-12.png)
  
 Inställningarna för de debiterbara rollerna och de debiterbara kategorierna utnyttjar även den medföljande redigerbara rutnätkontrollen. För varje roll och kategori är de alternativ som stöds för faktureringstyp under faserna Offert och Avtalande oförändrade från tidigare versioner som **debiterbara** och **icke-debiterbara**. **Kostnadsfritt** är inte en typ som stöds under faserna Offert eller Avtalande. **Kostnadsfritt** stöds endast under godkännande av tid eller utgift.  
  
@@ -249,11 +247,14 @@ Från och med version 3 kan du skapa och använda en anpassad projektprislista p
   
 Följande bild är innan anpassade prislistor har skapats.
 
-![Före anpassade prislistor](media/before-custom-price-lists-13.png)
+![Före anpassade prislistor.](media/before-custom-price-lists-13.png)
 
 Följande bild är efter anpassade prislistor har skapats.
 
-![Efter anpassade prislistor](media/after-custom-price-lists-14.png)
+![Efter anpassade prislistor.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > En kort fördröjning kan inträffa när du klickar på **Skapa anpassad prissättning** till när den anpassade prislistan skapas. Vi rekommenderar att du uppdaterar rutnätet i stället för att klicka flera gånger. En anpassad prislista skapas om namnet på den associerade prislistan har offertnamnet eller projektkontraktsnamnet bifogat det.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

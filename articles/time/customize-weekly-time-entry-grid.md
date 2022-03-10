@@ -2,24 +2,22 @@
 title: Utöka tidsposter
 description: I det här ämnet finns information om hur utvecklare kan utöka tidspostkontrollen.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124660"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993353"
 ---
 # <a name="extending-time-entries"></a>Utöka tidsposter
 
 _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-I Dynamics 365 Project Operations ingår en anpassad kontroll för utökad tidspost. Denna kontroll omfattar följande funktioner:
+Dynamics 365 Project Operations innehåller en anpassad kontroll för längre tidsinmatning. Denna kontroll omfattar följande funktioner:
 
 - Ange tid vågrätt över en vecka
 - Summor per dag, rad eller vecka
@@ -144,3 +142,6 @@ Använd plugin-valideringar för alla valideringar som kräver mer kontext än v
 
 ### <a name="copying-time-entries"></a>Kopiera tidsposter
 Använd vyn **Kopiera tidspostkolumner** för att definiera listan över fält som ska kopieras under en tidspost. **Datum** och **Varaktighet** är obligatoriska fält och bör inte tas bort från vyn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

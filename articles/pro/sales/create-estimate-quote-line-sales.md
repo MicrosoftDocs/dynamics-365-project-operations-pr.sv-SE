@@ -2,55 +2,57 @@
 title: Beräkna en projektbaserad offertrad
 description: I det här ämnet finns information om hur du skapar en uppskattning på en projektbaserad offertrad.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: a8e2b56b4a97ce184fc36145fffe63db8772bdef8bb89f9b60ddaf43db0c1ba4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180394"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997313"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Beräkna en projektbaserad offertrad
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 En projektbaserad offertrad innehåller information som hjälper dig att beräkna kostnaden och potentiella intäkter för det arbete som är ägnat på att leverera offertraden.
 
 Om du vill uppskatta en projektrelaterad offertrad väljer du fliken **Offertradsinformation** på den projektbaserade offertraden. Det finns två sätt att skapa en uppskattning på en projektbaserad offertrad:
 
-- Skapa uppskattningen manuellt direkt på offertraden med hjälp av offertradsinformationen 
+- Skapa uppskattningen manuellt direkt på offertraden med hjälp av offertradsinformationen. 
 - Skapa ett projekt och en projektplan och koppla sedan projektet och uppgifterna till offertraden. Processen för att importera uppskattningarna i projektplanen till offertraden utifrån den information du har angett kommer att aktiveras.
 
 ## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Skapa uppskattningar direkt på en projektbaserad offertrad
 
 Om du vill skapa en uppskattning på en projektrelaterad offertrad väljer du fliken **Offertradsinformation**. Radartikeln som du skapar på den här fliken sammanfattar det offererade värdet för den här offertraden. 
 
-Om du vill skapa en offertradsinformation markerar du **+ ny offertradinformation** i under **rutnätet med information om offertrader**. Ett skjutreglage för snabbskapande öppnas. Följande fält i formuläret **Offertrad**:
+Om du vill skapa en offertradsinformation markerar du **Ny offertradinformation** i under **rutnätet med information om offertrader**. Ett skjutreglage för snabbskapande öppnas. Följande tabell innehåller information om fälten på sidan **Information om offertrad** och hur värdena påverkar funktionaliteten.
 
 | **Fält** | **Plats** | **Beskrivning** | **Inverkan nedströms** |
 | --- | --- | --- | --- |
-| Beskrivning | Snabbregistrering | En beskrivning av den specifika uppskattningen. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Transaktionsklass | Snabbregistrering | I den här listrutan visas de transaktionsklasser som finns under fliken **Allmänt** i den projektbaserade offertraden.  | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Roll | Snabbregistrering | Den person som ska utföra det här arbetet eller som ådrar sig utgiften. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Kategori | Snabbregistrering | Kategori för arbetet eller utgiften. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Startdatum | Snabbregistrering | Startdatum för arbetet. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Slutdatum | Snabbregistrering | Arbetets slutdatum. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Resursenhet | Snabbregistrering | Resursenhet som kommer att ådra sig kostnaden och tillhandahålla de resurser som arbetar på den. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. Fältet används också för att hämta självkostnad. |
-| Enhetsschema | Snabbregistrering | Enhetsgrupp för arbetet eller utgiften. Enheter tillhör ett enhetsschema eller en grupp enheter. Till exempel är miles och kilometer enheter som tillhör en grupp enheter som beskriver avståndet. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Enhet | Snabbregistrering | Enhet för arbetet eller utgiften. | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Antal | Snabbregistrering | Kvantitet för arbetet eller utgiften | Det här fältet används som standard för den relaterade offertradsinformationen för kostnader som skapas automatiskt. |
-| Enhetspris | Snabbregistrering | Fakturataxa för den roll som utför arbetet eller försäljningspriset för utgiftskategorin. Det här fältet används för Tid utifrån kombinationen av roll och resursenhet på projektprislistan som gäller för startdatumet. För utgifter används det här fältet för prisinställningar för transaktionskategorin i projektprislistan som gäller för startdatumet. Om prissättningsmodellen för transaktionskategorin inte är pris per enhet, finns det inget standardvärde och fältet lämnas tomt. | Kostnadstaxa för den roll som utför arbetet eller styckpriset för utgiftskategorin. Det här fältet används för Tid utifrån kombinationen av roll och resursenhet på priset för den avtalande enheten av den offererade prislistan som gäller för startdatumet. För utgifter används det här fältet för prisinställningar för transaktionskategorin i prislistan för självkostnad för den avtalande enheten som gäller för startdatumet. Om prissättningsmodellen för transaktionskategorin inte är pris per enhet, finns det inget standardvärde och fältet lämnas tomt. |
+| Beskrivning | Snabbregistrering | En beskrivning av den specifika uppskattningen. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Transaktionsklass | Snabbregistrering | Den här listrutan innehåller de transaktionsklasser som finns på fliken **Allmänt** på den projektbaserade offertraden.  | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Välj produkt | Snabbregistrering | Tillämpas när transaktionsklassen är **Material**. Du kan välja att ange att beräkningsraden är för en **Befintlig** (katalog) produkt eller en **Ej registrerad** produkt. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Produkt | Snabbregistrering | ID för produkten från produktkatalogen. Det här fältet är endast aktiverat när du väljer **Befintlig** i fältet **Välj produkt**. ID används för att hämta försäljningspriset från projektprislistan i offerten. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Oregistrerad produkt | Snabbregistrering | En textruta som oregistrerad ska ange produktnamnet. Det här fältet är endast aktiverat när du väljer **Oregistrerad** i fältet **Välj produkt**.| Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Roll | Snabbregistrering | Rollen som den person som ska utföra arbetet eller ådrar sig denna kostnad. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Kategori | Snabbregistrering | Kategorin för arbetet eller kostnaden. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Startdatum | Snabbregistrering | Startdatumet för arbetet. | Det här fältet är som standard den offertraddetaljen för kostnad som skapas automatiskt. |
+| Slutdatum | Snabbregistrering | Slutdatumet för arbetet. | Det här fältet är som standard den offertraddetaljen för kostnad som skapas automatiskt. |
+| Resursenhet | Snabbregistrering | Den enhet som tar på sig kostnaden och som tillhandahåller resursen för att arbeta med den. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt och används i hämtning av självkostnad. |
+| Enhetsschema | Snabbregistrering | Enhetsgruppen för arbetet, produkten eller utgifter. Enheter tillhör ett enhetsschema eller en grupp enheter. T.ex. mil och kilometer är enheter som tillhör en gruppenheter som beskriver avståndet. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Enhet | Snabbregistrering | Arbetsenhet, produkten eller utgifter. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Antal | Snabbregistrering | Mängd arbete, produkten eller utgifter. | Det här värdet är som standard den relaterade offertraddetaljen för kostnad som skapas automatiskt. |
+| Enhetspris | Snabbregistrering |Faktureringskursen för den roll som utför arbetet, enhetspriset för produkten eller försäljningspriset för produkten eller utgiftskategorin. Det här fältet är standardvärde för **Tid** baserat på kombinationen av värden för prissättningsdimension på rollprisraden i projektprislistan som gäller för startdatumet. För **utgifter** är standardvärdet från prisinställningen för transaktionskategorin i den projekt prislista som gäller startdatum. Om prismodellen för transaktionskategorin inte är pris per enhet finns det ingen standardmodell och fältet lämnas tomt. För produkter baseras standard på raden **Prislisteobjekt** i projektprislistan som gäller för startdatumet.| Kostnadstaxan för den roll som utför arbetet, eller kostnaden per enhet i kostnadskategorin eller enhetskostnaden för produkten. Det här fältet är standardvärde för **Tid** baserat på kombinationen av värden för prissättningsdimension på rollprisraden i projektprislistan som gäller för startdatumet. För **utgifter** är standardvärdet från prisinställningen för transaktionskategorin i den projekt prislista som gäller startdatum. Om prismodellen för transaktionskategorin inte är pris per enhet finns det ingen standardmodell och fältet lämnas tomt. För produkter baseras standard på raden **Prislisteobjekt** i projektprislistan som gäller för startdatumet.|
 | Beräknad skatt | Snabbregistrering | Du kan ange den uppskattade momsen manuellt för det här arbetet eller den här utgiften. | Det här fältet har ingen inverkan nedströms. |
 | Belopp | Snabbregistrering | Du kan ange information manuellt i det här fältet om fälten **Antal** och **Pris** lämnas tomma. Om de här fälten inte är tomma blir fältet skrivskyddat och beräknas som (Antal \* Styckpris) + moms. | Det här fältet har ingen inverkan nedströms. |
 
+
 ## <a name="update-prices-on-quote-line-details"></a>Uppdatera priser i offertradsinformation
 
-Om du har ändrat priser i den projektprislista som är bifogad till offerten, eller i en prislista för självkostnad för den avtalande enheten, kan du välja **Omberäkna** på sidan **Offert** för att uppdatera priserna i den enskilda offertradsinformationen så att den avspeglar ändringen. Om du väljer **Omberäkna** visas ett varningsmeddelande som anger att priserna i offertradsinformationen för alla offertrader i denna offert kommer att återställas. Välj **Ja** om du vill uppdatera priserna i offertradsinformationen för både försäljning och kostnad.
+Om du har ändrat priserna på projektprislistan som bifogas offerten eller i den upphandlande enhetens kostnadsprislista kan du välja **Beräkna om** på sidan **Offert** för att uppdatera priserna på de enskilda offertraderna för att återspegla denna förändring. När du väljer **Omberäkna** visas en varning om att priserna på offertradsinformationen för alla offertrader i offerten kommer att återställas. Välj **Ja** om du vill uppdatera priserna i offertradsinformationen för både försäljning och kostnad.
 
 ## <a name="access-quote-line-details-for-cost"></a>Visa offertradsinformation för kostnad
 
@@ -66,4 +68,8 @@ Valuta i offertradsinformation för kostnad hämtas från prislistan för den av
 
 Vid beräkningen av lönsamhet konverteras beloppet i offertradsinformationen för kostnad och försäljning till miljöns basvaluta för att rapportera den uppskattade övergripande marginalen för offerten.
 
-Detta kan resultera i avrundningsfel i valutan och att marginalerna ändras på grund av brist på aktuella valutakurser. Använd endast de här beräkningarna i projektofferter som uppskattningar och inte verklig lagstadgad eller annan rapportering som kräver högre precision för avrundning och medvetenhet om aktuella valutakurser.
+> [!OBS
+> > Fel i valutaavrundning och ändrade marginaler kan uppstå på grund av att valutakurserna inte fungerar på ett effektivt datum. Använd endast dessa beräkningar i projektkontrakt eftersom de inte är för faktiska lagstadgade eller andra rapporter som kräver högre precision för avrundning och medvetenheten om datumrelativitet för växelkurser.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

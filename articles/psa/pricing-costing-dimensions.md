@@ -2,12 +2,11 @@
 title: Startsida för prissättnings- och kostnadsdimensioner
 description: I det här ämnet finns en översikt över prissättningsdimensioner.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998483"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startsida för prissättnings- och kostnadsdimensioner
 
@@ -42,7 +41,7 @@ Med tanke på att de olika attrubuten av arbete och de personer som krävs för 
 
 PSA levererar en standarduppsättning med prisdimensioner. Du kan visa dessa genom att gå till **Project Service** > **parametrar**. I parameterposten, på fliken **Beloppsbaserad prissättningsdimension** ska du kontrollera att rollen **msdyn_resourcecategory** och resursorganisationsenheten **msdyn_organizationalunit** har fälten **Gäller för försäljning** och **Gäller för kostnad** inställd på **Ja**. På så sätt kan du ange pris och kostnad för varje kombination av roll och organisationsenheter.
 
-![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad](media/PS-OOB-parameters.png)
+![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Om du har använt de här fälten som roll- och organisationsenhet som prissättningsdimensioner före version 3 av PSA-versionen kommer det inte att finnas någon observerbar förändring. Du kan fortsätta att använda Project Service som vanligt. 
@@ -67,13 +66,16 @@ I följande exempel visas faktureringskostnader som är inställda utifrån den 
 
 | Roll        | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvecklare   | Contoso US  |Timme | 200|USD     |
-| Utvecklare   | Contoso India |Timme|   112|USD     |
+| Utvecklare   | Contoso US  |timme | 200|USD     |
+| Utvecklare   | Contoso Indien |timme|   112|USD     |
 
 
 **Exempelkostnadstariffer**
 
 | Löneband     | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt företag_Band1 | Contoso US  |Timme | 145|USD     |
-| Mitt företag_Band2 | Contoso India |Timme|   67|USD     |
+| Mitt företag_Band1 | Contoso US  |timme | 145|USD     |
+| Mitt företag_Band2 | Contoso Indien |timme|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

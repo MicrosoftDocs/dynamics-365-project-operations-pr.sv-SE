@@ -2,22 +2,20 @@
 title: Mappa projekt och uppgifter till en projektbaserad kontraktrad - lite
 description: I det här ämnet finns information om hur du lägger till och tar bort projekt och uppgifter på en kontraktrad.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272815"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989753"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mappa projekt och uppgifter till en projektbaserad kontraktrad - lite
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mappa projekt och uppgifter till en projektbaserad kontraktrad 
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
 
 På projektbaserade kontraktrader kan du mappa specifika uppgifter i ett projekt till kontraktraden.
 

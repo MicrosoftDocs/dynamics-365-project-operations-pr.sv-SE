@@ -2,18 +2,16 @@
 title: Projektbaserade affärsmöjlighetsrader
 description: I det här ämnet finns information om hur du arbetar med projektbaserade affärsmöjlighetsrader.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996368"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektbaserade affärsmöjlighetsrader
 
@@ -33,3 +31,6 @@ Nedan visas fälten i en projektbaserad affärsmöjlighetsrad:
 | Namn | Fliken Allmänt | Det här är ett redigerbart textfält som kan användas för att ge en kort identitet för den här radartikeln | Det här värdet överförs till offertraden när du skapar en offert från den här affärsmöjligheten |
 | Kundbudget | Fliken Allmänt | Det här redigerbara valutafältet kan användas för att spåra det belopp som kunden är villig att spendera för den här radartikeln. | Det här värdet överförs till motsvarande fält på offertraden när du skapar en offert från den här affärsmöjligheten |
 | Faktureringsmetod | Fliken Allmänt | Det här redigerbara fältet har följande värden:</br>- Tid och material</br>- Fast pris | Det här värdet överförs till motsvarande fält på offertraden när du skapar en offert från den här affärsmöjligheten. När du har skapat offertraden är fältet låst och kan inte ändras. Tilldela det här fältvärdet så exakt som möjligt. Om du behöver ändra värdet i det här fältet på offertraden tar du bort och skapar offertraden på nytt. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

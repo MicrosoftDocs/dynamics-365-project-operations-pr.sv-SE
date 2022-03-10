@@ -2,8 +2,6 @@
 title: Offerter och offertrader
 description: I det här ämnet finns information om offerter och offertrader.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129475"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995468"
 ---
 # <a name="quotes-and-quote-lines"></a>Offerter och offertrader
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -84,7 +84,7 @@ Professionella tjänsteorganisationer brukar citera och fakturera sina kunder ge
 
 En eller flera av dessa transaktionsklassificeringar kan associeras med varje offertrad. När en offert har vunnits överförs mappningen mellan transaktionsklassificering och offertrad till kontraktraden.
  
-> ![Skärmbild av mappning av transaktionstyper till offert och kontraktrader](media/basic-guide-5.png)
+> ![Skärmbild av mappning av transaktionstyper till offert och kontraktrader.](media/basic-guide-5.png)
   
 En offert kan till exempel innehålla följande två offertrader: 
 - Konsultarbete som använder en metod för tids- och materialfakturering där klassificeringar av tid och avgifter gäller. Till exempel är alla tids- och avgiftstransaktioner för exempelprojekten **Dynamics AX Implementering** fakturerade till kunden utifrån den tid och de material som används. 
@@ -129,3 +129,6 @@ För en offertrad med fast pris kan du använda rutnätet **fakturaschema** för
 - Om du vill skapa faktureringsmilstolpar som är jämnt fördelade väljer du en fakturafrekvens, anger startdatum för fakturering på offertraden och väljer **begärt slutdatum** för offerten i avsnittet **Sammanfattning** i offerthuvudet. Välj sedan **skapa periodiska milstolpar** för att skapa lika stora milstolpar som bygger på vald fakturafrekvens. 
 - Om du vill skapa en klumpsumma för faktureringsmilstolpe skapar du en milstolpe och anger sedan värdet för offertraden som milstolpebelopp.
 - Om du vill skapa faktureringsmilstolpar som bygger på specifika uppgifter i projektplanen skapar du en milstolpe och mappar den till projektets schemaelement i användargränssnittet för faktureringsmilstolpe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

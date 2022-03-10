@@ -2,19 +2,17 @@
 title: Länka utfall till ursprungliga poster
 description: Detta ämne beskriver hur du länkar faktiska värden till ursprungliga poster, till exempel tidspost, utgiftspost eller materialanvändningsloggar.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852611"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991778"
 ---
 # <a name="link-actuals-to-original-records"></a>Länka utfall till ursprungliga poster
 
@@ -79,7 +77,7 @@ Tillsammans kan du med hjälp av **transaktionsursprunget** och **transaktionsko
 
 I följande exempel visas den vanligaste bearbetningen av tidsposter i en Project Operations projektlivscykel.
 
-> ![Bearbetning av hela tiden i en Project Service livscykel](media/basic-guide-17.png)
+> ![Bearbetning av hela tiden i en Project Service-livscykel.](media/basic-guide-17.png)
  
 1. Ett tidsinläggsinlämnande skapar två journalrader: en rad för kostnad och en rad för obefintlig försäljning.
 2. Eventuellt godkännande av en tidspost skapar två faktiska värden: en faktisk för kostnad och ett faktiskt värde för ofakturerad försäljning.

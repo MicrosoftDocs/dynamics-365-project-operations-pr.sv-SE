@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003067"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005773"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementera anpassade fält för Microsoft Dynamics 365 Project Timesheet mobilappen på iOS och Android
 
@@ -153,13 +153,13 @@ För fält av typen **Datum** den här egenskapen skickar fältets datumvärde m
 
 Nedan visas en skärmdump från mobilappen för en tidrapportpost skapande. Den visar de medföljande fälten och ett anpassat fält i avsnittet "tidspost", "teststräng", med ett uppräkningsvärde för ett "andra alternativ" har redan angetts.
 
-![Teststrängens anpassade fält i appen](media/timesheet-entry.jpg)
+![Teststrängens anpassade fält i appen.](media/timesheet-entry.jpg)
 
 
 
 Nedan visas en skärmdump från mobilappen för användaren välja ett av de uppräkningsalternativ som är tillgängliga för det anpassade fältet "teststräng".  De två alternativen är "första alternativ" och "andra alternativet" visas som alternativknappar. Det andra alternativet är markerat.
 
-![Alternativknappar (radioknappar) för det anpassade fältet för teststräng](media/enum-option.jpg)
+![Alternativknappar (radioknappar) för det anpassade fältet för teststräng.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Observera att anpassade fält inte behöver ha några säkerhetsposter i databas
 
 Nedan visas en skärmbild från Visual Studio av appens objektträdet. Den visar en utvidgning av TSTimesheetLine-tabellen med TestLineString-fältet tillagt som ett anpassat fält.
 
-![Radsträng](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Radsträng.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Använd kommandokedja på buildCustomFieldList-metoden i TSTimesheetSettings-klassen för att visa ett fält i tidrapportpost
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Nedan visas en skärmdump från mobilappen för en användare som visar en tidrapport. Knappen "Mer information" har markerats i det övre högra hörnet för att visa alternativet "Visa mer information".  
 
-![Visa kommandot för mer information](media/show-more.png)
+![Visa kommandot för mer information.](media/show-more.png)
 
 Nedan följer en skärmdump från mobilappen som visar avsnittet "Mer" i en tidrapport. Ett anpassat fält som heter "Utnyttjandegraden för denna tidrapport (beräknat anpassat fält)" har lagts till i rubriken för tidrapport. Ett skrivskyddat värde på "0,667" har angetts för det anpassade fältet.
 
-![Avsnittet Mer](media/more-section.jpg)
+![Avsnittet Mer.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Utöka tabellen TSTimesheetTable så att den har ett anpassat fält
 
@@ -414,7 +414,7 @@ Befintlig logik för tidrapportfunktioner på databasnivå fungerar fortfarande 
 
 Från projektparametrar kan du göra fält som inte är skrivskyddade eller dolda i mobilappen. Ange alternativen i avsnittet **Mobila tidrapporter** på fliken **Tidrapporter** för sidan **Projektledning och redovisningsparametrar**.
 
-![Projektparametrar](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektparametrar.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Ändra vilka aktiviteter som är tillgängliga för markering via tillägg
 

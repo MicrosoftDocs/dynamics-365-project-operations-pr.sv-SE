@@ -1,21 +1,19 @@
 ---
-title: Konfigurera debiterbara komponenter i en projektbaserad kontraktrad
+title: Konfigurera debiteringsbara komponenter på en projektkontraktrad
 description: I det här ämnet finns information om inkluderade, debiterbara och icke debiterbara komponenter på kontraktrader.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2266d8e0fe998e7161ede4cb4eaf7d3c70c54f71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278717"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004063"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurera debiterbara komponenter i en projektbaserad kontraktrad
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfigurera debiteringsbara komponenter på en projektkontraktrad
 
 _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
 

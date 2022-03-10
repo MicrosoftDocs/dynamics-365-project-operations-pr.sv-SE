@@ -1,27 +1,25 @@
 ---
-title: Hantera projektprislistor i projektofferter - lite
-description: I det här ämnet finns information om hur du arbetar med projektprislistor i offerter. (Sales)
+title: Hantera projektprislistor i projektofferter
+description: I det här ämnet finns information om hur du arbetar med projektprislistor i offerter.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176003"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001633"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Hantera projektprislistor i projektofferter - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Hantera projektprislistor i projektofferter 
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Projektofferter har utformats för att stödja flera datumeffektiva försäljningsprislistor. Med Dynamics 365 Project Operations läggs en ny associerad entitet med namnet **Projektprislistor** till. Entiteten har förhållandet 1-till-många till en projektoffert.
+Projektofferter har utformats för att stödja flera datumeffektiva försäljningsprislistor. Med Dynamics 365 Project Operations läggs en ny associerad entitet med namnet **Projektprislistor**. Entiteten har förhållandet 1-till-många till en projektoffert.
 
-Projektprislistor används för att visa pris-, tids- och utgiftstransaktioner för ett projekt. När en offert har en eller flera projektprislistor används de här prislistorna som uppskattningar och faktiska värden av pris, tid och utgifter för projekt som associeras med offerten via offertraden.
+Projektprislistor används för pristransaktioner med tid, material och utgifter för ett projekt. När en offert har en eller flera projektprislistor används dessa prislistor för pristid, material, kostnader och faktiska värden för projekt som är associerade med offerten via offertraden.
 
 Om det inte finns några projektprislistor på en projektoffert visas ett varningsmeddelande. Meddelandet anger att eftersom det inte finns några projektprislistor blir inte uppskattade och faktiska värden för arbete och utgifter i projektet prissatta. De kommer i stället att ha noll (0) pris för försäljningsvärden.
 
@@ -67,3 +65,6 @@ När du har skapat organisations- och kundspecifika standardprislistor skapas di
 
 1. I **Projektoffert**, under fliken **Projektprislistat**, verifierar du i underrutnätet att ingen specifik prislistpost har valts.
 2. Välj **Skapa anpassad prissättning**. Då skapas en kopia av alla standardprislistor som är associerade med offerten och dessa kopior associeras till offerten. De befintliga kopplingarna till standardprislistor tas bort. Säljaren kan sedan göra ändringar i priser för kopiorna. De ändrade priserna gäller endast för den här projektofferten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

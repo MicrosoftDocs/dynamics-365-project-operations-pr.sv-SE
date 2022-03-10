@@ -2,8 +2,6 @@
 title: Visa resurstillgänglighet
 description: Visa resurstillgängligheten i Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9c61523bbda814d14e4cb4999a710f652eb77cc77848d9b0246bd6ebde258dd7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000058"
 ---
 # <a name="view-resource-availability-project-service"></a>Visa resurstillgänglighet (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,3 +46,6 @@ Du kan kontrollera resurstillgänglighet för att få en övergripande bild av h
 
 ### <a name="see-also"></a>Se även  
  [Guide för resurshanteraren](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

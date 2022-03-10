@@ -2,8 +2,6 @@
 title: Skapa tidsposter
 description: I det här ämnet finns information om hur du skapar tidsposter.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131314"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990428"
 ---
 # <a name="create-time-entries"></a>Skapa tidsposter
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -68,3 +68,6 @@ Du kan importera data från projektbokningar och tilldelningar. När du importer
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Gruppera efter, sortera, söka och filtrera funktioner
 
 Du kan gruppera och filtrera tidsposter efter de dimensioner som anges i kolumnerna. I fältet **gruppera efter** väljer du den dimension som ska användas för att filtrera tidsposter. Du kan också sortera tidsposter i stigande eller fallande ordning med hjälp av pilen sortera i kolumnrubrikerna. Du kan även visa eller dölja poster genom att välja knappen **Filter** i kolumnrubrikerna och i rutan **Sök** ange den text som ska användas för att söka efter tidsposter efter projektnamn, projektuppgift, tidspost eller resurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projektmallar
 description: I det här ämnet finns information om hur du använder projektmallar för att snabbkonfigurera projekt.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9d208ebcef127062428afdadde2c54eb07ea505
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283615"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002533"
 ---
 # <a name="project-templates"></a>Projektmallar 
 
@@ -49,7 +47,7 @@ Det finns flera sätt att skapa ett projekt från en projektmall:
 
 - När du skapar ett projekt från en offert kan du välja en projektmall i dialogrutan **Snabbregistrering: projekt**.
 
-> ![Snabbregistrering: dialogrutan Projekt](media/project-11.png)
+> ![Snabbregistrering: dialogrutan Projekt.](media/project-11.png)
 
 - När du skapar ett projekt genom att välja **Nytt projekt**, visas sidan **Projekt** innan posten sparas. I fältet **Välj en mall** väljer du en av de fördefinierade projektmallarna i organisationen.
 - Använd **Skapa projekt från en mall** på sidan **Mallentitet**.

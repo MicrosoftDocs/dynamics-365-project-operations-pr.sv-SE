@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433675"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009238"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Vad är nytt i juli 2021 – Project Operations lite-distribution
 
@@ -20,7 +20,7 @@ _Gäller: Lite-distribution - avtal till proforma-fakturering_
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
-  - Project Operations i Dataverse-miljöversion 4.12.0.148.
+  - Project Operations i Dataverse miljöversion 4.12.0.148 eller 4.12.0.152.
 
 ## <a name="quality-updates"></a>Kvalitetsuppdateringar
 | **Funktionsområde**              | **Referensnummer** | **Kvalitetsuppdatering**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Allmänt                       | 2296857              | Förloppsspårning för jobb som körs länge.                                                                                                                                                                        |
 | Allmänt                       | 2253682              | Project Operations-lösningen med dubbelriktade skrivningar bör inte installeras när dubbelriktade skrivning installeras i en miljö utan lösningen med dubbelriktade skrivningar.                                                |
 | Allmänt                       | 2316420              | Det går inte att tillhandahålla kärnetablering för Project Service om programanvändarens affärsenhet ändras.                                                                                                                     |
+| Allmänt                       | 2376405              | Åtgärdat publicerarbaserat uppdateringsproblem (kvalitetsuppdatering är tillgänglig i version 4.12.0.152)                                                                                                                     |

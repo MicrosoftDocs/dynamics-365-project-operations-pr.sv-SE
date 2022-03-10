@@ -10,18 +10,18 @@ ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009728"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007348"
 ---
 # <a name="project-resourcing-home-page"></a>Startsida för Projektresurser
 
@@ -38,7 +38,7 @@ En utmaning för projektledarna och resurshanterare under projektplaneringsfasen
 - Uppskatta antalet resurser som krävs under hela livscykeln för ett projekt.
 - Skapa ett utkast till en uppdelad arbetsstruktur med hjälp av de första resurstilldelningarna.
 
-[![Projektets livscykel](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Projektets livscykel.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 När projektplaneringen fortsätter kan planerade resurser ersättas med personalresurser. Projektledaren kan också gå tillbaka och uppdatera resurshanteringsreservationerna under alla projektstadier.
 

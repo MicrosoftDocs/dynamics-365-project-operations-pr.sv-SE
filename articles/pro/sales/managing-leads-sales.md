@@ -2,18 +2,16 @@
 title: Hantera leads - lite
 description: I det här ämnet finns information om hantering av projektbaserade leads (pro).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949746"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991418"
 ---
 # <a name="manage-leads---lite"></a>Hantera leads - lite
 

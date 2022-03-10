@@ -2,18 +2,16 @@
 title: Skapa ett faktureringsschema för en projektbaserad kontraktrad
 description: I det här ämnet finns information om hur du skapar faktureringsscheman och milstolpar på kontraktrader.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4085772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999698"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Skapa ett faktureringsschema för en projektbaserad kontraktrad 
 
@@ -49,7 +47,7 @@ Utför följande steg för att generera ett milstolpebaserat faktureringsschema 
 3. Öppna kontrakttraden **Fast pris** som du skapar ett milstolpeschema för. Under fliken **Faktureringsmilstolpar** väljer du faktureringsstartdatum och faktureringsfrekvens. 
 4. I underrutnätet väljer du **Generera periodiska milstolpar**. Faktureringsschemat skapas med fälten **Milstolpenamn**, **Milstolpedatum** och **Milstolpebelopp** enligt följande:
 
-    - **Milstolpenamn**: Detta datum dikteras utifrån faktureringsfrekvensen.
+    - **Milstolpens namn**: Detta namn bestäms av fakturafrekvensen.
     - **Milstolpedatum**: Detta datum dikteras utifrån faktureringsfrekvensen.
     - **Milstolpebelopp**: Detta belopp beräknas genom att dela kontraktbeloppet på kontraktraden med antalet milstolpar som styrs av frekvensen, faktureringsstarten och önskade leveransdatum.
 
@@ -64,7 +62,7 @@ Du kan generera milstolpar med fast pris manuellt när de inte delas periodiskt.
 1. Öppna kontraktraden för fast pris som du skapar en milstolpe för och gå till fliken **Faktureringsschema**, där du i underrutnätet väljer **+ Skapa ny milstolpe för kontraktrad**. 
 2. På sidan **Skapa milstolpe** anger du den nödvändiga informationen baserat på följande tabell.
 
-| Fält | Plats | Relevans, syfte och vägledning | Inverkan nedströms |
+| Fält | Plats | Beskrivning | Inverkan nedströms |
 | --- | --- | --- | --- |
 | Milstolpens namn | Snabbregistrering | Textfält för milstolpens namn. | Detta förs över till milstolpen i projektets kontraktrad och till fakturan. |
 | Projektuppgift | Snabbregistrering | Om milstolpen är knuten till en projektuppgift använder du den här referensen för att lägga till anpassad logik och ange milstolpens status utifrån uppgiftens status. | Programmet har inte någon inverkan nedströms för den här referensen till en uppgift. |
@@ -74,3 +72,6 @@ Du kan generera milstolpar med fast pris manuellt när de inte delas periodiskt.
 | Moms | Snabbregistrering | Momsbeloppet som används på milstolpen. | Detta förs över till milstolpen i projektets kontraktrad och till fakturan. |
 
 3. Välj **Spara och stäng**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

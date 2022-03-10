@@ -2,18 +2,16 @@
 title: Projektbaserade fakturor för korrigering
 description: Detta ämne ger information om hur du skapar och bekräftar projektbaserade fakturor för korrigering i Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 03/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997178"
 ---
 # <a name="corrective-project-based-invoices"></a>Projektbaserade fakturor för korrigering
 

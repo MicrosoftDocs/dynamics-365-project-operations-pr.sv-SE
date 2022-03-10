@@ -2,18 +2,16 @@
 title: Konfigurera automatiskt fakturaskapande
 description: Detta ämne innehåller information om hur du konfigurerar och konfigurerar automatisk generering av proforma-fakturor.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866839"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997538"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>Konfigurera automatiskt fakturaskapande 
  

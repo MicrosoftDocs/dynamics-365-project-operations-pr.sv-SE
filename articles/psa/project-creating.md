@@ -2,8 +2,6 @@
 title: Projektscheman
 description: I det här ämnet finns information om hur du skapar ett schema.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8f1a0b0ed610ade094546782a1fa517682a390e4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998438"
 ---
 # <a name="project-schedules"></a>Projektscheman 
 
@@ -96,7 +94,7 @@ Rutnätet **Schema** är fullt åtkomligt och kan användas med skärmläsare so
 
 En uppgifts namn beskriver det arbete som måste utföras. I PSA beskriver de attribut som associeras med en uppgift schemat för uppgiften och dess krav på personalen.
 
-> ![Uppgiftsattribut](media/project-2.png)
+> ![Uppgiftsattribut.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Schemalägg attribut
 

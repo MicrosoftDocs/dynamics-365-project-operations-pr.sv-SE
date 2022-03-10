@@ -2,18 +2,16 @@
 title: Boka till ett projekt
 description: I det här ämnet finns information om hur du bokar resurser för ett projekt.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dff8107864f95c87d25a421dfeeafe9081e98e25
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994928"
 ---
 # <a name="book-to-a-project"></a>Boka till ett projekt
 

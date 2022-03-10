@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007613"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992408"
 ---
 # <a name="estimates"></a>Beräkningar
 
@@ -83,24 +83,24 @@ Om du har lagt till ett anpassat fält på offertradinformationen och vill att f
 1. Öppna PluginRegistrationTool och anslut till din online-instans.
 2. Välj **Sök** och sök efter det plugin-program som du vill uppdatera.
 
-    ![Dialogrutan Sökträd](media/basic-guide-19.png)
+    ![Dialogrutan Sökträd.](media/basic-guide-19.png)
 
 3. Markera plugin-programmet och välj sedan **Välj** på huvudsidan.
 4. Markera steget för det plugin-program som ska uppdateras, högerklicka och välj sedan **uppdatera**.
 
-    ![Välja ett steg i plugin-programmet](media/basic-guide-20.png)
+    ![Välja ett steg i plugin-programmet.](media/basic-guide-20.png)
 
 5. I dialogrutan **Uppdatera befintliga steg** i fältet **filtrera attribut** väljer du ellips-knappen (**...**):
  
-    ![Dialogrutan Uppdatera befintlig åtgärd](media/basic-guide-21.png)
+    ![Dialogrutan Uppdatera befintlig åtgärd.](media/basic-guide-21.png)
 
 6. I dialogrutan **Välj attribut** markerar du kryssrutor för anpassade attribut.
 
-    ![Markera dialogrutan Attribut.](media/basic-guide-22.png)
+    ![Dialogrutan Välj attribut.](media/basic-guide-22.png)
 
 7. Välj **OK** för att stänga dialogrutan och välj sedan **Uppdatera steg**.
  
-    ![Knappen Uppdatera steg](media/basic-guide-23.png)
+    ![Knappen Uppdatera steg.](media/basic-guide-23.png)
 
 8. Upprepa steg 1 till och med 7 för det andra plugin-programmet.
 9. Stäng PluginRegistrationTool.

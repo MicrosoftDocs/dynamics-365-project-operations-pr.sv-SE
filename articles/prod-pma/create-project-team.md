@@ -2,11 +2,9 @@
 title: Skapa ett projektteam
 description: I det här ämnet finns information om hur du skapar och hanterar projektteam.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270880"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005818"
 ---
 # <a name="create-a-project-team"></a>Skapa ett projektteam
 
@@ -35,7 +33,7 @@ Vyinställningar kan också anpassas så att du får en bättre bild av resursti
 
 Projektledaren kan välja en roll på sidan och om det finns en tillgänglig resurs som passar för kravet väljer du om du vill reservera en resurs som ska fylla rollen. Observera att resurserna inte behöver reserveras vid den här tidpunkten i planeringsfasen. När du skapar en struktur kan du ersätta roller med personalresurser för projektet. Om roller ersätts med personalresurser i WBS uppdateras projektets teamlista och schemaläggning automatiskt i resursinställningarna.
 
-[![Projektteamlistor som innehåller både roller och faktiska resurser](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektteamlistor som innehåller både roller och faktiska resurser.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektledaren har olika alternativ för att boka en resurs för ett projekt, till exempel **återstående kapacitet**, **full kapacitet**, **kapacitetsprocent** och **ange timmar**. De här bokningsalternativen kan när som helst annulleras om resurstilldelningar ändras. Två typer av bokningar stöds:
 

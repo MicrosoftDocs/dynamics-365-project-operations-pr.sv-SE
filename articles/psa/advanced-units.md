@@ -2,8 +2,6 @@
 title: Enhetsgrupper och enheter
 description: I det här ämnet finns information om enhetsgrupper och enheter.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291641"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987593"
 ---
 # <a name="unit-groups-and-units"></a>Enhetsgrupper och enheter
 
@@ -46,7 +44,7 @@ Till exempel i enhetsgruppen **Tid** om du ställer in **timme** som den första
 
 I följande bild visas en exempelinställning för enheten **Dag** där fältet **kvantitet** visar antalet timmar som befinner sig på en dag och **vecka** där fältet **antal** visar antalet dagar i veckan.
 
-> ![Enhetsgrupp: informationssida](media/advanced-2.png)
+> ![Enhetsgrupp: informationssida.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Använda enheter och enhetsgrupper
 
@@ -88,7 +86,7 @@ Följande exempel visar hur PSA använder enhetsgrupperna, enheterna och konvert
 
 | Roll      | Enhetsgrupp | Enhet | Organisationsenhet | Pris   |
 |-----------|------------|------|---------------------|---------|
-| Utvecklare | Time       | Day  | Contoso UK          | 800 GBP |
+| Utvecklare | Tid       | dag  | Contoso Storbritannien          | 800 GBP |
 
 ### <a name="time-entry"></a>Tidspost
 

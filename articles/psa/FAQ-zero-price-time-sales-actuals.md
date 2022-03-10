@@ -2,8 +2,6 @@
 title: Varför återställs priset till standardvärdet noll för tidsförsäljningstillgångar?
 description: Felsökning kring varför ett pris återställs till standardvärdet 0 för tidsförsäljningstillgångar.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c886c4a53b4ba47e381b891fe22a565ad8fd1ac6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085664"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992588"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Varför återställs priset till standardvärdet noll för tidsförsäljningstillgångar?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -55,3 +55,6 @@ Om det inte finns någon rad i rutnätet för rollpriser för prissättning i ti
 
 Om du fortfarande inte ser något giltigt pris på tidsförsäljningstillgången efter att ha följt de tre kontrollerna ovan, vänligen skapa då ett supportärende. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

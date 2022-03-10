@@ -2,18 +2,16 @@
 title: Hantera projektbaserade affärsmöjligheter
 description: I det här ämnet finns information om hur du arbetar med affärsmöjligheter som är relaterade till projekt.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991913"
 ---
 # <a name="manage-project-based-opportunities"></a>Hantera projektbaserade affärsmöjligheter
 
@@ -21,7 +19,7 @@ _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, 
 
 Projektbaserade företag har vanligtvis sina operationer för leveransspridning i flera länder och geografier. Kostnaden för projektkörningen och leveransen kan variera beroende på vilken geografi eller avdelning som hanterar leveransen. Detta kan i sin tur påverka avtalets marginaler. Leverans av projektbaserade tjänster innebär vanligtvis stora kvantiteter mänsklig tid, avsevärda kostnader för resor, materialkostnader och andra utgifter.
 
-Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har designats med tillägg till Dynamics 365 Sales. I ämnet finns information om de olika fälten och affärslogiken i de ytterligare funktioner som krävs av projektbaserade företag för att hantera projektbaserade affärsmöjligheter.
+Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har utformats med tillägg till Dynamics 365 Sales. I ämnet finns information om de olika fälten och affärslogiken i de ytterligare funktioner som krävs av projektbaserade företag för att hantera projektbaserade affärsmöjligheter.
 
 ## <a name="view-all-project-based-opportunities"></a>Visa alla projektbaserade affärsmöjligheter
 
@@ -64,4 +62,7 @@ Affärsmöjlighetens försäljningsprocess i Project Operations är ett tillägg
 >
 > Om ditt projektbaserade avtal har inletts med en affärsmöjlighet ges försäljningsprocessen för affärsmöjligheten företräde.
 
-Du kan redigera produktens affärsprocessflöde eller skapa egna affärsprocessflöden för att spåra din försäljningsprocess efter behov. Mer information om affärsprocessflödet finns i [Översikt över affärsprocessflöden](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Du kan redigera produktens affärsprocessflöde eller skapa egna affärsprocessflöden för att spåra din försäljningsprocess efter behov. Mer information om affärsprocessflödet finns i [Översikt över affärsprocessflöden](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,17 @@
 title: Inköp av icke-lagerbaserade material med väntande leverantörsfaktura
 description: I ämnet beskrivs hur du registrerar väntande leverantörsfakturor.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993837"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547311"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Inköp av icke-lagerbaserade material med väntande leverantörsfaktura
 
@@ -20,7 +20,7 @@ _**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenari
 
 När ett företag köper in icke-lagerbaserade material till ett projekt, kan kostnaderna registreras direkt på projektet. 
 
-Exempelvis utför Contoso Robotics US ett projekt för utrustningsförnyelse och behöver programvarulicenser. Licenserna köps in från en tredjepartsleverantör.  Med Dynamics 365 Finance registrerar den ansvariga för leverantörsreskontra ett väntande leverantörsfakturadokument och registrerar licenskostnaderna direkt på utrustningsförnyelseprojektet. 
+Contoso Robotics US utför till exempel ett projekt för utrustningsförnyelse och behöver programvarulicenser. Licenserna köps in från en tredjepartsleverantör.  Med Dynamics 365 Finance registrerar den ansvariga för leverantörsreskontra ett väntande leverantörsfakturadokument och registrerar licenskostnaderna direkt på utrustningsförnyelseprojektet. 
 
 > [!IMPORTANT]
 > Innan du använder funktionerna som beskrivs i ämnet måste du granska och tillämpa de konfigurationer som krävs. Mer information finns i [Aktivera icke-lagerbaserade material och väntande leverantörsfakturor](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Väntande leverantörsfakturor kan registreras på sidan **Väntande leverantör
     - Leverantörens saldobelopp.
     - Momsbeloppet.
     - Kostnaden på projektet registreras på inköpsintegrationskontot.
-    - Den faktiska projekttransaktionen i Dataverse. Transaktionen bearbetas vidare med [Project Operations-integrationsjournal](../project-accounting/project-operations-integration-journal.md). Om du registrerar journalen flyttas beloppet från inköpsintegrationskontot till projektkostnadskontot.
+    - Den faktiska projektkostnadstransaktionen i Dataverse.  Transaktionen bearbetas vidare med [Project Operations-integrationsjournal](../project-accounting/project-operations-integration-journal.md). Om du registrerar journalen flyttas beloppet från inköpsintegrationskontot till projektkostnadskontot. 
+    - Inköp som faktureras till projektkunden med hjälp av faktureringsmetoden för tid och material. Dessutom skapas ofakturerade försäljningstransaktioner för inköpen i Dataverse. Produktprislistan i används Dataverse för försäljningspriser och belopp för icke-fakturerad försäljningstransaktion.

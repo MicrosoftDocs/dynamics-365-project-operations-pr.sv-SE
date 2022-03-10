@@ -2,10 +2,9 @@
 title: Översikt över värden
 description: I det här ämnet finns information om projektets faktiska värden.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,26 +17,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129790"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992498"
 ---
 # <a name="actuals-overview"></a>Översikt över värden
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Faktiska värden är den mängd arbete som har slutförts i ett projekt. Projektets faktiska värden kan spåras tillbaka till källdokumenten. Dessa källdokument innehåller både tid, utgift och journaltransaktioner samt fakturor.
 
-![Så här spåras projektets faktiska resultat till källdokument](media/basic-guide-18.png)
+![Så här spåras projektets faktiska resultat till källdokument.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Skicka tidspost
 
 I PSA när en tidspost skickas för ett projekt som är mappat till en kontraktrad för tid och material skapas två journalrader. En rad är för kostnad och den andra raden är för ofakturerad försäljning. När en tidspost skickas för ett projekt som är mappat till en kontraktrad för fast pris skapas endast en journalrad för kostnad. 
 
-Logik för att ange standardpriser finns på journalraden. Alla fältvärden från en tidspost kopieras till journalraden. Fälten innehåller datumet för transaktionen, kontraktsraden som projektet är mappat till och valutaresultatet i rätt prislista. 
+Logik för att ange standardpriser finns på journalraden. Alla fältvärden från en tidspost kopieras till journalraden. Fälten innehåller datumet för transaktionen, kontraktraden som projektet är mappat till och valutaresultatet i rätt prislista. 
 
 De fält som påverkar standardpriser, t.ex. **Roll** och **Organisatinsenhet** gör att ett korrekt pris anges som standard på journalraden. Om du lägger till ett anpassat fält i tidsposten och du vill att fältvärdet ska spridas till faktiska värden, skapar du fältet på entiteten faktiska värden och använder fältmappningar för att kopiera fältet från tidsposten till det faktiska värdet.
 
@@ -45,7 +46,7 @@ De fält som påverkar standardpriser, t.ex. **Roll** och **Organisatinsenhet** 
 
 I PSA när en utgiftspost skickas för ett projekt som är mappat till en kontraktrad för tid och material skapas två journalrader. En rad är för kostnad och den andra raden är för ofakturerad försäljning. När en utgiftspost skickas för ett projekt som är mappat till en kontraktrad för fast pris skapas endast en journalrad för kostnad.
 
-Logik för att ange standardpriser för utgifter baseras på den utgiftskategori som är vald på sidan **utgiftspost**. Datumet för transaktionen, kontraktsraden som projektet är mappat till och valutan används för att bestämma rätt prislista. För själva priset anges emellertid det belopp som användaren har angett direkt på de relaterade utgiftsjournalraderna för kostnad och försäljning som standard.
+Logik för att ange standardpriser för utgifter baseras på den utgiftskategori som är vald på sidan **utgiftspost**. Datumet för transaktionen, kontraktraden som projektet är mappat till och valutan används för att bestämma rätt prislista. För själva priset anges emellertid det belopp som användaren har angett direkt på de relaterade utgiftsjournalraderna för kostnad och försäljning som standard.
 
 I den aktuella versionen av PSA är kategoribaserade poster av per enhet standardpriser på utgiftposter inte tillgängliga.
 
@@ -328,3 +329,6 @@ PSA registrerar ekonomiska transaktioner som inträffar under ett projekt. Dessa
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

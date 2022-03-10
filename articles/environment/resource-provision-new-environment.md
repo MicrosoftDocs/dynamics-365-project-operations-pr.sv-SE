@@ -2,19 +2,17 @@
 title: Etablera en ny miljö
 description: I det här ämnet finns information om hur du etablerar en ny Project Operations-miljö.
 author: sigitac
-manager: Annbe
-ms.date: 12/11/2020
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276910"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928683"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
@@ -31,16 +29,16 @@ Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för P
 1. Gå till [LCS](https://lcs.dynamics.com/v2) och välj ikonen **Hantering av förhandsgranskningsfunktion**.
 2. I listan **Förhandsgranskningsfunktion** väljer du **Project Operations-funktion** och sedan **Förhandsgranskningsfunktion aktiverad** för att aktivera Project Operations.
 
-> [!NOTE]
-> Det här steget utförs endast en gång per LCS-projekt.
+   > [!NOTE]
+   > Det här steget utförs endast en gång per LCS-projekt.
 
 ## <a name="provision-a-project-operations-environment"></a>Etablera en Project Operations-miljö
 
-1. Öppna en ny Dynamics 365 Finance [demomiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
+1. Öppna en ny Dynamics 365 Finance [demomiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
 2. Gå igenom guiden **Miljöetablering**. 
 
-> [!IMPORTANT]
-> Kontrollera att den valda programversionen är 10.0.13 eller senare.
+   > [!IMPORTANT]
+   > Kontrollera att den valda programversionen är 10.0.13 eller senare.
 
 3. Om du vill etablera Project Operations väljer du, under **Avancerade inställningar**, **Common Data Service**. 
 4. Aktivera **Common Data Service-inställningen** genom att välja **Ja** och sedan ange information i de obligatoriska fälten:
@@ -51,25 +49,23 @@ Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för P
   - Valuta
  
 5. I fältet **Common Data Service-mall** väljer du **Project Operations** 
-
 6. Välj miljötypen för din distribution. Med en prenumerationsbaserad utvärderingsversion kan du distribuera en CDS-miljö i 30 dagar. 
 
-![Distributionsinställningar](./media/1DeploymentSettings.png)
+     ![Distributionsinställningar.](./media/1DeploymentSettings.png)
 
-> [!IMPORTANT]
-> Välj **Godkänn** för att bekräfta tjänstvillkoren och välj sedan **Klar** för att återgå till distributionsinställningarna.
-
-![Distributionsmedgivande](./media/2DeploymentConsent.png)
+    > [!IMPORTANT]
+    > Välj **Godkänn** för att bekräfta tjänstvillkoren och välj sedan **Klar** för att återgå till distributionsinställningarna.
+    >
+    >![Distributionsmedgivande.](./media/2DeploymentConsent.png)
 
 7. Valfritt – Tillämpa demodata på miljön. Gå till **Avancerade inställningar** väljer du **Anpassa konfiguration av SQL-databas** och ange **Ange en datauppsättning för programdatabas** som **Demo**.
-
 8. Fyll i de återstående obligatoriska fälten i guiden och bekräfta distributionen. Tiden för etablering av miljön varierar beroende på miljötypen. Etableringen kan ta upp till sex timmar.
 
-  När distributionen har slutförts visas miljön som **Distribuerad**.
+   När distributionen har slutförts visas miljön som **Distribuerad**.
 
 9. Bekräfta att miljön har distribuerats korrekt genom att välja **Inloggning** och logga in i miljön för att bekräfta.
 
-![ miljöinformation](./media/3EnvironmentDetails.png)
+    ![Miljöinformation.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Tillämpa uppdateringar av Finance-miljön
 
@@ -79,35 +75,35 @@ Du kan behöva tillämpa kvalitetsuppdateringar av Finance-miljön för att få 
 
 1. I LCS, på sidan **Miljöinformation**, i avsnittet **Tillgängliga uppdateringar**, väljer du **Visa uppdatering**.
 
-![Visa uppdateringar](./media/5ViewUpdates.png)
+    ![Visa uppdateringar.](./media/5ViewUpdates.png)
 
 2. På sidan **Binära uppdateringar** väljer du **Spara paket.**
 
-![Spara paket](./media/6SavePackage.png)
+    ![Spara paket.](./media/6SavePackage.png)
 
 3. Klicka på **Välj alla** och välj sedan **Spara paket**.
 
-![Granska och spara uppdateringar](./media/7ReviewAndSaveUpdates.png)
+    ![Granska och spara uppdateringar.](./media/7ReviewAndSaveUpdates.png)
 
 4. Ange ett namn och en beskrivning för paketet och välj sedan **Spara**. Beroende på vilken internetanslutning du har kan processen ta lite tid.
 
-![Ladda upp paket till resursbiblioteket](./media/8UploadPackageToAssetsLibrary.png)
+    ![Ladda upp paket till resursbiblioteket.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. När paketet har sparats väljer du **Klart** och sparar det här paketet i resursbiblioteket i LCS-projektet.
 
-Det kan ta ~ 15 minuter att spara och verifiera paketet.
+   Det kan ta ~ 15 minuter att spara och verifiera paketet.
 
 6. Om du vill tillämpa uppdateringen navigerar du till sidan **Miljöinformation** i LCS och väljer **Upprätthåll** > **Tillämpa uppdateringar**.
 
-![Upprätthåll miljöer](./media/9MaintainEnvironment.png)
+    ![Upprätthåll miljöer.](./media/9MaintainEnvironment.png)
 
 7. Välj det paket du skapade i listan med uppdateringar och välj **Tillämpa**.
 
-![Tillämpa uppdateringar](./media/10ApplyUpdates.png)
+    ![Tillämpa uppdateringar.](./media/10ApplyUpdates.png)
 
-Miljöunderhållet tar lite tid. När det är klart kommer miljön att återgå till ett distribuerat tillstånd.
+   Miljöunderhållet tar lite tid. När det är klart kommer miljön att återgå till ett distribuerat tillstånd.
 
-![Miljö distribuerad](./media/11EnvironmentDeployed.png)
+    ![Miljö distribuerad.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Upprätta en anslutning med dubbelskrivning 
 
@@ -115,53 +111,55 @@ Miljöunderhållet tar lite tid. När det är klart kommer miljön att återgå 
 2. Under **Information om Common Data Service-miljö** väljer du **Länk till CDS for Apps**.
 3. När länken är klar väljer du **Länk till CDS for Apps** igen. Du omdirigeras då till dubbelskrivning i Finance.
 
-![Länk till CDS](./media/12LinktoCDS.png)
+    ![Länk till CDS.](./media/12LinktoCDS.png)
 
 4. Välj **Tillämpa lösning** för att komma åt de entiteter som ska mappas i integrationen.
 
-![Tillämpa lösningar](./media/13ApplySolutions.png)
+    ![Tillämpa lösningar.](./media/13ApplySolutions.png)
 
 5. Välj båda lösningarna, **Dynamics 365 Finance and Operations-entitetskarta för dubbelskrivning** och **Dynamics 365 Project Operations-entitetskartor för dubbelskrivning** och välj sedan **Verkställ**.
 
-![Bekräfta lösningar](./media/14ConfirmSolutions.png)
+    ![Bekräfta lösningar.](./media/14ConfirmSolutions.png)
 
-När lösningarna har tillämpats tillämpas entiteterna med dubbelskrivning i miljön.
+    När lösningarna har tillämpats tillämpas entiteterna med dubbelskrivning i miljön.
 
-![Tillämpa lösningar](./media/15ApplyingSolutions.png)
+    ![Tillämpa lösningar.](./media/15ApplyingSolutions.png)
 
-När entiteterna har tillämpats visas alla tillgängliga mappningar i miljön.
+    När entiteterna har tillämpats visas alla tillgängliga mappningar i miljön.
 
-![Kartor dubbelskrivning](./media/15DWMappings.png)
+    ![Kartor dubbelskrivning.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Uppdatera dataentiteterna efter uppdateringen
 
 1. I Finance går du till arbetsytan **Datahantering**.
 
-![Datahantering arbetsyta](./media/16DataManagement.png)
+    ![Datahantering arbetsyta.](./media/16DataManagement.png)
 
 2. Välj ikonen **Ramverksparametrar**.
 
-![Ramverksparametrar](./media/17FrameworkParameters.png)
+    ![Ramverksparametrar.](./media/17FrameworkParameters.png)
 
 3. På sidan **Entitetsinställningar** väljer du **Uppdatera entitetslista**.
 
-![Uppdatera entitetslista](./media/18RefreshEntityList.png)
+    ![Uppdatera entitetslista.](./media/18RefreshEntityList.png)
 
 Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den är klar.
 
-![Uppdateringsbekräftelse](./media/19RefreshConfirmation.png)
+  ![Uppdateringsbekräftelse.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Uppdatera säkerhetsinställningarna för Project Operations i Dataverse
 
 1. Gå till Project Operations i din Dataverse-miljö. 
 2. Gå till **Inställningar** > **Säkerhet** > **Säkerhetsroller**. 
 3. På sidan **Säkerhetsroller**, i listan över roller, väljer du **Användare av appar för dubbelriktad skrivning** och välj fliken **Anpassade entiteter**.  
-4. Kontrollera att rollen har behörigheterna **Läs** och **Lägg till i** för:
+4. Kontrollera att rollen har behörigheten **Läsa** och **Tillägg till** för följande entiteter:
       
       - **Växelkurstyp för valuta**
       - **Kontolista**
       - **Kalender för räkenskapsår**
       - **Transaktionsregister**
+      - **Företag**
+      - **Utgift**
 
 5. När säkerhetsrollen uppdateras går du till **Inställningar** > **Säkerhet** > **Teams** och väljer standardteamet i teamvyn **Lokala företagsägare**.
 6. Välj **Hantera roller** och kontrollera att säkerhetsbehörigheten **Användare av appar för dubbelriktad skrivning** gäller för det här teamet.
@@ -170,37 +168,10 @@ Uppdateringen ska ta cirka 20 minuter. Du kommer att få en avisering när den �
 
 1. I ditt LCS-projekt går du till sidan **Miljöinformation**.
 2. Under **Information om Common Data Service-miljö** väljer du **Länk till CDS for Apps.** När du har valt länken dirigeras du om till listan över entiteter i mappningarna.
-3. Starta kartorna enligt beskrivningen i följande tabell. Kontrollera att du följer sekvensen enligt anvisningarna nedan.
+3. Starta mappningarna. Mer information finns i [Project Operations-versioner med dubbelriktad skrivning](resource-dual-write-maps.md#project-operations-dual-write-maps)
+4. Kontrollera att alla projektrelaterade kartor är i körläge.
 
-| **Entitetsmappning** | **Uppdatera entitet** | **Initial synkronisering** | **Huvud för initial synkronisering** | **Kör förutsättningar** | **Förutsättningar initial synkronisering** |
-| --- | --- | --- | --- | --- | --- |
-| **Projektresursroller för alla företag (bookableresourcecategories)** | Inga | Ja | Common Data Service | Inga | N\A |
-| **Juridiska personer (cdm\_companies)** | Inga | Ja | Finance and Operations-appar | Inga | N\A |
-| **Huvudbok (msdyn_ledgers)** | Inga | Ja | Finance and Operations-appar | Ja | Ja, Finance and Operations-appar |
-| **Verkliga värden för Project Operations-integrering (msdyn\_actuals)** | Inga | Inga | N\A | Ja | Inga |
-| **Projektkontraktrader (salesorderdetails)** | Inga | Inga | N\A | Inga | Inga |
-| **Integrationsentitet för projekttransaktionsrelationer (msdyn\_transactionconnections)** | Inga | Inga | N\A | Inga | N\A |
-| **Milstolpar för kontraktrad för Project Operations-integration (msdyn\_contractlinesscheduleofvalues)** | Inga | Inga | N\A | Inga | N\A |
-| **Entitet för Project Operations-integration för utgiftsuppskattningar (msdyn\_estimateslines)** | Inga | Inga | N\A | Inga | N\A |
-| **Entitet för export av projektutgiftkategorier i Project Operations-integration (msdyn\_expensecategories)** | Inga | Inga | N\A | Inga | N\A |
-| **Entitet för export av projektutgifter i Project Operations-integration (msdyn\_expenses)** | Ja | Inga | N\A | Inga | N\A |
-| **Entitet för Project Operations-integration för tidsuppskattningar (msdyn\_resourceassignments)** | Ja | Inga | N\A | Inga | N\A |
-
-
-4. Om du vill uppdatera entiteten väljer du kartnamnet och väljer sedan **Uppdatera entiteter**. 
-
-
-![Uppdatera karta](./media/20RefreshMapping.png)
-
-5. Kör kartan efter att uppdateringen har slutförts. Innan du aktiverar nästa karta ska du kontrollera att kartan i tabellen är i tillståndet **Körs**. Det kan ta en stund att köra kartor med ett större antal förutsättningar.
-
-Om du vill köra en karta med förutsättningar ska du aktivera **Visa relaterade entitetskartor**. Om tabellen anger att **Förutsättning initial synkronisering** är **Nej**, verifierar du att flaggan **Initial synkronisering** är **Av** i alla förutsättningskartor innan du kör den.
-
-![Kör karta](./media/21RunMap.png)
-
-6. Kontrollera att alla projektrelaterade kartor är i körläge.
-
-![Alla kartor körs](./media/22AllMapsRunning.png)
+    ![Alla kartor körs.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Använda konfigurationsdata i CDS för Project Operations (valfritt)

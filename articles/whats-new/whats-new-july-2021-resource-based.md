@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433540"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008068"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juli 2021 – Project Operations för resurs/icke lagerbaserade scenarier
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433540"
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
-   - Project Operations i Microsoft Dataverse miljöversion 4.12.0.148.
+   - Project Operations i Microsoft Dataverse miljöversion 4.12.0.148 eller 4.12.0.152.
    - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
@@ -79,7 +79,7 @@ Om du stöter på ett problem som startar kartan, följ instruktionerna i avsnit
 | Allmänt                       | 2296857              | Förloppsspårning för jobb som körs länge.                                                                                                                                                                        |
 | Allmänt                       | 2253682              | Project Operations-lösningen med dubbelriktade skrivningar bör inte installeras när dubbelriktade skrivning installeras i en miljö utan lösningen med dubbelriktade skrivningar.                                                |
 | Allmänt                       | 2316420              | Det går inte att tillhandahålla kärnetablering för Project Service om programanvändarens affärsenhet ändras.                                                                                                                     |
-
+| Allmänt                       | 2376405              | Åtgärdat publicerarbaserat uppdateringsproblem (kvalitetsuppdatering är tillgänglig i version 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektledning och redovisning i Dynamics 365 Finance
 
 | Funktionsområde                      | Referensnummer | Kvalitetsuppdatering                                                                                                                                                                                                                                                                                                                |

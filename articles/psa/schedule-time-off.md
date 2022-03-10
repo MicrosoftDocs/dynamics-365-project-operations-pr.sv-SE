@@ -2,8 +2,6 @@
 title: Schemalägg ledighet
 description: Schemalägga ledig tid i Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2a78a80c3841bae1a7dc923ee1f60d7e571f2041
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282625"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984668"
 ---
 # <a name="schedule-time-off-project-service"></a>Schemalägga ledighet (Project Service)
 
