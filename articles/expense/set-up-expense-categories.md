@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du konfigurerar utgiftsk
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 925c0894616df587b8a749bc00ea52ed06672827
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993128"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577028"
 ---
 # <a name="set-up-expense-categories"></a>Konfigurera utgiftskategorier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 När medarbetarna skapar utgiftsrapporter måste varje utgiftspost vara associerad med en utgiftskategori. Utgiftskategorier härleds från delade kategorier som kan delas av alla juridiska entiteter i organisationen. Beroende på hur organisationen har definierats kan de här utgiftskategorierna även delas i andra områden. Baserat på definitionen av din organisation och vägledning från implementeringsteamet måste du avgöra om kategorierna som används i utgiftshantering endast ska användas i utgifts hantering eller delas i andra områden.
 

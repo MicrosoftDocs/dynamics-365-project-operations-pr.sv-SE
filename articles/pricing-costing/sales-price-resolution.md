@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du löser försäljnings
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b78d0f970f942513ecb6911d64fcffa629567f93f1a763eef20ca168080e4d02
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697d5e330fec1874e8cb59fb86dd688637860346
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986288"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578270"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Lösa försäljningspriser för uppskattningar och faktiska värden
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 När försäljningspriser på uppskattningar och faktiska värden löses i Dynamics 365 Project Operations använder systemet först datum och valuta för den relaterade projektofferten eller kontraktet för att lösa försäljningsprislistan. När försäljningsprislistan har lösts löser systemet försäljnings- eller fakturataxan.
 

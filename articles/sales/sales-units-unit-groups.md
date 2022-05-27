@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999563"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578454"
 ---
 # <a name="units-and-unit-groups"></a>Enheter och enhetsgrupper
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Enheterna är de kvantiteter eller de mått du säljer dina produkter eller tjänster i. Om du till exempel säljer trädgårdsredskap kan du sälja dem i enheter som paket, lådor och lastpallar En enhetsgrupp är en samling av dessa olika enheter.
 

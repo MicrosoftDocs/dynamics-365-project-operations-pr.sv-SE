@@ -4,14 +4,14 @@ description: I ämnet förklaras några viktiga begrepp som används vid underle
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 01d2e57b99015c346be15e3504440c14cb9a54e24215c0b1c052c5112f4b940a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994298"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578179"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Huvudbegrepp vid underleverantörskap
 
@@ -33,8 +33,8 @@ I Project Operations är inköpsvalutan den valuta som underkontraktet skapas i.
 
 För projekt finns det vanligtvis en kontraktsmodell med fast kostnad och en förbrukningsbaserad modell. Project Operations stöder dessa faktureringsmetoder i försäljnings- och köpkontexterna. Faktureringsmetoderna för ett köp fungerar på följande sätt:
 
-- **Tid och material** – När en underavtalsrad använder faktureringsmetoden **Tid och material** registreras tidskostnaden i projektet som underleverantörers arbete i det projektet och posttiden. Dessa kostnadstransaktioner från underleverantörer matchas sedan med radobjekten på leverantörsfakturor. I den här modellen kan projektledare som använder Project Operations matcha och verifiera leverantörsfakturarader med den underleverantörstid som har registrerats och godkänts. När verifieringen är klar kommer tidigare faktiska kostnader som registrerats efter godkännande att återställas och nya faktiska kostnader som bygger på leverantörsfakturan skapas i projektet.
-- **Fast pris** – I den här kontraktsmodellen med fast avgifter baseras leverantörsfakturor på fasta milstolpar. Men underleverantörers resurser kan också rapportera tid. Tiden granskas och godkänns sedan av projektledaren. När den har godkänts skapar Project Operations tillfälliga faktiska kostnader i projektet. När leverantören skickar en faktura för en milstolpe kan projektledaren matcha tidigare registrerade faktiska kostnader mot milstolpen. När verifieringen är klar kommer de faktiska kostnaderna att återföras och den milstolpebaserade kostnaden registreras.
+- **Tid och material** – När en underavtalsrad använder faktureringsmetoden **Tid och material** registreras tidskostnaden i projektet som underleverantörers arbete i det projektet och posttiden. Dessa kostnadstransaktioner från underleverantörer matchas sedan med radobjekten på leverantörsfakturor. I den här modellen kan projektledare som använder Project Operations matcha och verifiera leverantörsfakturarader med den underleverantörstid som har registrerats och godkänts. När verifikationen är klar kommer tidigare faktiska kostnader som registrerats efter godkännande att återställas och nya faktiska kostnader som bygger på leverantörsfakturan skapas i projektet.
+- **Fast pris** – I den här kontraktsmodellen med fast avgifter baseras leverantörsfakturor på fasta milstolpar. Men underleverantörers resurser kan också rapportera tid. Tiden granskas och godkänns sedan av projektledaren. När den har godkänts skapar Project Operations tillfälliga faktiska kostnader i projektet. När leverantören skickar en faktura för en milstolpe kan projektledaren matcha tidigare registrerade faktiska kostnader mot milstolpen. När verifikationen är klar kommer de faktiska kostnaderna att återföras och den milstolpebaserade kostnaden registreras.
 
 ## <a name="project-price-lists-on-subcontracts"></a>Projektprislistor för underkontrakt
 

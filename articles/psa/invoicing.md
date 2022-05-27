@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985523"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579328"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -103,7 +104,7 @@ När du skapar ett utkast till en projektfaktura skickas alla ej fakturerade fö
 - Redigera och justera kvantitet och faktureringstyp.
 - Lägg direkt till tid, utgifter och avgifter som transaktioner på fakturan. Du kan använda den här funktionen om fakturaraden är mappad till en kontraktrad som tillåter dessa transaktionsklasser.
 
-Välj **bekräfta** om du vill bekräfta en faktura. Åtgärden Bekräfta är en enkelriktad åtgärd. När du väljer **bekräfta** blir fakturan skrivskyddad och verkliga värden för fakturerad försäljning skapas utifrån varje fakturaradinformation för varje fakturarad. Om fakturaradinformationen refererar till en ofakturerad faktisk försäljning återförs även den ofakturerade faktiska försäljningen. (All information på fakturaraden som skapades från en tidpunkt eller utgiftspost refererar till en ofakturerad faktisk försäljning.) Integreringssystemen för redovisning kan använda den här återföringen för att omvända pågående pågående projekt (WIP) i redovisningssyfte.
+Välj **bekräfta** om du vill bekräfta en faktura. Åtgärden Bekräfta är en enkelriktad åtgärd. När du väljer **bekräfta** blir fakturan skrivskyddad och verkliga värden för fakturerad försäljning skapas utifrån varje fakturaradinformation för varje fakturarad. Om fakturaradinformationen refererar till en ofakturerad faktisk försäljning återförs även den ofakturerade faktiska försäljningen. (All information på fakturaraden som skapades från en tidpunkt eller utgiftspost refererar till en ofakturerad faktisk försäljning.) Integreringssystemen för redovisning kan använda den här återföringen för att omvända pågående projekt (WIP) i redovisningssyfte.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Korrigera en bekräftad PSA-faktura
 

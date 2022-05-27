@@ -4,18 +4,18 @@ description: I det här ämnet finns information om projektofferter.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001543"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579604"
 ---
 # <a name="manage-project-quotes"></a>Hantera projektofferter
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 I Dynamics 365 Project Operations är projektofferter utformade för att hjälpa till att bygga förslag på projektarbete. Strukturen på ett projektoffert i Project Operation är strukturerad för projektförslag med följande komponenter:
 
@@ -31,6 +31,9 @@ En lista över alla projektofferter visas på listsidan **Offerter**.
 2. Använd **Visa växlaren** om du vill välja andra filtrerade vyer av offerterna. Med anpassade filter villkor kan du konfigurera egna vyer och navigeringsalternativ.
 
 Offerter kan skapas eller tas bort från den här listsidan eller informationssidorna.
+
+ > [!NOTE]
+ > Offerter med projekt, uppgifter, kalkyler, journaler och/eller faktiska värden kopplade kan inte tas bort. När en offert stängs som Vunnen eller Förlorad kan den heller inte längre tas bort eller ändras. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

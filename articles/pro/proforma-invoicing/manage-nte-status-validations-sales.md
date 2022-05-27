@@ -4,18 +4,18 @@ description: I det här ämnet finns information om kontroller av undre gränser
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3444d311386ae925617c9c9be657fe012f8f867b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003523"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576154"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Hantera undre status och valideringar 
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 ## <a name="not-to-exceed-on-approvals"></a>Undre gräns vid godkännanden
 

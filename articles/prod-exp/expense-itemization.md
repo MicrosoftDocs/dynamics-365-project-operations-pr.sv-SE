@@ -4,20 +4,20 @@ description: I det här ämnet beskrivs hur du specificerar utgifter med den nya
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944133"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574544"
 ---
 # <a name="expense-itemization"></a>Utgiftsspecificering
 
 [!include [banner](../includes/banner.md)]
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Organisationer kräver ofta att anställda ger en detaljerad uppdelning av de utgifter som uppstått under resan. Ett hotell kan till exempel innehålla flera specificerade rader med rumspris, moms, parkering och andra diverse utgifter som uppstår varje dag under hela tiden. Eller utgifter för måltider kan krävs att du ger en mer detaljerad uppdelning för frukost, lunch eller middag. Oavsett organisationens behov kan varje utgiftskategori konfigureras så att den återspeglar de underkategorier eller radobjekt som utgör en utgift. Även om det alltid har funnits stöd för specificering i **Utgiftshantering**, möjliggör den nya arbetsytan för **utgifter** effektivare specificering när funktionen **Möjlighet att specificera återkommande utgifter snabbt** är aktiverad.  
 

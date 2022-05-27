@@ -1,27 +1,27 @@
 ---
-title: Nyheter i december 2020 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
-description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för december 2020 för resursscenarier/icke-lagerbaserade scenarier.
+title: Nyheter i december 2020 – Project Operations för resurs-/icke-lagerbaserade scenarier
+description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för december 2020 för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984893"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579880"
 ---
-# <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i december 2020 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
+# <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i december 2020 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
 - Project Operations i Dataverse-miljöversion 4.5.0.134
-- Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.15
+- Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.15
 
 Information om hur du uppdaterar till den här versionen finns i [Uppdatera Project Operations i Finance-miljön](ur5-nonstocked-installation.md).
 
@@ -31,7 +31,7 @@ Följande funktioner ingår i denna version:
   - [Koncernintern fakturering](../project-accounting/intercompany-invoicing-overview.md) 
   - [Förskott och kvarhållare för kunder](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 
-## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Uppdateringar i Project Operations för resursscenarier/icke lagerbaserade scenarier
+## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Uppdateringar i Project Operations för resurs-/icke-lagerbaserade scenarier
 
 ### <a name="project-operations-on-dataverse"></a>Project Operations i Dataverse
 
@@ -61,7 +61,7 @@ Följande funktioner ingår i denna version:
 | Projektplanering och spårning | 2057197          | Uppskattningsradkopia med uppgiftsreferens stöds inte                                                                                                     |
 | Projektplanering och spårning | 2060687          | Tidszonsvarningen försvinner nu efter en viss tidsperiod                                                                                                      |
 | Resurshantering           | 1832887          | Standard-ID:t för resurskategori måste vara statiskt i syfte att säkerställa repeterbara datainläsning för Dataverse- och Finance-miljöer                                                 |
-| Tid och utgift              | 2081793          | **Utgiftskategorinamnet** måste mappas till fältet **Utgiftskategoribeskrivning** i Finance and Operations-appar                                                  |
+| Tid och utgift              | 2081793          | **Namnet på utgiftskategorin** måste mappas till beskrivningsfältet för **utgiftskategori** i apparna för ekonomi och drift                                                  |
 | Tid och utgift              | 2034882          | Knappen **Nytt** visas två gånger i kommandofältet för tidsposter när Dynamics 365 Field Service installeras                                          |
 | Tid och utgift              | 2056028          | Uppdatera sidan **Tidsredigering** för att inkludera tid                                                                                                              |
 | Tid och utgift              | 1983747          | Tidspostdiagrammet visar ytterligare data                                                                                                                   |
@@ -106,7 +106,7 @@ Följande funktioner ingår i denna version:
 | Resor och utgifter                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Arbetsflödet för automatisk bokföring av utgiftsrapport har slutförts, men ingen faktura har bokförts                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

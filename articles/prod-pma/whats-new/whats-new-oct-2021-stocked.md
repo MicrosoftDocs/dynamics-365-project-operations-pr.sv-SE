@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818481"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576062"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Nyheter och ändringar i Project Operations, oktober 2021 för lagerbaserade/produktionsbaserade scenarier
 
@@ -38,7 +38,7 @@ Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 36
 | Projektledning och redovisning | [583873](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583873) | Koncerninterna utgiftsrapporter med information om koncerninterna leverantörsreskontrakostnader som väntar på att faktureras publiceras först i bokföringstypen **PIA-kostnad för projekt**. I samband med bearbetning publiceras beräkningsrelaterade kostnader emellertid i bokföringstypen **Projektkostnad** istället för i den förväntade bokföringstypen **Företagsintern kostnad**. |
 | Projektledning och redovisning | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Leverantörens behållningsresultat i transaktioner för projektutgifter visas emellertid inte. |
 | Projektledning och redovisning | [587453](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587453) | Tidsschemat måste avrunda transaktionsbeloppet i transaktionsvalutan till ett angivet antal decimaler för alla redovisningsdistributioner och allmänna journalallokeringsposter. |
-| Projektledning och redovisning | [589409](https://fix.lcs.dynamics.com/Issue/Details/?bugId=589409) | Antalet projektobjektkrav uppdateras automatiskt när de planerade orderna har bestämts. |
+| Projektledning och redovisning | [589409](https://fix.lcs.dynamics.com/Issue/Details/?bugId=589409) | Antalet projektartikelkrav uppdateras automatiskt när de planerade orderna har bestämts. |
 | Projektledning och redovisning | [590206](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590206) | Verifikationsnummer, leverantörssaldo för transaktionstyp samt kontonummer kan inte återställas på förbetalda fakturor för ett inköpsnummer. |
 | Projektledning och redovisning | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Den koncerninterna leverantörsfakturan blir felaktig när integrering av leverantörsfaktura aktiveras. |
 | Projektledning och redovisning | [593335](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593335) | När du skapar en projektutgiftsmall visas kostnadsbeloppet i fältet **Kredit**. |
@@ -80,6 +80,6 @@ Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 36
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
 
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på Microsoft Dynamics Lifecycle Services (LCS) och använda verktyget för problemsökning för att visa de planerade regelverksuppdateringarna. Med en problemsökning kan du söka efter land eller region, typ av funktion och version.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på Microsoft Dynamics Lifecycle Services (LCS) och använda verktyget för problemsökning för att visa de planerade regelverksuppdateringarna. Med en problemsökning kan du söka efter land eller region, typ av funktion och version.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

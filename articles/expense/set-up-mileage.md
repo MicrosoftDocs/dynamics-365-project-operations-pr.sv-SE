@@ -4,18 +4,18 @@ description: Det här ämnet innehåller information om körsträckepris och niv
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 030c6abca169b712312ad70ed2ac8262f3d0777bcf93dcccfd956f2f9e0ea77c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 04dc6d0f2d8c7439012368ab6f46a1f69cb02804
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993083"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576982"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Ange körsträcka med hjälp av nivåer av körsträckepris
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 När en utgift rapporteras och den valda utgiftskategorin är **Körsträcka** beräknas beloppet för den utgiftsraden enligt beloppet *pris per körsträcka*. Det här beloppet fastställs med hjälp av definierade körsträckenivåer eller, om inga nivåer av körsträckepris har ställts in, genom att följa en standardkostnad per körsträcka. 
 

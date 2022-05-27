@@ -1,23 +1,23 @@
 ---
-title: Registrera dig för prenumerationer på förhandsversioner av Project Operations för resursbaserade/icke lagerbaserade scenarier
-description: I det här ämnet finns information om hur du prenumererar på och distribuerar Project Operations för resursbaserade/icke lagerbaserade scenarier.
+title: Registrera dig för prenumerationer på förhandsversioner av Project Operations för resursbaserade/icke-lagerbaserade scenarier
+description: I det här ämnet finns information om hur du prenumererar på och distribuerar Project Operations för resursbaserade/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323438"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575832"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrera dig för prenumerationer på förhandsversioner av Project Operations för resursbaserade/icke lagerbaserade scenarier
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Registrera dig för prenumerationer på förhandsversioner av Project Operations för resursbaserade/icke-lagerbaserade scenarier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 I ämne beskrivs hur du prenumererar på proverbjudandet och distribuerar Project Operations-miljön för resurs-/icke-lagerbaserade scenarier.
 
@@ -40,7 +40,7 @@ Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med anv
 
   Du ser en bekräftelse på att erbjudandet har lösts in.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Utvärdering av förhandsversion av Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Förhandsversion av Dynamics 365 Finance
 
 Gå till [Förhandsgranska utvärderingsversion av Dynamics 365 for Finance](https://aka.ms/trypoche) och upprepa stegen från föregående avsnitt med erbjudandet, Registrera dig för Cloud Hosted Environment.  
 
@@ -49,7 +49,7 @@ Gå till [Förhandsgranska utvärderingsversion av Dynamics 365 for Finance](htt
 > [!IMPORTANT]
 > Du måste ha administratörsbehörighet till organisationens Microsoft 365-portal för att kunna utföra följande steg.
 
-1. Gå till [Microsoft 365 administratörscenter](https://portal.office.com/) för att tilldela licenser till dina användare.
+1. Gå till [administrationscentret för Microsoft 365](https://portal.office.com/) om du vill tilldela licenserna till användarna.
 
 2. På sidan **Aktiva användare** väljer du de användare som du vill tilldela en licens till.
 
@@ -66,7 +66,7 @@ Skapa ett nytt LCS-projekt enligt beskrivningen i ämnet [Starta ett nytt projek
 
 Slutför uppgiften genom att följa stegen i ämnet [Lägga till en Azure-prenumeration i LCS-projekt](resource-add-azure-subscription-lcs-project.md).
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Distribuera demomiljön av Finance med Project Operations för resursbaserade/icke lagerbaserade scenarier
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Distribuera demomiljön av Finance med Project Operations för resursbaserade/icke-lagerbaserade scenarier
 
 Följ anvisningarna i ämnet [Etablera en ny miljö](resource-provision-new-environment.md) för att slutföra distributionen. Använd distributionstypen [Demomiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) för förhandsgranskning. 
 

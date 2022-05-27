@@ -4,19 +4,19 @@ description: I det här ämnet finns information om arvodesbaserade kontrakterin
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87e275cb72f1edc5a2a9913b4aa47d461d1f3d3d9bf177bf0ffba8b463f4ce01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fcee7b818097c10f8f861c4de4898daacef60e4f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994433"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574820"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Förskott och arvodesbaserade kontrakt
 
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Dynamics 365 Project Operations stöder arvodesbaserade kontrakt. Ett arvodebaserat kontrakt är en förhandlad uppsättning lika fördelade utbetalningar som kunden ska faktureras för under hela projektets varaktighet. Den här typen av kontrakt används vanligtvis för faktureringsmodeller som grundas på tid och material eller förbrukning, där det finns ett behov av att ge kunden en förutsägbar faktura och en betalningsplan. Faktiska intäkter för varje period stäms av mot den betalning som tas emot från kunden i början av perioden. I enlighet med faktureringsmodellen som grundar sig på tid och material kan intäktsvärden som har ökat i varje period variera beroende på kostnaderna. Om den ökade intäkten överstiger det belopp som erhållits i början av perioden kan projektleveransföretaget göra följande:
 

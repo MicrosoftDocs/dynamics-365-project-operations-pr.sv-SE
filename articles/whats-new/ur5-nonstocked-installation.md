@@ -1,25 +1,25 @@
 ---
 title: Uppdatera Project Operations i din Finance-miljö
-description: I detta ämne finns information om hur du uppdaterar Project Operations i din Dynamics 365 Finance-miljö.
+description: Detta ämne innehåller information om hur du uppdaterar Project Operations i din Dynamics 365 Finance-miljö.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986783"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579972"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Uppdatera Project Operations i din Finance-miljö
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 
-I detta ämne finns information om hur du uppdaterar Dynamics 365 Project Operations i din Dynamics 365 Finance-miljö. Det krävs tre procedurer för att uppdatera Project Operations till Uppdatering 5 (UR5):
+Detta ämne innehåller information om hur du uppdaterar Dynamics 365 Project Operations i din Dynamics 365 Finance-miljö. Det krävs tre procedurer för att uppdatera Project Operations till Uppdatering 5 (UR5):
 
 - [Importera paketet till förhandsgranskningsprojektet](#import)
 - [Applicera uppdateringen](#apply)
@@ -119,7 +119,7 @@ Följande uppdateringar av säkerhetsprivilegier för entiteter krävs som en de
 4. På sidan **Tabellmappningsversion** tillämpar du en ny version av mappningen på respektive av de tre entiteterna.
 5. På sidan **Dubbelriktad skrivning** väljer du Kör för att starta om mappningarna.
 6. I mappningslistan väljer du mappningen **Huvudbok (msdyn_ledgers)** med alla obligatoriska delar och väljer sedan kryssrutan **Initial synkc**. 
-7. I fältet **Master för initial synk** väljer du **Finance and Operations-appar** och sedan **Kör**.
+7. I fältet **Huvud för första synkronisering** väljer du **Appar för ekonomi och drift** och sedan **Kör**.
  
  ![Synkronisering av transaktionsregistermappning.](media/DW6.png)
  

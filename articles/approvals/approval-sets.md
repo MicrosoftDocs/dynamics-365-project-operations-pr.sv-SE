@@ -2,22 +2,20 @@
 title: Godkännandeuppsättningar
 description: Detta ämne hur du arbetar med godkännandeuppsättningar, förfrågningar och underuppsättningar för dessa åtgärder.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323258"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576246"
 ---
 # <a name="approval-sets"></a>Godkännandeuppsättningar
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Godkännandeuppsättningar samlar godkännandeförfrågningar i mindre underuppsättningar. Med hjälp av denna gruppering kan godkännanden bearbetas per projekt i en särskild ordning, och det går att försöka och sekvensera på nytt. Genom att gruppera godkännandeförfrågningarna ökar tillförlitligheten och spårbarheten för bearbetning av godkännanden för stora godkännandevolymer.
 
@@ -27,6 +25,18 @@ Godkännandeuppsättningar anger det övergripande bearbetningstillståndet för
 Godkännanden som köas för bearbetning visas i vyn **Bearbetningsgodkännanden**. Systemet bearbetar alla poster flera gånger asynkront, inklusive ett nytt försök till godkännande om tidigare försök misslyckats.
 
 I fältet **Livstid för godkännandeuppsättning** registreras antalet försök kvar att bearbeta uppsättningen innan den markeras som misslyckad.
+
+Godkännandeuppsättningar bearbetas genom den regelbundna aktiveringen baserat på ett **molnflöde** kallat **Project Service – Projektgodkännandeuppsättningar med återkommande schema**. Detta finns i **lösningen** kallad **Project Operations**. 
+
+Kontrollera att flödet aktiveras genom att följa stegen nedan.
+
+1. Logga in på [flow.microsoft.com](https://powerautomate.microsoft.com) som administratör.
+2. Växla till den miljö som du använder för Dynamics 365 Project Operations längst upp till höger.
+3. Välj **Lösningar** om du vill lista de lösningar som har installerats i miljön.
+4. I lösningslistan väljer du **Project Operations**.
+5. Ändra filtret från **Alla** till **Molnflöden**.
+6. Kontrollera att flödet **Project Service – Projektgodkännandeuppsättningar med återkommande schema** har angetts som **På**. Om detta inte är fallet väljer du flödet och sedan **Aktivera**.
+7. Kontrollera att bearbetningen sker var femte minut genom att gå till listan **Systemjobb** i området **Inställningar** i din Dataverse-miljö för Project Operations.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Misslyckade godkännanden och godkännandeuppsättningar
 I vyn **Misslyckade godkännanden** listas alla godkännanden som kräver användaråtgärd. Öppna de associerade godkännandeuppsättningsloggarna för att identifiera orsaken till felet.

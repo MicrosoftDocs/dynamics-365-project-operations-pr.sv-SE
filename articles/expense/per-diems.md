@@ -4,18 +4,18 @@ description: I det här ämnet finns information om traktamentsregler som använ
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e537d6c6112eb4baf38229e3e40897eacdf21983
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986423"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578316"
 ---
 # <a name="per-diems"></a>Traktamente
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 
 Ett traktamente är ett belopp som betalas till en arbetare som reser i arbetet. I utgiftshantering kan du skapa traktamentsregler för olika resesituationer. Traktamentstaxa kan baseras på tid på året, resmål eller både och. När du skapar en traktamentsregel kan du ange att en procentsats av traktamentstaxan ska dras in om en arbetare får gratis måltider eller tjänster. Du kan även ange ett minsta och högsta antal timmar som traktamentstaxan kan gälla för en arbetares resa.
