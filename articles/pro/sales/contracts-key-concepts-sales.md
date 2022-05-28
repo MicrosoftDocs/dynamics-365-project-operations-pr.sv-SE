@@ -4,20 +4,20 @@ description: I det här ämnet finns information om nyckelbegrepp för projektko
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991463"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580618"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Koncept som är unika för projektkontrakt
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Detta ämne tillhandahåller de centrala begrepp du bör vara medveten om innan du börjar använda Project-avtal i Dynamics 365 Project Operations:
 

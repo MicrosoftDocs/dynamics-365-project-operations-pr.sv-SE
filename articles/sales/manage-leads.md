@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hantering av projektbaserade
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2ac6d03e8e070b62a2ffe689cccfc19bad1ee2bdc88dd65902f663b2d19ba655
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fc5bcab39d4f83010d43fe5cc8b40f208ce0d62
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008203"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581353"
 ---
 # <a name="manage-leads"></a>Hantera leads
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Projektbaserade leads kan hanteras och kvalificeras i Project Operations. I processen för hantering av leads ingår att skapa arbetsbaserade leads och kvalificera sådana leads. 
 
@@ -57,7 +57,7 @@ Mer detaljerad information om kvalificering av leads finns i [Kvalificera eller 
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Information om leadkvalificering och juridisk person 
 
-När du kör Project Operations i distributionsläget, Project Operations för resursbaserade/icke lagerbaserade scenarier, måste varje kund och affärsmöjlighet har fältet **Ägande företag** inställt. Det ägande företaget är en juridiskt entitet i din organisation som äger leveransen av projektet. För varje kund, eller konto som har relationstypen kund, måste värdet för fältet **Ägande företag** vara inställt på den juridiska entitet som avtalar och förhandlar med kunden. En kund kan bara finnas i en juridisk entitet.
+När du kör Project Operations i distributionsläget, Project Operations för resursbaserade/icke-lagerbaserade scenarier, måste varje kund och affärsmöjlighet har fältet **Ägande företag** inställt. Det ägande företaget är en juridiskt entitet i din organisation som äger leveransen av projektet. För varje kund, eller konto som har relationstypen kund, måste värdet för fältet **Ägande företag** vara inställt på den juridiska entitet som avtalar och förhandlar med kunden. En kund kan bara finnas i en juridisk entitet.
 
 När en lead har kvalificerats får de kund- och affärsmöjlighetsposter som har skapats fältet **Ägande företag** inställt på det företag som anges i den aktuella användarens register över bokningsbara resurser.
 

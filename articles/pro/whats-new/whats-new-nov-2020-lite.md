@@ -4,14 +4,14 @@ description: I det här ämnet finns information om de kvalitetsuppdateringar so
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4a65ab00c7f729b72cc32b4786055feba4aaee452ac4cf413047f81651c92290
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a7d63e746edf73873840aee2f095192364cb286
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003298"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584664"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nyheter i november 2020 – Project Operations Lite-distribution – avtal till proforma-fakturering
 
@@ -34,7 +34,7 @@ I följande tabell visas uppdateringarna av Project Operations på CDS-miljö ve
 | Resurshantering          | 2046667          | Allmänna teammedlemmar tas inte bort även efter att alla resurser har uppfyllts.                                                                                                     |
 | Post för tid och snabbutgift | 2047499          | Knappen **Ny** på sidan tidspost öppnar sidan **ny e-postsignatur**.                                                                                               |
 | Post för tid och snabbutgift | 2059859          | Oväntat popup-fönster öppnas när en utgiftspost skapas.                                                                                                                         |
-| Annat                         | 2044181          | [IO-avinstallation] - felmeddelandet "posten är inte tillgänglig" inträffar när du försöker avinstallera **msdyn_ProjectServiceCore_Patch** och msdyn för Project Service-kärnlösningar.        |
+| Annat                        | 2044181          | [IO-avinstallation] - felmeddelandet "posten är inte tillgänglig" inträffar när du försöker avinstallera **msdyn_ProjectServiceCore_Patch** och msdyn för Project Service-kärnlösningar.        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

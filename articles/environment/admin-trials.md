@@ -2,22 +2,22 @@
 title: Registrera dig för utvärderingsversioner av Project Operations
 description: I detta ämne finns information om hur du distribuerar en utvärderingsversion av Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901639"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584296"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrera dig för utvärderingsversioner av Project Operations 
 
-_**Gäller till:** Project Operations för resursscenarier/icke-lagerbaserade scenarier, Lite-distribution – avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_ 
+_**Gäller till:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution – avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Detta ämne förkalrar hur du prenumererar på partnererbjudandet i förhandsversion samt distribuerar en Dynamics 365 Project Operations-miljö.
 
@@ -36,7 +36,6 @@ I följande tabell beskrivs detaljerad information om det nya utvärderingserbju
 | Användning av erbjudande                    | En gång per klientorganisation                          |
 | Erbjudandets varaktighet               | 30 kalenderdagar                             |
 | Antal inlösen per klientorganisation       | 1                                            |
-| Antal användare              | 25                                           |
 | Anknytning                    | 1 tillägg, 30 kalenderdagar               |
 | Antal utvärderingsmiljöer | 3                                            |
 
@@ -87,7 +86,7 @@ Innan du börjar loggar du in i en webbläsare med användarkontot i den kliento
  
   När etableringen är klar är tillståndet för miljön **klar**. Etablering av miljön omfattar distribution av demodata.
  
-4.  Välj respektive Microsoft Dataverse URL och de Finance and Operations apps-URL:er som ska verifiera distributionen.
+4.  Välj respektive Microsoft Dataverse-URL och de URL:er för appar för ekonomi och drift som ska verifiera distributionen.
 
 ## <a name="configuring-dual-write"></a>Konfigurera dubbelriktad skrivning
 - Information om hur du konfigurerar säkerhetsroller för dubbelriktad skrivning finns i [Uppdatera säkerhetsinställningar för Project Operations i Dataverse](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Innan du börjar loggar du in i en webbläsare med användarkontot i den kliento
 
 Du måste ha administratörsbehörighet till organisationens Microsoft 365-portal för att kunna utföra följande steg.
 
-1. Gå till [administrationscentret för Microsoft 365](https://portal.office.com/) om du vill tilldela licenser till användarna.
+1. Gå till [administrationscentret för Microsoft 365](https://portal.office.com/) om du vill tilldela licenserna till användarna.
 
    ![Startsida för administratörscenter](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Följande resurser vägleder dig när du inleder din resa med Project Operations
 
 ## <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Vad gör jag om jag behöver ALM eller ELM för min Finance and Operations-appmiljö?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Vad gör jag om jag behöver ALM eller ELM för min appmiljö för ekonomi och drift?
 
 - För partners som behöver fullständiga funktioner för hantering av miljöns livscykel går du till [Licensbegäran för sandbox-miljö för partner](https://experience.dynamics.com/requestlicense) om du vill granska det nya partnererbjudandet. 
 - För partners som vill ha mer information om interna användningsrättigheter, se [Interna användningsrättigheter: moln- och programvaruförmåner (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

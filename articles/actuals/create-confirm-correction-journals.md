@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986738"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582825"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Skapa och bekräfta korrigeringsjournaler
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Ibland kan en tid- eller utgiftspost anges felaktigt. En konsult kan till exempel råka välja fel datum när han eller hon skapar en tidspost, eller också kan de råka transponera värdena när de registrerar en utgift. Om en konsult inte kan göra uppdateringar av de inskickade posterna kan en administratör korrigera posten för ett projekt direkt.
-
-Du måste ha administratörsbehörigheter för att kunna slutföra procedurerna i den här ämnet.
+Ibland kan en tids- eller utgiftspost komma att anges felaktigt. En konsult kan till exempel välja fel datum när han eller hon skapar en tidspost, eller välja fel projekt när de anger en utgift. Om en konsult inte kan uppdatera inskickade poster kan en backend-administratör korrigera faktiska värden för ett projekt direkt.
 
 ## <a name="correct-approved-time-entries"></a>Korrigera godkända tidsposter     
 
@@ -46,8 +42,8 @@ Utför följande steg för att korrigera enstaka eller flera tidsposter för ett
 
 6. Välj **Förhandsversion**. I dialogrutan markerar du **OK**. På fliken **Journalrader** kan du Visa en lista över de ursprungliga faktiska värden som är relaterade till de valda tidssoterna som har återförts och de korrigerade motsvarande raderna som har skapats. Om du behöver göra ytterligare korrigeringar upprepar du steg 5 och 6. 
 
-> [!NOTE]
-> Alla korrigerade faktiska värden kommer att ha samma värden som du valde i avsnittet **Nya värden för tidsposter**.
+    > [!NOTE]
+    > Alla korrigerade faktiska värden kommer att ha samma värden som du valde i avsnittet **Nya värden för tidsposter**.
 
 7. Om korrigeringarna visas som de ska väljer du **Bekräfta**. I dialogrutan markerar du **OK**.
 
@@ -55,12 +51,10 @@ Utför följande steg för att korrigera enstaka eller flera tidsposter för ett
 
 9. På sidan **Projekt** i fliken **Faktiska värden** kan du se de ändringar du har gjort. 
 
-> [!NOTE]
-> Om fliken **Faktiska värden** inte syns väljer du **Relaterat** > **Faktiska värden**.  
+    > [!NOTE]
+    > Om fliken **Faktiska värden** inte syns väljer du **Relaterat** > **Faktiska värden**.  
 
 10. I listan **Associerad vy förö faktiska värden** kan du se att de ursprungliga tidsposter som har återförts fortfarande är listade, liksom även motsvarande korrigerade tidsposter. 
-
-I följande bild finns till exempel två radobjekt med kvantiteten 8,00 som har debet förtecknade i kolumnen Belopp. Det finns också två radobjekt med kvantiteten -8,00 som visar krediterade belopp i kolumnen Belopp. Dessa korrigeringar ställer in värdet för kvantitet till noll.
 
  
 ## <a name="correct-approved-expense-entries"></a>Korrigera godkända utgiftsposter
@@ -79,14 +73,30 @@ Följ stegen nedan om du vill korrigera en eller flera utgiftsposter.
 
 6. Om de korrigerade värdena visas som de ska väljer du **Bekräfta**. I dialogrutan markerar du **OK**. Om värdena inte visas som de ska väljer du **Avbryt** för att gå tillbaka till listan **Godkända utgifter**. Upprepa steg 2 till 5. 
 
-> [!NOTE]
-> Alla korrigerade faktiska värden kommer att ha samma värden som du valde i avsnittet **Nya värden för utgifter**.
+7. När du har bekräftat korrigeringsjournalen återgår du till det eller de projekt som du har uppdaterat för att visa ändringarna.
 
-7. När du har bekräftat korrigeringsjournalen navigerar du tillbaka till det eller de projekt som du uppdaterade och granskar ändringarna.  
-
-8. I fliken **Faktiska värden** på projektsidan granskar du **Associerad vy för faktiska värden**. De ursprungliga posterna och de korrigerade posterna visas i listan. Följande bild illustrerar ursprungliga utgiftspostbelopp och motsvarande, korrigerade utgiftspostbelopp. 
+8. På fliken **Faktiska värden** på projektsidan granskar du listan **Vy associerad med faktiska värden**. De ursprungliga posterna och de korrigerade posterna visas i listan.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Korrigera godkända användningsloggar för material
+
+Korrigera en eller flera användningsloggposter för material genom att följa stegen nedan.
+
+1. I avsnittet **Försäljning** > i vänster navigeringsfönster, under **Transaktioner**, väljer du **Faktiska värden**.
+
+2. I listan **Faktiska värden** använder du kolumnfilter för att välja transaktionsklassen **Material**, så att endast faktiska värden för material visas. Med andra kolumnfilter kan du ytterligare begränsa de faktiska värden som visas. När du har hittat den önskade uppsättningen faktiska värden markerar du de faktiska värdena och väljer sedan **Korrigera poster**. En ny korrigeringsjournal skapas automatiskt, och typen **Materialkorrigering** tilldelas.
+
+3. På sidan **Ny journal** anger du en beskrivning för korrigeringen i fältet **Beskrivning**. På fliken **Materialkorrigering**, i avsnittet **Nya värden för material** väljer du sedan de datafält som ska korrigeras för de valda materialraderna. Du kan till exempel tilldela materialet till ett annat projekt eller korrigera produkt, materialdatum eller underleverantör.
+
+4. Välj **Förhandsversion**. Klicka sedan på **OK** i nästa dialogruta.
+
+5. Kontrollera korrigeringarna på fliken **Journalrader**. Du kan visa en lista över de ursprungliga faktiska värden som är relaterade till de valda materialposter som har återförts och de korrigerade motsvarande rader som har skapats.
+
+6. Om de korrigerade värdena visas som de ska väljer du **Bekräfta**. Klicka sedan på **OK** i nästa dialogruta. Om värdena inte är som förväntat väljer du **Avbryt** om du vill återgå till listan **Faktiska värden**. Upprepa sedan stegen 2 till 5.
+
+7. När du har bekräftat korrigeringsjournalen återgår du till det eller de projekt som du har uppdaterat för att visa ändringarna.
+
+8. På fliken **Faktiska värden** på projektsidan granskar du listan **Vy associerad med faktiska värden**. De ursprungliga posterna och de korrigerade posterna visas i listan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

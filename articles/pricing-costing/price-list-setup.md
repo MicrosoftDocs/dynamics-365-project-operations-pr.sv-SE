@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du konfigurerar prislist
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 77809f63230530e2e6553b76e56d37249b060ab9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009508"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584756"
 ---
 # <a name="set-up-price-lists"></a>Konfigurera prislistor
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Prislistor i Dynamics 365 Project Operations representerar en katalog med priser. Priserna avser kostnad, försäljning och fakturering. Beroende på om prislistan avser kostnad eller försäljning och fakturering kan prislistans sammanhang vara **Försäljning** eller **Kostnad**.
 

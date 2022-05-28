@@ -4,25 +4,25 @@ description: Detta ämne innehåller information om hur du bearbetar kundriktade
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989933"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585630"
 ---
 # <a name="manage-project-invoice-proposals"></a>Hantera projektfakturaförslag
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Projektfakturaförslag kan bearbetas av faktureringsavdelningen när följande två villkor uppfylls:
 
   - Projektledaren bekräftar proforma-fakturan i Microsoft Dataverse.
   - Alla icke-fakturerade försäljningstransaktioner med tid och material som ingår i proforma-fakturan bokförs med hjälp av Dynamics 365 **Project Operations Integration**-journalen.
 
-Slutför ett projektfakturaförslag i enligt följande steg i Dynamics 365 Finance:
+Slutför ett projektfakturaförslag i Dynamics 365 Finance enligt följande steg:
 
 1. Läs faktureringsinformationen för tids- och materialtransaktioner och publicera **integrationsjournal för Project Operations**.
 2. Granska faktureringsinformation för faktureringsmilstolpar med fast pris.

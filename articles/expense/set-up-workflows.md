@@ -7,22 +7,22 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da015904aebfb4cfe046407bbf7bc7fe5a0a0faa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997763"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581214"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Ställ in arbetsflöden för utgiftshantering
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan konfigurera en arbetsflödesprocess för att granska och godkänna rese- och utgiftsdokument. Du kan definiera arbetsflöden för utgiftsrapporter, reserekvisitioner och begäran om förskott.
 

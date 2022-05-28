@@ -2,16 +2,16 @@
 title: Inställningar för projektkontrakt - lite
 description: I det här ämnet finns information om de fält som påverkar kontraktrader och information om kontraktet som summeras mot alla radposterna.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995963"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586412"
 ---
 # <a name="header-details-for-project-contracts"></a>Rubrikinformation för projektkontrakt
 
@@ -32,12 +32,15 @@ I följande tabell visas fälten i ett projektkontrakt som är unika för Dynami
 | Undre gräns | Fliken **Sammanfattning** | Detta fält anger det förhandlade taket på det slutgiltiga värde som kunden har accepterat för denna affär. | Taket utvärderas under utförande och är tillämplig för alla radartiklar och projekt som är kopplade till denna affär. |
 | Begärt leveransdatum | Fliken **Sammanfattning** | När ett kontrakt skapas från en projektoffert kopieras fältet från motsvarande fält på projektofferten. | Detta datum används som slutdatum för generering av fakturascheman. |
 
-Följande nyckelvärden är tillgängliga under fliken **Kontraktprestanda** i ett projektkontrakt.
+Följande nyckelvärden är tillgängliga under fliken **Kontraktprestanda** i ett projektkontrakt. 
 
-| Fält | Plats | Beskrivning |
+>[!NOTE]
+>Alla belopp på fliken **Kontraktsresultat** uttrycks i miljöns standardvaluta.
+
+| Fält | Plats | Description |
 | --- | --- | --- |
-| Kontraktsvärde | Övergripande kontrakt | Det totala värdet för projektkontraktet. |
-| Fakturerat belopp | Övergripande kontrakt | Summan av beloppen på alla fakturor för det här kontraktet. |
+| Kontraktsvärde | Övergripande kontrakt | Det totala värdet för projektkontraktet.|
+| Fakturerat belopp | Övergripande kontrakt | Summan av beloppen på alla fakturor för det här kontraktet.|
 | Upparbetade kostnader | Övergripande kontrakt | Summan av alla verkliga kostnadsvärden som har loggats för alla projekt som är mappade till kontraktet. |
 | Bruttomarginal | Övergripande kontrakt | Fakturerat belopp – kostnad hittills/fakturerat belopp |
 | Förväntad marginal | Övergripande kontrakt | (Kontraktvärde – uppskattade kostnader)/kontraktvärde Uppskattade kostnader = summan av alla beräknade kostnader i alla projekt som är mappade till kontraktet.|

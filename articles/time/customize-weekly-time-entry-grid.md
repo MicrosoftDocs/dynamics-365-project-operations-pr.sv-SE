@@ -2,20 +2,20 @@
 title: Utöka tidsposter
 description: I det här ämnet finns information om hur utvecklare kan utöka tidspostkontrollen.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993353"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583008"
 ---
 # <a name="extending-time-entries"></a>Utöka tidsposter
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Dynamics 365 Project Operations innehåller en anpassad kontroll för längre tidsinmatning. Denna kontroll omfattar följande funktioner:
 
@@ -43,7 +43,7 @@ Tidsposter är en huvudsaklig entitet som används i flera scenarier. Under utgi
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Tidsposter och källentiteten för tid
-Varje tidspost associeras till en tidskällpost. Den här posten avgör hur och vilka program som sak behandla tidsposten.
+Varje tidspost associeras till en tidskällpost. Denna post avgör vilka program som ska bearbeta tidsposten och hur.
 
 Tidsposter är alltid ett sammanhängande tidsblock med start, slut och varaktighet sammankopplade.
 
@@ -55,7 +55,7 @@ I logiken uppdateras tidsposten automatiskt i följande situationer:
     - **msdyn_end**
     - **msdyn_duration**
 
-- Fälten **msdyn_start** och **msdyn_end** är medvetna om tidszonen.
+- Fälten **msdyn_start** och **msdyn_end** är tidszonsmedvetna.
 - Tidsposter som skapas med endast **msdyn_date** och **msdyn_duration** angivna startar vid midnatt. Fälten **msdyn_start** och **msdyn_end** uppdateras därefter.
 
 #### <a name="time-entry-types"></a>Typer av tidsposter
@@ -72,73 +72,63 @@ Tidsposter har en associerad typ som definierar beteendet för överföringsflö
 |Ledighet   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Anpassa kontroll för tidsposter för en vecka
 Utvecklare kan lägga till ytterligare fält och uppslag i andra entiteter och implementera anpassade affärsregler för att stödja affärsscenarier.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Lägga till anpassade fält med uppslag för andra entiteter
 Du lägger till ett anpassat fält i rutnätet med en tidspost i veckan i tre steg.
 
-1. Lägg till det anpassade fältet i dialogrutan snabbregistrering.
+1. Lägg till det anpassade fältet i dialogrutan **Snabbregistrering**.
 2. Konfigurera rutnätet så att det anpassade fältet visas.
-3. Lägg till det anpassade fältet i flödet för att redigera uppgift eller i cellen för att redigera uppgiftsflöde.
+3. Lägg till det anpassade fältet på sidan **Radredigering** eller **Tidspostredigering**.
 
-Kontrollera att de nya fälten har de valideringar som krävs i rad- eller cellflödet för redigera uppgift. Som en del av det här steget låser du fältet utifrån tidspoststatus.
+Se till att det nya fältet har de valideringar som krävs på sidan **Radredigering** eller **Tidspostredigering**. Som en del av den här uppgiften låser du fältet utifrån tidspoststatusen.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Lägg till det anpassade fältet i dialogrutan snabbregistrering.
-Lägg till det anpassade fältet i dialogrutan **Skapa tidspost för snabbregistrering**. När tidsposter sedan läggs till kan ett värde anges genom att välja **Ny**.
+När du lägger till ett anpassat fält i rutnätet **Tidspost** och sedan skapar tidsposter direkt i rutnätet, anges det anpassade fältet för dessa poster automatiskt så att det matchar raden. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Lägg till det anpassade fältet i dialogrutan Snabbregistrering
+Lägg till det anpassade fältet i idalogrutan **Snabbregistrering: Skapa tidspost**. Användarna kan sedan ange ett värde när de lägger till en tidspost genom att välja **Ny**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurera rutnätet så att det anpassade fältet visas.
-Du lägger till ett anpassat fält i rutnätet med en tidspost i veckan på ett av två sätt:
+Du lägger till ett anpassat fält i rutnätet **Veckovis tidspost** på ett av två sätt:
 
-  - Anpassa en vy och lägg till ett anpassat fält
-  - Skapa en ny anpassad standardtidspost 
+- Anpassa vyn **Mina veckovisa tidsposter** och lägg till ett anpassat fält i den. Du kan ange placering och storlek för det anpassade fältet i rutnätet genom att redigera egenskaperna i vyn.
+- Skapa en ny anpassad vy för anpassad tidspost och ange den som standardvy. Den här vyn ska innehålla fälten **Beskrivning** och **Externa kommentarer**, förutom de kolumner som du vill inkludera i rutnätet. Du kan ange placering, storlek och standardorienteringsorder för rutnätet genom att redigera egenskaperna i vyn. Konfigurera sedan den anpassade kontrollen för vyn så att den är en kontroll för **rutnät för tidspost**. Lägg till kontrollen i vyn och välj den för **Webb**, **Telefon** och **Surfplatta**. Konfigurera sedan parametrarna för rutnätet för **Veckotidspost**. Ange fältet **Startdatum** som **msdyn\_date**, ange fältet **Tid** som **msdyn\_duration**, och ange fältet **Status** som **msdyn\_entrystatus**. Fältet **Skrivskyddad statuslista** är inställt på **192350002 (godkänt)**, **192350003 (skickat)** eller **192350004 (återkallelse begärd)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Lägg till det anpassade fältet på lämplig redigeringssida
+Sidorna som används för att redigera en tidspost eller en rad med tidsposter finns under **Formulär**. Knappen **Redigera post** i rutnätet öppnar sidan **Redigera post**, och knappen **Redigera rad** öppnar sidan **Radredigering**. Du kan redigera sidorna så att de innehåller anpassade fält.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Anpassa en vy och lägg till ett anpassat fält
+Båda alternativen tar bort färdig filtrering på entiteterna **projekt** och **projektuppgift** så att alla uppslagsvyer för entiteter visas. Endast relevanta uppslagsvyer visas.
 
-Anpassa vyn **Mina veckovisa tidsposter** och lägg till ett anpassat fält i den. Du kan välja placering och storlek för det anpassade fältet i rutnätet genom att redigera egenskaperna i vyn.
+Du måste fastställa lämplig sida för det anpassade fältet. Om du har lagt till fältet i rutnätet bör det med största sannolikhet visas på sidan **Radredigering** som används för fält som tillämpas på hela raden med tidsposter. Om det anpassade fältet har ett unikt värde på raden varje dag (om det till exempel är ett anpassat fält för sluttiden) bör det hamna på sidan **Tidspostredigering**.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Skapa en ny anpassad standardtidspost
-
-Den här vyn ska innehålla fälten **Beskrivning** och **Externa kommentarer** förutom de kolumner som du vill ha i rutnätet. 
-
-1. Välj placering, storlek och standardorientering för rutnätet genom att redigera egenskaperna i vyn. 
-2. Konfigurera den anpassade kontrollen för vyn så att den är en kontroll för **Rutnät för tidspost**. 
-3. Lägg till den här kontrollen i vyn och välj den för webben, telefon och surfplatta. 
-4. Konfigurera parametrarna för rutnät för veckotidspost. 
-5. Ange fältet **Startdatum** till **msdyn_date**, ange värdet för **varaktighet** till **msdyn_duration** och ange fältet **Status** till **msdyn_entrystatus**. 
-6. I standardvyn är fältet **Skrivskyddad statuslista** inställd på **192350002,192350003,192350004**. Fältet **Uppgiftsflöde för radredigering** är inställt på **msdyn_timeentryrowedit**. Fältet **Uppgiftsflöde för cellredigering** är inställt på **msdyn_timeentryedit**. 
-7. Du kan anpassa de här fälten om du vill lägga till eller ta bort skrivskyddad status eller om du vill använda olika uppgiftsbaserade miljöer (TBX) för redigering av rader eller celler. De här fälten är nu bundna till ett statiskt värde.
-
-
-> [!NOTE] 
-> Båda alternativen tar bort färdig filtrering på entiteterna **Projekt** och **Projektuppgift** så att alla uppslagsvyer för entiteter visas. Endast relevanta uppslagsvyer visas.
-
-Fastställ lämpligt uppgiftsflöde för det anpassade fältet. Om du har lagt till fältet i rutnätet bör du i så fall gå till uppgiftsflödet för radredigering som används för fält som gäller för hela raden med tidsposter. Om det anpassade fältet har ett unikt värde varje dag, t.ex. ett anpassat fält för **Sluttid** ska det gå vidare i cellen för redigera uppgiftsflöde.
-
-Om du vill lägga till det anpassade fältet i ett uppgiftsflöde drar du elementet **Fält** till rätt plats på sidan och anger sedan fältegenskaperna. Ange egenskapen **Källa** till **Tidspost** och ange egenskapen för **datafältet** till det anpassade fältet. Egenskapen **Fält** anger visningsnamn på sidan TBX. Välj **Tillämpa** om du vill spara ändringarna i fältet och välj sedan **Uppdatera** för att spara ändringarna på sidan.
-
-Om du vill använda en ny anpassad TBX-sida i stället skapar du en ny process. Ange kategorin som **affärsprocessflöde**, ange posten till **tidspost** och ange affärsprocesstypen till **Kör process som uppgiftsflöde**. Under **egenskaper** ska egenskapen **sidnamn** anges som visningsnamn för sidan. Lägg till alla relevanta fält på sidan TBX. Spara och aktivera processen. Uppdatera egenskapen anpassad kontroll för det aktuella uppgiftsflödet till värdet för processens **namn**.
+Om du vill lägga till det anpassade fältet på en sida drar du ett element av typen **Fält** till rätt plats på sidan och anger sedan egenskaperna.
 
 ### <a name="add-new-option-set-values"></a>Lägg till nya värden för alternativuppsättning
-Om du vill lägga till värden för alternativuppsättning i ett färdigt fält öppnar du redigeringssidan för fältet och under **Typ** väljer du sedan **Redigera** bredvid alternativuppsättningen. Lägg till ett nytt alternativ som har en egen etikett och färg. Om du vill lägga till en ny tidspoststatus heter det färdiga fältet **Poststatus**, inte **Status**.
+Följ stegen nedan om du vill lägga till alternativuppsättningsvärden i ett färdigt fält.
+
+1. Öppna redigeringssidan för fältet innan du under **Typ** väljer **Redigera** bredvid alternativuppsättningen.
+2. Lägg till ett nytt alternativ som har en egen etikett och färg. Om du vill lägga till en ny tidspoststatus heter det färdiga fältet **Poststatus**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Ange en ny tidspoststatus som skrivskyddad
-Om du vill ange en ny tidspoststatus som skrivskyddad lägger du till det nya värdet till egenskapen **Skrivskyddad statuslista**. Den redigerbara delen av rutnätet för tidsposter låses för rader med den nya statusen.
-Lägg sedan till affärsregler för att låsa alla fält på TBX-sidorna **Redigera tidspostrad** och **Redigera tidspost**. Du kan komma åt affärsreglerna för de här sidorna genom att öppna affärsprocessflödesredigeraren för sidan och sedan välja **affärsregler**. Du kan lägga till den nya statusen i villkoret i befintliga affärsregler eller lägga till en ny affärsregel för den nya statusen.
+Om du vill ange en ny tidspoststatus som skrivskyddad lägger du till det nya värdet till egenskapen **Skrivskyddad statuslista**. Se till att lägga till numret, inte etiketten. Den redigerbara delen av rutnätet för tidsposter låses nu för rader med den nya statusen. Om du vill ställa in egenskapen **Skrivskyddad statuslista** på olika sätt för olika **Tidspost**-vyer, lägg då till rutnätet **Tidspost** i avsnittet **Anpassade kontroller** för en vy, och konfigurera sedan parametrarna efter behov.
+
+Lägg sedan till affärsregler för att låsa alla fält på sidorna **Radredigering** och **Redigera tidspost**. Du kan komma åt affärsreglerna för dessa sidorn genom att öppna formulärsredigeraren för respektive sida och sedan välja **Affärsregler**. Du kan lägga till den nya statusen i villkoret i befintliga affärsregler eller lägga till en ny affärsregel för den nya statusen.
 
 ### <a name="add-custom-validation-rules"></a>Lägga till anpassade verifieringsregler
-Det finns två typer av valideringsregler som du kan lägga till för veckotidspostens rutnätsfunktioner:
+Du kan lägga till två typer av valideringsregler för rutnätsupplevelsen **Veckovis tidspost**:
 
-- Affärsregler på klientsidan som fungerar i dialogrutorna för snabbskapande och på TBX-sidorna.
-- Valideringar av plugin-program på serversidan som gäller alla uppdateringar av tidsposter.
+- Affärsregler på klientsidan som fungerar på sidor
+- Valideringar av plugin-program på serversidan som gäller alla uppdateringar av tidsposter
 
-#### <a name="business-rules"></a>Affärsregler
-Använd affärsregler för att låsa och låsa upp fält, ange standardvärden i fält och definiera valideringar som endast kräver information från den aktuella tidsposten. Du kan komma åt affärsreglerna för en TBX-sida genom att öppna affärsprocessflödesredigeraren för sidan och sedan välja **affärsregler**. Du kan sedan redigera de befintliga affärsreglerna eller lägga till en ny affärsregel. För ännu mer anpassade valideringar kan du använda en affärsregel för att köra JavaScript.
+#### <a name="client-side-business-rules"></a>Affärsregler på klientsidan
+Använd affärsregler för att låsa och låsa upp fält, ange standardvärden i fält och definiera valideringar som endast kräver information från den aktuella tidsposten. Du kan komma åt affärsreglerna för en sida genom att öppna formulärsredigeraren och sedan välja **Affärsregler**. Du kan sedan redigera de befintliga affärsreglerna eller lägga till en ny affärsregel.
 
-#### <a name="plug-in-validations"></a>Valideringar av plugin-program
-Använd plugin-valideringar för alla valideringar som kräver mer kontext än vad som är tillgängligt i en enskild tidspost eller för alla verifieringar som du vill ska köras på infogade uppdateringar i rutnätet. Slutför valideringen genom att skapa ett eget plugin-program för entiteten **tidspost**.
+#### <a name="server-side-plug-in-validations"></a>Validering av plugin-program på serversidan
+Du bör använda plugin-valideringar för alla valideringar som kräver mer kontext än vad som är tillgängligt i en enskild tidspost. Du bör också använda dem för alla valideringar som du vill köra på infogade uppdateringar i rutnätet. Slutför valideringar genom att skapa ett eget plugin-program för entiteten **tidspost**.
+
+### <a name="limits"></a>Gränser
+För tillfället har rutnätet **Tidspost** en storleksbegränsning på 500 rader. Om det finns fler än 500 rader visas inte radöverskottet. Det går inte att öka storleksgränsen.
 
 ### <a name="copying-time-entries"></a>Kopiera tidsposter
 Använd vyn **Kopiera tidspostkolumner** för att definiera listan över fält som ska kopieras under en tidspost. **Datum** och **Varaktighet** är obligatoriska fält och bör inte tas bort från vyn.

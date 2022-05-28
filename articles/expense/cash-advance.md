@@ -4,20 +4,20 @@ description: I det här ämnet finns information om förskott.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988538"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585722"
 ---
 # <a name="cash-advance"></a>Förskott
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Ett förskott gör det möjligt för anställda att låna pengar från sitt företag innan de får utgifter. När ett begärt förskott godkänns och betalas kan medarbetaren använda sig av pengarna för de affärsutgifter de är på väg att ådra sig. 
 
@@ -66,7 +66,7 @@ Innan du skickar en utgiftsrapport kan du välja ett förskott som justeras mot 
  
  När de här funktionerna har aktiverats:
  
-  - Du kan ta bort en eller flera pengar för varje utgiftsrad.
+  - Du kan lägga till ett eller flera förskott för varje utgiftsrad.
   - Det tillgängliga saldot för ett förskott visas i realtid när en utgiftsrapport sparas. På så sätt kan du bearbeta utgiftstransaktioner och returnera en kassatransaktion samtidigt.
   - Du kan välja flera förskott för en kostnadstransaktion.
   - Information om förskottsavstämning kan fås med hjälp av en fråga. 

@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du arbetar med kontraktr
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f1efa9e5b5ad432e1564fb3d8db0405134a4dc73
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992138"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584940"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Hantera flera kunder på projektbaserade kontraktrader
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Projektbaserade kontraktrader kan innehålla en lista med kunder som är ansvarig för betalning. Den här listan med kunder på den projektbaserade kontraktraden kan vara samma som listan med kunder i kontraktet, men det är inte obligatoriskt. När en projektoffert visas och ett projektkontrakt skapas, kopieras kundlistan på offertraden till motsvarande kontraktrad. Kunderna i offerten kopieras till kontraktet.
 

@@ -4,25 +4,25 @@ description: Detta ämne innehåller information om hur du konfigurerar periodty
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998798"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580478"
 ---
 # <a name="period-types"></a>Periodtyper
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 En periodtyp definierar hur ofta intäkter uppskattas på ett projekt. Detta ämne innehåller information om hur du konfigurerar periodtyper för intäktsuppskattning. 
 
 ## <a name="create-and-work-with-period-types"></a>Skapa och arbeta med periodtyper
 Om du vill skapa och arbeta med periodtyper utför du följande steg:
 
-1. I din Dynamics 365 Finance-miljö går du till **Projektledning och redovisning** > **Konfiguration** > **Uppskattningar** > **Periodtyper**.
+1. I din Dynamics 365 Finance-miljö går du till **Projekthantering och redovisning** > **Inställningar** > **Beräkningar** > **Periodtyper**.
 2. Välj **Ny** för att skapa en ny periodtyp. Ange ett namn och en beskrivning.
 3. Välj ett värde i fältet **Frekvens**:
 

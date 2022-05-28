@@ -6,7 +6,7 @@ ms.date: 08/18/2021
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
-ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
+ms.openlocfilehash: 3d2ab3ba9e5b18a2b42acaa2dc51ad94b8189274
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403817"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584986"
 ---
 # <a name="review-proposed-resources"></a>Granska föreslagna resurser
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Resursansvariga kan föreslå en resurs till projektledaren genom att använda en resursbegäran.
 

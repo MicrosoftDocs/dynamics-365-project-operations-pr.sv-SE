@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991148"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586320"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Nyheter i maj 2021 i Project Operations för lagerbaserade/produktionsbaserade scenarier
 
@@ -20,7 +20,7 @@ ms.locfileid: "6991148"
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
-- Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.19
+- Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.19
  
 ### <a name="quality-updates"></a>Kvalitetsuppdateringar
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Resor och utgifter                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Det finns synkroniseringsproblem i mobilprogrammet Utgifter. 
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på Lifecycle Services (LCS) och visa de planerade regeluppdateringarna med sökverktyget Problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på Lifecycle Services (LCS) och visa de planerade regeluppdateringarna med sökverktyget Problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

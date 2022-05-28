@@ -4,18 +4,18 @@ description: Detta ämne innehåller information om hur du konfigurerar och konf
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 027cc711d53c7dd8512e6ef416b54e320357dd26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997538"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584112"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>Konfigurera automatiskt fakturaskapande 
  
-_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Du kan konfigurera automatiskt fakturaskapande i Dynamics 365 Project Operations. Systemet skapar ett utkast till en proforma-faktura utifrån faktureringsschemat för varje projektkontrakt och kontraktrad. Faktureringsscheman konfigureras på kontraktradsnivå. Varje rad i ett kontrakt kan ha en särskild faktureringsplan, eller så kan samma faktureringsschema tas med på alla rader i kontraktet.
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e418057e695d4a7686c278bb8ca865bddbdacfb19da88860bb35dd39ab852091
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009193"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583928"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>Vad är nytt i juni 2021 – Project Operations lite-distribution
 
@@ -33,9 +33,9 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Administrering av affärsmöjligheter | 2277528 | Beräkning av fast milstolpe för fakturering för projektkontraktrader med flera kunder. |
 | Projektplanering och spårning | 2226110 | Åtgärdade problemet med funktionen **Generera krav** i rutnätet **projektteam**. |
 | Projektplanering och spårning | 2208109 | Användare kan inte skapa ett projekt i en valuta med relaterade uppgifter i en annan valuta. |
-| Projektplanering och spårning | 2258228 | Listan över fält som tillåts ändra med entiteter **schemaläggning** med hjälp av Schema-API har uppdaterats. |
+| Projektplanering och spårning | 2258228 | Listan över fält som tillåts ändra med entiteter **planering** med hjälp av Schema-API har uppdaterats. |
 | Projektplanering och spårning | 2293989 | Rätt språkinställningar och nationella inställningar måste skickas till rutnätet **Projektuppgifter**.|
 | Resurshantering | 2220493 | Åtgärdade användarupplevelsen i rutnätet **Uppgift** när en resursbegäran snabbt markerades som slutförd. |
-| Resurshantering | 2330496 | Åtgärdade problemet med inläsningen av **schemaläggningstavlan**. (Kvalitetsuppdatering finns i version 4.11.0.164) |
+| Resurshantering | 2330496 | Åtgärdade problemet med inläsningen av **planeringstavlan**. (Kvalitetsuppdatering finns i version 4.11.0.164) |
 | Tid och utgift | 2194431 | Rutnätet **Tidspost** måste hedra början på veckan som anges i **Systeminställningar**. |
 | Tid och utgift | 2277311 | När du har tagit bort värdet i en cell i rutnätet **tidspost** blir markören kvar i rutnätet. |

@@ -4,26 +4,26 @@ description: I det här ämnet finns information om nyckelkoncept för projektko
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986963"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582962"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Koncept som är unika för projektbaserade kontrakt
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Detta ämne tillhandahåller de centrala begrepp du bör vara medveten om innan du börjar använda Project-avtal i Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Ägande företag
 
-Det ägande företaget är den juridiska person i modulen **Projektledning och redovisning** i Project Operations från Dynamics 365 Finance. Det ägande företaget representerar den juridiska personen som redovisar kostnaden och intäkterna från en affär.
+Det ägande företaget är den juridiska personen från modulen **Projekthantering- och redovisning** för Project Operations från Dynamics 365 Finance. Det ägande företaget representerar den juridiska personen som redovisar kostnaden och intäkterna från en affär.
 
 ## <a name="contracting-unit"></a>Kontrakteringsenhet
 

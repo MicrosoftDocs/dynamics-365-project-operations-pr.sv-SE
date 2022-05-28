@@ -4,18 +4,18 @@ description: Detta ämne ger information om hur Project Operations spårar frams
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78d7bdaf9f5ca1757273cb81a1303befb0357ba547eb354097786fc3c38962b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fff5fa6b12dddd780eb6bf77edca85a3a0c0629c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995603"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583468"
 ---
 # <a name="project-sales-tracking"></a>Projektförsäljningsspårning
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Dynamics 365 Project Operations spårar arbetsuppskattningar och intäkter minst granularitet på projektplanen. Uppskattningen av arbetsintäkten baseras på den planerade insatsen och de generiska eller namngivna resurserna som tilldelas varje lövnodsuppgift i projektplanen. När projektet börjar och människor börjar rapportera tid på olika projektaktiviteter summeras de faktiska arbetsintäkterna som startar en beräkning av projektionerna.
 

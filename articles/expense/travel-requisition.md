@@ -4,18 +4,18 @@ description: I det här ämnet finns information om reserekvisitioner.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 45d303d482f6c034cad2c3423c3e505fc62950a4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994568"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585676"
 ---
 # <a name="travel-requisitions"></a>Reserekvisitioner
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 En reserekvisition visar de utgifter som uppstår i samband med resan. En reserekvisition skickas för granskning och kan användas för att godkänna utgifter.
 

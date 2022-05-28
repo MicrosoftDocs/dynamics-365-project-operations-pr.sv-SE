@@ -5,36 +5,36 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986603"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585814"
 ---
 # <a name="expense-management-integration"></a>Integration av utgiftshantering
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Detta avsnitt innehåller information om integration av utgiftsrapporter i Project Operations [fullständig utgiftsdistribution](../expense/expense-overview.md) med dubbelriktad skrivning.
 
 ## <a name="expense-categories"></a>Utgiftskategorier
 
-I en fullständig utgiftsdistribution skapas och hanteras utgiftskategorier i Finance and Operations-appar. Om du vill skapa en ny utgiftskategori gör du följande:
+I en fullständig utgiftsdistribution skapas och hanteras utgiftskategorier i apaprna för ekonomi och drift. Om du vill skapa en ny utgiftskategori gör du följande:
 
-1. Skapa en **transaktionskategori** i Microsoft Dataverse. Integration med dubbelriktad skrivning synkroniserar den här transaktionskategorin med Finance and Operations-appar. Mer information finns i [Konfigurera projektkategorier](/dynamics365/project-operations/project-accounting/configure-project-categories) och [Konfiguration av Project Operations samt integration av konfigurationsdata](resource-dual-write-setup-integration.md). Genom den här integrationen skapar systemet fyra delade kategoriposter i Finance and Operations-appar.
+1. Skapa en **transaktionskategori** i Microsoft Dataverse. Integrering med dubbelskrivning synkroniserar denna transaktionskategori med appar för ekonomi och drift. Mer information finns i [Konfigurera projektkategorier](/dynamics365/project-operations/project-accounting/configure-project-categories) och [Konfiguration av Project Operations samt integration av konfigurationsdata](resource-dual-write-setup-integration.md). Som ett resultat av denna integrering skapar systemet fyra delade kategoriposter i apparna för ekonomi och drift.
 2. I Ekonomi går du till **Utgiftshantering** > **Inställning** > **Delade kategorier** och väljer en delad kategori med transaktionsklass **Utgift**. Ställ in parametern **Kan användas i utgift** som **True** och definiera den utgiftstypen som ska användas.
 3. Med den här delade kategoriposten kan du skapa en ny utgiftskategori genom att gå till **Utgiftshantering** > **Inställning** > **Utgiftskategorier** och välja **Ny**. När posten sparas använder dubbelriktad skrivning tabellmappningen **Project Operations-integration av entitet för export av projektutgiftskategorier (msdyn\_expensecategories)** för att synkronisera posten med Dataverse.
 
   ![Integration av utgiftskategorier.](./media/DW6ExpenseCategories.png)
 
-Utgiftskategorier i Finance and Operations-appar är specifika för företag eller juridiska entiteter. Det finns separata, motsvarande, juridisk enhets-specifika poster i Dataverse. När en projektansvarig beräknar utgifter kan hen inte välja utgiftskategorier som skapats för ett projekt som ägs av ett annat företag än det företag som äger projektet hen arbetar med. 
+Utgiftskategorier i appar för ekonomi och drift är företags- eller juridiskt entitetsspecifika. Det finns separata, motsvarande, juridisk enhets-specifika poster i Dataverse. När en projektansvarig beräknar utgifter kan hen inte välja utgiftskategorier som skapats för ett projekt som ägs av ett annat företag än det företag som äger projektet hen arbetar med. 
 
 ## <a name="expense-reports"></a>Utgiftsrapporter
 
-Utgiftsrapporter skapas och godkänns i Finance and Operations-appar. Mer information finns i [Skapa och bearbeta utgiftsrapporter i Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). När utgiftsrapporten har godkänts av projektansvarig registreras den i huvudboken. I Project Operations registreras projektrelaterade utgiftsrapportrader med specialbokföringsregler:
+Utgiftsrapporter skapas och godkänns i appar för ekonomi och drift. Mer information finns i [Skapa och bearbeta utgiftsrapporter i Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). När utgiftsrapporten har godkänts av projektansvarig registreras den i huvudboken. I Project Operations registreras projektrelaterade utgiftsrapportrader med specialbokföringsregler:
 
   - Projektrelaterade kostnader (inklusive icke-återbetalningsbar moms) registreras inte direkt på projektkostnadskontot i huvudboken, utan registreras i stället upp på utgiftsintegrationskontot. Kontot ställs in i **Projekthantering och redovisning** > **Inställning** > **Projekthanterings- och redovisningsparametrar**, på fliken **Project Operations i Dynamics 365 Customer engagement**.
   - Dubbelriktad skrivning synkroniseras med Dataverse med tabellmappningen **Entitet för export av projektutgifter i Project Operations-integration (msdyn \_expenses)**.
