@@ -2,8 +2,8 @@
 title: Uppdatera tidsplaner för lanseringar för Project Service 3.x
 description: I det här ämnet finns information om tillgängliga och kommande versioner av Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/04/2021
-ms.reviewer: kfend
+ms.date: 03/28/2022
+ms.reviewer: johnmichalak
 ms.prod: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
+ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940956"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8732908"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Uppdatera tidsplaner för lanseringar för Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7940956"
 
 | Lösning  | Senaste versionen |
 |-------|----|
-| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation    | 3.10.74.200 |
 | Project Service Automation-skrivbordstillägg                | 3.60          |
 
 För information om andra uppdateringar av Project Service, se [Dynamics 365 utgivningsplaner](/dynamics365/release-plans/). 
@@ -45,28 +45,31 @@ För information om andra uppdateringar av Project Service, se [Dynamics 365 utg
 | Station  | Region | Aktuell version | Nästa version |  Schemalagt datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Första utgivning</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14 januari 2022
+| | <i>Första utgivning</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 27 maj 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Sydamerika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
-| | <i>Kanada</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
-| | <i>Indien</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
-| | <i>Frankrike</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
-| | <i>Sydafrika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
-| | <i>Tyskland</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
-| | <i>Schweiz</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 januari 2022
+| | <i>Sydamerika</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Kanada</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Indien</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Frankrike</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Sydafrika</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Tyskland</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Schweiz</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Sydkorea</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
+| | <i>Norge</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 juni 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
-| | <i>Asien/Stillahavsområdet</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
-| | <i>Storbritannien</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
-| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
-| | <i>Förenade Arabemiraten</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 januari 2022
+| | <i>Japan</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maj 2022
+| | <i>Asien/Stillahavsområdet</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maj 2022
+| | <i>Storbritannien</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maj 2022
+| | <i>Oceana</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maj 2022
+| | <i>Förenade Arabemiraten</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 maj 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 januari 2022
+| | <i>Europa</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20 maj 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Nordamerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 januari 2022
+| | <i>Nordamerika</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 maj 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 januari 2022
-| | <i>Dedikerade skalgrupper</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21 januari 2022
+| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 maj 2022
+| | <i>Dedikerade skalgrupper</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03 juni 2022
+
 
 
 

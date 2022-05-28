@@ -1,32 +1,31 @@
 ---
-title: Synkronisera projektberäkningar direkt från Project Service Automation till Finance and Operations
-description: I det här ämne beskrivs de mallar och underliggande uppgifter som används för att synkronisera uppskattning av projekttid och uppskattning av projektutgift direkt från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Finance.
+title: Synkronisera projektuppskattningar från Project Service Automation direkt till Finance and Operations
+description: Detta ämne beskriver de mallar och underliggande uppgifter som används för att synkronisera projektets timuppskattningar och projektets utgiftsuppskattningar direkt från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988223"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684618"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisera projektberäkningar direkt från Project Service Automation till Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisera projektuppskattningar från Project Service Automation direkt till Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-I det här ämne beskrivs de mallar och underliggande uppgifter som används för att synkronisera uppskattning av projekttid och uppskattning av projektutgift direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
+Detta ämne beskriver de mallar och underliggande uppgifter som används för att synkronisera projektets timuppskattningar och projektets utgiftsuppskattningar direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projektuppgift, kategorier för utgiftstransaktioner, timuppskattningar, utgiftsuppskattningar och funktionslåsning är tillgängliga i version 8.0.
@@ -70,7 +69,7 @@ Innan du kan utföra en synkronisering av uppskattningar av projekttimmar måste
 
 ### <a name="power-query"></a>Power Query
 
-I mallen uppskattning av projekttid måste du använda Microsoft Power Query för Excel för att utföra de här uppgifterna:
+Du måste använda Microsoft Power Query för Excel i uppskattningsmallen för projekttimmar för att kunna slutföra följande uppgifter:
 
 - Ange standard prognosmodell-ID som används när integreringen skapar nya timprognoser.
 - Filtrera bort eventuella resursspecifika poster i den aktivitet som inte ska integreras i timprognoser.
@@ -81,7 +80,7 @@ I mallen uppskattning av projekttid måste du använda Microsoft Power Query fö
 Du uppdaterar standard modell-ID för prognos genom att klicka på pilen **mappning** för att öppna mappningen. Välj sedan länken **Avancerad fråga och filtrering**.
 
 - Om du använder standardmallen projekttimberäkningar (PSA till Fin and Ops) välj **Infogade villkoret** i listan **Använda steg**. I inmatningen **Funktion** ersätt **O\_prognos** med namnet på det modell-ID för prognos som ska användas tillsammans med integrationen. Standardmallen har ett prognosmodell-ID från demonstrationsdata.
-- Om du skapar en ny mall måste du lägga till den här kolumnen. I Power Query, välj **Lägg till villkorlig kolumn** och ange ett namn för den nya kolumnen, t.ex. **ModelID**. Ange villkoret för kolumnen där, om projektuppgiften inte är null, så \<enter the forecast model ID\>, annars null.
+- Om du skapar en ny mall måste du lägga till den här kolumnen. I Power Query markerar du **Lägg till villkorskolumn** och anger ett namn för den nya kolumnen, till exempel **ModelID**. Ange villkoret för kolumnen där, om projektuppgiften inte är null, så \<enter the forecast model ID\>, annars null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrera bort specifika resursposter
 
@@ -126,7 +125,7 @@ Innan du kan utföra en synkronisering av uppskattning av projektutgifter måste
 
 ### <a name="power-query"></a>Power Query
 
-I mallen uppskattning av projektutgifter av verkliga värden måste du använda Power Query för att utföra följande uppgifter:
+Du måste använda Power Query i mallen för projektets utgiftsuppskattningar för att slutföra följande uppgifter:
 
 - Filtrera så att endast radposter för uppskattning av projekt.
 - Ange standard prognosmodell-ID som används när integreringen skapar nya timprognoser.
@@ -141,8 +140,8 @@ Mallen beräkning av projektutgifter (PSA till Fin and Ops) har ett standardfilt
 
 Du uppdaterar standard modell-ID för prognos genom att välja uppgiften **Utgiftsberäkningar** och klicka sedan pilen **Mappning** för att öppna mappningen. Välj länken **Avancerad fråga och filtrering**.
 
-- Om du använder mallen uppskattning av projektutgifter (PSA till Fin and Ops) i Power Query, välj det första **Infogade villkoret** från **Använda steg**. I inmatningen **Funktion** ersätt **O\_prognos** med namnet på det modell-ID för prognos som ska användas tillsammans med integrationen. Standardmallen har ett prognosmodell-ID från demonstrationsdata.
-- Om du skapar en ny mall måste du lägga till den här kolumnen. I Power Query, välj **Lägg till villkorlig kolumn** och ange ett namn för den nya kolumnen, t.ex. **ModelID**. Ange villkoret för kolumnen där, om ID för uppskattningsrad inte är null, så \<enter the forecast model ID\>, annars null.
+- Om du använder standardmallen för faktiska projektutgifter ("PSA till Fin och Ops"), välj då första **Infogade villkor** i avsnittet **Tillämpade steg** i Power Query. I inmatningen **Funktion** ersätt **O\_prognos** med namnet på det modell-ID för prognos som ska användas tillsammans med integrationen. Standardmallen har ett prognosmodell-ID från demonstrationsdata.
+- Om du skapar en ny mall måste du lägga till den här kolumnen. I Power Query markerar du **Lägg till villkorskolumn** och anger ett namn för den nya kolumnen, till exempel **ModelID**. Ange villkoret för kolumnen där, om ID för uppskattningsrad inte är null, så \<enter the forecast model ID\>, annars null.
 
 #### <a name="transform-the-billing-types"></a>Omvandla faktureringstyperna
 

@@ -1,27 +1,27 @@
 ---
-title: Nyheter i juli 2021 – Project Operations för resurs/icke lagerbaserade scenarier
+title: Nyheter i juli 2021 – Project Operations för resurs/icke-lagerbaserade scenarier
 description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i juli 2021-versionen av Project Operations för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008068"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600902"
 ---
-# <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juli 2021 – Project Operations för resurs/icke lagerbaserade scenarier
+# <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juli 2021 – Project Operations för resurs/icke-lagerbaserade scenarier
 
-*Gäller: Project Operations för resursscenarier/icke lagerbaserade scenarier*
+*Gäller: Project Operations för resurs-/icke-lagerbaserade scenarier*
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
    - Project Operations i Microsoft Dataverse miljöversion 4.12.0.148 eller 4.12.0.152.
-   - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.20.
+   - Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 

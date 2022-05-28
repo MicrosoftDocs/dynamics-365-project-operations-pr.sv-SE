@@ -1,27 +1,27 @@
 ---
-title: Nyheter i maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+title: Nyheter i maj 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 description: Det här ämnet innehåller information om kvalitetsuppdateringarna som är tillgängliga i maj 2021-versionen av Project Operations för resurs-/ej lagerbaserade scenarier.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994703"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723790"
 ---
-# <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+# <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i maj 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
 - Project Operations i Dynamics 365 Dataverse-miljöversion 4.10.0.186
-- Projekthantering och redovisning i Finance and Operations-appmiljöer version 10.0.18
+- Projekthantering och redovisning i appar för ekonomi drift, version 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 
@@ -41,9 +41,9 @@ Följande lista visar de mappningar med dubbelriktad skrivning som har ändrats 
 | Project Operations-integration för entitet för export av projektleverantörsfakturarad (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kvalitetsuppdateringar |
 | Projekt V2 (msdyn\_projects) | 1.0.0.2 | Kvalitetsuppdateringar |
 
-Kör alltid den senaste versionen av mappningen i din miljö och aktivera alla relaterade tabellmappningar när du uppdaterar Project Operations Dataverse-lösningen och Finance and Operations-applösningsversion. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av mappningen visas i kolumnen **Version** på sidan **Dubbelriktad skrivning**. Du aktiverar en ny version av mappningen genom att välja **Tabellmappningsversioner**, välja senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Kör alltid den senaste versionen av mappningen i miljön och aktivera alla relaterade tabellmappningar när du uppdaterar din Project Operations Dataverse-lösning och lösningsversionen för apparna för ekonomi och drift. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av mappningen visas i kolumnen **Version** på sidan **Dubbelriktad skrivning**. Du aktiverar en ny version av mappningen genom att välja **Tabellmappningsversioner**, välja senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Om du har problem med att starta mappningen följer du instruktionerna i avsnittet [Problem med saknade tabellkolumner i mappningar](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) i felsökningsguiden för dubbelriktad skrivning.
+Om du har problem med att starta mappningen följer du instruktionerna i avsnittet [Problem med saknade tabellkolumner i mappningar](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i felsökningsguiden för dubbelriktad skrivning.
 
 ## <a name="quality-updates"></a>Kvalitetsuppdateringar
 

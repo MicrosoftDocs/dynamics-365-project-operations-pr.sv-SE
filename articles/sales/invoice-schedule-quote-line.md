@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du skapar faktureringssc
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b443a353c98fe5c7475d8a95c99abe01cd00987
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988628"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601086"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Faktureringsscheman på projektbaserade offertrader
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 En projektbaserad offertrad ger möjlighet att uttrycka ett faktureringsschema. Detta är valfritt under offertfasen eftersom programmet inte stöder fakturering av ett projekt när det är knutet till en offertrad. Fakturering tillåts endast efter att offerten har vunnits. Den enda inverkan nedströms från skapandet av ett faktureringsschema under offertfasen är att faktureringsschemat kopieras till den projektbaserade kontraktraden. Om du inte skapar ett faktureringsschema under offertfasen kan du göra det på den projektbaserade kontraktraden.
 

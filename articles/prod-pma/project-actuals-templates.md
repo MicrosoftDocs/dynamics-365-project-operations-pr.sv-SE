@@ -1,32 +1,31 @@
 ---
-title: Synkronisera projektets verkliga värden direkt från Project Service Automation till projekt integrationsjournalen för bokföring i Finance and Operations
-description: I det här ämne beskrivs de mallar och underliggande uppgifter som används för att synkronisera projektets verkliga värden direkt från Microsoft Dynamics 365 Project Service Automation till Finance and Operations.
+title: Synkronisera projektets faktiska värden från Project Service Automation direkt till projektets integreringsjournal för bokföring i Finance and Operations
+description: Detta ämne beskriver de mallar och underliggande uppgifter som används för att synkronisera projektets faktiska värden direkt från Microsoft Dynamics 365 Project Service Automation till Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988133"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683560"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisera projektets verkliga värden direkt från Project Service Automation till projekt integrationsjournalen för bokföring i Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisera projektets faktiska värden från Project Service Automation direkt till projektets integreringsjournal för bokföring i Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-I det här ämne beskrivs de mallar och underliggande uppgifter som används för att synkronisera projektets verkliga värden direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
+Detta ämne beskriver de mallar och underliggande uppgifter som används för att synkronisera faktiska projektvärden direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
 
 Mallen synkroniserar transaktioner från Project Service Automation till en mellanlagringstabell i Finance. När synkroniseringen har slutförts **måste** importera data från mellanlagringstabellen till integrationsjournalen.
 
@@ -42,7 +41,7 @@ Project Service Automation till Finance integreringslösning använder funktione
 
 Följande illustration visar hur datasynkroniseras mellan Project Service Automation och Finance.
 
-[![Dataflöde för Project Service Automation-integrering med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Dataflöde för integrering av Project Service Automation med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projektets faktiska värden från Project Service Automation
 
@@ -75,7 +74,7 @@ Innan synkronisering av verkliga värden kan inträffa måste du konfigurera int
 
 ### <a name="power-query"></a>Power Query
 
-I mallen projektets verkliga värden måste du använda Microsoft Power Query för Excel för att utföra de här uppgifterna:
+Du måste använda Microsoft Power Query för Excel i uppskattningsmallen för projekt för att kunna slutföra följande uppgifter:
 
 - Omvandla transaktionstypen i Project Service Automation till rätt transaktionstyp i Finance. Den här omvandlingen har redan definierats i mallen projektets faktiska värden (PSA till Fin and Ops).
 - Omvandla faktureringstypen i Project Service Automation till rätt faktureringstyp i Finance. Den här omvandlingen har redan definierats i mallen projektets faktiska värden (PSA till Fin and Ops). Faktureringstypen mappas sedan till radegenskapen utifrån konfigurationen på sidan **Project Service Automation integreringsparametrar**.
@@ -84,9 +83,9 @@ I mallen projektets verkliga värden måste du använda Microsoft Power Query f�
 - Om verkliga värden för koncernintern tid eller koncerninterna utgifter inte synkroniseras med Finance måste du ta bort den senast infogade villkorliga kolumnen från mallen. Annars kan ett integrationsfel inträffa, eller så kan felaktiga faktiska transaktioner importeras till Finance.
 
 #### <a name="contract-organizational-unit"></a>Omvandla organisationsenheter
-Du uppdaterar den infogade villkorliga kolumnen i mallen genom att klicka på pilen **mappning** för att öppna mappningen. Välj länken **Avancerad fråga och filtrering** för att öppna Power Query.
+Du uppdaterar den infogade villkorliga kolumnen i mallen genom att klicka på pilen **mappning** för att öppna mappningen. Välj länken **Avancerade frågor och filter** för att öppna Power Query.
 
-- Om du använder mallen projektets faktiska standardvärden (PSA till Fin and Ops) i Power Query, välj det senast **Infogade villkoret** från **Använda steg**. I inmatningen **Funktion** ersätt **USSI** med namnet på den juridiska personen som ska användas tillsammans med integrationen. Lägg till ytterligare villkor i posten **funktion** som du behöver och uppdatera villkoret **else** från **USMF** till rätt juridisk person.
+- Om du använder standardmallen för faktiska projektvärden ("PSA till Fin och Ops"), välj då senaste **Infogat villkor** i avsnittet **Tillämpade steg** i Power Query. I inmatningen **Funktion** ersätt **USSI** med namnet på den juridiska personen som ska användas tillsammans med integrationen. Lägg till ytterligare villkor i posten **funktion** som du behöver och uppdatera villkoret **else** från **USMF** till rätt juridisk person.
 - Om du skapar en ny mall måste du lägga till kolumnen som stöd för koncernintern tid och utgifter. Markera **Lägg till villkorlig kolumn** och ange ett namn för kolumnen, t.ex. **LegalEntity**. Ange ett villkor för kolumnen där, om **msdyn\_contractorganizationalunitid.msdyn\_name** är \<organizational unit\>, så \<enter the legal entity\>, annars null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mallgrupp i dataintegrering
@@ -126,7 +125,7 @@ Projektets faktiska värden hanteras i Project Service Automation och synkronise
 
 ### <a name="power-query"></a>Power Query
 
-I mallen projektets uppdatering av verkliga värden måste du använda Power Query för att utföra de här uppgifterna:
+Du måste använda Power Query i uppdateringsmallen för faktiska projektvärden för att kunna slutföra följande uppgifter:
 
 - Omvandla transaktionstypen i Finance till rätt transaktionstyp i Project Service Automation. Den här omvandlingen har redan definierats i mallen uppdatering av projektets faktiska värden (Fin Ops till PSA).
 - Omvandla faktureringstypen i Finance till rätt faktureringstyp i Project Service Automation. Den här omvandlingen har redan definierats i mallen uppdatering av projektets faktiska värden (Fin Ops till PSA).

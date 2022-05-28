@@ -1,27 +1,27 @@
 ---
-title: Nyheter i juni 2021 – Project Operations för resurs/icke lagerbaserade scenarier
+title: Nyheter i juni 2021 – Project Operations för resurs/icke-lagerbaserade scenarier
 description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i juni 2021-versionen av Project Operations för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679231"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600810"
 ---
-# <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juni 2021 – Project Operations för resurs/icke lagerbaserade scenarier
+# <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juni 2021 – Project Operations för resurs/icke-lagerbaserade scenarier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
 - Project Operations i Dynamics 365 Dataverse miljöversion 4.11.0.156 eller 4.11.0.164.
-- Projekthantering och redovisning i Finance and Operations-appmiljöer version 10.0.19.
+- Projekthantering och redovisning i appar för ekonomi drift, version 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 
@@ -38,7 +38,7 @@ Det finns inga uppdateringar för mappning för dubbelriktad skrivning för Proj
 
 En aktuell lista och mappningsversioner för dubbelriktad skrivning för Project Operations finns i [Mappningsversioner för dubbelriktad skrivning för Project Operations](../environment/resource-dual-write-maps.md).
 
-Kör alltid den senaste versionen av mappningen i din miljö och aktivera alla relaterade tabellmappningar när du uppdaterar Project Operations Dataverse-lösningen och Finance and Operations-applösningsversion. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av kartan visas på sidan **Dubbelriktad skrivning** i kolumnen **Version**. Aktivera en ny version av kartan genom att välja **tabellmappningsversioner**, välja den senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Kör alltid den senaste versionen av mappningen i miljön och aktivera alla relaterade tabellmappningar när du uppdaterar din Project Operations Dataverse-lösning och lösningsversionen för apparna för ekonomi och drift. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av kartan visas på sidan **Dubbelriktad skrivning** i kolumnen **Version**. Aktivera en ny version av kartan genom att välja **tabellmappningsversioner**, välja den senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Om du stöter på ett problem som startar kartan, följ instruktionerna i avsnittet [Saknade tabellkolumner saknas på kartor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i felsökningsguiden för dubbla skrivningar.
 

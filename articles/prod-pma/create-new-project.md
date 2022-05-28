@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985973"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685078"
 ---
 # <a name="create-a-new-project"></a>Skapa ett nytt projekt
 
@@ -53,7 +52,7 @@ En projektledare kan använda projektets källfunktioner för att skapa de rolle
 
 [![Exempel på en roll.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso anlitades för att slutföra ett tids- och materialprojekt med ett godkänt projekt. Juniorprojektledaren håller fortfarande på att slutföra projektets omfattning. Resurshanteraren identifierar just nu specifika resurser som ska reserveras för att fungera i det nya projektet. På grund av projektets kritiska karaktär begärde projektsponsor chefsprojektledare som en av rollerna. Resurshanteraren måste skaffa den nya resursen och definiera rollen i systemet om oerfarna projektledare kräver resursinformationen under projektplanering.
+**Scenario:** Contoso anställdes för att slutföra ett tids- och materialprojekt som har en godkänd projektstadgar. Juniorprojektledaren håller fortfarande på att slutföra projektets omfattning. Resurshanteraren identifierar just nu specifika resurser som ska reserveras för att fungera i det nya projektet. På grund av projektets kritiska karaktär begärde projektsponsor chefsprojektledare som en av rollerna. Resurshanteraren måste skaffa den nya resursen och definiera rollen i systemet om oerfarna projektledare kräver resursinformationen under projektplanering.
 
 I följande steg visas hur resurshanteraren kan konfigurera rollen som ansvarig för projektchefen och associera resursegenskaper med den. Senare kan rollen användas för att söka efter tillgängliga resurser som matchar de begärda resurskompetenserna.
 

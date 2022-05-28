@@ -1,6 +1,6 @@
 ---
 title: Konfigurera utgiftshantering
-description: I den här artikeln beskrivs vad du bör tänka på samt vilka beslut du måste fatta under planeringsprocessen innan du konfigurerar utgiftshantering i Microsoft Dynamics 365 Finance.
+description: Denna artikel ger en beskrivning av de överväganden och beslut som måste fattas under planeringsprocessen innan du konfigurerar Utgiftshantering i Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca4362b0ff5d37b131e1d96e311aa48ac20397618314936944ba66e458dbdc2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
+ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007483"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710013"
 ---
 # <a name="configure-expense-management"></a>Konfigurera utgiftshantering
 
@@ -41,7 +40,7 @@ Utgiftshantering är nära integrerad med den ekonomiska förvaltningen av organ
 
 ### <a name="per-diems"></a>Traktamente
 
-Du måste definiera traktamenten för medarbetare som din organisation tillhandahåller. Eftersom traktamenten vanligtvis används för att täcka utgifter som måltider, logi och andra oförutsedda utgifter, kan du skapa regler för traktamenten som organisationen erbjuder. Traktamentstaxa kan baseras på tid på året, resmål eller både och. När du definierar en traktamentsregel kan du ange att en procentsats av traktamentstaxan ska dras in om en arbetare får gratis måltider eller tjänster. Du kan även definiera nivåer av traktamentstaxa för att ange ett minsta och högsta antal timmar som traktamentstaxan kan gälla för en arbetares resa.
+Du måste definiera traktamenten för medarbetare som din organisation tillhandahåller. Eftersom traktamenten vanligtvis används för att täcka utgifter som måltider, boende och andra oförutsedda utgifter, kan du skapa regler för traktamenten som organisationen erbjuder. Traktamentstaxa kan baseras på tid på året, resmål eller både och. När du definierar en traktamentsregel kan du ange att en procentsats av traktamentstaxan ska dras in om en arbetare får gratis måltider eller tjänster. Du kan även definiera nivåer av traktamentstaxa för att ange ett minsta och högsta antal timmar som traktamentstaxan kan gälla för en arbetares resa.
 
 **Beslut:**
 

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991193"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723744"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller ändringar i Project Operations, mars 2021 för lagerbaserade/produktionsbaserade scenarier
 
@@ -20,7 +20,7 @@ _**Gäller för:** Project Operations för lagerbaserade/produktionsbaserade sce
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
-- Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.17
+- Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 Följande funktioner ingår i denna version:
@@ -66,7 +66,7 @@ Följande funktioner ingår i denna version:
 | Projektledning och redovisning | [518001](https://fix.lcs.dynamics.com/Issue/Details/?bugId=518001) | En justering bokförs med felaktigt kostnadsbelopp om produktkostnadens pris och artikelbehovskvantiteten ändras efter bokningssedeln.                                                                   |
 | Projektledning och redovisning | [518092](https://fix.lcs.dynamics.com/Issue/Details/?bugId=518092) | De ekonomiska dimensionerna på en inköpsorder för direkt leverans är felaktiga och har ersatts med ekonomiska dimensioner för försäljningsorder.                                                              |
 | Projektledning och redovisning | [518605](https://fix.lcs.dynamics.com/Issue/Details/?bugId=518605) | Projektraden för negativa kvantiteter uppdaterar inte prognosen när prognoskvantiteten är noll.                                                                                        |
-| Projektledning och redovisning | [518657](https://fix.lcs.dynamics.com/Issue/Details/?bugId=518657) | Försök att importera objektkrav med hjälp av Microsoft Excel resulterar i ett fel i inleveransdatum.                                                                                                                                                    |
+| Projektledning och redovisning | [518657](https://fix.lcs.dynamics.com/Issue/Details/?bugId=518657) | Försök att importera artikelkrav med hjälp av Microsoft Excel resulterar i ett fel i inleveransdatum.                                                                                                                                                    |
 | Projektledning och redovisning | [519200](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519200) | Projekttransaktionens referens till en leverantörsfaktura transaktion uppdateras inte när fakturan bokas.                                                                                               |
 | Projektledning och redovisning | [519716](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519716) | När du bokför ett projektfakturaförslag kan följande fel inträffa, "Transaktion balanserar inte med rapporteringsvaluta när förskottsfaktura har dragits av" läggs till.                                                                    |
 | Projektledning och redovisning | [520268](https://fix.lcs.dynamics.com/Issue/Details/?bugId=520268) | Projekt-ID och projektnamn fylls inte i rapporten **Innehållen leverantörsbetalning** om du använder projektlayouten.                                                                                              |
@@ -121,7 +121,7 @@ Följande funktioner ingår i denna version:
 | Projektledning och redovisning | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Den klassiska metoden för uppdelad arbetsstruktur (WBS) **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** är inaktuell.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates.md). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

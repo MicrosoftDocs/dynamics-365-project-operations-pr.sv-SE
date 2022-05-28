@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988043"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685007"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrering för Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Det kan vara komplicerat att planera och underhålla ett projekt. Det innebär att projektledarna måste använda verktyg som hjälper dem att hantera den här uppgiften. Integrering med Microsoft Project Client tillhandahåller stöd för att öppna och hantera en uppdelad arbetsstruktur för projekt. Projektledaren kan publicera alla ändringar i Dynamics 365 Finance uppdelad arbetsstruktur för projekt.
+Det kan vara komplicerat att planera och underhålla ett projekt. Det innebär att projektledarna måste använda verktyg som hjälper dem att hantera den här uppgiften. Integrering med Microsoft Project Client tillhandahåller stöd för att öppna och hantera en uppdelad arbetsstruktur för projekt. Projektledaren kan publicera alla ändringar ända tillbaka till den uppdelade arbetsstrukturen för projekt i Dynamics 365 Finance.
 
 > [!NOTE]
 > Om du använder uppdateringen från juli (version 10.0.4) måste du installera KB 4054797 och 4055884.
@@ -40,7 +39,7 @@ För att aktivera Microsoft Project Client krävs tillägg Microsoft Dynamics 36
 •   Klicka på **Öppna** och sedan på **Kör** när du uppmanas till det.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Öppna och redigera ett befintligt utkast av uppdelad arbetsstruktur i Microsoft Project Client
-Om ett projekt Dynamics 365 Finance redan har en uppdelad arbetsstruktur kan du öppna arbetsstrukturen i Microsoft Project Client-appar om strukturen för arbete är i utkastform. Om du vill öppna från **Projekt** klickar du på länken **Öppna i Microsoft Project** fliken **Plan**. Du kan även öppna den här sidan från Microsoft Project Client-appar genom att klicka på **Öppna** i fliken **Microsoft Dynamics 365**. Välj **juridisk person** och **projekt** i listan.
+Om ett projekt i Dynamics 365 Finance redan har en uppdelad arbetsstruktur kan den uppdelade arbetsstrukturen öppnas i Microsoft Project Client-programmet om strukturen har statusen Utkast. Om du vill öppna från **Projekt** klickar du på länken **Öppna i Microsoft Project** fliken **Plan**. Du kan även öppna den här sidan från Microsoft Project Client-appar genom att klicka på **Öppna** i fliken **Microsoft Dynamics 365**. Välj **juridisk person** och **projekt** i listan.
 
 > [!NOTE]
 > Om du använder Internet Explorer som webbläsare måste du klicka på **Spara** för att manuellt öppna från platsen där filen hämtas till. Du kan också klicka på **Spara och öppna** för att öppna filen i Microsoft Project Client. Byt inte namn på filnamnet när du sparar.

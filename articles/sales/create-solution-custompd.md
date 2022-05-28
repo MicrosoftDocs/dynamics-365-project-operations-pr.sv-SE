@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du skapar lösningar fö
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992228"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601132"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Skapa en lösning för anpassade prissättningsdimensioner
 
- _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_ 
+ _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_ 
 
 >[!IMPORTANT]
 >Alla anpassningar av ändringar i prisdimension ska vara i en separat lösning. Denna viktiga rekommenderade metod ger flexibilitet att uppdatera eller ta bort ändringar efter behov, den bidrar till att underlätta återanvändning av ditt arbete samt gör det lättare att överföra ändringar till andra instanser. När du har gjort alla nödvändiga ändringar exporterar du lösningen som en **hanterad** lösning och importerar den sedan till andra instanser för återanvändning.
@@ -23,7 +23,7 @@ ms.locfileid: "6992228"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Skapa en lösning för anpassade prissättningsdimensioner
 
 1.  Välj **Inställningar** > **Lösningar** och välj sedan **Ny**.
-2.  Namnge lösningen *<your organization name>-prissättningsdimensioner*.
+2.  Namnge lösningen *\<your organization name\>-prissättningsdimensioner*.
 3. Ange återstående information som krävs och klicka sedan på **Spara**.
 
   ![Skapa en anpassad lösning för prissättningsdimension.](./media/Creation-of-custom-pricing-dimension-solution.png)

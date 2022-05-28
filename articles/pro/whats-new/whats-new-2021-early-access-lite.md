@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323933"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723698"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Nyheter i tidig åtkomst för 2021 års lanseringsvåg 2 – Project Operations lite-distribution
 
@@ -26,7 +26,7 @@ Utgåvan tillämpas endast om en miljö har [anmälts för tidig åtkomst](/powe
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 
-[Underleverantörshantering](../subcontracting/subcontracting_EA_scope.md) – Denna funktion ger bättre synlighet och kontroll över samtliga aspekter av arbetet med ett projekt. I förhandsgranskningen av underleverantörshanteringen ingår följande funktioner:
+[Underleverantörshantering](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Denna funktion ger bättre synlighet och kontroll över samtliga aspekter av arbetet med ett projekt. I förhandsgranskningen av underleverantörshanteringen ingår följande funktioner:
 
   - En projektledare kan skapa ett underavtal med en leverantör. Som standard används de prislistor som är kopplade till leverantörsposten för underavtalet. Leverantörskontot har relationstypen **Leverantör** eller **Leverantör**.
   - En projektledare kan specificera samtliga inköp som radobjekt i underavtalet. Underavtalsrader kan vara för tid, utgifter eller produkter. Underavtalsradens transaktionsklass avgör vad raden avser.

@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a1f66af9b7e2cb0e18a5464b23216ff03b63a0a3
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995828"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685446"
 ---
 # <a name="intercompany-invoicing"></a>Koncernintern fakturering
 
@@ -63,7 +62,7 @@ I det här exemplet måste FRSI vara en kund i den USSI juridiska personen och U
    |  C   |                                  Öppna den leverantörspost som du precis skapade i FRSI.                                  | I åtgärdsfönstret på fliken <strong>Allmänt</strong> i gruppen <strong>Konfigurera</strong> klicka på <strong>Koncerninternt</strong>. På sidan <strong>Koncerninternt</strong> på fliken <strong>Handelsförhållande</strong> ange skjutreglaget <strong>Aktivera</strong> till <strong>Ja</strong>. I fältet <strong>Kundföretag</strong> väljer du kundposten du skapade i steg A. |
 
 
-2. Klicka på **Parametrar för projekthantering och redovisning** &gt; **Konfiguration** &gt; **Projektledning och redovisningsparametrar** och klicka på fliken **Koncernintern**. Hur du anger parametrarna beror på om du är den låntagande juridiska personen eller den långivande juridiska personen.
+2. Klicka på **Projekthanterings- och redovisningsparametrar** &gt; **Konfiguration** &gt; **Projektledning och redovisningsparametrar** och klicka på fliken **Koncernintern**. Hur du anger parametrarna beror på om du är den låntagande juridiska personen eller den långivande juridiska personen.
    -   Om du är en låntagande juridisk person väljer du den anskaffningskategori som ska användas för att matcha leverantörsfakturorna som skapas automatiskt.
    -   Om du är långivande juridisk person väljer du en standardprojektkategori för varje låntagande enhet för varje transaktionstyp. Projektkategorier används för momskonfiguration när den fakturerade kategorin i koncerninterna transaktioner endast finns i den långivande juridiska personen. Du kan välja att periodisera intäkter för koncerninterna transaktioner. Den här periodiseringen sker när transaktionerna bokförs och sedan återförs när den koncerninterna fakturan bokförs.
 

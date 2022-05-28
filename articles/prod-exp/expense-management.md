@@ -3,25 +3,23 @@ title: Översikt över utgiftshantering
 description: I det här ämnet finns allmän information om utgiftshantering och länkar till ytterligare resurser. Med hjälp av utgiftshantering kan du skapa ett integrerat arbetsflöde där du kan lagra information om betalningsmetod, importera kreditkortstransaktioner och spåra de pengar som medarbetare spenderar när de ådrar sig utgifter för företaget.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001453"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684848"
 ---
 # <a name="expense-management-overview"></a>Översikt över utgiftshantering
 
@@ -45,7 +43,7 @@ Mer information finns i [Ny typ av utgiftsrapporter](ExpenseWorkspaceNew.md).
 
 ### <a name="blogs"></a>Bloggar
 
-Du kan hitta yttranden, nyheter och annan information på [Microsoft Dynamics 365-bloggen](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) och [Microsoft Dynamics 365 Finance and Operations-bloggen för ekonomi](https://community.dynamics.com/365/financeandoperations/b/financials).
+Det finns åsikter, nyheter och annan information om [Microsoft Dynamics 365-bloggen](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) och [Microsoft Dynamics 365 Finance and Operations – Financials-bloggen](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 På [Microsoft Dynamics Operations Partner Community-bloggen](https://community.dynamics.com/partner/b/operationspartnercommunityblog) får Microsoft Dynamics-partner en enskild resurs där de kan lära sig mer om nyheter och trender i MBS Operations.
 

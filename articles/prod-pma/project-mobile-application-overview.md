@@ -3,25 +3,23 @@ title: Översikt över projektets mobilapp
 description: Detta här ämne innehåller allmän information om projektets tidsrelaterade appar för Microsoft Dynamics 365 Project Timesheet, projekttid och mina tidrapporter/tidrapporter som är tillgängliga på en mobil enhet.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005683"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685430"
 ---
 # <a name="project-mobile-applications-overview"></a>Översikt över projektets mobilapp
 
@@ -31,11 +29,11 @@ Tre mobilappar som är relaterade till projekttid är tillgängliga för Microso
 
 ## <a name="project-timesheet-mobile-app"></a>Mobilapp för projekt tidrapport
 
-Mobilappen Dynamics 365-projektets tidrapport låter användarna skicka och godkänna tidrapporter för projekt på deras mobila enhet. Den här appen hämtar funktionerna för tidrapport i projektlednings- och redovisningsområdet i Dynamics 365 Finance. Den hjälper till att förbättra användarnas produktivitet och effektivitet, och hjälper dig att snabbt och effektivt inträda och godkänna projekt tidrapporter.
+Mobilappen Dynamics 365-projektets tidrapport låter användarna skicka och godkänna tidrapporter för projekt på deras mobila enhet. Denna mobilapp hämtar funktionerna för tidrapport och projekthantering och redovisningsområde för Dynamics 365 Finance. Den hjälper till att förbättra användarnas produktivitet och effektivitet, och hjälper dig att snabbt och effektivt inträda och godkänna projekt tidrapporter.
 
 ## <a name="project-time-entry-workspace"></a>Arbetsyta för projekt tidspost
 
-Med arbetsytan projektets tidspost kan användarna ange och spara tid i ett projekt. Det innebär emellertid inte att användarna kan skicka eller godkänna projektets tidrapporter. Den kan endast användas för tidregistrering. Den här mobila arbetsytan är avsedd att användas tillsammans med Finance and Operations mobilapp.
+Med arbetsytan projektets tidspost kan användarna ange och spara tid i ett projekt. Det innebär emellertid inte att användarna kan skicka eller godkänna projektets tidrapporter. Den kan endast användas för tidregistrering. Denna mobila arbetsyta är avsedd att användas tillsammans med mobilappen Finance and Operations.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mina tidrapporter/tidrapporter för min granskning
 

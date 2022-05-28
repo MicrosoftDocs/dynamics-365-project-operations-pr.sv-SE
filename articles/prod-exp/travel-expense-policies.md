@@ -1,6 +1,6 @@
 ---
 title: Konfigurera utgiftsprinciper
-description: Du kan konfigurera utgiftsprinciper som medarbetarna måste följa när de registrerar och skickar in utgiftsrapporter och reserekvisitioner i Microsoft Dynamics 365 Finance.
+description: Du kan konfigurera utgiftspolicyer som dina medarbetare måste följa i samband med att de anger och skickar in utgiftsrapporter och reserekvisitioner i Microsoft Microsoft Dynamics 365 Finance.
 author: suvaidya
 ms.date: 05/20/2020
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3dc5d1768b57baa68f134af318dd9d2d7cdd756
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005953"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684756"
 ---
 # <a name="set-up-expense-policies"></a>Konfigurera utgiftsprinciper
 

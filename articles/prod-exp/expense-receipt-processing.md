@@ -1,24 +1,23 @@
 ---
 title: Bearbetning av utgiftskvitto
-description: I den här ämne finns information om optisk teckeninläsning (OCR) av kvitton. Den här funktionen är avsedd att förbättra användarupplevelsen när du skapar utgiftsrapporter i Microsoft Dynamics 365 Finance.
+description: I den här ämne finns information om optisk teckeninläsning (OCR) av kvitton. Den här funktionen är utformad för att förbättra användarupplevelsen när utgiftsrapporter skapas i Microsoft Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001408"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684342"
 ---
 # <a name="expense-receipt-processing"></a>Bearbetning av utgiftskvitto
 
@@ -51,7 +50,7 @@ Följ stegen nedan om du vill skapa en utgift eller matcha en utgift från ett k
 
 Den här funktionen fungerar tillsammans med funktionen **Ny typ av utgiftsrapporter** som hjälper dig att förenkla utgiftsupplevelsen. Den här funktionen är endast tillgänglig för nivå 2+-miljöer, som är Sandbox och produktion.
 
-Om du vill använda de här avancerade utgiftsfunktionerna installerar du tillägget utgiftshanteringstjänst för Microsoft Dynamics 365 Finance och aktiverar funktionerna i din instans. Du kan komma åt tillägget från projektet i Microsoft Dynamics Lifecycle Services (LCS).
+Om du vill använda de avancerade utgiftsfunktionerna installerar du tillägget för utgiftshanteringstjänst för Microsoft Microsoft Dynamics 365 Finance och aktiverar funktionerna i din instans. Du kan komma åt tillägget från projektet i Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Logga in på LCS och öppna den önskade miljön.
 2. Gå till **Alla detaljer**.

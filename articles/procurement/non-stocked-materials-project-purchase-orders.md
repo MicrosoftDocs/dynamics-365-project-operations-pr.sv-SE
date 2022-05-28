@@ -5,28 +5,29 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563044"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612725"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Beställa ej lagerfört material för projekt som använder projektinköpsorder
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Inköpskategorier för beställning eller ej lagerfört material för ett projekt som använder projektinköpsorder
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Anskaffningsavdelningen i organisationen kan använda [inköporder](/dynamics365/supply-chain/procurement/purchase-order-overview) för att spåra varor och tjänsteorder. Inköpsorder för icke-lagermaterial kan hänföras till ett projekt. När dessa köporder faktureras posters kostnaden för projektet.
+Anskaffningsavdelningen i organisationen kan använda [inköporder](/dynamics365/supply-chain/procurement/purchase-order-overview) för att spåra varor och tjänsteorder. Inköpsorder för inköpskategorier eller ej lagerfört material kan tillskrivas ett projekt. När dessa köporder faktureras posters kostnaden för projektet.
 
 ## <a name="prerequisites"></a>Förutsättningar
 Aktivera projektorderfunktionen genom att följa stegen nedan.
 
-1. I Dynamics 365 Finance går du till arbetsytan **Funktionshantering**.
+1. Gå till arbetsytan **Funktionshantering** i Dynamics 365 Finance.
 2. Leta upp och markera funktionen i funktionslistan, **Aktivera projektinköpsorder för Project Operations för resursbaserade/icke-lagerbaserade scenarier**.
 3. Välj **Aktivera**.
-4. Konfigurera icke-lagermaterial och väntande leverantörsfakturor enligt beskrivningen i [Konfigurera icke-lagermaterial och väntande leverantörsfakturor](configure-materials-nonstocked.md). 
+4. Konfigurera icke-lagermaterial och väntande leverantörsfakturor enligt beskrivningen i [Konfigurera icke-lagermaterial och väntande leverantörsfakturor](configure-materials-nonstocked.md).
+5. Konfigurera inköpskategorier enligt [Använd inköpskategorier med projektinköpsorder och väntande leverantörsfakturor](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Skapa en projektorder från projektorderlistan
 
@@ -34,12 +35,12 @@ Aktivera projektorderfunktionen genom att följa stegen nedan.
 2. I åtgärdsfönstret, på **Hantera** i grupp **Ny**, välj **Artikeluppgift** > **Inköpsorder**.
 3. På sidan **Skapa köporder** markerar du den leverantör som du vill placera ordern med, anger annan information efter behov och väljer sedan **OK**.
 4. På sida **Inköpsorder** i rutnätet **Inköpsorderrader**, välj **Lägg till**.
-5. Ange ett artikelnummer, en kvantitet, en enhet, ett enhetspris och annan information.
+5. Ange ett artikelnummer eller en inköpskategori, kvantitet, enhet, enhetspris och annan information.
 
     > [!NOTE]
-    > Endast objekt och tjänster som inte är i lager kan användas vid projektinköpsorder. Lagerföremål och upphandlingskategorier stöds inte.
+    > Endast inköpskategorier - inte artiklar som inte är i lager - och tjänster kan användas för projektinköpsorder. Lagerartiklar stöds inte.
 
-6. Fortsätt att lägga till objekt efter behov och bekräfta inköpordern.
+6. Fortsätt för att lägga till artiklar eller inköpskategorier efter behov, och bekräfta sedan inköpsordern.
 
     Varor och tjänster kvitton kan registreras genom att skapa och bokföra ett produktkvitto.
 

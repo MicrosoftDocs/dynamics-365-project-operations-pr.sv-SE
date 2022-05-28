@@ -3,25 +3,23 @@ title: Översikt över projektledning och redovisning
 description: Funktionerna för projektledning och redovisning kan användas i flera branscher för att tillhandahålla tjänster, producera produkter och få resultat.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007528"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683606"
 ---
 # <a name="project-management-and-accounting-overview"></a>Översikt över projektledning och redovisning
 
@@ -54,7 +52,7 @@ Under projektets initiering sker flera viktiga processer. Du kan använda en pro
 
 ### <a name="create-project-quotations"></a>Skicka projektofferter
 
-I den inledande försäljningsfasen av ett projekt låter ett projektoffert dig ge en kund ett icke-bindande erbjudande. En offert kan innehålla element som artiklar och tjänster som offereras, grundläggande kontaktinformation, särskilda handelsavtal och rabatter samt möjliga skatter och tilläggsavgifter.
+I den inledande försäljningsfasen av ett projekt låter ett projektoffert dig ge en kund ett icke-bindande erbjudande. En offert kan innehålla element som artiklar och tjänster som offereras, grundläggande kontaktinformation, särskilda handelsavtal och avdrag samt möjliga skatter och tilläggsavgifter.
 
 Du kan även utfärda en garanti för en projekt offert transaktion mellan organisationen och kunden. När projektofferten har skapats kan du skapa en begäran om garantibrev för kunden och skicka in den till banken. När banken har godkänt förfrågan skickas garanti brevet till kunden. 
 
