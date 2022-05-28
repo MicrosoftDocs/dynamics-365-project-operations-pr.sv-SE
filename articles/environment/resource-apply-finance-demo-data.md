@@ -1,24 +1,24 @@
 ---
 title: Använda demodata i en Finance molnvärdbaserad miljö
-description: I det här ämnet beskrivs hur du använder demodata från Project Operations i en Dynamics 365 Finance-miljö i molnet.
+description: I detta ämne beskrivs hur du använder demodata från Project Operations till en miljö med Dynamics 365 Finance-moln som värd.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009688"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588988"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Använda demodata i en Finance molnvärdbaserad miljö
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 > [!IMPORTANT]
-> Det här ämnet gäller endast Microsoft Dynamics 365 Finance-versionen 10.0.13 och kan endast utföras i en molnbaserad miljö. Slutför stegen i det här ämnet **INNAN** du tillämpar kvalitetsuppdateringar av miljön.
+> Detta ämne gäller endast Microsoft Dynamics 365 Finance-version 10.0.13 och kan endast utföras i en molnvärdmiljö. Slutför stegen i det här ämnet **INNAN** du tillämpar kvalitetsuppdateringar av miljön.
 
 1. I ditt LCS-projekt öppnar du sidan **Miljöinformation**. Observera att den innehåller den information som behövs för att ansluta till miljön med hjälp av RDP (Remote Desktop Protocol).
 

@@ -4,18 +4,18 @@ description: Detta ämne innehåller information om hur du skapar koncerninterna
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989296"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591518"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Skapa koncerninterna kund- och leverantörsfakturor
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 En projektrevisor i en utlånande juridisk person skapar en koncernintern kundfaktura för de projektkostnader som överförs till den låntagande enheten. När den koncerninterna kundfakturan har godkänts och bokförts skickar den utlånande juridiska personen den koncerninterna fakturan till den låntagande juridiska personen.
 
@@ -27,7 +27,7 @@ Använd denna procedur för att skapa en koncernintern kundfaktura manuellt för
 
 Följande steg måste utföras i den juridiska entitet som lånar ut. 
 
-1. I Dynamics 365 Finance går du till **Projektledning och redovisning** > **Projektfakturor** > **Koncerninterna kundfakturor**. På listsidan **Koncerninterna kundfakturor** anger du **Ny** i åtgärdsfönstret.
+1. I Dynamics 365 Finance går du till **Projekthantering och redovisning** > **Projektfakturor** > **Koncerninterna kundfakturor**. På listsidan **Koncerninterna kundfakturor** anger du **Ny** i åtgärdsfönstret.
 2. På sidan **Skapa koncernintern faktura** väljer du en låntagande juridisk person i fältet **Juridisk person**.
 3. Valfritt: Ange ett visst projektkontrakt och projektnummer.
 4. Begränsa sökningen genom att välja ett datumintervall. Ange specifika datum i fälten **Startdatum** och **Slutdatum**. Endast koncerninterna transaktioner som bokförs inom detta datumintervall visas i sökresultaten.

@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 08/03/2020
-ms.topic: article
+ms.topic: overview
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7ab2638d82eb5ba928d95ca6a524a1566f21e1ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992498"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587608"
 ---
 # <a name="actuals-overview"></a>Översikt över värden
 
@@ -238,7 +239,7 @@ PSA registrerar ekonomiska transaktioner som inträffar under ett projekt. Dessa
 <td>Valuta för resursenhet</td>
 </tr>
 <tr>
-<td>Försäljning inom organisationen</td>
+<td>Försäljning mellan organisationer</td>
 <td>Valuta för avtalande enhet</td>
 </tr>
 <tr>
@@ -255,7 +256,7 @@ PSA registrerar ekonomiska transaktioner som inträffar under ett projekt. Dessa
 <td>Valuta för resursenhet</td>
 </tr>
 <tr>
-<td>Försäljning inom organisationen</td>
+<td>Försäljning mellan organisationer</td>
 <td>Valuta för avtalande enhet</td>
 </tr>
 <tr>

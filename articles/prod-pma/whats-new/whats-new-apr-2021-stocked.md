@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005593"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589632"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Nyheter eller ändringar i Project Operations, april 2021 för lagerbaserade/produktionsbaserade scenarier
 
@@ -20,7 +20,7 @@ _**Gäller för:** Project Operations för lagerbaserade/produktionsbaserade sce
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
-- Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.18
+- Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.18
  
 ### <a name="quality-updates"></a>Kvalitetsuppdateringar
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Resor och utgifter                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | När utgiftskategorin är en kategori som inte är en projektkategori kopieras inte de ekonomiska mått som valts på sidan **Utgifter** till utgiftsrapporten.                                          |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

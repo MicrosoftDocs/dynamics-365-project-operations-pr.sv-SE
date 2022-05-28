@@ -5,18 +5,18 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 52e33ad3728e1a393e8c7e3ca4e0a4b506d0b774
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5bb54a121f0dc22f1c0ea88ada9c922c1d4c6544
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903547"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589770"
 ---
 # <a name="currency-mismatch-error"></a>Valutamatchningsfel 
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 När du sparar ett projekt, ett kontrakt, en offert eller en bokningsbar resurs kan det hända att du får felmeddelandet **Det ägande företagets valuta motsvarar inte den upphandlande enhetens valuta. Välj ett annat ägande företag eller en annan upphandlande enhet för att fortsätta**. Det beror på att det finns ett valutamatchningsfel mellan den upphandlande enhetens valutan för posten och det ägande företagets valuta.
 

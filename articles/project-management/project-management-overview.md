@@ -3,20 +3,19 @@ title: Översikt över projektledning
 description: I det här ämnet finns information om inställningar för projekthantering i Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991019"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590874"
 ---
 # <a name="project-management-overview"></a>Översikt över projektledning
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Projekthanteringsverktygen i Dynamics 365 Project Operations hjälper dig att enkelt köra projekt. Schemaläggningsverktygen hjälper projektledarna och team att förbli produktiva. Några uppgifter som verktygen kan vara till hjälp med:
 

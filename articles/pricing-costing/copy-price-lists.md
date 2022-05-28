@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du kopierar prislistor i
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e5d6e46af2eef47246b677494fd3503c838560d1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003748"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587976"
 ---
 # <a name="copy-price-lists"></a>Kopiera prislistor
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan skapa kopior av prislistor i Dynamics 365 Project Operations. Du kan till exempel skapa prislistor för kommande år med hjälp av en prislista från aktuellt år.  Du kan också kopiera en prislista för fakturataxor och försäljningspriser från prislistorna för kostnader. 
 

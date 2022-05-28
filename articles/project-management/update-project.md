@@ -4,18 +4,18 @@ description: I det här ämnet finns information om uppdatering av projekt i Pro
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: 07f96973a1341e65e648f126a931d72454334e9c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678371"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592530"
 ---
 # <a name="create-and-update-a-project"></a>Skapa och uppdatera en projektmall
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Följande är en sammanfattning av fälten som kan uppdateras för ett projekt efter att det har skapats. Detta omfattar även eventuella tillämpliga effekter som bygger på dessa uppdateringar.
 

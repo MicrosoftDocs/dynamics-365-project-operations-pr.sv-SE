@@ -4,17 +4,17 @@ description: I det här ämnet finns information om hur du definierar eller upps
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987863"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589495"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Ekonomisk kalkyl för kostnader på projekt
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Dynamics 365 Project Operations tillåter projektledare att definiera projektbaserade utgifter för varje projekt eller uppgift. Varje utgiftsobjekt kan kopplas till en specifik projektuppgift. Utgifter kategoriseras i olika utgiftskategorier, som definieras på organisationsnivå. Prissättning och kostnad för varje utgiftskategori definieras i prislistan. 
 

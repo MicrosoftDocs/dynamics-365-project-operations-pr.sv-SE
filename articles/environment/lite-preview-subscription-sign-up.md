@@ -4,14 +4,14 @@ description: I det här ämnet finns information om hur du prenumererar på och 
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991553"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588022"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrera dig för förhandsversionsprenumeration 
 
@@ -43,7 +43,7 @@ Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med anv
 > Du måste ha administratörsbehörighet till organisationens Microsoft 365-portal för att kunna utföra följande steg.
 
 
-1. Gå till [Microsoft 365 administratörscenter](https://portal.office.com/) för att tilldela licenser till dina användare.
+1. Gå till [administrationscentret för Microsoft 365](https://portal.office.com/) om du vill tilldela licenserna till användarna.
 2. På sidan **Aktiva användare** väljer du de användare som du vill tilldela en licens till.
 3. Kontrollera att **Dynamics 365 Project Operations**-licensen är markerad. 
 4. Välj **Spara ändringar**.

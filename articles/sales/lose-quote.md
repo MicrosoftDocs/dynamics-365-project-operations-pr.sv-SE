@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du kopierar projektbaser
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1e8611f34a23d6d87317cc785148c1a3f9c26dca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992183"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588068"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiera projektbaserade offerter
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan enkelt skapa en ny projektoffert genom att kopiera en befintlig. 
 

@@ -4,18 +4,18 @@ description: I det här ämnet finns information om resurshanteringsfunktioner i
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc9505543f461bb0e275a4dec462675c5e3848b7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994838"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588574"
 ---
 # <a name="resource-management-key-concepts"></a>Nyckelkoncept för resurshantering
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Resurser är den viktigaste tillgången i en tjänstebaserad organisation. Förmågan att hitta rätt resurser vid rätt tidpunkt, boka resurser på projekt och hålla dem utnyttjade, hjälper organisationen att uppfylla intäktsmål och kundnöjdhetsmål. Du kan använda funktionen för resurshantering för projekt i Dynamics 365 Project Operations för att göra följande uppgifter:
 

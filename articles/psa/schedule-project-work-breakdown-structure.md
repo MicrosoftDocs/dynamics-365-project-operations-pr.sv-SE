@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996818"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587378"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Schemalägg ett projekt med en uppdelad arbetsstruktur (Project Service)
 
@@ -63,7 +64,7 @@ Ett projektschema kommunicerar vad som behöver göras, vilka resurser som ska u
 ## <a name="task-types"></a>Uppgiftstyper  
 Du ska använda följande typer av uppgifter när du skapar en mall för uppdelad arbetsstruktur:  
 
-| | | 
+| Aktivitet | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Rotnoden för projektet**. | Översta sammanfattningsuppgiften för projektet. Alla andra projektuppgifter som skapas under den. Namnet på rotuppgiften är projektnamnet. Insats, datum och varaktighet för rotnoden baseras på värden i hierarkin under den. Du kan inte redigera egenskaper för rotnod eller ta bort rotnoden. | 
 | **Sammanfattning- eller behållaruppgifter**. | En sammanfattningsuppgift är en uppgift som har underordnade uppgifter under den. En sammanfattningsuppgift har inte någon egen arbetsinsats eller utgift. Dess arbetsinsats och utgift är en sammanslagning av dess underuppgifter. Du kan ändra namnet på en sammanfattningsuppgift, men du kan inte ändra insats, datum eller tid, eftersom de beräknas automatiskt. Om du tar bort en sammanfattningsuppgift tas uppgiften och alla dess underordnade uppgifter bort.|  

@@ -3,15 +3,15 @@ title: Hantering av underavtal i Project Operations
 description: Detta ämne ger en översikt över den fullständiga processen för underavtalshantering som är typisk för projektbaserade organisationer.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323618"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593036"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Hantering av underavtal i Project Operations
 
@@ -46,7 +46,7 @@ En underavtalsrad kan vara kvantitetsbaserad eller arbetsbaserad.
 
 När en underavtalsrad är **kvantitetsbaserad** kan den kvantitet som köps på underleverantörsraden för tid, utgifter eller material användas för vilket projekt som helst.
 
-När en underavtalsrad är **avtalsbaserad** mappas underavtalsraden till ett arbete som representeras av en nod i projektplanen. Värdet på underleverantörsraden är summan av alla komponenter som krävs för att leverera det arbetet. Dessa modelleras som underleverantörsradinformation och kan vara en ansamling tid, utgifter eller material. För en arbetsbaserad underavtalsrad är underavtalseaden också dedikerad till ett enda projekt.
+När en underavtalsrad är **avtalsbaserad** mappas underavtalsraden till ett arbete som representeras av en nod i projektplanen. Värdet på underleverantörsraden är summan av alla komponenter som krävs för att leverera det arbetet. Dessa modelleras som underleverantörsradinformation och kan vara en ansamling tid, utgifter eller material. För en arbetsbaserad underavtalsrad är underavtalseaden också dedikerad till ett enda projekt. Dessa typer av underleverantörer stöds för närvarande inte i Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

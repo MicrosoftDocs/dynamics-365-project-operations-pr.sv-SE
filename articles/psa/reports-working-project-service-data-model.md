@@ -16,19 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002443"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587562"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeta med datamodellen Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Project Service Automation utökar andra app-entiteter och presenterar egna entiteter i Common Data Service datamodellen. I det här ämnet beskrivs några av de entiteter som du kommer att stöta på i vanliga scenarier för PSA-rapportering.
 

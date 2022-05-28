@@ -4,18 +4,18 @@ description: I det här ämnet finns information om inställningar för projektk
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997133"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591564"
 ---
 # <a name="configure-project-categories"></a>Konfigurera projektkategorier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Med Project Operations får du robusta funktioner för att kategorisera intäkter och utgifter i projekt. Med kategorier kan du rapportera och analysera projekttransaktioner samt driva bokföring till huvudboken.
 
@@ -27,7 +27,7 @@ Transaktionskategorier är den grundläggande grupperingen för projekttransakti
 
 ## <a name="transaction-categories"></a>Transaktionskategorier
 
-Transaktionskategorier representerar den grundläggande grupperingen av projekttransaktioner och är inte företags- eller transaktionsspecifika. Till exempel använder Contoso Robotics kategorierna Design, Resor, Installation och Service för att gruppera projekttransaktioner.
+Transaktionskategorier representerar den grundläggande grupperingen av projekttransaktioner och är inte företags- eller transaktionsspecifika. Contoso Robotics använder t.ex. transaktionskategorierna Design, Resor, Installation och Tjänst för att gruppera projekttransaktioner.
 
 Transaktionskategorier definieras i modulen Project Operations. 
 1. Gå till **Inställningar** \> **Transaktionskategorier** för att öppna formuläret. 

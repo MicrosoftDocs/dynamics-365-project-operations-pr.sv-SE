@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996728"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593404"
 ---
 # <a name="track-a-projects-status-project-service"></a>Följa upp projektstatus (Project Service)
 
@@ -33,14 +34,13 @@ Använd [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-projec
 
 När engagemanget fortlöper, uppdateras projektstadier för att återspegla stadiet för åtagandet:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nytt**    | När du skapar ett projekt anges stadiet till **Nytt**. Om du har skapat projektet från en mall kan projektet i detta skede ha ett schema, uppskattningar och teamdata. Annars blir den projektets disposition och du måste manuellt ange resten av projektkomponenterna. |
-|  **Offert**   |      När du associerar ett projekt till en offert eller skapar det från en offert, anges projektstadiet som **Offert**, och de uppskattade start- och slutdatumen uppdateras också. När projektet är i offertstadiet visas information om offerten på fliken **Försäljning** fliken på sidan **Projekt**.      |
-|   **Planera**   |                                     När du vinner en offert som är associerad med ett projekt och åtagandet övergår i kontraktstadiet uppdateras projektfasen till **Planera**. Information om kontraktet visas på fliken **Försäljning** på sidan **Projekt**.                                      |
-| **Slutförd** |                    När du är klar med arbetet i projektet du kan byta stadium **Slutfört**. Det är underförstått att arbetet är 100 % färdigt när projektstadiet anges till slutfört, men projektet hålls öppet för eventuella väntande tids- och utgiftsutgifter ska registreras.                     |
-|  **Stäng**   |           Om du inte förväntar dig fler transaktioner ska loggas och alla transaktioner har registrerats i projektet kan du manuellt ange stadiet till **Stäng**. När projektet är inställt på **Stäng** kan du inte logga några fler transaktioner i projektet och projektet är skrivskyddat.           |
+| Aktivitet | Description | 
+|------------|----------|
+| **New** | När du skapar ett projekt anges stadiet till **Nytt**. Om du har skapat projektet från en mall kan projektet i detta skede ha ett schema, uppskattningar och teamdata. Annars blir den projektets disposition och du måste manuellt ange resten av projektkomponenterna. |
+| **Offert** |  När du associerar ett projekt till en offert eller skapar det från en offert anges projektstadiet som **Offert**, och de uppskattade start- och slutdatumen uppdateras också. När projektet är i offertstadiet visas information om offerten på fliken **Försäljning** fliken på sidan **Projekt**. |
+| **Planera** |  När du vinner en offert som är associerad med ett projekt och åtagandet övergår i kontraktstadiet uppdateras projektfasen till **Planera**. Information om kontraktet visas på fliken **Försäljning** på sidan **Projekt**. |
+| **Slutförd** | När du är klar med arbetet i projektet du kan byta stadium **Slutfört**. Det är underförstått att arbetet är 100 % färdigt när projektstadiet anges till slutfört, men projektet hålls öppet för eventuella väntande tids- och utgiftsutgifter ska registreras. |
+| **Stäng** | Om du inte förväntar dig fler transaktioner ska loggas och alla transaktioner har registrerats i projektet kan du manuellt ange stadiet till **Stäng**. När projektet är inställt på **Stäng** kan du inte logga några fler transaktioner i projektet och projektet är skrivskyddat. |
 
 ## <a name="to-track-a-projects-status"></a>Följa upp projektstatus  
 

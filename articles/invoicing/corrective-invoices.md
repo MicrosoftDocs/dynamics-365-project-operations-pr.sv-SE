@@ -4,18 +4,18 @@ description: Detta ämne ger information om korrigeringsfakturor i Project Opera
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cde82bb3c5777458a63a44a131af284e6ed5d7532de6aacbb5eb860c1fcddebd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 27db247b5bcac47a44eb24ade07452cbccb8f968
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006222"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590552"
 ---
 # <a name="create-corrective-project-based-invoices"></a>Skapa projektbaserade fakturor för korrigering 
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 En bekräftad projektfaktura kan korrigeras för att bearbeta förändringar eller krediter som har förhandlats med kunden och projektledaren.
 

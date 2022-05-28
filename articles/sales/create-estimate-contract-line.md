@@ -4,18 +4,18 @@ description: Detta ämne ger information om hur en projektkontraktrad ser ut.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ae2d96170348a00b58f1571b6c9b31af894c281bdfdfcb00f4e348b2705186c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 53e3c291043ab102eb2f59221ae879acf766bb98
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986918"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589084"
 ---
 # <a name="estimate-a-project-contract-line"></a>Beräkna en projektkontraktrad
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_ 
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_ 
 
 I Dynamics 365 Project Operations innehåller en projektrelaterad kontraktradinformation som hjälper till att beräkna kostnaden och potentiella intäkter för det arbete som är ägnat att leverera kontraktraden.
 

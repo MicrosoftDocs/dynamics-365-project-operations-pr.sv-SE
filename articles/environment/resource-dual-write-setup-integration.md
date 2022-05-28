@@ -5,51 +5,51 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986558"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586918"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Inställning och konfiguration av Project Operations för dataintegration
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Detta avsnitt innehåller information om Project Operations-integration med dubbelriktad skrivning för inställnings- och konfigurationsentiteter.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektkontrakt, kontraktrader och projekt
 
-Projektkontrakt, kontraktrader och projekt skapas i Dataverse och synkroniseras med Finance and Operations-appar för ytterligare redovisning. Posterna i entiteterna kan endast skapas och raderas i Dataverse. Däremot kan redovisningsattribut som standardvärden för momsgrupp och ekonomiska mått läggas till för dessa poster i Finance and Operations-apparna.
+Projektkontrakt, kontraktrader och projekt skapas i Dataverse och synkroniseras med apparna för ekonomi och drift för ytterligare redovisning. Posterna i entiteterna kan endast skapas och raderas i Dataverse. Däremot kan redovisningsattribut som standardvärden för momsgrupp och ekonomiska mått läggas till för dessa poster i apparna för ekonomi och drift.
 
   ![Begrepp för projektkontraktintegration.](./media/1ProjectContract.jpg)
 
-Leads, affärsmöjligheter och offerter från försäljningsaktiviteter spåras i Dataverse och synkroniseras inte med Finance and Operations-appar eftersom det inte finns någon redovisning nedströms som är associerad med aktiviteten.
+Leads, affärsmöjligheter och offerter från försäljningsaktiviteter spåras i Dataverse och synkroniseras inte med appar för ekonomi och drift eftersom det inte finns någon associerad redovisning nedströms med aktiviteten.
 
-Projektkontraktfunktionen i Dataverse skapar en projektkontraktpost i Finance and Operations-appar med tabellmappningen **Projektkontraktrubriker (salesorders)**. När du sparar ett projektkontrakt i Dataverse skapas också en kundentitetspost för projektkontraktet. Posten synkroniseras med Finance and Operations-apparna med hjälp av tabellmappningen **Projektfinansieringskälla (msdyn\_projectcontractssplitbillingrules)**. Mappningen synkroniserar även projektkontraktets kundtillägg, -uppdateringar och -raderingar. Dela upp faktureringsprocenten mellan projektkontraktskunder kan endast göras i Dataverse och synkroniseras inte med Finance and Operations-appar.
+Projektkontraktsfunktionen i Dataverse skapar en projektkontraktpost i appar för ekonomi och drift med hjälp av tabellmappningen **Huvud för projektkontrakt (försäljningsorder)**. När du sparar ett projektkontrakt i Dataverse skapas också en kundentitetspost för projektkontraktet. Den här posten synkroniseras med appar för ekonomi och drift med hjälp av tabellmappningen **Finansieringskälla för projekt (msdyn\_projectcontractssplitbillingrules)**. Mappningen synkroniserar även projektkontraktets kundtillägg, -uppdateringar och -raderingar. Att dela upp faktureringsprocenten mellan projektkontraktskunder sker endast i Dataverse och synkroniseras inte med apparna för ekonomi och drift.
 
-När ett projektkontrakt har skapats i Dataverse kan projektredovisaren uppdatera redovisningsattributen för projektkontraktet i Finance and Operations-appar genom att gå till **Projektledning och redovisning** >  **Projektkontrakt**  > **Ställ in** > **Visa standardredovisning**. Redovisaren kan granska projektkontraktattribut som används, som begärt leveransdatum och kontraktsumma, genom att välja projektkontrakt-ID i Finance and Operations-appar som öppnar relaterad projektkontraktpost i Dataverse.
+När ett projektkontrakt skapats i Dataverse kan projektrevisorn uppdatera redovisningsattributen för detta projektkontrakt i appar för ekonomi och drift genom att gå till **Projekthantering och redovisning** > **Projektkontrakt** > **Inställningar** > **Visa standardredovisning**. Revisorerna kan granska projektkontraktsattribut för verksamhet, till exempel begärt leveransdatum och kontraktbelopp genom att välja projektkontrakt-ID i appar för ekonomi och drift, som öppnar den relaterade projektkontraktposten i Dataverse.
 
-Projektentiteten synkroniseras med Finance and Operations-appar med tabellmappningen **Projekt V2 (msdyn\_projects)**. Projektredovisaren kan:
+Projektentiteten synkroniseras med appar för ekonomi och drift med hjälp av tabellmappningen **Projects V2 (msdyn\_projects**). Projektredovisaren kan:
 
-  - Granska projekt i Finance and Operations-appar genom att gå till **Projektledning och redovisning** > **Alla projekt**. 
-  - Uppdatera redovisningsattribut för projektet i Finance and Operations-appar genom att gå till **Projektledning och redovisning** > **Alla projekt** > **Ställ in** > **Visa standardredovisning**.  
-  - Granska projektattribut som används, som beräknade start- och slutdatum, genom att välja projekt-ID i Finance and Operations-apparna som öppnar den relaterade projektposten i Dataverse.
+  - Granska projekt i apparna för ekonomi och drift genom att gå till **Projekthantering och redovisning** > **Alla projekt**. 
+  - Uppdatera redovisningsattribut för projektet i apparna för ekonomi och drift genom att gå till **Projekthantering och redovisning** > **Alla projekt** > **Inställningar** > **Visa standardredovisning**.  
+  - Granska projektattribut för drift, till exempel beräknade start- och slutdatum, genom att välja projekt-ID:t i apparna för ekonomi och drift som öppnar den relaterade projektposten i Dataverse.
 
 Ett projekt associeras med ett projektkontrakt via entiteten **Projektkontraktrad**.
 
-Projektkontraktrader i Dataverse skapar en projektkontraktfaktureringsregel i Finance and Operations-appar med tabellmappningen **Projektkontraktrader (salesorderdetails)**. Faktureringsmetoden definierar projektfaktureringsregeltypen i Finance and Operations-appar:
+Projektkontraktsrader i Dataverse skapar en faktureringsregel i projektkontrakt i appar för ekonomi och drift med hjälp av tabellmappningen **Projektkontraktrader (salesorderdetails)**. Faktureringsmetoden definierar faktureringsregeltypen för projektkontrakt i appar för ekonomi och drift:
 
   - Projektkontraktrader med en faktureringsmetod för tid och material skapar en faktureringsregel för tid och materialtyp.
   - Kontraktrader med fastprisfaktureringsmetod skapar en milstolpesfaktureringsregel.
 
-Projektkontraktrader kan granskas av projektredovisaren i Finance and Operations-appar genom att gå till **Projektledning och redovisning** > **Projektkontrakt** > **Ställ in** > **Visa standardredovisning** och granska informationen på fliken **Kontraktrader**. Redovisaren kan även ställa in förvalda ekonomiska mått för kontraktraderna med fastprisfaktureringsmetod på denna flik.
+Projektkontraktrader kan granskas av projektrevisorn i apparna för ekonomi och drift genom att gå till **Projekthantering och redovisning** > **Projektkontrakt** > **Inställningar** > **Visa standardredovisning** och granska informationen på fliken **Kontraktsrader**. Revisorn kan även ange ekonomiska standarddimensioner för kontraktsraderna för faktureringsmetoden för fast pris på denna flik.
 
 ## <a name="billing-milestones"></a>Faktureringsmilstolpar
 
-Projektkontraktrader med fastprisfaktureringsmetod faktureras via faktureringsmilstolpar. Faktureringsmilstolpar synkroniseras med projekt vid kontotransaktioner i Finance and Operations-appar med tabellmappningen **Kontraktradmilstolpar för Project Operations-integration (msdyn\_contractlinescheduleofvalues)**.
+Projektkontraktrader med fastprisfaktureringsmetod faktureras via faktureringsmilstolpar. Faktureringsmilstolpar synkroniseras till projekt för kontotransaktioner appar för ekonomi och drift genom att använda tabellmappningen **Kontraktsradmilstolpar för Project Operations-integrering (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integration av faktureringsmilstolpar.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ När du först skapar en faktureringsmilstolpe för en viss projektkontraktrad s
 
 ### <a name="project-tasks"></a>Projektuppgifter
 
-Projektuppgifter synkroniseras med Finance and Operations-appar via tabellmappningen **Projektuppgifter (msdyn\_projecttasks)** enbart som referens. Åtgärder för att skapa, uppdatera och radera stöds inte i Finance and Operations-appar.
+Projektuppgifter synkroniseras med appar för ekonomi och drift via tabellmappningen **Projektuppgifter (msdyn\_projecttasks)** endast i referenssyfte. Åtgärder för att skapa, uppdatera och ta bort åtgärder stöds inte via apparna för ekonomi och drift.
 
   ![Integration med projektuppgifter.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektresurser
 
-Entiteten **Projektresursroller** synkroniseras med Finance and Operations-appar med tabellmappningen **Projektresursroller för alla företag (bookableresourcecategories)** enbart som referens. Eftersom resursroller i Dataverse inte är företagsspecifika skapar systemet automatiskt motsvarande företagsspecifika resursrollposter i Finance and Operations-apparna för alla juridiska entiteter som ingår i integrationen för dubbelriktad skrivning.
+Entiteten **Roller för projektresurs** synkroniseras med appar för ekonomi och drift med hjälp av tabellmappningen **Projektresursroller för alla företag (bookableresourcecategories)** endast i referenssyfte. Eftersom resursroller i Dataverse inte är företagsspecifika skapas automatiskt poster för företagsspecifika resursroller i appar för ekonomi och drift för alla juridiska entiteter som ingår i integreringsomfånget med dubbelskrivning.
 
 ![Integration av resursroller.](./media/5Resources.jpg)
 
-Projektresurser i Project Operations underhålls i Dataverse och synkroniseras inte med Finance and Operations-appar.
+Projektresurser i Project Operations upprätthålls i Dataverse och synkroniseras inte med apparna för ekonomi och drift.
 
 ### <a name="transaction-categories"></a>Transaktionskategorier
 
-Transaktionskategorier underhålls i Dataverse och synkroniseras med Finance and Operations-appar med tabellmappningen **Projekttransaktionskategorier (msdyn\_transactioncategories)**. När posten för transaktionskategorin har synkroniserats skapas fyra poster för delad kategori automatiskt i systemet. Varje post motsvarar en transaktionstyp i Finance and Operations-appar och länkar dem till transaktionskategoriposten.
+Transaktionskategorier upprätthålls i Dataverse och synkroniseras med appar för ekonomi och drift med hjälp av tabellmappningen **Projekttransaktionskategorier (msdyn\_transactioncategories**). När posten för transaktionskategorin har synkroniserats skapas fyra poster för delad kategori automatiskt i systemet. Varje post motsvarar en transaktionstyp i apaprna för ekonomi och drift och länkar dem till posten för transaktionskategori.
 
 ![Integration av transaktionskategorier.](./media/4TransactionCategories.jpg)
 

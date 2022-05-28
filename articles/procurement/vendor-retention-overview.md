@@ -3,20 +3,20 @@ title: Översikt över leverantörslagring
 description: Den ämne innehåller en översikt över lagringsfunktioner för leverantörer.
 author: sigitac
 ms.date: 10/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5f89904af5fb00eac46de834a438f412b371e74e
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: f9e4a1e63e47524bb622771f645c04e61c279496
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594633"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588482"
 ---
 # <a name="vendor-retention-overview"></a>Översikt över leverantörslagring
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Organisationen kanske vill behålla en del av betalningarna till leverantörer som arbetar med projekt för organisationen. Innan du till exempel betalar leverantören kanske du vill vara säker på att de objekt och tjänster som de uppställda uppfyller dina förväntningar.
 

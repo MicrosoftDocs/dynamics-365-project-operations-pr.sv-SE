@@ -4,18 +4,18 @@ description: I detta ämne förklaras hur du använder prissättningsdimensioner
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990158"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589172"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller i ett projekt 
 
-_**Gäller till:** Project Operations för resursscenarier/icke-lagerbaserade scenarier, Lite-distribution - avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_ 
+_**Gäller till:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution - avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_ 
 
 Projektbaserade företag har ofta behov av en resurs för att fylla flera roller i ett projekt. Varje roll kan prissättas och kostnadsberäknas på olika sätt. Det innebär att samma resurstid på ett projekt skulle kunna få en annan ekonomisk uppskattning beroende på faktura- och kostnadssatser för respektive roll. Du kan ställa in värdena på gruppmedlemsposten för den namngivna resursen med olika åsidosättningar på var och en av de uppgifter som gruppmedlemmen är tilldelad till.
 

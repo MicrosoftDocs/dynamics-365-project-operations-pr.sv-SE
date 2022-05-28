@@ -4,18 +4,18 @@ description: I det här ämnet finns information om att visa projektbaserade kon
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001858"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590530"
 ---
 # <a name="manage-project-contracts"></a>Hantera projektkontrakt
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Projektkontrakt i Dynamics 365 Project Operations fångar in och hanterar avtalsenlig information om åtaganden och faktureringsuppgifter för ett projekt. Strukturen på ett projektkontrakt i Project Operation är skräddarsydd för projektbaserade funktioner med följande komponenter:
 
@@ -31,6 +31,9 @@ En lista över alla projektkontrakt visas på listsidan **kontrakt**.
 2. Välj **Visa växlare** (listpilen bredvid vyns namn) om du vill välja andra filtrerade vyer. Du kan skapa egna vyer med villkor för anpassade filter.
 
 Du kan skapa eller ta bort kontrakt från den här listsidan eller informationssidorna.
+
+> [!NOTE]
+> Det går inte att ta bort kontrakt med projekt, uppgifter, kalkyler, journaler och/eller faktiska värden kopplade. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

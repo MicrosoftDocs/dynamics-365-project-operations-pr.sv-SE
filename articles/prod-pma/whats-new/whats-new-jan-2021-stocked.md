@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992768"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592668"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nyheter och ändringar i Project Operations för januari 2021 för lagerbaserade/produktionsbaserade scenarier
 
@@ -20,7 +20,7 @@ _**Gäller för:** Project Operations för lagerbaserade/produktionsbaserade sce
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
-- Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.16
+- Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.16
 
 
 ### <a name="quality-updates"></a>Kvalitetsuppdateringar
@@ -142,7 +142,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 | Resor och utgifter                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | I Project Operations går det inte att skapa eller godkänna tid med koncerninterna uppgifter i Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Regleringsuppdateringar
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du fakturerar ett arvode
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997493"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590598"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturera arvode eller förskott
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Dynamics 365 Project Operations stöder arvodesbaserade kontrakt och engångsförskott. I ett projektkontrakt kan du registrera ett schema över arvoden eller engångsförskott. Registrering på projektkontraktsnivå gör emellertid inte direkt ett arvode eller förskott tillgängligt för användning. Om du vill använda ett arvode eller förskott på en faktura som faktiskt debiterar kunden, måste arvodet eller förskottet faktureras först.
 
