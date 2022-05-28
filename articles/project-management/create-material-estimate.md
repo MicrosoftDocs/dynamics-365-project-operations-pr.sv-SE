@@ -4,20 +4,20 @@ description: Detta ämne information om hur du definierar eller skapar projektba
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992633"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737324"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Ekonomisk kalkyl för material på projekt
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Dynamics 365 Project Operations tillåter projektledare att definiera projektbaserade materialkostnader för varje projekt eller uppgift. Varje materialberäkning kan kopplas till en specifik projektuppgift. Utgifter kategoriseras i olika utgiftskategorier, som definieras på organisationsnivå. Prissättning och kostnad för varje utgiftskategori definieras i prislistan. 
+Dynamics 365 Project Operations tillåter projektledare att definiera projektbaserade materialkostnader för varje projekt eller uppgift. Varje materialberäkning kan kopplas till en specifik projektuppgift. Material som används i projekt kan vara produkter som inte finns i produktkatalogen. För varje kombination av en produkt och en enhet kan ett pris definieras i projektprislistorna för försäljning och i projektprislistorna för kostnad.  
 
 Utför följande steg för att visa, lägga till eller ta bort en beräkning av projektmaterialet.
 
