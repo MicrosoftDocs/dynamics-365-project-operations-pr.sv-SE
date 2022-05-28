@@ -7,22 +7,22 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798062"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596302"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Hämta ett kvitto med OCR
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Utgiftsposten har förbättrats med introduktionen av optisk teckeninläsning (OCR) för inleveranser. Den här funktionen är avsedd att förbättra användarupplevelsen när du skapar utgiftsrapporter.
 
@@ -52,7 +52,7 @@ Följ stegen nedan om du vill skapa en utgift eller matcha en kostnad från ett 
 
 ## <a name="installation"></a>Installation
 
-Om du vill använda de här avancerade utgiftsfunktionerna installerar du tillägget utgiftshanteringstjänst för Microsoft Dynamics 365 Finance och aktiverar funktionerna i din instans. Du kan komma åt tillägget från projektet i Microsoft Dynamics Lifecycle Services (LCS).
+Om du vill använda de avancerade utgiftsfunktionerna installerar du tillägget för utgiftshanteringstjänst för Microsoft Microsoft Dynamics 365 Finance och aktiverar funktionerna i din instans. Du kan komma åt tillägget från projektet i Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Logga in på LCS och öppna den önskade miljön.
 2. Gå till **Alla detaljer**.

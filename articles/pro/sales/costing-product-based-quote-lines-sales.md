@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur man lägger till en sjä
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33cfd42a61b368dc2d2d7f18bfaccf3a221a38fe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001903"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598329"
 ---
 # <a name="costing-product-based-quote-lines"></a>Produktbaserade offertrader för kostnadsredovisning
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 
 Produktbaserade offertrader i Dynamics 365 Project Operations har även fältet **självkostnad**. Det här fältet används för att spåra självkostnaden för produkten på offertraden och för vinstberäkningarna nedströms.
@@ -28,7 +28,7 @@ Syftet med en styckkostnad på en produktbaserad offertrad är att det ska vara 
 
 Till exempel:
 
-Fabrikam Robotics installerar robotarmar på Adatum Corporations monteringslinjer. Fabrikam tillhandahåller installationstjänster, men robotarmarna anskaffas från Trey Robotics. Om installationen av robotarmar på Adatum Corporation öppnar en ny bransch vertikalt för Treys robotarmar, kan Trey ge Fabrikam en särskild rabatt för den här affären.
+Fabrikam Robotics installerar robotarmar på Adatum Corporations monteringslinjer. Fabrikam tillhandahåller installationstjänster, men robotarmarna anskaffas från Trey Robotics. Om installationen av robotarmar på Adatum Corporation öppnar en ny bransch vertikalt för Treys robotarmar, kan Trey ge Fabrikam ett särskilt avdrag för den här affären.
 
 I det här fallet skapas en produktbaserad offertrad för robotarmar och du kan ange en särskild styckkostnad för offerten. Den här kostnaden skiljer sig från standardkostnaden för Treys robotarmar.
 

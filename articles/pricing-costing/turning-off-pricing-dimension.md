@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994523"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600350"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Inaktivera en prissättningsdimension
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan behöva granska och uppdatera din prissättningsstrategi med några års intervall. Alla uppdateringar du gör kanske kräver att du stänger av en befintlig prissättningsdimension och skapar en ny. Du kan till exempel ha tidigare prissättning via **Roll**, men nu har du bestämt dig för att få priset via **Arbetserfarenhet**. Detta kan medföra att du måste stänga **Roll** som en prissättningsdimension och skapa **arbetserfarenhet** som en ny prissättningsdimension. 
 
@@ -38,11 +38,11 @@ Det här felmeddelandet anger att det finns prissättningsposter som har ställt
 
 | Standardrubrik         | Organisationsenhet    |Enhet   |Pris  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Systemtekniker|Contoso US|timme| 100|USD|
-| Senior systemtekniker|Contoso US|timme| 150| USD|
+| Systemtekniker|Contoso US|Timme| 100|USD|
+| Senior systemtekniker|Contoso US|Timme| 150| USD|
 
 
-När du stänger av **Standardrubrik** som prissättningsdimension och prissättningsmotor söker efter ett pris används endast värdet för **organisationsenhet** från inmatningskontexten. Om **Org.enhet** i inmatningskontexten är “Contoso US”, blir resultatet inte entydigt eftersom båda raderna överensstämmer. För att undvika det här scenariot när du skapar posten **Rollpris** bekräftar systemet att kombinationen av dimensioner är unik. Om dimensionen inaktiveras efter att posten **Rollpris** har skapats kan den här begränsningen brytas. Därför är det nödvändigt att innan du stänger av en dimension, tar bort alla rader för **Rollpris** och **Rollprispålägg** som har det dimensionsvärdet ifyllt.
+När du stänger av **Standardrubrik** som prissättningsdimension och prissättningsmotor söker efter ett pris används endast värdet för **organisationsenhet** från inmatningskontexten. Om **organisationsenhet** i inmatningskontexten är "Contoso US" är resultatet inte entydigt eftersom båda raderna överensstämmer. För att undvika det här scenariot när du skapar posten **Rollpris** bekräftar systemet att kombinationen av dimensioner är unik. Om dimensionen inaktiveras efter att posten **Rollpris** har skapats kan den här begränsningen brytas. Därför är det nödvändigt att innan du stänger av en dimension, tar bort alla rader för **Rollpris** och **Rollprispålägg** som har det dimensionsvärdet ifyllt.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

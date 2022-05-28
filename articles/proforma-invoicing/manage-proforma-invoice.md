@@ -4,18 +4,18 @@ description: Detta ämne ger information om hur du hanterar och arbetar med proj
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cba74c14f6d039dce0650f25ee04cbe35ec8f668b774cdaaa3bbf1aab99cb44d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c61b0d887ae35988f1765d40de0447aa5fd7efd4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989348"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593772"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>Hantera en proforma projektbaserad faktura
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 I Dynamics 365 Project Operations skapas proforma-fakturor som ett tillägg till fakturorna i Dynamics 365 Sales. Det finns emellertid många skillnader i faktureringsprocessen mellan Sales och Project Operations när det gäller fakturering. Det går till exempel inte att skapa en ny faktura från sidan **Fakturalista** i Project Operations, men det är möjligt att göra det i Sales. Dessa skillnader och tillägg används för att stödja faktureringsprocesser för projekt som skiljer sig från en typisk faktura för en försäljningsorder.
 
@@ -37,15 +37,15 @@ Följande information finns tillgänglig i ett proforma-fakturahuvud i Project O
 | **Kund** | Fliken **Sammanfattning** | Referensen till det kopplade projektkontraktet. Ett skrivskyddat fält som är låst för redigering. |
 | **Beskrivning** | Fliken **Sammanfattning** | Textfältet som beskriver fakturan. Detta fält kan redigeras. | 
 | **Fakturera till** och relaterade fält | **Fliken Sammanfattning** | Standardvärden anges i projektkontraktets kund. Detta fält kan redigeras.  | 
-| **Status** | Fliken **Sammanfattning** | Anger följande alternativ: **Aktiv**, **Stängd**, **Betald** och **Avbruten** och kan redigeras. Status för projektåtgärder som inte stöds omfattar **stängd** och **annullerad**. </br> Status är **aktiv** när fakturan skapas. </br>Statusen anges till **betald** endast efter att fakturan har bekräftats.  | 
+| **Status** | Fliken **Sammanfattning** | Anger följande alternativ: **Aktiv**, **Stängd**, **Betald** och **Avbruten** och kan redigeras. Status för Project Operations som inte stöds omfattar **stängd** och **annullerad**. </br> Status är **aktiv** när fakturan skapas. </br>Statusen anges till **betald** endast efter att fakturan har bekräftats.  | 
 | **Status för projektfaktura** | Fliken **Sammanfattning** | Anger följande alternativ: **Utkast**, **Granskning pågår** och **Bekräftad** och kan redigeras. I både **Utkast** och **Granskning pågår** kan fakturan redigeras. Det går inte att redigera fakturan efter att den har bekräftats. | 
 | **Detaljbelopp** | Fliken **Sammanfattning** | Summan av beloppen på alla fakturarader efter förskott och avdrag. Ett skrivskyddat fält som är låst för redigering.  Fältet används för att beräkna slutbeloppet. | 
-| **Rabatt (%)** | Fliken **Sammanfattning** | Det här fältet kan redigeras för att ange en rabattprocent. Det här fältet stöds inte av Project Operations-funktioner. Det här är ett fält som inte stöds.|  
+| **Rabatt (%)** | Fliken **Sammanfattning** | Det här fältet kan redigeras för att ange en avdragsprocent. Det här fältet stöds inte av Project Operations-funktioner. Det här är ett fält som inte stöds.|  
 | **Rabattbelopp** | Fliken **Sammanfattning** | Det här fältet kan redigeras för att ange ett rabattbelopp. Det här fältet stöds inte av Project Operations-funktioner. Det här är ett fält som inte stöds. |  
-| **Belopp före frakt** | **Fliken Sammanfattning** | Det totala fakturabeloppet efter att rabatterna har tillämpats. Ett skrivskyddat fält som är låst för redigering. Fältet används för att beräkna slutbeloppet.  | 
+| **Belopp före frakt** | **Fliken Sammanfattning** | Det totala fakturabeloppet efter att avdragen har tillämpats. Ett skrivskyddat fält som är låst för redigering. Fältet används för att beräkna slutbeloppet.  | 
 | **Fraktbelopp** | Fliken **Sammanfattning** | Det här fältet kan redigeras för att ange ett fraktbelopp. Det här fältet stöds inte av Project Operations-funktioner. Det här är ett fält som inte stöds. |
 | **Total moms** | Fliken **Sammanfattning** | Den totala momsen från alla fakturarader på fakturan. Ett skrivskyddat fält som är låst för redigering. | 
-| **Totalbelopp** | Fliken **Sammanfattning** | Summan av beloppet efter rabatter och moms. Summan är det belopp kunden behöver betala. | 
+| **Totalbelopp** | Fliken **Sammanfattning** | Summan av beloppet efter avdrag och moms. Summan är det belopp kunden behöver betala. | 
 
 ## <a name="project-based-invoice-lines"></a>Projektbaserade kontraktrader
 

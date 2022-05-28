@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du skapar faktureringssc
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7dd8e4517d5ae7401fd0f11301943157b42a6b0e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999698"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595244"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Skapa ett faktureringsschema för en projektbaserad kontraktrad 
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Du kan skapa ett faktureringsschema för en projektbaserad kontraktrad. Fakturering tillåts endast efter att kontraktet har vunnits och du skapar ett projektkontrakt. Med ett faktureringsschema kan du skapa utkast till fakturor för en projektbaserad kontraktrad automatiskt. Om du däremot endast skapar fakturor manuellt kan du hoppa över att skapa faktureringsscheman på kontraktrader.
 

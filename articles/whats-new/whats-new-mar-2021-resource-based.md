@@ -1,27 +1,27 @@
 ---
-title: Nyheter i mars 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
-description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för mars 2021 för resursscenarier/icke-lagerbaserade scenarier.
+title: Nyheter i mars 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
+description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för mars 2021 för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006358"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599477"
 ---
-# <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i mars 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
+# <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i mars 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
 - Project Operations i Dataverse-miljöversion 4.8.0.91 
-- Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.16 
+- Projekthantering och redovisning i Dynamics 365 Finance-miljö, version 10.0.16 
 
 ## <a name="quality-updates"></a>Kvalitetsuppdateringar
 
@@ -44,11 +44,11 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektledning och redovisning i Dynamics 365 Finance
 
-För mer information, se [Nyheter i januari 2021 - Project Operations för resursscenarier/icke-lagerbaserade scenarier](whats-new-jan-2021-resource-based.md).
+För mer information, se [Nyheter i januari 2021 - Project Operations för resurs-/icke-lagerbaserade scenarier](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Ett annat sätt att lära sig om regelverksrelaterade uppdateringar är att logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för problemsökning. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

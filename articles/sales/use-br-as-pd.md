@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du använder en boknings
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996278"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598649"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Använd en bokningsbar resurs som prissättningsdimension
 
- _**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_ 
+ _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_ 
 
 I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension. Om din prissättningsstrategi har ställts in så att varje bokningsbar resurs måste ha ett visst pris eller en viss kostnadssats använder du en bokningsbar resurs som prissättningsdimension.
 

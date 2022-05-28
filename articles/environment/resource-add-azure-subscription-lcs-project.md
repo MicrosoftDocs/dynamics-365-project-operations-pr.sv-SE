@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du ansluter din Azure-pr
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986693"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595934"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Lägg till en Azure-prenumeration i ett LCS-projekt
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Miljöer i molnet måste distribueras med hjälp av en befintlig Azure-prenumeration. I det här ämnet beskrivs du ansluter din befintliga Azure-prenumeration till ett LCS-projekt. 
 
@@ -65,7 +65,7 @@ Auktoriseringen har slutförts.
 8. Välj Azure-regionen som du vill distribuera i och välj ett datacenter som är nära det ställe där du vill använda systemet.
 9.  Välj **Anslut**.
 
-Din Azure-prenumeration har upprättats. Nu kan du distribuera Dynamics 365 Finance-miljöer i molnet.
+Din Azure-prenumeration har upprättats. Du kan nu distribuera Dynamics 365 Finance-tjänster som finns i molnet.
 
 
 

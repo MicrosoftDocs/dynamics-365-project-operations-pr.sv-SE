@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du konfigurerar kostnads
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de7f95f9dcb1dff866d165dba9aaaedb480c1ad5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986243"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598464"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Konfigurera kostnads- och försäljningstaxa för utgifter
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Du kan ange kostnad och försäljningspriser för transaktionskategorier i Dynamics 365 Project Operations. Eftersom kostnaden och försäljningspriset är utformade för utgifter måste även varje transaktionskategori som innehåller dessa vara inställd som en utgiftskategori. Detta innebär att precisionen garanteras i underordnad funktion. Kostnads- och försäljningspriser för transaktionskategorier kan endast visas i en valuta, som måste vara valutan i prislistans huvud.
 

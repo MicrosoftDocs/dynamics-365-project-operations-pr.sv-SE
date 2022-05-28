@@ -5,18 +5,18 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995648"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600074"
 ---
 # <a name="proforma-invoices"></a>Proforma-fakturor
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Proforma-fakturering ger projektledarna en annan godkännandenivå innan de skapar fakturor för kunder. Den första godkännandenivån slutförs när tids- och utgifts- och materialposter som skickats från projektteammedlemmar har godkänns. Bekräftade proforma-fakturor finns tillgängliga i projektredovisningsmodulen för Project Operations. Projektrevisorer kan utföra ytterligare uppdateringar, t.ex. moms, redovisning och fakturalayout.
 
@@ -81,7 +81,10 @@ När du skapar ett utkast till en projektfaktura skickas alla ej fakturerade fö
 - Ta bort eller redigera information om fakturarader.
 - Redigera och justera kvantitet och faktureringstyp.
 
-Välj **bekräfta** om du vill bekräfta en faktura. Åtgärden Bekräfta är en enkelriktad åtgärd. När du väljer **bekräfta** blir fakturan skrivskyddad och verkliga värden för fakturerad försäljning skapas utifrån varje fakturaradinformation för varje fakturarad. Om fakturaradinformationen refererar till en ofakturerad faktisk försäljning återförs även den ofakturerade faktiska försäljningen. (All information på fakturaraden som skapades från en tidpunkt eller utgiftspost refererar till en ofakturerad faktisk försäljning.) Integreringssystemen för redovisning kan använda den här återföringen för att omvända pågående pågående projekt (WIP) i redovisningssyfte.
+Välj **bekräfta** om du vill bekräfta en faktura. Åtgärden Bekräfta är en enkelriktad åtgärd. När du väljer **bekräfta** blir fakturan skrivskyddad och verkliga värden för fakturerad försäljning skapas utifrån varje fakturaradinformation för varje fakturarad. Om fakturaradinformationen refererar till en ofakturerad faktisk försäljning återförs även den ofakturerade faktiska försäljningen. (All information på fakturaraden som skapades från en tidpunkt eller utgiftspost refererar till en ofakturerad faktisk försäljning.) Integreringssystemen för redovisning kan använda den här återföringen för att omvända pågående projekt (WIP) i redovisningssyfte.
+
+> [!NOTE]
+> Det går inte att redigera eller ta bort bekräftade proforma-fakturor och relaterade poster som fakturarader och fakturaradsinformation. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Korrigera en bekräftad faktura
 

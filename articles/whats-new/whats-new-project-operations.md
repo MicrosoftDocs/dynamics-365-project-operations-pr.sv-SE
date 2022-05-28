@@ -1,12 +1,12 @@
 ---
-title: Nyheter i projektåtgärder
-description: I det här ämne finns information om nya funktioner och funktionen i Microsoft Dynamics 365 projektåtgärder.
+title: Nyheter Project Operations
+description: I det här ämne finns information om nya funktioner och funktionen i Microsoft Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 06/21/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,14 +15,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5e0ecbe425495c33bdd8a67cc44f65afc5aec31508a380c67e0a698effc22e9b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3437eca238e61e15bc2db151cf7d8f5536f8652d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008023"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599522"
 ---
-# <a name="whats-new-in-project-operations"></a>Nyheter i projektåtgärder
+# <a name="whats-new-in-project-operations"></a>Nyheter Project Operations
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

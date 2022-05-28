@@ -4,14 +4,14 @@ description: Detta ämne förklarar hur du skapar en uppdelad arbetsstruktur (WB
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928637"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597820"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Skapa en uppdelad arbetsstruktur (WBS)
 
@@ -124,7 +124,7 @@ Om du använder den uppdelade arbetsstrukturen i Project Operations bör du kän
 |----------------------------------------------------|----------------------|
 | Maximalt antal uppgifter för ett projekt                  | 500                  |
 | Längsta varaktighet för ett projekt               | 3 650 dagar (10 år) |
-| Maximalt antal resurser för ett projekt              | 150                  |
+| Maximalt antal resurser för ett projekt              | 300                  |
 | Maximalt antal länkar (endast efterföljare) för ett projekt | 600                  |
 | Maximalt antal anpassade fält för ett projekt          | 10                   |
 | Maximalt antal punkter i checklistan per uppgift                   | 20                   |

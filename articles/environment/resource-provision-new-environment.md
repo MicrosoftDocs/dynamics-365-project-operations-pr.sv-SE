@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928683"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594876"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 I det här ämnet finns information om hur du tillhandahåller en ny Dynamics 365 Project Operations-miljö för resurser/icke-lagerbaserade scenarier.
 
@@ -34,7 +34,7 @@ Följ stegen nedan om du vill aktivera det automatiska etableringsflödet för P
 
 ## <a name="provision-a-project-operations-environment"></a>Etablera en Project Operations-miljö
 
-1. Öppna en ny Dynamics 365 Finance [demomiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller [sandbox-miljö/produktionsmiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) distribution. 
+1. Öppna en ny [demonstrationsmiljö för Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) eller distribution [i begränsat läge/produktionsmiljö](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Gå igenom guiden **Miljöetablering**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Du kan behöva tillämpa kvalitetsuppdateringar av Finance-miljön för att få 
 
     ![Tillämpa lösningar.](./media/13ApplySolutions.png)
 
-5. Välj båda lösningarna, **Dynamics 365 Finance and Operations-entitetskarta för dubbelskrivning** och **Dynamics 365 Project Operations-entitetskartor för dubbelskrivning** och välj sedan **Verkställ**.
+5. Välj båda lösningarna, **Entitetsmappningar för dubbelskrivning för Dynamics 365 Finance and Operations** och **Entitetsmappningar för dubbelskrivning för Dynamics 365 Project Operations**, och välj sedan **Verkställ**.
 
     ![Bekräfta lösningar.](./media/14ConfirmSolutions.png)
 

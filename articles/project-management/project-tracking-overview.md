@@ -2,21 +2,20 @@
 title: Spårning av projektansträngning
 description: I det här ämnet finns information om hur du spårar projektarbete och framsteg i arbetet.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993983"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593818"
 ---
 # <a name="project-effort-tracking"></a>Spårning av projektansträngning
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa branscher spårar på en detaljerad nivå, medan andra branscher spårar på en högre nivå. I det här ämnet illustreras hur du schemalägger för att uppfylla organisationens krav.
 
@@ -46,7 +45,8 @@ Arbete för sammanfattningsuppgifter eller behållaruppgifter kan projiceras om.
 - De nya EAC för var och en av de enskilda aktiviteterna till noderna för lövnoder beräknas. 
 - De underordnade aktiviteterna som påverkas ned till lövnoder har deras återstående insats och förloppet omberäknas efter EAC-värdet. Detta resulterar i en ny projektion för uppgiftens insatsavvikelse. 
 - EAC för de sammanfattande aktiviteterna hela vägen till rotnoden beräknas om.
-
+- En godkänd insats på en sammanfattningsuppgift är summan av den godkända åtgärden för alla underordnade uppgifter plus den godkända åtgärden för sammanfattningsuppgiften.
+- Den återstående insatsen för en sammanfattningsuppgift är summan av återstående åtgärd(er) för alla underordnade uppgifter minus den godkända åtgärden för sammanfattningsuppgiften.
 
 ## <a name="project-status-summary"></a>Sammanfattning av projektstatus
 

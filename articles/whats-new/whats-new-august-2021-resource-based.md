@@ -5,23 +5,23 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501393"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594186"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i augusti 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
-*Gäller: Project Operations för resursscenarier/icke lagerbaserade scenarier*
+*Gäller: Project Operations för resurs-/icke-lagerbaserade scenarier*
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
    - Project Operations i Microsoft Dataverse miljöversion 4.13.0.152.
-   - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.20.
+   - Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 

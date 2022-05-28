@@ -1,28 +1,28 @@
 ---
-title: Nyheter i januari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
-description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för januari 2021 för resursscenarier/icke-lagerbaserade scenarier.
+title: Nyheter i januari 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
+description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för januari 2021 för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008113"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599568"
 ---
-# <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i januari 2021 – Project Operations för resursscenarier/icke-lagerbaserade scenarier
+# <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i januari 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 
 Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
 
   - Project Operations i Dataverse-miljöversion 4.6.0.154
-  - Projektledning och redovisning i Dynamics 365 Finance-miljö version 10.0.16
+  - Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.16
 
 ## <a name="quality-updates"></a>Kvalitetsuppdateringar
 
@@ -86,7 +86,7 @@ Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter o
 
 ## <a name="regulatory-updates"></a>Regleringsuppdateringar
 
-Mer information om regleringsuppdateringar för Finance and Operations-appar finns i [regleringsuppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
+Information om regeluppdateringar för appar för ekonomi och drift finns i [Regeluppdateringar](/dynamics365/finance/localizations/regulatory-updates). Du kan också logga in på LCS och visa de planerade regeluppdateringarna med hjälp av verktyget för att söka efter problem. Med problemsökning kan du söka efter land, typ av funktion och utgåva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

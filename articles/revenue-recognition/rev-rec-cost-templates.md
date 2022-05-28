@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du skapar och använder 
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993578"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594232"
 ---
 # <a name="set-up-cost-templates"></a>Konfigurera kostnadsmallar
 
-_**Gäller:** Project Operations för resursscenarier/icke lagerbaserade scenarier_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 
 I det här ämnet finns information om hur du skapar och använder kostnadsmallar i Project Operations. En kostnadsmall bestämmer:
@@ -56,7 +56,7 @@ Att bestämma vilken metod som ska implementeras för att skapa en kostnadsmall 
 ## <a name="create-cost-templates"></a>Skapa kostnadsmallar
 Skapa kostnadsmallar genom att följa stegen nedan:
 
-1. Om du vill komma åt kostnadsmallar i Dynamics 365 Finance-miljön går du till **Projektledning och redovisning** > **Konfiguration** > **Uppskattningar** > **Kostnadsmall**.
+1. Om du vill få åtkomst till kostnadsmallar går du till **Projekthantering och redovisning** > **Inställningar** > **Uppskattningar** > **Kostnadsmall** i Dynamics 365 Finance-miljön.
 2. Välj **Ny** för att skapa en ny kostnadsmall. Ange ett namn och en beskrivning.
 3. Tillhandahåll kostnadsrads-ID för respektive transaktionstyp.
 4. Välj en standardmetod för slutförande:

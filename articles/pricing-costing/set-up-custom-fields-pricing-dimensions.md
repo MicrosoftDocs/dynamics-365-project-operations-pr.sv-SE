@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003613"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599430"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Innan du börjar förutsätter det här ämnet att du har slutfört procedurerna i avsnitten [Skapa anpassade fält och entiteter](create-custom-fields-entities-pricing-dimensions.md) och [Lägg till önskade anpassade fält till prisinställningar och transaktionsenheter](add-custom-fields-price-setup-transactional-entities.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till ämne. 
 
@@ -73,12 +73,12 @@ Det finns två typer av prissättningsdimensioner:
   
 | Roll        | Organisationsenhet    |Arbetsplats      |Standardrubrik      |Arbetstid för resurs      |  Pålägg|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indien|På plats            |                    |Övertid                 |15     |
-|             | Contoso Indien|Lokal             |                    |Övertid                 |10     |
+|             | Contoso India|På plats            |                    |Övertid                 |15     |
+|             | Contoso India|Lokal             |                    |Övertid                 |10     |
 |             | Contoso US   |Lokal             |                    |Övertid                 |20     |
 
 
-Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbunden tid och 2 timmar övertid i tidsposten använder prissättningsmotorn grundpriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
+Om en resurs från Contoso India vars grundpris är 100 USD arbetar på plats och de loggar 8 timmar regelbundet och 2 timmar övertid i tidsposten använder baspriset på 100 under åtta timmar för att registrera 800 USD. För två timmars övertid beräknas ett pålägg på 15 % på baspriset på 100 för att få ett enhetspris på 115 USD och registrera en totalkostnad på 230 USD.
 
 ### <a name="applicable-to-cost"></a>Gäller för kostnad 
 Om värdet är angivet till **ja** anger det att dimensionsvärdet från inmatningskontexten ska användas för att matcha **rollpriset** och **pålägg för rollpris** när kostnads- och påläggspriserna hämtas.

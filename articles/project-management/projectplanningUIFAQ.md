@@ -2,17 +2,17 @@
 title: Felsöka arbete i uppgiftsrutnätet
 description: Detta ämne ger felsökningsinformation som behövs när du arbetar i uppgiftsrutnätet.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547221"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596440"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Felsöka arbete i uppgiftsrutnätet 
 
@@ -70,6 +70,9 @@ För Project Operations krävs att en projektparameter refererar till PEX-slutpu
       | Project Operations                   | type=2             |
 
 4. Ta bort fältet från sidan **Projektparametrar**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Riskreducering 3: Logga in på project.microsoft.com.
+Öppna en ny flik i din Microsoft Edge-webbläsare, gå till project.microsoft.com och logga in med hjälp av den användarroll du använder för att få åtkomst till Project Operations.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projektet läses inte in och användargränssnittet har fastnat i spinnern
 
@@ -144,7 +147,7 @@ När du gör en eller flera uppdateringar av WBS misslyckas ändringarna och spa
   - Dataverse-användare eller basanvändare
   - Project Operations-systemet
   - Projektsystem
-  - Dubbelskrivning till Project Operations. Denna roll krävs för resursscenarier/icke lagerbaserade scenarier för Project Operations.
+  - Dubbelskrivning till Project Operations. Denna roll krävs för resurs-/icke-lagerbaserade scenarier för Project Operations.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

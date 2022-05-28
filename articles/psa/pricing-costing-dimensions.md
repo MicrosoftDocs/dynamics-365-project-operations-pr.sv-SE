@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998483"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593634"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startsida för prissättnings- och kostnadsdimensioner
 
@@ -66,16 +67,16 @@ I följande exempel visas faktureringskostnader som är inställda utifrån den 
 
 | Roll        | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Utvecklare   | Contoso US  |timme | 200|USD     |
-| Utvecklare   | Contoso Indien |timme|   112|USD     |
+| Utvecklare   | Contoso US  |Timme | 200|USD     |
+| Utvecklare   | Contoso India |Timme|   112|USD     |
 
 
 **Exempelkostnadstariffer**
 
 | Löneband     | Organisationsenhet    |Enhet      |Pris      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mitt företag_Band1 | Contoso US  |timme | 145|USD     |
-| Mitt företag_Band2 | Contoso Indien |timme|   67|USD     |
+| Mitt företag_Band1 | Contoso US  |Timme | 145|USD     |
+| Mitt företag_Band2 | Contoso India |Timme|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

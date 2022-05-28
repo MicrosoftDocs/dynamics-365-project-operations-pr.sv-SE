@@ -4,18 +4,18 @@ description: I det här ämnet finns information om hur du bekräftar ett kontra
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f5dab041bab1268235ed542f06d1b4b4cd240305
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989843"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599338"
 ---
 # <a name="confirm-a-project-contract"></a>Bekräfta ett projektkontrakt
 
-_**Gäller:** Project Operations för resurs- och icke lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Ett projektkontrakt i Dynamics 365 Project Operations kan vara aktivt på grund av **Bekräftad** eller stängs med orsaken **Förlorad**. När du bekräftar ett projektkontrakt uppdateras statusen från **Utkast** till **Aktiv** och statusorsaken är **Bekräftat**. Ett aktivt eller stängt kontrakt kan inte redigeras eller öppnas på nytt. 
 
