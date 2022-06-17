@@ -1,6 +1,6 @@
 ---
 title: Projektplanering och spårning
-description: I det här ämnet finns en länk till information om planering och spårning i Project Service Automation.
+description: I denna artikel finns en länk till information om planering och spårning i Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933284"
 ---
 # <a name="project-planning-and-tracking"></a>Projektplanering och spårning
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589908"
 
 Project Service-programmet hjälper tjänsteorganisationer att identifiera affärstillfällen, skicka anbud, ingå kontraktsavtal, hantera resurser, spåra tid och utgifter, fakturera kunder och leverera projekt i tid och inom budget. 
 
-Den PDF-länk som tidigare fanns i ämnet har tagits bort och innehållet har flyttats till följande avsnitt:
+Den PDF-länk som tidigare fanns i artikeln har tagits bort och innehållet har flyttats till följande artiklar:
 
 - [Projektscheman](../project-creating.md)
 - [Projektkostnader och intäkter](../project-estimating.md)
@@ -43,7 +43,7 @@ Den PDF-länk som tidigare fanns i ämnet har tagits bort och innehållet har fl
 - [Projektinställningar](../project-settings.md)
 
 > [!NOTE]
-> Det här ämnet tas bort i en kommande dokumentationsuppdatering. 
+> Denna artikel tas bort i en kommande dokumentationsuppdatering. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

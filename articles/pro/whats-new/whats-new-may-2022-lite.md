@@ -1,24 +1,24 @@
 ---
 title: Vad är nytt i maj 2022 - Lite-distribution för Project Operations
-description: Detta ämne innehåller information om de kvalitetsuppdateringar som är tillgängliga i distributionsversionen av Microsoft Dynamics 365 Project Operations lite för maj 2022.
+description: Denna artikel innehåller information om de kvalitetsuppdateringar som är tillgängliga i distributionsversionen av Microsoft Dynamics 365 Project Operations lite för maj 2022.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934158"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>Vad är nytt i maj 2022 - Lite-distribution för Project Operations
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
+Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i en Dataverse-miljö, version 4.42.0.70
 

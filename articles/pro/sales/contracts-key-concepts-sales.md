@@ -1,17 +1,17 @@
 ---
 title: Projektkontrakt - Nyckelbegrepp - Lite
-description: I det här ämnet finns information om nyckelbegrepp för projektkontrakt.
+description: Den här artikeln innehåller information om huvudkoncepten i projektkontrakt.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932686"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Koncept som är unika för projektkontrakt
 
@@ -19,7 +19,7 @@ _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
 
 
-Detta ämne tillhandahåller de centrala begrepp du bör vara medveten om innan du börjar använda Project-avtal i Dynamics 365 Project Operations:
+Den här artikeln innehåller grundläggande begrepp som du bör känna till innan du börjar använda Projektkontrakt i Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Kontrakteringsenhet
 

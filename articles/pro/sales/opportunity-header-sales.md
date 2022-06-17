@@ -1,17 +1,17 @@
 ---
 title: Inställningar för affärsmöjlighet - lite
-description: I det här ämne finns information om projektbaserade avtal och projektbaserade affärsmöjlighetsrader.
+description: Den här artikeln innehåller information om projektbaserade affärer och de projektbaserade affärsmöjlighetsrader.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f40154fed5790083e3a4d3264cc9f8cc23ae18bc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e2a95c57bff326237fb97a6cf432096833369eb8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934434"
 ---
 # <a name="header-details-for-project-opportunities"></a>Rubrikinformation för projektaffärsmöjligheter
 

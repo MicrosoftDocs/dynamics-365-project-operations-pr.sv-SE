@@ -1,24 +1,24 @@
 ---
 title: Nyheter i februari 2022 – Project Operations för resurs-/icke-lagerbaserade scenarier
-description: Detta ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i februari 2022-versionen av Project Operations för resurs-/icke-lagerbaserade scenarier.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i februari 2022-versionen av Project Operations för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933008"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i februari 2022 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
 *Gäller: Project Operations för resurs-/icke-lagerbaserade scenarier*
 
-Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
+Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i en Dataverse-miljö, version 4.28.0.120
 - Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.24
@@ -76,11 +76,11 @@ Om du stöter på problem när du ska köra mappningen följer du instruktionern
 
 ## <a name="removed-and-deprecated-features"></a>Borttagna och inaktuella funktioner
 
-Ämnet [Borttagna och inaktuella funktioner i Project Operations](removed-depreciated-features-project.md) beskriver funktioner som har tagits bort eller gjorts inaktuella för Dynamics 365 Project Operations.
+Artikeln [Borttagna och inaktuella funktioner i Project Operations](removed-depreciated-features-project.md) beskriver funktioner som har tagits bort eller gjorts inaktuella för Dynamics 365 Project Operations.
 
 - En borttagen funktion är inte längre tillgänglig i produkten.
 - En borttagen funktion befinner sig inte i aktiv utveckling och kan komma att tas bort i en kommande uppdatering.
 
-Ett meddelande om inaktualisering kommer att visas i ämnet [Borttagna eller inaktuella funktioner i Project Operations](removed-depreciated-features-project.md) 12 månader innan någon funktion tas bort från produkten.
+Ett meddelande om inaktualisering kommer att visas i artikeln [Borttagna eller inaktuella funktioner i Project Operations](removed-depreciated-features-project.md) 12 månader innan någon funktion tas bort från produkten.
 
 För icke-bakåtkompatibla ändringar som endast påverkar kompileringstiden men är binärt kompatibla med begränsade lägen och produktionsmiljöer, blir utfasningstiden kortare än 12 månader. Vanligtvis är dessa ändringar funktionsuppdateringar som måste göras till kompileraren.

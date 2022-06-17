@@ -1,6 +1,6 @@
 ---
 title: Offerter och offertrader
-description: I det här ämnet finns information om offerter och offertrader.
+description: I denna artikel finns information om offerter och offertrader.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933376"
 ---
 # <a name="quotes-and-quote-lines"></a>Offerter och offertrader
 
@@ -39,7 +39,7 @@ I Dynamics 365 Project Service Automation finns två typer av offerter: projekto
 - En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert har fält. Fälten inkluderar **Kontrakteringsenhet**, **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
 - Försäljningsofferter och projektofferter identifieras även av ett alternativbaserat fält med namnet **typ**. För en försäljningsoffert har det här fältet värdet **artikelbaserat**. För projektofferter används värdet **arbetsbaserad**.
 
-Det här ämnet fokuserar på detaljerna i projektofferter.
+Denna artikel fokuserar på detaljerna i projektofferter.
 
 En projektoffert i PSA kan ha flera radobjekt eller offertrader. En projektoffert har faktiskt två rutnät för radobjekt. Ett rutnät är för projektbaserade rader som möjliggör detaljerad uppskattningar. Det andra rutnätet är för produktbaserade rader som använder ett enkelt enhetspris och en mängd baserad metod.
 

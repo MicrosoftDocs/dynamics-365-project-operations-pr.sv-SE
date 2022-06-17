@@ -1,17 +1,17 @@
 ---
 title: Hantera projektbaserade affärsmöjligheter
-description: I det här ämnet finns information om hur du arbetar med affärsmöjligheter som är relaterade till projekt.
+description: Den här artikeln innehåller information om hur du arbetar med affärsmöjligheter som är relaterade till projekt.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933238"
 ---
 # <a name="manage-project-based-opportunities"></a>Hantera projektbaserade affärsmöjligheter
 
@@ -19,7 +19,7 @@ _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, 
 
 Projektbaserade företag har vanligtvis sina operationer för leveransspridning i flera länder och geografier. Kostnaden för projektkörningen och leveransen kan variera beroende på vilken geografi eller avdelning som hanterar leveransen. Detta kan i sin tur påverka avtalets marginaler. Leverans av projektbaserade tjänster innebär vanligtvis stora kvantiteter mänsklig tid, avsevärda kostnader för resor, materialkostnader och andra utgifter.
 
-Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har utformats med tillägg till Dynamics 365 Sales. I ämnet finns information om de olika fälten och affärslogiken i de ytterligare funktioner som krävs av projektbaserade företag för att hantera projektbaserade affärsmöjligheter.
+Projektbaserade affärsmöjligheter i Dynamics 365 Project Operations har utformats med tillägg till Dynamics 365 Sales. Artikeln innehåller information om de olika fälten och affärslogiken som ingår i de ytterligare funktioner som krävs av projektbaserade företag för att hantera projektbaserade affärsmöjligheter.
 
 ## <a name="view-all-project-based-opportunities"></a>Visa alla projektbaserade affärsmöjligheter
 

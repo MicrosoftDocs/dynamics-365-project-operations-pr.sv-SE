@@ -1,24 +1,24 @@
 ---
 title: Nyheter i mars 2022 – Distribution av Project Operations lite
-description: Detta ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för mars 2022.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för mars 2022.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934250"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Nyheter i mars 2022 – Distribution av Project Operations lite
 
 _Gäller: Lite-distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
+Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i en Dataverse-miljö, version 4.30.0.99
 
@@ -51,9 +51,9 @@ Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 36
 
 ## <a name="removed-and-deprecated-features"></a>Borttagna och inaktuella funktioner
 
-Ämnet [Borttagna och inaktuella funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) beskriver funktioner som har tagits bort eller gjorts inaktuella för Dynamics 365 Project Operations.
+Artikeln [Borttagna och inaktuella funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) beskriver funktioner som har tagits bort eller gjorts inaktuella för Dynamics 365 Project Operations.
 
 - En borttagen funktion är inte längre tillgänglig i produkten.
 - En borttagen funktion befinner sig inte i aktiv utveckling och kan komma att tas bort i en kommande uppdatering.
 
-Ett meddelande om inaktualisering kommer att visas i ämnet [Borttagna eller inaktuella funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 månader innan någon funktion tas bort från produkten.
+Ett meddelande om inaktualisering kommer att visas i artikeln [Borttagna eller inaktuella funktioner i Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 månader innan någon funktion tas bort från produkten.

@@ -1,24 +1,24 @@
 ---
 title: Skapa resurstilldelningar
-description: I det här ämnet finns information om hur du skapar generiska och namngivna resurstilldelningar.
+description: Den här artikeln innehåller information om hur du skapar generiska och namngivna resurstilldelningar.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933514"
 ---
 # <a name="create-resource-assignments"></a>Skapa resurstilldelningar
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 
-En resurstilldelning är den direkta associeringen mellan en medlem i ett projektteam och en lövnodsuppgift. I det här ämnet finns information om de olika sätten för att tilldela resurser.
+En resurstilldelning är den direkta associeringen mellan en medlem i ett projektteam och en lövnodsuppgift. Den här artikeln innehåller information om de olika sätten att tilldela resurser.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Skapa en generisk teammedlem genom tilldelning av aktiveter
 

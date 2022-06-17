@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934020"
 ---
 # <a name="configure-expense-management"></a>Konfigurera utgiftshantering
 
-I det här ämnet beskrivs vad du bör tänka på samt vilka beslut du måste fatta under planeringsprocessen innan du konfigurerar utgiftshantering. I utgiftshantering kan du lagra information om betalningsmetoder, reserekvisitioner, utgiftsrapporter, principer och så vidare.
+Det här avsnittet ger en beskrivning av övervägandena och besluten som måste fattas under planeringsprocessen innan du konfigurerar Utgiftshantering. I utgiftshantering kan du lagra information om betalningsmetoder, reserekvisitioner, utgiftsrapporter, principer och så vidare.
 
 Många av de beslut du fattar när du planerar din konfiguration av utgiftshantering bygger på organisationens hierarki och finansiella struktur, men du måste läsa planeringsdokumenten för dessa områden.
 

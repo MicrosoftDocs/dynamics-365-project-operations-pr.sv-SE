@@ -1,17 +1,17 @@
 ---
 title: Project Operations mappningsversioner för dubbelriktad skrivning
-description: Detta ämne innehåller listan med mappningar med dubbelriktad skrivning som krävs för Dynamics 365 Project Operations.
+description: Den här artikeln innehåller en lista över mappningar med dubbelskrivning som krävs för Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612786"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959510"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations mappningsversioner för dubbelriktad skrivning
 
@@ -54,7 +54,7 @@ Följande mappningar krävs för en Project Operations-lösning. Mappningsversio
 | Entitet för Project Operations-integration för tidsuppskattningar (msdyn_resourceassignments) | 1.0.0.5 | Krävs inte för etablering. ||
 | Project Operations-integration för entitet för export av projektleverantörsfaktura (msdyn_expensecategories) | 1.0.0.1 | Krävs inte för etablering. ||
 | Entitet för export av projektutgifter i Project Operations-integration (msdyn_expenses) | 1.0.0.3 | Krävs inte för etablering. ||
-| Project Operations-integration för entitet för export av projektleverantörsfaktura (msdyn_projectvendorinvoices) | 1.0.0.0 | Krävs inte för etablering. ||
+| Project Operations-integration för entitet för export av projektleverantörsfaktura (msdyn_projectvendorinvoices) | 1.0.0.1 | Krävs inte för etablering. |10.0.26 eller senare|
 | Project Operations-integration för entitet för export av projektleverantörsfakturarad (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Krävs inte för etablering. | 10.0.26 eller senare |
 | Projektresursroller för alla företag (bookableresourcecategories) | 1.0.0.1 | Kräver en initial synkronisering av tabellmappningen för att synkronisera resursrollerna Projektledare och Teammedlem som fylls i i Dynamics 365 Dataverse-miljön under etableringen. Dataverse är huvudkällan för den första synkroniseringen. ||
 | Projektuppgifter (msdyn_projecttasks) | 1.0.0.4 | Krävs inte för etablering. ||

@@ -1,27 +1,27 @@
 ---
 title: Registrera dig för utvärderingsversioner av Project Operations
-description: I detta ämne finns information om hur du distribuerar en utvärderingsversion av Dynamics 365 Project Operations.
+description: Den här artikeln innehåller information om hur du distribuerar en testversion av Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584296"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959534"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrera dig för utvärderingsversioner av Project Operations 
 
-_**Gäller till:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution – avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_ 
+_**Gäller till:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution - avtal till proforma-fakturering och Project Operations för lagerbaserade/produktionsbaserade scenarier_ 
 
 
 
-Detta ämne förkalrar hur du prenumererar på partnererbjudandet i förhandsversion samt distribuerar en Dynamics 365 Project Operations-miljö.
+Den här artikeln förklarar hur du prenumererar på förhandsgranskning partnererbjudandet och implementerar en Dynamics 365 Project Operations miljö.
 
-Med den nya utvärderingsversionen av Project Operations kan du automatiskt distribuera samtliga de tre distributionsscenarier som stöds genom att fylla i en enkät som rekommenderar bästa distributionsmetod. I detta ämne finns information om hur du gör följande:
+Med den nya utvärderingsversionen av Project Operations kan du automatiskt distribuera samtliga de tre distributionsscenarier som stöds genom att fylla i en enkät som rekommenderar bästa distributionsmetod. Den här artikeln innehåller information om hur du:
 
 - Löser in ditt utvärderingserbjudande.
 - Påbörja etablering.
@@ -89,7 +89,8 @@ Innan du börjar loggar du in i en webbläsare med användarkontot i den kliento
 4.  Välj respektive Microsoft Dataverse-URL och de URL:er för appar för ekonomi och drift som ska verifiera distributionen.
 
 ## <a name="configuring-dual-write"></a>Konfigurera dubbelriktad skrivning
-- Information om hur du konfigurerar säkerhetsroller för dubbelriktad skrivning finns i [Uppdatera säkerhetsinställningar för Project Operations i Dataverse](resource-provision-new-environment.md).
+- Information om hur du konfigurerar säkerhetsroller för dubbelriktad skrivning finns i [Uppdatera säkerhetsinställningar för Project Operations i Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- För att få åtkomst till dubbelskrivningskonfiguration, navigera till Drift och ekonomi-instansen och navigera sedan till **Datahantering** > **Dubbelskrivning**.
 - Information om hur du konfigurerar mappningar för dubbelriktad skrivning finns i [Köra Project Operations-mappningar för dubbelriktad skrivning](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Tilldela licenser

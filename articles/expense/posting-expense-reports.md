@@ -1,6 +1,6 @@
 ---
 title: Bokföra utgiftsrapporter
-description: I det här ämnet beskrivs hur du bokför utgiftsrapporter.
+description: I den här artikeln finns information om hur du publicerar utgiftsrapporter.
 author: suvaidya
 ms.date: 09/09/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d19945e1626885574ef6ab702f9207d3d9708c94
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934526"
 ---
 # <a name="post-expense-reports"></a>Bokföra utgiftsrapporter
 

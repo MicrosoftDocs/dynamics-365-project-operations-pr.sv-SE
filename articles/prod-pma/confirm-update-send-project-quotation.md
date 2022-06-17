@@ -1,6 +1,6 @@
 ---
 title: Bekräfta, uppdatera och skicka en projektoffert
-description: I det här ämnet finns information om hur du skickar en offert till kunden för bekräftelse, hur du modifierar offerten utifrån feedback och sedan skickar den igen.
+description: Den här artikeln innehåller information om hur du skickar en offert till kunden för bekräftelse, ändring baserad på feedback och sedan skickar offerten igen.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec8a000bea7d80827e2e63b03ed9229b1ecbe1c9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 445362523b7e38e8543cbc89f9dacf4aca048f0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932272"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Bekräfta, uppdatera och skicka en projektoffert
 
