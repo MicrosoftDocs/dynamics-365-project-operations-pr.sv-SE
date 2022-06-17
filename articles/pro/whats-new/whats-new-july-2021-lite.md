@@ -1,24 +1,24 @@
 ---
 title: Vad är nytt i juli 2021 – Project Operations lite-distribution
-description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i julio 2021-versionen av Project Operations Lite-distribution.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för juli 2021.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914010"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Vad är nytt i juli 2021 – Project Operations lite-distribution
 
-_Gäller: Lite-distribution - avtal till proforma-fakturering_
+_Gäller: Lite-distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
   - Project Operations i Dataverse miljöversion 4.12.0.148 eller 4.12.0.152.
 

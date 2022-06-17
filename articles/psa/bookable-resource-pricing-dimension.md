@@ -1,6 +1,6 @@
 ---
 title: Använda bokningsbar resurs som prissättningsdimension
-description: I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension.
+description: Denna artikel har information om hur du använder en bokningsbar resurs som prissättningsdimension.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916126"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Använda bokningsbar resurs som prissättningsdimension
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension. Innan du börjar måste du, om du inte redan har skapat en dimensionslösning för prissättning, skapa en ny. Om du redan har en dimensionslösning för prissättning kan du göra ändringarna i den lösningen. Om du inte har skapat en ny dimensionslösning för prissättning för organisationen ska du slutföra procedurerna i ämnet [skapa anpassade fält och entiteter](create-custom-fields-entities.md).
+Denna artikel har information om hur du använder en bokningsbar resurs som prissättningsdimension. Innan du börjar måste du, om du inte redan har skapat en dimensionslösning för prissättning, skapa en ny. Om du redan har en dimensionslösning för prissättning kan du göra ändringarna i den lösningen. Om du inte har skapat en ny dimensionslösning för prissättning för organisationen ska du slutföra procedurerna i artikeln [skapa anpassade fält och entiteter](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Lägga till bokningsbar resurs i formulär och vyer
 Om du vill att fälten ska visas i användargränssnittet i dimensionslösningen för prissättning måste du gå igenom alla formulären och vyerna för de huvudsakliga Project Service-enheterna och lägga till dessa fält i formulären och vyerna för dessa entiteter.

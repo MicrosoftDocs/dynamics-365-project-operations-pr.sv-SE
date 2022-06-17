@@ -1,24 +1,24 @@
 ---
 title: Nytt i december 2021 – Distribution av Project Operations Lite
-description: Detta ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för december 2021.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för december 2021.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914102"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Nytt i december 2021 – Distribution av Project Operations Lite
 
 _Gäller: Lite-distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
+Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
 
 - Project Operations i en Dataverse-miljö, version 4.27.0.195, 4.27.0.242, 4.27.0.244
 

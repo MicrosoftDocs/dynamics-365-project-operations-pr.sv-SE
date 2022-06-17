@@ -1,6 +1,6 @@
 ---
 title: Traktamentskostnader
-description: I det här ämnet finns information om hur du arbetar med traktamentskostnader.
+description: I denna artikel finns information om hur du arbetar med traktamentskostnader.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923210"
 ---
 # <a name="per-diem-expenses"></a>Traktamentskostnader
 
 > [!IMPORTANT] 
-> Funktionen som beskrivs i det här avsnittet är tillgänglig för mottagande användare som en del av en privat förhandsversion.
+> Funktionen som beskrivs i denna artikel är tillgänglig för mottagande användare som en del av en privat förhandsversion.
 
 Ett traktamente är en fast, förutbestämd daglig ersättning som ett företag betalar till sina anställda för kostnader (hotell), måltider samt oförutsedda kostnader som de anställda ådrar sig när de reser i arbetssyfte. Företaget betalar denna ersättning till de anställda istället för att betala de faktiska resekostnaderna. Anställda kan använda sina traktamenten för **oförutsedda utgifter/annat** för att täcka dricks, rumsservice, tvätt- och kemtvättskostnader i samband med viktiga affärsmöten. Traktamentet kan variera beroende på om arbetsgivaren väljer att ersätta de sammanlagda kostnaderna för boende och måltider, eller endast för kostnader för måltider och oförutsedda kostnader.
 

@@ -1,23 +1,23 @@
 ---
 title: Artikelkrav för projektkontrakt med flera finansieringskällor
-description: Detta ämne ger information om hur du konfigurerar och använder artikelkrav med flera finansieringskällor.
+description: Denna artikel ger information om hur du konfigurerar och använder objektkrav med flera finansieringskällor.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931214"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Artikelkrav för projektkontrakt med flera finansieringskällor
 
 _**Gäller för:** Project Operations för lagerbaserade/produktionsbaserade scenarier_
 
-Vissa kontraktavtal om projektbaserade slutkontrakt kan kräva flera finansieringskällor. I detta ämne beskrivs hur du väljer och konfigurerar önskade finansieringskällor när flera källor krävs för ett projekt eller ett projektkontrakt.
+Vissa kontraktavtal om projektbaserade slutkontrakt kan kräva flera finansieringskällor. I denna artikel beskrivs hur du väljer och konfigurerar önskade finansieringskällor när flera källor krävs för ett projekt eller ett projektkontrakt.
 
 ## <a name="terminology"></a>Terminologi
 

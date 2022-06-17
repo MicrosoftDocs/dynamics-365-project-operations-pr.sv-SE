@@ -1,6 +1,6 @@
 ---
 title: Metoder för bokning av allokeringar
-description: I det här ämnet finns information om hur bokningsmetoder fungerar i Project Operations.
+description: Den här artikeln innehåller information om hur bokningsallokeringsmetoder fungerar i Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912768"
 ---
 # <a name="booking-allocation-methods"></a>Metoder för bokning av allokeringar
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Oavsett om du lägger till en teammedlem direkt i ett projekt på fliken **Team** eller schemalägger en resurs till ett projekt eller krav via schemaläggningstavlan, finns det några olika bokningsallokeringsmetoder du kan använda. Det här ämnet lär dig hur de olika metoderna fungerar och vilka metoder som kan leda till överbokning av resurser.
+Oavsett om du lägger till en teammedlem direkt i ett projekt på fliken **Team** eller schemalägger en resurs till ett projekt eller krav via schemaläggningstavlan, finns det några olika bokningsallokeringsmetoder du kan använda. Denna artikel lär dig hur de olika metoderna fungerar och vilka metoder som kan leda till överbokning av resurser.
 
 ## <a name="booking-allocation-methods"></a>Metoder för bokning av allokeringar
 

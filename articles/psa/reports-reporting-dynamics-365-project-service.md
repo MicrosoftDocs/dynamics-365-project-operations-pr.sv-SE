@@ -1,6 +1,6 @@
 ---
-title: Rapportera startsida
-description: I det här ämnet finns information om rapportering i Dynamics 365 Project Service Automation.
+title: Startsida för rapportering
+description: I denna artikel finns information om rapportering i Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921692"
 ---
 # <a name="reporting-home-page"></a>Startsida för rapportering
 
@@ -47,7 +47,7 @@ Tillsammans får Microsoft Power BI och Dynamics 365 ett kraftfullt sätt att ar
 
 
 ## <a name="additional-resources"></a>Ytterligare resurser
-Mer information om rapportering i PSA finns i följande avsnitt:
+Mer information om rapportering i PSA finns i följande artiklar:
 
 - [Arbeta med datamodellen Project Service](reports-working-project-service-data-model.md)
 - [Instrumentpaneler](reports-dashboards.md)

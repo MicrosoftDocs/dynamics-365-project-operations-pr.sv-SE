@@ -1,6 +1,6 @@
 ---
 title: Nyckelbegrepp
-description: Det här ämnet ger information om nyckelbegrepp för resurshantering i Project Service Automation.
+description: Den här artikeln ger information om nyckelbegrepp för resurshantering i Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3a0305ab35a28348798f9d9c7452b3bee75412e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 41b13000ca17ec3a5d86fdb17885f09692d6f0c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921738"
 ---
 # <a name="key-concepts"></a>Nyckelbegrepp
 

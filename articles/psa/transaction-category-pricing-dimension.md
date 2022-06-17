@@ -1,6 +1,6 @@
 ---
 title: Använd transaktionskategori som prissättningsdimension
-description: I det här ämnet finns information om hur du använder en transaktionskategori som prissättningsdimension.
+description: I denna artikel finns information om hur du använder en transaktionskategori som prissättningsdimension.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915758"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Använd transaktionskategori som prissättningsdimension
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Det här ämnet visar hur du använder en transaktionskategori som prissättningsdimension. Innan du börjar måste du, om du inte redan har skapat en dimensionslösning för prissättning, skapa en ny. Om du redan har en dimensionslösning för prissättning kan du göra ändringarna i den lösningen. Om du inte har skapat en ny dimensionslösning för prissättning för organisationen ska du slutföra procedurerna i ämnet [skapa anpassade fält och entiteter](create-custom-fields-entities.md).
+Denna artikel visar hur du använder en transaktionskategori som prissättningsdimension. Innan du börjar måste du, om du inte redan har skapat en dimensionslösning för prissättning, skapa en ny. Om du redan har en dimensionslösning för prissättning kan du göra ändringarna i den lösningen. Om du inte har skapat en ny dimensionslösning för prissättning för organisationen ska du slutföra procedurerna i artikeln [skapa anpassade fält och entiteter](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Lägg till transaktionskategori i formulär och vyer
 Om du vill att transaktionskategori ska visas i användargränssnittet i dimensionslösningen för prissättning måste du gå igenom alla formulären och vyerna för de huvudsakliga enheterna och lägga till dessa fält i formulären och vyerna för dessa entiteter.

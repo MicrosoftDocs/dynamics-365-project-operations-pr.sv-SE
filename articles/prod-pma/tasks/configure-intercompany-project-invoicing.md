@@ -1,6 +1,6 @@
 ---
 title: Konfigurera koncernintern projektfakturering
-description: I det här ämne visas hur du konfigurerar projektfakturering mellan två företag i organisationen.
+description: Den här artikeln visar hur du ställer in projektfakturering mellan två företag i din organisation.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916632"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurera koncernintern projektfakturering
 
 [!include [banner](../../includes/banner.md)]
 
-I det här ämne visas hur du konfigurerar projektfakturering mellan två företag i organisationen. I den här uppgiften används USSI-datauppsättningen.
+Den här artikeln visar hur du ställer in projektfakturering mellan två företag i din organisation. I den här uppgiften används USSI-datauppsättningen.
 
 1. I navigeringsfönstret går du till **moduler > leverantörsreskontra > leverantörer > alla leverantörer**.
 2. I listan **Alla leverantörer** leta upp och markera önskad post.

@@ -1,6 +1,6 @@
 ---
 title: Uppgradera från Project Service Automation till Project Operations
-description: I detta ämne finns en översikt över processen för att uppgradera från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Project Operations.
+description: I denna artikel finns en översikt över processen för att uppgradera från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912998"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uppgradera från Project Service Automation till Project Operations
 
-Vi är glada över att kunna presentera den första av tre faser för uppgradering från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Project Operations. Detta ämne ger en översikt för kunder som tar del av denna intressanta resa. Kommande ämnen kommer att innehålla saker som utvecklare bör tänka på och information om funktionsförbättringar. De innehåller inte bara vägledning om hur du förbereder uppgraderingen till Project Operations, utan de innehåller även information om vad du kan förvänta dig när du har uppgraderat.
+Vi är glada över att kunna presentera den första av tre faser för uppgradering från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Project Operations. Denna artikel ger en översikt för kunder som tar del av denna intressanta resa. Kommande artiklar kommer att innehålla saker som utvecklare bör tänka på och information om funktionsförbättringar. De innehåller inte bara vägledning om hur du förbereder uppgraderingen till Project Operations, utan de innehåller även information om vad du kan förvänta dig när du har uppgraderat.
 
 Uppgraderingsleveransprogrammet delas upp i tre faser.
 
@@ -90,7 +90,7 @@ När du har uppdaterat anpassningarna för att rent importera Project Operations
     > [!NOTE]
     > Beroende på mängden data i miljön kan uppgraderingen ta flera timmar. Kärnteamet som hanterar uppgraderingen ska planera och köra uppgraderingen under andra tider än arbetstiden. I vissa fall, om datavolymen är stor, bör uppgraderingen köras under veckoslutet. Beslutet om schemaläggning ska grundas på testresultaten i lägre miljöer.
 
-3. Uppgradera anpassade lösningar efter behov. Nu ska du distribuera alla ändringar du gjort i anpassningarna i avsnittet [Testa och återanvända anpassningar](#testing-and-refactoring-customizations) i det här ämnet.
+3. Uppgradera anpassade lösningar efter behov. Nu ska du distribuera alla ändringar du gjort i anpassningarna i avsnittet [Testa och återanvända anpassningar](#testing-and-refactoring-customizations) i denna artikel.
 4. Gå till **Inställningar** \> **Lösningar** och välj att avinstallera lösningen **Project Operations inaktuella komponenter**.
 
     Den här lösningen är en tillfällig lösning som innehåller den befintliga datamodellen och de befintliga komponenterna under uppgraderingen. Genom att ta bort lösningen tar du bort alla fält och komponenter som inte längre används. På det här sättet förenklar du gränssnittet och gör integreringen och tillägget enklare.
@@ -126,7 +126,6 @@ Som en del av de fortlöpande investeringarna i Project Operations finns flera n
 | Project Service Automation                             | Distribution av Project Operations Lite                        | Stöds               |
 | Projektledning och redovisning i Dynamics 365 Finance | Distribution av Project Operations Lite                        | Stöds för närvarande inte |
 | Finansiera projektledning och redovisning              | Project Operations för resurs-/icke-lagerbaserade scenarier     | Stöds för närvarande inte |
-| Finansiera projektledning och redovisning              | Project Operations för lagerbaserade/produktionsorderbaserade scenarier | Stöds för närvarande inte |
 | Project Service Automation 3.x                         | Project Operations för resurs-/icke-lagerbaserade scenarier     | Stöds för närvarande inte |
 | Project for the Web (dedikerad miljö)            | Distribution av Project Operations Lite                        | Stöds för närvarande inte |
 

@@ -1,6 +1,6 @@
 ---
 title: Nyheter eller ändringar i Project Service Automation version 3.x våg 1 2020
-description: I det här ämnet finns information om vad som är nytt och ändrat i Project Service Automation version 3 våg 1 2020.
+description: I den här artikeln finns information om vad som är nytt och ändrat i Project Service Automation version 3, våg 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928638"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Nyheter eller ändringar i Project Service Automation version 3 våg 1 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-I ämnet framhävs viktiga uppgraderingsaspekter när de flyttar till den senaste versionen av Project Service Automation (PSA) version 3.x våg 1 2020.
+I den här artikeln beskrivs viktiga uppgraderingsaspekter när du flyttar till den senaste versionen av Project Service Automation (PSA)-version 3.x våg 1 2020.
 
 ## <a name="time-entry"></a>Tidspost
 Tidsingångsupplevelsen har utökats för att ge möjlighet att förlänga tidregistreringen i fler kundscenarier. I det här ingår möjligheten att lägga till transaktionstyper, som nu specifikt styr funktioner som baseras på fältschemanamn **Inställningar för tidspost** som visas som **tidskälla**. En ny lösning som kallas tid, kostnad, status och godkännanden (TESA) har lagts till för att stödja den här funktionen.

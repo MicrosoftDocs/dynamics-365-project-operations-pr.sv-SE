@@ -1,28 +1,28 @@
 ---
 title: Projektplanera API-resultat
-description: Detta ämne innehåller information om API-prestandajämförelser för projektschemat och identifierar metodtips för en optimal användning.
+description: Denna artikel innehåller information om API-prestandajämförelser för projektschemat och identifierar metodtips för en optimal användning.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911204"
 ---
 # <a name="project-schedule-api-performance"></a>Projektplanera API-resultat
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution - affär med proforma-fakturering, Project for the Web_
 
-Detta ämne innehåller information om prestandajämförelser för programmeringsgränssnitten (API) i projektschemaprogrammet och identifierar metodtips för en optimal användning.
+Denna artikel innehåller information om prestandajämförelser för programmeringsgränssnitten (API) i projektschemaprogrammet och identifierar metodtips för en optimal användning.
 
 ## <a name="project-scheduling-service"></a>Tjänsten för projektscheman
 Tjänsten för projektplanering är en tjänst för flera klientorganisationer som körs i Microsoft Azure. Den har utformats för att förbättra interaktionen genom att ge en snabb och smidig upplevelse när användare arbetar med projekt. Förbättringarna sker genom att acceptera ändringsförfrågningar, bearbeta dessa och sedan omedelbart returnera resultatet. Tjänsten finns kvar asynkront för Dataverse och blockerar inte användare från att utföra andra åtgärder.
 
-API:er för projektplanering är beroende av att tjänsten för projektplanering kan köra förfrågningar som beskrivs mer i detalj i senare avsnitt i detta ämne.
+API:er för projektschemaläggning är beroende av att tjänsten för projektschemaläggning kan köra förfrågningar som beskrivs mer i detalj i senare avsnitt i denna artikel.
 
 API:er för projektscheman är utformade för att fungera med följande entiteter för uppdelad arbetsstruktur (WBS):
 

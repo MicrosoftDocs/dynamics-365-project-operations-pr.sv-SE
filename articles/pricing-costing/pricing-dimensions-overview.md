@@ -1,18 +1,18 @@
 ---
-title: Översikt över prissättningsdimensioner
-description: I det här ämnet finns information om prissättningsdimensioner i Dynamics 365 Project Operations.
+title: Prissättningsdimensioner – Översikt
+description: I den här artikeln finns information om prissättningsdimensioner i Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918058"
 ---
 # <a name="pricing-dimensions-overview"></a>Prissättningsdimensioner – Översikt
 
@@ -34,7 +34,7 @@ Med Dynamics 365 Project Operations följer standarduppsättning med prissättni
 
 ![Skärmbild av parametrar för Project Service med "gäller för försäljning" markerad.](media/PS-OOB-parameters.png)
 
-Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande ämnen: 
+Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande artiklar. 
   
   > [!NOTE]
   > Procedurerna måste slutföras i den ordning de listas.

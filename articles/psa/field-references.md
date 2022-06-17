@@ -1,6 +1,6 @@
 ---
 title: Lägg till anpassade fält i prisinställning och transaktionella entiteter
-description: I det här ämnet finns information om hur du lägger till anpassade fält i prisinställningar och transaktionella entiteter.
+description: I denna artikel finns information om hur du lägger till anpassade fält i prisinställningar och transaktionella entiteter.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920496"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Lägg till anpassade fält i prisinställning och transaktionella entiteter 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Det här ämnet förutsätter att du har slutfört procedurerna i ämnet [Skapa anpassade fält och entiteter](create-custom-fields-entities.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till ämne. 
+Denna artikel förutsätter att du har slutfört procedurerna i artikeln [Skapa anpassade fält och entiteter](create-custom-fields-entities.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till artikeln. 
 
-I det här ämnet visar procedurerna hur du lägger till de anpassade fältreferenser som krävs för entiteter och användargränssnittselementen, t.ex. formulär och vyer.
+I den här artikeln visar procedurerna hur du lägger till de anpassade fältreferenser som krävs för entiteter och användargränssnittselementen, t.ex. formulär och vyer.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Lägg till anpassade prisdimensionsfält 
 När anpassade fält och entiteter har skapats är nästa steg att göra prisinställning och transaktionella entiteter medvetna om anpassade entiteter eller alternativuppsättningar genom att skapa referensfält. Beroende på om listan över prissättningsdimensioner innehåller alternativuppsättningsdimensioner eller entitetsdimensioner eller båda, följer du endast stegen i **Alternativuppsättningsbaserade anpassade prissättningsdimensioner** eller **Entitetbaserade prissättningsdimensioner** eller båda.

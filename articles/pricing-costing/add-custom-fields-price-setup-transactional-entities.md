@@ -1,6 +1,6 @@
 ---
 title: Lägg till anpassade fält som krävs i prisinställningar och transaktionella entiteter
-description: I det här ämnet finns information om hur du lägger till obligatoriska anpassade fältreferenser till entiteter och formulär och vyer.
+description: Den här artikeln innehåller information om hur du lägger till obligatoriska anpassade fältreferenser till entiteter och till formulär och vyer.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926062"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Lägg till anpassade fält som krävs i prisinställningar och transaktionella entiteter
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Det här ämnet förutsätter att du har slutfört procedurerna i ämnet [Skapa anpassade fält och entiteter att användas som prissättningsdimensioner](create-custom-fields-entities-pricing-dimensions.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till ämne. 
+Den här artikeln förutsätter att du har slutfört procedurerna i artikeln [Skapa anpassade fält och entiteter som ska användas som prissättningsdimensioner](create-custom-fields-entities-pricing-dimensions.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till artikeln. 
 
-I det här ämnet visar procedurerna hur du lägger till de anpassade fältreferenser som krävs för entiteter och användargränssnittselementen, t.ex. formulär och vyer.
+I den här artikeln visar procedurerna hur du lägger till de anpassade fältreferenser som krävs för entiteter och användargränssnittselementen, t.ex. formulär och vyer.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Lägg till anpassade prisdimensionsfält 
 När anpassade fält och entiteter har skapats är nästa steg att göra prisinställning och transaktionella entiteter medvetna om anpassade entiteter eller alternativuppsättningar genom att skapa referensfält. Beroende på om listan över prissättningsdimensioner innehåller alternativuppsättningsdimensioner eller entitetsdimensioner eller båda, följer du endast stegen i **Alternativuppsättningsbaserade anpassade prissättningsdimensioner** eller **Entitetbaserade prissättningsdimensioner** eller båda.

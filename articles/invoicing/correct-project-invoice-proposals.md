@@ -1,17 +1,17 @@
 ---
 title: Korrigera redovisning i utkast till projektfakturaförslag
-description: I ämne beskrivs hur du ändrar redovisningsrelaterad information i ett utkast till fakturaförslag.
+description: I den här artikeln finns information om hur du ändrar redovisningsrelaterad information i ett utkast till fakturaförslag.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921232"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Korrigera redovisning i utkast till projektfakturaförslag
 
@@ -19,7 +19,7 @@ _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 *Verksamhetsinformationen* för projektfakturor underhålls av projektledaren på en proforma-faktura. Den här informationen omfattar beslut om de timmar, utgifter, material eller milstolpar som måste faktureras, priser och användning av förskotts- och kvarhållarbelopp. När du har bekräftat den ursprungliga proforma-fakturan kan du justera driftinformationen genom att skapa och bekräfta en [korrigerande proforma-faktura](../proforma-invoicing/corrective-invoices.md).
 
-*Redovisningsinformation* för projektfakturor hanteras i ett kundriktad fakturadokument. Den här informationen omfattar momsberäkningen och de ekonomiska mått som tillämpats på fakturan. Den ämne innehåller information om hur dessa redovisningsuppgifter kan justeras efter ett utkast till projektfakturaförslag.
+*Redovisningsinformation* för projektfakturor hanteras i ett kundriktad fakturadokument. Den här informationen omfattar momsberäkningen och de ekonomiska mått som tillämpats på fakturan. Den här artikeln innehåller information om hur dessa redovisningsuppgifter kan justeras efter ett utkast till projektfakturaförslag.
 
 ## <a name="adjust-sales-tax"></a>Justera momsbelopp
 

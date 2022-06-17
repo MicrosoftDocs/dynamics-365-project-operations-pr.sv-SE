@@ -1,18 +1,18 @@
 ---
 title: Använd inköpskategorier för projektinköpsorder och väntande leverantörsfakturor
-description: detta ämne beskriver hur du konfigurerar inköpskategorier som kan användas för projektinköpsorder och väntande leverantörsfakturor.
+description: Denna artikel beskriver hur du konfigurerar inköpskategorier som kan användas för projektinköpsorder och väntande leverantörsfakturor.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927442"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Använd inköpskategorier för projektinköpsorder och väntande leverantörsfakturor
 
@@ -47,7 +47,7 @@ Följ stegen nedan om du vill mappa projektkategorier till inköpskategorier i h
 
 1. Gå till **Anskaffning och källa \> Inköpskategorier**.
 1. Välj **Redigera kategorihierarki**.
-1. Markera den önskade kategorihierarkinoden och associera sedan, på fliken **Tilldela projektkategorier**, noden med projektkategorin från kategorin **Tid**, Utgift** eller **Artikelprojekt** (det vill säga kategorin **Standardtid** eller **Standardutgift**).
+1. Markera den önskade kategorihierarkinoden och associera sedan, på fliken **Tilldela projektkategorier** noden med projektkategorin från kategorin **Tid**, **Utgift** eller **Artikelprojekt** (dvs. kategorin **Standardtid** eller **Standardutgift**).
 1. Välj **Spara**.
 1. Stäng sidan.
 

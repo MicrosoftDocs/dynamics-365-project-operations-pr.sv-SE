@@ -1,6 +1,6 @@
 ---
 title: Synkronisera projektuppgifter från Project Service Automation direkt till Finance and Operations
-description: Detta ämne beskriver de mallar och den underliggande uppgift som används för att synkronisera projektuppgifter direkt från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Finance.
+description: Denna artikel beskriver de mallar och underliggande uppgifter som används för att synkronisera projektuppgifter direkt från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931168"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronisera projektuppgifter från Project Service Automation direkt till Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Detta ämne beskriver de mallar och den underliggande uppgift som används för att synkronisera projektuppgifter direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
+Denna artikel beskriver de mallar och underliggande uppgifter som används för att synkronisera projektuppgifter direkt från Dynamics 365 Project Service Automation till Dynamics 365 Finance.
 
 > [!NOTE]
 > - OProjektuppgift, kategorier för utgiftstransaktioner, timuppskattningar, utgiftsuppskattningar och funktionslåsning är tillgängliga i version 8.0.

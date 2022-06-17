@@ -1,6 +1,6 @@
 ---
 title: Uppgraderingöverväganden - Microsoft Dynamics 365 Project Service Automation version 2.x eller 1.x till version 3
-description: I det här ämnet finns information om hur du uppgraderar från Project Service Automation version 2.x eller 1.x till version 3.
+description: I denna artikel finns information om hur du uppgraderar från Project Service Automation version 2.x eller 1.x till version 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918932"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Att tänka på när du uppgraderar - PSA-version 2.x eller 1.x till version 3
 
@@ -40,7 +40,7 @@ I Project Service Automation version 2 och version 1, sparades uppgiftstilldelni
 
 I version 3 av Project Service Automation har det underliggande schemat för tilldelning av bokningsbara resurser till aktiviteter ändrats. Raduppgiften är inaktuell och det finns en direkt 1:1-relation mellan uppgiften i **uppgiftsentiteten** och teammedlemmen i entiteten **resurstilldelning**. Uppgifter som tilldelas en projektmedlem lagras nu direkt i entiteten resurstilldelning.  
 
-Ändringarna påverkar uppgraderingen av befintliga projekt med resurstilldelningar för namngivna bokningsbara resurser och generiska resurser i ett projektteam. I det här ämnet finns information om hur du kommer att behöva ta hänsyn till dina projekt när du uppgraderar till version 3. 
+Ändringarna påverkar uppgraderingen av befintliga projekt med resurstilldelningar för namngivna bokningsbara resurser och generiska resurser i ett projektteam. I denna artikel finns information om hur du kommer att behöva ta hänsyn till dina projekt när du uppgraderar till version 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Uppgifter tilldelade namngivna resurser
 Med hjälp av den underliggande uppgiftsentiteten får uppgifter i version 2 och version 1 tillåtna teammedlemmar att framställa en roll som inte är definierad som standardroll. Till exempel kan Karla Larsson, som tilldelas som standardrollen som programhanterare, tilldelas en aktivitet med rollen utvecklare. I version 3 är rollen för en namngiven teammedlem alltid standard, varför alla uppgifter som Karla Larson tilldelats använder Karlas standardroll som programhanterare.

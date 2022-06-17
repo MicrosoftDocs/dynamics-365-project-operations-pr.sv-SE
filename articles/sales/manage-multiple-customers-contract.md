@@ -1,21 +1,21 @@
 ---
 title: Hantera flera kunder i projektkontrakt
-description: I det här ämnet finns information om hur du hanterar flera kunder i ett projektkontrakt.
+description: Den här artikeln ger information om hur du hanterar flera kunder på ett projektkontrakt.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928362"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Hantera flera kunder i projektkontrakt
 
-I det här ämnet finns information om hur du hanterar flera kunder i ett projektkontrakt. Du kan använda ett projektkontrakt när ett avtal för flera kunder behövs för finansiering av en affär. På sidan **Projektkontrakt** innehåller fliken **Sammanfattning** information om den primära kunden för en affär. Andra kunder som deltar i affären kan läggas till på fliken **Kunder**.
+Den här artikeln ger information om hur du hanterar flera kunder på ett projektkontrakt. Du kan använda ett projektkontrakt när ett avtal för flera kunder behövs för finansiering av en affär. På sidan **Projektkontrakt** innehåller fliken **Sammanfattning** information om den primära kunden för en affär. Andra kunder som deltar i affären kan läggas till på fliken **Kunder**.
 
 Alla kontraktskunder på fliken **Kunder** i projektkontraktet blir som standard kontraktskunder på nya, projektbaserade kontraktrader som skapats för projektkontraktet. Alla befintliga, projektbaserade kontraktrader ärver inte nya kontraktskundposter som skapas vid ett senare tillfälle.
 

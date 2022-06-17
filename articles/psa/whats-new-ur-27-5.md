@@ -1,6 +1,6 @@
 ---
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 27.5, snabbkorrigering, version 3
-description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Project Service Automation, uppdateringsversion 27.5, snabbkorrigering, version 3.
+description: Den här artikeln innehåller funktioner och korrigeringar som är tillgängliga i Project Service Automation uppdateringsutgåva 27.5, snabbkorrigering V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 347f0516550b4b144a579f26602141c898884424
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd3af0ad349c14e7cdfc1e2e86c08685b8b5baab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928776"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a>Nyheter och ändringar i Project Service Automation, uppdateringsversion 27.5, version 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588206"
 
 Vi är glada att kunna presentera den senaste uppdateringen för programmet Project Service Automation för Dynamics 365. Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet. Den här versionen är kompatibel med Dynamics 365 9.x. Om du vill uppdatera till den här versionen går du till administrationscenter för Dynamics 365 online och går till sidan Lösningar för att installera uppdateringen. Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](/power-platform/admin/install-remove-preferred-solution).
 
-I det här ämne finns funktioner och korrigeringar som är nya eller ändrade för Project Service Automation V3, uppdatering version 27.5. Den här versionen har versionsnummer V3.10.45.119 och är allmänt tillgänglig via en självuppdatering i januari 2021.
+I denna artikel finns funktioner och korrigeringar som är nya eller har ändrats för Project Service Automation, V3, uppdateringsversion 27.5. Den här versionen har versionsnummer V3.10.45.119 och är allmänt tillgänglig via en självuppdatering i januari 2021.
 
 ## <a name="update-release-275"></a>Uppdatering version 27.5
 

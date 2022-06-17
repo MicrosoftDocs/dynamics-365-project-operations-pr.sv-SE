@@ -1,6 +1,6 @@
 ---
 title: Implementera anpassade fält för Microsoft Dynamics 365 Project Timesheet mobilappen på iOS och Android
-description: I det här ämne finns vanliga mönster för att använda tillägg för att implementera anpassade fält.
+description: Den här artikeln innehåller vanliga mönster för hur du använder tillägg för att implementera anpassade fält.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913734"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementera anpassade fält för Microsoft Dynamics 365 Project Timesheet mobilappen på iOS och Android
 
 [!include [banner](../includes/banner.md)]
 
-I det här ämne finns vanliga mönster för att använda tillägg för att implementera anpassade fält. Följande ämnen berörs:
+Den här artikeln innehåller vanliga mönster för hur du använder tillägg för att implementera anpassade fält. Följande artiklar ingår:
 
 - De olika datatyper som det anpassade fältramverket stöder
 - Visa skrivskyddade eller redigerbara fält i tidrapportposter och återställ värdena som användaren har angett tillbaka till databasen
@@ -35,7 +35,7 @@ I det här ämne finns vanliga mönster för att använda tillägg för att impl
 
 ## <a name="audience"></a>Målgrupp
 
-Den här ämne är avsedd för utvecklare som integrerar sina anpassade fält i Microsoft Dynamics 365 Project Timesheet mobilappen som är tillgänglig för Apple iOS och Google Android. Antagandet är att läsarna är bekant med funktionerna för utveckling av X++ utveckling och tidrapport för projekt.
+Denna artikel är avsett för utvecklare som integrerar sina anpassade fält i Microsoft Dynamics 365 Project Timesheet-mobilappen som är tillgängligt för Apple iOS och Google Android. Antagandet är att läsarna är bekant med funktionerna för utveckling av X++ utveckling och tidrapport för projekt.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datakontrakt – TSTimesheetCustomField X++ klass
 
@@ -64,7 +64,7 @@ Egenskapen **FieldBaseType** i objektet **TsTimesheetCustom** avgör vilken typ 
 
 - Om egenskapen **stringOptions** tillhandahålls objekt **TSTimesheetCustomField** är dessa listelement de enda värden som användarna kan välja med hjälp av alternativknappar (radioknappar).
 
-    I det här fallet kan strängfältet användas som ett uppräkningsvärde för användarpostens syfte. För att spara värdet i databasen som enum, mappa strängvärdet manuellt tillbaka till enumvärdet innan du sparar i databasen med hjälp av kommandokedjan (se "Använd kommandokedjan i klassen TSTimesheetEntryService för att spara en tidrapportspost från appen tillbaka till databasen ”senare i detta ämne för ett exempel).
+    I det här fallet kan strängfältet användas som ett uppräkningsvärde för användarpostens syfte. Om du vill spara värdet i databasen som en fasttexttyp mappar du strängvärdet manuellt till uppräkningsvärdet innan du sparar till databasen med hjälp av kommandokedjan (se kommandot "Använd kedja av i klassen TSTimesheetEntryService för att spara en tidrapportpost från appen tillbaka till databasen" längre fram i den här artikel för ett exempel).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Den här egenskapen anger etiketten som visas bredvid fält i appen.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (lista över strängar)
 
-Den här egenskapen gäller endast om **fieldBaseType** har värdet **Sträng**. Om **stringOptions** har angetts anges strängvärden som är tillgängliga för markering via alternativknappar (radioknappar) enligt strängarna i listan. Om det inte finns några strängar tillåts fritextpost i strängfältet (se avsnittet "använd en kedja i klassen TSTimesheetEntryService för att spara en tidrapportpost från appen tillbaka till databasen" längre ned i det här ämnet för ett exempel).
+Den här egenskapen gäller endast om **fieldBaseType** har värdet **Sträng**. Om **stringOptions** har angetts anges strängvärden som är tillgängliga för markering via alternativknappar (radioknappar) enligt strängarna i listan. Om det inte finns några strängar tillåts fritextinmatning i strängfältet (se avsnittet "använda en beslutskedja i klassen TSTimesheetEntryService för att spara en tidrapportpost från appen tillbaka till databasen" längre fram i den här artikel för ett exempel).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

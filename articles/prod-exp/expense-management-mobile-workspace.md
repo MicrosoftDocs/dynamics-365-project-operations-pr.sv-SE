@@ -1,6 +1,6 @@
 ---
 title: Mobil arbetsyta för utgiftshantering
-description: I det här ämnet finns information om hur du använder mobil arbetsyta för utgiftshantering. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter.
+description: Denna artikel innehåller information om mobil arbetsyta för Utläggshantering. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920910"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobil arbetsyta för utgiftshantering
 
-I det här ämnet finns information om hur du använder mobil arbetsyta för **utgiftshantering**. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter. Dessutom kan godkännare använda mobil arbetsyta för **utgiftshantering** för att visa utgiftsrapporter som har tilldelats dem och antingen godkänna eller avvisa dessa utgiftsrapporter.
+Denna artikel innehåller information om mobil arbetsyta för **Utläggshantering**. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter. Dessutom kan godkännare använda mobil arbetsyta för **utgiftshantering** för att visa utgiftsrapporter som har tilldelats dem och antingen godkänna eller avvisa dessa utgiftsrapporter.
 
 
 Den här mobila arbetsytan är avsedd att användas tillsammans med Dynamics 365 Unified Ops-mobilapp.

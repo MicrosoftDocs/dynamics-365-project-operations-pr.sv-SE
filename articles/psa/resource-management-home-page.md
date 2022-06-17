@@ -1,6 +1,6 @@
 ---
 title: Startsida för resurshantering
-description: I det här ämnet finns information om hur du hanterar resurser.
+description: I den här artikeln finns information om hur du hanterar resurser.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913274"
 ---
 # <a name="resource-management-home-page"></a>Startsida för resurshantering
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578776"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resurser är den viktigaste tillgången i en tjänstebaserad organisation. Möjligheten att söka efter och boka rätt resurser när du behöver dem och för att hålla dem använda, hjälper organisationen till att uppfylla omsättningsmål och kundtillfredsställelsemål. Följande ämnen är inriktade på resurshanteringsfunktionerna i Dynamics 365 Project Service Automation:
+Resurser är den viktigaste tillgången i en tjänstebaserad organisation. Möjligheten att söka efter och boka rätt resurser när du behöver dem och för att hålla dem använda, hjälper organisationen till att uppfylla omsättningsmål och kundtillfredsställelsemål. Följande artikel är inriktade på resurshanteringsfunktionerna i Dynamics 365 Project Service Automation:
 
 - [Hantera resurser](manage-resources.md)
 - [Nyckelbegrepp](reports-key-concepts.md)

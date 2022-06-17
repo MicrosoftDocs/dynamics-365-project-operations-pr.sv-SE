@@ -1,21 +1,21 @@
 ---
-title: Registrera dig för förhandsversionsprenumeration - lite
-description: I det här ämnet finns information om hur du prenumererar på och distribuerar Project Operations enkel distribution – avtal till proforma-fakturering.
+title: Registrera dig för förhandsversionsprenumeration
+description: Den här artikeln innehåller information om hur du prenumererar på och distribuerar Project Operations lite driftsättning - affär till proforma-fakturering.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921278"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Registrera dig för förhandsversionsprenumeration 
 
-I ämne hur du prenumererar på proverbjudandet och distribuerar Dynamics 365 Project Operations lite deployment – handlar om att fakturera proforma.
+Den här artikeln förklarar hur du prenumererar på testerbjudandet och distribuerar det Dynamics 365 Project Operations lite driftsättning - affär till proforma-fakturering.
 
 > [!NOTE]
 > Processen kommer att ändras i kommande versioner av Project Operations.
@@ -50,7 +50,7 @@ Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med anv
 
 ## <a name="create-a-new-dataverse-environment"></a>Skapa en ny Dataverse-miljö
 
-1. Tillhandahåll en ny distributionsmiljö för Project Operations Dataverse-distribution genom att följa anvisningarna i ämnet [Dataverse-distributionsmodell](lite-deployment.md). När du väljer miljötyp ska du se till att använda **Utvärdering (prenumerationsbaserad)**.
+1. Etablera en ny Project Operations Dataverse distributionsmiljö genom att följa instruktionerna i artikeln, [Dataverse distributionsmodellen](lite-deployment.md). När du väljer miljötyp ska du se till att använda **Utvärdering (prenumerationsbaserad)**.
 
   ![Ny miljö.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Innan du börjar ska du kontrollera att du är inloggad i en webbläsare med anv
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installera en CDS-konfiguration och konfigurera demodata
 
-Installera CDS-konfigurationen och konfigurera demodata genom att följa anvisningarna i ämnet [Tillämpa demokonfiguration och konfigurationsdata](lite-apply-demo-setup-config-data.md).
+Installera CDS-konfigurationen och konfigurera demodata genom att följa instruktionerna i artikeln, [Installera demoinstallations- och konfigurationsdata](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

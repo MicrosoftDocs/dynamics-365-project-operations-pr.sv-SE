@@ -1,22 +1,22 @@
 ---
 title: Projektfaktura-integration
-description: Ämnet innehåller information om Project Operations-integration med dubbelriktad skrivning för kundfakturering.
+description: Den här artikeln ger information om Project Operations integration för dubbelriktad skrivning för kundfakturering.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912124"
 ---
 # <a name="project-invoice-integration"></a>Projektfaktura-integration
 
-Ämnet innehåller information om Project Operations-integration med dubbelriktad skrivning för kundfakturering.
+Den här artikeln ger information om Project Operations integration för dubbelriktad skrivning för kundfakturering.
 
 I Project Operations hanterar projektansvarig eftersläpande projektfakturering och skapar en proformafaktura för kunden i Microsoft Dataverse. Baserat på proformafakturan skapar ansvarig för kundreskontra eller projektredovisaren en faktura för kund. Integrering med dubbelskrivning säkerställer att proforma-fakturainformationen synkroniseras med apparna för ekonomi och drift. När fakturan för kund har registrerats uppdaterar systemet relevanta projekts faktiska värden i Dataverse med redovisningsinformationen. Följande bild ger en översikt på hög nivå över integrationen.
 

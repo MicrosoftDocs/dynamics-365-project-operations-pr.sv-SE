@@ -1,17 +1,17 @@
 ---
 title: Underavtalsrader för utgiftskategorier
-description: I detta ämne finns information om hur du registrerar underavtalsrader för utgifter och använder fälten för att registrera tidsinköp från leverantörer.
+description: I den här artikeln finns information om hur du registrerar underleverantörsrader för utgifter och hur du använder fälten för att registrera köp av tid från leverantörer.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b02a8aa0fce7bcb52374c0755d4bb85db16dad3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921048"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Underavtalsrader för utgiftskategorier
 

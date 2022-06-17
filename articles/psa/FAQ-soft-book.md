@@ -1,6 +1,6 @@
 ---
 title: Preliminärboka en resurs
-description: I det här ämnet finns information om hur du kan schemalägga eller preliminärboka projektteammedlemmar.
+description: I den här artikeln finns information om hur du kan schemalägga eller preliminärboka projektteammedlemmar.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -11,12 +11,12 @@ audience: Admin
 search.app:
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7940409db69259785268778b6f6b0b67f4b2812d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c666e5c0a83a3d1b440144a62cbd58a58c5db81
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929144"
 ---
 # <a name="soft-book-a-resource"></a>Preliminärboka en resurs
 

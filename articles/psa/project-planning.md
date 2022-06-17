@@ -1,6 +1,6 @@
 ---
 title: Startsida för projektplanering
-description: I det här ämnet finns information om projektplanering.
+description: I den här artikeln finns information om projektplanering.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919116"
 ---
 # <a name="project-planning-home-page"></a>Startsida för projektplanering
 
@@ -43,7 +43,7 @@ Projekthanteringsverktygen i PSA hjälper dig att enkelt köra projekt. De inbyg
 - Förutse resursbehovet för projekt som är i pipeline.
 - Leverera projekt genom att följa upp status och kostnadsförbrukning.
 
-Följande avsnitt innehåller information som hjälper projektledarna att beräkna arbete, beräkna projektkostnader och prognostisera resurskrav med hjälp av de verktyg som stöds i PSA:
+Följande artiklar innehåller information som hjälper projektledarna att beräkna arbete, beräkna projektkostnader och prognostisera resurskrav med hjälp av de verktyg som stöds i PSA:
 
 - [Skapa ett schema](project-creating.md)
 - [Uppskatta kostnader och intäkter för ett projekt](project-estimating.md)

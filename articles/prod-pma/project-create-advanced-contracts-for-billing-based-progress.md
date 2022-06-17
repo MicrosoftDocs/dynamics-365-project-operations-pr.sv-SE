@@ -1,6 +1,6 @@
 ---
 title: Skapa avancerade kontrakt för fakturering baserad på förlopp
-description: I det här ämnet beskrivs hur du skapar projektkontrakt så att du kan skapa fakturor för kunder, baserat på en procent färdigt arbete.
+description: I den här artikeln beskrivs hur du skapar projektkontrakt så att du kan skapa fakturor för kunder, baserat på en procentsats av färdigt arbete.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913688"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Skapa avancerade kontrakt för fakturering baserad på förlopp
 [!include [banner](../includes/banner.md)]
 
-I det här ämnet beskrivs hur du skapar projektkontrakt så att du kan skapa fakturor för kunder, baserat på en procent färdigt arbete. Fakturabelopp beräknas automatiskt för de budgetkategorier för arbete som du konfigurerar för ett projekt. Fakturans tidsinställning ställs in när du förhandlar om projektkontraktet med kunden.
+I den här artikeln beskrivs hur du skapar projektkontrakt så att du kan skapa fakturor för kunder, baserat på en procentsats av färdigt arbete. Fakturabelopp beräknas automatiskt för de budgetkategorier för arbete som du konfigurerar för ett projekt. Fakturans tidsinställning ställs in när du förhandlar om projektkontraktet med kunden.
 
-Använd procedurerna i det här ämnet om du vill skapa ett kontrakt, ett associerat projekt och faktureringsregler som beräknar fakturabelopp för de budgetkategorier som du konfigurerar för projektet.
+Använd förfaranden i denna artikel om du vill ställa in ett kontrakt, ett associerat projekt och ett faktureringsreglerna för att beräkna fakturabelopp för budgetkategorier, av arbete som du anger för projektet.
 
 När du har skapat kontraktet och projektet kan du ange information om projektet. Du kan till exempel definiera aktiviteter och tilldela arbetare till projektet.
 

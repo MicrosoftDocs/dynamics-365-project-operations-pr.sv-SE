@@ -1,24 +1,24 @@
 ---
 title: Integration av utgiftshantering
-description: Detta avsnitt innehåller information om integration av utgiftsrapporter i Project Operations med dubbelriktad skrivning.
+description: Den här artikeln ger information om integrering av kostnadsrapporter i Project Operations med dubbelskrivning.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924636"
 ---
 # <a name="expense-management-integration"></a>Integration av utgiftshantering
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Detta avsnitt innehåller information om integration av utgiftsrapporter i Project Operations [fullständig utgiftsdistribution](../expense/expense-overview.md) med dubbelriktad skrivning.
+Den här artikeln innehåller information om integrering av kostnadsrapporter i Project Operations [fullständig utgiftsdistribution](../expense/expense-overview.md) med dubbelskrivning.
 
 ## <a name="expense-categories"></a>Utgiftskategorier
 

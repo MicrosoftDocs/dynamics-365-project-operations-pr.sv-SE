@@ -1,6 +1,6 @@
 ---
 title: Skapa anpassade fält och entiteter som prissättningsdimensioner
-description: I det här ämnet finns information om hur du skapar anpassade alternativuppsättningar eller entiteter.
+description: Den här artikeln innehåller information om hur du skapar anpassade alternativuppsättningar eller entiteter.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4912087d7a19f5f342beff94723acd6131ce2dd8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 198faf7e51fad2d9573aaeab316170a84bf558ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917874"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Skapa anpassade fält och entiteter som prissättningsdimensioner
 

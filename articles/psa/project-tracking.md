@@ -1,6 +1,6 @@
 ---
 title: Projektstatus och kostnadsförbrukning
-description: I det här ämnet finns information om hur du spårar projektstatus och kostnadsförbrukning.
+description: I den här artikeln finns information om hur du spårar projektstatus och kostnadsförbrukning.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921784"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektstatus och kostnadsförbrukning
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575280"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa branscher spårar på en detaljerad nivå, medan andra branscher spårar på en högre nivå. I det här ämnet illustreras hur du schemalägger för att uppfylla organisationens krav.
+Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa branscher spårar på en detaljerad nivå, medan andra branscher spårar på en högre nivå. I den här artikeln illustreras hur du schemalägger för att uppfylla organisationens krav.
 
 ## <a name="effort-tracking-view"></a>Insatsspårningsvy
 

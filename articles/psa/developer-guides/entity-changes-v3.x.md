@@ -1,6 +1,6 @@
 ---
 title: Ändringar av entitet, kontroll och användargränssnitt (Project Service Automation 3.x)
-description: I det här ämnet beskrivs lösningsändringar för Microsoft Dynamics Project Service Automation 3.x.
+description: I denna artikel beskrivs lösningsändringar för Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926890"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Ändringar av entitet, kontroll och användargränssnitt (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-I och med lanseringen av Microsoft Dynamics Project Service Automation (PSA) 3.x, har många ändringar gjorts i entiteter, kontroller, vyer och användargränssnitt. Det här ämnet innehåller information om dessa viktiga ändringar.
+I och med lanseringen av Microsoft Dynamics Project Service Automation (PSA) 3.x, har många ändringar gjorts i entiteter, kontroller, vyer och användargränssnitt. Denna artikel innehåller information om dessa viktiga ändringar.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Överordnade-underordnade relationer för entiteter för försäljningsdokument, försäljningsdokumentrad, raddetaljer i försäljningsdokument
 I versioner av Dynamics 365 Project Service Automation (PSA) som har getts ut före version 3.0 implementeras en del av relationer mellan entiteter för försäljningsdokument, försäljningsdokumentrad, raddetaljer i försäljningsdokument via strängfält som skulle innehålla en strängrepresentation av en GUID för den relaterade entiteten. Detta beror på plattformsbegränsningarna som kräver en viktig anpassad kod på server- och klientsidorna i lösningen för att göra att dessa relationer fungerar liknande Dynamics CRM entitetsrelationer och för att skapa strängfält fungerar som uppslagsfält.

@@ -1,6 +1,6 @@
 ---
-title: Värden
-description: Den ämne innehåller information om hur du arbetar med faktiska värden i Microsoft Dynamics 365 Project Operations.
+title: Utfall
+description: Den här artikeln innehåller information om hur du arbetar med faktiska värden i Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924820"
 ---
 # <a name="actuals"></a>Utfall
 
@@ -33,7 +33,7 @@ Faktiska värden representerar den granskade och godkända ekonomiska förloppet
 
 Project Operations registrerar de ekonomiska transaktioner som sker under ett projektåtaganges livscykel som faktiska värden. Skapandet av faktiska värden vid olika händelser under livscykeln varierar beroende på om projektåtagandet använder faktureringsmodellen för tid och material eller faktureringsmodellen med fast pris, samt om det befinner sig i förförsäljningsstadiet eller är ett internt projekt.
 
-I följande avsnitt förklaras påverkan på tabellen Faktiska värden vid olika händelser för olika variationer:
+I följande artikel förklaras påverkan på tabellen Faktiska värden vid olika händelser för olika variationer:
 
 - [Faktiska effekter i tid- och materialåtagande](ActualsonTM.md)
 - [Faktisk påverkan på ett åtagande med fast pris](ActualonFP.md)

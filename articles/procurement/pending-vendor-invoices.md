@@ -1,18 +1,18 @@
 ---
 title: Köpa icke-lagerförda material eller inköpskategorier med hjälp av väntande leverantörsfaktura
-description: I ämnet beskrivs hur du registrerar väntande leverantörsfakturor.
+description: Den här artikeln innehåller information om hur du registrerar väntande leverantörsfakturor.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922014"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Köpa icke-lagerförda material eller inköpskategorier med hjälp av väntande leverantörsfaktura
 
@@ -23,7 +23,7 @@ När ett företag köper in icke-lagerfört material eller inköpskategorier fö
 Contoso Robotics US utför till exempel ett projekt för utrustningsförnyelse och behöver programvarulicenser. Licenserna köps in från en tredjepartsleverantör.  Den aom administrerar leverantörsreskontra använder Dynamics 365 Finance för att registrera ett väntande leverantörsfakturadokument och tillskriver licenskostnaderna direkt till utrustningsförnyelseprojektet. 
 
 > [!IMPORTANT]
-> Innan du använder funktionerna som beskrivs i ämnet måste du granska och tillämpa de konfigurationer som krävs. Mer information finns i [Aktivera icke-lagermaterial och väntande leverantörsfakturor](configure-materials-nonstocked.md) och [Använd inköpskategorier med projektinköpsorder och väntande leverantörsfakturor](configure-procurement-categories.md)
+> Innan du använder funktionerna som beskrivs i den här artikeln bör du granska och tillämpa de konfigurationer som krävs. Mer information finns i [Aktivera icke-lagermaterial och väntande leverantörsfakturor](configure-materials-nonstocked.md) och [Använd inköpskategorier med projektinköpsorder och väntande leverantörsfakturor](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Registrera en projektrelaterad väntande leverantörsfaktura 
 

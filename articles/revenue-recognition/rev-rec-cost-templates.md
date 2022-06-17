@@ -1,24 +1,24 @@
 ---
 title: Konfigurera kostnadsmallar
-description: I det här ämnet finns information om hur du skapar och använder kostnadsmallar i Project Operations.
+description: Den här artikeln innehåller information om hur du skapar och använder kostnadsmallar i Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918426"
 ---
 # <a name="set-up-cost-templates"></a>Konfigurera kostnadsmallar
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 
-I det här ämnet finns information om hur du skapar och använder kostnadsmallar i Project Operations. En kostnadsmall bestämmer:
+Den här artikeln innehåller information om hur du skapar och använder kostnadsmallar i Project Operations. En kostnadsmall bestämmer:
 
 - Projektkategorierna för prognos- och faktiska transaktioner som ska ingå i en procentandel av beräkningen av projektslutförandet. Procentandelsvärdet för slutförande används sedan för att beräkna hur mycket intäkter som redovisas.
 - Huruvida slutförandeprocenten kan ändras om den beräknas automatiskt.

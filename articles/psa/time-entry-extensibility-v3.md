@@ -1,6 +1,6 @@
 ---
-title: Anpassa veckovis tidspost
-description: I det här ämnet finns information om hur du implementerar anpassade affärsregler som stöder organisationens praxis.
+title: Anpassa tidsposter för en vecka
+description: I denna artikel finns information om hur du implementerar anpassade affärsregler som stöder organisationens praxis.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918978"
 ---
 # <a name="customize-weekly-time-entry"></a>Anpassa tidsposter för en vecka 
 
@@ -46,9 +46,9 @@ Avsnittet **dimensioner** visar alla dimensioner som det går att ange tid för,
 - Typ
 - Poststatus
 
-Avsnittet **dimensioner** tillåter inte infogad redigering. Det här avsnittet är en vy som gör att anpassade fält kan läggas till i rutnätet för veckovisa tidsposter. Mer information om hur du lägger till anpassade fält finns i avsnittet "utökningsbarhet" längre ned i det här ämnet.
+Avsnittet **dimensioner** tillåter inte infogad redigering. Det här avsnittet är en vy som gör att anpassade fält kan läggas till i rutnätet för veckovisa tidsposter. Mer information om hur du lägger till anpassade fält finns i avsnittet "utökningsbarhet" längre ned i denna artikel.
 
-### <a name="duration"></a>Varaktighet
+### <a name="duration"></a>Duration
 I området varaktighet visas veckodagarna som kolumnrubriker. I det här avsnittet kan du redigera på en rad. När en tidspostrad har skapats med lämpliga dimensioner kan användare snabbt ange, i rad, hur mycket tid som har lagts ned på de dimensionerna.
 
 ## <a name="create-a-new-time-entry"></a>Skapa en ny tidspost

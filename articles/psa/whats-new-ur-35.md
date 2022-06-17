@@ -1,6 +1,6 @@
 ---
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 35, version 3
-description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Microsoft Dynamics 365 Project Service Automation, uppdateringsversion 35, V3.
+description: Den här artikeln innehåller information om de funktioner och korrigeringar som är tillgängliga i Microsoft Dynamics 365 Project Service Automation uppdateringsutgåva 35, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e210777f1e4d149b700721ac7fb9bd129b1166fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28b4a5ccbfff83c9b1a18cb0b4062af9cdaf8f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912860"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-35-v3"></a>Nyheter och ändringar i Project Service Automation, uppdateringsversion 35, version 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8574071"
 
 Vi är glada att kunna presentera den senaste uppdateringen för Microsoft Dynamics 365 Project Service Automation-appen. Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet. Den är kompatibel med Dynamics 365 9.x. Om du vill uppdatera till den här versionen går du till sidan Admin Center för Dynamics 365 Online Solutions och installerar uppdateringen. Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](/power-platform/admin/install-remove-preferred-solution).
 
-I det här ämnet finns funktioner och korrigeringar som är nya eller har ändrats för Project Service Automation, uppdateringsversion 35, version 3. Denna version har versionsnummer V3.10.56.110 och är allmänt tillgänglig via en självuppdatering i september 2021.
+I denna artikel finns funktioner och korrigeringar som är nya eller har ändrats för Project Service Automation, uppdateringsversion 35, version 3. Denna version har versionsnummer V3.10.56.110 och är allmänt tillgänglig via en självuppdatering i september 2021.
 
 ## <a name="update-release-35"></a>Uppdatering version 35
 

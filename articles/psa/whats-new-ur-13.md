@@ -1,6 +1,6 @@
 ---
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 13, version 3
-description: I den här ämnet finns information om nyheter i Project Service Automation uppdatering version 13, V3.
+description: I den här artikeln finns information om vad som är nytt och ändrat i Project Service Automation, uppdateringsversion 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930708"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation uppdateringsversion 13, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596210"
 
 Vi är glada att kunna presentera den senaste uppdateringen av Dynamics 365 Project Service Automation (PSA)-programmet. Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet. Den här versionen är kompatibel med Dynamics 365 9.x. Om du vill uppdatera till den här utgåvan går du till administrationscenter för Dynamics 365 online och går till sidan lösningar för att installera uppdateringen. Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](/power-platform/admin/install-remove-preferred-solution).
 
-I det här ämne finns funktioner och korrigeringar som är nya eller ändrade för Project Service Automation V3, uppdatering version 13. Den här versionen har versionsnumret för V3.10.3.18 och är tillgängligt enligt följande schema:
+I denna artikel finns funktioner och korrigeringar som är nya eller har ändrats för Project Service Automation, V3, uppdateringsversion 13. Den här versionen har versionsnumret för V3.10.3.18 och är tillgängligt enligt följande schema:
 
 - **Allmän tillgänglighet (självuppdatering):** 2019 november
 - **Automatisk uppdatering:** December 2019

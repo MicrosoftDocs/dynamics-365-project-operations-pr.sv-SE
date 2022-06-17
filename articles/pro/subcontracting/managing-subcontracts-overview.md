@@ -1,17 +1,17 @@
 ---
 title: Hantering av underavtal i Project Operations
-description: Detta ämne ger en översikt över den fullständiga processen för underavtalshantering som är typisk för projektbaserade organisationer.
+description: Den här artikeln ger en översikt över hela processen för hantering av underleverantörer, vanligtvis i projektbaserade organisationer.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911527"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Hantering av underavtal i Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593036"
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Detta ämne ger en översikt över den fullständiga processen för underavtalshantering i projektbaserade organisationer. Underavtal för tjänster följer som regel det affärsprocessflöde som visas i följande diagram.
+Den här artikeln ger en översikt över hela processen för hantering av underleverantörer, i projektbaserade organisationer. Underavtal för tjänster följer som regel det affärsprocessflöde som visas i följande diagram.
 
 ![Processflöde för underavtalering](../media/SubcontractingProcessFlow.png)
 

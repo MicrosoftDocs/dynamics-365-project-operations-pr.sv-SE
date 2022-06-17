@@ -1,24 +1,24 @@
 ---
 title: Projektberäkningar och integration med faktiska värden
-description: Detta avsnitt innehåller information om Project Operations-integration med dubbelriktad skrivning för projektberäkningar och faktiska värden.
+description: Den här artikeln innehåller information om integrering med dubbelskrivning av Project Operations för projektuppskattningar och faktiska uppgifter.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914608"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektberäkningar och integration med faktiska värden
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Detta avsnitt innehåller information om Project Operations-integration med dubbelriktad skrivning för projektberäkningar och faktiska värden.
+Den här artikeln innehåller information om integrering med dubbelskrivning av Project Operations för projektuppskattningar och faktiska uppgifter.
 
 ## <a name="project-estimates"></a>Projektberäkningar
 

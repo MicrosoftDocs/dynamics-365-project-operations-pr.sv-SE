@@ -1,6 +1,6 @@
 ---
 title: Konfigurera anpassade fält som prissättningsdimensioner
-description: I det här ämnet finns information om hur du ställer in anpassade prissättningsdimensioner.
+description: I den här artikeln finns information om hur du ställer in anpassade prissättningsdimensioner.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922619"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Innan du börjar förutsätter det här ämnet att du har slutfört procedurerna i avsnitten [Skapa anpassade fält och entiteter](create-custom-fields-entities.md) och [Lägg till anpassade fält till prisinställningar och transaktionsenheter](field-references.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till ämne. 
+Innan du börjar förutsätter den här artikeln att du har slutfört procedurerna i artiklar [Skapa anpassade fält och entiteter](create-custom-fields-entities.md) och [Lägg till anpassade fält till prisinställningar och transaktionsenheter](field-references.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till artikeln. 
 
-I det här ämnet finns information om hur du ställer in anpassade prissättningsdimensioner. I webbgränssnittet Project Service på sidan **Parametrar** visar fliken **Beloppsbaserade prissättningsdimensioner** posterna i entiteterna för prissättningsdimensioner. Som standard skapar installation av Project Service 2 rader i rutnätet på den här fliken:
+I den här artikeln finns information om hur du ställer in anpassade prissättningsdimensioner. I webbgränssnittet Project Service på sidan **Parametrar** visar fliken **Beloppsbaserade prissättningsdimensioner** posterna i entiteterna för prissättningsdimensioner. Som standard skapar installation av Project Service 2 rader i rutnätet på den här fliken:
 
 - **msdyn_resourcecategory** (roll)
 - **msdyn_OrganizationalUnit** (organisationsenhet)

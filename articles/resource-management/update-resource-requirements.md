@@ -1,17 +1,17 @@
 ---
 title: Redigera ett resurskrav
-description: I det här ämnet finns information om hur du uppdaterar information om resurskrav.
+description: Den här artikeln innehåller information om hur du uppdaterar information om resurskrav.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 821f2d774c95085cebc5bd08d312c740f735f120
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 142acb73f4ee94e5e7058aea7139318055121366
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930524"
 ---
 # <a name="edit-a-resource-requirement"></a>Redigera ett resurskrav
 

@@ -1,17 +1,17 @@
 ---
 title: Sidhuvudinformation för leverantörsfakturor
-description: I detta ämne beskrivs funktionerna i leverantörsfakturahuvudet i Microsoft Dynamics 365 Project Operations.
+description: I denna artikel beskrivs funktionerna i leverantörsfakturahuvudet i Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929880"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Sidhuvudinformation för leverantörsfakturor
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575602"
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-I detta ämne beskrivs funktionerna i leverantörsfakturahuvudet i Microsoft Dynamics 365 Project Operations.
+I denna artikel beskrivs funktionerna i leverantörsfakturahuvudet i Microsoft Dynamics 365 Project Operations.
 
 När projektansvariga planerar och genomför projekt kan de komma att använda underleverantörer och köpa produkter och tjänster från leverantörer. Under ett projekts genomförande uppstår kostnader för tjänster, material och utgiftskategorier genom avtal med underleverantörer. Leverantörer fakturerar dessa kostnader till projekt genom att skapa leverantörsfakturor.
 

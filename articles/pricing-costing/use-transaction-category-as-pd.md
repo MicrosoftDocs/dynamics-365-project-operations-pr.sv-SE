@@ -1,17 +1,17 @@
 ---
 title: Använd transaktionskategori som prissättningsdimension
-description: I det här ämnet finns information om hur du använder fältet Transaktionskategori som prissättningsdimension.
+description: Den här artikeln innehåller information om hur du använder fältet Transaktionskategori som en prisdimension.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911727"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Använd transaktionskategori som prissättningsdimension
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591150"
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 
-Det här ämnet förklarar hur du använder fältet **Transaktionskategori** som prissättningsdimension. 
+Den här artikeln förklarar hur du använder fältet **transaktionskategori** som prissättningsdimension. 
 
 ## <a name="prerequisites"></a>Förutsättningar
-Innan du slutför procedurerna i detta ämne måste du ha en ny lösning för prissättningsdimension för din organisation. Om du inte redan har skapat en sådan, se [Skapa anpassade fält och entiteter som prissättningsdimensioner](create-custom-fields-entities-pricing-dimensions.md).
+Innan du slutför procedurerna i den här artikeln måste du ha en ny prissättningslösning för organisationen. Om du inte redan har skapat en sådan, se [Skapa anpassade fält och entiteter som prissättningsdimensioner](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Lägg till fältet Transaktionskategori i formulär och vyer
 Om du vill göra fältet **Transaktionskategori** synligt i lösningen för prissättningsdimension måste du lägga till fältet i alla formulär och vyer som en entitet.

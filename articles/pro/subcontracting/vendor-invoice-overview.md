@@ -1,17 +1,17 @@
 ---
 title: Leverantörsfakturering – Koncept och skapande
-description: I detta ämne beskrivs konceptet med leverantörsfakturor, scenarier för användning samt hur du skapar leverantörsfakturor i Microsoft Dynamics 365 Project Operations.
+description: I denna artikel beskrivs konceptet med leverantörsfakturor, scenarier för användning samt hur du skapar leverantörsfakturor i Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911480"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>Leverantörsfakturering – Koncept och skapande
 

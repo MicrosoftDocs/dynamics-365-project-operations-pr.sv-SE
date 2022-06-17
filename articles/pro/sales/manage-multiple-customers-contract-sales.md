@@ -1,17 +1,17 @@
 ---
 title: Hantera flera kunder i projektkontrakt - lite
-description: I det här ämnet finns information om hur du hanterar flera kunder i projektkontrakt.
+description: Den här artikeln innehåller information om hur du hanterar flera kunder på projektkontrakt.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 015e407b1b9e464edec1e57ce6b5132f21f5ae6d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917227"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Hantera flera kunder i projektkontrakt - lite
 

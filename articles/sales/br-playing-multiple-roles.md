@@ -1,17 +1,17 @@
 ---
 title: Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller i ett projekt
-description: I detta ämne förklaras hur du använder prissättningsdimensioner för att stödja pris- och kostnadsberäkningar för en resurs som fyller flera roller i ett projekt.
+description: Den här artikeln förklarar hur du använder prissättningsdimensioner för att stödja prissättnings- och kostnadsberäkningar för en resurs som fyller flera roller i ett projekt.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923486"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller i ett projekt 
 

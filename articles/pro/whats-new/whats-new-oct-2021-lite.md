@@ -1,24 +1,24 @@
 ---
 title: Nya oktober 2021 – Distribution av Project Operations Lite
-description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i oktober 2021-versionen av distribution av Project Operations Lite
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för oktober 2021.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921968"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Nya oktober 2021 – Distribution av Project Operations Lite
 
 _Gäller: Lite-distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
   - Project Operations i Microsoft Dataverse-miljöversion 4.25.0.91
 

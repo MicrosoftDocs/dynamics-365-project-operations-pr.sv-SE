@@ -1,6 +1,6 @@
 ---
 title: Nyheter eller ändringar i Project Service Automation version 3
-description: I det här ämnet finns information om vad som är nytt och ändrat i Project Service Automation version 3.
+description: I den här artikeln finns information om vad som är nytt och ändrat i Project Service Automation version 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926614"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Nyheter eller ändringar i Project Service Automation version 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581674"
 
 
 
-I det här ämnet finns information om ändringar av användargränssnittet, funktioner och terminologi i Project Service Automation mellan version 2 eller version 1 och 3.
+I den här artikeln finns information om ändringar av användargränssnittet, funktioner och terminologi i Project Service Automation mellan version 2 eller version 1 och 3.
 
 ## <a name="project-scheduling"></a>Projektscheman
 Projektschemat som kallades den uppdelade arbetsstrukturen (WBS) i tidigare versioner har bytt namn till schema och tillgås genom att klicka på fliken **schema**. 
@@ -150,7 +150,7 @@ När du har uppgiftstilldelningar för en resurs utan bokningar (underskott för
 Det här avsnittet innehåller information om förändringar av tid, utgifter och godkännande i version 3 Project Service Automation. Som en del av Dynamics 365 Project Service Automation-lösningen har funktionen **tidspost** uppdaterats för att använda ramverk för enhetligt gränssnitt. Detta ger leverans av konsistent, enhetligt användargränssnitt som följer responsiv design för optimal visning på alla skärmstorlekar och enheter. 
 
 ### <a name="landing-page"></a>Landningssida
-Den icke-utökningsbara anpassade tidspostupplevelsen är inaktuell i version 3. I stället finns nu en utökningsbar och tillgänglig inbyggd rutnätsupplevelse. Du kan komma åt tidspostens funktion med hjälp av webbplatsöversikten till vänster. Med den här ändringen kan du inte längre ange tid för en vecka i taget. I stället måste du skapa en tidspost för varje dag i rutnätet. När några tidsposter har skapats kan användarna masskapa tidsposter med funktionen **kopiering** vilket förklaras senare i detta ämne. 
+Den icke-utökningsbara anpassade tidspostupplevelsen är inaktuell i version 3. I stället finns nu en utökningsbar och tillgänglig inbyggd rutnätsupplevelse. Du kan komma åt tidspostens funktion med hjälp av webbplatsöversikten till vänster. Med den här ändringen kan du inte längre ange tid för en vecka i taget. I stället måste du skapa en tidspost för varje dag i rutnätet. När några tidsposter har skapats kan användarna masskapa tidsposter med funktionen **kopiering** vilket förklaras senare i denna artikel. 
 
 ![Landningssida för tidspost.](media/time-entry-landing-page-07.png)
  

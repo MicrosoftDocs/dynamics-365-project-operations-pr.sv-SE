@@ -1,6 +1,6 @@
 ---
 title: Metoder för att boka allokeringar i Project Service Automation
-description: I det här ämnet finns information om olika sätt att boka allokeringar.
+description: I den här artikeln finns information om olika sätt att boka allokeringar.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929190"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metoder för att boka allokeringar i Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Oavsett om du lägger till en teammedlem direkt i ett projekt på fliken **Team** eller schemalägger en resurs till ett projekt eller krav via schemaläggningstavlan, finns det några olika bokningsallokeringsmetoder du kan använda. Det här ämnet lär dig hur de olika metoderna fungerar och vilka metoder som kan leda till överbokning av resurser.
+Oavsett om du lägger till en teammedlem direkt i ett projekt på fliken **Team** eller schemalägger en resurs till ett projekt eller krav via schemaläggningstavlan, finns det några olika bokningsallokeringsmetoder du kan använda. Denna artikel lär dig hur de olika metoderna fungerar och vilka metoder som kan leda till överbokning av resurser.
 
 ## <a name="full-capacity"></a>Full kapacitet 
 Metoden full kapacitet bokar resursens fulla kapacitet för angivna från- och till-datum. Om en resurs exempelvis har en kalender med 8 timmars arbetsdag 5 dagar i veckan, kommer start- och slutdatum som täcker 5 arbetsdagar att boka resursen i 40 timmar. Bokningen görs utan hänsyn till resursens återstående kapacitet. Om en resurs redan bokats under perioden för andra projekt kommer de 40 timmarna att bokas som extratimmar, vilket eventuellt kan förorsaka överbokningar.

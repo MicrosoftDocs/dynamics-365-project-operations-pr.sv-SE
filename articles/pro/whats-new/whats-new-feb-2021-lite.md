@@ -1,22 +1,22 @@
 ---
 title: Nyheter i februari 2021 – Distribution av Project Operations lite
-description: I detta ämne finns information om de kvalitetsuppdateringar som är tillgängliga i distributionsutgåvan av Project Operations lite för februari 2021.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för februari 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914056"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Nyheter i februari 2021 – Distribution av Project Operations lite
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
   - Project Operations i Dataverse-miljöversion 4.7.0.95
 

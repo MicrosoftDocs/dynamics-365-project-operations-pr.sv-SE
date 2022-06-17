@@ -1,33 +1,33 @@
 ---
 title: Uppdatera attribut för plugin-program med nya prissättningsdimensioner
-description: I den här ämnet finns information om hur du uppdaterar plugin-attribut för prissättningsdimensioner.
+description: I den här artikeln finns information om hur du uppdaterar plugin-attribut för prissättningsdimensioner.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920036"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Uppdatera attribut för plugin-program med nya prissättningsdimensioner
 
-I den här ämnet finns information om hur du uppdaterar plugin-attribut för prissättningsdimensioner.
+I den här artikeln finns information om hur du uppdaterar plugin-attribut för prissättningsdimensioner.
 
 > [!NOTE]
-> Detta ämne är endast tillämpligt på offert- och kontraktsfunktionerna i Dynamics 365 Project Operations.
+> Den här artikeln gäller endast offert- och kontraktfunktionerna i Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Förutsättningar
-Innan du slutför stegen i detta ämne måste du ha slutfört procedurerna i följande avsnitt:
+Innan du slutför stegen i den här artikeln måste du ha slutfört procedurerna i följande artiklar:
 
   - [Skapa anpassade fält och entiteter](create-custom-fields-entities-pricing-dimensions.md) 
   - [Lägga till anpassade fält i prisinställningar och transaktionella entiteter](add-custom-fields-price-setup-transactional-entities.md)
   - [Konfigurera anpassade fält som prissättningsdimensioner](set-up-custom-fields-pricing-dimensions.md). 
   
-Om du inte har slutfört dessa procedurer går du tillbaka och slutför dem och går sedan tillbaka till detta ämne.
+Om du inte har slutfört de här procedurerna slutför du dem och går sedan tillbaka till artikeln.
 
 ## <a name="register-a-plug-in"></a>Registrera ett plugin-program
 När en offertradsdetalj skapas på sidan **Offertrad** för en projektoffertrad skapar systemet två uppskattningsrader. En rad är för kostnadssidan av uppskattningen och den andra raden är för försäljningsidan. Det här är samma för projektkontraktrader.

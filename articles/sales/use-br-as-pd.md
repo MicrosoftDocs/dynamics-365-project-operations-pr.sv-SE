@@ -1,26 +1,26 @@
 ---
 title: Använd en bokningsbar resurs som prissättningsdimension
-description: I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension.
+description: Denna artikel har information om hur du använder en bokningsbar resurs som prissättningsdimension.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914838"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Använd en bokningsbar resurs som prissättningsdimension
 
  _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_ 
 
-I det här ämnet finns information om hur du använder en bokningsbar resurs som prissättningsdimension. Om din prissättningsstrategi har ställts in så att varje bokningsbar resurs måste ha ett visst pris eller en viss kostnadssats använder du en bokningsbar resurs som prissättningsdimension.
+Denna artikel har information om hur du använder en bokningsbar resurs som prissättningsdimension. Om din prissättningsstrategi har ställts in så att varje bokningsbar resurs måste ha ett visst pris eller en viss kostnadssats använder du en bokningsbar resurs som prissättningsdimension.
 
 ## <a name="prerequisites"></a>Förutsättningar
-Innan du slutför procedurerna i detta ämne måste du ha en ny lösning för prissättningsdimension för din organisation. Om du inte redan har skapat en sådan, se [Skapa anpassade fält och entiteter](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Innan du slutför procedurerna i den här artikeln måste du ha en ny prissättningslösning för organisationen. Om du inte redan har skapat en sådan, se [Skapa anpassade fält och entiteter](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Lägg till fältet Bokningsbara resurser i formulär och vyer
 Om du vill göra fältet **Bokningsbar resurs** synligt i lösningen för prissättningsdimension måste du lägga till fältet i alla formulär och vyer som en entitet.

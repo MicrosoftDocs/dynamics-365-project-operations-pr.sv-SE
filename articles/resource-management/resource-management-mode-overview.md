@@ -1,17 +1,17 @@
 ---
-title: Översikt över resurshanteringslägen
-description: I det här ämnet finns information om funktionen för projekthantering i Dynamics 365 Project Operations.
+title: Resurshanteringslägen – Översikt
+description: Den här artikeln innehåller information om resurshanteringsfunktioner i Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928454"
 ---
 # <a name="resource-management-modes-overview"></a>Resurshanteringslägen – Översikt
 
@@ -38,7 +38,7 @@ För organisationer som behöver flexibilitet i tilldelningen av resurser inneb�
 
 ![Hybridläge.](./media/resource-management-hybrid.png)
 
-Utöver den centrallägesprocess som stöds, se följande avsnitt för att hantera alla andra bokningsflöden som stöds i hybridläget:
+Utöver den centrala lägesprocessen som stöds, se följande artiklar för att hantera alla andra stödda bokningsflöden i hybridläget:
 
 Boka en resurs direkt till ett projekt:
 - [Boka namngivna bokningsbara resurser till ett projektgrupp och tilldela dem uppgifter](/dynamics365/project-service/assign-named-bookable-resource)

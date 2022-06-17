@@ -1,24 +1,24 @@
 ---
 title: Vad är nytt i april 2021 - Lite-distribution för Project Operations
-description: Den ämne innehåller information om kvalitetsuppdateringarna som är tillgängliga i april 2021-versionen av Lite-distribution för Project Operations.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i distributionsversionen av Project Operations Lite för april 2021.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 10d9498636d8c5f72b7544be4ec30f399d5e0311
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 987eeaf2e57659a6facae6b0a3688f15992e8bb9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931261"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Vad är nytt i april 2021 - Lite-distribution för Project Operations
 
-_Gäller: Lite-distribution - avtal till proforma-fakturering_
+_Gäller: Lite-distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
   - Project Operations i Dataverse-miljöversion 4.9.0.221 
 

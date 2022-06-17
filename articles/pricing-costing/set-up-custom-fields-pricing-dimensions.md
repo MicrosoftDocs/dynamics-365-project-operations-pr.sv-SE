@@ -1,6 +1,6 @@
 ---
 title: Konfigurera anpassade fält som prissättningsdimensioner
-description: I det här ämnet finns information om hur du ställer in prissättningsdimensioner med anpassade fält.
+description: Den här artikeln innehåller information om hur du ställer in prisdimensioner med hjälp av anpassade fält.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917598"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Konfigurera anpassade fält som prissättningsdimensioner
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Innan du börjar förutsätter det här ämnet att du har slutfört procedurerna i avsnitten [Skapa anpassade fält och entiteter](create-custom-fields-entities-pricing-dimensions.md) och [Lägg till önskade anpassade fält till prisinställningar och transaktionsenheter](add-custom-fields-price-setup-transactional-entities.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till ämne. 
+Innan du börjar förutsätter den här artikeln att du har slutfört procedurerna i artiklarna [Skapa anpassade fält och entiteter](create-custom-fields-entities-pricing-dimensions.md) och [Lägg till krävda anpassade fält till prisinställningar och transaktionsenheter](add-custom-fields-price-setup-transactional-entities.md). Om du inte har slutfört de här procedurerna går du tillbaka och slutför dem och går sedan tillbaka till artikeln. 
 
-I det här ämnet finns information om hur du ställer in anpassade prissättningsdimensioner. På sidan **Parametrar** visar fliken **Beloppsbaserade prissättningsdimensioner** visar posterna i enheterna för prisdimension. Som standard finns det två rader i rutnätet på den här fliken:
+I den här artikeln finns information om hur du ställer in anpassade prissättningsdimensioner. På sidan **Parametrar** visar fliken **Beloppsbaserade prissättningsdimensioner** visar posterna i enheterna för prisdimension. Som standard finns det två rader i rutnätet på den här fliken:
 
 - **msdyn_resourcecategory** (roll)
 - **msdyn_OrganizationalUnit** (organisationsenhet)

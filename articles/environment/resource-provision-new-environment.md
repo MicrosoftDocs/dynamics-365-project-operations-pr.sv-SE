@@ -1,18 +1,18 @@
 ---
 title: Etablera en ny miljö
-description: I det här ämnet finns information om hur du etablerar en ny Project Operations-miljö.
+description: Den här artikeln innehåller information om hur du tillhandahåller en ny Project Operations-miljö.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931628"
 ---
 # <a name="provision-a-new-environment"></a>Etablera en ny miljö
 
@@ -20,7 +20,7 @@ _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 
 
-I det här ämnet finns information om hur du tillhandahåller en ny Dynamics 365 Project Operations-miljö för resurser/icke-lagerbaserade scenarier.
+Den här artikeln innehåller information om hur du tillhandahåller en ny Dynamics 365 Project Operations miljö för resurs-/icke-lagerbaserade scenarier.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Aktivera automatisk etablering av Project Operations i ett LCS-projekt
 

@@ -1,24 +1,24 @@
 ---
 title: Nyheter i tidig åtkomst för 2021 års lanseringsvåg 2 – Project Operations lite-distribution
-description: Detta ämne innehåller information om de funktioner som är tillgängliga i den tidiga åtkomstversionen för 2021 års lanseringsvåg 2 för Project Operations Lite-distribution.
+description: Denna artikel innehåller information om funktionerna som är tillgängliga i utgivningscykel 2 för 2021 tidig åtkomst av Project Operations Lite för oktober 2021.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924130"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Nyheter i tidig åtkomst för 2021 års lanseringsvåg 2 – Project Operations lite-distribution
 
 _Gäller: Lite-distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
   - Project Operations i Dataverse-miljöversion 4.23.0.4
 

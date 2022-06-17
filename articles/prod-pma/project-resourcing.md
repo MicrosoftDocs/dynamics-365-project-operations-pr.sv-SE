@@ -1,6 +1,6 @@
 ---
 title: Startsida för Projektresurser
-description: I det här ämnet finns information om resurshantering för projekt.
+description: I den här artikeln finns information om resurshantering för projekt.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924038"
 ---
 # <a name="project-resourcing-home-page"></a>Startsida för Projektresurser
 
 [!include [banner](../includes/banner.md)]
 
-I det här ämnet finns information om resurshantering för projekt.
+I den här artikeln finns information om resurshantering för projekt.
 
 En utmaning för projektledarna och resurshanterare under projektplaneringsfasen är resursallokering, där de måste bestämma och reservera rätt resurs för att arbeta med ett projekt. I resurshanteringsfunktioner för projekt i Dynamics 365 Finance kan du definiera roller som behandlas som tillfälliga resurser, som kan reserveras för ett visst engagemang eller delar av ett engagemang. Med den här typen av resurshantering kan projektledarna och resursansvariga utföra följande uppgifter:
 
@@ -41,7 +41,7 @@ En utmaning för projektledarna och resurshanterare under projektplaneringsfasen
 
 När projektplaneringen fortsätter kan planerade resurser ersättas med personalresurser. Projektledaren kan också gå tillbaka och uppdatera resurshanteringsreservationerna under alla projektstadier.
 
-I följande avsnitt finns information om de uppgifter som måste utföras när du arbetar med resurser till projekt.
+Följande artiklar innehåller information om de uppgifter som måste utföras när du arbetar med resurshantering av projekt.
 
 - [Konfigurera projektresurser](set-up-project-resources.md)
 - [Hantera resurskompetens](manage-resource-competencies.md)

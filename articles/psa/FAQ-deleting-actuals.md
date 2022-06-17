@@ -1,6 +1,6 @@
 ---
 title: Varför kan jag inte ta bort poster från entiteten Faktiska värden?
-description: I det här ämnet finns information om varför det inte går att ta bort poster från entiteten verkliga värden.
+description: I den här artikeln finns information om varför det inte går att ta bort poster från entiteten verkliga värden.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ff2c951905324d5d05722f399057c03d22f1a1c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd446961432a8f18895db45699d7a731d55235b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925602"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Varför kan jag inte ta bort poster från entiteten Faktiska värden?
 

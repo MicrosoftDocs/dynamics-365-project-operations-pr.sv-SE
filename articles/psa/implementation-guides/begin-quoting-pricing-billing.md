@@ -1,6 +1,6 @@
 ---
 title: Grundläggande guide för offerter, prissättning och fakturering
-description: I det här ämnet finns länkar till information om grundläggande offerter, prissättning och fakturering i Project Service Automation.
+description: I den här artikeln finns länkar till information om grundläggande offerter, prissättning och fakturering i Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910836"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Grundläggande guide för offerter, prissättning och fakturering
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592254"
 
 Förmågan att hitta rätt resurser i rätt tid, boka dessa resurser i projekt och behålla resurser som används hjälper organisationer att uppfylla omsättningsmål och kundtillfredsställelsemål. 
 
-Den PDF-länk som tidigare fanns i ämnet har tagits bort och innehållet har flyttats till följande avsnitt:
+Den PDF-länk som tidigare fanns i artikeln har tagits bort och innehållet har flyttats till följande artiklar:
 
 - [Offerter, prissättning och fakturering](../quote-bill-price.md)
 - [Försäljningsprocesser](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Den PDF-länk som tidigare fanns i ämnet har tagits bort och innehållet har fl
 - [Registrera faktiska värden](../advanced-actuals.md)
 
 > [!NOTE]
-> Det här ämnet tas bort i en kommande dokumentationsuppdatering. 
+> Denna artikel tas bort i en kommande dokumentationsuppdatering. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

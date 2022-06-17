@@ -1,17 +1,17 @@
 ---
 title: Navigera Project Operations
-description: I det här ämnet finns information om hur du kommer åt Project Operations från Lifecycle Services.
+description: Den här artikeln innehåller information om hur du använder Project Operations från Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931674"
 ---
 # <a name="navigate-project-operations"></a>Navigera Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations för resurs-/icke-lagerbaserade scenarier bestå
  - **Project Operations i Common Data Service (CDS)-miljön**: den här komponenten handlar om funktioner och processer från affärsmöjligheter till proforma-fakturering. 
  - **Projekthantering och redovisning i Dynamics 365 Finance-miljö**: Denna komponent omfattar funktioner för utgiftshantering, projektredovisning och intäktsidentifiering. 
 
-När du har upprättat Project Operations enligt beskrivningen i det här ämnet har sidan Lifecycle Services (LCS) för **miljöinformation** enkel åtkomst till båda komponenterna i Project Operations.  
+När du har etablerat Project Operations enligt beskrivningen i den här artikeln ger sidan **miljöinformation** för Lifecycle Services (LCS) enkel åtkomst till båda komponenterna i Project Operations.  
 
 Använd miljönamnet i avsnittet **Common Data Service miljönamn** för att navigera till Project Operations i en CDS-miljö. 
 

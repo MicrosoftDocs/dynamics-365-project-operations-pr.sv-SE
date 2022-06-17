@@ -1,24 +1,24 @@
 ---
 title: Nyheter i februari 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
-description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan av Project Operations för februari 2021 för resurs-/icke-lagerbaserade scenarier.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i februari 2021-versionen av Project Operations för resurs-/icke-lagerbaserade scenarier.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910666"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i februari 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
 - Project Operations i Dataverse-miljö 4.7.0.95
 - Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.16 

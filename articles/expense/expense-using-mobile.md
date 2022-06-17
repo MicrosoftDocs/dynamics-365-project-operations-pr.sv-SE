@@ -1,6 +1,6 @@
 ---
 title: Mobil utgiftsapp
-description: I det här ämnet finns information om hur du använder mobil arbetsyta för utgiftshantering.
+description: Denna artikel innehåller information om mobil arbetsyta för Utläggshantering.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930248"
 ---
 # <a name="mobile-expense-app"></a>Mobil utgiftsapp
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-I det här ämnet finns information om hur du använder mobil arbetsyta för **utgiftshantering**. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter. Dessutom kan godkännare använda mobil arbetsyta för **utgiftshantering** för att visa utgiftsrapporter som har tilldelats dem och antingen godkänna eller avvisa dessa utgiftsrapporter.
+Denna artikel innehåller information om mobil arbetsyta för **Utläggshantering**. Med den här arbetsytan kan användare fånga in och överföra ett kvitto så att de kan bifogas till en utgiftsrapport senare. Du kan också snabbt skapa en utgiftsrad genom att använda en kopplad inleverans och skapa och hantera deras utgiftsrapporter. Dessutom kan godkännare använda mobil arbetsyta för **utgiftshantering** för att visa utgiftsrapporter som har tilldelats dem och antingen godkänna eller avvisa dessa utgiftsrapporter.
 
 Den här mobila arbetsytan är avsedd att användas tillsammans med Dynamics 365 Unified Ops-mobilapp.
 

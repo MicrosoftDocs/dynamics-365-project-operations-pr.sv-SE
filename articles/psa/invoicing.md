@@ -1,6 +1,6 @@
 ---
 title: Fakturering i Project Service Automation
-description: I det här ämnet finns information om fakturering.
+description: I denna artikel finns information om fakturering.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926844"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturering i Project Service Automation
 
@@ -94,7 +94,7 @@ När **ProcessRunner** har körts klart anropas **ProcessRunCaller**, anger slut
 Batchprocessjobbet för att skapa fakturor är ett återkommande jobb. Om batchprocessen körs flera gånger skapas flera instanser av jobbet och det uppstår fel. Därför bör du endast starta batchprocessen en gång och du bör starta om den endast om den slutar att fungera.
 
 > [!NOTE]
-> Batch-fakturering i Project Service Automation körs endast för projekt kontrakt rader som konfigurerats av fakturascheman. En kontraktrad med en fast pris faktureringsmetod måste ha milstolpar konfigurerad. En projekts kontraktrad med en tids- och material faktureringsmetod måste ha en datumbaserad fakturauppställning. Information om hur du ställer in faktureringsfrekvenser inom ramen för ett projekt som bygger på en offertrad finns på raderna för ämne, [offerter och offertrader](basic-quote-lines.md#invoice-schedule). Detsamma gäller för en projektrelaterad kontraktrad.      
+> Batch-fakturering i Project Service Automation körs endast för projekt kontrakt rader som konfigurerats av fakturascheman. En kontraktrad med en fast pris faktureringsmetod måste ha milstolpar konfigurerad. En projekts kontraktrad med en tids- och material faktureringsmetod måste ha en datumbaserad fakturauppställning. Information om hur du anger faktureringsfrekvenser för ett projekt som bygger på en offertrad finns i artikeln, [offerter och offertrader](basic-quote-lines.md#invoice-schedule). Detsamma gäller för en projektrelaterad kontraktrad.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Redigera ett utkast till en PSA-faktura
 

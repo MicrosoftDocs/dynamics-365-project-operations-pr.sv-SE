@@ -1,6 +1,6 @@
 ---
 title: Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller för ett projekt
-description: Detta ämne informerar dig om hur du kan använda prisdimensioner för att stödja prissättning och kostnadsredovisning för en resurs som fyller flera roller i ett projekt.
+description: Den här artikeln innehåller information om hur prismått kan användas för att stödja prissättning och kostnad för en resurs som fyller flera roller i ett projekt.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916172"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Uppskattad projektförsäljning och -kostnader när en bokningsbar resurs fyller flera roller för ett projekt 
 

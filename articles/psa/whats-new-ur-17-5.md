@@ -1,6 +1,6 @@
 ---
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 17.5, snabbkorrigering, version 3
-description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Project Service Automation, uppdateringsversion 17.5, version 3.
+description: Den här artikeln innehåller funktioner och korrigeringar som är tillgängliga i Project Service Automation uppdateringsutgåva 17.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926476"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Project Service Automation uppdateringsversion 17.5, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577350"
 
 Vi är glada att kunna presentera den senaste uppdateringen för programmet Project Service Automation för Dynamics 365. Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet.  Den här versionen är kompatibel med Dynamics 365 9.x. Om du vill uppdatera till den här versionen går du till administrationscenter för Dynamics 365 online och går till sidan Lösningar för att installera uppdateringen. Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](/power-platform/admin/install-remove-preferred-solution).
 
-I detta ämne anges de funktioner och snabbkorrigeringar som är nya eller som har ändrats för, version 3, uppdateringsversion 17.5. Den här versionen har versionsnummer på, version 3.10.7.32 och är allmänt tillgänglig via en självuppdatering i mars 2020.
+I denna artikel finns funktioner och korrigeringar som är nya eller har ändrats för V3, uppdateringsversion 17.5. Den här versionen har versionsnummer på, version 3.10.7.32 och är allmänt tillgänglig via en självuppdatering i mars 2020.
 
 
 ## <a name="update-release-175"></a>Uppdatering version 17.5

@@ -1,6 +1,6 @@
 ---
 title: Konfigurera och använd betalning av leverantör vid betalning
-description: I det här ämnet förklaras hur du skapar villkoret att betala vid betalning (PWP), så att du kan släppa delar av leverantörsbetalningar beroende på kundbetalningar.
+description: I den här artikeln beskrivs hur du skapar villkor för betala vid betalning (PWP) så att du kan frisläppa leverantörsbetalningar för delbelopp baserat på kundbetalningar.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 71f7b1db58c0d6aacc4f47920e5ad39dbb35ec51
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 10e8e57695caece6c4b6ba4c2ddb52395dad1218
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920772"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Konfigurera och använd betalning av leverantör vid betalning
 

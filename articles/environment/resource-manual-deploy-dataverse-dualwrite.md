@@ -1,25 +1,25 @@
 ---
 title: Distribuera appen Project Operations Dataverse manuellt med stöd för dubbelriktad skrivning
-description: I ämne beskrivs hur du manuellt distribuerar appen Project Operations Dataverse så att den har stöd för dubbelriktad skrivning.
+description: I den här artikeln finns information om hur du distribuerar appen Project Operations Dataverse manuellt så att den stöder dubbelriktad skrivning.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912032"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Distribuera appen Project Operations Dataverse manuellt med stöd för dubbelriktad skrivning
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-I ämne beskrivs hur du manuellt distribuerar appen Microsoft Dynamics 365 Project Operations i Microsoft Dataverse så att den har stöd för dubbelriktad skrivning. Project Operations identifierar miljöns konfiguration och lägger till ytterligare stöd för dubbelriktad skrivning om kraven uppfylls.
+I den här artikeln finns information om hur du distribuerar Microsoft Dynamics 365 Project Operations i Microsoft Dataverse så att den stöder dubbelriktad skrivning. Project Operations identifierar miljöns konfiguration och lägger till ytterligare stöd för dubbelriktad skrivning om kraven uppfylls.
 
-Under distributionen via Microsoft Dynamics Lifecycle Services (LCS), om du har följt instruktionerna i det här ämnet kan du hoppa över distributionen av Microsoft Power Platform-integrering (kallades tidigare Common Data Service-miljö).
+Under distributionen via Microsoft Dynamics Lifecycle Services (LCS), om du har följt instruktionerna i den här artikeln kan du hoppa över distributionen av Microsoft Power Platform integreringen (kallas tidigare miljö om du har följt instruktionerna i den här Common Data Service miljö).
 
 Processen av att distribuera Project Operations i Dataverse så att den stöder dubbelriktad skrivning har fyra huvudsteg:
 

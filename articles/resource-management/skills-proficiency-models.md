@@ -1,17 +1,17 @@
 ---
 title: Kunskaper och certifiering
-description: I det här ämnet finns information om hur du lägger till egenskaper för färdigheter och certifiering i resurser.
+description: Den här artikeln innehåller information om hur du lägger till kompetens- och certifieringsegenskaper för resurser.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918381"
 ---
 # <a name="skills-and-certifications"></a>Kunskaper och certifiering
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_

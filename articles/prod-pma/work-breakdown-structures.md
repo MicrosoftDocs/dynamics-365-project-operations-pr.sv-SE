@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920680"
 ---
 # <a name="work-breakdown-structures-overview"></a>Översikt över uppdelad arbetsstruktur
 
@@ -35,7 +35,7 @@ Graden av detaljer i en WBS beror på vilken exakthet som krävs i uppskattninga
 
 Projekt i branscher som media och reklam, program vara och IT-infrastruktur brukar vara en av de olika typerna, och produktiviteten är relativ i förhållande till erfarenheten och kompetensen hos den person som utför uppgiften. Därför använder de här branscherna en WBS för att få en tillnärmning av projektets storlek och inte för att följa upp projektets status utförligt. 
 
-Att bygga en WBS är en intensiv process som vanligtvis utförs under en längre tid och som kräver samarbete och information från många olika personer. I den här ämne beskrivs hur du kan använda WBS-förbättringar för att uppfylla dina krav på uppskattningar och spårning.
+Att bygga en WBS är en intensiv process som vanligtvis utförs under en längre tid och som kräver samarbete och information från många olika personer. Den här artikeln beskriver hur du använder WBS-förbättringar för att uppfylla företagets krav på uppskattningar och spårning.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Förhandskrav för att skapa en WBS
 Om du vill skapa en WBS måste du kunna skapa ett arbetsschema och uppskatta kostnaden för arbetet.
@@ -166,7 +166,7 @@ Finance har tre vyer för projektets WBS: planeringsvy, arbetsuppföljningsvy oc
 
 ### <a name="planning-view"></a>Planeringsvy
 
-Planeringsvyn visar den planerade beräkningen eller originalberäkningen för schema- och kostnadsinformationen. Även om det inte finns några funktioner för att spåra versionen och baslinjen för en projekt WBS är värdena i vyn avsedda att motsvara baslinjeversionen. Avsnitten Schemaläggning och Kostnadsberäkning i detta ämne beskriver den här vyn och hur den används för att skapa en WBS.
+Planeringsvyn visar den planerade beräkningen eller originalberäkningen för schema- och kostnadsinformationen. Även om det inte finns några funktioner för att spåra versionen och baslinjen för en projekt WBS är värdena i vyn avsedda att motsvara baslinjeversionen. Avsnitten Tidsplanuppskattningen och Kostnadsuppskattning i den här artikeln beskriver den här vyn och hur den används för att skapa en WBS.
 
 ### <a name="effort-tracking-view"></a>Insatsspårningsvy
 

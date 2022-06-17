@@ -1,6 +1,6 @@
 ---
 title: Skapa prognosmodeller för projektbudgetar
-description: I det här ämnet beskrivs hur du skapar en prognosmodell för resterande budgetar.
+description: I den här artikeln beskrivs hur du skapar en prognosmodell för återstående budgetar.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916724"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Skapa prognosmodeller för projektbudgetar 
 
 [!include [banner](../includes/banner.md)]
 
-I det här ämnet beskrivs hur du skapar en prognosmodell för resterande budgetar. I ett projekt som är underställt budgetkontroll används två typer av budget: ursprunglig och resterande. När du skapar en projektbudget måste du ange de prognosmodeller för ursprunglig och resterande budget som skapades på sidan **Prognosmodeller**. Projektbudgetar som bygger på de angivna modellerna skapas när du fastställer projektbudgeten.
+I den här artikeln beskrivs hur du skapar en prognosmodell för återstående budgetar. I ett projekt som är underställt budgetkontroll används två typer av budget: ursprunglig och resterande. När du skapar en projektbudget måste du ange de prognosmodeller för ursprunglig och resterande budget som skapades på sidan **Prognosmodeller**. Projektbudgetar som bygger på de angivna modellerna skapas när du fastställer projektbudgeten.
 
 > [!NOTE]
 > En prognosmodell som används för budgetkontroll kan inte ha en delmodell eller användas som en delmodell.

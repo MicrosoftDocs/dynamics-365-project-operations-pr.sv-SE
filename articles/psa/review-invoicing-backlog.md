@@ -1,6 +1,6 @@
 ---
 title: Granska förhandsgranskningen av faktureringen i projekt och projektkontrakt
-description: I det här ämnet finns information om hur du granskar tids-, utgifts- och produkteftersläpningar och hur du markerar dem som klara för fakturering.
+description: I denna artikel finns information om hur du granskar tids-, utgifts- och produkteftersläpningar och hur du markerar dem som klara för fakturering.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928914"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Granska förhandsgranskningen av faktureringen i projekt och projektkontrakt
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600580"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-När en transaktion är klar för att en faktura ska skapas och bearbetas ska transaktionen vara **klar att fakturera**. I det här ämnet beskrivs typerna av transaktioner som kan skapas.
+När en transaktion är klar för att en faktura ska skapas och bearbetas ska transaktionen vara **klar att fakturera**. I denna artikel beskrivs typerna av transaktioner som kan skapas.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Granska eftersläpning för fakturering av tid och material
 

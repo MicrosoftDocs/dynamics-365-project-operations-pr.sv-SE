@@ -1,6 +1,6 @@
 ---
 title: Offerter - Viktiga begrepp
-description: I det här ämnet finns information om de projektoffert och försäljningsoffert tillgängliga i Project Operations.
+description: Den här artikeln innehåller information om projektofferter och säljofferter som är tillgängliga i Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912538"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Koncept som är unika för projektbaserade offerter
 
@@ -35,7 +35,7 @@ I Dynamics 365 Project Operations finns två typer av offerter, projekt och för
 - **Fält och koncept**: En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert. Fälten inkluderar **Kontrakteringsenhet**, **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
 - **Typ**: Försäljning och projektofferter identifieras även av ett alternativbaserat fält **Typ**. För en försäljningsoffert har det här fältet värdet **artikelbaserat**. För projektofferter används värdet **arbetsbaserad**.
 
-Det här ämnet fokuserar på detaljerna i projektofferter.
+Denna artikel fokuserar på detaljerna i projektofferter.
 
 En projektoffert i Project Operations kan ha flera radobjekt eller offertrader. En projektoffert har faktiskt två rutnät för radobjekt. Ett rutnät är för projektbaserade rader som möjliggör detaljerad uppskattningar. Det andra rutnätet är för produktbaserade rader som använder ett enkelt enhetspris och en mängd baserad metod.
 

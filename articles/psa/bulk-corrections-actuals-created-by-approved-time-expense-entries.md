@@ -1,6 +1,6 @@
 ---
 title: Masskorrigeringar av faktiska värden som skapats av godkända tid- och utgiftsposter
-description: I detta ämne förklaras hur en administratör kan göra enstaka eller masskorrigeringar av tidigare godkända tid- eller utgiftsposter om faktureringen inte är klar.
+description: I den här artikeln förklaras hur en administratör kan göra enskilda korrigeringar eller masskorrigeringar av tidigare godkända tids- eller utgiftsposter om faktureringen inte slutförs.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916311"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Masskorrigeringar av faktiska värden som skapats av godkända tid- och utgiftsposter
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683384"
 
 Ibland kan en tid- eller utgiftspost anges felaktigt. En konsult kan till exempel råka välja fel datum när han eller hon skapar en tidspost, eller också kan de råka transponera värdena när de registrerar en utgift. Om en konsult inte kan göra uppdateringar av de inskickade posterna kan en administratör korrigera posten för ett projekt direkt.
 
-Du måste ha administratörsbehörigheter för att kunna slutföra procedurerna i den här ämnet.
+För att kunna slutföra procedurerna i den här artikeln måste du ha administratörsbehörighet.
 
 ## <a name="correct-approved-time-entries"></a>Korrigera godkända tidsposter     
 

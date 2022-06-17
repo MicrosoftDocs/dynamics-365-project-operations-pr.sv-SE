@@ -1,25 +1,25 @@
 ---
 title: Felsöka arbete i uppgiftsrutnätet
-description: Detta ämne ger felsökningsinformation som behövs när du arbetar i uppgiftsrutnätet.
+description: Den här artikeln innehåller felsökningsinformation som behövs när du arbetar i uppgiftsrutnätet.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911066"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Felsöka arbete i uppgiftsrutnätet 
 
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution - affär med proforma-fakturering, Project for the Web_
 
-Rutnätet Uppgift som utnyttjas av Dynamics 365 Project Operations är en värdbaserad iFrame i Microsoft Dataverse. Som ett resultat av den här användningen måste specifika krav uppfyllas för att säkerställa att autentiseringen och autentiseringen fungerar korrekt. I ämnet beskrivs vanliga problem som kan påverka möjligheten att rendera rutnät eller hantera uppgifter i uppdelad arbetsstruktur (WBS).
+Rutnätet Uppgift som utnyttjas av Dynamics 365 Project Operations är en värdbaserad iFrame i Microsoft Dataverse. Som ett resultat av den här användningen måste specifika krav uppfyllas för att säkerställa att autentiseringen och autentiseringen fungerar korrekt. I artikeln beskrivs vanliga problem som kan påverka möjligheten att rendera rutnät eller hantera uppgifter i uppdelad arbetsstruktur (WBS).
 
 Vanliga problem omfattar:
 

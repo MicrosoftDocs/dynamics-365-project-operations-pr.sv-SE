@@ -1,6 +1,6 @@
 ---
 title: Startsida för prissättnings- och kostnadsdimensioner
-description: I det här ämnet finns en översikt över prissättningsdimensioner.
+description: I den här artikeln finns en översikt över prissättningsdimensioner.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925464"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startsida för prissättnings- och kostnadsdimensioner
 
@@ -47,7 +47,7 @@ PSA levererar en standarduppsättning med prisdimensioner. Du kan visa dessa gen
 > [!IMPORTANT]
 > Om du har använt de här fälten som roll- och organisationsenhet som prissättningsdimensioner före version 3 av PSA-versionen kommer det inte att finnas någon observerbar förändring. Du kan fortsätta att använda Project Service som vanligt. 
 
-Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande avsnitt: Tänk dock på att du måste genomföra procedurerna i nedanstående ordning:
+Om du behöver pris eller kostnad för dina resurser med hjälp av ytterligare attribut kan du skapa anpassade fält, entiteter och dimensioner. Mer information finns i följande artiklar: Tänk dock på att du måste genomföra procedurerna i nedanstående ordning:
 
 - [Skapa anpassade fält och entiteter](create-custom-fields-entities.md)
 - [Lägg till anpassade fält i prisinställning och transaktionella entiteter](field-references.md)

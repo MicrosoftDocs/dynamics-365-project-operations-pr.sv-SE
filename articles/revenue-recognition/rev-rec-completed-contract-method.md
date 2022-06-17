@@ -1,23 +1,23 @@
 ---
 title: Hantera intäktsberäkningar
-description: Detta ämne innehåller information om hur du arbetar med intäktsuppskattningar för projekt.
+description: Den här artikeln innehåller information om hur du arbetar med intäktsuppskattningar för projekt.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928500"
 ---
 # <a name="manage-revenue-estimates"></a>Hantera intäktsberäkningar
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Du kan skapa, beräkna, bokföra, återställa eller eliminera intäktsuppskattningar. Du kan göra detta antingen manuellt eller genom att använda en periodisk process. Detta ämne innehåller information om hur du arbetar med intäktsuppskattningar för projekt.
+Du kan skapa, beräkna, bokföra, återställa eller eliminera intäktsuppskattningar. Du kan göra detta antingen manuellt eller genom att använda en periodisk process. Den här artikeln innehåller information om hur du arbetar med intäktsuppskattningar för projekt.
 
 ### <a name="manage-revenue-estimates-manually"></a>Hantera intäktsberäkningar manuellt
 

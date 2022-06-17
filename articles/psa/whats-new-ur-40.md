@@ -1,6 +1,6 @@
 ---
 title: Nyheter och ändringar i Project Service Automation, uppdateringsversion 40, version 3
-description: I detta ämne anges de funktioner och snabbkorrigeringar som finns tillgängliga i Microsoft Dynamics 365 Project Service Automation, uppdateringsversion 40, V3.
+description: Den här artikeln innehåller information om de funktioner och korrigeringar som är tillgängliga i Microsoft Dynamics 365 Project Service Automation uppdateringsutgåva 40, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/31/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 25f375ce648eb7d233f6433739832caee351830d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca7f340b8d544b183aa0390ac3c11a38f536ed0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912814"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-40-v3"></a>Nyheter och ändringar i Project Service Automation, uppdateringsversion 40, version 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588666"
 
 Vi är glada att kunna presentera den senaste uppdateringen för Microsoft Dynamics 365 Project Service Automation-appen. Den här versionen innehåller viktiga förbättringar av kvalitet, prestanda och användbarhet. Den är kompatibel med Dynamics 365 9.x. Om du vill uppdatera till den här versionen går du till sidan Admin Center för Dynamics 365 Online Solutions och installerar uppdateringen. Mer information finns i: [Installera, uppdatera eller ta bort en prioriterad lösning](/power-platform/admin/install-remove-preferred-solution).
 
-I detta ämne finns funktioner och korrigeringar som är nya eller har ändrats för Project Service Automation, uppdateringsversion 40, version 3. Denna version har versionsnummer V3.10.61.61 och är allmänt tillgänglig via en självuppdatering i februari 2022.
+I denna artikel finns funktioner och korrigeringar som är nya eller har ändrats för Project Service Automation, uppdateringsversion 40, version 3. Denna version har versionsnummer V3.10.61.61 och är allmänt tillgänglig via en självuppdatering i februari 2022.
 
 ## <a name="update-release-40"></a>Uppdatering version 40
 

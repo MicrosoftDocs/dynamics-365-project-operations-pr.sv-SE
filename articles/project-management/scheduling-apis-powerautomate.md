@@ -1,25 +1,25 @@
 ---
 title: Använda API:er för projektscheman med Power Automate
-description: Detta ämne tillhandahåller ett exempelflöde som använder API:er ("Project schedule application programming interfaces").
+description: Denna artikel tillhandahåller ett exempelflöde som använder API:er ("Project schedule application programming interfaces").
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916356"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Använda API:er för projektscheman med Power Automate
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Detta ämne beskriver ett exempelflöde som visar hur du skapar en komplett projektplan med hjälp av Microsoft Power Automate, hur du skapar en åtgärdsuppsättning och uppdaterar en entitet. Exemplet visar hur du skapar ett projekt, en projektteammedlem, åtgärdsgrupper, projektuppgifter samt resurstilldelningar. Detta ämne förklarar även hur du uppdaterar en entitet och kör en åtgärdsuppsättning.
+Denna artikel beskriver ett exempelflöde som visar hur du skapar en komplett projektplan med hjälp av Microsoft Power Automate, hur du skapar en åtgärdsuppsättning och uppdaterar en entitet. Exemplet visar hur du skapar ett projekt, en projektteammedlem, åtgärdsgrupper, projektuppgifter samt resurstilldelningar. Denna artikel förklarar även hur du uppdaterar en entitet och kör en åtgärdsuppsättning.
 
-Följande utgör en fullständig lista över de steg som dokumenteras i exempelflödet i detta ämne:
+Följande utgör en fullständig lista över de steg som dokumenteras i exempelflödet i denna artikel:
 
 1. [Skapa en PowerApps-utlösare](#1)
 2. [Skapa ett projekt](#2)
@@ -40,7 +40,7 @@ Följande utgör en fullständig lista över de steg som dokumenteras i exempelf
 
 ## <a name="assumptions"></a>Antaganden
 
-Detta ämne förutsätter att du har grundläggande kunskaper om Dataverse-plattformen, molnflöden och API (Project Schedule Application Programming Interface). Mer information finns i avsnittet [Referenser](#references) senare i det här avsnittet.
+Denna artikel förutsätter att du har grundläggande kunskaper om Dataverse-plattformen, molnflöden och API (Project Schedule Application Programming Interface). Mer information finns i avsnittet [Referenser](#references) senare i denna artikel.
 
 ## <a name="create-a-flow"></a>Skapa ett flöde
 
@@ -65,7 +65,7 @@ Följ dessa steg om du vill skapa ett [lösningsmedvetet flöde](/power-automate
 1. På sidan **Lösningar** väljer du den lösning du skapat och sedan **Nytt**.
 2. I det vänstra fönstret väljer du **Molnflöden** \> **Automation** \> **Molnflöde** \> **Direkt**.
 3. I fältet **Flödesnamn** anger du **Schemalägg API-demonstrationsflöde**.
-4. I listan **Välj hur du vill utlösa detta flöde** väljer du **Power Apps**. När du skapar en Power Apps-utlösare är logiken upp till dig som författare. I detta ämne lämnar du indataparametrarna tomma för testningssyften.
+4. I listan **Välj hur du vill utlösa detta flöde** väljer du **Power Apps**. När du skapar en Power Apps-utlösare är logiken upp till dig som författare. I denna artikel lämnar du indataparametrarna tomma för testningssyften.
 5. Välj **Skapa**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Steg 2: Skapa ett projekt

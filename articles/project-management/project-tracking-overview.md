@@ -1,23 +1,23 @@
 ---
 title: Spårning av projektansträngning
-description: I det här ämnet finns information om hur du spårar projektarbete och framsteg i arbetet.
+description: Den här artikeln ger information om hur man spårar projektansträngning och arbetets framsteg.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929282"
 ---
 # <a name="project-effort-tracking"></a>Spårning av projektansträngning
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa branscher spårar på en detaljerad nivå, medan andra branscher spårar på en högre nivå. I det här ämnet illustreras hur du schemalägger för att uppfylla organisationens krav.
+Behovet av att följa upp statusen för ett schema varierar efter bransch. Vissa branscher spårar på en detaljerad nivå, medan andra branscher spårar på en högre nivå. I den här artikeln illustreras hur du schemalägger för att uppfylla organisationens krav.
 
 ## <a name="effort-tracking-view"></a>Insatsspårningsvy
 

@@ -1,24 +1,24 @@
 ---
 title: Nyheter i december 2020 – Project Operations Lite-distribution – avtal till proforma-fakturering
-description: I det här ämnet finns information om de kvalitetsuppdateringar som är tillgängliga i utgåvan för december 2020 för Project Operations Lite-distribution - avtal till proforma-fakturering.
+description: Denna artikel innehåller information om kvalitetsuppdateringarna som är tillgängliga i versionen december 2020 av Project Operations Lite-distribution – avtal till proforma-fakturering.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924084"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nyheter i december 2020 – Project Operations Lite-distribution – avtal till proforma-fakturering
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Detta ämne gäller för följande Dynamics 365 Project Operations-komponenter och -versioner:
+Denna artikel gäller följande Dynamics 365 Project Operations komponenter och versioner:
 
   - Project Operations i Dataverse-miljöversion 4.5.0.134 
 

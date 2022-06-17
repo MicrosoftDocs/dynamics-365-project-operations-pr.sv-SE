@@ -1,17 +1,17 @@
 ---
 title: Tillståndsövergångar på ett underkontrakt
-description: Detta ämne förklarar tillståndsövergångarna på en underleverantör i Microsoft Dynamics 365 Project Operations allteftersom underleverantör skapas, körs och stängs.
+description: Denna artikel förklarar tillståndsövergångarna på en underleverantör i Microsoft Dynamics 365 Project Operations allteftersom underleverantör skapas, körs och stängs.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919760"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Tillståndsövergångar på ett underkontrakt 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579190"
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Detta ämne förklarar tillståndsövergångarna på en underleverantör i Microsoft Dynamics 365 Project Operations. Varje tillstånd representeras antingen som utkast, bekräftat, stängt eller avbrutet. Följande bild representerar tillståndsövergångarna.
+Denna artikel förklarar tillståndsövergångarna på en underleverantör i Microsoft Dynamics 365 Project Operations. Varje tillstånd representeras antingen som utkast, bekräftat, stängt eller avbrutet. Följande bild representerar tillståndsövergångarna.
 
 ![Tillståndsmodell för underleverantör](../media/SubconStates.png)  
 

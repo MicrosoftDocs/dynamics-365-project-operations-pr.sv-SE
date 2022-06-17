@@ -1,6 +1,6 @@
 ---
 title: Preliminärboka krav
-description: I det här ämnet finns information om hur du preliminärbokar krav.
+description: I den här artikeln finns information om hur du preliminärbokar krav.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ba5e2e01c1280f5c5a1af284f1ca9c49c8b1fe27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8192047639823bc594803d6d10759be28f6db3ed
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928960"
 ---
 # <a name="soft-book-requirements"></a>Preliminärboka krav
 
