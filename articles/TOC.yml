@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Kom igång
+- name: Kom i gång
   items:
     - name: Fastställ din distributionstyp
       href: environment/determine-deployment-type.md
@@ -14,7 +14,7 @@
           href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations för resursscenarier/icke lagerbaserade scenarier
   items:
-    - name: Kom igång
+    - name: Kom i gång
       items:
         - name: Project Operations för resursscenarier/icke lagerbaserade scenarier – distributionsöversikt
           href: environment/project-operations-integrated-deployment-overview.md
@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: Maj 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: April 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: Mars 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: Februari 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: December 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: November 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Oktober 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: September 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Augusti 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Juli 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Juni 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: April 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: Mars 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: Februari 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: Januari 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: December 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: November 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: Juli 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Arkiv
+          items:
+            - name: Juni 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: Maj 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: April 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: Mars 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: Februari 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: December 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: November 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: Oktober 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: September 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: Augusti 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: Juli 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: Juni 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: Maj 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: April 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: Mars 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: Februari 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: Januari 2021 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: December 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: November 2020 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projektförsäljningsprocess
       items:
         - name: Översikt över projektförsäljningsprocess
@@ -394,7 +400,7 @@
       items:
         - name: Översikt över utgifter
           href: expense/expense-overview.md
-        - name: Ny utgiftsupplevelse
+        - name: Ny utgiftsmiljö
           items:
             - name: Ny typ av utgiftsrapporter
               href: expense/expense-reports-reimagined.md
@@ -410,7 +416,7 @@
               href: expense/manage-delegation.md
             - name: Konfigurera parametrar för utgiftshantering
               href: expense/configure-expense-management-parameters.md
-            - name: Konfigurera kreditkortsintegration
+            - name: Konfigurera integrering av kreditkort
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurera utgiftskategorier
               href: expense/set-up-expense-categories.md
@@ -426,23 +432,23 @@
           items:
             - name: Fördelningar i en utgiftsrapport
               href: expense/distributions-expense-report.md
-        - name: Godkänna utgiftsrapporter
+        - name: Godkänn utgiftsrapporter
           items:
             - name: Utgiftsrapporter och flera godkännare
               href: expense/expense-reports-multiple-approvers.md
-        - name: Bokföra utgiftsrapporter
+        - name: Bokför utgiftsrapporter
           href: expense/posting-expense-reports.md
         - name: Reserekvisition
           href: expense/travel-requisition.md
-        - name: Förskott
+        - name: Kontantförskott
           href: expense/cash-advance.md
         - name: Utgifter per dag
           href: expense/per-diem-expenses.md
-        - name: Mobil utgiftsapp
+        - name: Appen Mobile Expense
           href: expense/expense-using-mobile.md
         - name: Ekonomihantering
           items:
-            - name: Momsåtervinning
+            - name: Momsåterbetalning
               href: expense/vat-recovery.md
     - name: Materialförbrukning
       items:
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: Utfall – Översikt
           href: actuals/actuals-overview.md
+        - name: Faktiska värdens inverkan på tid- och materialåtagande
+          href: actuals/ActualsonTM.md
+        - name: Faktiska värdens inverkan på fastprisåtagande
+          href: actuals/ActualonFP.md
+        - name: Faktiska värdens inverkan under förförsäljningsstadiet för ett åtagande
+          href: actuals/ActualonPreSales.md
+        - name: Faktiska värdens inverkan för ett internt projekt
+          href: actuals/ActualonInternal.md
         - name: Transaktionens ursprung – Länka utfall till källa
           href: actuals/linkingactuals.md
         - name: Transaktionsanslutningar – Länka utfall för olika transaktionstyper
@@ -513,9 +527,11 @@
             - name: Bekräfta en proforma projektbaserad faktura
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Skapa projektbaserade fakturor för korrigering
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Konfigurera automatisering av projektbaserade fakturor
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Projektbaserade fakturor för korrigering
+              href: proforma-invoicing/corrective-invoices.md
         - name: Kundfakturering
           items:
             - name: Hantera projektfakturaförslag
@@ -588,50 +604,56 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Distribuera Project Operations – Lite
           href: environment/lite-deployment.md
-        - name: Använda demoinställning och konfigurationsdata – Lite
+        - name: Använd demodata för inställning och konfiguration – Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Säkerhetsmodell
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Vad är nytt i maj 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: Vad är nytt i april 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: Vad är nytt i mars 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: Vad är nytt i februari 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: Vad är nytt i december 2021 – lite-distribution
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Vad är nytt i november 2021 – lite-distribution
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Vad är nytt i oktober 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Vad är nytt i september 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Vad är nytt i augusti 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Vad är nytt i juli 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Vad är nytt i juni 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Vad är nytt i maj 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Vad är nytt i april 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Vad är nytt i mars 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Vad är nytt i februari 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Vad är nytt i januari 2021 – Lite-distribution
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: Vad är nytt i december 2020 – lite-distribution
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Vad är nytt i november 2020 – lite-distribution
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: Vad är nytt i juli 2022 – Lite-distribution
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Arkiv
+          items:
+            - name: Vad är nytt i juni 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: Vad är nytt i maj 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: Vad är nytt i april 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: Vad är nytt i mars 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: Vad är nytt i februari 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: Vad är nytt i december 2021 – lite-distribution
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: Vad är nytt i november 2021 – lite-distribution
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: Vad är nytt i oktober 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: Vad är nytt i september 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: Vad är nytt i augusti 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: Vad är nytt i juli 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: Vad är nytt i juni 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: Vad är nytt i maj 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: Vad är nytt i april 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: Vad är nytt i mars 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: Vad är nytt i februari 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: Vad är nytt i januari 2021 – Lite-distribution
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: Vad är nytt i december 2020 – lite-distribution
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: Vad är nytt i november 2020 – lite-distribution
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektförsäljningsprocess
       items:
         - name: Översikt över projektförsäljningsprocess
@@ -1066,28 +1088,56 @@
       items:
         - name: Appen Project Operations för teammedlem
           href: team-member/project-operations-team-member.md
-- name: Project Operations för lagerbaserade/produktionsbaserade scenarier
+- name: Project Operations för lagerscenarier/produktionsbaserade scenarier
   items:
+    - name: Kom i gång
+      items:
+        - name: Konfigurera dataintegrering
+          items:
+            - name: Översikt över Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Parametrar för Project Service Automation-integration
+              href: prod-pma/PSA-parameters.md
+            - name: Synkronisera projektkontrakt och projekt direkt från Project Service Automation till Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Synkronisera faktiska projektvärden från Project Service Automation direkt till projektets integreringsjournal för bokföring inom ekonomi och drift
+              href: prod-pma/project-actuals-templates.md
+            - name: Synkronisera projektuppskattningar direkt från Project Service Automation till ekonomi och drift
+              href: prod-pma/project-estimates-templates.md
+            - name: Synkronisera projektutgiftskategorier mellan ekonomi och drift och Project Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: Synkronisera projektuppgifter direkt från Project Service Automation till ekonomi och drift
+              href: prod-pma/project-tasks-template.md
+        - name: Distribuera miljöer
+          items:
+            - name: Uppdatera Project Operations i din Finance-miljö
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Nyheter
       items:
-        - name: Nyheter i oktober 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Nyheter i september 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Nyheter i juli 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Nyheter i maj 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: Nyheter i april 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: Nyheter i mars 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: Nyheter i januari 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: Nyheter i december 2020 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: Nyheter i november 2020 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: Nyheter i juli 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Arkiv
+          items:
+            - name: Nyheter i juni 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: Nyheter i oktober 2021 – Project Operations för lagerscenarier/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: Nyheter i september 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: Nyheter i juli 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: Nyheter i maj 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: Nyheter i april 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: Nyheter i mars 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: Nyheter i januari 2021 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: Nyheter i december 2020 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: Nyheter i november 2020 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations för lagerbaserade/produktionsbaserade scenarier – Distributionsöversikt
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projektledning och redovisning – Översikt
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Mobil arbetsyta för projektets tidspost
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobilapp för projekttidkort
+        - name: Mobilappen Project Timesheet
           href: prod-pma/project-timesheet.md
-        - name: Projekttidkort på en mobil enhet
+        - name: Project Timesheet på en mobil enhet
           href: prod-pma/mobile-timesheets.md
+        - name: Byt namn på eller ändra ett projektstadium
+          href: prod-pma/tasks/rename-project.md
         - name: Implementera anpassade fält för mobilappen Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Resurshantering
@@ -1150,9 +1202,11 @@
       items:
         - name: Projektprognoser och budgetar
           href: prod-pma/project-forecasts-budgets.md
+        - name: Fördela en projektbudget eller budgetändring mellan perioder
+          href: prod-pma/tasks/allocate-project.md
         - name: Skapa prognosmodeller för projektbudgetar
           href: prod-pma/create-forecast-models-project-budgets.md
-        - name: Överföra projektbudgetar vid räkenskapsårsslut
+        - name: Överför projektbudgetar vid räkenskapsårets slut
           href: prod-pma/process-project-budgets-for-fiscal-year-end.md
     - name: Tid
       items:
@@ -1162,7 +1216,7 @@
       items:
         - name: Översikt över utgifter
           href: expense/expense-overview.md
-        - name: Ny utgiftsupplevelse
+        - name: Ny utgiftsmiljö
           items:
             - name: Ny typ av utgiftsrapporter
               href: expense/expense-reports-reimagined.md
@@ -1178,7 +1232,7 @@
               href: expense/manage-delegation.md
             - name: Konfigurera parametrar för utgiftshantering
               href: expense/configure-expense-management-parameters.md
-            - name: Konfigurera kreditkortsintegration
+            - name: Konfigurera integrering av kreditkort
               href: expense/set-up-credit-card-integration.md
             - name: Konfigurera utgiftskategorier
               href: expense/set-up-expense-categories.md
@@ -1194,23 +1248,23 @@
           items:
             - name: Fördelningar i en utgiftsrapport
               href: expense/distributions-expense-report.md
-        - name: Godkänna utgiftsrapporter
+        - name: Godkänn utgiftsrapporter
           items:
             - name: Utgiftsrapporter och flera godkännare
               href: expense/expense-reports-multiple-approvers.md
-        - name: Bokföra utgiftsrapporter
+        - name: Bokför utgiftsrapporter
           href: expense/posting-expense-reports.md
         - name: Reserekvisition
           href: expense/travel-requisition.md
-        - name: Förskott
+        - name: Kontantförskott
           href: expense/cash-advance.md
         - name: Utgifter per dag
           href: expense/per-diem-expenses.md
-        - name: Mobil utgiftsapp
+        - name: Appen Mobile Expense
           href: expense/expense-using-mobile.md
         - name: Ekonomihantering
           items:
-            - name: Momsåtervinning
+            - name: Momsåterbetalning
               href: expense/vat-recovery.md
     - name: Anskaffning
       items:
@@ -1244,13 +1298,17 @@
           href: prod-pma/tasks/configure-intercompany-project-invoicing.md
     - name: Intäktsredovisning
       items:
-        - name: Eliminera en projektberäkning
+        - name: Eliminera en projektuppskattning
           href: prod-pma/eliminate-project-estimate.md
+    - name: Offentlig sektor
+      items:
+        - name: Utgiftsplan för Federal Awards-förfrågan
+          href: prod-pma/project-sefa-inquiry.md
 - name: Utgiftshantering
   items:
     - name: Översikt över utgiftshantering
       href: prod-exp/expense-management.md
-    - name: Ny utgiftsupplevelse
+    - name: Ny utgiftsmiljö
       items:
         - name: Ny typ av utgiftsrapporter
           href: expense/expense-reports-reimagined.md
@@ -1264,9 +1322,11 @@
           href: expense/set-up-workflows.md
         - name: Hantera delegering
           href: expense/manage-delegation.md
+        - name: Konfigurera utgiftshantering
+          href: prod-exp/plan-expense-management.md
         - name: Konfigurera parametrar för utgiftshantering
           href: expense/configure-expense-management-parameters.md
-        - name: Konfigurera kreditkortsintegration
+        - name: Konfigurera integrering av kreditkort
           href: expense/set-up-credit-card-integration.md
         - name: Konfigurera utgiftskategorier
           href: expense/set-up-expense-categories.md
@@ -1278,24 +1338,30 @@
       items:
         - name: Fördelningar i en utgiftsrapport
           href: expense/distributions-expense-report.md
-    - name: Godkänna utgiftsrapporter
+        - name: Importera och underhåll kreditkortstransaktioner
+          href: prod-exp/import-credit-card.md
+    - name: Godkänn utgiftsrapporter
       items:
         - name: Utgiftsrapporter och flera godkännare
           href: expense/expense-reports-multiple-approvers.md
-    - name: Bokföra utgiftsrapporter
+        - name: Hantera utgiftsdelegering
+          href: prod-exp/manage-expense-delegation.md
+    - name: Bokför utgiftsrapporter
       href: expense/posting-expense-reports.md
     - name: Reserekvisition
       href: expense/travel-requisition.md
-    - name: Förskott
+    - name: Kontantförskott
       href: expense/cash-advance.md
     - name: Traktamente
       href: expense/per-diems.md
-    - name: Mobil utgiftsapp
+    - name: Appen Mobile Expense
       href: expense/expense-using-mobile.md
     - name: Ekonomihantering
       items:
-        - name: Momsåtervinning
+        - name: Momsåterbetalning
           href: expense/vat-recovery.md
+        - name: Visa en utgiftsrapport från Huvudbok eller Anskaffning och källa
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 44, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 43, V3'
           href: psa/whats-new-ur43.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 42, V3'
@@ -1361,6 +1429,8 @@
         - name: 'Nyheter och ändringar i uppdateringsutgåva 23, V3'
           href: psa/whats-new-ur-23.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 22, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 21, V3'
           href: psa/whats-new-ur-21.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 20, V3'
           href: psa/whats-new-ur-20.md
