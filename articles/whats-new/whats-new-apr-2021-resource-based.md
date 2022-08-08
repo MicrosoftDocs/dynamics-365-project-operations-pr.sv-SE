@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912446"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029276"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i april 2021 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
@@ -42,13 +42,13 @@ Följande lista visar de mappningar med dubbelriktad skrivning som har ändrats 
 | **Entitetsmappning** | **Uppdaterad version** | **Kommentarer** |
 | --- | --- | --- |
 | Project Operations-integration av faktiska värden (msdyn\_actuals) | 1.0.0.14 | Mappning redigerad för att synkronisera faktiska värden för projektmaterial. |
-| Project Operations-integration för entitet för utgiftsberäkningar (msdyn\_estimateslines) | 1.0.0.2 | Lade till projektkontraktradssynkronisering i appar för ekonomi och drift för uppgiftsbaserad faktureringssupport. |
-| Project Operations-integration för entitet för tidsberäkningar (msdyn\_resourceassignments) | 1.0.0.5 | Lade till projektkontraktradssynkronisering i appar för ekonomi och drift för uppgiftsbaserad faktureringssupport. |
+| Project Operations-integration för entitet för utgiftsberäkningar (msdyn\_estimateslines) | 1.0.0.2 | Lade till projektkontraktrad synkronisering i appar för ekonomi och drift för uppgiftsbaserad faktureringssupport. |
+| Project Operations-integration för entitet för tidsberäkningar (msdyn\_resourceassignments) | 1.0.0.5 | Lade till projektkontraktrad synkronisering i appar för ekonomi och drift för uppgiftsbaserad faktureringssupport. |
 | Project Operations integrationstabell för materialberäkningar (msdyn\_estimatelines) | 1.0.0.0 | Ny tabellmappning för att synkronisera materialuppskattningar från Dataverse till appar för ekonomi och drift. |
 | Project Operations-integration för entitet för export av projektleverantörsfaktura (msdyn\_projectvendorinvoices) | 1.0.0.0 | Ny tabellmappning för att synkronisera leverantörsfakturasidhuvuden från appar för ekonomi och drift till Dataverse. |
 | Project Operations-integration för entitet för export av projektleverantörsfakturarad (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Ny tabellmappning för att synkronisera leverantörsfakturarader från appar för ekonomi och drift till Dataverse. |
 
-Du bör alltid köra den senaste versionen av mappningen i miljön och aktivera alla relaterade tabellmappningar när du uppdaterar din Project Operations Dataverse-lösning och lösningsversionen för Finance and Operations. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av mappningen visas i kolumnen **Version** på sidan **Dubbelriktad skrivning**. Du kan aktivera en ny version av mappningen genom att välja **Tabellmappningsversioner**, välja senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Du bör alltid köra den senaste versionen av mappningen i miljön och aktivera alla relaterade tabellmappningar när du uppdaterar din Project Operations Dataverse-lösning och lösningsversionen för ekonomi och drift. Vissa funktioner kanske inte fungerar korrekt om den senaste versionen av mappningen inte har aktiverats. Den aktiva versionen av mappningen visas i kolumnen **Version** på sidan **Dubbelriktad skrivning**. Du kan aktivera en ny version av mappningen genom att välja **Tabellmappningsversioner**, välja senaste versionen och sedan spara den valda versionen. Om du har anpassat en "out-of-the-box"-tabellmappning ska du tillämpa ändringarna på nytt. Mer information finns i [Program för livscykelhantering](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Om du har problem med att starta mappningen följer du instruktionerna i avsnittet [Problem med saknade tabellkolumner i mappningar](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) i felsökningsguiden för dubbelriktad skrivning.
 

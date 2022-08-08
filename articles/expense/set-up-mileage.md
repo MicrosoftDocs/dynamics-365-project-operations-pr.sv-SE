@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930156"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064300"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Ange körsträcka med hjälp av nivåer av körsträckepris
 
@@ -50,5 +50,15 @@ Funktionen **Beräkning av körsträckebelopp för flera körsträckenivåer med
 
 När du har aktiverat funktionen återställer du körsträckenivåer så att de återspeglar värdet i fältet **Kvantitet**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktivera funktionen för beräkning av totalt antal kilometer per räkenskapsår
+
+Med funktionen **beräkning av totalt antal kilometer per räkenskapsår** kan du använda en ny inställning i Parametrar för utgiftshantering för beräkning av totalt antal kilometer per räkenskapsår istället för kalenderår. Aktivera den här funktionen genom att följa stegen nedan.
+
+1. Gå till **Arbetsytor** > **Funktionshantering**.
+1. I listan, sök och välj **beräkning av totalt antal kilometer per räkenskapsår** och välj **Aktivera nu**.
+1. Gå till **Utgiftshantering** > **Inställningar** > **Allmänt** > **Parametrar för utgiftshantering**.
+1. På sidan **Parametrar för utgiftshantering** sök och aktivera **Använd räkenskapsåret för totalt antal kilometer**.
+
+När du har aktiverat **Använd räkenskapsåret för totalt antal kilometer**, beräknas totalt antal kilometer per räkenskapsår.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

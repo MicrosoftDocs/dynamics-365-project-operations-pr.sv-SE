@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912400"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110906"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i april 2022 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
@@ -25,7 +25,7 @@ Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 
 
 ## <a name="features-included-in-this-release"></a>Funktioner som ingår i denna version
 
-Kategorier för inköp kan användas i projektinköpsorder och väntande leverantörsfakturor. Mer information finns i [Använda inköpskategorier med projektinköpsorder och väntande leverantörsfakturor](configure-procurement-categories.md).
+Kategorier för inköp kan användas i projektinköpsorder och väntande leverantörsfakturor. Mer information finns i [Använda inköpskategorier med projektinköpsorder och väntande leverantörsfakturor](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Uppdateringar av Project Operations mappningar med dubbelriktad skrivning
 

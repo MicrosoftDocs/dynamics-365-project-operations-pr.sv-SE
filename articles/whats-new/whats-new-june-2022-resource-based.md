@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959522"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031353"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i juni 2022 – Project Operations för resurs/icke-lagerbaserade scenarier
 
@@ -20,7 +20,7 @@ _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 365 Project Operations:
 
-- Project Operations i en Dataverse-miljö, version 4.43.0.77
+- Project Operations i en Dataverse-miljö, version 4.43.0.77 eller 4.43.0.119
 - Projekthantering och redovisning i en Dynamics 365 Finance-miljö, version 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Uppdateringar av Project Operations mappningar med dubbelriktad skrivning

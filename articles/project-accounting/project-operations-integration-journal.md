@@ -2,22 +2,22 @@
 title: Integrationsjournal i Project Operations
 description: Den här artikeln innehåller information om hur du arbetar med integrationsjournalen i Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923900"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106297"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal i Project Operations
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Tid- och utgiftsposter skapa **Faktisk** transaktioner som representerar den operativa vyn för arbete som slutförts mot ett projekt. Dynamics 365 Project Operations tillhandahåller revisorer ett verktyg för att granska transaktioner och justera redovisningsinformationen efter behov. När granskningen och justeringen har slutförts bokförs transaktionerna i projektredovisningen och redovisningen. En revisor kan utföra dessa aktiviteter med hjälp av journalen **Project Operations-integrering** (**Dynamics 365 Finance** > **Hantering och redovisning av projekt** > **Journaler** > Journalen **Project Operations-integrering**.
+Poster för tid, utgifter, avgift och material skapar **Faktiska** transaktioner som representerar den operativa vyn för arbete som slutförts mot ett projekt. Dynamics 365 Project Operations tillhandahåller revisorer ett verktyg för att granska transaktioner och justera redovisningsinformationen efter behov. När granskningen och justeringen har slutförts bokförs transaktionerna i projektredovisningen och redovisningen. En revisor kan utföra dessa aktiviteter med hjälp av journalen **Project Operations-integrering** (**Dynamics 365 Finance** > **Hantering och redovisning av projekt** > **Journaler** > Journalen **Project Operations-integrering**.
 
 ![Integrationsjournalflöde.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Endast följande redovisningsattribut kan uppdateras i raderna i Project Operati
 - **Momsgrupp för fakturering** och **Momsgrupp för faktureringsartikel**
 - **Ekonomiska dimensioner** (med hjälp av åtgärden **Fördela belopp**)
 
-Integrerings journalrader kan tas bort, men alla ej bokförda rader infogas i journalen igen när du kör periodiska processen **importen från faser**.
+Integrationsjournalrader kan tas bort. Men alla ej bokförda rader infogas i journalen igen när du kör periodiska processen **importen från faser**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Bokför integrationsjournal för Project Operations
 
 När du bokför integrationsjournalen skapas en projekttransaktion och en redovisningstransaktion. De används i underordnad kundfakturering, intäktsredovisning och ekonomisk rapportering.
 
+Den valda integreringen av Project Operations kan läggas upp med **bokför** på integrationssidan Project Operations. Alla journaler kan bokföras automatiskt genom att köra en process på **Periodiska** > **Project Operations-integration** > **Bokför integrationsjournaler för Project Operations**.
+
+Bokföring kan göras interaktivt eller i grupp. Observera att alla ledningar som har fler än 100 rader automatiskt kommer att läggas upp i en batch. För bättre prestanda när journaler som har många rader bokförs i en batch, aktivera funktionen **Bokför integrationsjournal för Project Operations genom att använda fler batchuppgifter** i arbetsytan **Funktionshantering**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Överföra alla rader med bokföringsfel till en ny journal
+
+> [!NOTE]
+> För att kunna använda den här funktionen **Överföring av alla rader med bokföringsfel till en ny integrationsjournal för Project Operations** i arbetsytan **Funktionshantering**.
+
+Under arbetet med integrationsjournal av Project Operations verifierar systemet validerar varje rad i journalen. I systemet bokförs alla rader som inte har några fel och skapar en ny för alla rader som har bokföringsfel. För att granska de journaler som har rader med bokföringsfel, gå till **Projektledning och redovisning** > **Journaler** > **Integrationsjournal för Project Operations** och filtrera journalerna med hjälp av fältet **ursprunglig journal**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

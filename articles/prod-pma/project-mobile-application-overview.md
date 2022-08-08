@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922888"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028908"
 ---
 # <a name="project-mobile-applications-overview"></a>Översikt över projektets mobilapp
 
@@ -33,11 +33,11 @@ Mobilappen Dynamics 365-projektets tidrapport låter användarna skicka och godk
 
 ## <a name="project-time-entry-workspace"></a>Arbetsyta för projekt tidspost
 
-Med arbetsytan projektets tidspost kan användarna ange och spara tid i ett projekt. Det innebär emellertid inte att användarna kan skicka eller godkänna projektets tidrapporter. Den kan endast användas för tidregistrering. Denna mobila arbetsyta är avsedd att användas tillsammans med mobilappen Finance and Operations.
+Med arbetsytan projektets tidspost kan användarna ange och spara tid i ett projekt. Det innebär emellertid inte att användarna kan skicka eller godkänna projektets tidrapporter. Den kan endast användas för tidregistrering. Denna mobila arbetsyta är avsedd att användas tillsammans med mobilappen ekonomi och drift.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Mina tidrapporter/tidrapporter för min granskning
 
-Mina tidrapporter (optimerade för mobil) och tidrapporter för min granskning (optimerade för mobil) utgör en lösning som gör det möjligt för anställda att skapa, skicka och godkänna projektets tidrapporter på en mobil enhet. Arbetare får tillgång till Finance-funktionerna via URL-adressen för programmet. Denna lösning kräver inte mobilappen Finance and Operations.
+Mina tidrapporter (optimerade för mobil) och tidrapporter för min granskning (optimerade för mobil) utgör en lösning som gör det möjligt för anställda att skapa, skicka och godkänna projektets tidrapporter på en mobil enhet. Arbetare får tillgång till Finance-funktionerna via URL-adressen för programmet. Denna lösning kräver inte mobilappen ekonomi och drift.
 
 ## <a name="for-more-information"></a>För mer information
 

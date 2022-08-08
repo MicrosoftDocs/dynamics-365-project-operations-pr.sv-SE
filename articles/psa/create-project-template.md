@@ -4,7 +4,7 @@ description: Skapa en projektmall i Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599016"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177448"
 ---
 # <a name="create-a-project-template-project-service"></a>Skapa en projektmall (Project Service)
 
@@ -40,7 +40,14 @@ Med projektmallar sparar du tid om ditt företag regelbundet bjuder på liknande
 - **Projektberäkningar**: Projektberäkningar i mallar fungerar på samma sätt som de gör i projekt, förutom att prislistorna som ska användas som standard för utgifts- och försäljningspriser alltid utgör standardkostnad och -försäljningsprislistor angivna i [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-parametrarna. Övriga funktioner är desamma som i ett projekt.  
   
 - **Projektteambildning**: När ett projektteam bildas för en projektmall går det inte att boka en namngiven resurs i en mall. Du kan använda **Generera projektteam** i den uppdelade arbetsstrukturen för att generera en uppsättning allmänna resurser. Du kan även ange de kunskaper som krävs och kompetenser för allmänna resurser. Du kan inte ersätta en allmän resurs med en bokningsbar resurs i projektmallar.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Skapa en projektmall utifrån ett befintligt projekt
+Du kan skapa en projektmall från ett projekt på följande sätt:
+
+- **Uppdelad arbetsstruktur**: En uppdelad arbetsstruktur i en mall som skapas genom ett projekt kopierar alla uppgifter och beroenden. Tilldelningarna som skapas baseras på de generiska teammedlemmar som läggs till i projektteamet när projektmallen skapas.
+- **Projektberäkningar**: När en projektmall skapas från ett befintligt projekt, kopieras uppskattningarna från källprojektet till projektmallen.
+- **Projektteammedlemmar**: När en mall skapas från ett befintligt projekt ersätts alla namngivna teammedlemmar med organisationens generiska resurs. Alla befattningsnamn och roller bevaras.
+
 ## <a name="create-a-project-from-a-template"></a>Skapa ett projekt från en mall  
  Du kan skapa ett projekt från en mall på följande sätt:  
   

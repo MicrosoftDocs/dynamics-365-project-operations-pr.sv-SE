@@ -1,6 +1,6 @@
 ---
-title: Synkronisera projektets faktiska värden från Project Service Automation direkt till projektets integreringsjournal för bokföring i Finance and Operations
-description: Denna artikel beskriver de mallar och underliggande uppgifter som används för att synkronisera projektets faktiska värden direkt från Microsoft Dynamics 365 Project Service Automation till Drift och ekonomi.
+title: Synkronisera projektets faktiska värden från Project Service Automation direkt till projektets integreringsjournal för bokföring i ekonomi och drift
+description: Denna artikel beskriver de mallar och underliggande uppgifter som används för att synkronisera projektets faktiska värden direkt från Microsoft Dynamics 365 Project Service Automation till ekonomi och drift.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929512"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029000"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisera projektets faktiska värden från Project Service Automation direkt till projektets integreringsjournal för bokföring i Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronisera projektets faktiska värden från Project Service Automation direkt till projektets integreringsjournal för bokföring i ekonomi och drift
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Project Service Automation till Finance integreringslösning använder funktione
 
 Följande illustration visar hur datasynkroniseras mellan Project Service Automation och Finance.
 
-[![Dataflöde för integrering av Project Service Automation med Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Dataflöde för integrering av Project Service Automation med ekonomi och drift.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projektets faktiska värden från Project Service Automation
 
