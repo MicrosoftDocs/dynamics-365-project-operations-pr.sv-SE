@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911158"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177402"
 ---
 # <a name="project-stages"></a>Projektstadier
 
@@ -47,7 +47,7 @@ När du associerar ett projekt med en offert eller när du skapar det från ett 
 
 ## <a name="plan"></a>Planera
 
-När du vinner en offert som är associerad med ett projekt och projekt flyttas till fasen **Kontrakt** uppdateras projektfasen till **Planera**. När projektet är i stadiet **Planera** visas information om kontraktet på fliken **Projektentitet**.
+När du vinner en offert som är associerad med ett projekt och projekt flyttas till fasen **Kontrakt** uppdateras projektfasen till **Planera**. När projektet är i stadiet **Plan** visas information om offerten på fliken **Försäljning** fliken på kontakten **Projektentitet**.
 
 ## <a name="deliver"></a>Leverera
 

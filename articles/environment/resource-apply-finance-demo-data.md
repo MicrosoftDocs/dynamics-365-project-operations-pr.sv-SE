@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924682"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029919"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Använda demodata i en Finance molnvärdbaserad miljö
 
@@ -76,7 +76,7 @@ Det här tar några minuter att slutföra. Du bör få ett bekräftelsemeddeland
 
 18. Avsluta sessionen på fjärrskrivbordet och använd LCS-sidan **Information om miljö** för att logga in på miljön och bekräfta att den fungerar som den ska.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Ekonomi och drift.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

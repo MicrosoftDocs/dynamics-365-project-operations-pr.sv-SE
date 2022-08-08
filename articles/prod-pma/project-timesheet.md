@@ -2,7 +2,7 @@
 title: Mobilapp för projekt tidsrapport
 description: Denna artikel innehåller information om mobilappen Microsoft Dynamics 365 Project Timesheet. Mobilappen tidsrapport låter användarna skicka och godkänna tidsrapporter för projekt på deras mobila enhet.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923992"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110997"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobilapp för projekt tidsrapport
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923992"
 
 ## <a name="overview"></a>Översikt
 
-Mobilappen Microsoft Dynamics 365 Project Timesheet låter användarna skicka och godkänna tidsrapporter för projekt på deras mobila enhet (iPhone eller Android). Denna mobilapp visar tidrapportfunktionerna som finns i projekthanterings- och redovisningsområdet i Dynamics 365 Finance, förbättrar användarproduktivitet och -effektivitet samt möjliggör snabb registrering och godkännande av projekttidrapporter.
+Mobilappen Microsoft Dynamics 365 Project Timesheet låter användarna skicka och godkänna tidsrapporter för projekt på deras mobila enhet (iPhone eller Android). Denna mobilapp hämtar funktionerna för tidrapport och projekthantering och redovisningsområde för Dynamics 365 Finance. Den hjälper till att förbättra användarnas produktivitet och effektivitet, och hjälper dig att snabbt och effektivt inträda och godkänna projekt tidrapporter.
 
 ## <a name="download-and-install-the-mobile-app"></a>Ladda ned och installera en mobilapp
 
@@ -38,6 +38,19 @@ Hämta och installera Microsoft Dynamics 365 Project Timesheet mobilappen för A
 
 I Finance måste mobilappen för projekt tidrapport vara aktiverad. För att aktivera funktionaliteten, gå till **Projektledning och redovisningsparametrar \> Tidsrapport** och välj **Aktivera Microsoft Dynamics 365 Project Timesheet**-parameter.
 
+### <a name="resolve-sign-in-issues"></a>Lösa inloggningsproblem
+
+**Problem:** Under inloggningen till mobilappen för projekt tidrapport får användarna ett felmeddelande om att de "inte kan komma åt programmet '2bc50526-cdc3-4e36-a970-c284c34cbd6e' i klientorganisationen."
+
+**Problem:** Under inloggningen till mobilappen för projekt tidrapport får användarna ett felmeddelande som ser ut som ett av följande exempel:
+
+- "AADSTS50020: Användarkonto '[användarnamn]' från identitetsleverantören 'https://sts.windows.net/[app id]' finns inte i klientorganisationens [klientorganisations-ID] och kan inte komma åt programmet [app-id] i den klientorganisationen."
+- "Valt användarkonto finns inte i klientorganisationen [klientorganisations-id] och kan inte få åtkomst till programmet [app id] i den klientorganisationen".
+
+**Förklaring:** Dessa problem beror på en ändring som gjordes i Azure Active Directory (Azure AD) i maj 2022 och som är relaterad till externa användare. Eftersom den här ändringen inte har gjorts för att apparna för ekonomi och drift kan den påverka kunderna på alla versioner av plattformen eller programmet.
+
+**Korrigering:** Alla externa användare måste bjudas in till klientorganisationen via Azure AD. Mer information finns i [Bjuda in användare med hjälp av Azure Active Directory B2B-samarbete](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Logga in på appen
 
 1.  Starta appen på din mobila enhet.
@@ -46,7 +59,7 @@ I Finance måste mobilappen för projekt tidrapport vara aktiverad. För att akt
 
 3.  Första gången du loggar in ombeds du ange ditt användarnamn och lösenord. Ange dina autentiseringsuppgifter.
 
-4.  Du kommer att vara inloggad på standardföretaget.
+4. Du kommer att vara inloggad på standardföretaget.
 
 ## <a name="submit-a-project-timesheet"></a>Skicka ett projekttidrapport
 

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924866"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183997"
 ---
 # <a name="review-proposed-resources"></a>Granska föreslagna resurser
 
@@ -40,8 +40,8 @@ Granska föreslagna resurser genom att följa dessa steg:
     Följande statusuppdateringar inträffar:
 
     - På sidan **schemaläggningsassistent** uppdateras statusindikatorerna i syfte att indikera att bokningen är föreslagen, inte definitivbokad.
-    - I resursbegäran ändras status till **måste granskas**.
-    - På fliken **team** i projektet ändras värdet för den allmänna teammedlemmens **Status för begäran** till **måste granskas**.
+    - På resursbegäran bör granskaren ändra status till **Måste granskas**.
+    - På fliken **team** i projektet ändras värdet för den allmänna teammedlemmens **Status för begäran** automatiskt till **måste granskas**.
 
 Projektledaren kan godkänna eller avvisa förslaget.
 

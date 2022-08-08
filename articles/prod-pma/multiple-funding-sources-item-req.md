@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931214"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028510"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Artikelkrav för projektkontrakt med flera finansieringskällor
 
@@ -33,7 +33,7 @@ Contoso har vunnit ett kontrakt för utrustningsförnyelse med två av sina kund
 
 ### <a name="prerequisites"></a>Förutsättningar
 
-- Microsoft Dynamics 365 Finance and Operations **version 10.0.27** eller senare krävs för att kunna använda artikelkrav som har flera fakturakonton.
+- Microsoft Dynamics 365 Finance **version 10.0.27** eller senare krävs för att kunna använda artikelkrav som har flera fakturakonton.
 - Systemadministratören måste aktivera funktionen **Tillåt artikelbehov med flera finansieringskällor för Product Operations-scenarier med lager/produktionsbaserade sådana** i arbetsytan **Funktionshantering**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Konfigurera standardregler för fakturakonto

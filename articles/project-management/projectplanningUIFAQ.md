@@ -2,24 +2,24 @@
 title: Felsöka arbete i uppgiftsrutnätet
 description: Den här artikeln innehåller felsökningsinformation som behövs när du arbetar i uppgiftsrutnätet.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911066"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188254"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Felsöka arbete i uppgiftsrutnätet 
 
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier, Lite-distribution - affär med proforma-fakturering, Project for the Web_
 
-Rutnätet Uppgift som utnyttjas av Dynamics 365 Project Operations är en värdbaserad iFrame i Microsoft Dataverse. Som ett resultat av den här användningen måste specifika krav uppfyllas för att säkerställa att autentiseringen och autentiseringen fungerar korrekt. I artikeln beskrivs vanliga problem som kan påverka möjligheten att rendera rutnät eller hantera uppgifter i uppdelad arbetsstruktur (WBS).
+Rutnätet Uppgift som används av Dynamics 365 Project Operations är en värdbaserad iFrame i Microsoft Dataverse. Som ett resultat av den här användningen måste specifika krav uppfyllas för att säkerställa att autentiseringen och autentiseringen fungerar korrekt. I artikeln beskrivs vanliga problem som kan påverka möjligheten att rendera rutnät eller hantera uppgifter i uppdelad arbetsstruktur (WBS).
 
 Vanliga problem omfattar:
 
@@ -72,7 +72,10 @@ För Project Operations krävs att en projektparameter refererar till PEX-slutpu
 4. Ta bort fältet från sidan **Projektparametrar**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Riskreducering 3: Logga in på project.microsoft.com.
-Öppna en ny flik i din Microsoft Edge-webbläsare, gå till project.microsoft.com och logga in med hjälp av den användarroll du använder för att få åtkomst till Project Operations.
+
+Öppna en ny flik i din -webbläsare, gå till project.microsoft.com och logga in med hjälp av den användarroll du använder för att få åtkomst till Project Operations. Det är viktigt att bara en användare är inloggad på en Microsoft-produkt i webbläsaren. Felmeddelandet "login.microsoftonline.com nekas att ansluta" visas oftast när mer än en användare är inloggad, enligt vad som visas i följande illustration.
+
+![Välj en inloggningssida för ett konto som visar att två användare är inloggade.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projektet läses inte in och användargränssnittet har fastnat i spinnern
 

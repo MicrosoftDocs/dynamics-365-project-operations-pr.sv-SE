@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959534"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029322"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Registrera dig för utvärderingsversioner av Project Operations 
 
