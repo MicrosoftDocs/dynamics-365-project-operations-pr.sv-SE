@@ -54,18 +54,20 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integration med projektfaktura
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integration med utgiftshantering
+            - name: Integrering med utgiftshantering
               href: environment/resource-dual-write-expense.md
-            - name: Integration med leverantörsfaktura
+            - name: Integrering med leverantörsfaktura
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Avinstallera Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: Juli 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Augusti 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: Juli 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maj 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -384,6 +386,42 @@
           items:
             - name: Resursutnyttjande – Översikt
               href: resource-management/resource-utilization-overview.md
+    - name: Underleverantörshantering
+      items:
+        - name: Hantering av underkontrakt i Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Viktiga begrepp för underkontrakt
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Hantera leverantörer och projektprislistor
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Underleverantörer som bokningsbara resurser
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Rubrikinformation för underkontrakt
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Underkontraktrader för tid
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Underkontraktrader för utgiftskategorier
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Underkontraktrader för produkter
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Underkontraktradresurser
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Milstolpar för underkontraktrad
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Underkontraktering av projektteammedlemmar
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Alternativ för underkontraktering av projektteammedlemmar
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostnadsuppskattning av underleverantörers resurstilldelningar
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurera schemaläggningstavlan så att kapaciteten för kontraktarbetare och underleverantörer visas
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Bemanna ett projekt med kapacitet för kontraktpersonal och underleverantörer
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrera tid, utgifter och materialanvändning för underleverantörskomponenter'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Tillståndsövergångar på ett underkontrakt
+          href: pro/subcontracting/subcon-states.md
     - name: Tid
       items:
         - name: Tid – Översikt
@@ -580,6 +618,8 @@
       items:
         - name: Migrera helt fakturerade faktureringsmilstolpar under snabb migrering
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Synkronisera projektstatus för att förhindra bokföring mot stängda projekt
+          href: advanced-configuration/sync-project-status.md
     - name: Uppgradera
       items:
         - name: Att tänka på vid uppgradering för moderna godkännanden
@@ -610,13 +650,15 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Vad är nytt i juli 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Vad är nytt i augusti 2022 – Lite-distribution
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arkiv
           items:
+            - name: Vad är nytt i juli 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Vad är nytt i juni 2022 – Lite-distribution
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: Nyheter i utgivningscykel 2 för 2021 tidig åtkomst – Lite-distribution
+            - name: Vad är nytt i utgivningscykel 2 2021 tidig åtkomst – Lite-distribution
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Vad är nytt i maj 2022 – Lite-distribution
               href: pro/whats-new/whats-new-may-2022-lite.md
