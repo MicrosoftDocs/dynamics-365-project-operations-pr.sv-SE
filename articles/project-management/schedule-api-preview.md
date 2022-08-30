@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929236"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230338"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter
 
@@ -45,9 +45,9 @@ Följande är en lista med aktuella API:er för Projektschema.
 - **msdyn_CreateProjectV1**: Detta API kan användas för att skapa ett projekt. Projekt och bucket för standardprojekt skapas direkt.
 - **msdyn_CreateTeamMemberV1**: Detta API kan användas för att skapa en projektteammedlem. Teammedlemsposten skapas direkt.
 - **msdyn_CreateOperationSetV1**: Detta API kan användas för att schemalägga flera förfrågningar som måste utföras inom en transaktionen.
-- **msdyn_PSSCreateV1**: Det här API:et kan användas för att skapa en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden skapa.
-- **msdyn_PSSUpdateV1**: Det här API:et kan användas för att uppdatera en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden uppdatera.
-- **msdyn_PSSDeleteV1**: Det här API:et kan användas för att ta bort en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden ta bort.
+- **msdyn_PssCreateV1**: Det här API:et kan användas för att skapa en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden skapa.
+- **msdyn_PssUpdateV1**: Det här API:et kan användas för att uppdatera en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden uppdatera.
+- **msdyn_PssDeleteV1**: Det här API:et kan användas för att ta bort en entitet. Entiteten kan vara någon av de projektschemaläggningsentiteter som stöder åtgärden ta bort.
 - **msdyn_ExecuteOperationSetV1**: Detta API används för att köra alla åtgärder inom den angivna åtgärdsuppsättningen.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Använda API:er för Projektscheman med OperationSet

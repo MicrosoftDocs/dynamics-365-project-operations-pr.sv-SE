@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912998"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230291"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uppgradera från Project Service Automation till Project Operations
 
@@ -67,7 +67,7 @@ Om du har aktiva licenser för Project Service Automation kan du installera och 
 
 ## <a name="testing-and-refactoring-customizations"></a>Testa och återanvända anpassningar
 
-Börja med att importera alla anpassningar till en ren Project Operations (lite)-miljö för att bekräfta att importen har lyckats och att affärsåtgärderna fungerar som förväntat.
+Börja med att importera alla anpassningar till en ren Project Operations (Lite)-miljö för att bekräfta att importen har lyckats och att affärsåtgärderna fungerar som förväntat.
 
 Här är några saker du bör hålla utkik efter:
 

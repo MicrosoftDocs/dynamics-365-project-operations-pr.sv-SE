@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188301"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295901"
 ---
 # <a name="project-operations-updates"></a>Uppdateringar av Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations består av två komponenter:
 
 | Project Operations i Dataverse-miljö | Projekthantering och redovisning i appar för ekonomi och drift | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 För resurs-/icke-lagerbaserade scenarier för Project Operations rekommenderar vi att du använder Orchestration för dubbelriktad skrivning version 2.3.1.15 eller senare.
 
@@ -47,24 +47,24 @@ Uppdateringar för Project Operations i Dataverse-miljö är tillgängliga varje
 | Station | Region | Aktuellt versionsnummer | Automatiska uppdateringar för Lite-distribution | Automatiska uppdateringar för distribution av resurser/icke-lager | Nästa versionsnummer | Nästa version är vanligtvis tillgänglig |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Första utgivning         |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 05 augusti 2022       |
+|   &nbsp;  | Första utgivning         |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 26 augusti 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Sydamerika         |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 06 augusti 2022       |
-|   &nbsp;  | Kanada                |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 06 augusti 2022       |
-|   &nbsp;  | Indien                 |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 06 augusti 2022       |
-|   &nbsp;  | Frankrike                |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 06 augusti 2022       |
-|   &nbsp;  | Sydafrika          |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 06 augusti 2022       |
-|   &nbsp;  | Schweiz           |  4.44.0.22      | Slutförd           | Slutförd            | TBD                 | 06 augusti 2022       |
+|   &nbsp;  | Sydamerika         |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 02 september 2022       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 02 september 2022       |
+|   &nbsp;  | Indien                 |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 02 september 2022       |
+|   &nbsp;  | Frankrike                |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 02 september 2022       |
+|   &nbsp;  | Sydafrika          |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 02 september 2022       |
+|   &nbsp;  | Schweiz           |  4.45.0.53      | Slutförd           | Slutförd            | TBD                 | 02 september 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.44.0.22      | Slutförd      | Slutförd       | TBD                 | 12 augusti 2022       |
-|   &nbsp;  | Asien och stillahavsområdet          |  4.44.0.22      | Slutförd      | Slutförd       | TBD                 | 12 augusti 2022       |
-|   &nbsp;  | Storbritannien         |  4.44.0.22      | Slutförd      | Slutförd       | TBD                 | 12 augusti 2022       |
-|   &nbsp;  | Oceanien               |  4.44.0.22      | Slutförd      | Slutförd       | TBD                 | 12 augusti 2022       |
-|   &nbsp;  | Förenade Arabemiraten  |  4.44.0.22      | Slutförd      | Slutförd       | TBD                 | 12 augusti 2022       |
+|   &nbsp;  | Japan                 |  4.44.0.22      | Slutförd      | Slutförd       | 4.45.0.53                 | 19 augusti 2022       |
+|   &nbsp;  | Asien och stillahavsområdet          |  4.44.0.22      | Slutförd      | Slutförd       | 4.45.0.53                 | 19 augusti 2022       |
+|   &nbsp;  | Storbritannien         |  4.44.0.22      | Slutförd      | Slutförd       | 4.45.0.53                 | 19 augusti 2022       |
+|   &nbsp;  | Oceanien               |  4.44.0.22      | Slutförd      | Slutförd       | 4.45.0.53                 | 19 augusti 2022       |
+|   &nbsp;  | Förenade Arabemiraten  |  4.44.0.22      | Slutförd      | Slutförd       | 4.45.0.53                 | 19 augusti 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.43.0.119      | Slutförd           | Slutförd            | 4.44.0.22           | 29 juli 2022       |
+|   &nbsp;  | Europa                |  4.44.0.22      | Slutförd           | Slutförd            | 4.45.0.53           | 26 augusti 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.43.0.119      | Slutförd           | Slutförd            | 4.44.0.22           | 05 augusti 2022       |
+|   &nbsp;  | Nordamerika         |  4.44.0.22      | Slutförd           | Slutförd            | 4.45.0.53           | 02 september 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Versionsschema för projekthantering och redovisning i appmiljön för ekonomi och drift
 

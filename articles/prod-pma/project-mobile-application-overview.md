@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028908"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317010"
 ---
 # <a name="project-mobile-applications-overview"></a>Översikt över projektets mobilapp
 
@@ -42,9 +42,8 @@ Mina tidrapporter (optimerade för mobil) och tidrapporter för min granskning (
 ## <a name="for-more-information"></a>För mer information
 
 - [Mobilapp för projekt tidsrapport](project-timesheet.md)
-- [Projektets tidspost]( project-time-entry-mobile-workspace.md)
+- [Projektets tidspost](project-time-entry-mobile-workspace.md)
 - [Projektets tidrapporter på en mobil enhet](Mobile-timesheets.md)
 - [Implementera anpassade fält för Microsoft Dynamics 365 Project Timesheet mobilappen på iOS och Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
-title: Ställ in och använd konfigurationsdata i Common Data Service
+title: Ställ in och använd konfigurationsdata i Microsoft Dataverse
 description: Den här artikeln innehåller information om hur du ställer in och använder konfigurationsdata i Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928040"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230274"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Ställ in och använd konfigurationsdata i Common Data Service 
 
@@ -21,10 +21,10 @@ _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 ## <a name="prerequisites"></a>Förutsättningar
 
-Innan du börjar konfigurera data i Common Data Service (CDS) måste följande krav uppfyllas:
+Innan du börjar konfigurera data i Microsoft Dataverse måste följande krav uppfyllas:
 
-1.  Tillhandahålla en CDS-miljö och en Dynamics 365 Finance-miljö för Project Operations.
-2.  Information om juridiska entiteter från Dynamics 365 Finance delas med CDS-miljön. Detta innebär att entiteten **företag** i CDS-skivor har följande företagsposter:
+1.  Tillhandahålla en Dataverse-miljö och en Dynamics 365 Finance-miljö för Project Operations.
+2.  Information om juridiska entiteter från Dynamics 365 Finance delas med Dataverse-miljön. Detta innebär att entiteten **företag** i Dataverse har följande företagsposter:
   - THPM
   - USPM
   - GBPM
