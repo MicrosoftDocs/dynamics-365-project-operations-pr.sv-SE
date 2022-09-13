@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348029"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403879"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nyheter i augusti 2022 – Project Operations för resurs-/icke-lagerbaserade scenarier
 
@@ -38,6 +38,11 @@ Om du stöter på problem när du ska köra mappningen följer du instruktionern
 | Funktionsområde | Referensnummer | Kvalitetsuppdatering |
 | --- | --- | --- |
 |   Affärsmöjlighetshantering | 2762089 | Felhantering vid stängning av kontraktet som förlorat om automatisk spara är inaktiverat i organisationen.|
+|Projektplanering och spårning | 2767841 | Telemetriuppdateringar Projektentitet Skapa eller uppdatera scenarier.|
+|Fakturering och prissättning | 2771072 | Hantering av null-referensundantag samtidigt som offert vinns.|
+|Fakturering och prissättning | 2844181 |Fel vid hämtning av korrelations-ID och blockering av fakturaskapande.|
+|Fakturering och prissättning | 2852836 | Koncerninterna utfall saknas för koncerninterna utgifter som skapats och godkänts i CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektledning och redovisning i Ekonomi
 
