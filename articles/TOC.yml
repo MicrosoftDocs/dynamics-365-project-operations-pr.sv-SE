@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiera projektofferter
               href: sales/lose-quote.md
+            - name: Aktivera och revidera en projektoffert
+              href: sales/activation-and-revision.md
             - name: Stäng projektofferter
               href: sales/win-quote.md
         - name: Hantera projektkontrakt
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Skapa faktureringsscheman för projektbaserade kontraktrader
                   href: sales/invoice-schedules-contract-line.md
+            - name: Kopiera projektbaserade kontrakt
+              href: sales/copy-project-based-contracts-sales.md
             - name: Bekräfta ett projektkontrakt
               href: pro/sales/confirm-contract-sales.md
             - name: Förskott och arvode
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Åsidosätt projektförsäljningsprislistor
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Lös självkostnader för beräkningar och utfall
+            - name: Fastställa självkostnader för beräkningar och utfall
               href: pricing-costing/cost-price-resolution.md
-            - name: Lös försäljningspriser för beräkningar och utfall
+            - name: Fastställa försäljningspriser för beräkningar och utfall
               href: pricing-costing/sales-price-resolution.md
             - name: Kopiera prislistor
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiera projektbaserade offerter
               href: sales/lose-quote.md
+            - name: Aktivera och revidera en projektoffert
+              href: sales/activation-and-revision.md
             - name: Stäng projektbaserade offerter
               href: pro/sales/win-quote-sales.md
         - name: Hantera projektbaserade kontrakt
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Åsidosätt projektförsäljningsprislistor
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Lös självkostnader för projektberäkningar och utfall
+            - name: Fastställa självkostnader för projektberäkningar och utfall
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Lös försäljningspriser för projektberäkningar och utfall
+            - name: Fastställa försäljningspriser för projektberäkningar och utfall
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Kopiera prislistor
               href: pricing-costing/copy-price-lists.md
