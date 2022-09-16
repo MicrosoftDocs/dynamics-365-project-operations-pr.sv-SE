@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Åsidosätt projektförsäljningsprislistor
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Ange åsidosättning av datum och faktiska priser i en prislista
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Fastställa självkostnader för beräkningar och utfall
               href: pricing-costing/cost-price-resolution.md
             - name: Fastställa försäljningspriser för beräkningar och utfall
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Beställa varor och tjänster för projekt som använder projektinköpsorder
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Leverantörsfakturor för underleverantörskontrakt i Dataverse
+          items:
+            - name: Skapa leverantörsfakturor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verifiering av leverantörsfakturor med godkända faktiska värden
+              href: pro/subcontracting/VI-Verification.md
+            - name: Bekräfta projektleverantörsfakturor
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Kvarhållning av leverantörer
           items:
             - name: Översikt över kvarhållning av leverantörer
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Åsidosätt projektförsäljningsprislistor
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Ange åsidosättning av datum och faktiska priser i en prislista
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Fastställa självkostnader för projektberäkningar och utfall
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Fastställa försäljningspriser för projektberäkningar och utfall
