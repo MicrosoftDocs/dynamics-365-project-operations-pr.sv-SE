@@ -1,43 +1,84 @@
 ---
-title: Lösa självkostnader för uppskattningar och faktiska värden
-description: Den här artikeln innehåller information om hur kostnadspriser för beräkningar och utfall kan lösas.
+title: Avgör kostnadstaxa för projektbaserade beräkningar och utfall
+description: Den här artikeln innehåller information om hur kostnadstaxor för projektbaserade beräkningar och utfall avgörs.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919990"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475301"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Lösa självkostnader för uppskattningar och faktiska värden
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Avgör kostnadstaxa för projektbaserade beräkningar och utfall
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Om du vill lösa självkostnader och prislistan för självkostnad för uppskattningar och faktiska värden använder systemet informationen i fälten **Datum**, **Valuta** och **Kontrakterande enhet** i det relaterade projektet. När prislistan för självkostnad har lösts löser programmet kostnadstaxan.
+För att fastställa självkostnader för uppskattningar och utfall i Microsoft Dynamics 365 Project Operations använder systemet först datum och valuta i den inkommande uppskattningen eller utfallet för att fastställa försäljningsprislistan. I själva sammanhanget använder systemet fältet **Transaktionsdatum** för att avgöra vilken prislista som är tillämplig. Värdet **Transaktionsdatum** för inkommande uppskattning eller utfall jämförs med värdena **Effektiv start (tidszonsoberoende)** och **Effektivt slut (tidszonsoberoende)** på prislistan. När prislistan för självkostnad har fastställts avgör systemet kostnadstaxan.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Lösa kostnadstaxor på faktiska och uppskattade rader för tid
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Avgöra kostnadstaxor i uppskattning och utfall för Tid
 
-Uppskattningsrader för tid refererar till offert- och kontraktradsinformation för tids- och resurstilldelningar i ett projekt.
+Uppskattning för **Tid** refererar till:
 
-När en kostnadsprislista har lösts använder systemet fälten **Roll**, **Resursföretag** och **Resursenhet** på uppskattningsraden för tid så att den stämmer överens med rollprisraderna i prislistan. Matchningen förutsätter att du använder de medföljande prissättningsdimensionerna för arbetskostnaden. Om du konfigurerade systemet för att matcha fält i stället för, eller utöver, **Roll**, **Resursföretaget** och **Resursenhet** används en annan kombination för att hämta en matchande rollprisrad. Om programmet hittar en rollprisrad som har en kostnadstaxa för kombinationen av **Roll**, **Resursföretag** och **Resursenhet**, är detta standardkostnaden. Om applikationen inte kan matcha exakt kombinationen av värdena **Roll**, **Resursföretag** och **Resursenhet** hämtas rollprisrader med ett matchande rollvärde, men har null-värden för **Resursenhet** och **Resursföretag**. När en matchande rollprispost med matchande rollprisvärde påträffats beräknas standardkostnaden för den posten. 
+- Information om offertrad för **Tid**.
+- Information om kontraktrad för **Tid**.
+- Resurstilldelning i ett projekt.
+
+Utfall för **Tid** refererar till:
+
+- Journalraderna Inmatning och Korrigering för **Tid**.
+- Journalrader som skapas när en tidspost skickas in.
+
+När en prislista för självkostnad har fastställts slutför systemet följande steg för att ange en standardkostnadstaxa.
+
+1. Systemet matchar kombinationen av fälten **Roll**, **Resursföretag** och **Resursenhet** i uppskattningen eller utfallet för **Tid** med rollprisraderna i prislistan. Denna matchning förutsätter att du använder standardprissättningsdimensionerna för arbetskostnad. Om du konfigurerade systemet för att matcha andra fält än, eller utöver, **Roll**, **Resursföretaget** och **Resursenhet** används en annan kombination för att hämta en matchande rollprisrad.
+1. Om systemet hittar en rollprisrad som har en kostnadstaxa för kombinationen av **Roll**, **Resursföretag** och **Resursenhet**, används den kostnadstaxan som standard.
+1. Om systemet inte kan matcha värdena **Roll**, **Resursföretag** och **Resursenhet** släpps dimensionen med lägst prioritet och systemet söker efter de rollprisrader som har matchningar för de andra två dimensionsvärdena och fortsätter att släppa dimensioner tills en matchande rollprisrad hittas. Kostnadstaxan från den posten används som standardkostnad. Om det inte finns någon matchande rollprisrad anges priset till **0** (noll) som standard.
 
 > [!NOTE]
-> Om du konfigurerar en annan prioritering av **Roll**, **Resursföretag** och **Resursenhet**, eller om du har andra dimensioner med högre prioritet, ändras det här beteendet i enlighet med detta. Systemet hämtar rollprisposter med värden som matchar var och en av värdena för prisdimension i prioritetsordning med rader som har nollvärden för de dimensioner som kommer sist i prioritetsordningen.
+> Om du konfigurerar en annan prioritering av fälten **Roll** och **Resursenhet**, eller om du har andra dimensioner med högre prioritet, ändras det föregående beteendet i enlighet med detta. Systemet hämtar rollprisposter som har värden som matchar varje prissättningsdimension i prioritetsordning. Rader som har null-värden för dessa dimensioner kommer sist.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Lösa kostnadstaxor på faktiska och uppskattade rader för utgift
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Avgöra kostnadstaxor på utfall och uppskattning för Utgift
 
-Uppskattningsrader för utgift refererar till offert- och kontraktradsinformation för rader för utgift och utgiftsuppskattning i ett projekt.
+Uppskattning för **Utgift** refererar till:
 
-När en kostnadsprislista har lösts använder systemet en kombination av fälten **Kategori** och **Enhet** på uppskattningsraden för en utgift så att den stämmer överens med raderna **Kategoripris** i den lösta prislistan. Om systemet hittar en kategoriprisrad som har en kostnadstaxa för kombinationen av fälten **Kategori** och **Enhet** används kostnadstaxan som standard. Om systemet inte kan matcha värdena **Kategori** och **Enhet**, eller om det går att hitta en matchande kategoriprisrad, men prissättningsmetoden inte är **Pris per enhet**, är kostnadstaxan som standard inställd på noll (0).
+- Information om offertrad för **Utgift**.
+- Information om kontraktrad för **Utgift**.
+- Utgiftsuppskattningar för ett projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Lösa kostnadstaxa på faktiska rader och beräkningsrader för material
+Utfall för **Utgift** refererar till:
 
-Beräkningsrader för material refererar till offert- och kontraktradsinformation för material och de materialberäkningsrader som finns i ett projekt.
+- Journalraderna Inmatning och Korrigering för **Utgift**.
+- Journalrader som skapas när en utgiftspost skickas in.
 
-Efter att en kostnadsprislista har lösts använder systemet en kombination av fälten **Produkt** och **Enhet** på uppskattningsraden för att en materiell uppskattning ska matcha mot raderna **Prislisteposter** i den stängda prislistan. Om systemet hittar en produktprisrad med en kostnadsnivå för fältkombinationen **Produkt** och **Enhet** blir kostnadstaxan standard. Om systemet inte kan matcha värdena för **Produkt** och **Enhet** kommer enhetskostnaden att vara noll som standard. Standardinställningen kan också inträffa om det finns en matchande prislisteobjektrad, men prismodellen baseras på en standardkostnad eller aktuell kostnad som inte definieras i produkten.
+När en prislista för självkostnad har fastställts slutför systemet följande steg för att ange en standardkostnadstaxa.
+
+1. Systemet matchar kombinationen av fälten **Kategori** och **Enhet** i uppskattningen eller utfallet för **Utgift** med kategoriprisraderna i prislistan.
+1. Om systemet hittar en kategoriprisrad som har en kostnadstaxa för kombinationen av fälten **Kategori** och **Enhet** används den kostnadstaxan som standardkostnad.
+1. Om systemet inte kan matcha värdena **Kategori** och **Enhet** ställs priset in på **0** (noll) som standard.
+1. I uppskattningen, om systemet hittar en matchande kategoriprisrad men prissättningsmetoden är någon annan än **Pris per enhet**, ställs kostnadstaxan in på **0** (noll) som standard.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Avgöra kostnadstaxa på utfall och uppskattning för Material
+
+Uppskattning för **Material** refererar till:
+
+- Information om offertrad för **Material**.
+- Information om kontraktrad för **Material**.
+- Materialuppskattningar för ett projekt.
+
+Utfall för **Material** refererar till:
+
+- Journalraderna Inmatning och Korrigering för **Material**.
+- Journalrader som skapas när en materialanvändningslogg skickas in.
+
+När en prislista för självkostnad har fastställts slutför systemet följande steg för att ange en standardkostnadstaxa.
+
+1. Systemet använder kombinationen av fälten **Produkt** och **Enhet** i uppskattningen eller utfallet för **Material** med prislistepostrader i prislistan.
+1. Om systemet hittar en prislistepostsrad som har en kostnadstaxa för kombinationen av fälten **Produkt** och **Enhet** används den kostnadstaxan som standardkostnad.
+1. Om systemet inte kan matcha värdena för **Produkt** och **Enhet** ställs enhetskostnaden in på **0** (noll) som standard.
+1. I uppskattningen eller utfallet, om systemet hittar en matchande prislistepostsrad men prissättningsmetoden är någon annan än **Valutabelopp**, ställs enhetskostnaden in på **0** som standard. Detta beror på att Project Operations endast stöder prismodellen **Valutabelopp** för material som används i ett projekt.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

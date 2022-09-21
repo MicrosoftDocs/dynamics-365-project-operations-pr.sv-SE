@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230291"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446058"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uppgradera från Project Service Automation till Project Operations
 
@@ -29,7 +29,7 @@ Vi är glada över att kunna presentera den första av tre faser för uppgraderi
 
 Uppgraderingsleveransprogrammet delas upp i tre faser.
 
-| Uppgraderingsleverans | Fas 1 (januari 2022) | Fas 2 (aprils utgivningscykel 2022) | Fas 3  |
+| Uppgraderingsleverans | Fas 1 (januari 2022) | Fas 2 (november 2022) | Fas 3 (aprils utgivningscykel 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Inget beroende av uppdelad arbetsstruktur (WBS) för projekt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS inom de gränser som för närvarande stöds för Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Uppgraderingsleveransprogrammet delas upp i tre faser.
 
 Som en del av uppgraderingsprocessen har vi lagt till uppgraderingsloggar till webbplatsöversikten, så att administratörer enklare kan diagnostisera fel. Förutom det nya gränssnittet läggs nya valideringsregler till för att säkerställa dataintegriteten efter en uppgradering. Följande valideringar läggs till i uppgraderingsprocessen.
 
-| Valideringar | Fas 1 (januari 2022) | Fas 2 (aprils utgivningscykel 2022) | Fas 3  |
+| Valideringar | Fas 1 (januari 2022) | Fas 2 (november 2022) | Fas 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS valideras mot vanliga dataintegritetsöverträdelser (till exempel resurstilldelningar som är associerade till samma överordnade uppgift men som har olika överordnade projekt). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS valideras mot de [kända gränserna för Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

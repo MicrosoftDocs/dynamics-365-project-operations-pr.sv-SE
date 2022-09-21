@@ -1,68 +1,95 @@
 ---
-title: Lösa försäljningspriser för uppskattningar och faktiska värden
-description: Den här artikeln innehåller information om hur du löser försäljningspriser för beräkningar och utfall.
+title: Fastställa försäljningspriser för projektbaserade beräkningar och utfall
+description: Den här artikeln innehåller information om hur försäljningspriser för projektbaserade beräkningar och utfall avgörs.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911848"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475392"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Lösa försäljningspriser för uppskattningar och faktiska värden
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Fastställa försäljningspriser för projektbaserade beräkningar och utfall
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-När försäljningspriser på uppskattningar och faktiska värden löses i Dynamics 365 Project Operations använder systemet först datum och valuta för den relaterade projektofferten eller kontraktet för att lösa försäljningsprislistan. När försäljningsprislistan har lösts löser systemet försäljnings- eller fakturataxan.
+För att fastställa försäljningspriser på uppskattningar och utfall i Microsoft Dynamics 365 Project Operations använder systemet först datum och valuta i den inkommande uppskattningen eller utfallet för att fastställa försäljningsprislistan. I själva sammanhanget använder systemet fältet **Transaktionsdatum** för att avgöra vilken prislista som är tillämplig. Värdet **Transaktionsdatum** för inkommande uppskattning eller utfall jämförs med värdena **Effektiv start (tidszonsoberoende)** och **Effektivt slut (tidszonsoberoende)** på prislistan. När försäljningsprislistan har fastställts avgör systemet försäljnings- eller fakturataxan.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Lösa försäljningstaxor på rader för faktiska värden och uppskattningar för tid
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Fastställa försäljningstaxor på rader för utfall och uppskattningar för Tid
 
-I Project Operations används uppskattningsrader för tid för att ange information om offertrader och kontraktrader för tid och resurstilldelningar för projektet.
+Uppskattning för **Tid** refererar till:
 
-När en prislista för försäljning har lösts slutför systemet följande steg för att standardisera fakturataxan.
+- Information om offertrad för **Tid**.
+- Information om kontraktrad för **Tid**.
+- Resurstilldelning i ett projekt.
 
-1. Systemet använder fälten **Roll**, **Resursföretag** och **Resursenhet** på uppskattningsraden för tid så att den stämmer överens med rollprisraderna i den lösta prislistan. Matchningen förutsätter att du använder de medföljande prissättningsdimensionerna för fakturataxa. Om du har konfigurerat prissättning utifrån något annat fält i stället för, eller utöver, **Roll**, **Resursföretaget** och **Resursenhet** används den kombinationen för att hämta en matchande rollprisrad.
-2. Om systemet hittar en rollprisrad som har en fakturataxa för kombinationen av fälten **Roll**, **Resursföretag** och **Resursenhet**, är den fakturataxan standard.
-3. Om systemet inte kan matcha värdena för fälten **Roll**, **Resursföretag** och **Resursenhet** hämtar det rollprisrader med en matchande roll, men null-värden för **Resursenheten**. När en matchande rollprispost hittas används fakturataxan från den posten som standard. Matchningen förutsätter en färdig konfiguration för den relativa prioriteten hos **Roll** mot **Resursenhet** som en försäljningsprissättningsdimension.
+Utfall för **Tid** refererar till:
+
+- Journalraderna Inmatning och Korrigering för **Tid**.
+- Journalrader som skapas när en tidspost skickas in.
+- Information om fakturarad för **Tid**. 
+
+När en prislista för försäljning har fastställts slutför systemet följande steg för att ange standardfakturataxan.
+
+1. Systemet matchar kombinationen av fälten **Roll**, **Resursföretag** och **Resursenhet** i uppskattningen eller utfallet för **Tid** med rollprisraderna i prislistan. Matchningen förutsätter att du använder de medföljande prissättningsdimensionerna för fakturataxa. Om du har konfigurerat prissättning så att den baseras på något annat fält än, eller utöver, **Roll**, **Resursföretaget** och **Resursenhet** används den kombinationen av fält för att hämta en matchande rollprisrad.
+1. Om systemet hittar en rollprisrad som har en fakturataxa för kombinationen av fälten **Roll**, **Resursföretag** och **Resursenhet**, används den fakturataxan som standard.
 
 > [!NOTE]
-> Om du konfigurerade en annan prioritering av **Roll**, **Resursföretag** och **Resursenhet**, eller om du har andra dimensioner med högre prioritet, ändras det här beteendet i enlighet med detta. Systemet hämtar rollprisposter med värden som matchar alla dimensionsvärden för prissättning i prioritetsordning med rader som har null-värden för de dimensionerna sist.
+> Om du konfigurerar en annan prioritering av fälten **Roll**, **Resursföretag** och **Resursenhet**, eller om du har andra dimensioner med högre prioritet, ändras det föregående beteendet i enlighet med detta. Systemet hämtar rollprisposter som har värden som matchar varje prissättningsdimension i prioritetsordning. Rader som har null-värden för dessa dimensioner kommer sist.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Lösa försäljningstaxor på rader för faktiska värden och uppskattningar för utgift
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Fastställa försäljningstaxor på rader för utfall och uppskattningar för Utgift
 
-I Project Operations används uppskattningsrader för utgift för att ange information om offertrader och kontraktrader för utgift och utgiftsuppskattningsrader för projektet.
+Uppskattning för **Utgift** refererar till:
 
-När en prislista för försäljning har lösts slutför systemet följande steg för att standardisera styckpriset.
+- Information om offertrad för **Utgift**.
+- Information om kontraktrad för **Utgift**.
+- Rader för utgiftsuppskattningar för ett projekt.
 
-1. Systemet använder kombinationen av fälten **Kategori** och **Enhet** på uppskattningsraden för utgift för att matcha mot kategoriprisraderna i prislistan som löstes.
-2. Om systemet hittar en kategoriprisrad som har en försäljningstaxa för kombinationen av fälten **Kategori** och **Enhet** används försäljningstaxan som standard.
-3. Om en matchande kategoriprisrad hittas i systemet kan prissättningsmetoden användas för att standardisera försäljningspriset. I följande tabell nedan visas standardiseringen av utgiftspriset i Project Operations.
+Utfall för **Utgift** refererar till:
+
+- Journalraderna Inmatning och Korrigering för **Utgift**.
+- Journalrader som skapas när en utgiftspost skickas in.
+- Information om fakturarad för **Utgift**. 
+
+När en prislista för försäljning har fastställts slutför systemet följande steg för att ange ett standardföräljningspris per enhet.
+
+1. Systemet matchar kombinationen av fälten **Kategori** och **Enhet** på uppskattningsraden för **Utgift** mot kategoriprisraderna i prislistan.
+1. Om systemet hittar en kategoriprisrad som har en försäljningstaxa för kombinationen av **Kategori** och **Enhet** används den försäljningstaxan som standardtaxa.
+1. Om en matchande kategoriprisrad hittas i systemet kan prissättningsmetoden användas för att ange standardförsäljningspriset. I följande tabell visas standardiseringen av utgiftspriset i Project Operations.
 
     | Sammanhang | Prismodell | Standardpris |
     | --- | --- | --- |
-    | Beräkning | Pris per enhet | Baserat på kategoriprisraden |
-    | &nbsp; | Vid kostnad | 0.00 |
-    | &nbsp; | Pålägg över kostnad | 0.00 |
-    | Faktisk | Pris per enhet | Baserat på kategoriprisraden |
-    | &nbsp; | Vid kostnad | Utifrån den relaterade faktiska kostnaden |
-    | &nbsp; | Pålägg över kostnad | Genom att tillämpa ett pålägg enligt definitionen på kategoriprisraden i enhetens kostnadstaxa för relaterade faktiska kostnadsvärden |
+    | Beräkning | Pris per enhet | Baserat på kategoriprisraden. |
+    |        | Vid kostnad | 0.00 |
+    |        | Pålägg över kostnad | 0.00 |
+    | Faktisk | Pris per enhet | Baserat på kategoriprisraden. |
+    |        | Vid kostnad | Utifrån den relaterade faktiska kostnaden. |
+    |        | Pålägg över kostnad | Ett pålägg tillämpas enligt definitionen på kategoriprisraden i enhetens kostnadstaxa för relaterade faktiska kostnadsvärden. |
 
-4. Om systemet inte kan matcha värdena i fälten **Kategori** och **Enhet** blir försäljningstaxan som standard noll (0).
+1. Om systemet inte kan matcha värdena **Kategori** och **Enhet** ställs försäljningstaxan in på **0** (noll) som standard.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Lösa försäljningstaxa på faktiska rader och beräkningsrader för material
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Fastställa försäljningstaxa på rader för utfall och uppskattning för Material
 
-I Project Operations, beräkningsrader för material används till att ange offert- och kontraktradsinformation för material och de materialberäkningsrader som finns i ett projekt.
+Uppskattning för **Material** refererar till:
 
-När en prislista för försäljning har lösts slutför systemet följande steg för att standardisera styckpriset.
+- Information om offertrad för **Material**.
+- Information om kontraktrad för **Material**.
+- Materialuppskattningsrader för ett projekt.
 
-1. Systemet använder kombinationen av fälten **produkt** och **enhet** på beräkningsraden för material för att matcha mot prislisteobjektraderna i den prislista som löstes.
-2. Om systemet hittar en prislista artikelrad som har en försäljningsgrad för fälten **Produkt** och **Enhet** kombination och prissättning är **Valutabelopp**, det försäljningspris som anges på prislistan används.
-3. Om värdena i fältet **Produkt** och **Enhet** inte matchar standardvärdet noll.
+Utfall för **Material** refererar till:
 
+- Journalraderna Inmatning och Korrigering för **Material**.
+- Journalrader som skapas när en materialanvändningslogg skickas in.
+- Information om fakturarad för **Material**. 
 
+När en prislista för försäljning har fastställts slutför systemet följande steg för att ange ett standardföräljningspris per enhet.
+
+1. Systemet matchar kombinationen av fälten **Produkt** och **Enhet** på uppskattningsraden för **Material** mot prislistepostraderna i prislistan.
+1. Om systemet hittar en prislistepostrad som har en försäljningstaxa för kombinationen av **Produkt** och **Enhet** och prissättningsmetoden är **Valutabelopp**, används det försäljningspris som anges på prislistan. 
+1. Om värdena i fälten **Produkt** och **Enhet** inte matchar eller om prissättningsmetoden är någon annan än **Valutabelopp** ställs försäljningstaxan in på **0** (noll) som standard. Detta beror på att Project Operations endast stöder prismodellen **Valutabelopp** för material som används i ett projekt.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

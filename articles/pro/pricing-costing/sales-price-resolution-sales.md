@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410164"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475207"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Fastställ försäljningspriser för projektberäkningar och utfall
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-För att fastställa försäljningspriser på uppskattningar och utfall i Microsoft Dynamics 365 Project Operations använder systemet först datum och valuta i den inkommande uppskattningen eller utfallet för att fastställa försäljningsprislistan. I själva sammanhanget använder systemet fältet **Transaktionsdatum** för att avgöra vilken prislista som är tillämplig. När försäljningsprislistan har fastställts avgör systemet försäljnings- eller fakturataxan.
+För att fastställa försäljningspriser på uppskattningar och utfall i Microsoft Dynamics 365 Project Operations använder systemet först datum och valuta i den inkommande uppskattningen eller utfallet för att fastställa försäljningsprislistan. I själva sammanhanget använder systemet fältet **Transaktionsdatum** för att avgöra vilken prislista som är tillämplig. Värdet **Transaktionsdatum** för inkommande uppskattning eller utfall jämförs med värdena **Effektiv start (tidszonsoberoende)** och **Effektivt slut (tidszonsoberoende)** på prislistan. När försäljningsprislistan har fastställts avgör systemet försäljnings- eller fakturataxan.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Fastställa försäljningstaxor på rader för utfall och uppskattningar för Tid
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410181"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475258"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Avgör kostnadstaxa för projektberäkningar och utfall
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Om du vill avgöra prislistan för självkostnad och kostnadstaxa i uppskattning och utfall använder systemet informationen i fälten **Datum**, **Valuta** och **Kontrakterande enhet** i det relaterade projektet.
+För att fastställa kostandstaxor för uppskattningar och utfall i Microsoft Dynamics 365 Project Operations använder systemet först datum och valuta i den inkommande uppskattningen eller utfallet för att fastställa prislistan för självkostnad. I själva sammanhanget använder systemet fältet **Transaktionsdatum** för att avgöra vilken prislista som är tillämplig. Värdet **Transaktionsdatum** för inkommande uppskattning eller utfall jämförs med värdena **Effektiv start (tidszonsoberoende)** och **Effektivt slut (tidszonsoberoende)** på prislistan. När prislistan för självkostnad har fastställts avgör systemet kostnadstaxan. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Avgöra kostnadstaxor i uppskattning och utfall för Tid
 
