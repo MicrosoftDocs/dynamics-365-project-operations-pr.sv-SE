@@ -2,20 +2,20 @@
 title: Bemanna ett projekt med kapacitet för kontraktpersonal och underleverantörer
 description: I den här artikeln beskrivs hur projektkraven kan bemannas med kontraktpersonal eller underleverantörskapacitet i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261277"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522458"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Bemanna ett projekt med kapacitet för kontraktpersonal och underleverantörer
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Allmänna projektteammedlemmar kan vara bemannade med anställda eller kontraktarbetare. När du bemannar ett projekt med kontraktarbetare kan du begränsa personalalternativen till vissa kontraktarbetare som är tilldelade till en underleverantörsrad. 
 

@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Återkalla tidigare godkända poster
           href: approvals/recall-cancel.md
+        - name: Säkerhet och godkännanden
+          href: approvals/approvals-security.md
         - name: Anteckningar från utvecklare
           items:
             - name: Utvecklingsanteckningar för godkännanden
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Ställa kvarhållning av leverantörer
               href: procurement/set-up-vendor-retention.md
+            - name: Betala vid betalning
+              href: procurement/Pay-when-paid.md
     - name: Fakturering
       items:
         - name: Översikt av faktureringsprocess
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Återkalla tidigare godkända poster
           href: approvals/recall-cancel.md
+        - name: Säkerhet och godkännanden
+          href: approvals/approvals-security.md
         - name: Anteckningar från utvecklare
           items:
             - name: Utvecklingsanteckningar för godkännanden

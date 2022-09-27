@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918104"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524939"
 ---
 # <a name="approval-sets"></a>Godkännandeuppsättningar
 
@@ -45,14 +45,9 @@ Om du väljer **Försök igen** läggs detta till i godkännandeuppsättningens 
 ## <a name="configure-approval-sets"></a>Konfigurera godkännandeuppsättningar
 
 ### <a name="enable-the-approval-sets-feature"></a>Aktivera funktionen Godkännandeuppsättningar
-Innan du aktiverar funktionen Godkännandeuppsättningar bör du kontrollera att inga godkännanden för närvarande bearbetas.
+Innan du aktiverar funktionen Godkännandeuppsättningar bör du kontrollera att inga godkännanden för närvarande bearbetas. När den här funktionen har aktiverats kan den inte inaktiveras.
 
 - Gå till sidan **Projektparametrar** och välj **Funktionskontroll** > **Aktivera moderna godkännanden**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Inaktivera funktionen Godkännandeuppsättningar
-Innan du inaktiverar funktionen Godkännandeuppsättningar bör du kontrollera att inga godkännanden för närvarande bearbetas.
-
-- Gå till sidan **Projektparametrar** och välj **Funktionskontroll** > **Inaktivera moderna godkännanden**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Konfigurera det asynkrona tröskelvärdet 
 När godkännandeuppsättningar skapas flyttas bearbetning till bakgrunden när det valda antalet poster för godkännande överskrider det angivna tröskelvärdet. Använd fältet **Asynkront tröskelvärde** för att konfigurera när godkännandeprocessen ska köras synkront eller asynkront. Välj ett av följande värden:

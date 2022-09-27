@@ -2,20 +2,20 @@
 title: Underavtalsrader för produkter
 description: I denna artikel beskrivs hur du registrerar underleverantörsrader för produkter och använder de olika fälten för att registrera produktinköp från leverantörer.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262145"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522865"
 ---
 # <a name="subcontract-lines-for-products"></a>Underavtalsrader för produkter
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 En underleverantör i Dynamics 365 Project Operations kan ha en underavtalsrad för produkter. Raderna gör att en projektledare kan köpa produkter från leverantörer som de sedan kan använda för projektuppgifter.
 

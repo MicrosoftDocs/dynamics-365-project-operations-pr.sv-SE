@@ -2,20 +2,20 @@
 title: Milstolpar för underavtalsrad
 description: Den här artikeln innehåller information om hur du skapar och upprätthåller ett milstolpebaserat fakturaschema för en underleverantör med en leverantör.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261816"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522487"
 ---
 # <a name="subcontract-line-milestones"></a>Milstolpar för underavtalsrad
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 I Dynamics 365 Project Operations kan en underavtalsrad med en faktureringsmetod med fast pris ange ett milstolpebaserat fakturaschema med leverantören.
 

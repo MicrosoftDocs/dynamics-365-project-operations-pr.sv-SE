@@ -2,16 +2,16 @@
 title: Integrationsjournal i Project Operations
 description: Den här artikeln innehåller information om hur du arbetar med integrationsjournalen i Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106297"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541100"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal i Project Operations
 
@@ -65,6 +65,12 @@ Bokföring kan göras interaktivt eller i grupp. Observera att alla ledningar so
 > [!NOTE]
 > För att kunna använda den här funktionen **Överföring av alla rader med bokföringsfel till en ny integrationsjournal för Project Operations** i arbetsytan **Funktionshantering**.
 
-Under arbetet med integrationsjournal av Project Operations verifierar systemet validerar varje rad i journalen. I systemet bokförs alla rader som inte har några fel och skapar en ny för alla rader som har bokföringsfel. För att granska de journaler som har rader med bokföringsfel, gå till **Projektledning och redovisning** > **Journaler** > **Integrationsjournal för Project Operations** och filtrera journalerna med hjälp av fältet **ursprunglig journal**.
+Med den här funktionen får du en bättre upplevelse av integreringsjournalen för Project Operations. När det är aktiverat hindrar dual-write timing problem och installationsproblem inte längre giltiga journaler från att bokföras. Under arbetet med integrationsjournal av Project Operations verifierar systemet validerar varje rad i journalen. Alla rader som inte innehåller några fel publiceras och en ny skapas för alla rader med bokföringsfel.
+
+För att granska de journaler som har bokföringsfelrader, gå till **Projektledning och redovisning** \> **Journaler** \> **Project Operations integreringsjournal** och filtrera listan över journaler med **Ursprunglig journal**. Följande illustration visar ett exempel där tidskrifterna på sidan **Project Operations integreringsjournal** har filtrerats på detta sätt.
+
+![Ursprunglig journal som visas på sidan integrationsjournal för Project Operations](./media/transferLines-originalJournal.png)
+
+Om ett periodiskt batchjobb har konfigurerats att bokföra integreringsjournalen kommer bokföringen att göras på nytt och journalerna bokförs om tidsproblemet har åtgärdats. Återstående loggningsfiler bör granskas manuellt genom att gå igenom loggarna och vidta eventuella åtgärder.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

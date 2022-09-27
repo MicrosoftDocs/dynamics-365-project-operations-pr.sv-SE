@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029231"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528027"
 ---
 # <a name="expense-management-integration"></a>Integration av utgiftshantering
 
@@ -34,7 +34,7 @@ Utgiftskategorier i appar för ekonomi och drift är företags- eller juridiskt 
 
 ## <a name="expense-reports"></a>Utgiftsrapporter
 
-Utgiftsrapporter skapas och godkänns i appar för ekonomi och drift. Mer information finns i [Skapa och bearbeta utgiftsrapporter i Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). När utgiftsrapporten har godkänts av projektansvarig registreras den i huvudboken. I Project Operations registreras projektrelaterade utgiftsrapportrader med specialbokföringsregler:
+Utgiftsrapporter skapas och godkänns i appar för ekonomi och drift. Mer information finns i [Skapa och bearbeta utgiftsrapporter i Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). När utgiftsrapporten har godkänts av projektansvarig registreras den i huvudboken. I Project Operations registreras projektrelaterade utgiftsrapportrader med specialbokföringsregler:
 
   - Projektrelaterade kostnader (inklusive icke-återbetalningsbar moms) registreras inte direkt på projektkostnadskontot i huvudboken, utan registreras i stället upp på utgiftsintegrationskontot. Kontot ställs in i **Projekthantering och redovisning** > **Inställning** > **Projekthanterings- och redovisningsparametrar**, på fliken **Project Operations i Dynamics 365 Customer engagement**.
   - Dubbelriktad skrivning synkroniseras med Dataverse med tabellmappningen **Entitet för export av projektutgifter i Project Operations-integration (msdyn \_expenses)**.

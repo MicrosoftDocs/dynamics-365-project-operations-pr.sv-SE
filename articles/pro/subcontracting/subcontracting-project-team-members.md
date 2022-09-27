@@ -2,20 +2,20 @@
 title: Underkontraktering av projektteammedlemmar
 description: I den här artikeln beskrivs hur man underkontrakterar projektteammedlemmar i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261393"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522818"
 ---
 # <a name="subcontracting-project-team-members"></a>Underkontraktering av projektteammedlemmar
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 I Microsoft Dynamics 365 Project Operations kan du välja att underkontraktera icke anställda eller anställda projektteammedlemmar.
 

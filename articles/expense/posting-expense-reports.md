@@ -1,8 +1,8 @@
 ---
 title: Bokföra utgiftsrapporter
 description: I den här artikeln finns information om hur du publicerar utgiftsrapporter.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934526"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524892"
 ---
 # <a name="post-expense-reports"></a>Bokföra utgiftsrapporter
 
@@ -30,5 +30,15 @@ Om du vill bokföra en utgiftsrapport på sidan **Godkända utgiftsrapporter** v
 
 Du kan också bokföra alla utgiftsrapporter i listan på samma gång. Välj alla utgiftsrapporter och välj sedan **Bokför**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Aktivera möjligheten att efterkostnadsansvar i leverantörsvaluta för funktionen för kontantbetalningsmetod
+
+Funktionen **möjligheten att efterkostnadsansvar i leverantörsvaluta för kontantbetalningsmetod** gör att utgiftsrapporter kan läggas upp i en valuta för leverantörsvalutan för kassametoden.
+
+När du för närvarande skickar in kassakostnader, läggs utgiftsrapporter upp i redovisningsvalutan. På grund av beloppskonvertering mellan transaktionsvalutan, redovisningsvalutan och leverantörsvalutan betalas ett felaktigt belopp till leverantörer om transaktionsdatumet för kostnaden och det faktiska betalningsdatumet har olika växelkurser.
+
+Med den här funktionen ser du till att leverantörssaldot registreras i leverantörsvalutan när utgiftsrapporten publiceras.
+
+1. Gå till **Arbetsytor** \> **Funktionshantering**.
+2. I listan sök efter och välj **möjligheten att efterkostnadsansvar i leverantörsvaluta för kontantbetalningsmetod** och sedan **Aktivera nu**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

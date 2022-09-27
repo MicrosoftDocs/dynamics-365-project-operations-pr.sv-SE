@@ -2,20 +2,20 @@
 title: Konfigurera underleverantörer som bokningsbara resurser
 description: I den här artikeln finns information om hur du skapar och underhåller underleverantörer som skapas från användare och kontaktpersoner i systemet, så att de kan associeras med underleverantörer i Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261346"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522724"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Konfigurera underleverantörer som bokningsbara resurser
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
 Följ anvisningarna nedan för att konfigurera underleverantörer som bokningsbara resurser i Microsoft Dynamics 365 Project Operations.
 
