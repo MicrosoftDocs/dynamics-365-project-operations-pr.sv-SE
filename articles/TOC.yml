@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: Augusti 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: September 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: Augusti 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Vad är nytt i augusti 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Vad är nytt i september 2022 – Lite-distribution
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arkiv
           items:
+            - name: Vad är nytt i augusti 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Vad är nytt i juli 2022 – Lite-distribution
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Vad är nytt i juni 2022 – Lite-distribution
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Nyheter
       items:
-        - name: Nyheter i juli 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Nyheter i september 2022 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arkiv
           items:
+            - name: Nyheter i juli 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Nyheter i juni 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Nyheter i oktober 2021 – Project Operations för lagerscenarier/produktionsbaserade scenarier
@@ -1436,6 +1442,10 @@
       items:
         - name: Uppdatera utgivningsplan för Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Nyheter och ändringar i uppdateringsutgåva 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Nyheter och ändringar i uppdateringsutgåva 43, V3'
