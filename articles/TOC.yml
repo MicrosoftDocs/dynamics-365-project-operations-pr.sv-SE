@@ -1530,10 +1530,18 @@
           href: psa/whats-new-ur-12.md
         - name: 'Nyheter och ändringar i Project Service Automation V3.x, våg 1 2021'
           href: psa/whats-new-2021-wave1.md
-        - name: 'Nyheter och ändringar i Project Service Automation V3.x, våg 1 2020'
+        - name: 'Nyheter och ändringar i Project Service Automation V3.x, utgivningscykel 1 för 2020'
           href: psa/whats-new-v3-2020-wave1.md
         - name: Nyheter och ändringar i Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Uppgradera Project Service Automation (appversion Project Operations Lite 4.x)
+      items:
+        - name: Uppgradera från Project Service Automation till Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Funktionsändringar från Project Service Automation till Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation till Project Operations konverteringsprocess för projektplanering
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Planera din implementering (appversion 3.x)
       items:
         - name: Installation av exempeldata
