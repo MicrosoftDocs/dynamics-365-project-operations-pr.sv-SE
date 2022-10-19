@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932088"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655211"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Skapa en uppdelad arbetsstruktur (WBS)
 
@@ -112,6 +112,18 @@ Fältet **kategori** innehåller värden som visar en bredare typ av arbete som 
 Du kan använda schemat i Project Operations för att skapa föregående relationer mellan uppgifter. Fältet **Föregångare** använder ett eller flera värden för att ange vilka uppgifter en uppgift är beroende av. När du tilldelar en uppgift ett värde för en föregångare kan uppgiften starta först när alla föregångarens uppgifter har slutförts. På grund av beroendet återställs uppgiftens planerade startdatum till det datum då de föregående uppgifterna slutförs.
 
 Uppgiftsläget påverkar inte uppdateringar som görs av start- och slutdatum för föregående och underordnade uppgifter.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Förstå varaktighetens, resurskalenders och projektkalenders påverkan på uppgifter
+En uppgifts varaktighet definieras som antalet arbetstimmar mellan startdatumets starttid och slutdatum för uppgiftens slutdatum.   I Project for the web definieras varaktighetsenheterna enligt följande:
+
+| **Varaktighetsmått** | **Antal**|
+|----------------------------------------------------|----------------------|
+| Timmar per dag | 8 |
+| Timmar per vecka |  40 |
+| Dagar per månad |  20 |
+
+Om tilldelade uppgifter schemaläggs med hjälp av projektets kalender. Vid den första resurstilldelningen uppdateras schemaläggningen av en uppgift så att den följer resursens kalender. Kommande ändringar i en uppgift som har en tilldelning styrs av projektets [schemaläggningsläge](scheduling-modes.md). Mer information om kalendrars påverkan på uppgifter finns i [Resurskalender i Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) och [Uppgiftens starttider och dina projekt!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och tangentbordsgenvägar
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621291"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634875"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Nya september 2022 – Distribution av Project Operations Lite
 
@@ -30,6 +30,7 @@ Denna artikel gäller följande komponenter och versioner av Microsoft Dynamics 
 | Fakturering och prissättning | **Tidszonens agnostiska pris är standard**<br>Project Operations har introducerat konceptet med ett tidszon agnostiskt datum för alla projektets faktiska värden. Ett nytt fält, **Transaktionsdatum**, är nu tillgängligt på rader och faktiska värden och används för att lagra datumet då transaktionen inträffade, men utan att konvertera det datumet till Coordinated Universal Time. Det här datumet används i processer nedströms, till exempel för standardpris och skapande av fakturor. | <p>[Avgör kostnadstaxa för projektbaserade beräkningar och utfall](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Fastställa försäljningspriser för projektbaserade beräkningar och utfall](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Fakturering och prissättning | **Datum då priset ska gälla åsidosätts i Project Operations**<br>Datumspecifika prisändringar är ett sätt att åsidosätta eller ändra specifika priser i prislistan. | [Datumspecifika prisändringar](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tid och utgift | **Global godkännare**<br>Med den här funktionen kan oberoende ISV (programvaruleverantör) och centraliserat godkännande aktiveras, oavsett projekt- eller teammedlemsstatus i projektet. | [Säkerhet och godkännanden](/dynamics365/project-operations/approvals/approvals-security) |
+|Projektplanering och spårning|**Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter** </br> </br>Med redigerings-API:t för resurstilldelningsredigering kan utvecklare programmässigt ange en uppgiftstilldelningsobjekts insats i alla datumintervall som stöds för en mer detaljerad planering av tidsfasad insats.|[Använda API:er för projektscheman för att utföra åtgärder med schemaläggningsentiteter](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Kvalitetsuppdateringar
 
