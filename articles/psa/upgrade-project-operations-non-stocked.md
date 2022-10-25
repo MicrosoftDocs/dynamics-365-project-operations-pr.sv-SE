@@ -3,7 +3,7 @@ title: Uppgradera från Project Service Automation till Project Operations
 description: I denna artikel finns en översikt över processen för att uppgradera från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446058"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686998"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uppgradera från Project Service Automation till Project Operations
 
-Vi är glada över att kunna presentera den första av tre faser för uppgradering från Microsoft Dynamics 365 Project Service Automation till Dynamics 365 Project Operations. Denna artikel ger en översikt för kunder som tar del av denna intressanta resa. Kommande artiklar kommer att innehålla saker som utvecklare bör tänka på och information om funktionsförbättringar. De innehåller inte bara vägledning om hur du förbereder uppgraderingen till Project Operations, utan de innehåller även information om vad du kan förvänta dig när du har uppgraderat.
+Vi är glada över att kunna presentera den andra av tre faser för uppgradering från Microsoft Dynamics 365 Project Service Automation till Microsoft Dynamics 365 Project Operations. Denna artikel ger en översikt för kunder som tar del av denna intressanta resa. 
 
 Uppgraderingsleveransprogrammet delas upp i tre faser.
 
@@ -46,24 +46,31 @@ Som en del av uppgraderingsprocessen har vi lagt till uppgraderingsloggar till w
 | WBS valideras mot de kända gränserna för Project Desktop Client. | |  | :heavy_check_mark: |
 | Bokningsbara resurser och projektkalendern utvärderas mot undantag av vanliga inkompatibla kalenderregler. | | :heavy_check_mark: | :heavy_check_mark: |
 
-I fas 2 får de kunder som uppgraderar Project Operations sina befintliga projekt uppgraderade till en skrivskyddad upplevelse av projektplaneringen. I den här skrivskyddade upplevelsen visas hela WBS i spårningsrutnätet. Om projektledare vill redigera WBS kan de välja **Konvertera** på sidan **Projekt**. En bakgrundsprocess uppdaterar sedan projektet så att det stöder den nya projektschemaläggningsupplevelsen från Project for the Web. Den här fasen är lämplig för kunder som har projekt som passar inom de [kända begränsningarna för Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+I fas 2 får de kunder som uppgraderar Project Operations sina befintliga projekt uppgraderade till en skrivskyddad upplevelse av projektplaneringen. I den här skrivskyddade upplevelsen visas hela WBS i spårningsrutnätet. Om projektledare vill redigera WBS kan de välja [**Konvertera**](/PSA-Upgrade-Project-Conversion.md) på projektets huvudsida. En bakgrundsprocess uppdaterar sedan projektet så att det stöder den nya projektschemaläggningsupplevelsen från Project for the Web. Den här fasen är lämplig för kunder som har projekt som passar inom de [kända begränsningarna för Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 I fas 3 läggs stöd för Project Desktop Client till, till nytta för kunder som vill fortsätta redigera sina projekt från det programmet. Om befintliga projekt däremot konverteras till den nya Project for the Web-upplevelsen inaktiveras åtkomsten till tillägget för varje konverterat projekt.
 
 ## <a name="prerequisites"></a>Förutsättningar
 
-En kund måste uppfylla följande villkor för att kunna uppgradera fas 1:
+Du måste uppfylla följande villkor för att kunna uppgradera fas 1:
 
 - Målmiljön får inte innehålla några poster i entiteten **msdyn_projecttask**.
-- Giltiga Project Operations-licenser måste tilldelas till alla kundens aktiva användare. 
-- Kunden måste verifiera uppgraderingsprocessen i minst en icke-produktionsmiljö som har en representativ datauppsättning som är justerad mot produktionsdata.
-- Målmiljön måste uppdateras till version 41 (3.10.62.162) eller senare av Project Service Automation.
+- Giltiga Project Operations-licenser måste tilldelas till alla aktiva användare. 
+- Kunden måste verifiera uppgraderingsprocessen i minst en icke-produktionsmiljö som har en representativ datauppsättning som är justerad mot produktionsmiljö.
+- Målmiljön måste uppdateras till version 37 (V3.10.58.120) eller senare av Project Service Automation.
 
-Krav för fas 2 och fas 3 uppdateras med den allmänna tillgängligheten.
+Du måste uppfylla följande villkor för att kunna uppgradera fas 2:
+
+- Giltiga Project Operations-licenser måste tilldelas till alla aktiva användare. 
+- Kunden måste verifiera uppgraderingsprocessen i minst en icke-produktionsmiljö som har en representativ datauppsättning som är justerad mot produktionsmiljö.
+- Målmiljön måste uppdateras till version 37 (V3.10.58.120) eller senare av Project Service Automation.
+- Miljöer som innehåller uppgifter (msdyn_projecttask) stöds endast om det totala antalet uppgifter per projekt är 500 eller färre.
+
+Krav för fas 3 uppdateras när datumet för den allmänna tillgängligheten närmar sig.
 
 ## <a name="licensing"></a>Licensiering
 
-Om du har aktiva licenser för Project Service Automation kan du installera och använda Project Operations, som omfattar alla funktioner inom Project Service Automation med mera. På så sätt kan du testa funktionerna i Project Operations medan du fortsätter att använda Project Service Automation i produktion. När dina licenser för Project Service Automation har upphört måste du övergå till Project Operations. När du planerar övergången måste du ta hänsyn till att licensen för Project Operations inte innehåller någon licens för Project Service Automation.
+Om du har aktiva licenser för Project Service Automation kan du installera och använda Project Operations, som omfattar alla funktioner inom Project Service Automation med mera. Du kan testa funktionerna i Project Operations i en separat miljö medan du fortsätter att använda Project Service Automation i produktion. När dina licenser för Project Service Automation har upphört måste du övergå till Project Operations. När du planerar övergången måste du ta hänsyn till att licensen för Project Operations inte innehåller någon licens för Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Testa och återanvända anpassningar
 
@@ -87,14 +94,23 @@ När du har uppdaterat anpassningarna för att rent importera Project Operations
 
     När uppgraderingen är klar ska miljön visa att Project Operations är installerat och att Project Service Automation inte har installerats.
 
-    > [!NOTE]
-    > Beroende på mängden data i miljön kan uppgraderingen ta flera timmar. Kärnteamet som hanterar uppgraderingen ska planera och köra uppgraderingen under andra tider än arbetstiden. I vissa fall, om datavolymen är stor, bör uppgraderingen köras under veckoslutet. Beslutet om schemaläggning ska grundas på testresultaten i lägre miljöer.
+    Beroende på mängden data i miljön kan uppgraderingen ta flera timmar. Kärnteamet som hanterar uppgraderingen ska planera och köra uppgraderingen under andra tider än arbetstiden. I vissa fall, om datavolymen är stor, bör uppgraderingen köras under veckoslutet. Beslutet om schemaläggning ska grundas på testresultaten i lägre miljöer.
 
 3. Uppgradera anpassade lösningar efter behov. Nu ska du distribuera alla ändringar du gjort i anpassningarna i avsnittet [Testa och återanvända anpassningar](#testing-and-refactoring-customizations) i denna artikel.
 4. Gå till **Inställningar** \> **Lösningar** och välj att avinstallera lösningen **Project Operations inaktuella komponenter**.
 
     Den här lösningen är en tillfällig lösning som innehåller den befintliga datamodellen och de befintliga komponenterna under uppgraderingen. Genom att ta bort lösningen tar du bort alla fält och komponenter som inte längre används. På det här sättet förenklar du gränssnittet och gör integreringen och tillägget enklare.
     
+### <a name="upgrade-to-project-operations-lite"></a>Uppgradera till Project Operations Lite
+
+I följande steg beskrivs uppgraderingsprocessen och associerad felloggning:
+
+1. **PSA-versionskontroll:** Om du vill installera Project Operations måste du ha V3.10.58.120 eller högre.
+1. **Förvalidering:** När en administratör påbörjar en uppgradering körs en förvalideringsåtgärd för varje entitet som är central i lösningen Project Operations. Det här steget verifierar att alla entitetsreferenser är giltiga, och det säkerställer att data som är relaterade till WBS ligger inom de publicerade gränserna för Project for the Web.
+1. **Metadatauppgradering:** När förvalideringen har lyckats initierar systemet ändringar i schemat och skapar en inaktuell komponentlösning. Du kan ta bort den här inaktuella lösningen när du har slutfört alla nödvändiga anpassningar. Det här steget är den längsta delen av uppgraderingsprocessen och kan ta upp till fyra timmar att slutföra.
+1. **Datauppgradering:** När alla obligatoriska schemaändringar har slutförts i uppgraderingssteget för metadata migreras dina data till det nya schemat och eventuella obligatoriska standardändringar och omberäkningar utförs.
+1. **Uppdatering av projektschemamotor:** När datauppgraderingen har lyckats visas fliken **Schema** på huvudsidan med namnet **Uppgifter**. När en användare väljer den här fliken efter uppgraderingen uppmanas de att navigera till spårningsrutnätet för att se en skrivskyddad version av WBS. För att redigera WBS måste de initiera schemat [konverteringsprocessen](/PSA-Upgrade-Project-Conversion.md). Alla projekt utan en redan existerande WBS kan använda den nya schemaläggningsupplevelsen direkt, utan konvertering.
+ 
 ### <a name="validate-common-scenarios"></a>Validera vanliga scenarier
 
 När du validerar specifika anpassningar rekommenderar vi att du även granskar de affärsprocesser som stöds i alla program. Dessa affärsprocesser omfattar, men är inte begränsade till, skapandet av försäljningsentiteter som offerter och kontrakt, samt generering av projekt som omfattar WBS och godkännande av faktiska värden.
@@ -107,7 +123,7 @@ Det här avsnittet innehåller en sammanfattning av de viktigaste förändringar
 
 Projektplaneringsfunktionerna i Project Operations bygger inte längre på en kombination av klientlogik och serverlogik. Istället använder Project Operations Project for the Web som schemaläggningsmotor. Den här förändringen av schemaläggningsfunktionerna möjliggör flera nya funktioner, t.ex. vyer för schemaläggningstavla och Gantt, resursbaserad planering, [punkter i uppgiftslistan](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) och lägen för projektschemaläggning. De nya schemaläggningsfunktionerna stöds också av en mängd nya [programmeringsgränssnitt (API:er)](../project-management/schedule-api-preview.md). Dessa API:er är avsedda att hjälpa till att säkerställa att inga programmatiska åtgärder för att skapa, uppdatera eller ta bort en entitet i WBS korrumperar de beräknade fälten i schemat.
 
-## <a name="billing-and-pricing"></a>Fakturering och prissättning
+### <a name="billing-and-pricing"></a>Fakturering och prissättning
 
 Som en del av de fortlöpande investeringarna i Project Operations finns flera nya funktioner tillgängliga inom fakturering och prissättning. Här följer några exempel:
 
@@ -116,6 +132,10 @@ Som en del av de fortlöpande investeringarna i Project Operations finns flera n
 - [Förskott och arvodesbaserade kontrakt](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Kontrakts undre status och valideringar](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Uppgiftsbaserad fakturering
+
+### <a name="resource-management"></a>Resurshantering
+
+Project Operations tillhandahåller valfritt stöd för Universal Resource Scheduling (URS) tavla och schemaläggningsassistenten. Den nya upplevelsen blir obligatorisk i april 2023-cykel.
 
 ## <a name="frequently-asked-questions"></a>Vanliga frågor och svar
 
@@ -136,5 +156,4 @@ Det finns två sätt att installera Project Operations innan uppgraderingsverkty
 - Etablera en ny miljö.
 - Distribuera Project Operations separat i en försäljningsorganisation där Project Service Automation inte finns.
 
-> [!NOTE]
-> Om Project Service Automation installeras i en organisation, men inte används, kan den avinstalleras. När du har tagit bort Project Service Automation helt kan Project Operations installeras i samma organisation.
+Om Project Service Automation installeras i en organisation, men inte används, kan den avinstalleras. När du har tagit bort Project Service Automation helt kan Project Operations installeras i samma organisation.
