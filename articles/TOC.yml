@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Hur anpassar jag affärsprocessflödet för projektstadier?
               href: psa/FAQ-customize-bpf.md
-            - name: Uppgraderingshänsyn för uppdelad arbetsstruktur
-              href: psa/upgrade-considerations-tasks.md
         - name: Dokumentation
           href: psa/white-papers.md
         - name: Administratörsguide
