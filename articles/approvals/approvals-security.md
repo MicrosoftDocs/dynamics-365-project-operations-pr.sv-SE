@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525372"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709420"
 ---
 # <a name="security-and-approvals"></a>Säkerhet och godkännanden
 
@@ -33,6 +33,6 @@ Om du vill godkänna icke-projektposter måste du vara den som skickar den som s
 > [!NOTE]
 > Funktionen [Godkännandeuppsättningar](approval-sets.md) måste aktiveras innan du kan använda administrationsfunktionerna för Projekt godkännare.
 
-Med säkerhetsroll **Projektgodkännare, administratör** användare att kringgå principer och tillåta godkännande av poster för alla projekt. Tilldelning av den här rollen kringgår valideringslogiken som kräver teammedlemskap och markeras som godkännare. Du måste ha åtkomst till relevanta relaterade entiteter, till exempel **Projekt**. Den åtkomsten kan tilldelas av någon som har rollen **Projektledare**.
+Med säkerhetsroll **Projektgodkännare, administratör** användare att kringgå principer och tillåta godkännande av poster för alla projekt. Tilldelning av den här rollen kringgår valideringslogiken som kräver teammedlemskap och markeras som godkännare. Du måste ha åtkomst till relevanta relaterade tabeller, till exempel **Projekt**, via säkerhetsroller som är tilldelade dig.
 
 SYSTEM användarkontext kringgår valideringar på samma sätt som säkerhetsrollen Projektgodkännare, administratör.
