@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Schemaläggningslägen
           href: project-management/scheduling-modes.md
+        - name: Extern schemaläggning
+          href: project-management/external-scheduling.md
         - name: Uppdatera ett projekt
           href: project-management/update-project.md
         - name: Kopiera ett projekt
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Schemaläggningslägen
           hreF: project-management/scheduling-modes.md
+        - name: Extern schemaläggning
+          href: project-management/external-scheduling.md
         - name: Uppdatera ett projekt
           href: project-management/update-project.md
         - name: Kopiera ett projekt
