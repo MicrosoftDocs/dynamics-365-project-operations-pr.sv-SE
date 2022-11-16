@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709467"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736689"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Uppgradera från Project Service Automation till Project Operations
 
@@ -97,7 +97,7 @@ När du har uppdaterat anpassningarna för att rent importera Project Operations
     Beroende på mängden data i miljön kan uppgraderingen ta flera timmar. Kärnteamet som hanterar uppgraderingen ska planera och köra uppgraderingen under andra tider än arbetstiden. I vissa fall, om datavolymen är stor, bör uppgraderingen köras under veckoslutet. Beslutet om schemaläggning ska grundas på testresultaten i lägre miljöer.
 
 3. Uppgradera anpassade lösningar efter behov. Nu ska du distribuera alla ändringar du gjort i anpassningarna i avsnittet [Testa och återanvända anpassningar](#testing-and-refactoring-customizations) i denna artikel.
-4. Gå till **Inställningar** \> **Lösningar** och välj att avinstallera lösningen **Project Operations inaktuella komponenter**.
+4. Gå till **make.powerapps.com**, välj din miljö i listrutan längst upp till höger på portalen, välj **Lösningar** från den vänstra menyn, välj **Project Operations inaktuella komponenter** och **Avinstallera**.
 
     Den här lösningen är en tillfällig lösning som innehåller den befintliga datamodellen och de befintliga komponenterna under uppgraderingen. Genom att ta bort lösningen tar du bort alla fält och komponenter som inte längre används. På det här sättet förenklar du gränssnittet och gör integreringen och tillägget enklare.
     
