@@ -54,7 +54,7 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integration med projektfaktura
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integrering med utgiftshantering
+            - name: Integration med utgiftshantering
               href: environment/resource-dual-write-expense.md
             - name: Integrering med leverantörsfaktura
               href: environment/resource-dual-write-vendor-invoice.md
@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Nyheter
       items:
-        - name: September 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: November 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arkiv
           items:
+            - name: Oktober 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: September 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Augusti 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 – Project Operations för resursscenarier/icke lagerbaserade scenarier
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Organisationsenheter
               href: sales/OrgUnits.md
-        - name: Hantera projektleads
+        - name: Hantera projektbaserade leads
           href: sales/manage-leads.md
-        - name: Hantera projektaffärsmöjligheter
+        - name: Hantera projektbaserade affärsmöjligheter
           items:
             - name: Hantera projektaffärsmöjligheter – Översikt
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Projektbaserade affärsmöjlighetsrader
               href: sales/project-based-lines.md
-            - name: Skapa projektofferter från affärsmöjligheter
+            - name: Skapa offerter från projektaffärsmöjligheter
               href: sales/link-quotes-opportunities.md
-            - name: Kopiera projektbaserade affärsmöjligheter
+            - name: Kopiera projektaffärsmöjligheter
               href: sales/copy-project-based-opportunity.md
             - name: Stäng en projektaffärsmöjlighet
               href: sales/close-opportunity.md
-        - name: Hantera projektofferter
+        - name: Hantera projektbaserade offerter
           items:
             - name: Hantera projektofferter – Översikt
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Rubrikinformation för projektbaserade offerter
               href: sales/quote-values-budget-limits-contract.md
-            - name: Hantera flera kunder i en projektoffert
+            - name: Hantera flera kunder på en projektbaserad offert
               href: sales/manage-multiple-customers-quote.md
-            - name: Hantera projektprislistor i en offert
+            - name: Projektprislistor i projektofferter
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektbaserade offertrader
               items:
-                - name: Projektbaserade offertrader – Översikt
+                - name: Offertrader för projekt – Översikt
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Hantera flera kunder på projektbaserade offertrader
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Mappa projekt och uppgifter till projektbaserade offertrader
+                - name: Mappa projekt och uppgifter till offertrader för projekt
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurera debiterbara komponenter för projektbaserade offertrader
+                - name: Konfigurera debiterbara komponenter på offertrader för projekt
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Konfigurera debiterbara komponenter på en projektoffertrad
-                  href: sales/configure-chargeable-quoteline.md
-                - name: Beräkna en projektoffertrad
-                  href: sales/create-estimate-quote-line.md
-                - name: Importera beräkningar från ett projekt till en projektbaserad offertrad
-                  href: sales/import-estimate-quote-line.md
-                - name: Faktureringsscheman på projektbaserade offertrader
+                - name: Beräkna en offertrad för projekt
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Importera beräkningar från ett projekt till en offertrad för projekt
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Faktureringsscheman på offertrader för projekt
                   href: sales/invoice-schedule-quote-line.md
             - name: Kopiera projektofferter
               href: sales/lose-quote.md
             - name: Aktivera och revidera en projektoffert
               href: sales/activation-and-revision.md
-            - name: Stäng projektofferter
+            - name: Stäng projektbaserade offerter
               href: sales/win-quote.md
-        - name: Hantera projektkontrakt
+        - name: Hantera projektbaserade kontrakt
           items:
-            - name: Hantera projektkontrakt – Översikt
+            - name: Hantera projektkontrakt
               href: pro/sales/manage-contracts-sales.md
             - name: Koncept som är unika för projektbaserade kontrakt
               href: sales/contracts-key-concepts.md
             - name: Rubrikinformation för projektbaserade kontrakt
               href: sales/project-contract-settings.md
-            - name: Hantera projektprislistor i projektkontrakt
+            - name: Hantera projektprislistor i projektbaserade kontrakt
               href: sales/contracts-manage-project-price-lists.md
-            - name: Hantera flera kunder i projektkontrakt
+            - name: Hantera flera kunder på projektbaserade kontrakt
               href: sales/manage-multiple-customers-contract.md
             - name: Projektbaserade kontraktrader
               items:
-                - name: Projektbaserade kontraktrader – Översikt
+                - name: Projektkontraktrader – Översikt
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Hantera flera kunder på projektbaserade kontraktrader
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Mappa projekt och uppgifter på en projektkontraktrad
+                - name: Mappa projekt och uppgifter till en projektkontraktrad
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Konfigurera debiteringsbara komponenter för en projektkontraktrad
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Beräkna en projektkontraktrad
+                - name: Beräkna en projektbaserad kontraktrad
                   href: sales/create-estimate-contract-line.md
-                - name: Importera beräkningar från ett projekt till en projektbaserad kontraktrad
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Skapa faktureringsscheman för projektbaserade kontraktrader
+                - name: Importera beräkningar från ett projekt till en projektkontraktrad
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Skapa faktureringsscheman för en projektbaserad kontraktrad
                   href: sales/invoice-schedules-contract-line.md
             - name: Kopiera projektbaserade kontrakt
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Förskott och arvode
               items:
-                - name: Förskott och arvodesbaserade kontrakt
+                - name: Förskott och arvodesbaserade projektkontrakt
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Ställ in kvarhållarschema
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Skapa ett ad hoc-förskott på ett kontrakt
+                - name: Skapa ett ad hoc-förskott på ett projektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissättning och kostnadsredovisning
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Synkronisera projektstatus för att förhindra bokföring mot stängda projekt
           href: advanced-configuration/sync-project-status.md
+        - name: Konfiguration av valutakonvertering för beräkning av försäljningspriser utifrån kostnadstaxa
+          href: advanced-configuration/currencyconversion.md
     - name: Uppgradera
       items:
         - name: Att tänka på vid uppgradering för moderna godkännanden
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: Registrera dig för förhandsversionsprenumeration
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Distribuera Project Operations – Lite
+        - name: Distribuera Project Operations Lite
           href: environment/lite-deployment.md
         - name: Använd demodata för inställning och konfiguration – Lite
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Nyheter
       items:
-        - name: Vad är nytt i september 2022 – Lite-distribution
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Vad är nytt i november 2022 – lite-distribution
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arkiv
           items:
+            - name: Vad är nytt i oktober 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Vad är nytt i september 2022 – Lite-distribution
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Vad är nytt i augusti 2022 – Lite-distribution
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Vad är nytt i juli 2022 – Lite-distribution
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Skapa offerter från projektaffärsmöjligheter
               href: sales/link-quotes-opportunities.md
-            - name: Kopiera projektbaserade affärsmöjligheter
+            - name: Kopiera projektaffärsmöjligheter
               href: sales/copy-project-based-opportunity.md
             - name: Stäng en projektaffärsmöjlighet
               href: sales/close-opportunity.md
-        - name: Hantera projektbaserade offerter
+        - name: Hantera projektofferter
           items:
-            - name: Projektbaserade offerter – Översikt
+            - name: Projektofferter – översikt
               href: pro/sales/manage-quotes-sales.md
             - name: Koncept som är unika för projektofferter
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Rubrikinformation för projektofferter
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Flera kunder i projektofferter
+            - name: Hantera flera kunder i projektofferter
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projektprislistor i projektofferter
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Hantera komplexa enheter för produktbaserade offertrader
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projektbaserade offertrader
+            - name: Offertrader för projekt
               items:
-                - name: Projektbaserade offertrader – Översikt
+                - name: Offertrader för projekt – Översikt
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Hantera flera kunder
+                - name: Hantera flera kunder på offertrader för projekt
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Mappa projekt och uppgifter
+                - name: Mappa projekt och uppgifter till offertrader för projekt
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurera debiterbara komponenter
+                - name: Konfigurera debiterbara komponenter på offertrader för projekt
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Beräkna en projektbaserad offertrad
+                - name: Beräkna en offertrad för projekt
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Importera beräkning från projekt
+                - name: Importera beräkningar från ett projekt till en offertrad för projekt
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Hantera fakturatidsplaner
+                - name: Faktureringsscheman på offertrader för projekt
                   href: sales/invoice-schedule-quote-line.md
-            - name: Kopiera projektbaserade offerter
+            - name: Kopiera projektofferter
               href: sales/lose-quote.md
             - name: Aktivera och revidera en projektoffert
               href: sales/activation-and-revision.md
-            - name: Stäng projektbaserade offerter
+            - name: Stäng projektofferter
               href: pro/sales/win-quote-sales.md
-        - name: Hantera projektbaserade kontrakt
+        - name: Hantera projektkontrakt
           items:
-            - name: Projektbaserade kontrakt – Översikt
+            - name: Projektkontrakt – Översikt
               href: pro/sales/manage-contracts-sales.md
             - name: Koncept som är unika för projektkontrakt
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Rubrikinformation för projektkontrakt
               href: pro/sales/project-contract-settings-sales.md
-            - name: Flera kunder i projektkontrakt
+            - name: Hantera flera kunder i projektkontrakt
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projektprislistor för projektkontrakt
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Hantera komplexa enheter för produktbaserade kontraktrader
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projektbaserade kontraktrader
+            - name: Projektkontraktrader
               items:
-                - name: Projektbaserade kontraktrader – Översikt
+                - name: Projektkontraktrader – Översikt
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Hantera flera kontraktkunder
+                - name: Hantera flera kunder i projektkontrakt
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Mappa projekt och uppgifter till en projektkontraktrad
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Konfigurera debiteringsbara komponenter på en projektkontraktrad
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Beräkna en projektbaserad kontraktrad
+                - name: Beräkna en projektkontraktrad
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Importera beräkningar från ett projekt till en projektkontraktrad
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Hantera fakturatidsplaner för projektkontraktrad
+                - name: Skapa fakturatidsplaner för projektkontraktrad
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Kopiera projektkontrakt
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Förskott och arvode
               items:
-                - name: Förskott och arvodesbaserade kontrakt – Lite
+                - name: Förskott och arvodesbaserade kontrakt
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurera en tidsplan för arvoden – Lite
+                - name: Konfigurera en tidsplan för arvodeKonfigurera en tidsplan för arvode
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Skapa ett ad hoc-förskott på ett kontrakt – Lite
+                - name: Skapa ett ad hoc-förskott på ett projektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prissättning och kostnadsredovisning
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Nyheter
       items:
-        - name: Nyheter i september 2022 – Project Operations för lagerbaserade/produktionsbaserade scenarier
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Nyheter i oktober 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arkiv
           items:
+            - name: Nyheter i september 2022 – Project Operations för lagerbaserade/produktionsbaserade scenarier
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Nyheter i juli 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Nyheter i juni 2022 – Project Operations för lagerscenarier/produktionsbaserade scenarier
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations för lagerbaserade/produktionsbaserade scenarier – Distributionsöversikt
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Projektledning och redovisning – Översikt
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projektredovisning
+      items:
+        - name: Projektledning och redovisning – Översikt
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projektjusteringar
+          href: project-accounting/project-adjustments.md
     - name: Projektförsäljningsprocess
       items:
         - name: Projektofferter
