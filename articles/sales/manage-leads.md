@@ -1,31 +1,29 @@
 ---
-title: Hantera leads
+title: Hantera projektbaserade leads
 description: Den här artikeln innehåller information om att hantera projektbaserade leads.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920220"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825822"
 ---
-# <a name="manage-leads"></a>Hantera leads
+# <a name="manage-project-based-leads"></a>Hantera projektbaserade leads
 
 _**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 Projektbaserade leads kan hanteras och kvalificeras i Project Operations. I processen för hantering av leads ingår att skapa arbetsbaserade leads och kvalificera sådana leads. 
 
-## <a name="project-sales-leads"></a>Projektbaserade försäljningsleads
-
 I avsnittet **Försäljning**, i vänster navigeringsfönster, öppnar du sidan **Leads** för att visa en lista över alla leadposter i systemet. Listan med leads som visas är arbetsbaserade och andra typer av leads som kan skapas om du även har Dynamics 365 Sales eller Dynamics 365 Field Service-program.
 
 Du kan skapa en filtrerad vy om du endast vill visa projektbaserade leads genom att skapa ett filter för värdet **Typ**. Du kan till exempel välja att endast visa arbetsbaserade leads.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Skapa en ny lead för en projektbaserad affär
+## <a name="create-a-new-project-based-lead"></a>Skapa en ny projektbaserad lead 
 
 När en projektbaserad lead kvalificeras skapas en affärsmöjlighet och ett konto. En projektbaserad affärsmöjlighet är startpunkten för försäljningsuppgifter i fasen Affärsmöjlighet. Projektbaserade affärsmöjligheter har unika funktioner som krävs för att kunna sälja projektarbete. Dessa funktioner omfattar:
 

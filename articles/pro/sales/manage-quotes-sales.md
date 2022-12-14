@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911664"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826104"
 ---
 # <a name="manage-project-quotes"></a>Hantera projektofferter
 
@@ -23,7 +23,7 @@ I Dynamics 365 Project Operations är projektofferter utformade för att hjälpa
   - Offertradsinformation som identifierar och uppskattar arbetet för varje hög nivå komponent eller offertsrad. Schema eller datumuppskattningar och finansiella aspekter för arbetet är kopplade till den offertraden.
   - Avtalade modeller och debiterbara komponenter skapas för varje offertrad. Med den här inställningen kan du uppskatta spridningen av intäkter, utgifter och lönsamhet för varje offertrad och en övergripande offert.
 
-## <a name="view-all-project-based-quotes"></a>Visa alla projektbaserade offerter
+## <a name="view-all-project-quotes"></a>Visa alla projektofferter
 
 En lista över alla projektofferter visas på listsidan **Offerter**. 
 

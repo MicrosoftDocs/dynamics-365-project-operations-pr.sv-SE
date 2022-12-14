@@ -1,23 +1,23 @@
 ---
-title: Mappa projekt och uppgifter till en projektbaserad offertrad
-description: Den här artikeln ger information om hur du mappar projekt och uppgifter till en projektbaserad uppgiftsrad.
+title: Mappa projekt och uppgifter till offertrader för projekt
+description: Den här artikeln ger information om hur du mappar projekt och uppgifter till offertrader för projekt.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917184"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824369"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mappa projekt och uppgifter till en projektbaserad offertrad
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mappa projekt och uppgifter till offertrader för projekt
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-På projektbaserade offertrader kan du mappa specifika uppgifter för ett projekt som redan är associerat till en offertrad.
+På offertrader för projekt kan du mappa specifika uppgifter för ett projekt som redan är associerat till en offertrad.
 
 När du mappar uppgifter till en offertrad gäller följande artiklar som du har definierat på offertraden endast för dessa uppgifter:
 

@@ -1,17 +1,17 @@
 ---
-title: Offerter - Viktiga begrepp - lite
+title: Koncept som är unika för projektofferter
 description: Den här artikeln innehåller information om att använda projektofferter i Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917000"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825916"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Koncept som är unika för projektofferter
 
@@ -82,9 +82,13 @@ Faktureringsscheman är specifika för varje offertrad och är också valfria. F
 
 Project Operations-offerter bygger på Dynamics 365 Sales-offerter. Det finns emellertid vissa viktiga skillnader i funktionalitet som du ska vara medveten om:
 
-- Åtgärderna **Revidera** och **Aktivera** stöds inte.
+
 - Project Operations-offerter har två olika typer av rader. Den ena är för projekt och den andra är för produkter.
 - Project Operations-offerter har sina egna formulär och gränssnittselement, affärsregler, affärslogik i plugin-program och skript på klientsidan som gör dem unika från Sales-offerter.
+- I Sales-offerter kan du bifoga flera beställningar till en försäljningsoffert. I Project Operations kan bara ett projektkontrakt bifogas till en projektoffert.
+- När du vinner en försäljningsoffert kan den relaterade affärsmöjligheten vara öppen. När en projektoffert har vunnits stängs den relaterade affärsmöjligheten.
+- En försäljningsoffert innehåller inte några fält och begrepp som ingår i en projektoffert. Fälten inkluderar **Kontrakteringsenhet**, **Kontoansvarig** och **Faktureringsadress, kontaktperson**.  
+- **Typ**: Försäljning och projektofferter identifieras även av ett alternativbaserat fält **Typ**. För en försäljningsoffert har det här fältet värdet **artikelbaserat**. För projektofferter används värdet **arbetsbaserad**.
 
 Av dessa anledningar bör du inte använda en Sales-offert och en Project Operations-offert på samma sätt.
 

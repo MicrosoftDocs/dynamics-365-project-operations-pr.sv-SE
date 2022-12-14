@@ -1,23 +1,23 @@
 ---
-title: Hantera flera kunder i en projektoffert
+title: Hantera flera kunder på en projektbaserad offert
 description: Den här artikeln ger information om att arbeta med offerter som involverar flera kunder som kommer att finansiera projektet.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928224"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825171"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Hantera flera kunder i en projektoffert
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Hantera flera kunder på en projektbaserad offert
 
-_**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
+_**Gäller:** Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-Projektofferter har stöd för scenariot där ett förslag omfattar flera kunder som ska finansiera affären. Under fliken **Sammanfattning** i offerten finns fältet **Potentiell kund**, som identifierar affärens primära kund. Andra kunder för affären kan konfigureras under fliken **Kunder** i projektofferten.
+Projektbaserade offerter har stöd för scenariot där ett förslag omfattar flera kunder som ska finansiera affären. Under fliken **Sammanfattning** i offerten finns fältet **Potentiell kund**, som identifierar affärens primära kund. Andra kunder för affären kan konfigureras under fliken **Kunder** i projektofferten.
 
 Alla offertkunder under fliken **Kunder** i projektofferten anges som offertradskunder på alla **nya** projektbaserade offertrader som skapas för offerten. Eventuella befintliga projektbaserade offertrader ärver inte nya offertkundposter som skapats efter dem.
 

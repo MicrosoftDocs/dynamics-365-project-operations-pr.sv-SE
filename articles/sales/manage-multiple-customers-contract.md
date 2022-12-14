@@ -1,19 +1,19 @@
 ---
-title: Hantera flera kunder i projektkontrakt
-description: Den här artikeln ger information om hur du hanterar flera kunder på ett projektkontrakt.
+title: Hantera flera kunder på projektbaserade kontrakt
+description: Den här artikeln ger information om hur du hanterar flera kunder på ett projektbaserat kontrakt.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928362"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825401"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Hantera flera kunder i projektkontrakt
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Hantera flera kunder på projektbaserade kontrakt
 
 Den här artikeln ger information om hur du hanterar flera kunder på ett projektkontrakt. Du kan använda ett projektkontrakt när ett avtal för flera kunder behövs för finansiering av en affär. På sidan **Projektkontrakt** innehåller fliken **Sammanfattning** information om den primära kunden för en affär. Andra kunder som deltar i affären kan läggas till på fliken **Kunder**.
 

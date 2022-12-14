@@ -1,23 +1,23 @@
 ---
-title: Hantera flera kunder på projektbaserade offertrader - lite
-description: Den här artikeln beskriver hur du hanterar flera kunder på projektbaserade offertrader.
+title: Hantera flera kunder på offertrader för projekt
+description: Den här artikeln beskriver hur du hanterar flera kunder på projektoffertrader.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927810"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824461"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Hantera flera kunder på projektbaserade offertrader - lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Hantera flera kunder på offertrader för projekt
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-Projektbaserade offertrader har stöd för scenarier där varje offertrad har en lista över kunder som betalar för den. Den här listan över kunder på den projektbaserade offertraden kan vara samma som kundlistan i offerten. Du kan också ändra listan med kunder så att den blir annorlunda. När en projektoffert har vunnits kopieras kundlistan på den projektbaserade offertraden till motsvarande projektbaserade kontraktrad för att skapa projektkontraktet. Kunder i den projektbaserade offerten kopieras till projektkontraktet.
+Projektoffertrader har stöd för scenarier där varje offertrad har en lista över kunder som betalar för den. Den här listan över kunder på den projektbaserade offertraden kan vara samma som kundlistan i offerten. Du kan också ändra listan med kunder så att den blir annorlunda. När en projektoffert har vunnits kopieras kundlistan på den projektbaserade offertraden till motsvarande projektbaserade kontraktrad för att skapa projektkontraktet. Kunder i den projektbaserade offerten kopieras till projektkontraktet.
 
 När du fakturerar projektkontraktet prioriteras kundlistan för den projektbaserade kontraktraden över projektkontraktets lista. Kundlistan i projektkontraktet används endast för standardvärden för nya projektkontraktrader.
 

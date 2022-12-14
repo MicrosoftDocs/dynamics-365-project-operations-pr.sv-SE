@@ -1,21 +1,21 @@
 ---
-title: Beräkna en projektbaserad offertrad
-description: Den här artikeln innehåller information om att skapa en uppskattning på en projektbaserad offertrad.
+title: Beräkna en projektoffertrad
+description: Den här artikeln innehåller information om att skapa en uppskattning på en projektoffertrad.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914378"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826010"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Beräkna en projektbaserad offertrad
+# <a name="estimate-a-project-quote-line"></a>Beräkna en projektoffertrad
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resurs-/icke-lagerbaserade scenarier_
 
 En projektbaserad offertrad innehåller information som hjälper dig att beräkna kostnaden och potentiella intäkter för det arbete som är ägnat på att leverera offertraden.
 
@@ -24,7 +24,7 @@ Om du vill uppskatta en projektrelaterad offertrad väljer du fliken **Offertrad
 - Skapa uppskattningen manuellt direkt på offertraden med hjälp av offertradsinformationen. 
 - Skapa ett projekt och en projektplan och koppla sedan projektet och uppgifterna till offertraden. Processen för att importera uppskattningarna i projektplanen till offertraden utifrån den information du har angett kommer att aktiveras.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Skapa uppskattningar direkt på en projektbaserad offertrad
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Skapa uppskattningar direkt på en projektoffertrad
 
 Om du vill skapa en uppskattning på en projektrelaterad offertrad väljer du fliken **Offertradsinformation**. Radartikeln som du skapar på den här fliken sammanfattar det offererade värdet för den här offertraden. 
 
@@ -68,8 +68,7 @@ Valuta i offertradsinformation för kostnad hämtas från prislistan för den av
 
 Vid beräkningen av lönsamhet konverteras beloppet i offertradsinformationen för kostnad och försäljning till miljöns basvaluta för att rapportera den uppskattade övergripande marginalen för offerten.
 
-> [!OBS
-> > Fel i valutaavrundning och ändrade marginaler kan uppstå på grund av att valutakurserna inte fungerar på ett effektivt datum. Använd endast dessa beräkningar i projektkontrakt eftersom de inte är för faktiska lagstadgade eller andra rapporter som kräver högre precision för avrundning och medvetenheten om datumrelativitet för växelkurser.
+> [!OBS Fel i valutaavrundning och ändrade marginaler kan uppstå på grund av att valutakurserna inte fungerar på ett effektivt datum. Använd endast dessa beräkningar i projektkontrakt eftersom de inte är för faktiska lagstadgade eller andra rapporter som kräver högre precision för avrundning och medvetenheten om datumrelativitet för växelkurser.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

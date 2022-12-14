@@ -1,23 +1,23 @@
 ---
-title: Mappa projekt och uppgifter till en projektbaserad kontraktrad - lite
+title: Mappa projekt och uppgifter till en projektkontraktrad
 description: Den här artikeln innehåller information om hur du lägger till och tar bort projekt och uppgifter till en kontraktsrad.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932548"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825081"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mappa projekt och uppgifter till en projektbaserad kontraktrad 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mappa projekt och uppgifter till en projektkontraktrad 
 
 _**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resurs-/icke-lagerbaserade scenarier_
 
-På projektbaserade kontraktrader kan du mappa specifika uppgifter i ett projekt till kontraktraden.
+På projektkontraktrader kan du mappa specifika uppgifter i ett projekt till kontraktraden.
 
 När du mappar specifika uppgifter till en kontraktrad gäller faktureringsmetod, kostnadsfria alternativ, undre gränser och de kunder som definieras på kontraktraden gäller endast för dessa specifika uppgifter.
 
@@ -25,7 +25,7 @@ Om du har ett scenario där en fas i ett projekt, t.ex. prototypfasen, är fast 
 
 Alla andra faser i projektets uppdelade arbetsstruktur (WBS) kan kopplas till den tid- och materialbaserade kontraktraden.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Associera uppgifter till projektbaserade kontraktrader
+## <a name="associate-tasks-to-project-contract-lines"></a>Associera uppgifter till projektkontraktrader
 
 Uppgifter kan kopplas till kontraktrader från fliken **Debiterbara uppgifter** på sidan **kontraktrad** eller från fliken **Uppgiftsfakturering** på sidan **Projekt**.
 

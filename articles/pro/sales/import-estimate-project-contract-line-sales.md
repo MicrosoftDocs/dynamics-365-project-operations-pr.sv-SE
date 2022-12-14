@@ -1,21 +1,21 @@
 ---
-title: Importera en beräkning till en projektbaserad kontraktrad - lite
+title: Importera beräkningar från ett projekt till en projektkontraktrad
 description: Den här artikeln innehåller information om hur du importerar ekonomiska uppskattningar från ett projekt till en kontraktsrad.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924222"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824697"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importera en beräkning till en projektbaserad kontraktrad - lite
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Importera beräkningar från ett projekt till en projektkontraktrad
 
-_**Gäller:** Enkel distribution – avtal till proforma-fakturering_
+_**Gäller:** Lite distribution – avtal med proformafakturering, Project Operations för resurs/icke-lagerbaserade scenarier_
 
 I Dynamics 365 Project Operations kan du importera beräkningar från ett projekt till en projektbaserad kontraktrad.
 

@@ -1,19 +1,19 @@
 ---
-title: Konfigurera debiterbara komponenter på en offertrad
+title: Konfigurera debiterbara komponenter på offertrader för projekt
 description: Den här artikeln innehåller information om hur du ställer in debiterbara och icke debiterbara komponenter på en projektbaserad offertrad.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1e454278a1c5c24ac346c537c778b25448d9ea03
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930064"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825540"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurera debiterbara komponenter på en offertrad 
+# <a name="configure-chargeable-components-on-project-quote-lines"></a>Konfigurera debiterbara komponenter på offertrader för projekt
 
 _**Gäller:** Lite-distribution - avtal för proforma-fakturering, Project Operations för resurs-/icke-lagerbaserade scenarier_
 

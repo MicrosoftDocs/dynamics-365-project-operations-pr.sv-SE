@@ -1,32 +1,32 @@
 ---
-title: Beräkna en projektbaserad kontraktrad - lite
+title: Beräkna en projektkontraktrad
 description: Den här artikeln innehåller information om att uppskatta en projektbaserad kontraktslinje.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914424"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824790"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Beräkna en projektbaserad kontraktrad - lite
+# <a name="estimate-a-project-contract-line"></a>Beräkna en projektkontraktrad
 
 _**Gäller:** Enkel distribution – avtal till proforma-fakturering_
 
-I Dynamics 365 Project Operations innehåller en projektrelaterad kontraktradinformation som hjälper till att beräkna kostnaden och potentiella intäkter för det arbete som är ägnat att leverera kontraktraden.
+I Dynamics 365 Project Operations innehåller en projektkontraktrad information som hjälper till att beräkna kostnaden och potentiella intäkter för det arbete som är ägnat att leverera kontraktraden.
 
-Om du vill beräkna en projektrelaterad kontraktrad går du till fliken **kontraktradsinformation** på den projektbaserade **kontraktraden**.  Det finns två sätt att skapa en uppskattning på en projektbaserad kontraktsrad:
+Om du vill beräkna en projektkontraktrad går du till fliken **kontraktradsinformation** på den projektbaserade **kontraktraden**.  Det finns två sätt att skapa en uppskattning på en projektbaserad kontraktsrad:
 
    - Skapa en uppskattning direkt på kontraktraden genom att lägga till kontraktraddetaljer manuellt.
    - Skapa ett projekt och en projektplan och koppla sedan projektet och aktiviteterna till projektets kontraktrad. Detta aktiverar processen genom vilken du kan importera uppskattningen av projektplanen till kontraktraden utifrån komponenterna som ingår i kontraktraden.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Skapa ett uppskattning direkt för en projektbaserad kontraktrad
 
-För att skapa en beräkning direkt från en projektbaserad kontraktrad, följ dessa steg:
+För att skapa beräkningar direkt från ett projekt på en kontraktrad, följ dessa steg:
 
 1. Gå till kontraktraden och välj fliken **kontraktradinformation**. Raderna som du skapar på den här fliken sammanfattas och visas som det **kontrakterade värdet** för den här **kontraktraden**. 
 2. I underrutnätet **kontraktradinformation**, välj **Ny kontraktraddetalj**. Ett skjutreglage för snabbregistrering öppnas. Följande fält är tillgängliga på sidan **Information om kontraktrad**.

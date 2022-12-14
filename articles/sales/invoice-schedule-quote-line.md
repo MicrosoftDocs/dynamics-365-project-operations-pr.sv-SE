@@ -1,27 +1,27 @@
 ---
-title: Faktureringsscheman på projektbaserade offertrader
+title: Faktureringsscheman på offertrader för projekt
 description: Den här artikeln innehåller information om hur du skapar fakturascheman och milstolpar för offertrader.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918334"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825776"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Faktureringsscheman på projektbaserade offertrader
+# <a name="invoice-schedules-on-project-quote-lines"></a>Faktureringsscheman på offertrader för projekt
 
 _**Gäller:** Project Operations för resurs- och icke-lagerbaserade scenarier, lite distribution – handlar för att proforma-fakturering_
 
-En projektbaserad offertrad ger möjlighet att uttrycka ett faktureringsschema. Detta är valfritt under offertfasen eftersom programmet inte stöder fakturering av ett projekt när det är knutet till en offertrad. Fakturering tillåts endast efter att offerten har vunnits. Den enda inverkan nedströms från skapandet av ett faktureringsschema under offertfasen är att faktureringsschemat kopieras till den projektbaserade kontraktraden. Om du inte skapar ett faktureringsschema under offertfasen kan du göra det på den projektbaserade kontraktraden.
+En projektoffertrad ger möjlighet att uttrycka ett faktureringsschema. Detta är valfritt under offertfasen eftersom programmet inte stöder fakturering av ett projekt när det är knutet till en offertrad. Fakturering tillåts endast efter att offerten har vunnits. Den enda inverkan nedströms från skapandet av ett faktureringsschema under offertfasen är att faktureringsschemat kopieras till den projektbaserade kontraktraden. Om du inte skapar ett faktureringsschema under offertfasen kan du göra det på den projektbaserade kontraktraden.
 
 Syftet med faktureringsscheman är att det ska vara möjligt att skapa utkast av fakturor automatiskt för en projektrelaterad kontraktrad. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Skapa ett faktureringsschema för tid och material för en projektbaserad offertrad
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Skapa ett faktureringsschema för tid och material för en projektoffertrad
 
 När faktureringsmetoden för en projektbaserad offertrad är Tid och material genererar systemet ett datumbaserat faktureringsschema. Följ stegen nedan om du vill generera ett datumbaserat faktureringsschema automatiskt.
 
@@ -36,7 +36,7 @@ När faktureringsmetoden för en projektbaserad offertrad är Tid och material g
     - **Transaktionens sista datum** har angetts till dagen före **fakturans kördatum**.
     - **Körstatus** är automatiskt inställd på **Ej körd**. När jobbet för automatiskt skapande av faktura körs för ett visst fakturadatum uppdateras detta fält till antingen **Körning klar** eller **Körning misslyckades**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Skapa ett faktureringsschema för fast pris för en projektbaserad offertrad
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Skapa ett faktureringsschema för fast pris för en projektoffertrad
 
 När den projektbaserade offertraden har faktureringsmetoden **Fast** skapas ett milstolpebaserat faktureringsschema. Utför följande steg för att automatiskt generera schemat för en fast uppsättning milstolpar som är jämnt fördelade över kalenderperioden.
 
