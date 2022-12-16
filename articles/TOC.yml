@@ -212,7 +212,7 @@
               items:
                 - name: Förskott och arvodesbaserade projektkontrakt
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ställ in kvarhållarschema
+                - name: Konfigurera en tidsplan för arvoden
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Skapa ett ad hoc-förskott på ett projektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -846,7 +846,7 @@
               items:
                 - name: Förskott och arvodesbaserade kontrakt
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Konfigurera en tidsplan för arvodeKonfigurera en tidsplan för arvode
+                - name: Konfigurera en tidsplan för arvoden
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Skapa ett ad hoc-förskott på ett projektkontrakt
                   href: pro/sales/create-ad-hoc-advance-sales.md
